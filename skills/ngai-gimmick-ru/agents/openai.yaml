@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ngai: Russian Profile"
+  short_description: "Aesthetic and Marxian distinctions in Russian"
+  default_prompt: "Use $ngai-gimmick-ru to review terminology and argument in this source and Russian target passage."

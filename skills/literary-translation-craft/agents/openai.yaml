@@ -1,0 +1,4 @@
+interface:
+  display_name: "Literary Translation Craft"
+  short_description: "Voice, rhythm and source-aware literary writing"
+  default_prompt: "Use $literary-translation-craft to translate this scene with a brief suited to its voice and language pair."

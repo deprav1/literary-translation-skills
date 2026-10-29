@@ -1,0 +1,4 @@
+interface:
+  display_name: "Literary Translation Review"
+  short_description: "Context-based review with exact editorial decisions"
+  default_prompt: "Use $literary-translation-qa to assess these source and target paragraphs, separating errors from preferences."

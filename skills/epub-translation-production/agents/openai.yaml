@@ -1,0 +1,4 @@
+interface:
+  display_name: "Translated EPUB Production"
+  short_description: "Traceable editions, markup and reading checks"
+  default_prompt: "Use $epub-translation-production to prepare a separate EPUB from the accepted translation blocks."

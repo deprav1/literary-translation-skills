@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amatka: Russian Profile"
+  short_description: "Naming, restraint and uncertainty in Amatka"
+  default_prompt: "Use $amatka-literary-ru when reviewing this passage from the supplied English edition into Russian."

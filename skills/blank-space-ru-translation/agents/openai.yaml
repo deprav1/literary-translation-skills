@@ -1,0 +1,4 @@
+interface:
+  display_name: "Blank Space: Russian Profile"
+  short_description: "Cultural history, irony and qualified argument"
+  default_prompt: "Use $blank-space-ru-translation to review the voice and cultural terms in this Russian passage."

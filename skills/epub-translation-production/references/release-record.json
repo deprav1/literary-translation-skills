@@ -1,0 +1,19 @@
+{
+  "release_id": "",
+  "source_edition": "",
+  "source_sha256": null,
+  "input_edition_path": null,
+  "input_edition_sha256": null,
+  "accepted_decision_ids": [],
+  "deferred_decision_ids": [],
+  "output_path_unique": null,
+  "output_sha256": null,
+  "expected_structural_changes": [],
+  "text_blocks_verified": null,
+  "epubcheck_version": null,
+  "epubcheck_report_path": null,
+  "epubcheck_input_sha256": null,
+  "render_evidence": [],
+  "reader_tts_evidence": null,
+  "limitations": []
+}
