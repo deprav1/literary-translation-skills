@@ -10,7 +10,7 @@
 
 ## Try the blind translation test
 
-**[Без лица — read three versions, choose, then reveal the translators](https://deprav1.github.io/literary-translation-skills/).** Six short public-domain excerpts, two independently generated AI conditions, historical published translations, and a shared vote counter. No account required. Read the [methodology, text licenses, and data policy](site/CONTENT.md). It is an open preference pilot, not proof of general model or translator quality.
+**[Без лица — read three versions, choose, then reveal the translators](https://deprav1.github.io/literary-translation-skills/).** A 30-fragment corpus with deterministic cohorts of 10, two independently generated AI conditions, historical published translations, and a shared vote counter. No account required. Read the [methodology, text licenses, and data policy](site/CONTENT.md). It is an open preference pilot, not proof of general model or translator quality.
 
 Translate a scene without flattening its voice. Review a paragraph without inventing errors. Produce an EPUB without mistaking valid XML for a good translation.
 

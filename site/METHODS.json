@@ -1,8 +1,9 @@
 {
-  "dataset": "blind-v1-1c055f585fd3",
+  "dataset": "blind-v2-4f2b44fd284c",
   "generated_on": "2026-10-29",
-  "selection": "Six matched excerpts, four from Poe and two from Wilde. Curated pilot, not a representative literary benchmark.",
-  "blinding": "Source identities are hidden by the interface until a choice, not technically secret in a public static repository.",
+  "selection": "30 matched excerpts across varied authors, genres and translators. Curated preference pilot, not a representative literary benchmark.",
+  "cohort_size": 10,
+  "blinding": "Source identities are hidden by the interface until a choice, not technically secret in a public static repository. Each participant receives a deterministic ten-fragment cohort from the versioned thirty-plus corpus.",
   "model": "gpt-6.1-terra",
   "reasoning_effort": "medium",
   "generations_per_condition": 1,
@@ -12,9 +13,9 @@
   "skill_version": "e59426cd3c64fbb361c529c82b4c647486350f4a",
   "manual_postediting": false,
   "best_of_selection": false,
-  "human_condition": "Two historical published translation editions; ages and source transcription may affect preference.",
-  "source_input_sha256": "6cc9762a22ce98463c5375625e22e02838abd60bb6017c92dee8dec3218fc2f1",
-  "baseline_sha256": "76a4293b887706e689aac17f27264642afd0c9d7dae8b30d0f1f66d39378aef1",
-  "skilled_sha256": "a7d3855f3907e827d1ccf7d3073022a53758366e05408766f8de3cb9585d94b5",
+  "human_condition": "Historical published translations with rights/source notes per excerpt; age, edition and transcription may affect preference.",
+  "source_input_sha256": "44ce215e8d72125dabb9c1b876c1a1963cf7155d1df4f24cc979601a35551461",
+  "baseline_sha256": "20c067b4b7cea85d39e5723e96edfa5a09407d698e15db4c9c9bedb01d5ef00a",
+  "skilled_sha256": "6d59d89272799bfa712bc222985eafb8486e470912d610ca190fffc11919bfc4",
   "interpretation": "Preference for these particular outputs only. No claim that a model, skills, or humans generally outperform another condition."
 }

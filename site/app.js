@@ -25,18 +25,18 @@ function show(view, focus = true) {
   if (view === 'results') renderResults();
   if (focus) { window.scrollTo({ top: 0, behavior: 'instant' }); $('main').focus({ preventScroll: true }); }
 }
-function updateStart() { $('start-button').textContent = answered() ? `Продолжить · ${answered()} из ${data.rounds.length} ↗` : 'Начать вслепую ↗'; $('start-button').disabled = false; }
+function updateStart() { $('start-button').textContent = answered() ? `Продолжить · ${answered()} из ${state.order.length} ↗` : 'Начать вслепую ↗'; $('start-button').disabled = false; }
 function start() {
-  if (answered() === data.rounds.length) { show('results'); return; }
+  if (answered() === state.order.length) { show('results'); return; }
   const index = state.order.findIndex(id => !state.choices[id]);
   if (index >= 0) state.index = index;
   persist(); show('arena');
 }
 function renderRound() {
   const round = currentRound(); const choice = state.choices[round.id];
-  $('progress-text').textContent = `ВЫБРАНО ${answered()} / ${data.rounds.length}`;
-  $('progress-fill').style.width = `${answered() / data.rounds.length * 100}%`;
-  $('round-label').textContent = `РАУНД ${state.index + 1} / ${data.rounds.length} · ${choice ? 'МАСКИ СНЯТЫ' : 'АВТОРСТВО СКРЫТО'}`;
+  $('progress-text').textContent = `ВЫБРАНО ${answered()} / ${state.order.length}`;
+  $('progress-fill').style.width = `${answered() / state.order.length * 100}%`;
+  $('round-label').textContent = `РАУНД ${state.index + 1} / ${state.order.length} · ${choice ? 'МАСКИ СНЯТЫ' : 'АВТОРСТВО СКРЫТО'}`;
   $('round-title').textContent = choice ? 'Твой выбор.\nБез фильтров.' : 'Какой вариант\nпопал в нерв?';
   $('round-title').style.whiteSpace = 'pre-line';
   $('round-tag').textContent = round.tag;
@@ -66,7 +66,7 @@ function renderRound() {
     const body = el('div'); body.append(el('h3', '', title), el('p', '', text)); panel.append(el('span', 'reveal-icon', '↗'), body);
   }
   $('next-button').hidden = !choice;
-  $('next-button').textContent = answered() === data.rounds.length ? 'Посмотреть мой вкус ↗' : 'Следующий раунд →';
+  $('next-button').textContent = answered() === state.order.length ? 'Посмотреть мой вкус ↗' : 'Следующий раунд →';
   renderSync(); updateStart();
 }
 function choose(roundId, candidateId) {
@@ -120,16 +120,16 @@ function renderSync() {
   }
 }
 function next() {
-  if (answered() === data.rounds.length) { show('results'); return; }
+  if (answered() === state.order.length) { show('results'); return; }
   const nextIndex = state.order.findIndex((id, i) => i > state.index && !state.choices[id]);
   state.index = nextIndex >= 0 ? nextIndex : state.order.findIndex(id => !state.choices[id]); persist(); $('source-text').closest('details').open = false; show('arena');
 }
 function renderResults() {
   const n = answered(); const counts = personalCounts(state, data); const highest = Math.max(...Object.values(counts));
-  $('personal-caption').textContent = n ? `Ты выбрал ${n} ${n === 1 ? 'фрагмент' : n < 5 ? 'фрагмента' : 'фрагментов'} из ${data.rounds.length}. Это профиль твоих предпочтений в этой подборке. Не экзамен. И не диагноз.` : 'Сначала выбери хотя бы один текст. Мы не станем угадывать твой вкус за тебя.';
+  $('personal-caption').textContent = n ? `Ты выбрал ${n} ${n === 1 ? 'фрагмент' : n < 5 ? 'фрагмента' : 'фрагментов'} из ${state.order.length}. Это профиль твоих предпочтений в этой подборке. Не экзамен. И не диагноз.` : 'Сначала выбери хотя бы один текст. Мы не станем угадывать твой вкус за тебя.';
   $('personal-result').replaceChildren();
   for (const method of METHODS) { const card = el('div', `score-card${counts[method] && counts[method] === highest ? ' leading' : ''}`); card.append(el('span', '', 'ТВОЙ ВЫБОР'), el('strong', '', `${counts[method]} / ${n}`), el('p', '', LABELS[method])); $('personal-result').append(card); }
-  $('continue-button').textContent = n === data.rounds.length ? 'Посмотреть раунды ещё раз ↗' : 'Вернуться на ринг ↗';
+  $('continue-button').textContent = n === state.order.length ? 'Посмотреть раунды ещё раз ↗' : 'Вернуться на ринг ↗';
   $('history-list').replaceChildren();
   for (const [index, id] of state.order.entries()) {
     const choice = state.choices[id]; if (!choice) continue;
@@ -164,7 +164,7 @@ function showDialog(kind) {
   const node = $('dialog-content'); node.replaceChildren();
   if (kind === 'method') {
     node.append(el('h2', '', 'Тексты дерутся. Лейблы молчат.'), el('p', '', 'В каждом раунде один оригинал и три русских перевода: исторический опубликованный, AI с переводческим навыком и та же модель с коротким запросом. Авторы скрыты в интерфейсе до выбора. Порядок текстов и карточек случайный и сохраняется в твоём браузере.'));
-    node.append(el('h3', '', 'Что именно сравниваем'), el('p', '', 'Оба AI-варианта получены независимо моделью GPT-6.1 Terra с одинаковой настройкой рассуждения. У одного был навык literary-translation-craft, у другого — только просьба перевести. Сгенерированные варианты не выбирались из нескольких ответов и не улучшались вручную. Ошибки возможны у всех трёх.'));
+    node.append(el('h3', '', 'Что именно сравниваем'), el('p', '', 'В общей базе тридцать фрагментов разных авторов и жанров. Каждый браузер получает детерминированную десятку; новый браузер или сброс локальных данных получает другую подборку. В каждом раунде — исторический перевод и два независимых ответа GPT-6.1 Terra: со skill и без него. Сгенерированные варианты не выбирались из нескольких ответов и не улучшались вручную. Ошибки возможны у всех трёх.'));
     node.append(el('h3', '', 'Это пилот, а не приговор переводчикам'), el('p', '', 'Шесть коротких фрагментов двух произведений. Опубликованные переводы исторические, в современной орфографии цифрового источника. Эпоха, узнаваемость, длина и твой вкус влияют на выбор. Один запуск модели не доказывает, что навыки вообще улучшают перевод. Слепота — в интерфейсе: в открытых исходниках атрибуция видна.'));
     node.append(el('h3', '', 'Откуда опубликованные тексты'), el('p', '', 'Эдгар По — перевод Константина Бальмонта, издание 1913 года. Оскар Уайльд — перевод Михаила Ликиардопуло, публикация 1911 года. Оригиналы и эти переводы находятся в общественном достоянии в юрисдикциях со сроком «жизнь автора + 70 лет». Цифровые источники и точная атрибуция открываются после выбора.'));
     node.append(safeLink('Методика, источники и условия публикации ↗', './CONTENT.md'), el('p', '', 'Цель простая: сначала услышать текст, потом прочитать бейдж. Можно предпочесть любой вариант. Можно вообще не продолжать.'));
@@ -193,7 +193,7 @@ $('home-button').addEventListener('click', () => show('home'));
 document.querySelectorAll('a[href="#"]').forEach(a => a.addEventListener('click', event => { event.preventDefault(); if (data) show('home'); }));
 $('profile-button').addEventListener('click', () => show('results'));
 $('next-button').addEventListener('click', next);
-$('continue-button').addEventListener('click', () => answered() === data.rounds.length ? (state.index = 0, show('arena')) : start());
+$('continue-button').addEventListener('click', () => answered() === state.order.length ? (state.index = 0, show('arena')) : start());
 for (const id of ['method-button', 'footer-method']) $(id).addEventListener('click', () => showDialog('method'));
 for (const id of ['privacy-button', 'footer-privacy']) $(id).addEventListener('click', () => showDialog('privacy'));
 $('close-dialog').addEventListener('click', () => $('info-dialog').close());
@@ -205,7 +205,7 @@ async function init() {
   try {
     const responses = await Promise.all([fetch('./data.json'), fetch('./config.json')]); if (responses.some(r => !r.ok)) throw new Error('load');
     [data, config] = await Promise.all(responses.map(r => r.json()));
-    if (!data.rounds?.length || data.rounds.some(r => r.candidates?.length !== 3)) throw new Error('dataset');
+    if (data.rounds?.length < 30 || data.cohortSize !== 10 || data.rounds.some(r => r.candidates?.length !== 3)) throw new Error('dataset');
     try { const saved = JSON.parse(localStorage.getItem(STORAGE)); state = validState(saved, data) ? saved : createState(data); } catch { state = createState(data); }
     persist(); updateStart();
     for (const id of Object.keys(state.choices)) if (state.choices[id].status !== 'saved') submit(id);
