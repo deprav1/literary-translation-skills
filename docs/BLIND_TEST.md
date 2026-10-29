@@ -6,7 +6,7 @@ Public frontend: <https://deprav1.github.io/literary-translation-skills/>.
 
 - `site/` is a buildless HTML/CSS/JS site deployed by GitHub Pages Actions.
 - `site/data.json` holds the current versioned corpus and post-choice attribution. Identity hiding is an interface property; source code is public.
-- The current corpus contains 30 fragments. Each local participant receives a deterministic cohort of 10 selected from the versioned corpus; different participant IDs may receive different cohorts. The backend still aggregates all 30 fragment IDs.
+- The current corpus contains 30 fragments. Each local participant receives a deterministic cohort of 20 selected from the versioned corpus; different participant IDs may receive different cohorts. The backend still aggregates all 30 fragment IDs.
 - `backend/worker.js` is a separate Cloudflare Worker. D1 stores votes and rate buckets. No browser API credential is needed or included.
 - `backend/catalog.js` is an authoritative candidate allowlist generated from the same corpus. The server does not trust a client-supplied method label.
 - The browser keeps a random participant ID, candidate order, and chosen votes in localStorage. The server stores only its dataset-scoped HMAC key.
@@ -17,13 +17,13 @@ See [content provenance and privacy](../site/CONTENT.md), the [generation record
 ## Updating the corpus
 
 1. Select matched source/published-translation excerpts with documented reproduction rights and edition details. Prefer complete paragraphs. Do not insert a generated text under the published-translator label.
-2. Generate both AI conditions independently using the same model/settings. Do not show either condition the published translation or the other generated output. Record prompts, model, date, and any subsequent editing honestly.
-3. Update `site/research/selected.json`, `translation-input.json`, `skilled.json`, and `baseline.json`.
+2. Generate AI conditions independently with recorded model/settings; describe any self-review or human editing accurately. Do not show either condition the published translation or the other generated output. Record prompts, model, date, and any subsequent editing honestly.
+3. Update `site/research/selected.json`, `translation-input.json`, `skilled.json`, `baseline.json`, and `reviewed.json`.
 4. Run `python scripts/build_blind_catalog.py`. It derives a new dataset version from the exact corpus. If generation settings or conditions change, update the method record and versioning logic as well.
 5. Run package/site validation and Node/Python tests. Inspect the actual page on desktop and phone.
 6. Deploy the backend's matching catalog before making a new frontend version available. Do not merge statistics from different datasets. Preserve historical catalogs and an erasure plan if keeping votes from older versions.
 
-The current builder emits the current dataset allowlist. It is not a migration tool for historical cohorts. Plan a multi-version rollout before replacing a live dataset with substantial participation.
+The builder retains the prior allowlist from `site/research/legacy_catalog.json`. The frontend preserves the previous browser ID for deletion across dataset changes; it does not merge old and new results. Deploy the backend before the frontend, and verify erasure and rollout before releasing.
 
 ## Deploying your own backend
 
@@ -55,7 +55,7 @@ python -m unittest discover -s tests -v
 node --test site/tests/logic.test.mjs backend/worker.test.js
 ```
 
-Browser acceptance should cover: no identities before choice; reveal after choice; all ten assigned rounds; reload persistence; different cohort for a different browser ID; shared acknowledgement; duplicate retry; two independent browser IDs; aggregate consistency; failed API fallback; deletion; keyboard and narrow layout. Remove the test participants' votes afterward. Do not publish invented seed statistics.
+Browser acceptance should cover: no identities before choice; reveal after choice; all assigned rounds; reload persistence; different cohort for a different browser ID; shared acknowledgement; duplicate retry; two independent browser IDs; aggregate consistency; failed API fallback; deletion; keyboard and narrow layout. Remove the test participants' votes afterward. Do not publish invented seed statistics.
 
 ## Interpretation and abuse limits
 

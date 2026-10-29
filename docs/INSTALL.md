@@ -23,7 +23,7 @@ npx skills add deprav1/literary-translation-skills --skill literary-translation-
 Install the general set in your user scope:
 
 ```sh
-npx skills add deprav1/literary-translation-skills --global --agent codex --skill literary-translation-craft --skill literary-translation-qa --skill epub-translation-production
+npx skills add deprav1/literary-translation-skills --global --agent codex --skill literary-translation-craft --skill literary-translation-qa --skill literary-translation-evaluation --skill epub-translation-production
 ```
 
 Select another supported agent through the CLI's `--agent` option. Paths and invocation differ by host; this repository does not implement those hosts. Review the CLI's destination and replacement prompts before proceeding.
@@ -44,7 +44,7 @@ Or run the installer script bundled with Codex.
 ```sh
 python "${CODEX_HOME:-$HOME/.codex}/skills/.system/skill-installer/scripts/install-skill-from-github.py" \
   --repo deprav1/literary-translation-skills \
-  --path skills/literary-translation-craft skills/literary-translation-qa skills/epub-translation-production
+  --path skills/literary-translation-craft skills/literary-translation-qa skills/literary-translation-evaluation skills/epub-translation-production
 ```
 
 ### Windows PowerShell
@@ -52,7 +52,7 @@ python "${CODEX_HOME:-$HOME/.codex}/skills/.system/skill-installer/scripts/insta
 ```powershell
 $codexDirectory = if ($env:CODEX_HOME) { $env:CODEX_HOME } else { Join-Path $env:USERPROFILE '.codex' }
 $skillInstaller = Join-Path $codexDirectory 'skills/.system/skill-installer/scripts/install-skill-from-github.py'
-python $skillInstaller --repo deprav1/literary-translation-skills --path skills/literary-translation-craft skills/literary-translation-qa skills/epub-translation-production
+python $skillInstaller --repo deprav1/literary-translation-skills --path skills/literary-translation-craft skills/literary-translation-qa skills/literary-translation-evaluation skills/epub-translation-production
 ```
 
 The bundled installer may refuse to overwrite an existing directory. Inspect and preserve your existing local edits before choosing how to replace them. This repository does not silently update previously installed skills.
@@ -91,7 +91,7 @@ Use $epub-translation-production to prepare a separate edition from the reviewed
 translation. Verify reading order, links, notes, emphasis, and narrow-screen layout.
 ```
 
-Start with a book profile only when working on that book. The three general skills are useful without any profile.
+Start with a book profile only when working on that book. The four general skills are useful without any profile.
 
 ## Troubleshooting
 

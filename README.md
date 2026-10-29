@@ -10,7 +10,7 @@
 
 ## Try the blind translation test
 
-**[Без лица — read three versions, choose, then reveal the translators](https://deprav1.github.io/literary-translation-skills/).** A 30-fragment corpus with deterministic cohorts of 10, two independently generated AI conditions, historical published translations, and a shared vote counter. No account required. Read the [methodology, text licenses, and data policy](site/CONTENT.md). It is an open preference pilot, not proof of general model or translator quality.
+**[Без лица — read four versions, choose, then reveal the translators](https://deprav1.github.io/literary-translation-skills/).** A 30-fragment corpus with deterministic cohorts of 20, three AI conditions, historical published translations, and a shared vote counter. No account required. Read the [methodology, text licenses, and data policy](site/CONTENT.md). It is an open preference pilot, not proof of general model or translator quality.
 
 Translate a scene without flattening its voice. Review a paragraph without inventing errors. Produce an EPUB without mistaking valid XML for a good translation.
 
@@ -24,12 +24,13 @@ Discover available skills with the [Skills CLI](https://github.com/vercel-labs/s
 npx skills add deprav1/literary-translation-skills --list
 ```
 
-Install the three general skills for Codex in the current project:
+Install the four general skills for Codex in the current project:
 
 ```sh
 npx skills add deprav1/literary-translation-skills --agent codex \
   --skill literary-translation-craft \
   --skill literary-translation-qa \
+  --skill literary-translation-evaluation \
   --skill epub-translation-production
 ```
 
@@ -51,9 +52,10 @@ Suggest changes only where you can explain their effect.
 |---|---|---|
 | [literary-translation-craft](skills/literary-translation-craft/SKILL.md) | Translating or editing literary prose, poetry, or dialogue | A voice brief, scene context, functional fidelity, rhythm, recurring language, and justified transformations |
 | [literary-translation-qa](skills/literary-translation-qa/SKILL.md) | Assessing an excerpt, a sample, or a complete translation | Source-based findings, error vs preference classification, independent decisions, and exact before/after blocks |
+| [literary-translation-evaluation](skills/literary-translation-evaluation/SKILL.md) | Comparing candidates or designing a translation evaluation | Hard-failure gates, blind pairwise choice, compact dimensions, and explicit evidence limits |
 | [epub-translation-production](skills/epub-translation-production/SKILL.md) | Preparing or revising an EPUB | Immutable editions, precise text/markup checks, links and notes, responsive typography, and traceable validation |
 
-The craft and QA skills work with any stated source/target language pair. Russian examples are included. A skill never implies knowledge of an original language that the agent has not actually inspected.
+The craft, QA, and evaluation skills work with any stated source/target language pair. Russian examples are included. A skill never implies knowledge of an original language that the agent has not actually inspected.
 
 ### Optional book profiles
 
@@ -116,6 +118,7 @@ No model is mandated. Use the provider and tools the user selected; do not silen
 skills/
   literary-translation-craft/     # craft instructions + brief/source notes
   literary-translation-qa/        # review instructions + decision template
+  literary-translation-evaluation/ # comparison and evaluation rubric
   epub-translation-production/   # production instructions + release record
   amatka-literary-ru/             # optional book profile
   ngai-gimmick-ru/                # optional book profile

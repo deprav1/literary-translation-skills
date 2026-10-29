@@ -2,13 +2,15 @@ import { METHODS, createState, validState, personalCounts, percentage } from './
 
 const $ = id => document.getElementById(id);
 const STORAGE = 'blind-translation-v1';
-const LABELS = { skilled: 'AI + навыки', published: 'Опубликованный перевод', baseline: 'AI: короткий запрос' };
+const LABELS = { skilled: 'AI + навыки', published: 'Опубликованный перевод', baseline: 'AI: короткий запрос', reviewed: 'AI + самопроверка' };
 const REACTIONS = {
   skilled: ['Тебе зашёл AI с инструкциями.', 'Здесь модель работала с навыком художественного перевода. Получился именно этот текст — не обещание, что он лучше во всём.'],
   published: ['Ты выбрал опубликованный перевод.', 'Никаких медалей за «правильный» выбор. Просто этот голос тебе ближе. Автор перевода и источник — на карточке.'],
   baseline: ['Короткий запрос тоже умеет попадать.', 'Это та же модель, но без подключённого переводческого навыка. Не плохой вариант «для контраста», а обычный независимый ответ.'],
+  reviewed: ['Твой выбор — AI с самопроверкой.', 'Модель перевела фрагмент и проверила его по оригиналу. Этот проход не является человеческой редактурой.'],
 };
 let data, config, state, screen = 'home', memoryOnly = false, eraseBusy = false;
+const LEGACY_STORAGE = 'blind-translation-legacy-participants-v1';
 const inFlight = new Map();
 
 function el(tag, className, text) { const node = document.createElement(tag); if (className) node.className = className; if (text !== undefined) node.textContent = text; return node; }
@@ -47,10 +49,10 @@ function renderRound() {
   state.candidateOrders[round.id].forEach((id, index) => {
     const candidate = round.candidates.find(c => c.id === id); const selected = choice?.candidateId === id;
     const card = el('article', `candidate${selected ? ' selected' : ''}`);
-    const top = el('div', 'candidate-top'); top.append(el('span', 'candidate-letter', `ВАРИАНТ ${['А', 'Б', 'В'][index]}`), el('span', 'candidate-eye')); top.lastChild.setAttribute('aria-hidden', 'true');
+    const top = el('div', 'candidate-top'); top.append(el('span', 'candidate-letter', `ВАРИАНТ ${['А', 'Б', 'В', 'Г'][index]}`), el('span', 'candidate-eye')); top.lastChild.setAttribute('aria-hidden', 'true');
     card.append(top, el('p', 'candidate-text', candidate.text));
     if (!choice) {
-      const button = el('button', 'vote-button', 'Беру этот ↗'); button.setAttribute('aria-label', `Выбрать вариант ${['А', 'Б', 'В'][index]}`); button.addEventListener('click', () => choose(round.id, id)); card.append(button);
+      const button = el('button', 'vote-button', 'Беру этот ↗'); button.setAttribute('aria-label', `Выбрать вариант ${['А', 'Б', 'В', 'Г'][index]}`); button.addEventListener('click', () => choose(round.id, id)); card.append(button);
     } else {
       const identity = el('div', 'identity');
       if (selected) identity.append(el('span', 'choice-badge', '✓ ТВОЙ ВЫБОР'));
@@ -163,9 +165,9 @@ async function renderWorld() {
 function showDialog(kind) {
   const node = $('dialog-content'); node.replaceChildren();
   if (kind === 'method') {
-    node.append(el('h2', '', 'Тексты дерутся. Лейблы молчат.'), el('p', '', 'В каждом раунде один оригинал и три русских перевода: исторический опубликованный, AI с переводческим навыком и та же модель с коротким запросом. Авторы скрыты в интерфейсе до выбора. Порядок текстов и карточек случайный и сохраняется в твоём браузере.'));
-    node.append(el('h3', '', 'Что именно сравниваем'), el('p', '', 'В общей базе тридцать фрагментов разных авторов и жанров. Каждый браузер получает детерминированную десятку; новый браузер или сброс локальных данных получает другую подборку. В каждом раунде — исторический перевод и два независимых ответа GPT-6.1 Terra: со skill и без него. Сгенерированные варианты не выбирались из нескольких ответов и не улучшались вручную. Ошибки возможны у всех трёх.'));
-    node.append(el('h3', '', 'Это пилот, а не приговор переводчикам'), el('p', '', 'Шесть коротких фрагментов двух произведений. Опубликованные переводы исторические, в современной орфографии цифрового источника. Эпоха, узнаваемость, длина и твой вкус влияют на выбор. Один запуск модели не доказывает, что навыки вообще улучшают перевод. Слепота — в интерфейсе: в открытых исходниках атрибуция видна.'));
+    node.append(el('h2', '', 'Тексты дерутся. Лейблы молчат.'), el('p', '', 'В каждом раунде один оригинал и четыре русских перевода: исторический опубликованный и три варианта AI. Авторы скрыты до выбора. Порядок текстов и карточек перемешан и сохраняется в браузере.'));
+    node.append(el('h3', '', 'Что именно сравниваем'), el('p', '', 'В базе 30 фрагментов двух произведений. Каждый браузер получает 20 фрагментов. Три варианта AI: короткий запрос, запрос с навыком и новый перевод с самопроверкой по оригиналу. В новом варианте один AI проверяет собственный текст; независимой человеческой редакторской проверки не было.'));
+    node.append(el('h3', '', 'Это пилот читательских предпочтений'), el('p', '', 'Опубликованные переводы исторические, в современной орфографии цифрового источника. Эпоха, узнаваемость, длина и твой вкус влияют на выбор. Голоса не доказывают превосходство модели или навыка. Атрибуция скрыта в интерфейсе до выбора, но доступна в исходниках.'));
     node.append(el('h3', '', 'Откуда опубликованные тексты'), el('p', '', 'Эдгар По — перевод Константина Бальмонта, издание 1913 года. Оскар Уайльд — перевод Михаила Ликиардопуло, публикация 1911 года. Оригиналы и эти переводы находятся в общественном достоянии в юрисдикциях со сроком «жизнь автора + 70 лет». Цифровые источники и точная атрибуция открываются после выбора.'));
     node.append(safeLink('Методика, источники и условия публикации ↗', './CONTENT.md'), el('p', '', 'Цель простая: сначала услышать текст, потом прочитать бейдж. Можно предпочесть любой вариант. Можно вообще не продолжать.'));
   } else {
@@ -181,8 +183,12 @@ async function erase() {
   eraseBusy = true; showDialog('privacy');
   try {
     await Promise.allSettled([...inFlight.values()]);
-    const { response, payload } = await api('/votes', { method: 'DELETE', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ dataset: data.version, participantId: state.participantId }) });
-    if (!response.ok || payload.dataset !== data.version || !Number.isInteger(payload.deletedVotes) || payload.deletedVotes < 0) throw new Error('delete');
+    const legacy = JSON.parse(localStorage.getItem(LEGACY_STORAGE) || '[]');
+    for (const entry of [...legacy, { dataset: data.version, participantId: state.participantId }]) {
+      const { response, payload } = await api('/votes', { method: 'DELETE', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(entry) });
+      if (!response.ok || payload.dataset !== entry.dataset || !Number.isInteger(payload.deletedVotes) || payload.deletedVotes < 0) throw new Error('delete');
+    }
+    localStorage.removeItem(LEGACY_STORAGE);
     state = createState(data); persist(); updateStart(); $('info-dialog').close(); show('home'); toast('Серверные голоса удалены. Локальный прогресс сброшен.');
   } catch { toast('Сервер не подтвердил удаление. Идентификатор и прогресс сохранены — можно повторить.'); }
   finally { eraseBusy = false; if ($('info-dialog').open) showDialog('privacy'); }
@@ -199,14 +205,22 @@ for (const id of ['privacy-button', 'footer-privacy']) $(id).addEventListener('c
 $('close-dialog').addEventListener('click', () => $('info-dialog').close());
 $('info-dialog').addEventListener('click', e => { if (e.target === $('info-dialog')) { const r = e.target.getBoundingClientRect(); if (e.clientX < r.left || e.clientX > r.right || e.clientY < r.top || e.clientY > r.bottom) e.target.close(); } });
 $('refresh-stats').addEventListener('click', renderWorld);
-$('share-button').addEventListener('click', async () => { const c = personalCounts(state, data); const message = `Мой вкус в «Без лица»: AI + навыки ${c.skilled}, опубликованный ${c.published}, AI короткий запрос ${c.baseline}. Выбирай вслепую: ${location.href.split('#')[0]}`; try { await navigator.clipboard.writeText(message); toast('Результат скопирован. Пускай друзья тоже снимут погоны.'); } catch { toast('Буфер обмена недоступен. Ссылку на сайт можно скопировать из адресной строки.'); } });
+$('share-button').addEventListener('click', async () => { const c = personalCounts(state, data); const message = `Мой вкус в «Без лица»: AI + навыки ${c.skilled}, опубликованный ${c.published}, AI короткий запрос ${c.baseline}, AI с самопроверкой ${c.reviewed}. Выбирай вслепую: ${location.href.split('#')[0]}`; try { await navigator.clipboard.writeText(message); toast('Результат скопирован. Пускай друзья тоже снимут погоны.'); } catch { toast('Буфер обмена недоступен. Ссылку на сайт можно скопировать из адресной строки.'); } });
 
 async function init() {
   try {
     const responses = await Promise.all([fetch('./data.json'), fetch('./config.json')]); if (responses.some(r => !r.ok)) throw new Error('load');
     [data, config] = await Promise.all(responses.map(r => r.json()));
-    if (data.rounds?.length < 30 || data.cohortSize !== 10 || data.rounds.some(r => r.candidates?.length !== 3)) throw new Error('dataset');
-    try { const saved = JSON.parse(localStorage.getItem(STORAGE)); state = validState(saved, data) ? saved : createState(data); } catch { state = createState(data); }
+    if (data.rounds?.length < 30 || data.cohortSize !== 20 || data.rounds.some(r => r.candidates?.length !== METHODS.length)) throw new Error('dataset');
+    try {
+      const saved = JSON.parse(localStorage.getItem(STORAGE));
+      if (saved?.version && saved.version !== data.version && /^[a-f0-9-]{36}$/i.test(saved.participantId || '')) {
+        const legacy = JSON.parse(localStorage.getItem(LEGACY_STORAGE) || '[]');
+        if (!legacy.some(entry => entry.dataset === saved.version && entry.participantId === saved.participantId)) legacy.push({ dataset: saved.version, participantId: saved.participantId });
+        localStorage.setItem(LEGACY_STORAGE, JSON.stringify(legacy));
+      }
+      state = validState(saved, data) ? saved : createState(data);
+    } catch { state = createState(data); }
     persist(); updateStart();
     for (const id of Object.keys(state.choices)) if (state.choices[id].status !== 'saved') submit(id);
   } catch { $('load-error').textContent = 'Не удалось загрузить подборку. Обнови страницу — тексты никуда не убежали.'; $('load-error').hidden = false; $('start-button').textContent = 'Нужна перезагрузка'; }

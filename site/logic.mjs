@@ -1,4 +1,4 @@
-export const METHODS = ['skilled', 'published', 'baseline'];
+export const METHODS = ['skilled', 'published', 'baseline', 'reviewed'];
 export const COHORT_ALGORITHM = 1;
 export function hashSeed(value) { let h = 2166136261; for (const ch of value) { h ^= ch.codePointAt(0); h = Math.imul(h, 16777619); } return h >>> 0; }
 export function seededRandom(seed) { let x = seed >>> 0; return () => { x += 0x6D2B79F5; let t = x; t = Math.imul(t ^ t >>> 15, t | 1); t ^= t + Math.imul(t ^ t >>> 7, t | 61); return ((t ^ t >>> 14) >>> 0) / 4294967296; }; }
@@ -20,17 +20,17 @@ export function validState(state, data) {
   const expectedCohort = cohortFor(data, state.participantId); if (!Array.isArray(state.cohortIds) || state.cohortIds.join() !== expectedCohort.join()) return false;
   const ids = data.rounds.map(r => r.id);
   if (!Array.isArray(state.order) || state.order.length !== expectedCohort.length || new Set(state.order).size !== expectedCohort.length || state.order.some(id => !expectedCohort.includes(id))) return false;
-  if (!Number.isInteger(state.index) || state.index < 0 || state.index >= ids.length || !state.choices || typeof state.choices !== 'object') return false;
+  if (!Number.isInteger(state.index) || state.index < 0 || state.index >= state.order.length || !state.choices || typeof state.choices !== 'object') return false;
   for (const round of data.rounds.filter(r => expectedCohort.includes(r.id))) {
     const order = state.candidateOrders?.[round.id];
-    if (!Array.isArray(order) || order.length !== 3 || new Set(order).size !== 3 || !order.every(id => round.candidates.some(c => c.id === id))) return false;
+    if (!Array.isArray(order) || order.length !== round.candidates.length || new Set(order).size !== round.candidates.length || !order.every(id => round.candidates.some(c => c.id === id))) return false;
     const choice = state.choices[round.id];
     if (choice && (!round.candidates.some(c => c.id === choice.candidateId) || typeof choice.voteId !== 'string' || !/^[a-f0-9-]{36}$/i.test(choice.voteId) || !['pending','saved','failed'].includes(choice.status))) return false;
   }
   return Object.keys(state.choices).every(id => expectedCohort.includes(id));
 }
 export function personalCounts(state, data) {
-  const counts = { skilled: 0, published: 0, baseline: 0 };
+  const counts = Object.fromEntries(METHODS.map(method => [method, 0]));
   for (const round of data.rounds.filter(r => state.cohortIds.includes(r.id))) {
     const selected = round.candidates.find(c => c.id === state.choices[round.id]?.candidateId);
     if (selected) counts[selected.method]++;

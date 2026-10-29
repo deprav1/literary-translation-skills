@@ -1,0 +1,4 @@
+interface:
+  display_name: "Literary Translation Evaluation"
+  short_description: "Contextual pairwise review and traceable scoring"
+  default_prompt: "Use $literary-translation-evaluation to compare these literary translation candidates with gates, evidence and explicit limits."

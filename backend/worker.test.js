@@ -2,6 +2,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { webcrypto } from 'node:crypto';
 import { createHandler, readJson } from './worker.js';
+import { DATASETS } from './catalog.js';
 globalThis.crypto ??= webcrypto;
 const catalog = { 'blind-v1': { f1: { a: 'skilled', b: 'published' }, f2: { c: 'baseline' } } };
 const p1 = '00000000-0000-4000-8000-000000000001';
@@ -60,7 +61,7 @@ test('votes are idempotent, conflicts are explicit, stats and deletion reflect s
   assert.equal((await call('/votes','POST',{...vote,participantId:p2})).status,409);
   assert.equal((await call('/votes','POST',{...vote,voteId:v2,fragmentId:'f2',candidateId:'c'})).status,200);
   const stats = await (await call('/stats?dataset=blind-v1')).json();
-  assert.deepEqual(stats.methods,{skilled:1,published:0,baseline:1}); assert.equal(stats.totalVotes,2); assert.equal(stats.participantBrowsers,1);
+  assert.deepEqual(stats.methods,{skilled:1,published:0,baseline:1,reviewed:0}); assert.equal(stats.totalVotes,2); assert.equal(stats.participantBrowsers,1);
   assert.ok(!JSON.stringify(env.DB.votes).includes(p1));
   assert.deepEqual(await (await call('/votes','DELETE',{dataset:'blind-v1',participantId:p1})).json(),{dataset:'blind-v1',deletedVotes:2});
   assert.equal((await (await call('/stats?dataset=blind-v1')).json()).totalVotes,0);
@@ -75,4 +76,28 @@ test('rate limit counts mutation attempts atomically', async () => {
   for (let i=0;i<100;i++) assert.equal((await call('/votes','POST',vote)).status,200);
   assert.equal((await call('/votes','POST',vote)).status,429);
   assert.equal((await call('/votes','DELETE',{dataset:'blind-v1',participantId:p1})).status,200);
+});
+test('historical and current datasets remain separate and both can be erased', async () => {
+  const versions = Object.keys(DATASETS);
+  const oldVersion = versions.find(v => v.startsWith('blind-v2-'));
+  const newVersion = versions.find(v => v.startsWith('blind-v3-'));
+  assert.ok(oldVersion && newVersion);
+  const db = new FakeDB();
+  const env = { DB: db, VOTE_SALT: 'test secret', ALLOWED_ORIGIN: 'https://deprav1.github.io' };
+  const handle = createHandler(DATASETS);
+  const call = (path, method, body) => handle(new Request('https://api.example'+path, { method, headers: {origin: env.ALLOWED_ORIGIN, 'content-type':'application/json', 'CF-Connecting-IP':'192.0.2.1'}, ...(body ? {body: JSON.stringify(body)} : {}) }), env);
+  for (const [i, version] of [oldVersion,newVersion].entries()) {
+    const fragmentId = Object.keys(DATASETS[version])[0];
+    const entries = Object.entries(DATASETS[version][fragmentId]);
+    const candidateId = version === newVersion ? entries.find(([,method]) => method === 'reviewed')[0] : entries[0][0];
+    const voteId = i ? v2 : v1;
+    assert.equal((await call('/votes','POST',{dataset:version, participantId:p1, voteId, fragmentId, candidateId})).status,200);
+  }
+  const newStats = await (await call('/stats?dataset='+newVersion,'GET')).json();
+  assert.equal(newStats.methods.reviewed,1);
+  assert.equal(newStats.totalVotes,1);
+  for (const version of [oldVersion,newVersion]) {
+    assert.equal((await (await call('/votes','DELETE',{dataset:version,participantId:p1})).json()).deletedVotes,1);
+    assert.equal((await (await call('/stats?dataset='+version,'GET')).json()).totalVotes,0);
+  }
 });

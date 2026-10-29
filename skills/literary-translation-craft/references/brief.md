@@ -18,6 +18,13 @@ Use only the fields useful for the current task. A short excerpt may need two se
 - Poetry/drama priorities: meaning, sound, rhyme, lineation, typography, performance.
 - Permitted transformations and actual format constraints.
 
+## Book passport (for long work)
+
+- Narrative person and tense; forms of address; speech and quotation conventions.
+- Cast: stable names, variants, roles, and gender only where the target language requires it.
+- Chapter or scene map; neighboring context needed for pronouns, chronology, and recurring images.
+- Open questions and decisions that must be reviewed before a later chapter depends on them.
+
 ## Decisions
 
 | Unit or meaning | Choice | Context and reason | Confidence | Related occurrences |

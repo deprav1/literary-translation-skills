@@ -3,7 +3,7 @@ import { DATASETS } from './catalog.js';
 const MAX_BODY = 4096;
 const DAILY_LIMIT = 100;
 const UUID = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
-const METHODS = new Set(['skilled', 'published', 'baseline']);
+const METHODS = new Set(['skilled', 'published', 'baseline', 'reviewed']);
 const own = (obj, key) => obj != null && typeof key === 'string' && Object.hasOwn(obj, key);
 const isUuid = value => typeof value === 'string' && UUID.test(value);
 
@@ -65,9 +65,9 @@ export function createHandler(catalog = DATASETS) {
         if (!own(catalog, dataset) || !Object.keys(catalog[dataset]).length) return reply(404, { error: 'unknown_dataset' });
         // One SQLite read snapshot: percentages and totals cannot disagree during a concurrent vote.
         const rows = await env.DB.prepare('SELECT fragment_id, method, COUNT(*) AS count, (SELECT COUNT(DISTINCT participant_hash) FROM votes WHERE dataset = ?) AS participantBrowsers FROM votes WHERE dataset = ? GROUP BY fragment_id, method').bind(dataset, dataset).all();
-        const methods = { skilled: 0, published: 0, baseline: 0 };
+        const methods = Object.fromEntries([...METHODS].map(method => [method, 0]));
         const fragments = Object.create(null);
-        for (const id of Object.keys(catalog[dataset])) fragments[id] = { skilled: 0, published: 0, baseline: 0 };
+        for (const id of Object.keys(catalog[dataset])) fragments[id] = Object.fromEntries([...METHODS].map(method => [method, 0]));
         for (const row of rows.results) {
           if (own(fragments, row.fragment_id) && METHODS.has(row.method)) {
             fragments[row.fragment_id][row.method] += row.count;

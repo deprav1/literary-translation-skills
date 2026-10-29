@@ -6,7 +6,7 @@
 
 ## Попробовать вслепую
 
-**[«Без лица» — три перевода, твой выбор, затем раскрытие авторства](https://deprav1.github.io/literary-translation-skills/).** База из 30 фрагментов: каждый браузер получает свою детерминированную десятку. Без аккаунта и заранее назначенного победителя. [Методика, источники, лицензии текстов и данные](site/CONTENT.md). Это пилот читательского вкуса, не научный рейтинг.
+**[«Без лица» — четыре перевода, твой выбор, затем раскрытие авторства](https://deprav1.github.io/literary-translation-skills/).** База из 30 фрагментов: каждый браузер получает свою детерминированную двадцатку. Без аккаунта и заранее назначенного победителя. [Методика, источники, лицензии текстов и данные](site/CONTENT.md). Это пилот читательского вкуса, не научный рейтинг.
 
 Это набор инструкций `SKILL.md` для AI-агентов. Он помогает удерживать авторский голос, логику сцены и точность перевода, а затем выпускать проверяемую электронную книгу. Это не сервис автоматического перевода и не библиотека чужих книг.
 
@@ -21,7 +21,7 @@ npx skills add deprav1/literary-translation-skills --list
 Установить основные навыки в текущий проект Codex:
 
 ```sh
-npx skills add deprav1/literary-translation-skills --agent codex --skill literary-translation-craft --skill literary-translation-qa --skill epub-translation-production
+npx skills add deprav1/literary-translation-skills --agent codex --skill literary-translation-craft --skill literary-translation-qa --skill literary-translation-evaluation --skill epub-translation-production
 ```
 
 Для пользовательской установки добавить `--global`. Альтернативы: встроенный installer Codex или ручное копирование папок. Команды для PowerShell и других систем — в [инструкции](docs/INSTALL.md).
@@ -40,6 +40,7 @@ npx skills add deprav1/literary-translation-skills --agent codex --skill literar
 |---|---|
 | [literary-translation-craft](skills/literary-translation-craft/SKILL.md) | Художественный перевод, голос повествователя и персонажей, ритм, неоднозначность, повторы |
 | [literary-translation-qa](skills/literary-translation-qa/SKILL.md) | Независимая сверка и отдельное решение по каждой предложенной правке |
+| [literary-translation-evaluation](skills/literary-translation-evaluation/SKILL.md) | Сравнение вариантов, слепой выбор, контрольные ошибки и компактная шкала с ограничениями |
 | [epub-translation-production](skills/epub-translation-production/SKILL.md) | Сборка точной редакции, ссылки, примечания, курсив, адаптивная вёрстка и границы TTS-проверки |
 | [amatka-literary-ru](skills/amatka-literary-ru/SKILL.md) | Необязательный профиль «Аматки»: называние как действие, сдержанный голос, предметные повторы |
 | [ngai-gimmick-ru](skills/ngai-gimmick-ru/SKILL.md) | Необязательный профиль Сианн Нгай: эстетическая и марксистская терминология |

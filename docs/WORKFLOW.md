@@ -4,11 +4,13 @@
 
 Identify the source and target languages, edition, genre, audience, available context, and requested result. Distinguish an original text from an intermediary translation. An excerpt, a sample review, a full book, and an EPUB release are different scopes.
 
-For a book, use a versioned translation brief and a manageable chapter map. For two paragraphs, a concise statement of viewpoint and intended tone may be enough.
+For a book, use a versioned translation brief and a manageable chapter map. Record source locations for important decisions about voices, character knowledge, forms of address, names, recurring images, and ambiguous meanings. The source remains authoritative; the passport, glossary and summaries are editable aids. For two paragraphs, a concise statement of viewpoint and intended tone may be enough.
 
 ## 2. Translate a representative passage first
 
-Before scaling a long project, translate a scene with enough context to expose voice and formal challenges. Read it both against the source and as target-language writing. Do not scale an obviously calqued approach merely because its JSON is valid.
+Before scaling a long project, translate representative scenes that expose different voices and formal challenges. Read them both against the source and as target-language writing. Adjust the plan where needed; do not scale an obviously calqued approach merely because its JSON is valid.
+
+When more than one model is available and authorized, assign planning, difficult passages, and adjudication to a capable coordinator/editor. A less costly model may draft passages only after a representative sample shows acceptable performance. Route wordplay, verse, plot-critical ambiguity, or inadequate drafts to a more capable translator/editor when available. Record actual model roles and do not claim a model or independent reviewer that was not used. If only one model is available, label self-review and report unresolved difficulties.
 
 Record decisions about names, titles, terms by sense, forms of address, recurring formulas, and poetry. A project glossary is revisable. It must not turn a provisional choice into a claim of unique correctness.
 
@@ -18,6 +20,8 @@ Reordering, idiomatic substitution, necessary explicitation, and compensation ca
 
 Ask what each detail does: establishes a viewpoint, moves an action, repeats a ritual, carries irony, or changes emotional temperature. Preserve that function rather than counting matching words.
 
+For chunked work, split on meaningful scene or paragraph boundaries, retaining enough adjacent source context. Supply only relevant accepted decisions and, where useful, the prior accepted ending. Clearly mark read-only context so it is not translated as part of the passage. A separate proposal records any newly discovered term or uncertainty.
+
 ## 4. Review in two directions
 
 **Source-based review:** actions, agents, facts, qualifications, chronology, spatial relations, cultural meaning, repetition, omissions, and additions.
@@ -25,6 +29,8 @@ Ask what each detail does: establishes a viewpoint, moves an action, repeats a r
 **Target-language editing:** syntax, collocation, rhythm, paragraph movement, register, dialogue, and voice.
 
 A smoother alternative is not automatically a correction. A literal alternative is not automatically more precise. Classify the issue and make the reasoning visible.
+
+For a comparison study, add [literary-translation-evaluation](../skills/literary-translation-evaluation/SKILL.md): apply content, context, and form gates first, then use blind pairwise choices or dimension notes. Keep the actual context, candidate identities, reviewer disagreements, and coverage with the result. Preference counts describe the tested set; they do not establish general literary quality.
 
 ## 5. Adjudicate before writing
 
@@ -38,6 +44,8 @@ Use `accept`, `edit`, `reject`, or `defer`:
 Record the complete source context and complete before/after target block. Exclude quotation marks that only format a suggestion in a report. A skipped patch remains unresolved until explicitly handled.
 
 After applying a change, reread the actual result for new errors in grammar, attribution, punctuation, referents, and inline markup.
+
+Recheck substantive edits against the source. Assemble the actual accepted passages in reading order, then read across boundaries and inspect book-level continuity of voices, relationships, names, address, and recurring images. When a glossary decision changes, find and inspect occurrences of that meaning; retranslate only passages whose accepted text needs it.
 
 ## 6. Keep book work resumable
 

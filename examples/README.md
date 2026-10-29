@@ -46,6 +46,19 @@ An expression such as “a blanket of silence” might, in context, become «т�
 
 ## Prompt recipes
 
+### Worked evaluation: smoothness does not repair a lost action
+
+Synthetic source: *Perhaps Mara had locked it. I tried the handle twice. Nothing. No sound from inside.*
+
+- Candidate A: «Может быть, Мара заперла дверь. Я дважды дёрнул ручку. Ничего. Изнутри ни звука.»
+- Candidate B: «Мара заперла дверь. Я прислушался, но в доме царила тишина.»
+
+Using the evaluation rubric: A retains the uncertainty, attempted opening, count, and clipped rhythm. B fails the content gate: it asserts the lock as fact, substitutes listening for trying the handle, and drops “twice.” Its readable prose cannot cancel these errors. This is a source-based diagnostic result; reader preference should be collected separately, without excluding B beforehand. The isolated text does not establish a whole-book voice score or real-reader quality.
+
+Self-check of the Russian checklist: «Мара положила свою руку на мою» can require both possessives to distinguish owners. «Было решено не записывать имён» may deliberately hide the agent. Neither warrants automatic pronoun deletion or an invented subject.
+
+These are worked editorial examples, not independent model trials or measured evidence that a skill improves translations.
+
 ### Translate a scene
 
 ```text

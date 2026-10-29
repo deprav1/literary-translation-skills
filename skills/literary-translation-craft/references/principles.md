@@ -4,6 +4,9 @@ This skill is an original editorial workflow, not an official specification of a
 
 - [ALTA evaluation guidelines](https://literarytranslators.org/guidelines-for-hiring-and-promotion-decisions/) discuss literary translation as creative and scholarly production, including style, voice, tone, nuance, and cultural knowledge. They do not prescribe our exact revision stages or data format.
 - [Authors Guild model-contract resource](https://www.authorsguild.org/member-services/literary-translation-model-contract/) concerns literary translation as creative labor, translator credit, and professional conditions. It is not a sentence-level translation manual.
+- [Andrew Ng's translation-agent](https://github.com/andrewyng/translation-agent) demonstrates a draft/reflection/revision loop and glossary prompts, while explicitly describing itself as an early demonstration. We use the workflow idea, not its code or its BLEU results.
+- [TransAgents](https://github.com/minghao-wu/transagents) documents separate roles, cultural consistency, and omission failures in long literary translation. Role separation does not itself prove independent review. Follow the host and user authorization for delegation; critique does not authorize automatic edits.
+- [BookTrans](https://github.com/sukamenev/booktrans) and [translate-book](https://github.com/deusyu/translate-book) show book-level passports/glossaries, neighboring context, manifests, and resumable checkpoints. Their application pipelines and external dependencies are not required by this skill.
 
 The workflow's scope modes, exact change records, and distinction between model findings and editorial decisions are this project's own practices. A book-specific choice needs evidence from that book. Do not turn an example about an English idiom into a universal rule for other languages.
 

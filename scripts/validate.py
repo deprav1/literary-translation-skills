@@ -11,6 +11,7 @@ from urllib.parse import unquote, urlsplit
 ROOT = Path(__file__).resolve().parents[1]
 EXPECTED = {
     'literary-translation-craft', 'literary-translation-qa',
+    'literary-translation-evaluation',
     'epub-translation-production', 'amatka-literary-ru',
     'ngai-gimmick-ru', 'blank-space-ru-translation',
 }
@@ -85,7 +86,7 @@ def validate_repository(root: Path) -> dict:
     errors = []
     directories = sorted(p for p in (root / 'skills').glob('*') if p.is_dir())
     if {p.name for p in directories} != EXPECTED:
-        errors.append('Expected exactly the six documented skill directories')
+        errors.append(f'Expected exactly the {len(EXPECTED)} documented skill directories')
     for directory in directories:
         errors.extend(validate_skill(directory))
     for name in ['README.md', 'README.ru.md', 'LICENSE', 'CONTRIBUTING.md']:
