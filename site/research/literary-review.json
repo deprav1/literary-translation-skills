@@ -1,0 +1,150 @@
+{
+  "date": "2026-10-29",
+  "reviewer": "Codex GPT-6.1 Terra, same model family as generator",
+  "scope": "30 existing excerpts rechecked against two complete original stories; 10 newly created short excerpts from a third story",
+  "review_type": "model-assisted self-review; not human proofreading or multi-model orchestration",
+  "source_editions": [
+    {
+      "url": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+      "normalized_text_sha256": "1c600e6b82ed036543f565d2291f2f38dbe49b018949606aae12c797141e1ba5"
+    },
+    {
+      "url": "https://www.gutenberg.org/files/774/774-h/774-h.htm",
+      "normalized_text_sha256": "5f565f9bff11e3d436fe1dff17053fb051496505b4bd6e8f6c384dd8dbf6239f"
+    }
+  ],
+  "normalization": "HTML text extraction, remove zero-width markers, collapse whitespace; Poe text from first paragraph to end; Wilde The Doer of Good to next title.",
+  "coverage": [
+    "poe-nerves",
+    "doer-city",
+    "poe-silence",
+    "poe-ray",
+    "doer-weeping",
+    "poe-heart",
+    "poe-extra-01",
+    "poe-extra-03",
+    "poe-extra-04",
+    "poe-extra-06",
+    "poe-extra-08",
+    "poe-extra-11",
+    "poe-extra-12",
+    "poe-extra-13",
+    "poe-extra-14",
+    "poe-extra-15",
+    "poe-extra-16",
+    "poe-extra-17",
+    "wilde-extra-01",
+    "wilde-extra-02",
+    "wilde-extra-03",
+    "wilde-extra-04",
+    "wilde-extra-05",
+    "wilde-extra-06",
+    "wilde-extra-07",
+    "wilde-extra-08",
+    "wilde-extra-09",
+    "wilde-extra-10",
+    "wilde-extra-11",
+    "wilde-extra-12",
+    "cat-01",
+    "cat-02",
+    "cat-03",
+    "cat-04",
+    "cat-05",
+    "cat-06",
+    "cat-07",
+    "cat-08",
+    "cat-09",
+    "cat-10"
+  ],
+  "decision_count": 8,
+  "decisions": [
+    {
+      "id": "doer-weeping",
+      "before": "А когда вышел из города, увидел у дороги",
+      "after": "И когда Он вышел из города, увидел у дороги",
+      "reason": "Retain the repeated opening and marked narration across the scene.",
+      "decision": "accept",
+      "review": "same-model source-based recheck"
+    },
+    {
+      "id": "poe-extra-01",
+      "before": "Всякий раз, когда он обращался на меня",
+      "after": "Всякий раз, когда этот глаз смотрел на меня",
+      "reason": "The eye, not the old man, is the subject of the recurring gaze.",
+      "decision": "accept",
+      "review": "same-model source-based recheck"
+    },
+    {
+      "id": "poe-extra-06",
+      "before": "Это только сверчок однажды стрекотнул",
+      "after": "Это только сверчок стрекотнул один раз",
+      "reason": "A single chirp is a count, not an unspecified past occasion.",
+      "decision": "accept",
+      "review": "same-model source-based recheck"
+    },
+    {
+      "id": "poe-extra-13",
+      "before": "их, полицейских, послали осмотреть дом",
+      "after": "их, полицейских, послали обыскать дом",
+      "reason": "Search of the premises is stronger than merely looking around.",
+      "decision": "accept",
+      "review": "same-model source-based recheck"
+    },
+    {
+      "id": "poe-extra-17",
+      "before": "Поднимите доски!",
+      "after": "Сорвите доски!",
+      "reason": "Tear up the planks calls for an urgent forceful removal.",
+      "decision": "accept",
+      "review": "same-model source-based recheck"
+    },
+    {
+      "id": "wilde-extra-04",
+      "before": "«Зачем ты так живёшь?»",
+      "after": "«Почему ты так живёшь?»",
+      "reason": "Why leaves the reason open; зачем can suggest a goal.",
+      "decision": "accept",
+      "review": "same-model source-based recheck"
+    },
+    {
+      "id": "wilde-extra-06",
+      "before": "И Он вышел из дома и вновь пошёл по улице.",
+      "after": "И Он вышел из дома и снова вышел на улицу.",
+      "reason": "The source returns him to the street; it does not state that he walked along it.",
+      "decision": "accept",
+      "review": "same-model source-based recheck"
+    },
+    {
+      "id": "wilde-extra-08",
+      "before": "«Зачем ты смотришь на эту женщину — и так смотришь?»",
+      "after": "«Почему ты смотришь на эту женщину, да ещё так?»",
+      "reason": "Keep the question about both the object and manner of looking without forcing purpose.",
+      "decision": "accept",
+      "review": "same-model source-based recheck"
+    }
+  ],
+  "limitations": [
+    "No distinct independent reviewer or human reviewer.",
+    "Review does not establish perfect literary quality or broader benchmark validity.",
+    "No stronger-coordinator and smaller-model pipeline was run.",
+    "For the 10 new excerpts all AI conditions were drafted in one shared context that included the historical translation; the conditions are not independent or blind."
+  ],
+  "new_excerpts": {
+    "ids": [
+      "cat-01",
+      "cat-02",
+      "cat-03",
+      "cat-04",
+      "cat-05",
+      "cat-06",
+      "cat-07",
+      "cat-08",
+      "cat-09",
+      "cat-10"
+    ],
+    "original_url": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Black_Cat",
+    "published_translation_url": "https://ru.wikisource.org/wiki/Чёрный_кот_(По;_Бальмонт)",
+    "method": "All three AI variants were generated by GPT-6.1 Terra in this same conversation after the model had read the source and historical translations. They are not isolated or blind generations. The reviewed variant was checked against the English source and the story context.",
+    "rights": "Original 1843, Poe died 1849; Balmont translation published 1901, translator died 1942. Wikisource attribution applies to transcriptions."
+  }
+}

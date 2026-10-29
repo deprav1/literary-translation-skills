@@ -2,7 +2,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { webcrypto } from 'node:crypto';
-import { createState, validState, shuffled, personalCounts } from '../logic.mjs';
+import { createState, validState, shuffled, personalCounts, rememberLegacy } from '../logic.mjs';
 globalThis.crypto ??= webcrypto;
 const data = JSON.parse(await readFile(new URL('../data.json', import.meta.url), 'utf8'));
 
@@ -52,7 +52,16 @@ test('a cohort does not repeat a passage already included in a longer excerpt', 
     const id = `00000000-0000-4000-8000-${String(i).padStart(12,'0')}`;
     const state = createState(data, id);
     assert.equal(state.order.length, data.cohortSize);
+    assert.ok(state.cohortIds.filter(id => id.startsWith('cat-')).length >= 2);
     const sources = state.cohortIds.map(id => data.rounds.find(r => r.id === id).source.replace(/\s+/g, ' ').trim());
     for (let a=0; a<sources.length; a++) for (let b=a+1; b<sources.length; b++) assert.ok(!sources[a].includes(sources[b]) && !sources[b].includes(sources[a]));
   }
+});
+test('a dataset update preserves the old identity and personal choices once', () => {
+  const saved = {version:'blind-v3-bd065db04a20', participantId:'00000000-0000-4000-8000-000000000001', choices:{'wilde-extra-02':{candidateId:'c1', status:'saved'}}};
+  const legacy = rememberLegacy(saved, [], data.version);
+  assert.equal(legacy.length, 1);
+  assert.equal(legacy[0].participantId, saved.participantId);
+  assert.deepEqual(legacy[0].choices, saved.choices);
+  assert.equal(rememberLegacy(saved, legacy, data.version).length, 1);
 });

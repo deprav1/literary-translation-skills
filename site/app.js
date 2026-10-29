@@ -1,13 +1,13 @@
-import { METHODS, createState, validState, personalCounts, percentage } from './logic.mjs';
+import { METHODS, createState, validState, personalCounts, percentage, rememberLegacy } from './logic.mjs';
 
 const $ = id => document.getElementById(id);
 const STORAGE = 'blind-translation-v1';
-const LABELS = { skilled: 'AI + навыки', published: 'Опубликованный перевод', baseline: 'AI: короткий запрос', reviewed: 'AI + самопроверка' };
+const LABELS = { skilled: 'AI + навыки', published: 'Опубликованный перевод', baseline: 'AI: короткий запрос', reviewed: 'AI + редактура' };
 const REACTIONS = {
   skilled: ['Тебе зашёл AI с инструкциями.', 'Здесь модель работала с навыком художественного перевода. Получился именно этот текст — не обещание, что он лучше во всём.'],
   published: ['Ты выбрал опубликованный перевод.', 'Никаких медалей за «правильный» выбор. Просто этот голос тебе ближе. Автор перевода и источник — на карточке.'],
   baseline: ['Короткий запрос тоже умеет попадать.', 'Это та же модель, но без подключённого переводческого навыка. Не плохой вариант «для контраста», а обычный независимый ответ.'],
-  reviewed: ['Твой выбор — AI с самопроверкой.', 'Модель перевела фрагмент и проверила его по оригиналу. Этот проход не является человеческой редактурой.'],
+  reviewed: ['Твой выбор — AI с редактурой.', 'Модель перевела фрагмент и отдельно сверила его с оригиналом и контекстом рассказа. Человеческой редакторской проверки не было.'],
 };
 let data, config, state, screen = 'home', memoryOnly = false, eraseBusy = false;
 const LEGACY_STORAGE = 'blind-translation-legacy-participants-v1';
@@ -17,6 +17,7 @@ function el(tag, className, text) { const node = document.createElement(tag); if
 function safeLink(label, href) { const a = el('a', '', label); a.href = href; a.target = '_blank'; a.rel = 'noopener noreferrer'; return a; }
 function persist() { try { localStorage.setItem(STORAGE, JSON.stringify(state)); } catch { memoryOnly = true; } }
 function toast(text) { $('toast').textContent = text; $('toast').hidden = false; clearTimeout(toast.timer); toast.timer = setTimeout(() => { $('toast').hidden = true; }, 4000); }
+function pluralRu(n, one, few, many) { const last = n % 10, lastTwo = n % 100; return lastTwo >= 11 && lastTwo <= 14 ? many : last === 1 ? one : last >= 2 && last <= 4 ? few : many; }
 function answered() { return Object.keys(state.choices).length; }
 function currentRound() { return data.rounds.find(r => r.id === state.order[state.index]); }
 function show(view, focus = true) {
@@ -27,7 +28,7 @@ function show(view, focus = true) {
   if (view === 'results') renderResults();
   if (focus) { window.scrollTo({ top: 0, behavior: 'instant' }); $('main').focus({ preventScroll: true }); }
 }
-function updateStart() { $('start-button').textContent = answered() ? `Продолжить · ${answered()} из ${state.order.length} ↗` : 'Начать вслепую ↗'; $('start-button').disabled = false; }
+function updateStart() { $('start-button').textContent = answered() ? `Продолжить · ${answered()} из ${state.order.length} ↗` : 'Начать вслепую ↗'; $('start-button').disabled = false; $('home-results-button').disabled = false; }
 function start() {
   if (answered() === state.order.length) { show('results'); return; }
   const index = state.order.findIndex(id => !state.choices[id]);
@@ -68,6 +69,7 @@ function renderRound() {
     const body = el('div'); body.append(el('h3', '', title), el('p', '', text)); panel.append(el('span', 'reveal-icon', '↗'), body);
   }
   $('next-button').hidden = !choice;
+  $('round-results-button').hidden = !choice;
   $('next-button').textContent = answered() === state.order.length ? 'Посмотреть мой вкус ↗' : 'Следующий раунд →';
   renderSync(); updateStart();
 }
@@ -128,10 +130,14 @@ function next() {
 }
 function renderResults() {
   const n = answered(); const counts = personalCounts(state, data); const highest = Math.max(...Object.values(counts));
-  $('personal-caption').textContent = n ? `Ты выбрал ${n} ${n === 1 ? 'фрагмент' : n < 5 ? 'фрагмента' : 'фрагментов'} из ${state.order.length}. Это профиль твоих предпочтений в этой подборке. Не экзамен. И не диагноз.` : 'Сначала выбери хотя бы один текст. Мы не станем угадывать твой вкус за тебя.';
+  $('results-title').textContent = n ? 'Вот какой\nу тебя вкус.' : 'Итоги\nголосования.';
+  $('results-title').style.whiteSpace = 'pre-line';
+  $('personal-caption').textContent = n ? `Ты выбрал ${n} ${n === 1 ? 'фрагмент' : n < 5 ? 'фрагмента' : 'фрагментов'} из ${state.order.length}. Это профиль твоих предпочтений в этой подборке. Не экзамен. И не диагноз.` : 'Твоих голосов пока нет. Общие итоги — ниже.';
+  $('personal-result').hidden = !n;
+  $('share-button').hidden = !n;
   $('personal-result').replaceChildren();
   for (const method of METHODS) { const card = el('div', `score-card${counts[method] && counts[method] === highest ? ' leading' : ''}`); card.append(el('span', '', 'ТВОЙ ВЫБОР'), el('strong', '', `${counts[method]} / ${n}`), el('p', '', LABELS[method])); $('personal-result').append(card); }
-  $('continue-button').textContent = n === state.order.length ? 'Посмотреть раунды ещё раз ↗' : 'Вернуться на ринг ↗';
+  $('continue-button').textContent = !n ? 'Начать вслепую ↗' : n === state.order.length ? 'Посмотреть раунды ещё раз ↗' : 'Вернуться на ринг ↗';
   $('history-list').replaceChildren();
   for (const [index, id] of state.order.entries()) {
     const choice = state.choices[id]; if (!choice) continue;
@@ -141,10 +147,10 @@ function renderResults() {
   }
   if (!n) $('history-list').append(el('p', 'section-description', 'Пока здесь чистый лист.'));
   renderWorld();
+  renderPreviousWorld();
 }
 async function renderWorld() {
   const target = $('world-stats');
-  if (!answered()) { target.replaceChildren(el('p', 'empty-stats', 'Сначала свой выбор — потом чужие проценты. Так честнее.')); return; }
   target.replaceChildren(el('p', 'section-description', 'Считаем голоса…'));
   try {
     const { response, payload } = await api(`/stats?dataset=${encodeURIComponent(data.version)}`);
@@ -153,7 +159,7 @@ async function renderWorld() {
     if (!METHODS.every(m => Number.isSafeInteger(counts?.[m]) && counts[m] >= 0) || METHODS.reduce((n, m) => n + counts[m], 0) !== payload.totalVotes) throw new Error('stats');
     target.replaceChildren();
     const totals = el('div', 'world-counts');
-    for (const [number, text] of [[payload.totalVotes, 'оценок фрагментов'], [payload.participantBrowsers, 'браузеров проголосовало']]) { const item = el('span'); item.append(el('b', '', String(number)), document.createTextNode(text)); totals.append(item); }
+    for (const [number, text] of [[payload.totalVotes, pluralRu(payload.totalVotes, 'голос', 'голоса', 'голосов')], [payload.participantBrowsers, pluralRu(payload.participantBrowsers, 'браузер', 'браузера', 'браузеров')]]) { const item = el('span'); item.append(el('b', '', String(number)), document.createTextNode(text)); totals.append(item); }
     target.append(totals);
     if (!payload.totalVotes) { target.append(el('p', 'empty-stats', 'Первый голос ещё не добрался до сервера. Попробуй обновить через пару секунд — или отправь свой выбор снова.')); return; }
     for (const method of METHODS) {
@@ -162,16 +168,48 @@ async function renderWorld() {
     }
   } catch { target.replaceChildren(el('p', 'empty-stats', 'Общий счётчик сейчас не отвечает. Никаких нарисованных процентов: твои локальные выборы на месте. Попробуй «Обновить».')); }
 }
+async function renderPreviousWorld() {
+  const target = $('previous-stats');
+  const previousLabels = { ...LABELS, reviewed: 'AI + самопроверка' };
+  if (!data.previousDataset) { target.replaceChildren(); return; }
+  target.replaceChildren(el('p', 'section-description', 'Загружаем прежние голоса…'));
+  try {
+    const [{ response, payload }, catalogResponse] = await Promise.all([
+      api(`/stats?dataset=${encodeURIComponent(data.previousDataset)}`),
+      fetch('./research/legacy_catalog.json')
+    ]);
+    if (!response.ok || payload.dataset !== data.previousDataset || !Number.isSafeInteger(payload.totalVotes) || !METHODS.every(m => Number.isSafeInteger(payload.methods?.[m]) && payload.methods[m] >= 0) || METHODS.reduce((n,m) => n + payload.methods[m],0) !== payload.totalVotes || !catalogResponse.ok) throw new Error('stats');
+    const catalog = await catalogResponse.json();
+    target.replaceChildren(el('p', 'section-description', `Всего голосов: ${payload.totalVotes}. Эти голоса не входят в текущие итоги.`));
+    for (const method of METHODS) {
+      const row = el('div', 'stat-row'); const bar = el('div', 'stat-bar'); const fill = el('div');
+      fill.style.width = `${percentage(payload.methods[method], payload.totalVotes)}%`; bar.append(fill);
+      row.append(el('span', '', previousLabels[method]), bar, el('span', 'stat-percent', `${percentage(payload.methods[method], payload.totalVotes)}%`)); target.append(row);
+    }
+    let legacy = [];
+    try { legacy = JSON.parse(localStorage.getItem(LEGACY_STORAGE) || '[]'); } catch {}
+    const entry = Array.isArray(legacy) ? legacy.find(item => item.dataset === data.previousDataset && item.choices) : null;
+    if (entry && catalog[entry.dataset]) {
+      const counts = Object.fromEntries(METHODS.map(method => [method, 0]));
+      for (const [id, choice] of Object.entries(entry.choices)) {
+        const method = catalog[entry.dataset]?.[id]?.[choice?.candidateId];
+        if (METHODS.includes(method)) counts[method]++;
+      }
+      const total = Object.values(counts).reduce((a,b) => a+b,0);
+      if (total) target.append(el('p', 'section-description', `Твои прежние выборы (${total}): ${METHODS.map(m => `${previousLabels[m]} — ${counts[m]}`).join('; ')}.`));
+    }
+  } catch { target.replaceChildren(el('p', 'empty-stats', 'Не удалось загрузить результаты предыдущей подборки. Попробуй обновить страницу.')); }
+}
 function showDialog(kind) {
   const node = $('dialog-content'); node.replaceChildren();
   if (kind === 'method') {
     node.append(el('h2', '', 'Тексты дерутся. Лейблы молчат.'), el('p', '', 'В каждом раунде один оригинал и четыре русских перевода: исторический опубликованный и три варианта AI. Авторы скрыты до выбора. Порядок текстов и карточек перемешан и сохраняется в браузере.'));
-    node.append(el('h3', '', 'Что именно сравниваем'), el('p', '', 'В базе 30 фрагментов двух произведений. Каждый браузер получает 20 фрагментов. Три варианта AI: короткий запрос, запрос с навыком и новый перевод с самопроверкой по оригиналу. В новом варианте один AI проверяет собственный текст; независимой человеческой редакторской проверки не было.'));
+    node.append(el('h3', '', 'Что именно сравниваем'), el('p', '', 'В базе 40 фрагментов трёх произведений. Каждый браузер получает 20 фрагментов. Три варианта AI: короткий запрос, запрос с навыком и новый перевод с модельной редактурой по оригиналу. Для редактуры модель учитывала контекст рассказов; независимой человеческой проверки не было. В десяти новых фрагментах все варианты AI созданы в общем контексте, где был доступен исторический перевод; это неконтролируемое сравнение.'));
     node.append(el('h3', '', 'Это пилот читательских предпочтений'), el('p', '', 'Опубликованные переводы исторические, в современной орфографии цифрового источника. Эпоха, узнаваемость, длина и твой вкус влияют на выбор. Голоса не доказывают превосходство модели или навыка. Атрибуция скрыта в интерфейсе до выбора, но доступна в исходниках.'));
     node.append(el('h3', '', 'Откуда опубликованные тексты'), el('p', '', 'Эдгар По — перевод Константина Бальмонта, издание 1913 года. Оскар Уайльд — перевод Михаила Ликиардопуло, публикация 1911 года. Оригиналы и эти переводы находятся в общественном достоянии в юрисдикциях со сроком «жизнь автора + 70 лет». Цифровые источники и точная атрибуция открываются после выбора.'));
     node.append(safeLink('Методика, источники и условия публикации ↗', './CONTENT.md'), el('p', '', 'Цель простая: сначала услышать текст, потом прочитать бейдж. Можно предпочесть любой вариант. Можно вообще не продолжать.'));
   } else {
-    node.append(el('h2', '', 'Про данные. Без тумана.'), el('p', '', 'В браузере остаются случайный идентификатор, порядок вариантов и твои выборы. Сервер хранит хеш идентификатора, выбранный вариант, версию подборки, случайный ID голоса и время. Имя и почту не спрашиваем. Сырые IP-адреса в нашу базу не записываем.'));
+    node.append(el('h2', '', 'Про данные. Без тумана.'), el('p', '', 'В браузере остаются случайный идентификатор, порядок вариантов и твои выборы, включая сохранённые выборы предыдущей подборки. Сервер хранит хеш идентификатора, выбранный вариант, версию подборки, случайный ID голоса и время. Имя и почту не спрашиваем. Сырые IP-адреса в нашу базу не записываем.'));
     node.append(el('p', '', 'Для защиты от частого голосования сервер использует суточный HMAC-хеш IP. Его срок — 48 часов; просроченные записи очищаются при следующем запросе записи. Cloudflare обрабатывает сетевые данные при обслуживании запросов. Общий счётчик показывает только суммы, без списка участников.'));
     node.append(el('p', '', 'Один браузер — один голос за каждый фрагмент этой версии. Это не защита от человека с несколькими устройствами. Сброс или потеря идентификатора мешает связать прежние голоса с этим браузером и удалить их отсюда.'));
     const remove = el('button', 'danger-button', eraseBusy ? 'Удаляем…' : 'Удалить мои голоса и локальный прогресс'); remove.disabled = eraseBusy || !data; remove.addEventListener('click', erase); node.append(remove);
@@ -185,7 +223,7 @@ async function erase() {
     await Promise.allSettled([...inFlight.values()]);
     const legacy = JSON.parse(localStorage.getItem(LEGACY_STORAGE) || '[]');
     for (const entry of [...legacy, { dataset: data.version, participantId: state.participantId }]) {
-      const { response, payload } = await api('/votes', { method: 'DELETE', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(entry) });
+      const { response, payload } = await api('/votes', { method: 'DELETE', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ dataset: entry.dataset, participantId: entry.participantId }) });
       if (!response.ok || payload.dataset !== entry.dataset || !Number.isInteger(payload.deletedVotes) || payload.deletedVotes < 0) throw new Error('delete');
     }
     localStorage.removeItem(LEGACY_STORAGE);
@@ -195,6 +233,8 @@ async function erase() {
 }
 
 $('start-button').addEventListener('click', start);
+$('home-results-button').addEventListener('click', () => show('results'));
+$('round-results-button').addEventListener('click', () => show('results'));
 $('home-button').addEventListener('click', () => show('home'));
 document.querySelectorAll('a[href="#"]').forEach(a => a.addEventListener('click', event => { event.preventDefault(); if (data) show('home'); }));
 $('profile-button').addEventListener('click', () => show('results'));
@@ -204,8 +244,8 @@ for (const id of ['method-button', 'footer-method']) $(id).addEventListener('cli
 for (const id of ['privacy-button', 'footer-privacy']) $(id).addEventListener('click', () => showDialog('privacy'));
 $('close-dialog').addEventListener('click', () => $('info-dialog').close());
 $('info-dialog').addEventListener('click', e => { if (e.target === $('info-dialog')) { const r = e.target.getBoundingClientRect(); if (e.clientX < r.left || e.clientX > r.right || e.clientY < r.top || e.clientY > r.bottom) e.target.close(); } });
-$('refresh-stats').addEventListener('click', renderWorld);
-$('share-button').addEventListener('click', async () => { const c = personalCounts(state, data); const message = `Мой вкус в «Без лица»: AI + навыки ${c.skilled}, опубликованный ${c.published}, AI короткий запрос ${c.baseline}, AI с самопроверкой ${c.reviewed}. Выбирай вслепую: ${location.href.split('#')[0]}`; try { await navigator.clipboard.writeText(message); toast('Результат скопирован. Пускай друзья тоже снимут погоны.'); } catch { toast('Буфер обмена недоступен. Ссылку на сайт можно скопировать из адресной строки.'); } });
+$('refresh-stats').addEventListener('click', () => { renderWorld(); renderPreviousWorld(); });
+$('share-button').addEventListener('click', async () => { const c = personalCounts(state, data); const message = `Мой вкус в «Без лица»: AI + навыки ${c.skilled}, опубликованный ${c.published}, AI короткий запрос ${c.baseline}, AI с редактурой ${c.reviewed}. Выбирай вслепую: ${location.href.split('#')[0]}`; try { await navigator.clipboard.writeText(message); toast('Результат скопирован. Пускай друзья тоже снимут погоны.'); } catch { toast('Буфер обмена недоступен. Ссылку на сайт можно скопировать из адресной строки.'); } });
 
 async function init() {
   try {
@@ -215,8 +255,7 @@ async function init() {
     try {
       const saved = JSON.parse(localStorage.getItem(STORAGE));
       if (saved?.version && saved.version !== data.version && /^[a-f0-9-]{36}$/i.test(saved.participantId || '')) {
-        const legacy = JSON.parse(localStorage.getItem(LEGACY_STORAGE) || '[]');
-        if (!legacy.some(entry => entry.dataset === saved.version && entry.participantId === saved.participantId)) legacy.push({ dataset: saved.version, participantId: saved.participantId });
+        const legacy = rememberLegacy(saved, JSON.parse(localStorage.getItem(LEGACY_STORAGE) || '[]'), data.version);
         localStorage.setItem(LEGACY_STORAGE, JSON.stringify(legacy));
       }
       const sameDatasetId = saved?.version === data.version && /^[a-f0-9-]{36}$/i.test(saved.participantId || '') ? saved.participantId : undefined;

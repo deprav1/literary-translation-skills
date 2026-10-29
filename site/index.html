@@ -28,7 +28,8 @@
           <p class="hero-description">Четыре версии одного фрагмента. Ни имён, ни регалий.<br class="desktop-break"> Выбери ту, которую хочется читать дальше.</p>
           <div class="hero-actions">
             <button class="primary-button" id="start-button" disabled>Загружаем ринг… <span aria-hidden="true">↗</span></button>
-            <span class="micro-copy">20 раундов из базы 30.<br> Без регистрации и правильных ответов.</span>
+            <button class="text-button" id="home-results-button" disabled>Показать итоги ↗</button>
+            <span class="micro-copy">20 раундов из базы 40.<br> Без регистрации и правильных ответов.</span>
           </div>
           <p class="participation-note">Выбор сохраняется в этом браузере и отправляется в общий счётчик. <button class="inline-button" id="privacy-button">Что именно мы храним?</button></p>
           <p class="load-error" id="load-error" role="alert" hidden></p>
@@ -47,14 +48,14 @@
         <div><span class="rule-number">03</span><p><b>Сними маски.</b><br>Узнай авторство и посмотри на выбор остальных.</p></div>
       </section>
       <section id="arena" class="arena" aria-labelledby="round-title" hidden>
-        <div class="arena-top"><button class="text-button" id="home-button">← На главную</button><span class="mono" id="progress-text"></span><button class="text-button" id="profile-button">Мой вкус <span aria-hidden="true">↗</span></button></div>
+        <div class="arena-top"><button class="text-button" id="home-button">← На главную</button><span class="mono" id="progress-text"></span><button class="text-button" id="profile-button">Показать итоги <span aria-hidden="true">↗</span></button></div>
         <div class="progress-track" aria-hidden="true"><div id="progress-fill"></div></div>
         <div class="round-heading"><div><p class="eyebrow" id="round-label"></p><h2 id="round-title">Какой вариант<br>попал в нерв?</h2></div><span class="round-stamp" id="round-tag"></span></div>
         <details class="original"><summary>Открыть английский оригинал <span aria-hidden="true">+</span></summary><div id="source-text" lang="en"></div><p class="source-credit" id="source-credit"></p></details>
         <p class="arena-hint" id="arena-hint">Читай в любом порядке. Авторство покажем только после твоего выбора.</p>
         <div class="candidate-grid" id="candidates"></div>
         <div class="reveal-panel" id="reveal-panel" hidden aria-live="polite"></div>
-        <div class="round-footer"><p id="sync-status" class="sync-status" aria-live="polite"></p><button class="secondary-button" id="next-button" hidden>Следующий раунд <span aria-hidden="true">→</span></button></div>
+        <div class="round-footer"><p id="sync-status" class="sync-status" aria-live="polite"></p><div class="round-actions"><button class="text-button" id="round-results-button" hidden>Показать итоги ↗</button><button class="secondary-button" id="next-button" hidden>Следующий раунд <span aria-hidden="true">→</span></button></div></div>
       </section>
       <section id="results" class="results" aria-labelledby="results-title" hidden>
         <p class="eyebrow">МАСКИ СНЯТЫ. ПРЕДРАССУДКИ — ТОЖЕ?</p>
@@ -63,6 +64,7 @@
         <div class="personal-result" id="personal-result"></div>
         <div class="results-actions"><button class="primary-button" id="continue-button">Вернуться на ринг <span aria-hidden="true">↗</span></button><button class="text-button" id="share-button">Скопировать результат ↗</button></div>
         <section class="world-section" aria-labelledby="world-title"><div class="world-heading"><div><p class="eyebrow">ОБЩИЙ СЧЁТЧИК</p><h3 id="world-title">А у остальных?</h3></div><button class="text-button" id="refresh-stats">Обновить ↻</button></div><div id="world-stats" aria-live="polite"></div><p class="stats-note">Это открытый опрос вкуса, а не научный рейтинг. Один браузер может оценить несколько фрагментов. Удаление данных браузера и разные устройства допускают повторное участие.</p></section>
+        <section class="world-section" aria-labelledby="previous-title"><div class="world-heading"><div><p class="eyebrow">ПРЕДЫДУЩАЯ ПОДБОРКА</p><h3 id="previous-title">Итоги до редактуры</h3></div></div><p class="section-description">После дополнительной сверки часть переводов изменилась. Голоса прежней подборки сохранены и показаны отдельно.</p><div id="previous-stats" aria-live="polite"></div></section>
         <section class="history-section" aria-labelledby="history-title"><h3 id="history-title">Твои выборы. Без амнезии.</h3><div id="history-list"></div></section>
       </section>
     </main>

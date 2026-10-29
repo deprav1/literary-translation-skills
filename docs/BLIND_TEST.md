@@ -6,7 +6,7 @@ Public frontend: <https://deprav1.github.io/literary-translation-skills/>.
 
 - `site/` is a buildless HTML/CSS/JS site deployed by GitHub Pages Actions.
 - `site/data.json` holds the current versioned corpus and post-choice attribution. Identity hiding is an interface property; source code is public.
-- The current corpus contains 30 fragments. Each local participant receives a deterministic cohort of 20 selected from the versioned corpus; different participant IDs may receive different cohorts. The backend still aggregates all 30 fragment IDs.
+- The current corpus contains 40 fragments. Each local participant receives a deterministic cohort of 20 selected from the versioned corpus; different participant IDs may receive different cohorts. The backend still aggregates all 40 fragment IDs.
 - `backend/worker.js` is a separate Cloudflare Worker. D1 stores votes and rate buckets. No browser API credential is needed or included.
 - `backend/catalog.js` is an authoritative candidate allowlist generated from the same corpus. The server does not trust a client-supplied method label.
 - The browser keeps a random participant ID, candidate order, and chosen votes in localStorage. The server stores only its dataset-scoped HMAC key.
