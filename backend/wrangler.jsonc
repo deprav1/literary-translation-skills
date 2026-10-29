@@ -1,0 +1,7 @@
+{
+  "name": "literary-blind-votes-20261029",
+  "main": "worker.js",
+  "compatibility_date": "2026-10-29",
+  "vars": { "ALLOWED_ORIGIN": "https://deprav1.github.io" },
+  "d1_databases": [{ "binding": "DB", "database_name": "literary-blind-votes-20261029", "database_id": "891cd6f7-fc53-4bfe-b12b-ae0e9e856b9e", "migrations_dir": "migrations" }]
+}

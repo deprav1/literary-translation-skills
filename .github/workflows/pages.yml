@@ -1,0 +1,42 @@
+name: Deploy blind test to Pages
+
+on:
+  push:
+    branches: [main]
+    paths: ['site/**', 'backend/catalog.js', 'scripts/build_blind_catalog.py', 'scripts/validate_site.py', '.github/workflows/pages.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate corpus and static site
+        run: python scripts/validate_site.py
+      - name: Verify voting logic
+        run: node --test site/tests/logic.test.mjs backend/worker.test.js
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

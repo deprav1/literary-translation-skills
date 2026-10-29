@@ -14,7 +14,7 @@ EXPECTED = {
     'epub-translation-production', 'amatka-literary-ru',
     'ngai-gimmick-ru', 'blank-space-ru-translation',
 }
-IGNORED = {'.git', '__pycache__', '.venv'}
+IGNORED = {'.git', '__pycache__', '.venv', '.wrangler'}
 BOOK_EXTENSIONS = {'.epub', '.pdf', '.docx', '.mp3', '.wav', '.zip'}
 LINK = re.compile(r'\[[^\]\n]+\]\(([^)\n]+)\)')
 PRIVATE_PATH = re.compile(
@@ -100,6 +100,10 @@ def validate_repository(root: Path) -> dict:
             continue
         if file.name == '.env' or file.name.startswith('.env.'):
             errors.append(f'Environment file must not be published here: {relative}')
+            continue
+        if file.suffix.lower() == '.woff2':
+            if not file.is_relative_to(root / 'site' / 'assets' / 'fonts') or file.read_bytes()[:4] != b'wOF2':
+                errors.append(f'Unexpected font asset: {relative}')
             continue
         try:
             text = file.read_text(encoding='utf8')

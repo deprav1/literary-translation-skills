@@ -8,6 +8,10 @@
 
 [Русское описание](README.ru.md) · [Install](docs/INSTALL.md) · [Skill catalog](#skill-catalog) · [Examples](examples/README.md) · [Contributing](CONTRIBUTING.md)
 
+## Try the blind translation test
+
+**[Без лица — read three versions, choose, then reveal the translators](https://deprav1.github.io/literary-translation-skills/).** Six short public-domain excerpts, two independently generated AI conditions, historical published translations, and a shared vote counter. No account required. Read the [methodology, text licenses, and data policy](site/CONTENT.md). It is an open preference pilot, not proof of general model or translator quality.
+
 Translate a scene without flattening its voice. Review a paragraph without inventing errors. Produce an EPUB without mistaking valid XML for a good translation.
 
 This repository contains reusable `SKILL.md` instructions and small reference templates. It is **not a translation API, an automatic book converter, or a collection of book texts**. You bring the source, the translation, and an agent capable of using skills.
