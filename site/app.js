@@ -97,7 +97,8 @@ async function submit(roundId) {
         if (!round.candidates.some(c => c.id === payload.candidateId)) throw new Error('bad_response');
         choice.candidateId = payload.candidateId; choice.status = 'saved';
         toast('У этого браузера уже был голос за этот текст. Показываем сохранённый выбор.');
-      } else if (response.ok && payload.candidateId === choice.candidateId && payload.fragmentId === roundId) { choice.status = 'saved'; choice.voteId = payload.voteId; }
+      } else if (response.ok && payload.dataset === data.version && payload.candidateId === choice.candidateId && payload.fragmentId === roundId && typeof payload.voteId === 'string' && /^[a-f0-9-]{36}$/i.test(payload.voteId)) { choice.status = 'saved'; choice.voteId = payload.voteId; }
+      else if (response.status === 410 && payload.error === 'participant_erased') { state = createState(data); persist(); choice.status = 'failed'; choice.error = 'participant_erased'; toast('Эта сессия уже удалена. Создали новый локальный идентификатор.'); }
       else { choice.status = 'failed'; choice.error = payload.error || 'unavailable'; }
     } catch { choice.status = 'failed'; choice.error = 'network'; }
     finally {
@@ -180,8 +181,8 @@ async function erase() {
   eraseBusy = true; showDialog('privacy');
   try {
     await Promise.allSettled([...inFlight.values()]);
-    const { response } = await api('/votes', { method: 'DELETE', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ dataset: data.version, participantId: state.participantId }) });
-    if (!response.ok) throw new Error('delete');
+    const { response, payload } = await api('/votes', { method: 'DELETE', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ dataset: data.version, participantId: state.participantId }) });
+    if (!response.ok || payload.dataset !== data.version || !Number.isInteger(payload.deletedVotes) || payload.deletedVotes < 0) throw new Error('delete');
     state = createState(data); persist(); updateStart(); $('info-dialog').close(); show('home'); toast('Серверные голоса удалены. Локальный прогресс сброшен.');
   } catch { toast('Сервер не подтвердил удаление. Идентификатор и прогресс сохранены — можно повторить.'); }
   finally { eraseBusy = false; if ($('info-dialog').open) showDialog('privacy'); }
