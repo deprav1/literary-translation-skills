@@ -47,3 +47,12 @@ test('the reported Wilde fragments keep their original and historical translatio
   assert.match(two.candidates.find(c => c.method === 'published').text, /многих лютней/);
   assert.doesNotMatch(two.candidates.find(c => c.method === 'published').text, /стены круглого города/);
 });
+test('a cohort does not repeat a passage already included in a longer excerpt', () => {
+  for (let i=0; i<50; i++) {
+    const id = `00000000-0000-4000-8000-${String(i).padStart(12,'0')}`;
+    const state = createState(data, id);
+    assert.equal(state.order.length, data.cohortSize);
+    const sources = state.cohortIds.map(id => data.rounds.find(r => r.id === id).source.replace(/\s+/g, ' ').trim());
+    for (let a=0; a<sources.length; a++) for (let b=a+1; b<sources.length; b++) assert.ok(!sources[a].includes(sources[b]) && !sources[b].includes(sources[a]));
+  }
+});

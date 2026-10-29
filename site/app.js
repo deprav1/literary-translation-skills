@@ -219,7 +219,8 @@ async function init() {
         if (!legacy.some(entry => entry.dataset === saved.version && entry.participantId === saved.participantId)) legacy.push({ dataset: saved.version, participantId: saved.participantId });
         localStorage.setItem(LEGACY_STORAGE, JSON.stringify(legacy));
       }
-      state = validState(saved, data) ? saved : createState(data);
+      const sameDatasetId = saved?.version === data.version && /^[a-f0-9-]{36}$/i.test(saved.participantId || '') ? saved.participantId : undefined;
+      state = validState(saved, data) ? saved : createState(data, sameDatasetId);
     } catch { state = createState(data); }
     persist(); updateStart();
     for (const id of Object.keys(state.choices)) if (state.choices[id].status !== 'saved') submit(id);

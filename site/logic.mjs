@@ -1,5 +1,5 @@
 export const METHODS = ['skilled', 'published', 'baseline', 'reviewed'];
-export const COHORT_ALGORITHM = 1;
+export const COHORT_ALGORITHM = 2;
 export function hashSeed(value) { let h = 2166136261; for (const ch of value) { h ^= ch.codePointAt(0); h = Math.imul(h, 16777619); } return h >>> 0; }
 export function seededRandom(seed) { let x = seed >>> 0; return () => { x += 0x6D2B79F5; let t = x; t = Math.imul(t ^ t >>> 15, t | 1); t ^= t + Math.imul(t ^ t >>> 7, t | 61); return ((t ^ t >>> 14) >>> 0) / 4294967296; }; }
 export function shuffled(values, random = () => crypto.getRandomValues(new Uint32Array(1))[0] / 4294967296) {
@@ -9,7 +9,13 @@ export function shuffled(values, random = () => crypto.getRandomValues(new Uint3
 }
 export function cohortFor(data, participantId) {
   const size = Math.min(data.cohortSize || data.rounds.length, data.rounds.length);
-  return data.rounds.map(r => ({ id: r.id, score: hashSeed(`${data.version}:${COHORT_ALGORITHM}:${participantId}:${r.id}`) })).sort((a,b) => a.score - b.score || a.id.localeCompare(b.id)).slice(0, size).map(r => r.id).sort();
+  const ranked = data.rounds.map(r => ({ id: r.id, source: r.source.replace(/\s+/g, ' ').trim(), score: hashSeed(`${data.version}:${COHORT_ALGORITHM}:${participantId}:${r.id}`) })).sort((a,b) => a.score - b.score || a.id.localeCompare(b.id));
+  const selected = [];
+  for (const row of ranked) {
+    if (selected.length === size) break;
+    if (!selected.some(previous => previous.source.includes(row.source) || row.source.includes(previous.source))) selected.push(row);
+  }
+  return selected.map(r => r.id).sort();
 }
 export function createState(data, participantId = crypto.randomUUID()) {
   const cohortIds = cohortFor(data, participantId); const order = shuffled(cohortIds, seededRandom(hashSeed(`${data.version}:${COHORT_ALGORITHM}:${participantId}:order`)));
