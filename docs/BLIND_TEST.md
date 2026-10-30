@@ -57,6 +57,8 @@ node --test site/tests/logic.test.mjs backend/worker.test.js
 
 Browser acceptance should cover: no identities before choice; reveal after choice; all assigned rounds; reload persistence; different cohort for a different browser ID; shared acknowledgement; duplicate retry; two independent browser IDs; aggregate consistency; failed API fallback; deletion; keyboard and narrow layout. Remove the test participants' votes afterward. Do not publish invented seed statistics.
 
+The reading interface also supports previous-round and numbered navigation, local skips without votes, text-size controls and a single-column layout. Old valid states without a `skipped` field remain usable. A skipped item remains available in history; it never enters the shared counter. The current-results selector uses each round's explicit `comparisonGroup`, generated from the recorded review coverage. Browser totals are shown only for the whole dataset, because the API does not provide subgroup distinct-browser counts. `resultsViewedAt` and later choices' `resultsSeenBeforeChoice` are local history only; the server does not collect those flags, so aggregate results cannot be filtered by that exposure.
+
 ## Interpretation and abuse limits
 
 Counts are preferences for these particular historical and generated outputs. One browser can cast one vote per fragment/version. A new device, cleared storage, or a forged public API client can create another pseudonymous participant. Origin checks and a daily hashed-IP limit deter ordinary mistakes and excessive requests; they do not turn the pilot into an authenticated research study. The dashboard calls the distinct identifiers browsers, not unique people.

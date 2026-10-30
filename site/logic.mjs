@@ -27,7 +27,7 @@ export function cohortFor(data, participantId) {
 }
 export function createState(data, participantId = crypto.randomUUID()) {
   const cohortIds = cohortFor(data, participantId); const order = shuffled(cohortIds, seededRandom(hashSeed(`${data.version}:${COHORT_ALGORITHM}:${participantId}:order`)));
-  return { version: data.version, cohortAlgorithm: COHORT_ALGORITHM, participantId, cohortIds, order, candidateOrders: Object.fromEntries(cohortIds.map(id => [id, shuffled(data.rounds.find(r => r.id === id).candidates.map(c => c.id), seededRandom(hashSeed(`${data.version}:${participantId}:${id}:candidates`)))])), choices: {}, index: 0 };
+  return { version: data.version, cohortAlgorithm: COHORT_ALGORITHM, participantId, cohortIds, order, candidateOrders: Object.fromEntries(cohortIds.map(id => [id, shuffled(data.rounds.find(r => r.id === id).candidates.map(c => c.id), seededRandom(hashSeed(`${data.version}:${participantId}:${id}:candidates`)))])), choices: {}, skipped: [], index: 0 };
 }
 export function validState(state, data) {
   if (!state || state.version !== data.version || state.cohortAlgorithm !== COHORT_ALGORITHM || typeof state.participantId !== 'string' || !/^[a-f0-9-]{36}$/i.test(state.participantId)) return false;
@@ -35,6 +35,8 @@ export function validState(state, data) {
   const ids = data.rounds.map(r => r.id);
   if (!Array.isArray(state.order) || state.order.length !== expectedCohort.length || new Set(state.order).size !== expectedCohort.length || state.order.some(id => !expectedCohort.includes(id))) return false;
   if (!Number.isInteger(state.index) || state.index < 0 || state.index >= state.order.length || !state.choices || typeof state.choices !== 'object') return false;
+  if (state.skipped !== undefined && (!Array.isArray(state.skipped) || new Set(state.skipped).size !== state.skipped.length || state.skipped.some(id => !expectedCohort.includes(id) || state.choices[id]))) return false;
+  if (state.resultsViewedAt !== undefined && (!Number.isSafeInteger(state.resultsViewedAt) || state.resultsViewedAt < 0)) return false;
   for (const round of data.rounds.filter(r => expectedCohort.includes(r.id))) {
     const order = state.candidateOrders?.[round.id];
     if (!Array.isArray(order) || order.length !== round.candidates.length || new Set(order).size !== round.candidates.length || !order.every(id => round.candidates.some(c => c.id === id))) return false;
@@ -52,6 +54,30 @@ export function personalCounts(state, data) {
   return counts;
 }
 export function percentage(count, total) { return total ? Math.round(count / total * 100) : 0; }
+export function nextUnanswered(state, from = state.index) {
+  for (let step = 1; step <= state.order.length; step++) {
+    const index = (from + step) % state.order.length;
+    const id = state.order[index];
+    if (!state.choices[id] && !(state.skipped || []).includes(id)) return index;
+  }
+  return -1;
+}
+export function countsForGroup(payload, group = 'all', rounds = []) {
+  const counts = Object.fromEntries(METHODS.map(method => [method, 0]));
+  if (group === 'all') return payload.methods;
+  if (!['original', 'new'].includes(group) || !rounds.length) throw new Error('missing comparison groups');
+  const desired = group === 'new' ? 'shared_context' : 'original';
+  const groups = new Map(rounds.map(round => [round.id, round.comparisonGroup]));
+  for (const [id, row] of Object.entries(payload.fragments || {})) {
+    if (!['original','shared_context'].includes(groups.get(id))) throw new Error('unknown comparison group');
+    if (groups.get(id) !== desired) continue;
+    for (const method of METHODS) {
+      if (!Number.isSafeInteger(row[method]) || row[method] < 0) throw new Error('invalid fragment counts');
+      counts[method] += row[method];
+    }
+  }
+  return counts;
+}
 export function rememberLegacy(saved, legacy, currentVersion) {
   if (!Array.isArray(legacy)) legacy = [];
   if (!saved?.version || saved.version === currentVersion || !/^[a-f0-9-]{36}$/i.test(saved.participantId || '')) return legacy;

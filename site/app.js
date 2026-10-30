@@ -1,4 +1,4 @@
-import { METHODS, createState, validState, personalCounts, percentage, rememberLegacy } from './logic.mjs';
+import { METHODS, createState, validState, personalCounts, percentage, rememberLegacy, nextUnanswered, countsForGroup } from './logic.mjs';
 
 const $ = id => document.getElementById(id);
 const STORAGE = 'blind-translation-v1';
@@ -12,6 +12,9 @@ const REACTIONS = {
 let data, config, state, screen = 'home', memoryOnly = false, eraseBusy = false;
 const LEGACY_STORAGE = 'blind-translation-legacy-participants-v1';
 const inFlight = new Map();
+let statsRequest = 0;
+let reading = { size: 18, single: false };
+try { const saved = JSON.parse(localStorage.getItem('blind-reading-settings')); if (saved && [16,18,20,22,24].includes(saved.size) && typeof saved.single === 'boolean') reading = saved; } catch {}
 
 function el(tag, className, text) { const node = document.createElement(tag); if (className) node.className = className; if (text !== undefined) node.textContent = text; return node; }
 function safeLink(label, href) { const a = el('a', '', label); a.href = href; a.target = '_blank'; a.rel = 'noopener noreferrer'; return a; }
@@ -19,20 +22,46 @@ function persist() { try { localStorage.setItem(STORAGE, JSON.stringify(state));
 function toast(text) { $('toast').textContent = text; $('toast').hidden = false; clearTimeout(toast.timer); toast.timer = setTimeout(() => { $('toast').hidden = true; }, 4000); }
 function pluralRu(n, one, few, many) { const last = n % 10, lastTwo = n % 100; return lastTwo >= 11 && lastTwo <= 14 ? many : last === 1 ? one : last >= 2 && last <= 4 ? few : many; }
 function answered() { return Object.keys(state.choices).length; }
+function pendingCount() { return state.order.filter(id => !state.choices[id] && !(state.skipped || []).includes(id)).length; }
 function currentRound() { return data.rounds.find(r => r.id === state.order[state.index]); }
+function readingSettings() {
+  document.documentElement.style.setProperty('--reading-size', `${reading.size}px`);
+  $('candidates').classList.toggle('single-column', reading.single);
+  $('text-size').textContent = `${reading.size} px`;
+  $('text-smaller').disabled = reading.size <= 16;
+  $('text-larger').disabled = reading.size >= 24;
+  $('reading-layout').setAttribute('aria-pressed', String(reading.single));
+  $('reading-layout').textContent = reading.single ? 'Сравнить в две колонки' : 'В одну колонку';
+  try { localStorage.setItem('blind-reading-settings', JSON.stringify(reading)); } catch {}
+}
+function goToRound(index) {
+  if (!Number.isInteger(index) || index < 0 || index >= state.order.length) return;
+  state.index = index; persist(); $('source-text').closest('details').open = false; $('round-list').closest('details').open = false; show('arena');
+}
+function renderRoundList() {
+  $('round-list').replaceChildren();
+  $('rounds-summary').textContent = `${answered()} выбрано · ${(state.skipped || []).length} пропущено`;
+  state.order.forEach((id, index) => {
+    const status = state.choices[id] ? 'выбран' : (state.skipped || []).includes(id) ? 'пропущен' : 'без выбора';
+    const button = el('button', 'round-number', `${index + 1}${state.choices[id] ? ' ✓' : (state.skipped || []).includes(id) ? ' —' : ''}`);
+    button.setAttribute('aria-label', `Раунд ${index + 1}, ${status}`);
+    if (index === state.index) button.setAttribute('aria-current', 'step');
+    button.addEventListener('click', () => goToRound(index)); $('round-list').append(button);
+  });
+}
 function show(view, focus = true) {
   screen = view;
+  if (view === 'results' && !state.resultsViewedAt) { state.resultsViewedAt = Date.now(); persist(); }
   for (const id of ['home', 'arena', 'results']) $(id).hidden = id !== view;
   $('ground-rules').hidden = view !== 'home';
   if (view === 'arena') renderRound();
   if (view === 'results') renderResults();
   if (focus) { window.scrollTo({ top: 0, behavior: 'instant' }); $('main').focus({ preventScroll: true }); }
 }
-function updateStart() { $('start-button').textContent = answered() ? `Продолжить · ${answered()} из ${state.order.length} ↗` : 'Начать вслепую ↗'; $('start-button').disabled = false; $('home-results-button').disabled = false; }
+function updateStart() { $('start-button').textContent = !pendingCount() ? 'Открыть итоги ↗' : answered() || (state.skipped || []).length ? `Продолжить · ${answered()} выбрано ↗` : 'Начать вслепую ↗'; $('start-button').disabled = false; $('home-results-button').disabled = false; }
 function start() {
-  if (answered() === state.order.length) { show('results'); return; }
-  const index = state.order.findIndex(id => !state.choices[id]);
-  if (index >= 0) state.index = index;
+  if (!pendingCount()) { show('results'); return; }
+  if (state.choices[state.order[state.index]] || (state.skipped || []).includes(state.order[state.index])) state.index = nextUnanswered(state);
   persist(); show('arena');
 }
 function renderRound() {
@@ -40,11 +69,12 @@ function renderRound() {
   $('progress-text').textContent = `ВЫБРАНО ${answered()} / ${state.order.length}`;
   $('progress-fill').style.width = `${answered() / state.order.length * 100}%`;
   $('round-label').textContent = `РАУНД ${state.index + 1} / ${state.order.length} · ${choice ? 'МАСКИ СНЯТЫ' : 'АВТОРСТВО СКРЫТО'}`;
-  $('round-title').textContent = choice ? 'Твой выбор.\nБез фильтров.' : 'Какой вариант\nпопал в нерв?';
+  $('round-title').textContent = choice ? 'Твой выбор — сохранён.' : 'Какой вариант хочется читать?';
   $('round-title').style.whiteSpace = 'pre-line';
   $('round-tag').textContent = round.tag;
   $('source-text').textContent = round.source;
   $('source-credit').textContent = `${round.author} · ${round.title}`;
+  $('source-link').href = round.sourceUrl;
   $('arena-hint').textContent = choice ? 'Сравни впечатление с лейблом. Изменить отправленный выбор нельзя.' : 'Читай в любом порядке. Авторство покажем только после твоего выбора.';
   $('candidates').replaceChildren();
   state.candidateOrders[round.id].forEach((id, index) => {
@@ -55,7 +85,8 @@ function renderRound() {
     if (!choice) {
       const button = el('button', 'vote-button', 'Беру этот ↗'); button.setAttribute('aria-label', `Выбрать вариант ${['А', 'Б', 'В', 'Г'][index]}`); button.addEventListener('click', () => choose(round.id, id)); card.append(button);
     } else {
-      const identity = el('div', 'identity');
+      const identity = el('details', 'identity');
+      identity.append(el('summary', '', `${selected ? '✓ Твой выбор · ' : ''}${LABELS[candidate.method]} · источник`));
       if (selected) identity.append(el('span', 'choice-badge', '✓ ТВОЙ ВЫБОР'));
       identity.append(el('strong', '', LABELS[candidate.method]), el('p', '', candidate.credit), el('p', '', candidate.note));
       if (candidate.sourceUrl) identity.append(safeLink('Источник перевода ↗', candidate.sourceUrl));
@@ -66,16 +97,21 @@ function renderRound() {
   const panel = $('reveal-panel'); panel.hidden = !choice; panel.replaceChildren();
   if (choice) {
     const candidate = round.candidates.find(c => c.id === choice.candidateId); const [title, text] = REACTIONS[candidate.method];
-    const body = el('div'); body.append(el('h3', '', title), el('p', '', text)); panel.append(el('span', 'reveal-icon', '↗'), body);
+    const explanation = round.comparisonGroup === 'shared_context' && candidate.method !== 'published' ? 'Этот AI-вариант создан в общем контексте с другими переводами. Сравнивай сами тексты; такой выбор не измеряет отдельный эффект навыка.' : text;
+    const body = el('div'); body.append(el('h3', '', title), el('p', '', explanation)); panel.append(el('span', 'reveal-icon', '↗'), body);
   }
   $('next-button').hidden = !choice;
-  $('round-results-button').hidden = !choice;
-  $('next-button').textContent = answered() === state.order.length ? 'Посмотреть мой вкус ↗' : 'Следующий раунд →';
+  $('next-button').textContent = pendingCount() ? 'Дальше →' : 'К итогам ↗';
+  $('skip-button').hidden = !!choice;
+  $('skip-button').textContent = (state.skipped || []).includes(round.id) ? 'Оставить пропущенным →' : 'Пропустить →';
+  $('previous-button').disabled = state.index === 0;
+  renderRoundList(); readingSettings();
   renderSync(); updateStart();
 }
 function choose(roundId, candidateId) {
   if (state.choices[roundId] || eraseBusy) return;
-  state.choices[roundId] = { candidateId, voteId: crypto.randomUUID(), status: 'pending', selectedAt: Date.now() };
+  state.skipped = (state.skipped || []).filter(id => id !== roundId);
+  state.choices[roundId] = { candidateId, voteId: crypto.randomUUID(), status: 'pending', selectedAt: Date.now(), resultsSeenBeforeChoice: !!state.resultsViewedAt };
   persist(); renderRound();
   submit(roundId);
 }
@@ -93,6 +129,7 @@ async function submit(roundId) {
   const choice = state.choices[roundId]; if (!choice || choice.status === 'saved' || eraseBusy) return;
   choice.status = 'pending'; persist(); if (screen === 'arena' && currentRound().id === roundId) renderSync();
   const body = { dataset: data.version, fragmentId: roundId, candidateId: choice.candidateId, participantId: state.participantId, voteId: choice.voteId };
+  const submittedCandidateId = choice.candidateId;
   const task = (async () => {
     try {
       const { response, payload } = await api('/votes', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) });
@@ -102,12 +139,15 @@ async function submit(roundId) {
         choice.candidateId = payload.candidateId; choice.status = 'saved';
         toast('У этого браузера уже был голос за этот текст. Показываем сохранённый выбор.');
       } else if (response.ok && payload.dataset === data.version && payload.candidateId === choice.candidateId && payload.fragmentId === roundId && typeof payload.voteId === 'string' && /^[a-f0-9-]{36}$/i.test(payload.voteId)) { choice.status = 'saved'; choice.voteId = payload.voteId; }
-      else if (response.status === 410 && payload.error === 'participant_erased') { state = createState(data); persist(); choice.status = 'failed'; choice.error = 'participant_erased'; toast('Эта сессия уже удалена. Создали новый локальный идентификатор.'); }
+      else if (response.status === 410 && payload.error === 'participant_erased') { state = createState(data); persist(); updateStart(); show('home'); toast('Эта сессия уже удалена. Создали новый локальный идентификатор.'); }
       else { choice.status = 'failed'; choice.error = payload.error || 'unavailable'; }
     } catch { choice.status = 'failed'; choice.error = 'network'; }
     finally {
       inFlight.delete(roundId); persist();
-      if (screen === 'arena' && currentRound().id === roundId) renderRound();
+      if (screen === 'arena' && currentRound().id === roundId) {
+        if (choice.candidateId !== submittedCandidateId) renderRound();
+        else renderSync();
+      }
       if (screen === 'results') renderResults();
     }
   })();
@@ -115,7 +155,7 @@ async function submit(roundId) {
 }
 function renderSync() {
   const choice = state.choices[currentRound().id]; const target = $('sync-status'); target.replaceChildren();
-  if (!choice) { target.textContent = memoryOnly ? 'Хранилище браузера недоступно: прогресс сохранится только до закрытия страницы.' : 'Один выбор на текст. При перезагрузке прогресс останется в этом браузере.'; return; }
+  if (!choice) { target.textContent = memoryOnly ? 'Хранилище браузера недоступно: прогресс сохранится только до закрытия страницы.' : (state.skipped || []).includes(currentRound().id) ? 'Фрагмент пропущен без голоса. Можно прочитать его и выбрать вариант сейчас.' : 'Можно пропустить фрагмент без голоса. Прогресс сохранится в этом браузере.'; return; }
   if (choice.status === 'saved') target.textContent = '✓ Голос принят общим счётчиком.';
   else if (choice.status === 'pending') target.textContent = 'Выбор сохранён здесь. Отправляем в общий счётчик…';
   else {
@@ -124,49 +164,72 @@ function renderSync() {
   }
 }
 function next() {
-  if (answered() === state.order.length) { show('results'); return; }
-  const nextIndex = state.order.findIndex((id, i) => i > state.index && !state.choices[id]);
-  state.index = nextIndex >= 0 ? nextIndex : state.order.findIndex(id => !state.choices[id]); persist(); $('source-text').closest('details').open = false; show('arena');
+  const index = nextUnanswered(state);
+  if (index < 0) { show('results'); return; }
+  goToRound(index);
+}
+function skip() {
+  const id = currentRound().id;
+  if (state.choices[id] || eraseBusy) return;
+  state.skipped = [...new Set([...(state.skipped || []), id])];
+  persist(); updateStart(); next();
 }
 function renderResults() {
   const n = answered(); const counts = personalCounts(state, data); const highest = Math.max(...Object.values(counts));
   $('results-title').textContent = n ? 'Вот какой\nу тебя вкус.' : 'Итоги\nголосования.';
   $('results-title').style.whiteSpace = 'pre-line';
   $('personal-caption').textContent = n ? `Ты выбрал ${n} ${n === 1 ? 'фрагмент' : n < 5 ? 'фрагмента' : 'фрагментов'} из ${state.order.length}. Это профиль твоих предпочтений в этой подборке. Не экзамен. И не диагноз.` : 'Твоих голосов пока нет. Общие итоги — ниже.';
+  const saved = Object.values(state.choices).filter(choice => choice.status === 'saved').length;
+  $('personal-caption').textContent += ` Пропущено: ${(state.skipped || []).length}. Сервер подтвердил ${saved} из ${n} голосов.`;
+  const afterResults = Object.values(state.choices).filter(choice => choice.resultsSeenBeforeChoice).length;
+  if (afterResults) $('personal-caption').textContent += ` После просмотра итогов сделано ${afterResults} ${pluralRu(afterResults, 'выбор', 'выбора', 'выборов')}.`;
   $('personal-result').hidden = !n;
   $('share-button').hidden = !n;
   $('personal-result').replaceChildren();
   for (const method of METHODS) { const card = el('div', `score-card${counts[method] && counts[method] === highest ? ' leading' : ''}`); card.append(el('span', '', 'ТВОЙ ВЫБОР'), el('strong', '', `${counts[method]} / ${n}`), el('p', '', LABELS[method])); $('personal-result').append(card); }
-  $('continue-button').textContent = !n ? 'Начать вслепую ↗' : n === state.order.length ? 'Посмотреть раунды ещё раз ↗' : 'Вернуться на ринг ↗';
+  $('continue-button').textContent = !pendingCount() ? (state.skipped || []).length ? 'Вернуться к пропущенным ↗' : 'Перечитать раунды ↗' : 'Продолжить чтение ↗';
   $('history-list').replaceChildren();
   for (const [index, id] of state.order.entries()) {
-    const choice = state.choices[id]; if (!choice) continue;
+    const choice = state.choices[id];
+    if (!choice && !(state.skipped || []).includes(id)) continue;
+    if (!choice) {
+      const row = el('div', 'history-item'); row.append(el('span', '', `РАУНД ${index + 1} · пропущен, голоса нет`));
+      const button = el('button', 'text-button', 'Прочитать ↗'); button.addEventListener('click', () => goToRound(index)); row.append(button); $('history-list').append(row); continue;
+    }
     const round = data.rounds.find(r => r.id === id); const candidate = round.candidates.find(c => c.id === choice.candidateId);
-    const row = el('div', 'history-item'); const copy = el('div'); copy.append(el('span', '', `РАУНД ${index + 1} · ${round.author}`), el('b', '', LABELS[candidate.method]), el('span', '', choice.status === 'saved' ? 'В общем счётчике' : 'Пока только в этом браузере'));
+    const row = el('div', 'history-item'); const copy = el('div'); copy.append(el('span', '', `РАУНД ${index + 1} · ${round.author}`), el('b', '', LABELS[candidate.method]), el('span', '', (choice.status === 'saved' ? 'В общем счётчике' : 'Пока только в этом браузере') + (choice.resultsSeenBeforeChoice ? ' · после просмотра итогов' : '')));
     const button = el('button', 'text-button', 'Перечитать ↗'); button.addEventListener('click', () => { state.index = index; persist(); show('arena'); }); row.append(copy, button); $('history-list').append(row);
   }
-  if (!n) $('history-list').append(el('p', 'section-description', 'Пока здесь чистый лист.'));
+  if (!n && !(state.skipped || []).length) $('history-list').append(el('p', 'section-description', 'Пока здесь чистый лист.'));
   renderWorld();
   renderPreviousWorld();
 }
 async function renderWorld() {
   const target = $('world-stats');
+  const requestId = ++statsRequest;
+  const group = $('stats-group').value;
+  $('stats-context').textContent = group === 'new' ? 'Эти варианты созданы в одном общем контексте с доступом к историческому переводу. Их голоса показывают предпочтение среди этих текстов.' : group === 'original' ? 'Первые 30: исходные генерации со skill и без него выполнялись отдельно; поздняя редактура уже имела доступ к другим переводам.' : 'В подборке разные условия генерации. Для сравнения подходов смотри группы отдельно; общий процент не доказывает пользу навыка.';
   target.replaceChildren(el('p', 'section-description', 'Считаем голоса…'));
   try {
     const { response, payload } = await api(`/stats?dataset=${encodeURIComponent(data.version)}`);
-    if (!response.ok || !Number.isSafeInteger(payload.totalVotes) || !Number.isSafeInteger(payload.participantBrowsers)) throw new Error('stats');
-    const counts = payload.methods;
-    if (!METHODS.every(m => Number.isSafeInteger(counts?.[m]) && counts[m] >= 0) || METHODS.reduce((n, m) => n + counts[m], 0) !== payload.totalVotes) throw new Error('stats');
+    if (requestId !== statsRequest) return;
+    if (!response.ok || payload.dataset !== data.version || !Number.isSafeInteger(payload.totalVotes) || !Number.isSafeInteger(payload.participantBrowsers)) throw new Error('stats');
+    if (!METHODS.every(m => Number.isSafeInteger(payload.methods?.[m]) && payload.methods[m] >= 0) || METHODS.reduce((n,m) => n + payload.methods[m],0) !== payload.totalVotes) throw new Error('stats');
+    if (group !== 'all' && (!payload.fragments || Object.keys(payload.fragments).length !== data.rounds.length || data.rounds.some(r => !Object.hasOwn(payload.fragments,r.id)))) throw new Error('stats');
+    const counts = countsForGroup(payload, group, data.rounds);
+    const total = METHODS.reduce((n,m) => n + counts[m],0);
     target.replaceChildren();
     const totals = el('div', 'world-counts');
-    for (const [number, text] of [[payload.totalVotes, pluralRu(payload.totalVotes, 'голос', 'голоса', 'голосов')], [payload.participantBrowsers, pluralRu(payload.participantBrowsers, 'браузер', 'браузера', 'браузеров')]]) { const item = el('span'); item.append(el('b', '', String(number)), document.createTextNode(text)); totals.append(item); }
+    const metrics = [[total, pluralRu(total, 'голос', 'голоса', 'голосов')]];
+    if (group === 'all') metrics.push([payload.participantBrowsers, pluralRu(payload.participantBrowsers, 'браузер', 'браузера', 'браузеров')]);
+    for (const [number, text] of metrics) { const item = el('span'); item.append(el('b', '', String(number)), document.createTextNode(text)); totals.append(item); }
     target.append(totals);
-    if (!payload.totalVotes) { target.append(el('p', 'empty-stats', 'Первый голос ещё не добрался до сервера. Попробуй обновить через пару секунд — или отправь свой выбор снова.')); return; }
+    if (!total) { target.append(el('p', 'empty-stats', 'В этой подборке пока нет голосов. Можно начать читать или вернуться позже.')); return; }
     for (const method of METHODS) {
-      const row = el('div', 'stat-row'); const bar = el('div', 'stat-bar'); const fill = el('div'); fill.style.width = `${percentage(counts[method], payload.totalVotes)}%`; bar.append(fill);
-      row.append(el('span', '', LABELS[method]), bar, el('span', 'stat-percent', `${percentage(counts[method], payload.totalVotes)}%`)); row.setAttribute('aria-label', `${LABELS[method]}: ${counts[method]} из ${payload.totalVotes} голосов`); target.append(row);
+      const row = el('div', 'stat-row'); const bar = el('div', 'stat-bar'); const fill = el('div'); fill.style.width = `${percentage(counts[method], total)}%`; bar.append(fill);
+      row.append(el('span', '', LABELS[method]), bar, el('span', 'stat-percent', `${counts[method]} · ${percentage(counts[method], total)}%`)); row.setAttribute('aria-label', `${LABELS[method]}: ${counts[method]} из ${total} голосов`); target.append(row);
     }
-  } catch { target.replaceChildren(el('p', 'empty-stats', 'Общий счётчик сейчас не отвечает. Никаких нарисованных процентов: твои локальные выборы на месте. Попробуй «Обновить».')); }
+  } catch { if (requestId === statsRequest) target.replaceChildren(el('p', 'empty-stats', 'Общий счётчик сейчас не отвечает. Твои локальные выборы на месте. Попробуй «Обновить».')); }
 }
 async function renderPreviousWorld() {
   const target = $('previous-stats');
@@ -239,12 +302,22 @@ $('home-button').addEventListener('click', () => show('home'));
 document.querySelectorAll('a[href="#"]').forEach(a => a.addEventListener('click', event => { event.preventDefault(); if (data) show('home'); }));
 $('profile-button').addEventListener('click', () => show('results'));
 $('next-button').addEventListener('click', next);
-$('continue-button').addEventListener('click', () => answered() === state.order.length ? (state.index = 0, show('arena')) : start());
+$('skip-button').addEventListener('click', skip);
+$('previous-button').addEventListener('click', () => goToRound(state.index - 1));
+$('text-smaller').addEventListener('click', () => { reading.size = Math.max(16, reading.size - 2); readingSettings(); });
+$('text-larger').addEventListener('click', () => { reading.size = Math.min(24, reading.size + 2); readingSettings(); });
+$('reading-layout').addEventListener('click', () => { reading.single = !reading.single; readingSettings(); });
+$('continue-button').addEventListener('click', () => {
+  if (pendingCount()) { start(); return; }
+  const skippedIndex = state.order.findIndex(id => (state.skipped || []).includes(id));
+  goToRound(skippedIndex < 0 ? 0 : skippedIndex);
+});
 for (const id of ['method-button', 'footer-method']) $(id).addEventListener('click', () => showDialog('method'));
 for (const id of ['privacy-button', 'footer-privacy']) $(id).addEventListener('click', () => showDialog('privacy'));
 $('close-dialog').addEventListener('click', () => $('info-dialog').close());
 $('info-dialog').addEventListener('click', e => { if (e.target === $('info-dialog')) { const r = e.target.getBoundingClientRect(); if (e.clientX < r.left || e.clientX > r.right || e.clientY < r.top || e.clientY > r.bottom) e.target.close(); } });
 $('refresh-stats').addEventListener('click', () => { renderWorld(); renderPreviousWorld(); });
+$('stats-group').addEventListener('change', renderWorld);
 $('share-button').addEventListener('click', async () => { const c = personalCounts(state, data); const message = `Мой вкус в «Без лица»: AI + навыки ${c.skilled}, опубликованный ${c.published}, AI короткий запрос ${c.baseline}, AI с редактурой ${c.reviewed}. Выбирай вслепую: ${location.href.split('#')[0]}`; try { await navigator.clipboard.writeText(message); toast('Результат скопирован. Пускай друзья тоже снимут погоны.'); } catch { toast('Буфер обмена недоступен. Ссылку на сайт можно скопировать из адресной строки.'); } });
 
 async function init() {

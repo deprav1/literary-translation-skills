@@ -15,7 +15,10 @@ def main():
     skilled=json.loads((RESEARCH/'skilled.json').read_text(encoding='utf8'))
     baseline=json.loads((RESEARCH/'baseline.json').read_text(encoding='utf8'))
     reviewed=json.loads((RESEARCH/'reviewed.json').read_text(encoding='utf8'))
+    audit=json.loads((RESEARCH/'literary-review.json').read_text(encoding='utf8'))
+    shared_context_ids=set(audit['new_excerpts']['ids'])
     expected={r['id'] for r in selected}
+    assert shared_context_ids <= expected and set(audit['coverage'])==expected
     assert len(selected)>=30 and len(expected)==len(selected)
     assert {r['id'] for r in skilled}=={r['id'] for r in baseline}=={r['id'] for r in reviewed}==expected
     assert len(skilled)==len(baseline)==len(reviewed)==len(selected)
@@ -29,11 +32,11 @@ def main():
             candidate_id=digest([row['id'],method,text])[:16]
             registry[row['id']][candidate_id]=method
             notes={'skilled':'Один независимый ответ с literary-translation-craft. Без ручной доработки.','published':'Исторический опубликованный перевод. Цифровая транскрипция в современной орфографии.','baseline':'Один независимый ответ на просьбу перевести. Без подключённого навыка и ручной доработки.','reviewed':'AI перевёл фрагменты и отдельно сверил их с оригиналами, учитывая контекст произведений. Человеческой редакторской проверки не было.'}
-            if row['id'].startswith('cat-') and method!='published':
+            if row['id'] in shared_context_ids and method!='published':
                 notes[method]='Новый отрывок: все AI-варианты созданы одной моделью в общем контексте, где был доступен исторический перевод; условия не изолированы. Редактура также модельная.'
-            credit=row['translator']+' · '+row['published'] if method=='published' else ('GPT-6.1 Terra · 29.10.2026' if row['id'].startswith('cat-') else ('GPT-6.1 Terra · перевод и редактура · 29.10.2026' if method=='reviewed' else 'GPT-6.1 Terra · reasoning medium · 29.10.2026'))
+            credit=row['translator']+' · '+row['published'] if method=='published' else ('GPT-6.1 Terra · 29.10.2026' if row['id'] in shared_context_ids else ('GPT-6.1 Terra · перевод и редактура · 29.10.2026' if method=='reviewed' else 'GPT-6.1 Terra · reasoning medium · 29.10.2026'))
             variants.append({'id':candidate_id,'method':method,'text':text,'credit':credit,'note':notes[method],'sourceUrl':row['human_url'] if method=='published' else 'https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json'})
-        rounds.append({'id':row['id'],'author':row['author'],'title':row['title'],'tag':row['tag'],'source':row['source_text'],'sourceUrl':row['source_url'],'candidates':variants})
+        rounds.append({'id':row['id'],'author':row['author'],'title':row['title'],'tag':row['tag'],'source':row['source_text'],'sourceUrl':row['source_url'],'comparisonGroup':'shared_context' if row['id'] in shared_context_ids else 'original','candidates':variants})
     data={'version':version,'cohortSize':20,'previousDataset':'blind-v3-bd065db04a20','rounds':rounds}
     (ROOT/'site/data.json').write_text(json.dumps(data,ensure_ascii=False,indent=2),encoding='utf8')
     legacy=json.loads((RESEARCH/'legacy_catalog.json').read_text(encoding='utf8'))

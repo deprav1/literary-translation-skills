@@ -2,7 +2,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { webcrypto } from 'node:crypto';
-import { createState, validState, shuffled, personalCounts, rememberLegacy } from '../logic.mjs';
+import { createState, validState, shuffled, personalCounts, rememberLegacy, nextUnanswered, countsForGroup } from '../logic.mjs';
 globalThis.crypto ??= webcrypto;
 const data = JSON.parse(await readFile(new URL('../data.json', import.meta.url), 'utf8'));
 
@@ -64,4 +64,40 @@ test('a dataset update preserves the old identity and personal choices once', ()
   assert.equal(legacy[0].participantId, saved.participantId);
   assert.deepEqual(legacy[0].choices, saved.choices);
   assert.equal(rememberLegacy(saved, legacy, data.version).length, 1);
+});
+test('skipping creates no vote, survives reload and leaves the passage available for a later choice', () => {
+  const state = createState(data, '00000000-0000-4000-8000-000000000009');
+  const first = state.order[0];
+  state.skipped.push(first);
+  const restored = JSON.parse(JSON.stringify(state));
+  assert.equal(validState(restored,data),true);
+  assert.equal(Object.values(personalCounts(restored,data)).reduce((a,b)=>a+b,0),0);
+  assert.equal(nextUnanswered(restored),1);
+  restored.skipped = [...restored.order];
+  assert.equal(nextUnanswered(restored),-1);
+  restored.index = 0;
+  restored.skipped = restored.skipped.filter(id => id !== first);
+  restored.choices[first] = {candidateId:data.rounds.find(r=>r.id===first).candidates[0].id, voteId:crypto.randomUUID(), status:'pending'};
+  assert.equal(validState(restored,data),true);
+  assert.equal(Object.values(personalCounts(restored,data)).reduce((a,b)=>a+b,0),1);
+});
+test('old saved states keep their votes when optional skip tracking is introduced', () => {
+  const state = createState(data, '00000000-0000-4000-8000-000000000010');
+  delete state.skipped;
+  assert.equal(validState(state,data),true);
+  assert.equal(nextUnanswered(state),1);
+  state.skipped = ['not-in-this-cohort'];
+  assert.equal(validState(state,data),false);
+});
+test('statistics keep shared-context items separate and count only their actual votes', () => {
+  const payload = {methods:{skilled:3,published:1,baseline:2,reviewed:0}, fragments:{'poe-nerves':{skilled:3,published:0,baseline:1,reviewed:0},'cat-01':{skilled:0,published:1,baseline:1,reviewed:0}}};
+  const rounds = [{id:'poe-nerves',comparisonGroup:'original'},{id:'cat-01',comparisonGroup:'shared_context'}];
+  assert.deepEqual(countsForGroup(payload,'original',rounds),{skilled:3,published:0,baseline:1,reviewed:0});
+  assert.deepEqual(countsForGroup(payload,'new',rounds),{skilled:0,published:1,baseline:1,reviewed:0});
+  assert.deepEqual(countsForGroup(payload),payload.methods);
+  // Labels, not ID spelling, determine assignment when adding another work.
+  rounds[0].comparisonGroup = 'shared_context';
+  assert.deepEqual(countsForGroup(payload,'new',rounds),payload.methods);
+  payload.fragments['cat-01'].baseline=-1;
+  assert.throws(()=>countsForGroup(payload,'new',rounds));
 });

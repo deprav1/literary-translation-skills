@@ -34,6 +34,8 @@ def main():
     assert set(audit['coverage'])==set(v) and len(audit['coverage'])==len(v)
     new_ids=set(audit['new_excerpts']['ids'])
     assert new_ids == set(v) - set(old_reviewed)
+    for round in data['rounds']:
+        assert round['comparisonGroup']==('shared_context' if round['id'] in new_ids else 'original')
     decisions={row['id']:row for row in audit['decisions']}
     assert len(decisions)==audit['decision_count']==len(audit['decisions'])
     for id,text in v.items():

@@ -1,0 +1,49 @@
+/* Reading controls and passage navigation share the existing paper palette. */
+:root { --reading-size: 18px; }
+.arena .round-heading { margin: 25px 0; gap: 18px; }
+.arena .round-heading h2 { font-size: clamp(28px, 3.8vw, 48px); letter-spacing: -1.5px; line-height: 1.13; text-wrap: balance; }
+.arena .round-stamp { flex-shrink: 0; margin-top: 0; }
+.arena-top { gap: 16px; }
+.hero-actions { flex-wrap: wrap; }
+button:disabled { cursor: default; }
+.round-navigation { border-block: 1px solid var(--line); margin-bottom: 16px; }
+.round-navigation summary { cursor: pointer; padding: 12px 0; font-size: 13px; }
+.round-navigation summary span { margin-left: 8px; color: var(--muted); font-size: 12px; }
+.round-navigation p { font-size: 12px; color: var(--muted); }
+#round-list { display: flex; flex-wrap: wrap; gap: 8px; padding-block: 8px; }
+.round-number { min-width: 44px; min-height: 44px; border: 1px solid var(--line); background: var(--white); font-size: 13px; }
+.round-number[aria-current] { border: 2px solid var(--ink); background: var(--lime); font-weight: 700; }
+summary:focus-visible, select:focus-visible { outline: 3px solid var(--orange); outline-offset: 3px; }
+.reading-controls { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 24px; margin-block: 14px; font-size: 13px; }
+.reading-controls [role=group] { display: flex; align-items: center; gap: 8px; }
+.reading-controls button { min-height: 44px; padding: 8px 12px; border: 1px solid var(--line); background: var(--white); }
+.reading-controls button[aria-pressed=true] { border-color: var(--ink); background: var(--lime); }
+#text-size { min-width: 42px; text-align: center; font: 12px var(--mono); }
+.arena .candidate-text, #source-text { font-size: var(--reading-size); line-height: 1.85; overflow-wrap: anywhere; }
+.arena .candidate-grid { align-items: start; gap: 24px; }
+.arena .candidate { min-width: 0; padding: 26px; }
+.candidate-grid.single-column { grid-template-columns: minmax(0,1fr); max-width: 850px; margin-inline: auto; }
+.identity summary { cursor: pointer; min-height: 44px; padding-block: 10px; font-size: 13px; font-weight: 600; }
+.identity p, .identity a { font-size: 12px; line-height: 1.7; }
+#source-link { display: inline-block; margin: 0 20px 16px; font-size: 13px; text-underline-offset: 3px; }
+.round-footer { align-items: start; }
+.round-footer .sync-status { max-width: 42%; }
+.round-actions { justify-content: flex-end; }
+.round-actions button { min-height: 44px; }
+.stats-filter { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; font-size: 14px; }
+.stats-filter select { background: var(--white); color: var(--ink); border: 1px solid var(--line); padding: 10px; min-height: 44px; max-width: 100%; font: inherit; }
+.stat-row { grid-template-columns: minmax(125px,190px) minmax(0,1fr) 90px; }
+.stat-percent { white-space: nowrap; }
+@media (max-width: 800px) {
+  .arena { padding-top: 24px; }
+  .arena .round-heading { align-items: center; margin-block: 22px; }
+  .arena .round-heading h2 { font-size: 31px; letter-spacing: -1px; }
+  .arena .round-stamp { max-width: 94px; }
+  .arena .candidate { padding: 22px; }
+  .round-footer .sync-status { max-width: none; }
+  .round-actions { justify-content: space-between; width: 100%; }
+  .arena-top .text-button { min-height: 44px; font-size: 12px; }
+  .stat-row { grid-template-columns: minmax(100px, 1fr) minmax(35px, 1fr) 75px; gap: 10px; }
+  .reading-controls { gap: 8px; }
+  #reading-layout { display: none; }
+}
