@@ -1,0 +1,7 @@
+{
+  "date": "2026-10-31",
+  "observed_failure": "online_terra_0 completed successfully; writing its route receipt hit Path/str operator precedence bug. No routing decision/translation/model request failed.",
+  "correction": "Parenthesize the receipt filename expression at runtime without modifying frozen original source file. Replay completed calls by checking exact input/schema/instruction/model/outputhash; make no new call for them. Continue not-yet-run Luna/anchor phases and final hidden review.",
+  "scope": "Infrastructure only: all prompts, thresholds, selection, first model outputs and pricing unchanged. No new baseline sampling or best-of.",
+  "adapter_sha256": "92028c35b834208dfe6c9742f6b56ab571aca992390a561282dbac7b8864a3b8"
+}
