@@ -1,0 +1,276 @@
+{
+  "items": [
+    {
+      "id": "qb6f48742c7",
+      "reason": "The candidates are identical and preserve the violence, sequence and unthinking reaction.",
+      "findings": [],
+      "overall": "tie",
+      "meaning": "tie",
+      "prose": "tie"
+    },
+    {
+      "id": "q49808d15b8",
+      "reason": "Both preserve the explanation and its distinction between reason and excuse. The reordered clause is a valid alternative.",
+      "findings": [],
+      "overall": "tie",
+      "meaning": "tie",
+      "prose": "tie"
+    },
+    {
+      "id": "qe1201d759d",
+      "reason": "The identical translations preserve the surveillance measures and Arturo's reason for avoiding an arrest.",
+      "findings": [],
+      "overall": "tie",
+      "meaning": "tie",
+      "prose": "tie"
+    },
+    {
+      "id": "q28167c0ed9",
+      "reason": "The candidates are identical and retain the technical explanation and counterfactual threat.",
+      "findings": [],
+      "overall": "tie",
+      "meaning": "tie",
+      "prose": "tie"
+    },
+    {
+      "id": "q8221a17b47",
+      "reason": "A correctly makes the hemisphere the agent trying to compensate. B introduces a dangling participial construction.",
+      "findings": [
+        {
+          "candidate": "B",
+          "severity": "minor",
+          "source_quote": "as it tried to take up the slack",
+          "target_quote": "пытаясь восполнить потерю",
+          "reason": "The participle grammatically attaches to the implied subject of «Подумайте», making the reader rather than the hemisphere attempt to compensate."
+        }
+      ],
+      "overall": "A",
+      "meaning": "A",
+      "prose": "A"
+    },
+    {
+      "id": "q169b1b9d62",
+      "reason": "The identical translations preserve the command, transfer of state changes and momentary cessation of experience.",
+      "findings": [],
+      "overall": "tie",
+      "meaning": "tie",
+      "prose": "tie"
+    },
+    {
+      "id": "qd34f35c181",
+      "reason": "Both retain the distributed intelligence, computational geography and distinction between advice and an order.",
+      "findings": [],
+      "overall": "tie",
+      "meaning": "tie",
+      "prose": "tie"
+    },
+    {
+      "id": "qcbe946abf7",
+      "reason": "Both convey the disconnected number and preserve the bleak final observation. Their phrasing differs without a material fidelity advantage.",
+      "findings": [],
+      "overall": "tie",
+      "meaning": "tie",
+      "prose": "tie"
+    },
+    {
+      "id": "qa6ff60816c",
+      "reason": "Both preserve the actions and signs of panic. The final coordination and tense choices are acceptable alternatives.",
+      "findings": [],
+      "overall": "tie",
+      "meaning": "tie",
+      "prose": "tie"
+    },
+    {
+      "id": "q7c3d95f57d",
+      "reason": "The identical translations retain the child's hesitation, disturbing image and repeated accusation.",
+      "findings": [],
+      "overall": "tie",
+      "meaning": "tie",
+      "prose": "tie"
+    },
+    {
+      "id": "q1a124e210a",
+      "reason": "Both preserve the retrospective causal chain, uncertainty about Earth's fate and repetition of viewpoint.",
+      "findings": [],
+      "overall": "tie",
+      "meaning": "tie",
+      "prose": "tie"
+    },
+    {
+      "id": "q269307d5a9",
+      "reason": "Both preserve the seizures' simultaneous disabling and protective effects. The different Russian formulations are valid.",
+      "findings": [],
+      "overall": "tie",
+      "meaning": "tie",
+      "prose": "tie"
+    },
+    {
+      "id": "qed34513c3c",
+      "reason": "The identical versions preserve the hesitant revelation, copying process and practical reason for multiple instances.",
+      "findings": [],
+      "overall": "tie",
+      "meaning": "tie",
+      "prose": "tie"
+    },
+    {
+      "id": "qe8c00254a0",
+      "reason": "Both preserve the drifting movement, reef's awakening and preceding electromagnetic activity.",
+      "findings": [],
+      "overall": "tie",
+      "meaning": "tie",
+      "prose": "tie"
+    },
+    {
+      "id": "qf75369d6ce",
+      "reason": "The identical translations maintain the distinction between the embodied reef and its original body, together with Kate's reaction.",
+      "findings": [],
+      "overall": "tie",
+      "meaning": "tie",
+      "prose": "tie"
+    },
+    {
+      "id": "qdeb6786d21",
+      "reason": "Both retain Robbie's unsettling reasoning and the deliberately trivializing haircut comparison.",
+      "findings": [],
+      "overall": "tie",
+      "meaning": "tie",
+      "prose": "tie"
+    },
+    {
+      "id": "q52c8bbe1ec",
+      "reason": "B preserves the attackers' greater size; A substitutes greater age. Otherwise the versions are equivalent.",
+      "findings": [
+        {
+          "candidate": "A",
+          "severity": "minor",
+          "source_quote": "six bigger kids",
+          "target_quote": "шестерых ребят постарше",
+          "reason": "The source specifies larger children, not older children. B preserves the stated physical disadvantage."
+        }
+      ],
+      "overall": "B",
+      "meaning": "B",
+      "prose": "tie"
+    },
+    {
+      "id": "qfa3f76ea9a",
+      "reason": "The identical translations preserve the vertical cityscape, animated architectural language and synchronized robot movement.",
+      "findings": [],
+      "overall": "tie",
+      "meaning": "tie",
+      "prose": "tie"
+    },
+    {
+      "id": "qff3beb7bf1",
+      "reason": "Both preserve the colloquial explanation and conditional targeting. «Всё» and «всех» are defensible alternatives for the potential pursuers here.",
+      "findings": [],
+      "overall": "tie",
+      "meaning": "tie",
+      "prose": "tie"
+    },
+    {
+      "id": "qdbaaab067c",
+      "reason": "The candidates are identical and preserve the improvised hideout, uncertain identity and reasoning about buying furniture.",
+      "findings": [],
+      "overall": "tie",
+      "meaning": "tie",
+      "prose": "tie"
+    },
+    {
+      "id": "qa8a286da66",
+      "reason": "B's sentence break makes the transition from «человек» to «она» smoother. Both preserve the scene and its recognition of a living human.",
+      "findings": [],
+      "overall": "tie",
+      "meaning": "tie",
+      "prose": "B"
+    },
+    {
+      "id": "q3cb5976585",
+      "reason": "Both preserve the injury and the narrator's detached accounting of opponents. The alternative expressions of concern are valid in context.",
+      "findings": [],
+      "overall": "tie",
+      "meaning": "tie",
+      "prose": "tie"
+    },
+    {
+      "id": "qcf950c4864",
+      "reason": "B retains the broader susceptibility to narcotics. A narrows this to addiction, which the supplied scene does not establish.",
+      "findings": [
+        {
+          "candidate": "A",
+          "severity": "minor",
+          "source_quote": "a susceptibility to narcotics",
+          "target_quote": "наркотической зависимости",
+          "reason": "Susceptibility to narcotics can concern sensitivity to their effects; addiction is a more specific condition. The translation removes that openness."
+        }
+      ],
+      "overall": "B",
+      "meaning": "B",
+      "prose": "tie"
+    },
+    {
+      "id": "q0ee1c0cd42",
+      "reason": "A emphasizes inhabiting the constrained body; B emphasizes making do with its limited capacity. Both readings fit the immediate computational context.",
+      "findings": [],
+      "overall": "tie",
+      "meaning": "tie",
+      "prose": "tie"
+    },
+    {
+      "id": "qfea9fde21e",
+      "reason": "B retains the films' background role, which A omits. The rest of the scene is equivalent.",
+      "findings": [
+        {
+          "candidate": "A",
+          "severity": "minor",
+          "source_quote": "violent kung-fu movies playing in the background in crack-houses",
+          "target_quote": "жестокие фильмы о кунг-фу на экранах в притонах, где курили крэк",
+          "reason": "The films are specified as playing in the background; merely placing them on screens loses their incidental role in the scene."
+        }
+      ],
+      "overall": "B",
+      "meaning": "B",
+      "prose": "tie"
+    },
+    {
+      "id": "qdf715a19a6",
+      "reason": "The identical translations preserve the child's difficulty expressing the idea and his accusation against the parents.",
+      "findings": [],
+      "overall": "tie",
+      "meaning": "tie",
+      "prose": "tie"
+    },
+    {
+      "id": "q81934bc463",
+      "reason": "A's expression for the network adapting to the influx is more idiomatic than B's «их освоить». Both communicate the historical explanation.",
+      "findings": [],
+      "overall": "tie",
+      "meaning": "tie",
+      "prose": "A"
+    },
+    {
+      "id": "qeb5bfb523b",
+      "reason": "B's «учился, наблюдая» reads more naturally than A's instrumental construction. Both preserve the reasoning, repetition and violence.",
+      "findings": [],
+      "overall": "tie",
+      "meaning": "tie",
+      "prose": "B"
+    },
+    {
+      "id": "q4d3dc54baa",
+      "reason": "The identical translations preserve the legal threat, religious irony and pleasure of forbidden theological debate.",
+      "findings": [],
+      "overall": "tie",
+      "meaning": "tie",
+      "prose": "tie"
+    },
+    {
+      "id": "qd96c62da74",
+      "reason": "Both preserve the elaborate official introduction, professional self-importance and comic disproportion of the mother's shrine.",
+      "findings": [],
+      "overall": "tie",
+      "meaning": "tie",
+      "prose": "tie"
+    }
+  ]
+}

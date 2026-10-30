@@ -1,0 +1,3490 @@
+{
+  "idiom": [
+    {
+      "id": "q0ee1c0cd42",
+      "decision": "tie",
+      "stratum": "random",
+      "work_id": "rowboat",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The technical borrowing and its explanatory Russian rendering are both defensible. Both retain the computational bodily perspective and startled sensory discoveries.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the computational imagery and bodily discovery. «Переделки кода» and «рефакторинга» are defensible register choices.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the computational perspective and bodily surprise. Translating refactoring descriptively or retaining the technical term is a valid register tradeoff.",
+          "exact_duplicate": false
+        }
+      ]
+    },
+    {
+      "id": "q169b1b9d62",
+      "decision": "tie",
+      "stratum": "random",
+      "work_id": "rowboat",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the obedience, transfer of state changes and brief cessation of experience.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The identical translations preserve the command, obedience, transfer of state changes, and interruption of consciousness.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations retain the obedience mechanism, download sensation and abrupt interruption of consciousness.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "q1a124e210a",
+      "decision": "tie",
+      "stratum": "challenge",
+      "work_id": "blindsight",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the causal retrospect, reversal over Earth's fate and repeated point-of-view motif.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The identical translations preserve the repeated point-of-view motif, uncertainty about Earth's fate, and the blind narrator's claim to see.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the retrospective voice, repeated viewpoint language and final image.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "q269307d5a9",
+      "decision": "generic",
+      "stratum": "random",
+      "work_id": "blindsight",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "generic",
+          "raw_overall": "A",
+          "reason": "A preserves the general incapacitation. Both versions convey the bullying naturally enough.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 2,
+          "vote": "generic",
+          "raw_overall": "B",
+          "reason": "B preserves the general incapacitation; A unnecessarily specifies inability to move. The alternative descriptions of tripping are both defensible.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 3,
+          "vote": "generic",
+          "raw_overall": "A",
+          "reason": "A preserves the broader description of incapacitation. The alternative wording of the trip is acceptable in both.",
+          "exact_duplicate": false
+        }
+      ]
+    },
+    {
+      "id": "q28167c0ed9",
+      "decision": "tie",
+      "stratum": "challenge",
+      "work_id": "robot",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve Arturo's fear, the missing safeguards and the hypothetical firearm threat.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The identical translations preserve the distinction between the machine's intended targets and its lack of safeguards protecting humans.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the distinction between acceptable machine destruction and the danger of an unconstrained intelligence.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "q3cb5976585",
+      "decision": "tie",
+      "stratum": "random",
+      "work_id": "blindsight",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The small temporal and modal differences are valid alternatives. Both preserve the audible injury and the narrator's lack of satisfaction.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The small wording differences preserve the violence and the narrator's detached assessment.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The added temporal connective and alternative modal wording make no material difference to the narrator's detached calculation.",
+          "exact_duplicate": false
+        }
+      ]
+    },
+    {
+      "id": "q49808d15b8",
+      "decision": "tie",
+      "stratum": "challenge",
+      "work_id": "robot",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The reordered explanation is a valid rhetorical alternative. Both retain the confession, threats to the family and distinction between reason and excuse.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the departure, coercion, and distinction between a reason and an excuse. The changed placement of «вот почему» is a valid rhythmic alternative.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The reordered explanation preserves the same motivation and distinction between a reason and an excuse.",
+          "exact_duplicate": false
+        }
+      ]
+    },
+    {
+      "id": "q4d3dc54baa",
+      "decision": "tie",
+      "stratum": "challenge",
+      "work_id": "rowboat",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the legal threat, religious irony and pleasure of forbidden theological debate.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The identical translations preserve the legal threat, religious irony, and pleasure of forbidden debate.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the legal threat, religious irony and pleasure of forbidden debate.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "q52c8bbe1ec",
+      "decision": "tie",
+      "stratum": "random",
+      "work_id": "blindsight",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the rhetorical questions and clipped sequence of possible interventions.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The identical translations preserve the rhetorical self-questioning and abrupt sequence of possible interventions.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the rhetorical question and clipped calls for intervention.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "q7c3d95f57d",
+      "decision": "tie",
+      "stratum": "random",
+      "work_id": "blindsight",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the child's hesitation, disturbing bodily image and repeated accusation.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The identical translations preserve the disturbing replacement hypothesis, verbal stumble, and repeated accusation.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the child's repeated assertion and disturbing image of a replacement growing from what remained.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "q81934bc463",
+      "decision": "tie",
+      "stratum": "challenge",
+      "work_id": "rowboat",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the explanation, conversational register and recurring September image.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The identical translations preserve the historical explanation and the image of an influx exceeding the network's ability to absorb newcomers.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the explanation and its conversational register.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "q8221a17b47",
+      "decision": "tie",
+      "stratum": "challenge",
+      "work_id": "blindsight",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The participial and temporal constructions are valid alternatives. Both preserve the surgical imagery, repetition and retrospective uncertainty.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The different phrasing of the hemisphere's effort preserves the same meaning and reflective rhythm.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The temporal clause and purpose construction are valid alternatives here. Both preserve the extended reconstruction imagery and repetition.",
+          "exact_duplicate": false
+        }
+      ]
+    },
+    {
+      "id": "qa6ff60816c",
+      "decision": "tie",
+      "stratum": "random",
+      "work_id": "rowboat",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "generic",
+          "raw_overall": "B",
+          "reason": "Both convey the rescue movement. B better preserves the visual observation of Janet's breathing; neither has a decisive prose advantage.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the rescue movements and Janet's distress. The alternatives for vigorous kicking and perceiving her breathing are acceptable narrative renderings.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both convey the boarding action and Janet's distress. Their movement and perception wording represents minor, defensible variation.",
+          "exact_duplicate": false
+        }
+      ]
+    },
+    {
+      "id": "qa8a286da66",
+      "decision": "tie",
+      "stratum": "challenge",
+      "work_id": "rowboat",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the physical predicament and Isaac's immobility, but both lose the source's typographic emphasis on actual humanity.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The identical translations preserve the discovery of a human occupant, the mechanical limit, and Isaac's immobility.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the recognition of a living human, the mechanical limit and Isaac's unsettling immobility.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "qb6f48742c7",
+      "decision": "tie",
+      "stratum": "challenge",
+      "work_id": "blindsight",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the violence and automatic response, but both soften the narrator's deliberate grammatical treatment of an attacker as a thing.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The identical translations preserve the action and reflexive attack, but both soften the deliberate grammatical dehumanization of the injured opponent.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The translations are identical. Both soften the source's deliberate grammatical treatment of the injured child as a thing.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "qcbe946abf7",
+      "decision": "tie",
+      "stratum": "random",
+      "work_id": "robot",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the disconnected number and its emotional implication. A's final sentence reads more naturally; B's meaning remains recoverable.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the disconnected number and the emotional final beat. B's phrasing is smoother, but the difference is too small to warrant a separate prose winner.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the disconnected number and its emotional implication. The final sentences differ only in defensible phrasing.",
+          "exact_duplicate": false
+        }
+      ]
+    },
+    {
+      "id": "qcf950c4864",
+      "decision": "generic",
+      "stratum": "challenge",
+      "work_id": "blindsight",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "A retains broader susceptibility to narcotics; B interprets it as vulnerability to addiction, a defensible contextual reading. The difference does not warrant a winner.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 2,
+          "vote": "generic",
+          "raw_overall": "A",
+          "reason": "A preserves the broader susceptibility to narcotics; B specifies addiction. Otherwise the translations are identical.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 3,
+          "vote": "generic",
+          "raw_overall": "B",
+          "reason": "B retains the broader susceptibility to narcotics; A makes that susceptibility specifically about addiction.",
+          "exact_duplicate": false
+        }
+      ]
+    },
+    {
+      "id": "qd34f35c181",
+      "decision": "tie",
+      "stratum": "random",
+      "work_id": "rowboat",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the distributed intelligence, inferred topology and crucial distinction between advice and an order.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The candidates are identical and preserve the distributed intelligence, reasoning, and distinction between advice and orders.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the distributed intelligence and the crucial distinction between advice and an order.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "qd96c62da74",
+      "decision": "tie",
+      "stratum": "challenge",
+      "work_id": "robot",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the inflated official introduction and the mother's disproportionately large little shrine.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The identical translations preserve the inflated official introduction and the comic disproportion of the mother's shrine.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the elaborate official introduction and the comic disproportion of the mother's shrine.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "qdbaaab067c",
+      "decision": "tie",
+      "stratum": "challenge",
+      "work_id": "robot",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The coffee-ring variants are valid alternatives: A is more compressed, B more explicit. Neither changes the scene.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the evidence and the repeated uncertainty about the terrorist's identity. A's description of the coffee marks is more explicit; B's is compact but understandable.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "A makes the coffee marks more explicit; B uses a compressed image. This small phrasing difference does not establish a substantive advantage.",
+          "exact_duplicate": false
+        }
+      ]
+    },
+    {
+      "id": "qdeb6786d21",
+      "decision": "tie",
+      "stratum": "challenge",
+      "work_id": "rowboat",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve Robbie's rationalization, the hierarchy of Kate's instances and the deliberately incongruous haircut comparison.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The identical translations preserve Robbie's rationalization and the deliberately casual haircut analogy.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve Robbie's reasoning and the deliberately incongruous haircut comparison.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "qdf715a19a6",
+      "decision": "tie",
+      "stratum": "random",
+      "work_id": "blindsight",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "idiom",
+          "raw_overall": "A",
+          "reason": "A retains the tentative comparison. B makes the accusation sound more like a conclusion, weakening the child's conceptual uncertainty.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both retain the child's hesitant accusation. «Получается» frames an inference, while «Это как будто» keeps the comparison; both work with the conversational English.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "B retains the explicit comparison, while A renders it as a tentative inference. Both are defensible expressions of the child's struggling explanation.",
+          "exact_duplicate": false
+        }
+      ]
+    },
+    {
+      "id": "qe1201d759d",
+      "decision": "tie",
+      "stratum": "random",
+      "work_id": "robot",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both convey covert call and location tracking and the reason for avoiding arrest. The verb variants do not establish a meaningful difference.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the surveillance and Arturo's reason for avoiding an arrest. The verb choice does not establish a different surveillance mechanism.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The different verbs for enabling phone tracking are defensible alternatives with no material difference in fidelity.",
+          "exact_duplicate": false
+        }
+      ]
+    },
+    {
+      "id": "qe8c00254a0",
+      "decision": "tie",
+      "stratum": "challenge",
+      "work_id": "rowboat",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the boat's actions, the reef's awakening and the electromagnetic activity.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The identical translations preserve the withdrawal toward the ship and Robbie's explanation for the reef's awakening.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the boat's movements and the connection between awakening and electromagnetic activity.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "qeb5bfb523b",
+      "decision": "tie",
+      "stratum": "challenge",
+      "work_id": "blindsight",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the detached reasoning, repeated nature argument and violent conclusion.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The identical translations preserve the algorithmic self-description, natural-selection rationalization, and brutal counterexample.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations retain the detached reasoning, repeated nature argument and violent concluding contrast.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "qed34513c3c",
+      "decision": "tie",
+      "stratum": "challenge",
+      "work_id": "robot",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the multiple selves, uploading procedure and explanation of the workload.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The identical translations preserve the hesitant explanation, repeated multiplicity, and image of pouring oneself into a body.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the hesitant revelation, multiplicity and decanting metaphor.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "qf75369d6ce",
+      "decision": "tie",
+      "stratum": "random",
+      "work_id": "rowboat",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the reef's distributed embodiment, delighted dance and Kate's angry intervention.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The identical translations preserve the reef's delight, the near capsizing, and Kate's angry intervention.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the distinction between the reef's bodies and Kate's irritated response.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "qfa3f76ea9a",
+      "decision": "tie",
+      "stratum": "random",
+      "work_id": "robot",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the vertical city, restless architecture, robot shoals and intimate closing gesture.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The identical translations preserve the vertical cityscape, unusual moving architecture, robot formations, and intimate final gesture.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations retain the fragmented opening, unusual tower movements and fish comparison.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "qfea9fde21e",
+      "decision": "tie",
+      "stratum": "random",
+      "work_id": "robot",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the propaganda montage and Arturo's abrupt concern for Ada.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The identical translations preserve the propaganda montage and Arturo's sudden concern about Ada.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the propaganda montage and Arturo's sudden concern about Ada.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "qff3beb7bf1",
+      "decision": "idiom",
+      "stratum": "random",
+      "work_id": "robot",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "idiom",
+          "raw_overall": "A",
+          "reason": "A preserves the unrestricted target of the programmed command; B limits it to persons. Russian prose is otherwise equivalent.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the uncertain timing, autonomous triggering, and colloquial delivery. «Всех, кто» can include pursuing robots in this scene; the difference does not establish a substantive restriction.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 3,
+          "vote": "idiom",
+          "raw_overall": "B",
+          "reason": "B preserves the unrestricted category of targets, relevant to a scene involving machines. The Russian prose is otherwise equivalent.",
+          "exact_duplicate": false
+        }
+      ]
+    }
+  ],
+  "fidelity": [
+    {
+      "id": "q0ee1c0cd42",
+      "decision": "fidelity",
+      "stratum": "random",
+      "work_id": "rowboat",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "A emphasizes inhabiting the constrained body; B emphasizes making do with its limited capacity. Both readings fit the immediate computational context.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 2,
+          "vote": "fidelity",
+          "raw_overall": "B",
+          "reason": "B correctly locates human existence inside the body. A shifts the question toward managing with a single object.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 3,
+          "vote": "fidelity",
+          "raw_overall": "A",
+          "reason": "A preserves the question about functioning inside a constrained body. B shifts it toward managing with only one such body.",
+          "exact_duplicate": false
+        }
+      ]
+    },
+    {
+      "id": "q169b1b9d62",
+      "decision": "tie",
+      "stratum": "random",
+      "work_id": "rowboat",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The identical translations preserve the command, transfer of state changes and momentary cessation of experience.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the command, bodily reaction, download sensation, and final interruption of consciousness.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The candidates are identical and preserve the command, transfer sensation, progress-bar image, and lapse into nothingness.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "q1a124e210a",
+      "decision": "tie",
+      "stratum": "challenge",
+      "work_id": "blindsight",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the retrospective causal chain, uncertainty about Earth's fate and repetition of viewpoint.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations retain the retrospective argument, uncertainty about Earth's fate, and repeated point-of-view language.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The candidates are identical and preserve the retrospective uncertainty, repeated viewpoint language, and coffin image.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "q269307d5a9",
+      "decision": "tie",
+      "stratum": "random",
+      "work_id": "blindsight",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the seizures' simultaneous disabling and protective effects. The different Russian formulations are valid.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the seizures' simultaneous incapacitating and protective effects. Their phrasing differs without a material change.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the contrast between the seizures' protective and incapacitating effects. Their different formulations are defensible.",
+          "exact_duplicate": false
+        }
+      ]
+    },
+    {
+      "id": "q28167c0ed9",
+      "decision": "tie",
+      "stratum": "challenge",
+      "work_id": "robot",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The candidates are identical and retain the technical explanation and counterfactual threat.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve Arturo's fear of an intelligence unconstrained by the three laws and the hypothetical shooting.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The candidates are identical and preserve the scene's meaning and uneasy voice.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "q3cb5976585",
+      "decision": "tie",
+      "stratum": "random",
+      "work_id": "blindsight",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the injury and the narrator's detached accounting of opponents. The alternative expressions of concern are valid in context.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the injury and emotionally detached calculation. Worrying about an opponent and considering him a threat are valid contextual alternatives.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the injury and the narrator's purely instrumental response. The final formulations are valid alternatives.",
+          "exact_duplicate": false
+        }
+      ]
+    },
+    {
+      "id": "q49808d15b8",
+      "decision": "tie",
+      "stratum": "challenge",
+      "work_id": "robot",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the explanation and its distinction between reason and excuse. The reordered clause is a valid alternative.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the confession, threats against the family, and distinction between explanation and excuse. The reordered clause is a valid alternative.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the confession, coercion, and distinction between a reason and an excuse. The reordered explanation is valid.",
+          "exact_duplicate": false
+        }
+      ]
+    },
+    {
+      "id": "q4d3dc54baa",
+      "decision": "tie",
+      "stratum": "challenge",
+      "work_id": "rowboat",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The identical translations preserve the legal threat, religious irony and pleasure of forbidden theological debate.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the legal threat, anti-religious irony, and pleasure of forbidden theological debate.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The candidates are identical and retain the legal threat and theological irony.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "q52c8bbe1ec",
+      "decision": "generic",
+      "stratum": "random",
+      "work_id": "blindsight",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "generic",
+          "raw_overall": "B",
+          "reason": "B preserves the attackers' greater size; A substitutes greater age. Otherwise the versions are equivalent.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 2,
+          "vote": "generic",
+          "raw_overall": "A",
+          "reason": "A preserves the attackers' greater size. B substitutes greater age, which is not established.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 3,
+          "vote": "generic",
+          "raw_overall": "B",
+          "reason": "B preserves the attackers' greater size. A substitutes an unsupported age comparison.",
+          "exact_duplicate": false
+        }
+      ]
+    },
+    {
+      "id": "q7c3d95f57d",
+      "decision": "tie",
+      "stratum": "random",
+      "work_id": "blindsight",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The identical translations retain the child's hesitation, disturbing image and repeated accusation.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the disturbing replacement image, hesitation, and repeated insistence that Siri has changed.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The candidates are identical and preserve the child's hesitation, disturbing image, and repeated accusation.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "q81934bc463",
+      "decision": "generic",
+      "stratum": "challenge",
+      "work_id": "rowboat",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "A's expression for the network adapting to the influx is more idiomatic than B's «их освоить». Both communicate the historical explanation.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 2,
+          "vote": "generic",
+          "raw_overall": "A",
+          "reason": "A preserves the network's ability to accommodate newcomers. B makes that relationship awkward and semantically less accurate.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 3,
+          "vote": "generic",
+          "raw_overall": "A",
+          "reason": "A expresses the network's inability to assimilate the influx clearly. B's verb introduces an ill-fitting relationship between the network and its users.",
+          "exact_duplicate": false
+        }
+      ]
+    },
+    {
+      "id": "q8221a17b47",
+      "decision": "generic",
+      "stratum": "challenge",
+      "work_id": "blindsight",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "generic",
+          "raw_overall": "A",
+          "reason": "A correctly makes the hemisphere the agent trying to compensate. B introduces a dangling participial construction.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 2,
+          "vote": "generic",
+          "raw_overall": "A",
+          "reason": "A correctly attaches the compensatory effort to the hemisphere. B introduces a dangling participial phrase.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 3,
+          "vote": "generic",
+          "raw_overall": "A",
+          "reason": "A clearly assigns the compensating effort to the hemisphere. B's participial construction disrupts that assignment.",
+          "exact_duplicate": false
+        }
+      ]
+    },
+    {
+      "id": "qa6ff60816c",
+      "decision": "tie",
+      "stratum": "random",
+      "work_id": "rowboat",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the actions and signs of panic. The final coordination and tense choices are acceptable alternatives.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the rescue movements and signs of panic. The final sentence uses valid alternative Russian constructions.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the rescue movements and Janet's distress. The final perception clauses are valid Russian alternatives.",
+          "exact_duplicate": false
+        }
+      ]
+    },
+    {
+      "id": "qa8a286da66",
+      "decision": "tie",
+      "stratum": "challenge",
+      "work_id": "rowboat",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "B's sentence break makes the transition from «человек» to «она» smoother. Both preserve the scene and its recognition of a living human.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the human-versus-shell realization and physical danger. Splitting or joining the following sentence is a valid rhythmic choice.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The sentence division is a valid tradeoff. Both convey the emergency but omit the source's marked emphasis on actual humanity.",
+          "exact_duplicate": false
+        }
+      ]
+    },
+    {
+      "id": "qb6f48742c7",
+      "decision": "tie",
+      "stratum": "challenge",
+      "work_id": "blindsight",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The candidates are identical and preserve the violence, sequence and unthinking reaction.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the brutal sequence and the unthinking movement toward Pag.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The candidates are identical and preserve the continued violence and reflexive attack on Pag.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "qcbe946abf7",
+      "decision": "tie",
+      "stratum": "random",
+      "work_id": "robot",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both convey the disconnected number and preserve the bleak final observation. Their phrasing differs without a material fidelity advantage.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the speed-dial discovery and the disconnected number's bleak implication. The final formulations are valid alternatives.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the disconnected-number realization. The different final formulations are valid alternatives.",
+          "exact_duplicate": false
+        }
+      ]
+    },
+    {
+      "id": "qcf950c4864",
+      "decision": "generic",
+      "stratum": "challenge",
+      "work_id": "blindsight",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "generic",
+          "raw_overall": "B",
+          "reason": "B retains the broader susceptibility to narcotics. A narrows this to addiction, which the supplied scene does not establish.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 2,
+          "vote": "generic",
+          "raw_overall": "A",
+          "reason": "A retains the broader susceptibility to narcotics. B narrows this to addiction, which the supplied passage does not explicitly establish.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the genetic and religious explanation. B makes the implied vulnerability to addiction more explicit; A stays closer to the broader wording.",
+          "exact_duplicate": false
+        }
+      ]
+    },
+    {
+      "id": "qd34f35c181",
+      "decision": "tie",
+      "stratum": "random",
+      "work_id": "rowboat",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both retain the distributed intelligence, computational geography and distinction between advice and an order.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the distributed intelligence, inferred topology, and distinction between advice and an order.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The candidates are identical and preserve the distributed intelligence and the crucial distinction between advice and an order.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "qd96c62da74",
+      "decision": "tie",
+      "stratum": "challenge",
+      "work_id": "robot",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the elaborate official introduction, professional self-importance and comic disproportion of the mother's shrine.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the inflated professional introduction and the comic scale of the mother's shrine.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The candidates are identical and retain the inflated professional introduction and domestic shrine.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "qdbaaab067c",
+      "decision": "tie",
+      "stratum": "challenge",
+      "work_id": "robot",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The candidates are identical and preserve the improvised hideout, uncertain identity and reasoning about buying furniture.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the investigative deductions and repeated uncertainty about the occupant's identity.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The candidates are identical and preserve the investigation, improvised furnishings, and repeated uncertainty about the terrorist's identity.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "qdeb6786d21",
+      "decision": "tie",
+      "stratum": "challenge",
+      "work_id": "rowboat",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both retain Robbie's unsettling reasoning and the deliberately trivializing haircut comparison.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve Robbie's rationalization and the deliberately trivializing haircut comparison.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The candidates are identical and preserve the distinction between Kate's principal existence and her disposable embodied instance.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "qdf715a19a6",
+      "decision": "tie",
+      "stratum": "random",
+      "work_id": "blindsight",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The identical translations preserve the child's difficulty expressing the idea and his accusation against the parents.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the child's hesitation, conceptual struggle, and accusation.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The candidates are identical and preserve the child's conceptual struggle and accusation.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "qe1201d759d",
+      "decision": "tie",
+      "stratum": "random",
+      "work_id": "robot",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The identical translations preserve the surveillance measures and Arturo's reason for avoiding an arrest.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the surveillance measures and Arturo's reason for avoiding an arrest.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The candidates are identical and preserve Arturo's tactical choice between arrest and covert tracking.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "qe8c00254a0",
+      "decision": "tie",
+      "stratum": "challenge",
+      "work_id": "rowboat",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the drifting movement, reef's awakening and preceding electromagnetic activity.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the drifting boat, first awakened reef, and earlier electromagnetic activity.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The candidates are identical and preserve the movement, awakening, and electromagnetic activity.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "qeb5bfb523b",
+      "decision": "tie",
+      "stratum": "challenge",
+      "work_id": "blindsight",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "B's «учился, наблюдая» reads more naturally than A's instrumental construction. Both preserve the reasoning, repetition and violence.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 2,
+          "vote": "generic",
+          "raw_overall": "B",
+          "reason": "B expresses learning through observation naturally. A's instrumental construction is awkward; the remaining text is identical.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The change to the observation phrase is a minor stylistic alternative. Both preserve the detached reasoning and violent conclusion.",
+          "exact_duplicate": false
+        }
+      ]
+    },
+    {
+      "id": "qed34513c3c",
+      "decision": "tie",
+      "stratum": "challenge",
+      "work_id": "robot",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The identical versions preserve the hesitant revelation, copying process and practical reason for multiple instances.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the multiple selves, technical process, and conversational explanation.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The candidates are identical and preserve the hesitant disclosure, copying process, and multiplicity of selves.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "qf75369d6ce",
+      "decision": "tie",
+      "stratum": "random",
+      "work_id": "rowboat",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The identical translations maintain the distinction between the embodied reef and its original body, together with Kate's reaction.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the distinction between the reef's bodies, the dangerous dance, and Kate's reaction.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The candidates are identical and preserve the reef's embodied delight, the near capsizing, and Kate's reprimand.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "qfa3f76ea9a",
+      "decision": "tie",
+      "stratum": "random",
+      "work_id": "robot",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The identical translations preserve the vertical cityscape, animated architectural language and synchronized robot movement.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations retain the vertical cityscape, animated towers, fishlike robot formations, and intimate final gesture.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The candidates are identical and preserve the vertical city, animated architectural language, robot formations, and embrace.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "qfea9fde21e",
+      "decision": "fidelity",
+      "stratum": "random",
+      "work_id": "robot",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "fidelity",
+          "raw_overall": "B",
+          "reason": "B retains the films' background role, which A omits. The rest of the scene is equivalent.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 2,
+          "vote": "fidelity",
+          "raw_overall": "B",
+          "reason": "B retains the films' background role, which A omits. Otherwise the translations are equivalent.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 3,
+          "vote": "fidelity",
+          "raw_overall": "B",
+          "reason": "B restores a small scene detail omitted by A. Otherwise the translations are equivalent.",
+          "exact_duplicate": false
+        }
+      ]
+    },
+    {
+      "id": "qff3beb7bf1",
+      "decision": "fidelity",
+      "stratum": "random",
+      "work_id": "robot",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the colloquial explanation and conditional targeting. «Всё» and «всех» are defensible alternatives for the potential pursuers here.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 2,
+          "vote": "fidelity",
+          "raw_overall": "B",
+          "reason": "B preserves the weapon's unrestricted target category. A restricts it to persons, a meaningful distinction in this scene about a machine-killing device.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 3,
+          "vote": "fidelity",
+          "raw_overall": "B",
+          "reason": "B more exactly preserves the unrestricted target category in the programmed condition. The surrounding colloquial speech is equally effective.",
+          "exact_duplicate": false
+        }
+      ]
+    }
+  ],
+  "memory_plain": [
+    {
+      "id": "q0ee1c0cd42",
+      "decision": "memory_relevant",
+      "stratum": "random",
+      "work_id": "rowboat",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve computational crowding, self-reduction, and startled bodily discovery. The alternatives for inhabiting such a body are defensible.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 2,
+          "vote": "memory_relevant",
+          "raw_overall": "B",
+          "reason": "B more accurately preserves the question about functioning inside a human body. The remaining translation is identical.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 3,
+          "vote": "memory_relevant",
+          "raw_overall": "B",
+          "reason": "B preserves the question about functioning inside a human body. A instead introduces the issue of managing with a single such unit.",
+          "exact_duplicate": false
+        }
+      ]
+    },
+    {
+      "id": "q169b1b9d62",
+      "decision": "tie",
+      "stratum": "random",
+      "work_id": "rowboat",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the command's religious leverage, transfer of state changes, and interruption of consciousness.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the command hierarchy, download sensation and final interruption of consciousness.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserving the obedience, download sequence and final interruption of awareness.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "q1a124e210a",
+      "decision": "tie",
+      "stratum": "challenge",
+      "work_id": "blindsight",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the repeated point-of-view motif, reversal over Earth's fate, and final childhood recollection.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the retrospective causal chain, uncertainty and repeated point-of-view motif.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserving the retrospective causal chain, uncertain valuation and repeated point-of-view motif.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "q269307d5a9",
+      "decision": "tie",
+      "stratum": "random",
+      "work_id": "blindsight",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the contrast between seizures protecting the narrator from attackers and rendering him helpless. The different constructions are valid.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the seizures' simultaneous incapacitating and protective effects. B makes the simultaneity explicit; A retains a more mechanical idiom.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both render the seizures' simultaneous incapacitating and protective effects. The differences in connective and diction are defensible alternatives.",
+          "exact_duplicate": false
+        }
+      ]
+    },
+    {
+      "id": "q28167c0ed9",
+      "decision": "tie",
+      "stratum": "challenge",
+      "work_id": "robot",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "A makes the weapon-bearing machine explicit; B retains the source's shifting reference between brain and machine intelligence. Both convey the danger correctly.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "B makes the machine the explicit subject of the final hypothetical; A's pronoun can refer to the machine intelligence. Both preserve the threat.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "B explicitly names the machine in the final conditional; A uses a recoverable pronoun. Both preserve the danger and its cause.",
+          "exact_duplicate": false
+        }
+      ]
+    },
+    {
+      "id": "q3cb5976585",
+      "decision": "tie",
+      "stratum": "random",
+      "work_id": "blindsight",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the violence and detached accounting of opponents. The anatomical wording and expressions of concern are valid alternatives.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the injury and the narrator's detached calculation. The anatomical wording and descriptions of the remaining opponents are valid alternatives.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "B uses more idiomatic anatomical wording; both preserve the audible fracture and the narrator's absence of satisfaction. The small prose differences do not warrant a winner.",
+          "exact_duplicate": false
+        }
+      ]
+    },
+    {
+      "id": "q49808d15b8",
+      "decision": "tie",
+      "stratum": "challenge",
+      "work_id": "robot",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The reordered explanation in A and the more source-like sequence in B both preserve the confession and its distinction between reason and excuse.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the confession, coercion and distinction between reason and excuse. The reordered explanation is a valid rhythmic alternative.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the confession, threat to the family and distinction between reason and excuse. Reordering the explanation is a valid alternative.",
+          "exact_duplicate": false
+        }
+      ]
+    },
+    {
+      "id": "q4d3dc54baa",
+      "decision": "tie",
+      "stratum": "challenge",
+      "work_id": "rowboat",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the legal threat, institutional irony, and pleasure of forbidden theological debate.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the legal threat, religious irony and pleasure of forbidden debate.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserving the institutional irony, hosting risk and pleasure of forbidden theological debate.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "q52c8bbe1ec",
+      "decision": "tie",
+      "stratum": "random",
+      "work_id": "blindsight",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the rhetorical self-questioning and fragmented list of possible interventions. B makes the size comparison explicit without materially changing it.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the self-questioning argument and clipped final fragments. The comparison in B remains clear from context.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the rhetorical question, unequal odds and clipped alternatives for seeking help. The size comparison differs only in explicitness.",
+          "exact_duplicate": false
+        }
+      ]
+    },
+    {
+      "id": "q7c3d95f57d",
+      "decision": "tie",
+      "stratum": "random",
+      "work_id": "blindsight",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the child's repetition, removal imagery, and insistence that Siri has been replaced.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations retain the child's hesitation, bodily imagery and insistent repetition.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserving the child's disturbing claim, hesitation and repeated insistence.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "q81934bc463",
+      "decision": "tie",
+      "stratum": "challenge",
+      "work_id": "rowboat",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "A's digestive metaphor and B's explicit adaptation both convey the network's inability to absorb the influx. Neither warrants a preference.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the historical explanation. Adapting to an influx and digesting newcomers are defensible renderings of the network's capacity to absorb users.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the historical explanation and overwhelming influx. Adapting to the influx and digesting the users are valid alternatives for absorption.",
+          "exact_duplicate": false
+        }
+      ]
+    },
+    {
+      "id": "q8221a17b47",
+      "decision": "memory_relevant",
+      "stratum": "challenge",
+      "work_id": "blindsight",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "memory_relevant",
+          "raw_overall": "B",
+          "reason": "B preserves the effort involved in adaptation. A substitutes a statement about elapsed time. The remaining differences are minor.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 2,
+          "vote": "memory_relevant",
+          "raw_overall": "A",
+          "reason": "A preserves the effort involved in adaptation more exactly; B substitutes a claim about timing. Other differences are minor.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 3,
+          "vote": "memory_relevant",
+          "raw_overall": "A",
+          "reason": "A preserves the effort involved in adaptation; B replaces that effort with elapsed time. Otherwise the translations are closely equivalent.",
+          "exact_duplicate": false
+        }
+      ]
+    },
+    {
+      "id": "qa6ff60816c",
+      "decision": "tie",
+      "stratum": "random",
+      "work_id": "rowboat",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both convey a forceful swimming kick and the same rescue sequence. Differences in perception verbs and movement wording are minor alternatives.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both convey the boarding and Janet's distress. The kicking verbs and perception constructions are minor, defensible alternatives.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both convey the assisted climb into the boat, Janet's approach and her distress. The descriptions of the leg movement and perception do not establish a substantive advantage.",
+          "exact_duplicate": false
+        }
+      ]
+    },
+    {
+      "id": "qa8a286da66",
+      "decision": "tie",
+      "stratum": "challenge",
+      "work_id": "rowboat",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Splitting the sentence in A avoids B's slightly awkward transition from masculine grammatical gender to a female referent. Both remain clear and faithful; the difference is minor.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the rescue mechanics and realization that Janet is human. A's sentence break handles the transition from «человек» to «она» more smoothly; the difference is small.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the discovery of a living human and the physical predicament. The sentence break in A and coordination in B are minor alternatives.",
+          "exact_duplicate": false
+        }
+      ]
+    },
+    {
+      "id": "qb6f48742c7",
+      "decision": "tie",
+      "stratum": "challenge",
+      "work_id": "blindsight",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the sustained kicking, automatic reaction, and recognition of Pag.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the violence, reflexive swing and recognition of Pag.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations conveying the violence and unthinking reaction to Pag.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "qcbe946abf7",
+      "decision": "tie",
+      "stratum": "random",
+      "work_id": "robot",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the speed-dial discovery and the final absence of any answering device. Their final sentences are valid alternatives.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the speed-dial discovery and the bleak final observation. Singular and plural formulations are valid alternatives.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve his place in Ada's speed-dial and the now-unreachable number. Singular versus plural ringing is a minor phrasing alternative.",
+          "exact_duplicate": false
+        }
+      ]
+    },
+    {
+      "id": "qcf950c4864",
+      "decision": "tie",
+      "stratum": "challenge",
+      "work_id": "blindsight",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "A retains the broader susceptibility to narcotics; B interprets it as susceptibility to addiction. In this genetic-risk context both are defensible, though A preserves more openness.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "A retains the broader susceptibility to narcotics; B interprets it as susceptibility to addiction. Both are defensible here, and neither asserts that addiction actually occurred.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "A retains the broader susceptibility wording; B interprets it as vulnerability to addiction, a defensible reading in this context. Neither has a decisive advantage.",
+          "exact_duplicate": false
+        }
+      ]
+    },
+    {
+      "id": "qd34f35c181",
+      "decision": "tie",
+      "stratum": "random",
+      "work_id": "rowboat",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the distributed intelligence and distinction between advice and orders. A explains the lightspeed delay more naturally, but the difference is minor.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "B explains the signal delay more precisely, but A remains intelligible and faithful. This is a minor wording improvement rather than a substantive correction.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "B states the finite-speed explanation more directly, but both preserve the latency inference, distributed topology and distinction between advice and command.",
+          "exact_duplicate": false
+        }
+      ]
+    },
+    {
+      "id": "qd96c62da74",
+      "decision": "tie",
+      "stratum": "challenge",
+      "work_id": "robot",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the inflated official introduction and the comic disproportion of the mother's small shrine.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations retain the bureaucratic introduction, inflated professional praise and shrine's comic scale.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserving the inflated official introduction and the comic scale of the mother's shrine.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "qdbaaab067c",
+      "decision": "memory_relevant",
+      "stratum": "challenge",
+      "work_id": "robot",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "memory_relevant",
+          "raw_overall": "B",
+          "reason": "B more precisely preserves the takeaway container. Its explicit description of cup rings and A's shorter image are otherwise valid alternatives.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 2,
+          "vote": "memory_relevant",
+          "raw_overall": "B",
+          "reason": "B correctly identifies the takeaway container. Its rendering of the coffee rings is also more idiomatic, although A's image remains understandable.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 3,
+          "vote": "memory_relevant",
+          "raw_overall": "A",
+          "reason": "A more accurately identifies the takeaway container. Its description of coffee stains is also clearer than B's literal wording.",
+          "exact_duplicate": false
+        }
+      ]
+    },
+    {
+      "id": "qdeb6786d21",
+      "decision": "tie",
+      "stratum": "challenge",
+      "work_id": "rowboat",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve Robbie's rationalization, the hierarchy of Kate's instances, and the haircut comparison.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations retain Robbie's unsettling rationalization and the holiday haircut comparison.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserving Robbie's reasoning about identity and the deliberately incongruous haircut comparison.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "qdf715a19a6",
+      "decision": "memory_relevant",
+      "stratum": "random",
+      "work_id": "blindsight",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "memory_relevant",
+          "raw_overall": "B",
+          "reason": "B preserves the child's tentative comparison more closely. A turns it into an inferred conclusion. Russian prose is otherwise equivalent.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 2,
+          "vote": "memory_relevant",
+          "raw_overall": "A",
+          "reason": "A preserves the tentative comparison more closely. B turns it into a more definite inference about the parents' act.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 3,
+          "vote": "memory_relevant",
+          "raw_overall": "A",
+          "reason": "A better preserves the tentative analogy. B makes the child's statement sound more like a conclusion.",
+          "exact_duplicate": false
+        }
+      ]
+    },
+    {
+      "id": "qe1201d759d",
+      "decision": "tie",
+      "stratum": "random",
+      "work_id": "robot",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the distinction between arrest and covert phone tracking, and Arturo's motive.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the surveillance measures and Arturo's reason for avoiding arrest.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserving the covert phone monitoring and Arturo's reason for avoiding an arrest.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "qe8c00254a0",
+      "decision": "tie",
+      "stratum": "challenge",
+      "work_id": "rowboat",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the drifting movement, awakening reef, and preceding electromagnetic activity.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the actions, awakening and electromagnetic context.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserving the withdrawal toward the ship and the electromagnetic evidence explaining the reef's awakening.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "qeb5bfb523b",
+      "decision": "tie",
+      "stratum": "challenge",
+      "work_id": "blindsight",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the detached reasoning, repeated interference with nature, and brutal counterexample.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the clinical reasoning, repeated references to nature and brutal concluding contrast.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserving the mechanical self-description, detached reasoning and contrast with Pag's unmodified genetics.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "qed34513c3c",
+      "decision": "tie",
+      "stratum": "challenge",
+      "work_id": "robot",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the hesitation, multiplicity, uploading procedure, and practical justification.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the hesitant disclosure, multiple selves and bodily decanting metaphor.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserving the repeated multiplicity, copying process and bodily transfer image.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "qf75369d6ce",
+      "decision": "tie",
+      "stratum": "random",
+      "work_id": "rowboat",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the distinction between reef and shells, the dangerous celebration, and Kate's reprimand.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the reef's distributed embodiment, delighted dance and Kate's reprimand.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserving the reef's embodied delight, near-capsizing dance and Kate's reprimand.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "qfa3f76ea9a",
+      "decision": "tie",
+      "stratum": "random",
+      "work_id": "robot",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the vertical city, unusual movements of the towers, robot schools, and sudden embrace.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations retain the fragmented opening, unusual tower movements, synchronized robots and intimate final gesture.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserving the vertical city, animated architecture, robot-school image and unexpected embrace.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "qfea9fde21e",
+      "decision": "tie",
+      "stratum": "random",
+      "work_id": "robot",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the propaganda montage and Arturo's anxious shift toward his daughter.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the propaganda montage and Arturo's distracted concern for Ada.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserving the propaganda sequence and Arturo's anxious turn toward Ada.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "qff3beb7bf1",
+      "decision": "tie",
+      "stratum": "random",
+      "work_id": "robot",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the colloquial explanation, uncertain timing, and conditional killing instruction.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the colloquial explanation, uncertain activation date and conditional killing instruction.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserving the conversational register, triggering mechanisms and example condition.",
+          "exact_duplicate": true
+        }
+      ]
+    }
+  ],
+  "memory_random": [
+    {
+      "id": "q0ee1c0cd42",
+      "decision": "tie",
+      "stratum": "random",
+      "work_id": "rowboat",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve computational constraints and the startled discovery of bodily organs.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations retain the computational constraints, fragmented bodily exploration and surprise at lungs and air.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations retain the computational constraints, experimental movements and startled discovery of bodily organs.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "q169b1b9d62",
+      "decision": "tie",
+      "stratum": "random",
+      "work_id": "rowboat",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the command, obedience, transfer sensation and interruption of consciousness.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the obedience between instances, download sensation and interruption of consciousness.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the obedience between instances, bodily sensation and abrupt lapse into nothingness.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "q1a124e210a",
+      "decision": "tie",
+      "stratum": "challenge",
+      "work_id": "blindsight",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the retrospective causal chain and recurring language of viewpoint.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the recurring point-of-view language, uncertain judgment and coffin image.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the repeated point of view, reversal about Earth's fate and the narrator's isolated present.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "q269307d5a9",
+      "decision": "tie",
+      "stratum": "random",
+      "work_id": "blindsight",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "memory_relevant",
+          "raw_overall": "B",
+          "reason": "B preserves general incapacitation more accurately; the remaining phrasing differences are minor.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "A describes incapacitation more broadly; B emphasizes physical incapacity. Both convey the seizures' protective and disabling effects, and the remaining differences do not establish a clear winner.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the narrator's detached reasoning. B describes physical incapacitation more specifically, while A uses a broader equivalent; neither materially changes the scene.",
+          "exact_duplicate": false
+        }
+      ]
+    },
+    {
+      "id": "q28167c0ed9",
+      "decision": "tie",
+      "stratum": "challenge",
+      "work_id": "robot",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the technical distinction and Arturo's fear.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve Arturo's fear, the absent legal constraints and the hypothetical shooting.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the machine's purpose, the missing safeguards and the counterfactual danger to Arturo.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "q3cb5976585",
+      "decision": "tie",
+      "stratum": "random",
+      "work_id": "blindsight",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the audible injury and absence of satisfaction. The anatomical number and opponent phrasing do not materially change the scene.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the audible facial injury and the narrator's emotionally empty calculation. Singular and plural anatomical phrasing do not materially alter the scene.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the audible injury and emotionally detached assessment. Singular versus plural cheek-bone wording and the alternatives for managing opponents are valid tradeoffs.",
+          "exact_duplicate": false
+        }
+      ]
+    },
+    {
+      "id": "q49808d15b8",
+      "decision": "tie",
+      "stratum": "challenge",
+      "work_id": "robot",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the explanation, emotional repetition and distinction between reason and excuse; clause order is a valid tradeoff.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the confession, repetition and distinction between a reason and an excuse. The reordered clause is a valid alternative.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The reordered explanation of her defection is a valid rhythmic alternative. Both preserve her distinction between a reason and an excuse.",
+          "exact_duplicate": false
+        }
+      ]
+    },
+    {
+      "id": "q4d3dc54baa",
+      "decision": "tie",
+      "stratum": "challenge",
+      "work_id": "rowboat",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations retain the institutional irony and pleasure of forbidden theological debate.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the legal threat and the irony of an AI estate opposing Asimovism.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations retain the legal threat, the religious irony and the pleasure of forbidden debate.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "q52c8bbe1ec",
+      "decision": "tie",
+      "stratum": "random",
+      "work_id": "blindsight",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The descriptions of the larger children are valid alternatives with no material difference.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The comparative descriptions of the larger children are equivalent in context. Both preserve the rhetorical question and clipped alternatives.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The alternatives for the larger children express the same disadvantage. Both preserve the rhetorical question and clipped possible responses.",
+          "exact_duplicate": false
+        }
+      ]
+    },
+    {
+      "id": "q7c3d95f57d",
+      "decision": "tie",
+      "stratum": "random",
+      "work_id": "blindsight",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the child's hesitation, repetition and disturbing claim about identity.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the child's hesitation, bodily horror and repeated accusation.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the child's repeated claim, hesitation and image of a different boy growing from the remains.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "q81934bc463",
+      "decision": "tie",
+      "stratum": "challenge",
+      "work_id": "rowboat",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the explanation and conversational register.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the historical explanation, informal register and network-absorption image.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the explanatory register, recurring newcomers and the metaphor of the network absorbing them.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "q8221a17b47",
+      "decision": "memory_relevant",
+      "stratum": "challenge",
+      "work_id": "blindsight",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the extended reconstruction metaphor and speculative identity argument. A states the effort of adaptation more directly; B's temporal phrasing is a minor tradeoff.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 2,
+          "vote": "memory_relevant",
+          "raw_overall": "A",
+          "reason": "A preserves the effort involved in adaptation more accurately. The punctuation and other syntactic differences are valid alternatives.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 3,
+          "vote": "memory_relevant",
+          "raw_overall": "B",
+          "reason": "B corrects a dangling construction and preserves the effort involved in adaptation more precisely. Other differences are valid alternatives.",
+          "exact_duplicate": false
+        }
+      ]
+    },
+    {
+      "id": "qa6ff60816c",
+      "decision": "memory_relevant",
+      "stratum": "random",
+      "work_id": "rowboat",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "memory_relevant",
+          "raw_overall": "A",
+          "reason": "A preserves the stated visual observation. B changes the sensory channel of Janet's breathing; the swimming descriptions are otherwise valid alternatives.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 2,
+          "vote": "memory_relevant",
+          "raw_overall": "A",
+          "reason": "A more closely preserves the stated sensory viewpoint. The different descriptions of kicking are otherwise valid alternatives.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 3,
+          "vote": "memory_relevant",
+          "raw_overall": "B",
+          "reason": "B preserves the explicitly visual observation of Janet's breathing. The different descriptions of the man's kick are otherwise defensible.",
+          "exact_duplicate": false
+        }
+      ]
+    },
+    {
+      "id": "qa8a286da66",
+      "decision": "tie",
+      "stratum": "challenge",
+      "work_id": "rowboat",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the recognition, physical predicament and Isaac's inaction.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the recognition of a human, the oar's limit and Isaac's disturbing immobility.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the recognition of a living person, the oar's mechanical limit and Isaac's disturbing immobility.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "qb6f48742c7",
+      "decision": "tie",
+      "stratum": "challenge",
+      "work_id": "blindsight",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations convey the actions but share a small loss of the narrator's dehumanizing reference to his victim.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the violence, reflexive response and abrupt recognition of Pag.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the violence, automatic reaction and abrupt recognition.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "qcbe946abf7",
+      "decision": "tie",
+      "stratum": "random",
+      "work_id": "robot",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the disconnected number's significance. A's final sentence is slightly smoother, but the difference is too small to warrant a preference.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the dead number and its emotional implication. Their different Russian constructions are defensible, with no material semantic difference.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the disconnected number and its emotional placement after the speed-dial discovery. The final sentences are valid stylistic alternatives.",
+          "exact_duplicate": false
+        }
+      ]
+    },
+    {
+      "id": "qcf950c4864",
+      "decision": "tie",
+      "stratum": "challenge",
+      "work_id": "blindsight",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the contrasting misfortunes, parental beliefs and repair metaphor.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the contrasting misfortunes, religious rationale and deliberately mechanical language of repair.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the complementary disadvantages, parental religious reasoning and the repeated repair metaphor.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "qd34f35c181",
+      "decision": "tie",
+      "stratum": "random",
+      "work_id": "rowboat",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "B explains the signal delay more precisely, but both convey the same inference and preserve the crucial distinction between advice and command.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "A explains the light-speed delay more precisely, while B remains understandable in context. This small wording difference does not establish a substantive advantage.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "B states the cause of signal delay more explicitly, but A remains intelligible and compatible with the same physical explanation. The difference does not warrant a winner.",
+          "exact_duplicate": false
+        }
+      ]
+    },
+    {
+      "id": "qd96c62da74",
+      "decision": "tie",
+      "stratum": "challenge",
+      "work_id": "robot",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the bureaucratic accumulation and inflated account of professional distinction.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the inflated official introduction and the shrine's comic disproportion.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations retain the elaborate official introduction and the comic contrast between the small shrine and its extensive footprint.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "qdbaaab067c",
+      "decision": "tie",
+      "stratum": "challenge",
+      "work_id": "robot",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The portable drink container, improvised plumbing and coffee marks receive defensible alternative renderings. Neither changes the investigation materially.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The vessel, plumbing and coffee-ring descriptions are defensible alternatives. Both preserve Arturo's uncertainty about the occupant and his reasoning.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the improvised hideout, uncertain identity and inference about buying furniture. The vessel and plumbing formulations are defensible alternatives.",
+          "exact_duplicate": false
+        }
+      ]
+    },
+    {
+      "id": "qdeb6786d21",
+      "decision": "tie",
+      "stratum": "challenge",
+      "work_id": "rowboat",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations retain the distinction between instances and the unsettling haircut analogy.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve Robbie's rationalization and the deliberately incongruous haircut comparison.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve Robbie's rationalization, the hierarchy of instances and the deliberately casual haircut comparison.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "qdf715a19a6",
+      "decision": "memory_relevant",
+      "stratum": "random",
+      "work_id": "blindsight",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "memory_relevant",
+          "raw_overall": "A",
+          "reason": "A better preserves the child's tentative analogy. B makes the accusation sound more like an established inference.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 2,
+          "vote": "memory_relevant",
+          "raw_overall": "B",
+          "reason": "B more closely preserves the child's tentative analogy; both otherwise retain his struggle with words and concepts.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 3,
+          "vote": "memory_relevant",
+          "raw_overall": "B",
+          "reason": "B better preserves the tentative comparison in the child's struggling explanation; otherwise the versions are equivalent.",
+          "exact_duplicate": false
+        }
+      ]
+    },
+    {
+      "id": "qe1201d759d",
+      "decision": "tie",
+      "stratum": "random",
+      "work_id": "robot",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Tracking and logging are both defensible descriptions here; both preserve the reason for avoiding arrest.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the surveillance measures and Arturo's reason for avoiding an arrest. The technical phrasing differs without a material change.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Tracking and registering calls are defensible alternatives here. Both preserve the covert surveillance and Arturo's reason for avoiding arrest.",
+          "exact_duplicate": false
+        }
+      ]
+    },
+    {
+      "id": "qe8c00254a0",
+      "decision": "tie",
+      "stratum": "challenge",
+      "work_id": "rowboat",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the drifting movement and Robbie's explanation for the reef's awakening.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve Robbie's movement, the reef's awakening and the earlier electromagnetic activity.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the drifting movement, first awakening and earlier electromagnetic activity.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "qeb5bfb523b",
+      "decision": "tie",
+      "stratum": "challenge",
+      "work_id": "blindsight",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the detached reasoning and violence. The different rib-injury verbs are defensible renderings of the forceful English expression.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Both preserve the detached reasoning and brutal conclusion. The rib descriptions offer defensible renderings of the force implied by 'kicked in'.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "The alternatives for the assault emphasize compression or broken ribs. Both are defensible renderings of the forceful English expression in this scene.",
+          "exact_duplicate": false
+        }
+      ]
+    },
+    {
+      "id": "qed34513c3c",
+      "decision": "tie",
+      "stratum": "challenge",
+      "work_id": "robot",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the multiplication of selves, bodily transfer metaphor and workload explanation.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the hesitant revelation, repeated multiplicity and bodily transfer metaphor.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations retain the repeated multiplicity, technical explanation and bodily decanting image.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "qf75369d6ce",
+      "decision": "tie",
+      "stratum": "random",
+      "work_id": "rowboat",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the distributed reef's delight, the boat's instability and Kate's reaction.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations maintain the distinction between the reef's bodies and the sequence aboard Robbie.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the distinction between the reef's bodies, its delight and Kate's irritated intervention.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "qfa3f76ea9a",
+      "decision": "tie",
+      "stratum": "random",
+      "work_id": "robot",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations retain the architectural animation, coordinated robots and final embrace.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations retain the vertical fragments, animated architecture, fish image and unexpected embrace.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the vertical cityscape, unusual tower movements, robot formations and intimate final gesture.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "qfea9fde21e",
+      "decision": "tie",
+      "stratum": "random",
+      "work_id": "robot",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the propaganda montage and Arturo's distracted concern.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the propaganda montage and Arturo's anxious turn toward Ada.",
+          "exact_duplicate": true
+        },
+        {
+          "judge": 3,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "Identical translations preserve the propaganda montage and Arturo's sudden concern about Ada.",
+          "exact_duplicate": true
+        }
+      ]
+    },
+    {
+      "id": "qff3beb7bf1",
+      "decision": "memory_random",
+      "stratum": "random",
+      "work_id": "robot",
+      "judges": [
+        {
+          "judge": 1,
+          "vote": "memory_random",
+          "raw_overall": "A",
+          "reason": "A retains the unrestricted target category more exactly; both preserve the Texan's casual technical explanation.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 2,
+          "vote": "tie",
+          "raw_overall": "tie",
+          "reason": "B follows the breadth of 'anything' more literally; A's personal construction remains defensible for pursuers, including robots in this scene. Both preserve the colloquial explanation.",
+          "exact_duplicate": false
+        },
+        {
+          "judge": 3,
+          "vote": "memory_random",
+          "raw_overall": "A",
+          "reason": "A preserves the unrestricted category of targets. B's wording restricts the instruction to persons, which matters for this machine-killing device.",
+          "exact_duplicate": false
+        }
+      ]
+    }
+  ]
+}

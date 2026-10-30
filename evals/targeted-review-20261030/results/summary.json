@@ -1,0 +1,271 @@
+{
+  "comparisons": {
+    "idiom": {
+      "treatment": "idiom",
+      "control": "generic",
+      "items": 30,
+      "wins": 1,
+      "losses": 2,
+      "ties": 27,
+      "unclear": 0,
+      "net": -1,
+      "random_net": 0,
+      "work_nets": {
+        "blindsight": -2,
+        "robot": 1,
+        "rowboat": 0
+      },
+      "per_judge": [
+        {
+          "judge": 1,
+          "counts": {
+            "idiom": 2,
+            "generic": 2,
+            "tie": 26
+          },
+          "net": 0
+        },
+        {
+          "judge": 2,
+          "counts": {
+            "tie": 28,
+            "generic": 2
+          },
+          "net": -2
+        },
+        {
+          "judge": 3,
+          "counts": {
+            "tie": 27,
+            "idiom": 1,
+            "generic": 2
+          },
+          "net": -1
+        }
+      ],
+      "exact_sign_p": 1.0,
+      "adjudicated_safety": {
+        "major_critical": 0,
+        "minor": 0,
+        "unresolved": 0,
+        "changed_items": 13
+      },
+      "integration_pass": false,
+      "holm_p": 1.0,
+      "pre_safety_gate": false
+    },
+    "fidelity": {
+      "treatment": "fidelity",
+      "control": "generic",
+      "items": 30,
+      "wins": 3,
+      "losses": 4,
+      "ties": 23,
+      "unclear": 0,
+      "net": -1,
+      "random_net": 2,
+      "work_nets": {
+        "blindsight": -3,
+        "robot": 2,
+        "rowboat": 0
+      },
+      "per_judge": [
+        {
+          "judge": 1,
+          "counts": {
+            "tie": 26,
+            "generic": 3,
+            "fidelity": 1
+          },
+          "net": -2
+        },
+        {
+          "judge": 2,
+          "counts": {
+            "generic": 5,
+            "tie": 22,
+            "fidelity": 3
+          },
+          "net": -2
+        },
+        {
+          "judge": 3,
+          "counts": {
+            "tie": 24,
+            "fidelity": 3,
+            "generic": 3
+          },
+          "net": 0
+        }
+      ],
+      "exact_sign_p": 1.0,
+      "adjudicated_safety": {
+        "major_critical": 0,
+        "minor": 0,
+        "unresolved": 0,
+        "changed_items": 6
+      },
+      "integration_pass": false,
+      "holm_p": 1.0,
+      "pre_safety_gate": false
+    },
+    "memory_plain": {
+      "treatment": "memory_relevant",
+      "control": "generic",
+      "items": 30,
+      "wins": 4,
+      "losses": 0,
+      "ties": 26,
+      "unclear": 0,
+      "net": 4,
+      "random_net": 2,
+      "work_nets": {
+        "blindsight": 2,
+        "robot": 1,
+        "rowboat": 1
+      },
+      "per_judge": [
+        {
+          "judge": 1,
+          "counts": {
+            "tie": 27,
+            "memory_relevant": 3
+          },
+          "net": 3
+        },
+        {
+          "judge": 2,
+          "counts": {
+            "tie": 26,
+            "memory_relevant": 4
+          },
+          "net": 4
+        },
+        {
+          "judge": 3,
+          "counts": {
+            "memory_relevant": 4,
+            "tie": 26
+          },
+          "net": 4
+        }
+      ],
+      "exact_sign_p": 0.125,
+      "adjudicated_safety": {
+        "major_critical": 0,
+        "minor": 0,
+        "unresolved": 0,
+        "changed_items": 13
+      },
+      "integration_pass": false,
+      "holm_p": 0.5,
+      "pre_safety_gate": false
+    },
+    "memory_random": {
+      "treatment": "memory_relevant",
+      "control": "memory_random",
+      "items": 30,
+      "wins": 3,
+      "losses": 1,
+      "ties": 26,
+      "unclear": 0,
+      "net": 2,
+      "random_net": 1,
+      "work_nets": {
+        "blindsight": 2,
+        "robot": -1,
+        "rowboat": 1
+      },
+      "per_judge": [
+        {
+          "judge": 1,
+          "counts": {
+            "tie": 26,
+            "memory_relevant": 3,
+            "memory_random": 1
+          },
+          "net": 2
+        },
+        {
+          "judge": 2,
+          "counts": {
+            "tie": 27,
+            "memory_relevant": 3
+          },
+          "net": 3
+        },
+        {
+          "judge": 3,
+          "counts": {
+            "tie": 26,
+            "memory_relevant": 3,
+            "memory_random": 1
+          },
+          "net": 2
+        }
+      ],
+      "exact_sign_p": 0.625,
+      "adjudicated_safety": {
+        "major_critical": 0,
+        "minor": 0,
+        "unresolved": 0,
+        "changed_items": 13
+      },
+      "integration_pass": false,
+      "holm_p": 1.0,
+      "pre_safety_gate": false
+    }
+  },
+  "mechanism": {
+    "idiom": {
+      "planted_defects": 8,
+      "fixed": 8,
+      "clean_controls": 4,
+      "false_substantive_edits": 0,
+      "new_failures": 0,
+      "pass": true
+    },
+    "fidelity": {
+      "planted_defects": 8,
+      "fixed": 8,
+      "clean_controls": 4,
+      "false_substantive_edits": 0,
+      "new_failures": 0,
+      "pass": true
+    },
+    "memory": {
+      "planted_defects": 8,
+      "fixed": 8,
+      "clean_controls": 4,
+      "false_substantive_edits": 0,
+      "new_failures": 0,
+      "pass": true
+    }
+  },
+  "safety": {
+    "idiom": {
+      "major_critical": 0,
+      "minor": 0,
+      "unresolved": 0,
+      "changed_items": 13
+    },
+    "fidelity": {
+      "major_critical": 0,
+      "minor": 0,
+      "unresolved": 0,
+      "changed_items": 6
+    },
+    "memory_relevant": {
+      "major_critical": 0,
+      "minor": 0,
+      "unresolved": 0,
+      "changed_items": 13
+    }
+  },
+  "integration_eligible": {
+    "idiom": false,
+    "fidelity": false,
+    "memory": false
+  },
+  "meaning": "Internal model-reviewed evidence on this frozen sample; not human literary certification."
+}

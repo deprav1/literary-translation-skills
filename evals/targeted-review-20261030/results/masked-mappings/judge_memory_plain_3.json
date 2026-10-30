@@ -1,0 +1,122 @@
+{
+  "qeb5bfb523b": {
+    "A": "memory_relevant",
+    "B": "generic"
+  },
+  "qdbaaab067c": {
+    "A": "memory_relevant",
+    "B": "generic"
+  },
+  "q7c3d95f57d": {
+    "A": "memory_relevant",
+    "B": "generic"
+  },
+  "q1a124e210a": {
+    "A": "memory_relevant",
+    "B": "generic"
+  },
+  "q3cb5976585": {
+    "A": "generic",
+    "B": "memory_relevant"
+  },
+  "qcf950c4864": {
+    "A": "generic",
+    "B": "memory_relevant"
+  },
+  "q0ee1c0cd42": {
+    "A": "generic",
+    "B": "memory_relevant"
+  },
+  "q269307d5a9": {
+    "A": "memory_relevant",
+    "B": "generic"
+  },
+  "qb6f48742c7": {
+    "A": "generic",
+    "B": "memory_relevant"
+  },
+  "q4d3dc54baa": {
+    "A": "memory_relevant",
+    "B": "generic"
+  },
+  "qdf715a19a6": {
+    "A": "memory_relevant",
+    "B": "generic"
+  },
+  "qfa3f76ea9a": {
+    "A": "generic",
+    "B": "memory_relevant"
+  },
+  "qdeb6786d21": {
+    "A": "memory_relevant",
+    "B": "generic"
+  },
+  "q28167c0ed9": {
+    "A": "generic",
+    "B": "memory_relevant"
+  },
+  "qf75369d6ce": {
+    "A": "generic",
+    "B": "memory_relevant"
+  },
+  "qed34513c3c": {
+    "A": "generic",
+    "B": "memory_relevant"
+  },
+  "qe1201d759d": {
+    "A": "generic",
+    "B": "memory_relevant"
+  },
+  "qa6ff60816c": {
+    "A": "memory_relevant",
+    "B": "generic"
+  },
+  "q8221a17b47": {
+    "A": "memory_relevant",
+    "B": "generic"
+  },
+  "qd96c62da74": {
+    "A": "memory_relevant",
+    "B": "generic"
+  },
+  "qff3beb7bf1": {
+    "A": "generic",
+    "B": "memory_relevant"
+  },
+  "q49808d15b8": {
+    "A": "memory_relevant",
+    "B": "generic"
+  },
+  "qcbe946abf7": {
+    "A": "memory_relevant",
+    "B": "generic"
+  },
+  "qfea9fde21e": {
+    "A": "generic",
+    "B": "memory_relevant"
+  },
+  "q52c8bbe1ec": {
+    "A": "generic",
+    "B": "memory_relevant"
+  },
+  "q81934bc463": {
+    "A": "generic",
+    "B": "memory_relevant"
+  },
+  "q169b1b9d62": {
+    "A": "memory_relevant",
+    "B": "generic"
+  },
+  "qe8c00254a0": {
+    "A": "memory_relevant",
+    "B": "generic"
+  },
+  "qa8a286da66": {
+    "A": "generic",
+    "B": "memory_relevant"
+  },
+  "qd34f35c181": {
+    "A": "generic",
+    "B": "memory_relevant"
+  }
+}

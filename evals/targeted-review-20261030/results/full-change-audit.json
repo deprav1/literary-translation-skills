@@ -1,0 +1,3325 @@
+[
+  {
+    "arm": "generic",
+    "id": "qeb5bfb523b",
+    "source": "But that part of me had been cut out along with the bad wiring. I was still working up the algorithms to get it back, still learning by observation. Pack animals always tear apart the weaklings in their midst. Every child knows that much instinctively. Maybe I should just let that process unfold, maybe I shouldn't try to mess with nature. Then again, Pag's parents hadn't messed with nature, and look what it got them: a son curled up in the dirt while a bunch of engineered superboys kicked in his ribs.",
+    "draft": "Но эту часть меня вырезали вместе с неисправными цепями. Я всё ещё разрабатывал алгоритмы, чтобы вернуть её, всё ещё учился наблюдением. Стайные животные всегда рвут на части слабаков в своих рядах. Любой ребёнок знает это инстинктивно. Может, стоило просто дать событиям идти своим чередом, может, не стоило вмешиваться в природу. С другой стороны, родители Пэга не вмешивались в природу, и вот к чему это привело: их сын лежал, свернувшись в грязи, а кучка генетически сконструированных сверхмальчиков ударами ног вминала ему рёбра.",
+    "result": "Но эту часть меня вырезали вместе с неисправными цепями. Я всё ещё разрабатывал алгоритмы, чтобы вернуть её, всё ещё учился, наблюдая. Стайные животные всегда рвут на части слабаков в своих рядах. Любой ребёнок знает это инстинктивно. Может, стоило просто дать событиям идти своим чередом, может, не стоило вмешиваться в природу. С другой стороны, родители Пэга не вмешивались в природу, и вот к чему это привело: их сын лежал, свернувшись в грязи, а кучка генетически сконструированных сверхмальчиков ударами ног вминала ему рёбра.",
+    "source_sha256": "93e6cc42c386c8741fe12db35db57524bdeb55cbf5283050c227bf691fea4872",
+    "draft_sha256": "0494ee613f2145f5908953917e85ffef1f1cd322d814c1c50b0d06cca7f82c1c",
+    "result_sha256": "ea47f4a5fe65306c068b29a739b26fc67304b97de77d8d71218557ff7ff24188",
+    "actual_diff": [
+      {
+        "kind": "insert",
+        "before_start": 123,
+        "before_end": 123,
+        "after_start": 123,
+        "after_end": 124,
+        "before": "",
+        "after": ","
+      },
+      {
+        "kind": "replace",
+        "before_start": 130,
+        "before_end": 135,
+        "after_start": 131,
+        "after_end": 133,
+        "before": "ением",
+        "after": "ая"
+      }
+    ],
+    "model_reported_changes": [
+      {
+        "source_quote": "still learning by observation",
+        "draft_quote": "всё ещё учился наблюдением",
+        "reason": "«Учился, наблюдая» естественнее передаёт способ обучения."
+      }
+    ]
+  },
+  {
+    "arm": "generic",
+    "id": "q3cb5976585",
+    "source": "A third, turning to face the new threat, took a blow to the face that audibly crunched the bones of his cheek. I remember wondering why I didn't take any satisfaction from that sound, why it meant nothing beyond the fact I had one less opponent to worry about.",
+    "draft": "Третий, обернувшись к новой угрозе, получил удар в лицо — кости щеки отчётливо хрустнули. Помню, я удивился: почему этот звук не доставил мне никакого удовлетворения, почему не означал ничего, кроме того, что теперь мне придётся иметь дело на одного противника меньше.",
+    "result": "Третий, обернувшись к новой угрозе, получил удар в лицо — кости щеки отчётливо хрустнули. Помню, я удивился: почему этот звук не доставил мне никакого удовлетворения, почему не означал ничего, кроме того, что противников, которых мне следовало опасаться, стало на одного меньше.",
+    "source_sha256": "0a470a7b4dcd1825a8fbaabcda1748c5a322cbceb50ffedcb680e7ce60db6ac2",
+    "draft_sha256": "5c25536bd094d71248fdf49151b7edb5182a33391bfb07fbbaf43a8c7806d2d2",
+    "result_sha256": "07af7e3ac92a47e53079e3042669cd5eedf1807ff4d6c4ec76ae3e88f5d7eae2",
+    "actual_diff": [
+      {
+        "kind": "insert",
+        "before_start": 209,
+        "before_end": 209,
+        "after_start": 209,
+        "after_end": 212,
+        "before": "",
+        "after": "про"
+      },
+      {
+        "kind": "replace",
+        "before_start": 210,
+        "before_end": 213,
+        "after_start": 213,
+        "after_end": 226,
+        "before": "епе",
+        "after": "ивников, кото"
+      },
+      {
+        "kind": "replace",
+        "before_start": 214,
+        "before_end": 215,
+        "after_start": 227,
+        "after_end": 229,
+        "before": "ь",
+        "after": "ых"
+      },
+      {
+        "kind": "insert",
+        "before_start": 220,
+        "before_end": 220,
+        "after_start": 234,
+        "after_end": 245,
+        "before": "",
+        "after": "следовало о"
+      },
+      {
+        "kind": "replace",
+        "before_start": 221,
+        "before_end": 225,
+        "after_start": 246,
+        "after_end": 249,
+        "before": "ридё",
+        "after": "аса"
+      },
+      {
+        "kind": "insert",
+        "before_start": 226,
+        "before_end": 226,
+        "after_start": 250,
+        "after_end": 251,
+        "before": "",
+        "after": "ь"
+      },
+      {
+        "kind": "insert",
+        "before_start": 228,
+        "before_end": 228,
+        "after_start": 253,
+        "after_end": 254,
+        "before": "",
+        "after": ","
+      },
+      {
+        "kind": "replace",
+        "before_start": 229,
+        "before_end": 232,
+        "after_start": 255,
+        "after_end": 256,
+        "before": "име",
+        "after": "с"
+      },
+      {
+        "kind": "replace",
+        "before_start": 233,
+        "before_end": 237,
+        "after_start": 257,
+        "after_end": 258,
+        "before": "ь де",
+        "after": "а"
+      },
+      {
+        "kind": "delete",
+        "before_start": 250,
+        "before_end": 261,
+        "after_start": 271,
+        "after_end": 271,
+        "before": "противника ",
+        "after": ""
+      }
+    ],
+    "model_reported_changes": [
+      {
+        "source_quote": "I had one less opponent to worry about",
+        "draft_quote": "теперь мне придётся иметь дело на одного противника меньше",
+        "reason": "Исправлена нарушенная конструкция с «иметь дело»."
+      }
+    ]
+  },
+  {
+    "arm": "generic",
+    "id": "qcf950c4864",
+    "source": "At the age of eight, he was my best and only friend. We were fellow outcasts, bound by complementary misfortune. Mine was developmental. His was genetic: an uncontrolled genotype that left him predisposed to nearsightedness, acne, and (as it later turned out) a susceptibility to narcotics. His parents had never had him optimized. Those few TwenCen relics who still believed in God also held that one shouldn't try to improve upon His handiwork. So although both of us could have been repaired, only one of us had been.",
+    "draft": "В восемь лет он был моим лучшим и единственным другом. Мы оба были изгоями, связанными взаимодополняющими несчастьями. Моё заключалось в нарушении развития. Его — в генетике: неконтролируемый генотип предрасполагал его к близорукости, угрям и, как выяснилось позже, наркотической зависимости. Родители так и не подвергли его оптимизации. Те немногие пережитки двадцатого века, что ещё верили в Бога, считали также, что не следует пытаться усовершенствовать Его творение. Поэтому, хотя починить можно было нас обоих, починили только одного.",
+    "result": "В восемь лет он был моим лучшим и единственным другом. Мы оба были изгоями, связанными взаимодополняющими несчастьями. Моё заключалось в нарушении развития. Его — в генетике: неконтролируемый генотип предрасполагал его к близорукости, угрям и, как выяснилось позже, восприимчивости к наркотикам. Родители так и не подвергли его оптимизации. Те немногие пережитки двадцатого века, что ещё верили в Бога, считали также, что не следует пытаться усовершенствовать Его творение. Поэтому, хотя починить можно было нас обоих, починили только одного.",
+    "source_sha256": "393e8c7ae46a0236c8a0da9799cf7f4833a44560c7bfd7cb87e84d79a745b0ee",
+    "draft_sha256": "731508201d1ae8bc101c738a13e77bb4a386ebabb9acb9489b790d1689372064",
+    "result_sha256": "2ae2e5612fbbfddb069ad00167266a82f003ca48ba859648ea0c4b4b4aac509d",
+    "actual_diff": [
+      {
+        "kind": "insert",
+        "before_start": 266,
+        "before_end": 266,
+        "after_start": 266,
+        "after_end": 284,
+        "before": "",
+        "after": "восприимчивости к "
+      },
+      {
+        "kind": "delete",
+        "before_start": 273,
+        "before_end": 276,
+        "after_start": 291,
+        "after_end": 291,
+        "before": "чес",
+        "after": ""
+      },
+      {
+        "kind": "delete",
+        "before_start": 277,
+        "before_end": 281,
+        "after_start": 292,
+        "after_end": 292,
+        "before": "ой з",
+        "after": ""
+      },
+      {
+        "kind": "delete",
+        "before_start": 282,
+        "before_end": 286,
+        "after_start": 293,
+        "after_end": 293,
+        "before": "виси",
+        "after": ""
+      },
+      {
+        "kind": "delete",
+        "before_start": 287,
+        "before_end": 291,
+        "after_start": 294,
+        "after_end": 294,
+        "before": "ости",
+        "after": ""
+      }
+    ],
+    "model_reported_changes": [
+      {
+        "source_quote": "a susceptibility to narcotics",
+        "draft_quote": "наркотической зависимости",
+        "reason": "Восприимчивость к наркотикам не обязательно означает зависимость."
+      }
+    ]
+  },
+  {
+    "arm": "generic",
+    "id": "q269307d5a9",
+    "source": "That didn't make sense. Even if he hadn't been my best friend, I should at least have empathized. I'd suffered less than Pag in the way of overt violence; my seizures tended to keep the other kids at a distance, scared them even as they incapacitated me. Still. I was no stranger to the taunts and insults, or the foot that appears from nowhere to trip you up en route from A to B. I knew how that felt.",
+    "draft": "Это было непонятно. Даже если бы он не был моим лучшим другом, я должен был хотя бы ему сочувствовать. От прямого насилия я страдал меньше Пэга: мои припадки обычно держали других детей на расстоянии, пугали их, даже когда лишали меня способности двигаться. И всё же. Мне были знакомы и насмешки, и оскорбления, и нога, возникающая из ниоткуда, чтобы подставить тебе подножку на пути из точки А в точку Б. Я знал, каково это.",
+    "result": "Это было непонятно. Даже если бы он не был моим лучшим другом, я должен был хотя бы ему сочувствовать. От прямого насилия я страдал меньше Пэга: мои припадки обычно держали других детей на расстоянии, пугали их, даже когда выводили меня из строя. И всё же. Мне были знакомы и насмешки, и оскорбления, и нога, возникающая из ниоткуда, чтобы подставить тебе подножку на пути из точки А в точку Б. Я знал, каково это.",
+    "source_sha256": "c9666b2484d19ce24d40694cb898f964ea7cb8e118c1c401e2e958fcf3e6e7e8",
+    "draft_sha256": "a529eae54eb6b9039c8273f255c071ac93c51a7c807e73328be84b712bf4d118",
+    "result_sha256": "c092012c7a18e7215bab10bbcb8112d82612ca841358d58d3a336fa5bcbd2771",
+    "actual_diff": [
+      {
+        "kind": "replace",
+        "before_start": 223,
+        "before_end": 224,
+        "after_start": 223,
+        "after_end": 228,
+        "before": "л",
+        "after": "вывод"
+      },
+      {
+        "kind": "delete",
+        "before_start": 225,
+        "before_end": 227,
+        "after_start": 229,
+        "after_end": 229,
+        "before": "ша",
+        "after": ""
+      },
+      {
+        "kind": "replace",
+        "before_start": 235,
+        "before_end": 243,
+        "after_start": 237,
+        "after_end": 240,
+        "before": "способно",
+        "after": "из "
+      },
+      {
+        "kind": "replace",
+        "before_start": 245,
+        "before_end": 255,
+        "after_start": 242,
+        "after_end": 244,
+        "before": "и двигатьс",
+        "after": "ро"
+      }
+    ],
+    "model_reported_changes": [
+      {
+        "source_quote": "even as they incapacitated me",
+        "draft_quote": "даже когда лишали меня способности двигаться",
+        "reason": "Убрано не указанное в оригинале уточнение о потере способности двигаться."
+      }
+    ]
+  },
+  {
+    "arm": "generic",
+    "id": "qa6ff60816c",
+    "source": "The man -- Robbie called him Isaac, of course -- caught the edge of the boat and kicked hard, hauling himself into the boat with his strong brown arms. Robbie was already rowing for Janet, who was swimming hard for him. She caught his oar -- she wasn't supposed to do that -- and began to climb along its length, lifting her body out of the water. Robbie saw that her eyes were wild, her breathing ragged.",
+    "draft": "Мужчина — Робби, конечно же, звал его Айзеком — ухватился за борт и, сильно оттолкнувшись ногами, втащил себя в лодку на крепких смуглых руках. Робби уже грёб к Джанет, которая изо всех сил плыла ему навстречу. Она схватилась за его весло — этого ей делать не полагалось — и начала перебираться вдоль него, вытягивая тело из воды. Робби увидел её обезумевший взгляд, услышал прерывистое дыхание.",
+    "result": "Мужчина — Робби, конечно же, звал его Айзеком — ухватился за борт и, сильно оттолкнувшись ногами, втащил себя в лодку на крепких смуглых руках. Робби уже грёб к Джанет, которая изо всех сил плыла ему навстречу. Она схватилась за его весло — этого ей делать не полагалось — и начала перебираться вдоль него, вытягивая тело из воды. Робби увидел её обезумевший взгляд и заметил, как прерывисто она дышит.",
+    "source_sha256": "1b743a9da8d70ce9f36cb16b1039c04f89bb4c06e708a5084c720b9714d635f9",
+    "draft_sha256": "2917cbee6f6462e68eb7261eaadb8af648913ab311192c66f3c65cfab1ef788c",
+    "result_sha256": "ac6fc14dac14ff49181257762bdee7546ba68eaf4e5e2c8a570ee4908f9db0bc",
+    "actual_diff": [
+      {
+        "kind": "insert",
+        "before_start": 365,
+        "before_end": 365,
+        "after_start": 365,
+        "after_end": 375,
+        "before": "",
+        "after": " и заметил"
+      },
+      {
+        "kind": "replace",
+        "before_start": 367,
+        "before_end": 372,
+        "after_start": 377,
+        "after_end": 378,
+        "before": "услыш",
+        "after": "к"
+      },
+      {
+        "kind": "replace",
+        "before_start": 373,
+        "before_end": 374,
+        "after_start": 379,
+        "after_end": 380,
+        "before": "л",
+        "after": "к"
+      },
+      {
+        "kind": "replace",
+        "before_start": 385,
+        "before_end": 386,
+        "after_start": 391,
+        "after_end": 395,
+        "before": "е",
+        "after": " она"
+      },
+      {
+        "kind": "replace",
+        "before_start": 389,
+        "before_end": 392,
+        "after_start": 398,
+        "after_end": 399,
+        "before": "хан",
+        "after": "ш"
+      },
+      {
+        "kind": "replace",
+        "before_start": 393,
+        "before_end": 394,
+        "after_start": 400,
+        "after_end": 401,
+        "before": "е",
+        "after": "т"
+      }
+    ],
+    "model_reported_changes": [
+      {
+        "source_quote": "Robbie saw that her eyes were wild, her breathing ragged.",
+        "draft_quote": "Робби увидел её обезумевший взгляд, услышал прерывистое дыхание.",
+        "reason": "Убрано добавленное слуховое восприятие: в оригинале Робби наблюдает за ней."
+      }
+    ]
+  },
+  {
+    "arm": "generic",
+    "id": "q8221a17b47",
+    "source": "But you could make a case for what he said. I do remember Helen telling me (and telling me) how difficult it was to adjust. Like you had a whole new personality, she said, and why not? There's a reason they call it radical hemispherectomy: half the brain thrown out with yesterday's krill, the remaining half press-ganged into double duty. Think of all the rewiring that one lonely hemisphere must have struggled with as it tried to take up the slack. It turned out okay, obviously. The brain's a very flexible piece of meat; it took some doing, but it adapted. I adapted. Still. Think of all that must have been squeezed out, deformed, reshaped by the time the renovations were through. You could argue that I'm a different person than the one who used to occupy this body.",
+    "draft": "Но в пользу его слов можно было привести доводы. Я ведь помню, как Хелен говорила мне — снова и снова, — до чего трудно было привыкнуть. Будто у тебя совершенно другая личность, говорила она, и почему бы нет? Не зря это называется радикальной гемисферэктомией: половину мозга выбрасывают вместе со вчерашним крилем, оставшуюся насильно припрягают работать за двоих. Подумайте, сколько соединений пришлось с трудом перестроить этому одинокому полушарию, пытаясь восполнить потерю. В итоге всё, очевидно, обошлось. Мозг — очень гибкий кусок мяса; не сразу, но он приспособился. Я приспособился. И всё же. Подумайте, сколько всего к концу перестройки было, должно быть, вытеснено, исковеркано, перекроено. Можно утверждать, что я уже не тот человек, который прежде занимал это тело.",
+    "result": "Но в пользу его слов можно было привести доводы. Я ведь помню, как Хелен говорила мне — снова и снова, — до чего трудно было привыкнуть. Будто у тебя совершенно другая личность, говорила она, и почему бы нет? Не зря это называется радикальной гемисферэктомией: половину мозга выбрасывают вместе со вчерашним крилем, оставшуюся насильно припрягают работать за двоих. Подумайте, сколько соединений пришлось с трудом перестроить этому одинокому полушарию, когда оно пыталось восполнить потерю. В итоге всё, очевидно, обошлось. Мозг — очень гибкий кусок мяса; не сразу, но он приспособился. Я приспособился. И всё же. Подумайте, сколько всего к концу перестройки было, должно быть, вытеснено, исковеркано, перекроено. Можно утверждать, что я уже не тот человек, который прежде занимал это тело.",
+    "source_sha256": "82561277da05c6b23b16ce1ad601097f5ff0978072cdfce64d887fd4d1c2d421",
+    "draft_sha256": "da78f0c7e58e35b36678eca0da303d2eb409f1f22ecfac9be2930d44edb73583",
+    "result_sha256": "f85627bfdf503d4100dfb0836a23bbcd664a1d46f93583b9e0128f6a17f62a9d",
+    "actual_diff": [
+      {
+        "kind": "insert",
+        "before_start": 453,
+        "before_end": 453,
+        "after_start": 453,
+        "after_end": 463,
+        "before": "",
+        "after": "когда оно "
+      },
+      {
+        "kind": "replace",
+        "before_start": 457,
+        "before_end": 458,
+        "after_start": 467,
+        "after_end": 469,
+        "before": "я",
+        "after": "ло"
+      }
+    ],
+    "model_reported_changes": [
+      {
+        "source_quote": "as it tried to take up the slack",
+        "draft_quote": "пытаясь восполнить потерю",
+        "reason": "Придаточное устраняет неверное присоединение деепричастного оборота."
+      }
+    ]
+  },
+  {
+    "arm": "generic",
+    "id": "q49808d15b8",
+    "source": "\"And that's when I left. Without a word, I left my beautiful baby daughter and my wonderful husband, because I knew that once I was in the clutches of Social Harmony, it would only get worse, and I knew that if I stayed and refused, that they'd hurt you to get at me. I defected, and that's why, and I know it's just a reason, and not an excuse, but it's all I've got, Artie.\"",
+    "draft": "— Тогда я и ушла. Без единого слова бросила свою прекрасную маленькую дочку и замечательного мужа, потому что знала: попав в лапы Службы общественной гармонии, я могу ждать только худшего, и знала, что, если останусь и откажусь, они причинят вам боль, чтобы добраться до меня. Я перебежала на другую сторону — вот почему, и я знаю, что это лишь причина, а не оправдание, но больше у меня ничего нет, Арти.",
+    "result": "— Тогда я и ушла. Без единого слова бросила свою прекрасную маленькую дочку и замечательного мужа, потому что знала: попав в лапы Службы общественной гармонии, я могу ждать только худшего, и знала, что, если останусь и откажусь, они причинят вам боль, чтобы добраться до меня. Вот почему я перебежала на другую сторону, и я знаю, что это лишь причина, а не оправдание, но больше у меня ничего нет, Арти.",
+    "source_sha256": "f3da238cb3bfd74a2abb6b60441f504418c2014256711a6da3a73c2bf90d28ca",
+    "draft_sha256": "584209479ffe75ff0012e3aeba1f7e34aa9bde5e3c9cd35f6fe74c75511b425f",
+    "result_sha256": "2005d7d858da4cb4690d6a3d366b486ba1362696db9e01d8ab21ac99424ae271",
+    "actual_diff": [
+      {
+        "kind": "replace",
+        "before_start": 277,
+        "before_end": 278,
+        "after_start": 277,
+        "after_end": 289,
+        "before": "Я",
+        "after": "Вот почему я"
+      },
+      {
+        "kind": "delete",
+        "before_start": 306,
+        "before_end": 319,
+        "after_start": 317,
+        "after_end": 317,
+        "before": "у — вот почем",
+        "after": ""
+      }
+    ],
+    "model_reported_changes": [
+      {
+        "source_quote": "I defected, and that's why",
+        "draft_quote": "Я перебежала на другую сторону — вот почему",
+        "reason": "Порядок слов ясно связывает причину побега с предыдущим объяснением."
+      }
+    ]
+  },
+  {
+    "arm": "generic",
+    "id": "qcbe946abf7",
+    "source": "He told the car to take him back to the station-house. He needed a new phone and a couple of hours with his computer. As it peeled out, he prodded through Ada's phone some more. He was first on her speed-dial. That number wasn't ringing anywhere, anymore.",
+    "draft": "Он велел машине отвезти его обратно в участок. Ему нужен был новый телефон и пара часов за компьютером. Пока машина срывалась с места, он ещё покопался в телефоне Ады. В её списке быстрого набора он стоял первым. По этому номеру больше нигде ничто не звонило.",
+    "result": "Он велел машине отвезти его обратно в участок. Ему нужен был новый телефон и пара часов за компьютером. Пока машина срывалась с места, он ещё покопался в телефоне Ады. В её списке быстрого набора он стоял первым. Звонки на этот номер больше нигде не раздавались.",
+    "source_sha256": "734291621bfb199d0db6e6e188380a67680f3ccb6b3abcd4cbaa999b9d4724c4",
+    "draft_sha256": "ef2f27bc55587587b0ecee9b09189ccb991c41750ce5ccd17f22d43aace4e3b3",
+    "result_sha256": "521e7e22e82e6c1f193adf8880e1fa442e715e8bfa4b8101d892a1ec080389ee",
+    "actual_diff": [
+      {
+        "kind": "replace",
+        "before_start": 213,
+        "before_end": 214,
+        "after_start": 213,
+        "after_end": 215,
+        "before": "П",
+        "after": "Зв"
+      },
+      {
+        "kind": "insert",
+        "before_start": 215,
+        "before_end": 215,
+        "after_start": 216,
+        "after_end": 222,
+        "before": "",
+        "after": "нки на"
+      },
+      {
+        "kind": "replace",
+        "before_start": 219,
+        "before_end": 221,
+        "after_start": 226,
+        "after_end": 227,
+        "before": "му",
+        "after": "т"
+      },
+      {
+        "kind": "delete",
+        "before_start": 227,
+        "before_end": 228,
+        "after_start": 233,
+        "after_end": 233,
+        "before": "у",
+        "after": ""
+      },
+      {
+        "kind": "delete",
+        "before_start": 243,
+        "before_end": 249,
+        "after_start": 248,
+        "after_end": 248,
+        "before": "ичто н",
+        "after": ""
+      },
+      {
+        "kind": "insert",
+        "before_start": 251,
+        "before_end": 251,
+        "after_start": 250,
+        "after_end": 252,
+        "before": "",
+        "after": "ра"
+      },
+      {
+        "kind": "insert",
+        "before_start": 252,
+        "before_end": 252,
+        "after_start": 253,
+        "after_end": 255,
+        "before": "",
+        "after": "да"
+      },
+      {
+        "kind": "replace",
+        "before_start": 253,
+        "before_end": 255,
+        "after_start": 256,
+        "after_end": 258,
+        "before": "он",
+        "after": "ал"
+      },
+      {
+        "kind": "replace",
+        "before_start": 256,
+        "before_end": 258,
+        "after_start": 259,
+        "after_end": 261,
+        "before": "ло",
+        "after": "сь"
+      }
+    ],
+    "model_reported_changes": [
+      {
+        "source_quote": "That number wasn't ringing anywhere, anymore.",
+        "draft_quote": "По этому номеру больше нигде ничто не звонило.",
+        "reason": "Устранено неестественное сочетание «по номеру ничто не звонило»."
+      }
+    ]
+  },
+  {
+    "arm": "generic",
+    "id": "q52c8bbe1ec",
+    "source": "I hadn't seen much of Pag lately. I was pretty sure he'd been avoiding me. Still, when your best friend's in trouble you help out, right? Even if the odds are impossible—and how many eight-year-olds would go up against six bigger kids for a sandbox buddy?—at least you call for backup. Flag a sentry. Something.",
+    "draft": "В последнее время я редко видел Пэга. Я был почти уверен, что он меня избегает. И всё же, когда твой лучший друг попадает в беду, ты ведь приходишь на помощь? Даже если шансов никаких — а многие ли восьмилетки пойдут против шестерых ребят постарше ради приятеля по песочнице? — хотя бы зовёшь подмогу. Подаёшь знак часовому. Что-нибудь.",
+    "result": "В последнее время я редко видел Пэга. Я был почти уверен, что он меня избегает. И всё же, когда твой лучший друг попадает в беду, ты ведь приходишь на помощь? Даже если шансов никаких — а многие ли восьмилетки пойдут против шестерых ребят покрупнее ради приятеля по песочнице? — хотя бы зовёшь подмогу. Подаёшь знак часовому. Что-нибудь.",
+    "source_sha256": "a91358f527b4f0c91a26c95da40c0e611910e3136176a856da2339fabdd85c5a",
+    "draft_sha256": "6b77b68001b3bcde5d116f978aec05436ad5973285386df4f2da7cfdb1538c45",
+    "result_sha256": "afbda2dcbd671f281b9007b1c8222967b31f7adb64fe4e0fcdf7613207275b64",
+    "actual_diff": [
+      {
+        "kind": "replace",
+        "before_start": 241,
+        "before_end": 244,
+        "after_start": 241,
+        "after_end": 242,
+        "before": "ста",
+        "after": "к"
+      },
+      {
+        "kind": "replace",
+        "before_start": 245,
+        "before_end": 246,
+        "after_start": 243,
+        "after_end": 247,
+        "before": "ш",
+        "after": "упне"
+      }
+    ],
+    "model_reported_changes": [
+      {
+        "source_quote": "six bigger kids",
+        "draft_quote": "шестерых ребят постарше",
+        "reason": "В оригинале указано превосходство в размерах, а не в возрасте."
+      }
+    ]
+  },
+  {
+    "arm": "generic",
+    "id": "q81934bc463",
+    "source": "\"Back in the net's prehistory it was mostly universities online, and every September a new cohort of students would come online and  make all those noob mistakes. Then this commercial service full of noobs called AOL interconnected with the net and all its users came online at once, faster than the net could absorb them, and they called it Perpetual September.\"",
+    "draft": "— В доисторические времена сети к ней были подключены в основном университеты, и каждый сентябрь в сеть приходил новый поток студентов и делал все эти ошибки новичков. Потом к сети подключился коммерческий сервис AOL, полный новичков, и все его пользователи хлынули в сеть разом, быстрее, чем она успевала их освоить. Это назвали Вечным сентябрём.",
+    "result": "— В доисторические времена сети к ней были подключены в основном университеты, и каждый сентябрь в сеть приходил новый поток студентов и делал все эти ошибки новичков. Потом к сети подключился коммерческий сервис AOL, полный новичков, и все его пользователи хлынули в сеть разом, быстрее, чем она успевала приспособиться к такому наплыву. Это назвали Вечным сентябрём.",
+    "source_sha256": "6ca4e19eab6a4a16594be3a93579d13a31c98659a1d3783ec3a08bf8f61df680",
+    "draft_sha256": "fa60841c3672668ce9c2de6b48045e5deca2e5abad8b9d9fe8d966a4cf7a1c29",
+    "result_sha256": "59bd7fe00307b45954a1d31b8517433c58195605b70ac093b8782870735f695c",
+    "actual_diff": [
+      {
+        "kind": "insert",
+        "before_start": 306,
+        "before_end": 306,
+        "after_start": 306,
+        "after_end": 308,
+        "before": "",
+        "after": "пр"
+      },
+      {
+        "kind": "replace",
+        "before_start": 307,
+        "before_end": 309,
+        "after_start": 309,
+        "after_end": 311,
+        "before": "х ",
+        "after": "сп"
+      },
+      {
+        "kind": "delete",
+        "before_start": 311,
+        "before_end": 312,
+        "after_start": 313,
+        "after_end": 313,
+        "before": "в",
+        "after": ""
+      },
+      {
+        "kind": "insert",
+        "before_start": 313,
+        "before_end": 313,
+        "after_start": 314,
+        "after_end": 315,
+        "before": "",
+        "after": "б"
+      },
+      {
+        "kind": "insert",
+        "before_start": 316,
+        "before_end": 316,
+        "after_start": 318,
+        "after_end": 337,
+        "before": "",
+        "after": "ся к такому наплыву"
+      }
+    ],
+    "model_reported_changes": [
+      {
+        "source_quote": "faster than the net could absorb them",
+        "draft_quote": "быстрее, чем она успевала их освоить",
+        "reason": "«Приспособиться к такому наплыву» естественнее передаёт неспособность сети принять массу новичков."
+      }
+    ]
+  },
+  {
+    "arm": "generic",
+    "id": "qa8a286da66",
+    "source": "Robbie froze. That wasn't a human-shell, it was a *human.*  His oar-servo whined as he tipped it up. There was a live *human being* on the end of that oar, and she was in trouble, panicking and thrashing. He saw her arms straining. The oar went higher, but it was at the end of its motion and now she was half-in, half-out of the water, weight belt, tank and gear tugging her  down. Isaac sat motionless, his habitual good-natured slight smile on his face.",
+    "draft": "Робби замер. Это была не человеческая оболочка, это был человек. Поднимая весло, он услышал вой своего сервопривода. На конце весла был живой человек, и она попала в беду, паниковала и билась в воде. Он видел, как напрягаются её руки. Весло поднялось выше, но дальше двигаться уже не могло, и теперь она наполовину торчала из воды, а грузовой пояс, баллон и снаряжение тянули её вниз. Айзек сидел неподвижно, с обычной своей лёгкой добродушной улыбкой.",
+    "result": "Робби замер. Это была не человеческая оболочка, это был человек. Поднимая весло, он услышал вой своего сервопривода. На конце весла был живой человек. Она попала в беду, паниковала и билась в воде. Он видел, как напрягаются её руки. Весло поднялось выше, но дальше двигаться уже не могло, и теперь она наполовину торчала из воды, а грузовой пояс, баллон и снаряжение тянули её вниз. Айзек сидел неподвижно, с обычной своей лёгкой добродушной улыбкой.",
+    "source_sha256": "8fec2fa6424395a6a5fd39576ae4395bc355f8b2aa13cf93c8033f0a7ec70477",
+    "draft_sha256": "d17428bde316b8fae2a3f0bc2bf63dbbe025e1ec1b820c946911b1babefe1bf2",
+    "result_sha256": "f8e00e8281a9b86fcfbfda52d5aff3b77cda944ec4f41c0dd94242698934fbe7",
+    "actual_diff": [
+      {
+        "kind": "replace",
+        "before_start": 149,
+        "before_end": 150,
+        "after_start": 149,
+        "after_end": 150,
+        "before": ",",
+        "after": "."
+      },
+      {
+        "kind": "replace",
+        "before_start": 151,
+        "before_end": 154,
+        "after_start": 151,
+        "after_end": 152,
+        "before": "и о",
+        "after": "О"
+      }
+    ],
+    "model_reported_changes": [
+      {
+        "source_quote": "There was a live *human being* on the end of that oar, and she was in trouble, panicking and thrashing.",
+        "draft_quote": "На конце весла был живой человек, и она попала в беду, паниковала и билась в воде.",
+        "reason": "Разделение предложений устраняет резкий грамматический переход от «человек» к «она»."
+      }
+    ]
+  },
+  {
+    "arm": "idiom",
+    "id": "qeb5bfb523b",
+    "source": "But that part of me had been cut out along with the bad wiring. I was still working up the algorithms to get it back, still learning by observation. Pack animals always tear apart the weaklings in their midst. Every child knows that much instinctively. Maybe I should just let that process unfold, maybe I shouldn't try to mess with nature. Then again, Pag's parents hadn't messed with nature, and look what it got them: a son curled up in the dirt while a bunch of engineered superboys kicked in his ribs.",
+    "draft": "Но эту часть меня вырезали вместе с неисправными цепями. Я всё ещё разрабатывал алгоритмы, чтобы вернуть её, всё ещё учился наблюдением. Стайные животные всегда рвут на части слабаков в своих рядах. Любой ребёнок знает это инстинктивно. Может, стоило просто дать событиям идти своим чередом, может, не стоило вмешиваться в природу. С другой стороны, родители Пэга не вмешивались в природу, и вот к чему это привело: их сын лежал, свернувшись в грязи, а кучка генетически сконструированных сверхмальчиков ударами ног вминала ему рёбра.",
+    "result": "Но эту часть меня вырезали вместе с неисправными цепями. Я всё ещё разрабатывал алгоритмы, чтобы вернуть её, всё ещё учился, наблюдая. Стайные животные всегда рвут на части слабаков в своих рядах. Любой ребёнок знает это инстинктивно. Может, стоило просто дать событиям идти своим чередом, может, не стоило вмешиваться в природу. С другой стороны, родители Пэга не вмешивались в природу, и вот к чему это привело: их сын лежал, свернувшись в грязи, а кучка генетически сконструированных сверхмальчиков ударами ног вминала ему рёбра.",
+    "source_sha256": "93e6cc42c386c8741fe12db35db57524bdeb55cbf5283050c227bf691fea4872",
+    "draft_sha256": "0494ee613f2145f5908953917e85ffef1f1cd322d814c1c50b0d06cca7f82c1c",
+    "result_sha256": "ea47f4a5fe65306c068b29a739b26fc67304b97de77d8d71218557ff7ff24188",
+    "actual_diff": [
+      {
+        "kind": "insert",
+        "before_start": 123,
+        "before_end": 123,
+        "after_start": 123,
+        "after_end": 124,
+        "before": "",
+        "after": ","
+      },
+      {
+        "kind": "replace",
+        "before_start": 130,
+        "before_end": 135,
+        "after_start": 131,
+        "after_end": 133,
+        "before": "ением",
+        "after": "ая"
+      }
+    ],
+    "model_reported_changes": [
+      {
+        "source_quote": "still learning by observation",
+        "draft_quote": "всё ещё учился наблюдением",
+        "reason": "Деепричастие естественнее передаёт обучение через наблюдение."
+      }
+    ]
+  },
+  {
+    "arm": "idiom",
+    "id": "qdbaaab067c",
+    "source": "The terrorist's nest had only been recently abandoned, judging by the warm coffee in the go-thermos from the food-court coffee-shop. He -- or she, or they -- had rigged a shower from the pipes feeding the basement washrooms. A little chest of drawers from the Swedish flat-pack store served as a desk -- there were scratches and coffee-rings all over it. Arturo wondered if the terrorist had stolen the furniture, but decided that he'd (she'd, they'd) probably bought it -- less risky, especially if you were invisible to robots.",
+    "draft": "Судя по тёплому кофе в походном термосе из кофейни на фуд-корте, логово террориста опустело совсем недавно. Он — или она, или они — соорудил душ из труб, подававших воду в подвальные туалеты. Маленький комод из шведского магазина сборной мебели служил письменным столом — весь в царапинах и кофейных кольцах. Артуро задумался, не украл ли террорист эту мебель, но решил, что тот, скорее всего, её купил — или купила, или купили: так безопаснее, особенно если роботы тебя не видят.",
+    "result": "Судя по тёплому кофе в походном термосе из кофейни на фуд-корте, логово террориста опустело совсем недавно. Он — или она, или они — соорудил душ из труб, подававших воду в подвальные туалеты. Маленький комод из шведского магазина сборной мебели служил письменным столом — весь в царапинах и кольцевых следах от кофе. Артуро задумался, не украл ли террорист эту мебель, но решил, что тот, скорее всего, её купил — или купила, или купили: так безопаснее, особенно если роботы тебя не видят.",
+    "source_sha256": "ebc6ec50eaa2a895564472d9d74bd3d360c372df68bc3764c01bf3d9ccdf6600",
+    "draft_sha256": "3121230b556447085930405a8a946d89d5c499ee1a22bbb376e99d2e7fc5b4e1",
+    "result_sha256": "f3e554104592811eb06ba9b247c698d8b168c68c67e20c40a06e15b7dd4354bc",
+    "actual_diff": [
+      {
+        "kind": "replace",
+        "before_start": 293,
+        "before_end": 294,
+        "after_start": 293,
+        "after_end": 296,
+        "before": "ф",
+        "after": "льц"
+      },
+      {
+        "kind": "replace",
+        "before_start": 295,
+        "before_end": 297,
+        "after_start": 297,
+        "after_end": 298,
+        "before": "йн",
+        "after": "в"
+      },
+      {
+        "kind": "insert",
+        "before_start": 300,
+        "before_end": 300,
+        "after_start": 301,
+        "after_end": 311,
+        "before": "",
+        "after": "следах от "
+      },
+      {
+        "kind": "replace",
+        "before_start": 302,
+        "before_end": 307,
+        "after_start": 313,
+        "after_end": 315,
+        "before": "льцах",
+        "after": "фе"
+      }
+    ],
+    "model_reported_changes": [
+      {
+        "source_quote": "coffee-rings",
+        "draft_quote": "кофейных кольцах",
+        "reason": "Речь о кольцевых пятнах на мебели; буквальная калька неестественна."
+      }
+    ]
+  },
+  {
+    "arm": "idiom",
+    "id": "q3cb5976585",
+    "source": "A third, turning to face the new threat, took a blow to the face that audibly crunched the bones of his cheek. I remember wondering why I didn't take any satisfaction from that sound, why it meant nothing beyond the fact I had one less opponent to worry about.",
+    "draft": "Третий, обернувшись к новой угрозе, получил удар в лицо — кости щеки отчётливо хрустнули. Помню, я удивился: почему этот звук не доставил мне никакого удовлетворения, почему не означал ничего, кроме того, что теперь мне придётся иметь дело на одного противника меньше.",
+    "result": "Третий, обернувшись к новой угрозе, получил удар в лицо — кости щеки отчётливо хрустнули. Помню, я удивился: почему этот звук не доставил мне никакого удовлетворения, почему не означал ничего, кроме того, что теперь противников, которых мне стоило опасаться, стало на одного меньше.",
+    "source_sha256": "0a470a7b4dcd1825a8fbaabcda1748c5a322cbceb50ffedcb680e7ce60db6ac2",
+    "draft_sha256": "5c25536bd094d71248fdf49151b7edb5182a33391bfb07fbbaf43a8c7806d2d2",
+    "result_sha256": "768ebc89483ef62badbaf163576ba184af7f4649bcbf289c6dd08d5a1301924c",
+    "actual_diff": [
+      {
+        "kind": "insert",
+        "before_start": 216,
+        "before_end": 216,
+        "after_start": 216,
+        "after_end": 237,
+        "before": "",
+        "after": "противников, которых "
+      },
+      {
+        "kind": "insert",
+        "before_start": 220,
+        "before_end": 220,
+        "after_start": 241,
+        "after_end": 249,
+        "before": "",
+        "after": "стоило о"
+      },
+      {
+        "kind": "replace",
+        "before_start": 221,
+        "before_end": 225,
+        "after_start": 250,
+        "after_end": 253,
+        "before": "ридё",
+        "after": "аса"
+      },
+      {
+        "kind": "insert",
+        "before_start": 226,
+        "before_end": 226,
+        "after_start": 254,
+        "after_end": 255,
+        "before": "",
+        "after": "ь"
+      },
+      {
+        "kind": "insert",
+        "before_start": 228,
+        "before_end": 228,
+        "after_start": 257,
+        "after_end": 258,
+        "before": "",
+        "after": ","
+      },
+      {
+        "kind": "replace",
+        "before_start": 229,
+        "before_end": 232,
+        "after_start": 259,
+        "after_end": 260,
+        "before": "име",
+        "after": "с"
+      },
+      {
+        "kind": "replace",
+        "before_start": 233,
+        "before_end": 237,
+        "after_start": 261,
+        "after_end": 262,
+        "before": "ь де",
+        "after": "а"
+      },
+      {
+        "kind": "delete",
+        "before_start": 250,
+        "before_end": 261,
+        "after_start": 275,
+        "after_end": 275,
+        "before": "противника ",
+        "after": ""
+      }
+    ],
+    "model_reported_changes": [
+      {
+        "source_quote": "I had one less opponent to worry about",
+        "draft_quote": "теперь мне придётся иметь дело на одного противника меньше",
+        "reason": "Исправлена нарушенная русская конструкция с сохранением смысла угрозы."
+      }
+    ]
+  },
+  {
+    "arm": "idiom",
+    "id": "q0ee1c0cd42",
+    "source": "He slithered into the skull before he had a chance to think too hard about what he was doing. He'd brought too much of himself along and didn't have much headroom to think or add new conclusions. He jettisoned as much of his consciousness as he could without major refactoring and cleared enough space for thinking room. How did people get by in one of these? He moved the arms and legs. Waggled the head. Blew some air -- air! lungs! wet squishy things down there in the chest cavity -- out between the lips.",
+    "draft": "Он скользнул в череп, прежде чем успел как следует задуматься над тем, что делает. Он захватил с собой слишком много себя, и свободного места почти не оставалось — ни для размышлений, ни для новых выводов. Он сбросил столько своего сознания, сколько смог без серьёзной переделки кода, и расчистил достаточно места для мыслей. Как люди вообще обходились одной такой штукой? Он подвигал руками и ногами. Помотал головой. Выдул немного воздуха — воздуха! лёгкие! мокрые мягкие штуки там, в грудной полости, — сквозь губы.",
+    "result": "Он скользнул в череп, прежде чем успел как следует задуматься над тем, что делает. Он захватил с собой слишком много себя, и свободного места почти не оставалось — ни для размышлений, ни для новых выводов. Он сбросил столько своего сознания, сколько смог без серьёзного рефакторинга, и расчистил достаточно места для мыслей. Как люди вообще обходились одной такой штукой? Он подвигал руками и ногами. Помотал головой. Выдул немного воздуха — воздуха! лёгкие! мокрые мягкие штуки там, в грудной полости, — сквозь губы.",
+    "source_sha256": "835123734320eb69deef0c9ed314851dbbeb67194f9b2626d3bc500b457ff12a",
+    "draft_sha256": "4f6fe3ec6e9f835ad2e6f873bbe3c31ce1a00426fb1870f406f20e214be39521",
+    "result_sha256": "853f67a2f08a489ccaf3d492f7f7c45be6208b7994727be48b7b9ca9f41051d3",
+    "actual_diff": [
+      {
+        "kind": "replace",
+        "before_start": 267,
+        "before_end": 268,
+        "after_start": 267,
+        "after_end": 269,
+        "before": "й",
+        "after": "го"
+      },
+      {
+        "kind": "delete",
+        "before_start": 269,
+        "before_end": 271,
+        "after_start": 270,
+        "after_end": 270,
+        "before": "пе",
+        "after": ""
+      },
+      {
+        "kind": "replace",
+        "before_start": 273,
+        "before_end": 276,
+        "after_start": 272,
+        "after_end": 274,
+        "before": "дел",
+        "after": "фа"
+      },
+      {
+        "kind": "insert",
+        "before_start": 277,
+        "before_end": 277,
+        "after_start": 275,
+        "after_end": 278,
+        "before": "",
+        "after": "тор"
+      },
+      {
+        "kind": "replace",
+        "before_start": 278,
+        "before_end": 282,
+        "after_start": 279,
+        "after_end": 281,
+        "before": " код",
+        "after": "нг"
+      }
+    ],
+    "model_reported_changes": [
+      {
+        "source_quote": "without major refactoring",
+        "draft_quote": "без серьёзной переделки кода",
+        "reason": "Точный технический термин сохраняет профессиональный голос ИИ."
+      }
+    ]
+  },
+  {
+    "arm": "idiom",
+    "id": "q269307d5a9",
+    "source": "That didn't make sense. Even if he hadn't been my best friend, I should at least have empathized. I'd suffered less than Pag in the way of overt violence; my seizures tended to keep the other kids at a distance, scared them even as they incapacitated me. Still. I was no stranger to the taunts and insults, or the foot that appears from nowhere to trip you up en route from A to B. I knew how that felt.",
+    "draft": "Это было непонятно. Даже если бы он не был моим лучшим другом, я должен был хотя бы ему сочувствовать. От прямого насилия я страдал меньше Пэга: мои припадки обычно держали других детей на расстоянии, пугали их, даже когда лишали меня способности двигаться. И всё же. Мне были знакомы и насмешки, и оскорбления, и нога, возникающая из ниоткуда, чтобы подставить тебе подножку на пути из точки А в точку Б. Я знал, каково это.",
+    "result": "Это было непонятно. Даже если бы он не был моим лучшим другом, я должен был хотя бы ему сочувствовать. От прямого насилия я страдал меньше Пэга: мои припадки обычно держали других детей на расстоянии, пугали их, даже когда лишали меня способности двигаться. И всё же. Мне были знакомы и насмешки, и оскорбления, и нога, возникающая из ниоткуда, чтобы ты споткнулся на пути из точки А в точку Б. Я знал, каково это.",
+    "source_sha256": "c9666b2484d19ce24d40694cb898f964ea7cb8e118c1c401e2e958fcf3e6e7e8",
+    "draft_sha256": "a529eae54eb6b9039c8273f255c071ac93c51a7c807e73328be84b712bf4d118",
+    "result_sha256": "8c4999cf361d20a5f4b6ea54200296125f46962df02066c958711e6f49df9ae3",
+    "actual_diff": [
+      {
+        "kind": "insert",
+        "before_start": 351,
+        "before_end": 351,
+        "after_start": 351,
+        "after_end": 355,
+        "before": "",
+        "after": "ты с"
+      },
+      {
+        "kind": "replace",
+        "before_start": 353,
+        "before_end": 354,
+        "after_start": 357,
+        "after_end": 362,
+        "before": "д",
+        "after": "ткнул"
+      },
+      {
+        "kind": "replace",
+        "before_start": 355,
+        "before_end": 375,
+        "after_start": 363,
+        "after_end": 364,
+        "before": "тавить тебе подножку",
+        "after": "я"
+      }
+    ],
+    "model_reported_changes": [
+      {
+        "source_quote": "the foot that appears from nowhere to trip you up",
+        "draft_quote": "нога, возникающая из ниоткуда, чтобы подставить тебе подножку",
+        "reason": "Устранено неестественное сочетание: нога сама служит подножкой."
+      }
+    ]
+  },
+  {
+    "arm": "idiom",
+    "id": "qdf715a19a6",
+    "source": "\"I know for the epilepsy! You think I don't know? But you were in that half—or, like, part of you was...\" He struggled with the words, with the concept behind them. \"And now you're different. It's like, your mom and dad murdered you—\"",
+    "draft": "— Знаю я, что из-за эпилепсии! Думаешь, не знаю? Но в той половине был ты — ну, как бы часть тебя… — Он с трудом подбирал слова, с трудом осмысливал то, что за ними стояло. — А теперь ты другой. Получается, твои мама с папой тебя убили…",
+    "result": "— Знаю я, что из-за эпилепсии! Думаешь, не знаю? Но в той половине был ты — ну, как бы часть тебя… — Он с трудом подбирал слова, с трудом осмысливал то, что за ними стояло. — А теперь ты другой. Это как будто твои мама с папой тебя убили…",
+    "source_sha256": "8ffae49ca13703d1557fb4bdc59b813d353e5e855f2f6c798c83c3d4681d2fb9",
+    "draft_sha256": "a0b5ae5f586fd51321bbedaca46638771e394438bfd1e33f60087c3ff1eccf25",
+    "result_sha256": "d0977bd014e2724b2598adb6f502aca9ef79b5f5fb0e68a8d1caf512fdc51b5d",
+    "actual_diff": [
+      {
+        "kind": "replace",
+        "before_start": 195,
+        "before_end": 196,
+        "after_start": 195,
+        "after_end": 197,
+        "before": "П",
+        "after": "Эт"
+      },
+      {
+        "kind": "replace",
+        "before_start": 197,
+        "before_end": 198,
+        "after_start": 198,
+        "after_end": 204,
+        "before": "л",
+        "after": " как б"
+      },
+      {
+        "kind": "replace",
+        "before_start": 199,
+        "before_end": 202,
+        "after_start": 205,
+        "after_end": 206,
+        "before": "чае",
+        "after": "д"
+      },
+      {
+        "kind": "replace",
+        "before_start": 203,
+        "before_end": 206,
+        "after_start": 207,
+        "after_end": 208,
+        "before": "ся,",
+        "after": "о"
+      }
+    ],
+    "model_reported_changes": [
+      {
+        "source_quote": "It's like, your mom and dad murdered you",
+        "draft_quote": "Получается, твои мама с папой тебя убили",
+        "reason": "Сохранено неуверенное сравнение вместо более категоричного вывода."
+      }
+    ]
+  },
+  {
+    "arm": "idiom",
+    "id": "qe1201d759d",
+    "source": "Arturo seethed. He hadn't arrested the kid -- but he had put a pen-trace and location-log on his phone. Arresting the kid would have raised questions about Ada with Social Harmony, but bugging him might just lead Arturo to his daughter.",
+    "draft": "Артуро кипел от злости. Он не арестовал парня — зато подключил к его телефону регистрацию вызовов и местоположения. Арест вызвал бы у Службы общественной гармонии вопросы об Аде, а слежка за парнем могла привести Артуро к дочери.",
+    "result": "Артуро кипел от злости. Он не арестовал парня — зато включил на его телефоне регистрацию вызовов и местоположения. Арест вызвал бы у Службы общественной гармонии вопросы об Аде, а слежка за парнем могла привести Артуро к дочери.",
+    "source_sha256": "4c6327d5c81bf9a350fcfbdb7e104f5fe025d62676e6590c9c687a2bae9dc890",
+    "draft_sha256": "ee9befc1fcae0e9edb25b5e418a3c9369c0447efed94c98edcef9186da1a9663",
+    "result_sha256": "534b5d6fee28301ca5e9d4c930827e25ead7d4b95df2bc7eb748aafa0df1824f",
+    "actual_diff": [
+      {
+        "kind": "replace",
+        "before_start": 53,
+        "before_end": 56,
+        "after_start": 53,
+        "after_end": 54,
+        "before": "под",
+        "after": "в"
+      },
+      {
+        "kind": "replace",
+        "before_start": 63,
+        "before_end": 64,
+        "after_start": 61,
+        "after_end": 63,
+        "before": "к",
+        "after": "на"
+      },
+      {
+        "kind": "replace",
+        "before_start": 76,
+        "before_end": 77,
+        "after_start": 75,
+        "after_end": 76,
+        "before": "у",
+        "after": "е"
+      }
+    ],
+    "model_reported_changes": [
+      {
+        "source_quote": "he had put a pen-trace and location-log on his phone",
+        "draft_quote": "подключил к его телефону регистрацию вызовов и местоположения",
+        "reason": "Исправлена неестественная сочетаемость глагола с названием функции."
+      }
+    ]
+  },
+  {
+    "arm": "idiom",
+    "id": "qa6ff60816c",
+    "source": "The man -- Robbie called him Isaac, of course -- caught the edge of the boat and kicked hard, hauling himself into the boat with his strong brown arms. Robbie was already rowing for Janet, who was swimming hard for him. She caught his oar -- she wasn't supposed to do that -- and began to climb along its length, lifting her body out of the water. Robbie saw that her eyes were wild, her breathing ragged.",
+    "draft": "Мужчина — Робби, конечно же, звал его Айзеком — ухватился за борт и, сильно оттолкнувшись ногами, втащил себя в лодку на крепких смуглых руках. Робби уже грёб к Джанет, которая изо всех сил плыла ему навстречу. Она схватилась за его весло — этого ей делать не полагалось — и начала перебираться вдоль него, вытягивая тело из воды. Робби увидел её обезумевший взгляд, услышал прерывистое дыхание.",
+    "result": "Мужчина — Робби, конечно же, звал его Айзеком — ухватился за борт и, сильно заработав ногами, подтянулся на крепких смуглых руках и влез в лодку. Робби уже грёб к Джанет, которая изо всех сил плыла ему навстречу. Она схватилась за его весло — этого ей делать не полагалось — и начала перебираться вдоль него, вытягивая тело из воды. Робби увидел её обезумевший взгляд, услышал прерывистое дыхание.",
+    "source_sha256": "1b743a9da8d70ce9f36cb16b1039c04f89bb4c06e708a5084c720b9714d635f9",
+    "draft_sha256": "2917cbee6f6462e68eb7261eaadb8af648913ab311192c66f3c65cfab1ef788c",
+    "result_sha256": "620871a949a03893d12882e218ec95d917adb787c66d0f83e972c05390154f10",
+    "actual_diff": [
+      {
+        "kind": "insert",
+        "before_start": 76,
+        "before_end": 76,
+        "after_start": 76,
+        "after_end": 81,
+        "before": "",
+        "after": "зараб"
+      },
+      {
+        "kind": "replace",
+        "before_start": 78,
+        "before_end": 84,
+        "after_start": 83,
+        "after_end": 84,
+        "before": "толкну",
+        "after": "а"
+      },
+      {
+        "kind": "delete",
+        "before_start": 85,
+        "before_end": 89,
+        "after_start": 85,
+        "after_end": 85,
+        "before": "шись",
+        "after": ""
+      },
+      {
+        "kind": "replace",
+        "before_start": 98,
+        "before_end": 113,
+        "after_start": 94,
+        "after_end": 95,
+        "before": "втащил себя в л",
+        "after": "п"
+      },
+      {
+        "kind": "replace",
+        "before_start": 115,
+        "before_end": 116,
+        "after_start": 97,
+        "after_end": 100,
+        "before": "к",
+        "after": "тян"
+      },
+      {
+        "kind": "insert",
+        "before_start": 117,
+        "before_end": 117,
+        "after_start": 101,
+        "after_end": 104,
+        "before": "",
+        "after": "лся"
+      },
+      {
+        "kind": "insert",
+        "before_start": 142,
+        "before_end": 142,
+        "after_start": 129,
+        "after_end": 144,
+        "before": "",
+        "after": " и влез в лодку"
+      }
+    ],
+    "model_reported_changes": [
+      {
+        "source_quote": "caught the edge of the boat and kicked hard, hauling himself into the boat with his strong brown arms",
+        "draft_quote": "ухватился за борт и, сильно оттолкнувшись ногами, втащил себя в лодку на крепких смуглых руках",
+        "reason": "Переданы движения пловца без подразумеваемой опоры для толчка; исправлена сочетаемость."
+      }
+    ]
+  },
+  {
+    "arm": "idiom",
+    "id": "q8221a17b47",
+    "source": "But you could make a case for what he said. I do remember Helen telling me (and telling me) how difficult it was to adjust. Like you had a whole new personality, she said, and why not? There's a reason they call it radical hemispherectomy: half the brain thrown out with yesterday's krill, the remaining half press-ganged into double duty. Think of all the rewiring that one lonely hemisphere must have struggled with as it tried to take up the slack. It turned out okay, obviously. The brain's a very flexible piece of meat; it took some doing, but it adapted. I adapted. Still. Think of all that must have been squeezed out, deformed, reshaped by the time the renovations were through. You could argue that I'm a different person than the one who used to occupy this body.",
+    "draft": "Но в пользу его слов можно было привести доводы. Я ведь помню, как Хелен говорила мне — снова и снова, — до чего трудно было привыкнуть. Будто у тебя совершенно другая личность, говорила она, и почему бы нет? Не зря это называется радикальной гемисферэктомией: половину мозга выбрасывают вместе со вчерашним крилем, оставшуюся насильно припрягают работать за двоих. Подумайте, сколько соединений пришлось с трудом перестроить этому одинокому полушарию, пытаясь восполнить потерю. В итоге всё, очевидно, обошлось. Мозг — очень гибкий кусок мяса; не сразу, но он приспособился. Я приспособился. И всё же. Подумайте, сколько всего к концу перестройки было, должно быть, вытеснено, исковеркано, перекроено. Можно утверждать, что я уже не тот человек, который прежде занимал это тело.",
+    "result": "Но в пользу его слов можно было привести доводы. Я ведь помню, как Хелен говорила мне — снова и снова, — до чего трудно было привыкнуть. Будто у тебя совершенно другая личность, говорила она, и почему бы нет? Не зря это называется радикальной гемисферэктомией: половину мозга выбрасывают вместе со вчерашним крилем, оставшуюся насильно припрягают работать за двоих. Подумайте, сколько соединений пришлось с трудом перестроить этому одинокому полушарию в попытке восполнить потерю. В итоге всё, очевидно, обошлось. Мозг — очень гибкий кусок мяса; не сразу, но он приспособился. Я приспособился. И всё же. Подумайте, сколько всего к концу перестройки было, должно быть, вытеснено, исковеркано, перекроено. Можно утверждать, что я уже не тот человек, который прежде занимал это тело.",
+    "source_sha256": "82561277da05c6b23b16ce1ad601097f5ff0978072cdfce64d887fd4d1c2d421",
+    "draft_sha256": "da78f0c7e58e35b36678eca0da303d2eb409f1f22ecfac9be2930d44edb73583",
+    "result_sha256": "d37ee50c0e6f8899811be51df21feaf8637650bc7a8fff56ee7dd82d99fb4aaf",
+    "actual_diff": [
+      {
+        "kind": "delete",
+        "before_start": 451,
+        "before_end": 452,
+        "after_start": 451,
+        "after_end": 451,
+        "before": ",",
+        "after": ""
+      },
+      {
+        "kind": "insert",
+        "before_start": 453,
+        "before_end": 453,
+        "after_start": 452,
+        "after_end": 456,
+        "before": "",
+        "after": "в по"
+      },
+      {
+        "kind": "replace",
+        "before_start": 456,
+        "before_end": 460,
+        "after_start": 459,
+        "after_end": 461,
+        "before": "аясь",
+        "after": "ке"
+      }
+    ],
+    "model_reported_changes": [
+      {
+        "source_quote": "as it tried to take up the slack",
+        "draft_quote": "пытаясь восполнить потерю",
+        "reason": "Устранён деепричастный оборот без грамматически подходящего подлежащего."
+      }
+    ]
+  },
+  {
+    "arm": "idiom",
+    "id": "qff3beb7bf1",
+    "source": "The Texan shrugged. \"Coulda been a month, coulda been a day. They're pretty much fire-and-forget. They can be triggered by phone, radio, timer -- hell, this thing's smart enough to only go off when some complicated condition is set, like 'once an agent makes his retreat, kill anything that comes after him'. Who knows?\"",
+    "draft": "Техасец пожал плечами.\n— Может, месяц назад, может, день. Они в основном по принципу «запустил и забыл» работают. Срабатывают по телефону, по радио, по таймеру — да чёрт, у этой штуки ума хватит сработать только при каком-нибудь сложном условии, вроде: «когда агент отступит, убей всех, кто за ним пойдёт». Кто ж знает?",
+    "result": "Техасец пожал плечами.\n— Может, месяц назад, может, день. Они в основном по принципу «запустил и забыл» работают. Срабатывают по телефону, по радио, по таймеру — да чёрт, у этой штуки ума хватит сработать только при каком-нибудь сложном условии, вроде: «когда агент отступит, убей всё, что за ним пойдёт». Кто ж знает?",
+    "source_sha256": "bd5170a93c5f87462f37384b6b9a3768e4ba963f75d8196933ea215ef2768116",
+    "draft_sha256": "2c1aceb67298568b13b4138d2065a1b5c89d264960df01d27f856d23e41b6b05",
+    "result_sha256": "4cb38a385190a8bfbf6481022ecb517f57139635ca1d1a7a449c55114dac9a79",
+    "actual_diff": [
+      {
+        "kind": "replace",
+        "before_start": 283,
+        "before_end": 285,
+        "after_start": 283,
+        "after_end": 284,
+        "before": "ех",
+        "after": "ё"
+      },
+      {
+        "kind": "replace",
+        "before_start": 287,
+        "before_end": 288,
+        "after_start": 286,
+        "after_end": 287,
+        "before": "к",
+        "after": "ч"
+      }
+    ],
+    "model_reported_changes": [
+      {
+        "source_quote": "kill anything that comes after him",
+        "draft_quote": "убей всех, кто за ним пойдёт",
+        "reason": "Сохранён неограниченный выбор целей: устройство уничтожает не только людей."
+      }
+    ]
+  },
+  {
+    "arm": "idiom",
+    "id": "q52c8bbe1ec",
+    "source": "I hadn't seen much of Pag lately. I was pretty sure he'd been avoiding me. Still, when your best friend's in trouble you help out, right? Even if the odds are impossible—and how many eight-year-olds would go up against six bigger kids for a sandbox buddy?—at least you call for backup. Flag a sentry. Something.",
+    "draft": "В последнее время я редко видел Пэга. Я был почти уверен, что он меня избегает. И всё же, когда твой лучший друг попадает в беду, ты ведь приходишь на помощь? Даже если шансов никаких — а многие ли восьмилетки пойдут против шестерых ребят постарше ради приятеля по песочнице? — хотя бы зовёшь подмогу. Подаёшь знак часовому. Что-нибудь.",
+    "result": "В последнее время я редко видел Пэга. Я был почти уверен, что он меня избегает. И всё же, когда твой лучший друг попадает в беду, ты ведь приходишь на помощь? Даже если шансов никаких — а многие ли восьмилетки пойдут против шестерых ребят покрупнее ради приятеля по песочнице? — хотя бы зовёшь подмогу. Подаёшь знак часовому. Что-нибудь.",
+    "source_sha256": "a91358f527b4f0c91a26c95da40c0e611910e3136176a856da2339fabdd85c5a",
+    "draft_sha256": "6b77b68001b3bcde5d116f978aec05436ad5973285386df4f2da7cfdb1538c45",
+    "result_sha256": "afbda2dcbd671f281b9007b1c8222967b31f7adb64fe4e0fcdf7613207275b64",
+    "actual_diff": [
+      {
+        "kind": "replace",
+        "before_start": 241,
+        "before_end": 244,
+        "after_start": 241,
+        "after_end": 242,
+        "before": "ста",
+        "after": "к"
+      },
+      {
+        "kind": "replace",
+        "before_start": 245,
+        "before_end": 246,
+        "after_start": 243,
+        "after_end": 247,
+        "before": "ш",
+        "after": "упне"
+      }
+    ],
+    "model_reported_changes": [
+      {
+        "source_quote": "six bigger kids",
+        "draft_quote": "шестерых ребят постарше",
+        "reason": "В оригинале указано превосходство в размерах, а не в возрасте."
+      }
+    ]
+  },
+  {
+    "arm": "idiom",
+    "id": "q81934bc463",
+    "source": "\"Back in the net's prehistory it was mostly universities online, and every September a new cohort of students would come online and  make all those noob mistakes. Then this commercial service full of noobs called AOL interconnected with the net and all its users came online at once, faster than the net could absorb them, and they called it Perpetual September.\"",
+    "draft": "— В доисторические времена сети к ней были подключены в основном университеты, и каждый сентябрь в сеть приходил новый поток студентов и делал все эти ошибки новичков. Потом к сети подключился коммерческий сервис AOL, полный новичков, и все его пользователи хлынули в сеть разом, быстрее, чем она успевала их освоить. Это назвали Вечным сентябрём.",
+    "result": "— В доисторические времена сети к ней были подключены в основном университеты, и каждый сентябрь в сеть приходил новый поток студентов и делал все эти ошибки новичков. Потом к сети подключился коммерческий сервис AOL, полный новичков, и все его пользователи хлынули в сеть разом, быстрее, чем она успевала приспособиться к такому наплыву. Это назвали Вечным сентябрём.",
+    "source_sha256": "6ca4e19eab6a4a16594be3a93579d13a31c98659a1d3783ec3a08bf8f61df680",
+    "draft_sha256": "fa60841c3672668ce9c2de6b48045e5deca2e5abad8b9d9fe8d966a4cf7a1c29",
+    "result_sha256": "59bd7fe00307b45954a1d31b8517433c58195605b70ac093b8782870735f695c",
+    "actual_diff": [
+      {
+        "kind": "insert",
+        "before_start": 306,
+        "before_end": 306,
+        "after_start": 306,
+        "after_end": 308,
+        "before": "",
+        "after": "пр"
+      },
+      {
+        "kind": "replace",
+        "before_start": 307,
+        "before_end": 309,
+        "after_start": 309,
+        "after_end": 311,
+        "before": "х ",
+        "after": "сп"
+      },
+      {
+        "kind": "delete",
+        "before_start": 311,
+        "before_end": 312,
+        "after_start": 313,
+        "after_end": 313,
+        "before": "в",
+        "after": ""
+      },
+      {
+        "kind": "insert",
+        "before_start": 313,
+        "before_end": 313,
+        "after_start": 314,
+        "after_end": 315,
+        "before": "",
+        "after": "б"
+      },
+      {
+        "kind": "insert",
+        "before_start": 316,
+        "before_end": 316,
+        "after_start": 318,
+        "after_end": 337,
+        "before": "",
+        "after": "ся к такому наплыву"
+      }
+    ],
+    "model_reported_changes": [
+      {
+        "source_quote": "faster than the net could absorb them",
+        "draft_quote": "быстрее, чем она успевала их освоить",
+        "reason": "«Освоить пользователей» неестественно передаёт способность сети принять наплыв новичков."
+      }
+    ]
+  },
+  {
+    "arm": "idiom",
+    "id": "qa8a286da66",
+    "source": "Robbie froze. That wasn't a human-shell, it was a *human.*  His oar-servo whined as he tipped it up. There was a live *human being* on the end of that oar, and she was in trouble, panicking and thrashing. He saw her arms straining. The oar went higher, but it was at the end of its motion and now she was half-in, half-out of the water, weight belt, tank and gear tugging her  down. Isaac sat motionless, his habitual good-natured slight smile on his face.",
+    "draft": "Робби замер. Это была не человеческая оболочка, это был человек. Поднимая весло, он услышал вой своего сервопривода. На конце весла был живой человек, и она попала в беду, паниковала и билась в воде. Он видел, как напрягаются её руки. Весло поднялось выше, но дальше двигаться уже не могло, и теперь она наполовину торчала из воды, а грузовой пояс, баллон и снаряжение тянули её вниз. Айзек сидел неподвижно, с обычной своей лёгкой добродушной улыбкой.",
+    "result": "Робби замер. Это была не человеческая оболочка, это был человек. Поднимая весло, он услышал вой своего сервопривода. На конце весла был живой человек. Она попала в беду, паниковала и билась в воде. Он видел, как напрягаются её руки. Весло поднялось выше, но дальше двигаться уже не могло, и теперь она наполовину торчала из воды, а грузовой пояс, баллон и снаряжение тянули её вниз. Айзек сидел неподвижно, с обычной своей лёгкой добродушной улыбкой.",
+    "source_sha256": "8fec2fa6424395a6a5fd39576ae4395bc355f8b2aa13cf93c8033f0a7ec70477",
+    "draft_sha256": "d17428bde316b8fae2a3f0bc2bf63dbbe025e1ec1b820c946911b1babefe1bf2",
+    "result_sha256": "f8e00e8281a9b86fcfbfda52d5aff3b77cda944ec4f41c0dd94242698934fbe7",
+    "actual_diff": [
+      {
+        "kind": "replace",
+        "before_start": 149,
+        "before_end": 150,
+        "after_start": 149,
+        "after_end": 150,
+        "before": ",",
+        "after": "."
+      },
+      {
+        "kind": "replace",
+        "before_start": 151,
+        "before_end": 154,
+        "after_start": 151,
+        "after_end": 152,
+        "before": "и о",
+        "after": "О"
+      }
+    ],
+    "model_reported_changes": [
+      {
+        "source_quote": "There was a live *human being* on the end of that oar, and she was in trouble",
+        "draft_quote": "На конце весла был живой человек, и она попала в беду",
+        "reason": "Разделение предложений устраняет резкий грамматический переход от «человек» к «она»."
+      }
+    ]
+  },
+  {
+    "arm": "fidelity",
+    "id": "q3cb5976585",
+    "source": "A third, turning to face the new threat, took a blow to the face that audibly crunched the bones of his cheek. I remember wondering why I didn't take any satisfaction from that sound, why it meant nothing beyond the fact I had one less opponent to worry about.",
+    "draft": "Третий, обернувшись к новой угрозе, получил удар в лицо — кости щеки отчётливо хрустнули. Помню, я удивился: почему этот звук не доставил мне никакого удовлетворения, почему не означал ничего, кроме того, что теперь мне придётся иметь дело на одного противника меньше.",
+    "result": "Третий, обернувшись к новой угрозе, получил удар в лицо — кости щеки отчётливо хрустнули. Помню, я удивился: почему этот звук не доставил мне никакого удовлетворения, почему не означал ничего, кроме того, что теперь противников, о которых мне нужно беспокоиться, стало на одного меньше.",
+    "source_sha256": "0a470a7b4dcd1825a8fbaabcda1748c5a322cbceb50ffedcb680e7ce60db6ac2",
+    "draft_sha256": "5c25536bd094d71248fdf49151b7edb5182a33391bfb07fbbaf43a8c7806d2d2",
+    "result_sha256": "68ff03b006587dfdcb634557876f5740b01fe37e5ef0473fcf03beae9fd574d7",
+    "actual_diff": [
+      {
+        "kind": "insert",
+        "before_start": 216,
+        "before_end": 216,
+        "after_start": 216,
+        "after_end": 239,
+        "before": "",
+        "after": "противников, о которых "
+      },
+      {
+        "kind": "insert",
+        "before_start": 220,
+        "before_end": 220,
+        "after_start": 243,
+        "after_end": 252,
+        "before": "",
+        "after": "нужно бес"
+      },
+      {
+        "kind": "replace",
+        "before_start": 221,
+        "before_end": 222,
+        "after_start": 253,
+        "after_end": 256,
+        "before": "р",
+        "after": "око"
+      },
+      {
+        "kind": "delete",
+        "before_start": 223,
+        "before_end": 225,
+        "after_start": 257,
+        "after_end": 257,
+        "before": "дё",
+        "after": ""
+      },
+      {
+        "kind": "insert",
+        "before_start": 226,
+        "before_end": 226,
+        "after_start": 258,
+        "after_end": 259,
+        "before": "",
+        "after": "ь"
+      },
+      {
+        "kind": "insert",
+        "before_start": 228,
+        "before_end": 228,
+        "after_start": 261,
+        "after_end": 262,
+        "before": "",
+        "after": ","
+      },
+      {
+        "kind": "replace",
+        "before_start": 229,
+        "before_end": 232,
+        "after_start": 263,
+        "after_end": 264,
+        "before": "име",
+        "after": "с"
+      },
+      {
+        "kind": "replace",
+        "before_start": 233,
+        "before_end": 237,
+        "after_start": 265,
+        "after_end": 266,
+        "before": "ь де",
+        "after": "а"
+      },
+      {
+        "kind": "delete",
+        "before_start": 250,
+        "before_end": 261,
+        "after_start": 279,
+        "after_end": 279,
+        "before": "противника ",
+        "after": ""
+      }
+    ],
+    "model_reported_changes": [
+      {
+        "source_quote": "I had one less opponent to worry about",
+        "draft_quote": "теперь мне придётся иметь дело на одного противника меньше",
+        "reason": "Исправлено нарушенное управление с сохранением смысла: беспокоиться нужно об одном противнике меньше."
+      }
+    ]
+  },
+  {
+    "arm": "fidelity",
+    "id": "q0ee1c0cd42",
+    "source": "He slithered into the skull before he had a chance to think too hard about what he was doing. He'd brought too much of himself along and didn't have much headroom to think or add new conclusions. He jettisoned as much of his consciousness as he could without major refactoring and cleared enough space for thinking room. How did people get by in one of these? He moved the arms and legs. Waggled the head. Blew some air -- air! lungs! wet squishy things down there in the chest cavity -- out between the lips.",
+    "draft": "Он скользнул в череп, прежде чем успел как следует задуматься над тем, что делает. Он захватил с собой слишком много себя, и свободного места почти не оставалось — ни для размышлений, ни для новых выводов. Он сбросил столько своего сознания, сколько смог без серьёзной переделки кода, и расчистил достаточно места для мыслей. Как люди вообще обходились одной такой штукой? Он подвигал руками и ногами. Помотал головой. Выдул немного воздуха — воздуха! лёгкие! мокрые мягкие штуки там, в грудной полости, — сквозь губы.",
+    "result": "Он скользнул в череп, прежде чем успел как следует задуматься над тем, что делает. Он захватил с собой слишком много себя, и свободного места почти не оставалось — ни для размышлений, ни для новых выводов. Он сбросил столько своего сознания, сколько смог без серьёзной переделки кода, и расчистил достаточно места для мыслей. Как люди вообще умудрялись жить в такой штуке? Он подвигал руками и ногами. Помотал головой. Выдул немного воздуха — воздуха! лёгкие! мокрые мягкие штуки там, в грудной полости, — сквозь губы.",
+    "source_sha256": "835123734320eb69deef0c9ed314851dbbeb67194f9b2626d3bc500b457ff12a",
+    "draft_sha256": "4f6fe3ec6e9f835ad2e6f873bbe3c31ce1a00426fb1870f406f20e214be39521",
+    "result_sha256": "474ab345a2d60d969b97fb12bac8a61bc39fcbf4eb6838e9a9ba0b5bb9709833",
+    "actual_diff": [
+      {
+        "kind": "replace",
+        "before_start": 342,
+        "before_end": 346,
+        "after_start": 342,
+        "after_end": 345,
+        "before": "обхо",
+        "after": "уму"
+      },
+      {
+        "kind": "replace",
+        "before_start": 347,
+        "before_end": 348,
+        "after_start": 346,
+        "after_end": 348,
+        "before": "и",
+        "after": "ря"
+      },
+      {
+        "kind": "replace",
+        "before_start": 353,
+        "before_end": 358,
+        "after_start": 353,
+        "after_end": 359,
+        "before": "одной",
+        "after": "жить в"
+      },
+      {
+        "kind": "replace",
+        "before_start": 369,
+        "before_end": 371,
+        "after_start": 370,
+        "after_end": 371,
+        "before": "ой",
+        "after": "е"
+      }
+    ],
+    "model_reported_changes": [
+      {
+        "source_quote": "How did people get by in one of these?",
+        "draft_quote": "Как люди вообще обходились одной такой штукой?",
+        "reason": "Вопрос относится к жизни внутри такого вместилища, а не к возможности обходиться одним экземпляром."
+      }
+    ]
+  },
+  {
+    "arm": "fidelity",
+    "id": "q269307d5a9",
+    "source": "That didn't make sense. Even if he hadn't been my best friend, I should at least have empathized. I'd suffered less than Pag in the way of overt violence; my seizures tended to keep the other kids at a distance, scared them even as they incapacitated me. Still. I was no stranger to the taunts and insults, or the foot that appears from nowhere to trip you up en route from A to B. I knew how that felt.",
+    "draft": "Это было непонятно. Даже если бы он не был моим лучшим другом, я должен был хотя бы ему сочувствовать. От прямого насилия я страдал меньше Пэга: мои припадки обычно держали других детей на расстоянии, пугали их, даже когда лишали меня способности двигаться. И всё же. Мне были знакомы и насмешки, и оскорбления, и нога, возникающая из ниоткуда, чтобы подставить тебе подножку на пути из точки А в точку Б. Я знал, каково это.",
+    "result": "Это было непонятно. Даже если бы он не был моим лучшим другом, я должен был хотя бы ему сочувствовать. От прямого насилия я страдал меньше Пэга: мои припадки обычно держали других детей на расстоянии, пугали их, хотя самого меня делали беспомощным. И всё же. Мне были знакомы и насмешки, и оскорбления, и нога, возникающая из ниоткуда, чтобы подставить тебе подножку на пути из точки А в точку Б. Я знал, каково это.",
+    "source_sha256": "c9666b2484d19ce24d40694cb898f964ea7cb8e118c1c401e2e958fcf3e6e7e8",
+    "draft_sha256": "a529eae54eb6b9039c8273f255c071ac93c51a7c807e73328be84b712bf4d118",
+    "result_sha256": "e3696579672d07016a84b47d75811f06d85829c3d9d01221c2acccfce20e17ed",
+    "actual_diff": [
+      {
+        "kind": "replace",
+        "before_start": 212,
+        "before_end": 213,
+        "after_start": 212,
+        "after_end": 218,
+        "before": "д",
+        "after": "хотя с"
+      },
+      {
+        "kind": "replace",
+        "before_start": 214,
+        "before_end": 218,
+        "after_start": 219,
+        "after_end": 220,
+        "before": "же к",
+        "after": "м"
+      },
+      {
+        "kind": "replace",
+        "before_start": 220,
+        "before_end": 229,
+        "after_start": 222,
+        "after_end": 223,
+        "before": "да лишали",
+        "after": "о"
+      },
+      {
+        "kind": "insert",
+        "before_start": 235,
+        "before_end": 235,
+        "after_start": 229,
+        "after_end": 238,
+        "before": "",
+        "after": "делали бе"
+      },
+      {
+        "kind": "replace",
+        "before_start": 238,
+        "before_end": 239,
+        "after_start": 241,
+        "after_end": 242,
+        "before": "с",
+        "after": "м"
+      },
+      {
+        "kind": "replace",
+        "before_start": 240,
+        "before_end": 241,
+        "after_start": 243,
+        "after_end": 244,
+        "before": "б",
+        "after": "щ"
+      },
+      {
+        "kind": "replace",
+        "before_start": 242,
+        "before_end": 256,
+        "after_start": 245,
+        "after_end": 247,
+        "before": "ости двигаться",
+        "after": "ым"
+      }
+    ],
+    "model_reported_changes": [
+      {
+        "source_quote": "scared them even as they incapacitated me",
+        "draft_quote": "пугали их, даже когда лишали меня способности двигаться",
+        "reason": "Убрано отсутствующее в оригинале уточнение о неподвижности; сохранена одновременная беспомощность рассказчика."
+      }
+    ]
+  },
+  {
+    "arm": "fidelity",
+    "id": "qa6ff60816c",
+    "source": "The man -- Robbie called him Isaac, of course -- caught the edge of the boat and kicked hard, hauling himself into the boat with his strong brown arms. Robbie was already rowing for Janet, who was swimming hard for him. She caught his oar -- she wasn't supposed to do that -- and began to climb along its length, lifting her body out of the water. Robbie saw that her eyes were wild, her breathing ragged.",
+    "draft": "Мужчина — Робби, конечно же, звал его Айзеком — ухватился за борт и, сильно оттолкнувшись ногами, втащил себя в лодку на крепких смуглых руках. Робби уже грёб к Джанет, которая изо всех сил плыла ему навстречу. Она схватилась за его весло — этого ей делать не полагалось — и начала перебираться вдоль него, вытягивая тело из воды. Робби увидел её обезумевший взгляд, услышал прерывистое дыхание.",
+    "result": "Мужчина — Робби, конечно же, звал его Айзеком — ухватился за борт и, сильно оттолкнувшись ногами, втащил себя в лодку на крепких смуглых руках. Робби уже грёб к Джанет, которая изо всех сил плыла ему навстречу. Она схватилась за его весло — этого ей делать не полагалось — и начала перебираться вдоль него, вытягивая тело из воды. Робби увидел её обезумевший взгляд и то, как прерывисто она дышала.",
+    "source_sha256": "1b743a9da8d70ce9f36cb16b1039c04f89bb4c06e708a5084c720b9714d635f9",
+    "draft_sha256": "2917cbee6f6462e68eb7261eaadb8af648913ab311192c66f3c65cfab1ef788c",
+    "result_sha256": "5c741a974fa7a5913b427646cba7677f9ea684dca015f540604d463bca43304f",
+    "actual_diff": [
+      {
+        "kind": "insert",
+        "before_start": 365,
+        "before_end": 365,
+        "after_start": 365,
+        "after_end": 370,
+        "before": "",
+        "after": " и то"
+      },
+      {
+        "kind": "replace",
+        "before_start": 367,
+        "before_end": 372,
+        "after_start": 372,
+        "after_end": 373,
+        "before": "услыш",
+        "after": "к"
+      },
+      {
+        "kind": "replace",
+        "before_start": 373,
+        "before_end": 374,
+        "after_start": 374,
+        "after_end": 375,
+        "before": "л",
+        "after": "к"
+      },
+      {
+        "kind": "replace",
+        "before_start": 385,
+        "before_end": 386,
+        "after_start": 386,
+        "after_end": 390,
+        "before": "е",
+        "after": " она"
+      },
+      {
+        "kind": "replace",
+        "before_start": 389,
+        "before_end": 390,
+        "after_start": 393,
+        "after_end": 394,
+        "before": "х",
+        "after": "ш"
+      },
+      {
+        "kind": "replace",
+        "before_start": 391,
+        "before_end": 394,
+        "after_start": 395,
+        "after_end": 397,
+        "before": "ние",
+        "after": "ла"
+      }
+    ],
+    "model_reported_changes": [
+      {
+        "source_quote": "Robbie saw that her eyes were wild, her breathing ragged.",
+        "draft_quote": "Робби увидел её обезумевший взгляд, услышал прерывистое дыхание.",
+        "reason": "В оригинале Робби замечает оба признака зрительно; слуховое восприятие добавлено переводом."
+      }
+    ]
+  },
+  {
+    "arm": "fidelity",
+    "id": "qff3beb7bf1",
+    "source": "The Texan shrugged. \"Coulda been a month, coulda been a day. They're pretty much fire-and-forget. They can be triggered by phone, radio, timer -- hell, this thing's smart enough to only go off when some complicated condition is set, like 'once an agent makes his retreat, kill anything that comes after him'. Who knows?\"",
+    "draft": "Техасец пожал плечами.\n— Может, месяц назад, может, день. Они в основном по принципу «запустил и забыл» работают. Срабатывают по телефону, по радио, по таймеру — да чёрт, у этой штуки ума хватит сработать только при каком-нибудь сложном условии, вроде: «когда агент отступит, убей всех, кто за ним пойдёт». Кто ж знает?",
+    "result": "Техасец пожал плечами.\n— Может, месяц назад, может, день. Они в основном по принципу «запустил и забыл» работают. Срабатывают по телефону, по радио, по таймеру — да чёрт, у этой штуки ума хватит сработать только при каком-нибудь сложном условии, вроде: «когда агент отступит, убей всё, что за ним пойдёт». Кто ж знает?",
+    "source_sha256": "bd5170a93c5f87462f37384b6b9a3768e4ba963f75d8196933ea215ef2768116",
+    "draft_sha256": "2c1aceb67298568b13b4138d2065a1b5c89d264960df01d27f856d23e41b6b05",
+    "result_sha256": "4cb38a385190a8bfbf6481022ecb517f57139635ca1d1a7a449c55114dac9a79",
+    "actual_diff": [
+      {
+        "kind": "replace",
+        "before_start": 283,
+        "before_end": 285,
+        "after_start": 283,
+        "after_end": 284,
+        "before": "ех",
+        "after": "ё"
+      },
+      {
+        "kind": "replace",
+        "before_start": 287,
+        "before_end": 288,
+        "after_start": 286,
+        "after_end": 287,
+        "before": "к",
+        "after": "ч"
+      }
+    ],
+    "model_reported_changes": [
+      {
+        "source_quote": "kill anything that comes after him",
+        "draft_quote": "убей всех, кто за ним пойдёт",
+        "reason": "Восстановлен охват любых преследующих объектов, включая машины."
+      }
+    ]
+  },
+  {
+    "arm": "fidelity",
+    "id": "qfea9fde21e",
+    "source": "The Social Harmony man paged through more atrocity slides, scenes from the home-front: poisoned buildings with berserk life-support systems, violent kung-fu movies playing in the background in crack-houses, then kids playing sexually explicit, violent arcade games imported from Japan. Arturo's hand twitched toward his mobile. What was Ada up to now?",
+    "draft": "Человек из Службы общественной гармонии листал новые слайды с ужасами тыловой жизни: отравленные здания с обезумевшими системами жизнеобеспечения, жестокие фильмы о кунг-фу на экранах в притонах, где курили крэк, потом дети за игровыми автоматами из Японии — игры с откровенным сексом и насилием. Рука Артуро дёрнулась к мобильному. Чем сейчас занимается Ада?",
+    "result": "Человек из Службы общественной гармонии листал новые слайды с ужасами тыловой жизни: отравленные здания с обезумевшими системами жизнеобеспечения, жестокие фильмы о кунг-фу, шедшие фоном на экранах в притонах, где курили крэк, потом дети за игровыми автоматами из Японии — игры с откровенным сексом и насилием. Рука Артуро дёрнулась к мобильному. Чем сейчас занимается Ада?",
+    "source_sha256": "bfb625eaf5015120a06765a70cb8d14fb9e916816da98f906933c3aefc63ba6e",
+    "draft_sha256": "012b1885415401a479decb279a52463c72d5d92cbff9c105b91e69898ce3854a",
+    "result_sha256": "0a8711afbc46b289827bcef0bcc19772495c618e4064a7bad445248e6b596a5f",
+    "actual_diff": [
+      {
+        "kind": "insert",
+        "before_start": 172,
+        "before_end": 172,
+        "after_start": 172,
+        "after_end": 186,
+        "before": "",
+        "after": ", шедшие фоном"
+      }
+    ],
+    "model_reported_changes": [
+      {
+        "source_quote": "violent kung-fu movies playing in the background in crack-houses",
+        "draft_quote": "жестокие фильмы о кунг-фу на экранах в притонах, где курили крэк",
+        "reason": "Восстановлено прямое указание, что фильмы шли фоном."
+      }
+    ]
+  },
+  {
+    "arm": "memory_relevant",
+    "id": "qeb5bfb523b",
+    "source": "But that part of me had been cut out along with the bad wiring. I was still working up the algorithms to get it back, still learning by observation. Pack animals always tear apart the weaklings in their midst. Every child knows that much instinctively. Maybe I should just let that process unfold, maybe I shouldn't try to mess with nature. Then again, Pag's parents hadn't messed with nature, and look what it got them: a son curled up in the dirt while a bunch of engineered superboys kicked in his ribs.",
+    "draft": "Но эту часть меня вырезали вместе с неисправными цепями. Я всё ещё разрабатывал алгоритмы, чтобы вернуть её, всё ещё учился наблюдением. Стайные животные всегда рвут на части слабаков в своих рядах. Любой ребёнок знает это инстинктивно. Может, стоило просто дать событиям идти своим чередом, может, не стоило вмешиваться в природу. С другой стороны, родители Пэга не вмешивались в природу, и вот к чему это привело: их сын лежал, свернувшись в грязи, а кучка генетически сконструированных сверхмальчиков ударами ног вминала ему рёбра.",
+    "result": "Но эту часть меня вырезали вместе с неисправными цепями. Я всё ещё разрабатывал алгоритмы, чтобы вернуть её, всё ещё учился, наблюдая. Стайные животные всегда рвут на части слабаков в своих рядах. Любой ребёнок знает это инстинктивно. Может, стоило просто дать событиям идти своим чередом, может, не стоило вмешиваться в природу. С другой стороны, родители Пэга не вмешивались в природу, и вот к чему это привело: их сын лежал, свернувшись в грязи, а кучка генетически сконструированных сверхмальчиков ударами ног вминала ему рёбра.",
+    "source_sha256": "93e6cc42c386c8741fe12db35db57524bdeb55cbf5283050c227bf691fea4872",
+    "draft_sha256": "0494ee613f2145f5908953917e85ffef1f1cd322d814c1c50b0d06cca7f82c1c",
+    "result_sha256": "ea47f4a5fe65306c068b29a739b26fc67304b97de77d8d71218557ff7ff24188",
+    "actual_diff": [
+      {
+        "kind": "insert",
+        "before_start": 123,
+        "before_end": 123,
+        "after_start": 123,
+        "after_end": 124,
+        "before": "",
+        "after": ","
+      },
+      {
+        "kind": "replace",
+        "before_start": 130,
+        "before_end": 135,
+        "after_start": 131,
+        "after_end": 133,
+        "before": "ением",
+        "after": "ая"
+      }
+    ],
+    "model_reported_changes": [
+      {
+        "source_quote": "still learning by observation",
+        "draft_quote": "всё ещё учился наблюдением",
+        "reason": "«Учился, наблюдая» естественнее по-русски и сохраняет способ обучения."
+      }
+    ]
+  },
+  {
+    "arm": "memory_relevant",
+    "id": "qdbaaab067c",
+    "source": "The terrorist's nest had only been recently abandoned, judging by the warm coffee in the go-thermos from the food-court coffee-shop. He -- or she, or they -- had rigged a shower from the pipes feeding the basement washrooms. A little chest of drawers from the Swedish flat-pack store served as a desk -- there were scratches and coffee-rings all over it. Arturo wondered if the terrorist had stolen the furniture, but decided that he'd (she'd, they'd) probably bought it -- less risky, especially if you were invisible to robots.",
+    "draft": "Судя по тёплому кофе в походном термосе из кофейни на фуд-корте, логово террориста опустело совсем недавно. Он — или она, или они — соорудил душ из труб, подававших воду в подвальные туалеты. Маленький комод из шведского магазина сборной мебели служил письменным столом — весь в царапинах и кофейных кольцах. Артуро задумался, не украл ли террорист эту мебель, но решил, что тот, скорее всего, её купил — или купила, или купили: так безопаснее, особенно если роботы тебя не видят.",
+    "result": "Судя по тёплому кофе в термосе навынос из кофейни на фуд-корте, логово террориста опустело совсем недавно. Он — или она, или они — соорудил душ из труб, подававших воду в подвальные туалеты. Маленький комод из шведского магазина сборной мебели служил письменным столом — весь в царапинах и круглых следах от кофейных чашек. Артуро задумался, не украл ли террорист эту мебель, но решил, что тот, скорее всего, её купил — или купила, или купили: так безопаснее, особенно если роботы тебя не видят.",
+    "source_sha256": "ebc6ec50eaa2a895564472d9d74bd3d360c372df68bc3764c01bf3d9ccdf6600",
+    "draft_sha256": "3121230b556447085930405a8a946d89d5c499ee1a22bbb376e99d2e7fc5b4e1",
+    "result_sha256": "62cec45748e4b98933e9830a3f9b697896e20d5ddf927abd6783cae1c3ec8810",
+    "actual_diff": [
+      {
+        "kind": "delete",
+        "before_start": 23,
+        "before_end": 32,
+        "after_start": 23,
+        "after_end": 23,
+        "before": "походном ",
+        "after": ""
+      },
+      {
+        "kind": "insert",
+        "before_start": 39,
+        "before_end": 39,
+        "after_start": 30,
+        "after_end": 38,
+        "before": "",
+        "after": " навынос"
+      },
+      {
+        "kind": "insert",
+        "before_start": 292,
+        "before_end": 292,
+        "after_start": 291,
+        "after_end": 309,
+        "before": "",
+        "after": "руглых следах от к"
+      },
+      {
+        "kind": "insert",
+        "before_start": 300,
+        "before_end": 300,
+        "after_start": 317,
+        "after_end": 321,
+        "before": "",
+        "after": "чаше"
+      },
+      {
+        "kind": "delete",
+        "before_start": 301,
+        "before_end": 307,
+        "after_start": 322,
+        "after_end": 322,
+        "before": "ольцах",
+        "after": ""
+      }
+    ],
+    "model_reported_changes": [
+      {
+        "source_quote": "go-thermos",
+        "draft_quote": "походном термосе",
+        "reason": "Речь о кофе навынос; походное назначение не указано."
+      },
+      {
+        "source_quote": "coffee-rings",
+        "draft_quote": "кофейных кольцах",
+        "reason": "Это круглые следы от чашек на мебели, а не отдельные кольца."
+      }
+    ]
+  },
+  {
+    "arm": "memory_relevant",
+    "id": "q3cb5976585",
+    "source": "A third, turning to face the new threat, took a blow to the face that audibly crunched the bones of his cheek. I remember wondering why I didn't take any satisfaction from that sound, why it meant nothing beyond the fact I had one less opponent to worry about.",
+    "draft": "Третий, обернувшись к новой угрозе, получил удар в лицо — кости щеки отчётливо хрустнули. Помню, я удивился: почему этот звук не доставил мне никакого удовлетворения, почему не означал ничего, кроме того, что теперь мне придётся иметь дело на одного противника меньше.",
+    "result": "Третий, обернувшись к новой угрозе, получил удар в лицо — скуловые кости отчётливо хрустнули. Помню, я удивился: почему этот звук не доставил мне никакого удовлетворения, почему не означал ничего, кроме того, что теперь противников, с которыми мне придётся иметь дело, стало на одного меньше.",
+    "source_sha256": "0a470a7b4dcd1825a8fbaabcda1748c5a322cbceb50ffedcb680e7ce60db6ac2",
+    "draft_sha256": "5c25536bd094d71248fdf49151b7edb5182a33391bfb07fbbaf43a8c7806d2d2",
+    "result_sha256": "8f94aff576774202bd183d3a08526dbc0b00c9c27a911b1f2a2e27431baaa87e",
+    "actual_diff": [
+      {
+        "kind": "insert",
+        "before_start": 58,
+        "before_end": 58,
+        "after_start": 58,
+        "after_end": 67,
+        "before": "",
+        "after": "скуловые "
+      },
+      {
+        "kind": "delete",
+        "before_start": 62,
+        "before_end": 67,
+        "after_start": 71,
+        "after_end": 71,
+        "before": "и щек",
+        "after": ""
+      },
+      {
+        "kind": "insert",
+        "before_start": 216,
+        "before_end": 216,
+        "after_start": 220,
+        "after_end": 244,
+        "before": "",
+        "after": "противников, с которыми "
+      },
+      {
+        "kind": "insert",
+        "before_start": 239,
+        "before_end": 239,
+        "after_start": 267,
+        "after_end": 274,
+        "before": "",
+        "after": ", стало"
+      },
+      {
+        "kind": "delete",
+        "before_start": 250,
+        "before_end": 261,
+        "after_start": 285,
+        "after_end": 285,
+        "before": "противника ",
+        "after": ""
+      }
+    ],
+    "model_reported_changes": [
+      {
+        "source_quote": "the bones of his cheek",
+        "draft_quote": "кости щеки",
+        "reason": "«Скуловые кости» точнее и естественнее обозначает кости в месте удара."
+      },
+      {
+        "source_quote": "I had one less opponent to worry about",
+        "draft_quote": "теперь мне придётся иметь дело на одного противника меньше",
+        "reason": "Исправлено нарушенное управление оборота «иметь дело с»."
+      }
+    ]
+  },
+  {
+    "arm": "memory_relevant",
+    "id": "q0ee1c0cd42",
+    "source": "He slithered into the skull before he had a chance to think too hard about what he was doing. He'd brought too much of himself along and didn't have much headroom to think or add new conclusions. He jettisoned as much of his consciousness as he could without major refactoring and cleared enough space for thinking room. How did people get by in one of these? He moved the arms and legs. Waggled the head. Blew some air -- air! lungs! wet squishy things down there in the chest cavity -- out between the lips.",
+    "draft": "Он скользнул в череп, прежде чем успел как следует задуматься над тем, что делает. Он захватил с собой слишком много себя, и свободного места почти не оставалось — ни для размышлений, ни для новых выводов. Он сбросил столько своего сознания, сколько смог без серьёзной переделки кода, и расчистил достаточно места для мыслей. Как люди вообще обходились одной такой штукой? Он подвигал руками и ногами. Помотал головой. Выдул немного воздуха — воздуха! лёгкие! мокрые мягкие штуки там, в грудной полости, — сквозь губы.",
+    "result": "Он скользнул в череп, прежде чем успел как следует задуматься над тем, что делает. Он захватил с собой слишком много себя, и свободного места почти не оставалось — ни для размышлений, ни для новых выводов. Он сбросил столько своего сознания, сколько смог без серьёзной переделки кода, и расчистил достаточно места для мыслей. Как люди вообще обходились в такой штуке? Он подвигал руками и ногами. Помотал головой. Выдул немного воздуха — воздуха! лёгкие! мокрые мягкие штуки там, в грудной полости, — сквозь губы.",
+    "source_sha256": "835123734320eb69deef0c9ed314851dbbeb67194f9b2626d3bc500b457ff12a",
+    "draft_sha256": "4f6fe3ec6e9f835ad2e6f873bbe3c31ce1a00426fb1870f406f20e214be39521",
+    "result_sha256": "a5b37ad27cabac3af91c5c246707c6c93823f67c1ab15b4d77b1e4a5787b590e",
+    "actual_diff": [
+      {
+        "kind": "replace",
+        "before_start": 353,
+        "before_end": 358,
+        "after_start": 353,
+        "after_end": 354,
+        "before": "одной",
+        "after": "в"
+      },
+      {
+        "kind": "replace",
+        "before_start": 369,
+        "before_end": 371,
+        "after_start": 365,
+        "after_end": 366,
+        "before": "ой",
+        "after": "е"
+      }
+    ],
+    "model_reported_changes": [
+      {
+        "source_quote": "How did people get by in one of these?",
+        "draft_quote": "Как люди вообще обходились одной такой штукой?",
+        "reason": "Речь о жизни внутри такого тела, а не о достаточности одной штуки."
+      }
+    ]
+  },
+  {
+    "arm": "memory_relevant",
+    "id": "q269307d5a9",
+    "source": "That didn't make sense. Even if he hadn't been my best friend, I should at least have empathized. I'd suffered less than Pag in the way of overt violence; my seizures tended to keep the other kids at a distance, scared them even as they incapacitated me. Still. I was no stranger to the taunts and insults, or the foot that appears from nowhere to trip you up en route from A to B. I knew how that felt.",
+    "draft": "Это было непонятно. Даже если бы он не был моим лучшим другом, я должен был хотя бы ему сочувствовать. От прямого насилия я страдал меньше Пэга: мои припадки обычно держали других детей на расстоянии, пугали их, даже когда лишали меня способности двигаться. И всё же. Мне были знакомы и насмешки, и оскорбления, и нога, возникающая из ниоткуда, чтобы подставить тебе подножку на пути из точки А в точку Б. Я знал, каково это.",
+    "result": "Это было непонятно. Даже если бы он не был моим лучшим другом, я должен был хотя бы ему сочувствовать. От прямого насилия я страдал меньше Пэга: мои припадки обычно держали других детей на расстоянии, пугали их и одновременно делали меня беспомощным. И всё же. Мне были знакомы и насмешки, и оскорбления, и нога, возникающая из ниоткуда, чтобы подставить тебе подножку на пути из точки А в точку Б. Я знал, каково это.",
+    "source_sha256": "c9666b2484d19ce24d40694cb898f964ea7cb8e118c1c401e2e958fcf3e6e7e8",
+    "draft_sha256": "a529eae54eb6b9039c8273f255c071ac93c51a7c807e73328be84b712bf4d118",
+    "result_sha256": "f0f05c6b104f416827c4ea3324d60d89dded59cfcf50673ceefb08acb917fc80",
+    "actual_diff": [
+      {
+        "kind": "replace",
+        "before_start": 210,
+        "before_end": 211,
+        "after_start": 210,
+        "after_end": 225,
+        "before": ",",
+        "after": " и одновременно"
+      },
+      {
+        "kind": "delete",
+        "before_start": 213,
+        "before_end": 215,
+        "after_start": 227,
+        "after_end": 227,
+        "before": "аж",
+        "after": ""
+      },
+      {
+        "kind": "delete",
+        "before_start": 216,
+        "before_end": 223,
+        "after_start": 228,
+        "after_end": 228,
+        "before": " когда ",
+        "after": ""
+      },
+      {
+        "kind": "delete",
+        "before_start": 224,
+        "before_end": 226,
+        "after_start": 229,
+        "after_end": 229,
+        "before": "иш",
+        "after": ""
+      },
+      {
+        "kind": "insert",
+        "before_start": 235,
+        "before_end": 235,
+        "after_start": 238,
+        "after_end": 240,
+        "before": "",
+        "after": "бе"
+      },
+      {
+        "kind": "replace",
+        "before_start": 238,
+        "before_end": 239,
+        "after_start": 243,
+        "after_end": 244,
+        "before": "с",
+        "after": "м"
+      },
+      {
+        "kind": "replace",
+        "before_start": 240,
+        "before_end": 241,
+        "after_start": 245,
+        "after_end": 246,
+        "before": "б",
+        "after": "щ"
+      },
+      {
+        "kind": "replace",
+        "before_start": 242,
+        "before_end": 256,
+        "after_start": 247,
+        "after_end": 249,
+        "before": "ости двигаться",
+        "after": "ым"
+      }
+    ],
+    "model_reported_changes": [
+      {
+        "source_quote": "scared them even as they incapacitated me",
+        "draft_quote": "пугали их, даже когда лишали меня способности двигаться",
+        "reason": "Восстановлена одновременность; incapacitated не обязательно означает неподвижность."
+      }
+    ]
+  },
+  {
+    "arm": "memory_relevant",
+    "id": "qdf715a19a6",
+    "source": "\"I know for the epilepsy! You think I don't know? But you were in that half—or, like, part of you was...\" He struggled with the words, with the concept behind them. \"And now you're different. It's like, your mom and dad murdered you—\"",
+    "draft": "— Знаю я, что из-за эпилепсии! Думаешь, не знаю? Но в той половине был ты — ну, как бы часть тебя… — Он с трудом подбирал слова, с трудом осмысливал то, что за ними стояло. — А теперь ты другой. Получается, твои мама с папой тебя убили…",
+    "result": "— Знаю я, что из-за эпилепсии! Думаешь, не знаю? Но в той половине был ты — ну, как бы часть тебя… — Он с трудом подбирал слова, с трудом осмысливал то, что за ними стояло. — А теперь ты другой. Как будто твои мама с папой тебя убили…",
+    "source_sha256": "8ffae49ca13703d1557fb4bdc59b813d353e5e855f2f6c798c83c3d4681d2fb9",
+    "draft_sha256": "a0b5ae5f586fd51321bbedaca46638771e394438bfd1e33f60087c3ff1eccf25",
+    "result_sha256": "9a75b262c9ddb767cbe1b1a35081289a969134829b943d47d28e13c82e3e956c",
+    "actual_diff": [
+      {
+        "kind": "replace",
+        "before_start": 195,
+        "before_end": 196,
+        "after_start": 195,
+        "after_end": 203,
+        "before": "П",
+        "after": "Как будт"
+      },
+      {
+        "kind": "delete",
+        "before_start": 197,
+        "before_end": 206,
+        "after_start": 204,
+        "after_end": 204,
+        "before": "лучается,",
+        "after": ""
+      }
+    ],
+    "model_reported_changes": [
+      {
+        "source_quote": "It's like, your mom and dad murdered you",
+        "draft_quote": "Получается, твои мама с папой тебя убили",
+        "reason": "Сохранена неуверенная аналогия вместо более категоричного вывода."
+      }
+    ]
+  },
+  {
+    "arm": "memory_relevant",
+    "id": "q28167c0ed9",
+    "source": "But it gave Arturo the willies. It was a machine designed to kill other machines, and that was all right with him, but it was run by a non-three-laws positronic brain. Someone in some Eurasian lab had built this brain -- this machine intelligence -- without the three laws' stricture to protect and serve humans. If it had been outfitted with a gun instead of a pulse-weapon, it could have shot him.",
+    "draft": "Но Артуро от этой штуки становилось не по себе. Это была машина для уничтожения других машин, и против этого он ничего не имел, но управлял ею позитронный мозг без трёх законов. Кто-то в какой-то евразийской лаборатории создал этот мозг — этот машинный разум — без предписанного тремя законами обязательства защищать людей и служить им. Если бы его оснастили огнестрельным оружием вместо импульсного, он мог бы застрелить Артуро.",
+    "result": "Но Артуро от этой штуки становилось не по себе. Это была машина для уничтожения других машин, и против этого он ничего не имел, но управлял ею позитронный мозг без трёх законов. Кто-то в какой-то евразийской лаборатории создал этот мозг — этот машинный разум — без предписанного тремя законами обязательства защищать людей и служить им. Если бы эту машину оснастили огнестрельным оружием вместо импульсного, она могла бы застрелить Артуро.",
+    "source_sha256": "17acae7b8b20c3cb85cfa2943e358a8bf11f0a05d152e3308487cbb0a9c9dff6",
+    "draft_sha256": "0804ec5b005c8f411f0f5a4bdc619bf4b5710fc88c5d0e94ac5cdd01ba723c48",
+    "result_sha256": "f68dc786c1499d961e559c4d10ce566f8565d85c864a1572d9db96743f6af527",
+    "actual_diff": [
+      {
+        "kind": "replace",
+        "before_start": 345,
+        "before_end": 348,
+        "after_start": 345,
+        "after_end": 355,
+        "before": "его",
+        "after": "эту машину"
+      },
+      {
+        "kind": "insert",
+        "before_start": 403,
+        "before_end": 403,
+        "after_start": 410,
+        "after_end": 411,
+        "before": "",
+        "after": "а"
+      },
+      {
+        "kind": "insert",
+        "before_start": 407,
+        "before_end": 407,
+        "after_start": 415,
+        "after_end": 417,
+        "before": "",
+        "after": "ла"
+      }
+    ],
+    "model_reported_changes": [
+      {
+        "source_quote": "If it had been outfitted with a gun instead of a pulse-weapon, it could have shot him.",
+        "draft_quote": "Если бы его оснастили огнестрельным оружием вместо импульсного, он мог бы застрелить Артуро.",
+        "reason": "Уточнено, что оружием оснащают машину, а не управляющий ею мозг."
+      }
+    ]
+  },
+  {
+    "arm": "memory_relevant",
+    "id": "qa6ff60816c",
+    "source": "The man -- Robbie called him Isaac, of course -- caught the edge of the boat and kicked hard, hauling himself into the boat with his strong brown arms. Robbie was already rowing for Janet, who was swimming hard for him. She caught his oar -- she wasn't supposed to do that -- and began to climb along its length, lifting her body out of the water. Robbie saw that her eyes were wild, her breathing ragged.",
+    "draft": "Мужчина — Робби, конечно же, звал его Айзеком — ухватился за борт и, сильно оттолкнувшись ногами, втащил себя в лодку на крепких смуглых руках. Робби уже грёб к Джанет, которая изо всех сил плыла ему навстречу. Она схватилась за его весло — этого ей делать не полагалось — и начала перебираться вдоль него, вытягивая тело из воды. Робби увидел её обезумевший взгляд, услышал прерывистое дыхание.",
+    "result": "Мужчина — Робби, конечно же, звал его Айзеком — ухватился за борт и, сильно взмахнув ногами, втащил себя в лодку на крепких смуглых руках. Робби уже грёб к Джанет, которая изо всех сил плыла ему навстречу. Она схватилась за его весло — этого ей делать не полагалось — и начала перебираться вдоль него, вытягивая тело из воды. Робби видел её обезумевший взгляд и то, как прерывисто она дышит.",
+    "source_sha256": "1b743a9da8d70ce9f36cb16b1039c04f89bb4c06e708a5084c720b9714d635f9",
+    "draft_sha256": "2917cbee6f6462e68eb7261eaadb8af648913ab311192c66f3c65cfab1ef788c",
+    "result_sha256": "36951595df7fee2b19ef11155c7d0e2dc68cb99321ee704a7668c1d6ac507adc",
+    "actual_diff": [
+      {
+        "kind": "replace",
+        "before_start": 76,
+        "before_end": 82,
+        "after_start": 76,
+        "after_end": 81,
+        "before": "оттолк",
+        "after": "взмах"
+      },
+      {
+        "kind": "delete",
+        "before_start": 85,
+        "before_end": 89,
+        "after_start": 84,
+        "after_end": 84,
+        "before": "шись",
+        "after": ""
+      },
+      {
+        "kind": "delete",
+        "before_start": 337,
+        "before_end": 338,
+        "after_start": 332,
+        "after_end": 332,
+        "before": "у",
+        "after": ""
+      },
+      {
+        "kind": "insert",
+        "before_start": 365,
+        "before_end": 365,
+        "after_start": 359,
+        "after_end": 364,
+        "before": "",
+        "after": " и то"
+      },
+      {
+        "kind": "replace",
+        "before_start": 367,
+        "before_end": 372,
+        "after_start": 366,
+        "after_end": 367,
+        "before": "услыш",
+        "after": "к"
+      },
+      {
+        "kind": "replace",
+        "before_start": 373,
+        "before_end": 374,
+        "after_start": 368,
+        "after_end": 369,
+        "before": "л",
+        "after": "к"
+      },
+      {
+        "kind": "replace",
+        "before_start": 385,
+        "before_end": 386,
+        "after_start": 380,
+        "after_end": 384,
+        "before": "е",
+        "after": " она"
+      },
+      {
+        "kind": "replace",
+        "before_start": 389,
+        "before_end": 392,
+        "after_start": 387,
+        "after_end": 388,
+        "before": "хан",
+        "after": "ш"
+      },
+      {
+        "kind": "replace",
+        "before_start": 393,
+        "before_end": 394,
+        "after_start": 389,
+        "after_end": 390,
+        "before": "е",
+        "after": "т"
+      }
+    ],
+    "model_reported_changes": [
+      {
+        "source_quote": "kicked hard",
+        "draft_quote": "сильно оттолкнувшись ногами",
+        "reason": "Пловец делает толчок ногами в воде; опора для отталкивания не указана."
+      },
+      {
+        "source_quote": "Robbie saw that her eyes were wild, her breathing ragged.",
+        "draft_quote": "Робби увидел её обезумевший взгляд, услышал прерывистое дыхание.",
+        "reason": "Убрана неподтверждённая смена зрительного восприятия на слуховое."
+      }
+    ]
+  },
+  {
+    "arm": "memory_relevant",
+    "id": "q8221a17b47",
+    "source": "But you could make a case for what he said. I do remember Helen telling me (and telling me) how difficult it was to adjust. Like you had a whole new personality, she said, and why not? There's a reason they call it radical hemispherectomy: half the brain thrown out with yesterday's krill, the remaining half press-ganged into double duty. Think of all the rewiring that one lonely hemisphere must have struggled with as it tried to take up the slack. It turned out okay, obviously. The brain's a very flexible piece of meat; it took some doing, but it adapted. I adapted. Still. Think of all that must have been squeezed out, deformed, reshaped by the time the renovations were through. You could argue that I'm a different person than the one who used to occupy this body.",
+    "draft": "Но в пользу его слов можно было привести доводы. Я ведь помню, как Хелен говорила мне — снова и снова, — до чего трудно было привыкнуть. Будто у тебя совершенно другая личность, говорила она, и почему бы нет? Не зря это называется радикальной гемисферэктомией: половину мозга выбрасывают вместе со вчерашним крилем, оставшуюся насильно припрягают работать за двоих. Подумайте, сколько соединений пришлось с трудом перестроить этому одинокому полушарию, пытаясь восполнить потерю. В итоге всё, очевидно, обошлось. Мозг — очень гибкий кусок мяса; не сразу, но он приспособился. Я приспособился. И всё же. Подумайте, сколько всего к концу перестройки было, должно быть, вытеснено, исковеркано, перекроено. Можно утверждать, что я уже не тот человек, который прежде занимал это тело.",
+    "result": "Но в пользу его слов можно было привести доводы. Я ведь помню, как Хелен говорила мне — снова и снова — до чего трудно было привыкнуть. Будто у тебя совершенно другая личность, говорила она, и почему бы нет? Не зря это называется радикальной гемисферэктомией: половину мозга выбрасывают вместе со вчерашним крилем, оставшуюся насильно припрягают работать за двоих. Подумайте, сколько соединений пришлось с трудом перестроить этому одинокому полушарию, пока оно пыталось восполнить потерю. В итоге всё, очевидно, обошлось. Мозг — очень гибкий кусок мяса; это далось ему непросто, но он приспособился. Я приспособился. И всё же. Подумайте, сколько всего к концу перестройки было, должно быть, вытеснено, исковеркано, перекроено. Можно утверждать, что я уже не тот человек, который прежде занимал это тело.",
+    "source_sha256": "82561277da05c6b23b16ce1ad601097f5ff0978072cdfce64d887fd4d1c2d421",
+    "draft_sha256": "da78f0c7e58e35b36678eca0da303d2eb409f1f22ecfac9be2930d44edb73583",
+    "result_sha256": "762e6024b1664a9ee75b293bba41ff88beb67ac5d0c756fc897561169589c0e5",
+    "actual_diff": [
+      {
+        "kind": "delete",
+        "before_start": 101,
+        "before_end": 102,
+        "after_start": 101,
+        "after_end": 101,
+        "before": ",",
+        "after": ""
+      },
+      {
+        "kind": "insert",
+        "before_start": 454,
+        "before_end": 454,
+        "after_start": 453,
+        "after_end": 462,
+        "before": "",
+        "after": "ока оно п"
+      },
+      {
+        "kind": "replace",
+        "before_start": 457,
+        "before_end": 458,
+        "after_start": 465,
+        "after_end": 467,
+        "before": "я",
+        "after": "ло"
+      },
+      {
+        "kind": "insert",
+        "before_start": 545,
+        "before_end": 545,
+        "after_start": 554,
+        "after_end": 569,
+        "before": "",
+        "after": "это далось ему "
+      },
+      {
+        "kind": "replace",
+        "before_start": 547,
+        "before_end": 548,
+        "after_start": 571,
+        "after_end": 574,
+        "before": " ",
+        "after": "про"
+      },
+      {
+        "kind": "replace",
+        "before_start": 549,
+        "before_end": 553,
+        "after_start": 575,
+        "after_end": 577,
+        "before": "разу",
+        "after": "то"
+      }
+    ],
+    "model_reported_changes": [
+      {
+        "source_quote": "Helen telling me (and telling me) how difficult it was to adjust",
+        "draft_quote": "Хелен говорила мне — снова и снова, — до чего трудно было привыкнуть",
+        "reason": "Убрана лишняя запятая внутри вставки."
+      },
+      {
+        "source_quote": "as it tried to take up the slack",
+        "draft_quote": "пытаясь восполнить потерю",
+        "reason": "Устранён деепричастный оборот без подлежащего в именительном падеже."
+      },
+      {
+        "source_quote": "it took some doing, but it adapted",
+        "draft_quote": "не сразу, но он приспособился",
+        "reason": "Восстановлен акцент на трудности приспособления, а не только на его длительности."
+      }
+    ]
+  },
+  {
+    "arm": "memory_relevant",
+    "id": "qcbe946abf7",
+    "source": "He told the car to take him back to the station-house. He needed a new phone and a couple of hours with his computer. As it peeled out, he prodded through Ada's phone some more. He was first on her speed-dial. That number wasn't ringing anywhere, anymore.",
+    "draft": "Он велел машине отвезти его обратно в участок. Ему нужен был новый телефон и пара часов за компьютером. Пока машина срывалась с места, он ещё покопался в телефоне Ады. В её списке быстрого набора он стоял первым. По этому номеру больше нигде ничто не звонило.",
+    "result": "Он велел машине отвезти его обратно в участок. Ему нужен был новый телефон и пара часов за компьютером. Пока машина срывалась с места, он ещё покопался в телефоне Ады. В её списке быстрого набора он стоял первым. Теперь звонок на этот номер уже нигде не звучал.",
+    "source_sha256": "734291621bfb199d0db6e6e188380a67680f3ccb6b3abcd4cbaa999b9d4724c4",
+    "draft_sha256": "ef2f27bc55587587b0ecee9b09189ccb991c41750ce5ccd17f22d43aace4e3b3",
+    "result_sha256": "9bdc99d1c22d7d3f65cc4f145ed7442ee16c8e0adab2e1497fa9c585bc8c69b2",
+    "actual_diff": [
+      {
+        "kind": "replace",
+        "before_start": 213,
+        "before_end": 214,
+        "after_start": 213,
+        "after_end": 222,
+        "before": "П",
+        "after": "Теперь зв"
+      },
+      {
+        "kind": "insert",
+        "before_start": 215,
+        "before_end": 215,
+        "after_start": 223,
+        "after_end": 229,
+        "before": "",
+        "after": "нок на"
+      },
+      {
+        "kind": "replace",
+        "before_start": 219,
+        "before_end": 221,
+        "after_start": 233,
+        "after_end": 234,
+        "before": "му",
+        "after": "т"
+      },
+      {
+        "kind": "insert",
+        "before_start": 227,
+        "before_end": 227,
+        "after_start": 240,
+        "after_end": 241,
+        "before": "",
+        "after": " "
+      },
+      {
+        "kind": "replace",
+        "before_start": 228,
+        "before_end": 234,
+        "after_start": 242,
+        "after_end": 243,
+        "before": " больш",
+        "after": "ж"
+      },
+      {
+        "kind": "delete",
+        "before_start": 243,
+        "before_end": 249,
+        "after_start": 252,
+        "after_end": 252,
+        "before": "ичто н",
+        "after": ""
+      },
+      {
+        "kind": "replace",
+        "before_start": 253,
+        "before_end": 256,
+        "after_start": 256,
+        "after_end": 259,
+        "before": "они",
+        "after": "уча"
+      },
+      {
+        "kind": "delete",
+        "before_start": 257,
+        "before_end": 258,
+        "after_start": 260,
+        "after_end": 260,
+        "before": "о",
+        "after": ""
+      }
+    ],
+    "model_reported_changes": [
+      {
+        "source_quote": "That number wasn't ringing anywhere, anymore.",
+        "draft_quote": "По этому номеру больше нигде ничто не звонило.",
+        "reason": "Устранена неестественная конструкция с сохранением образа отсутствующего звонка."
+      }
+    ]
+  },
+  {
+    "arm": "memory_relevant",
+    "id": "q52c8bbe1ec",
+    "source": "I hadn't seen much of Pag lately. I was pretty sure he'd been avoiding me. Still, when your best friend's in trouble you help out, right? Even if the odds are impossible—and how many eight-year-olds would go up against six bigger kids for a sandbox buddy?—at least you call for backup. Flag a sentry. Something.",
+    "draft": "В последнее время я редко видел Пэга. Я был почти уверен, что он меня избегает. И всё же, когда твой лучший друг попадает в беду, ты ведь приходишь на помощь? Даже если шансов никаких — а многие ли восьмилетки пойдут против шестерых ребят постарше ради приятеля по песочнице? — хотя бы зовёшь подмогу. Подаёшь знак часовому. Что-нибудь.",
+    "result": "В последнее время я редко видел Пэга. Я был почти уверен, что он меня избегает. И всё же, когда твой лучший друг попадает в беду, ты ведь приходишь на помощь? Даже если шансов никаких — а многие ли восьмилетки пойдут против шестерых ребят крупнее себя ради приятеля по песочнице? — хотя бы зовёшь подмогу. Подаёшь знак часовому. Что-нибудь.",
+    "source_sha256": "a91358f527b4f0c91a26c95da40c0e611910e3136176a856da2339fabdd85c5a",
+    "draft_sha256": "6b77b68001b3bcde5d116f978aec05436ad5973285386df4f2da7cfdb1538c45",
+    "result_sha256": "f47c7b5c5ab17d445c06022e2c6dbf70f0d482cdab11cd8110a75d2a025e46ca",
+    "actual_diff": [
+      {
+        "kind": "insert",
+        "before_start": 239,
+        "before_end": 239,
+        "after_start": 239,
+        "after_end": 242,
+        "before": "",
+        "after": "кру"
+      },
+      {
+        "kind": "replace",
+        "before_start": 240,
+        "before_end": 241,
+        "after_start": 243,
+        "after_end": 247,
+        "before": "о",
+        "after": "нее "
+      },
+      {
+        "kind": "delete",
+        "before_start": 242,
+        "before_end": 246,
+        "after_start": 248,
+        "after_end": 248,
+        "before": "тарш",
+        "after": ""
+      },
+      {
+        "kind": "insert",
+        "before_start": 247,
+        "before_end": 247,
+        "after_start": 249,
+        "after_end": 251,
+        "before": "",
+        "after": "бя"
+      }
+    ],
+    "model_reported_changes": [
+      {
+        "source_quote": "six bigger kids",
+        "draft_quote": "шестерых ребят постарше",
+        "reason": "Указано превосходство в размерах, а не в возрасте."
+      }
+    ]
+  },
+  {
+    "arm": "memory_relevant",
+    "id": "q81934bc463",
+    "source": "\"Back in the net's prehistory it was mostly universities online, and every September a new cohort of students would come online and  make all those noob mistakes. Then this commercial service full of noobs called AOL interconnected with the net and all its users came online at once, faster than the net could absorb them, and they called it Perpetual September.\"",
+    "draft": "— В доисторические времена сети к ней были подключены в основном университеты, и каждый сентябрь в сеть приходил новый поток студентов и делал все эти ошибки новичков. Потом к сети подключился коммерческий сервис AOL, полный новичков, и все его пользователи хлынули в сеть разом, быстрее, чем она успевала их освоить. Это назвали Вечным сентябрём.",
+    "result": "— В доисторические времена сети к ней были подключены в основном университеты, и каждый сентябрь в сеть приходил новый поток студентов и делал все эти ошибки новичков. Потом к сети подключился коммерческий сервис AOL, полный новичков, и все его пользователи хлынули в сеть разом, быстрее, чем она успевала их переварить. Это назвали Вечным сентябрём.",
+    "source_sha256": "6ca4e19eab6a4a16594be3a93579d13a31c98659a1d3783ec3a08bf8f61df680",
+    "draft_sha256": "fa60841c3672668ce9c2de6b48045e5deca2e5abad8b9d9fe8d966a4cf7a1c29",
+    "result_sha256": "5f98371575d8c83c1012241cd3e53a13c3e5c2106c2077c46254d0e4de6e2522",
+    "actual_diff": [
+      {
+        "kind": "replace",
+        "before_start": 309,
+        "before_end": 311,
+        "after_start": 309,
+        "after_end": 313,
+        "before": "ос",
+        "after": "пере"
+      },
+      {
+        "kind": "replace",
+        "before_start": 312,
+        "before_end": 313,
+        "after_start": 314,
+        "after_end": 316,
+        "before": "о",
+        "after": "ар"
+      }
+    ],
+    "model_reported_changes": [
+      {
+        "source_quote": "faster than the net could absorb them",
+        "draft_quote": "быстрее, чем она успевала их освоить",
+        "reason": "«Переварить» естественнее передаёт поглощение сообществом массового притока новичков."
+      }
+    ]
+  },
+  {
+    "arm": "memory_relevant",
+    "id": "qd34f35c181",
+    "source": "\"You shouldn't go back,\" the distant voice said. Robbie tried to work out where its substrate was, based on the lightspeed lag, but it was all over the place, leading him to conclude that it was synching multiple instances from as close as LEO and as far as Jupiter. The topology made sense: you'd want a big mass out at Jupiter where you could run very fast and hot and create policy, and you'd need a local foreman to oversee operations on the ground. Robbie was glad that this hadn't been phrased as an order. The talmud on the second law made a clear distinction between statements like \"you should do this\" and \"I command you to do this.\"",
+    "draft": "— Тебе не стоит возвращаться, — сказал далёкий голос. Робби попытался определить, где находится его носитель, по задержке сигнала, ограниченного скоростью света, но та менялась как попало, из чего он заключил, что собеседник синхронизирует несколько экземпляров — от низкой околоземной орбиты до самого Юпитера. Такая топология имела смысл: у Юпитера стоило разместить большую массу, где можно работать на высоких скоростях и температурах и вырабатывать стратегию, а поблизости требовался прораб для надзора за работами на Земле. Робби обрадовался, что это не было сформулировано как приказ. Талмуд второго закона проводил чёткое различие между высказываниями «тебе следует это сделать» и «я приказываю тебе это сделать».",
+    "result": "— Тебе не стоит возвращаться, — сказал далёкий голос. Робби попытался определить, где находится его носитель, по задержке сигнала, обусловленной конечной скоростью света, но та менялась как попало, из чего он заключил, что собеседник синхронизирует несколько экземпляров — от низкой околоземной орбиты до самого Юпитера. Такая топология имела смысл: у Юпитера стоило разместить большую массу, где можно работать на высоких скоростях и температурах и вырабатывать стратегию, а поблизости требовался прораб для надзора за работами на Земле. Робби обрадовался, что это не было сформулировано как приказ. Талмуд второго закона проводил чёткое различие между высказываниями «тебе следует это сделать» и «я приказываю тебе это сделать».",
+    "source_sha256": "f002b5ca6f3c032ab21659f0801770abff6abb85c6ec08aaba0f99fd1eaefd5c",
+    "draft_sha256": "d6219e78fb925d8dcec6a83e20bdca568d24b0b80dcbecc9e3345597145d6574",
+    "result_sha256": "2126bd9ad3791b5e69491ac0e650e8540835500e7366860d276b92a60a6b6a40",
+    "actual_diff": [
+      {
+        "kind": "replace",
+        "before_start": 132,
+        "before_end": 138,
+        "after_start": 132,
+        "after_end": 139,
+        "before": "гранич",
+        "after": "бусловл"
+      },
+      {
+        "kind": "replace",
+        "before_start": 142,
+        "before_end": 143,
+        "after_start": 143,
+        "after_end": 146,
+        "before": "г",
+        "after": "й к"
+      },
+      {
+        "kind": "insert",
+        "before_start": 144,
+        "before_end": 144,
+        "after_start": 147,
+        "after_end": 153,
+        "before": "",
+        "after": "нечной"
+      }
+    ],
+    "model_reported_changes": [
+      {
+        "source_quote": "the lightspeed lag",
+        "draft_quote": "задержке сигнала, ограниченного скоростью света",
+        "reason": "Конечная скорость света обусловливает задержку распространения сигнала."
+      }
+    ]
+  },
+  {
+    "arm": "memory_random",
+    "id": "qeb5bfb523b",
+    "source": "But that part of me had been cut out along with the bad wiring. I was still working up the algorithms to get it back, still learning by observation. Pack animals always tear apart the weaklings in their midst. Every child knows that much instinctively. Maybe I should just let that process unfold, maybe I shouldn't try to mess with nature. Then again, Pag's parents hadn't messed with nature, and look what it got them: a son curled up in the dirt while a bunch of engineered superboys kicked in his ribs.",
+    "draft": "Но эту часть меня вырезали вместе с неисправными цепями. Я всё ещё разрабатывал алгоритмы, чтобы вернуть её, всё ещё учился наблюдением. Стайные животные всегда рвут на части слабаков в своих рядах. Любой ребёнок знает это инстинктивно. Может, стоило просто дать событиям идти своим чередом, может, не стоило вмешиваться в природу. С другой стороны, родители Пэга не вмешивались в природу, и вот к чему это привело: их сын лежал, свернувшись в грязи, а кучка генетически сконструированных сверхмальчиков ударами ног вминала ему рёбра.",
+    "result": "Но эту часть меня вырезали вместе с неисправными цепями. Я всё ещё разрабатывал алгоритмы, чтобы вернуть её, всё ещё учился, наблюдая. Стайные животные всегда рвут на части слабаков в своих рядах. Любой ребёнок знает это инстинктивно. Может, стоило просто дать событиям идти своим чередом, может, не стоило вмешиваться в природу. С другой стороны, родители Пэга не вмешивались в природу, и вот к чему это привело: их сын лежал, свернувшись в грязи, а кучка генетически сконструированных сверхмальчиков ударами ног ломала ему рёбра.",
+    "source_sha256": "93e6cc42c386c8741fe12db35db57524bdeb55cbf5283050c227bf691fea4872",
+    "draft_sha256": "0494ee613f2145f5908953917e85ffef1f1cd322d814c1c50b0d06cca7f82c1c",
+    "result_sha256": "456b708291d699af64a722a8c37e6a78a186abdcfb7ae399cd2ba1d1e005c7da",
+    "actual_diff": [
+      {
+        "kind": "insert",
+        "before_start": 123,
+        "before_end": 123,
+        "after_start": 123,
+        "after_end": 124,
+        "before": "",
+        "after": ","
+      },
+      {
+        "kind": "replace",
+        "before_start": 130,
+        "before_end": 135,
+        "after_start": 131,
+        "after_end": 133,
+        "before": "ением",
+        "after": "ая"
+      },
+      {
+        "kind": "replace",
+        "before_start": 516,
+        "before_end": 517,
+        "after_start": 514,
+        "after_end": 516,
+        "before": "в",
+        "after": "ло"
+      },
+      {
+        "kind": "delete",
+        "before_start": 518,
+        "before_end": 520,
+        "after_start": 517,
+        "after_end": 517,
+        "before": "ин",
+        "after": ""
+      }
+    ],
+    "model_reported_changes": [
+      {
+        "source_quote": "still learning by observation",
+        "draft_quote": "всё ещё учился наблюдением",
+        "reason": "«Учился, наблюдая» устраняет неестественное управление."
+      },
+      {
+        "source_quote": "kicked in his ribs",
+        "draft_quote": "ударами ног вминала ему рёбра",
+        "reason": "«Ломала ему рёбра» естественнее передаёт разрушительную силу ударов."
+      }
+    ]
+  },
+  {
+    "arm": "memory_random",
+    "id": "qdbaaab067c",
+    "source": "The terrorist's nest had only been recently abandoned, judging by the warm coffee in the go-thermos from the food-court coffee-shop. He -- or she, or they -- had rigged a shower from the pipes feeding the basement washrooms. A little chest of drawers from the Swedish flat-pack store served as a desk -- there were scratches and coffee-rings all over it. Arturo wondered if the terrorist had stolen the furniture, but decided that he'd (she'd, they'd) probably bought it -- less risky, especially if you were invisible to robots.",
+    "draft": "Судя по тёплому кофе в походном термосе из кофейни на фуд-корте, логово террориста опустело совсем недавно. Он — или она, или они — соорудил душ из труб, подававших воду в подвальные туалеты. Маленький комод из шведского магазина сборной мебели служил письменным столом — весь в царапинах и кофейных кольцах. Артуро задумался, не украл ли террорист эту мебель, но решил, что тот, скорее всего, её купил — или купила, или купили: так безопаснее, особенно если роботы тебя не видят.",
+    "result": "Судя по тёплому кофе в термокружке из кофейни на фуд-корте, логово террориста опустело совсем недавно. Он — или она, или они — соорудил душ, подключив его к трубам, подававшим воду в подвальные туалеты. Маленький комод из шведского магазина сборной мебели служил письменным столом — весь в царапинах и кольцевых следах от кофе. Артуро задумался, не украл ли террорист эту мебель, но решил, что тот, скорее всего, её купил — или купила, или купили: так безопаснее, особенно если роботы тебя не видят.",
+    "source_sha256": "ebc6ec50eaa2a895564472d9d74bd3d360c372df68bc3764c01bf3d9ccdf6600",
+    "draft_sha256": "3121230b556447085930405a8a946d89d5c499ee1a22bbb376e99d2e7fc5b4e1",
+    "result_sha256": "c3f0081bc3d2778ca7bddcd9feb848c3b2fc4a2b98e13dbc6570a45c0ae7353b",
+    "actual_diff": [
+      {
+        "kind": "delete",
+        "before_start": 23,
+        "before_end": 32,
+        "after_start": 23,
+        "after_end": 23,
+        "before": "походном ",
+        "after": ""
+      },
+      {
+        "kind": "replace",
+        "before_start": 37,
+        "before_end": 38,
+        "after_start": 28,
+        "after_end": 33,
+        "before": "с",
+        "after": "кружк"
+      },
+      {
+        "kind": "insert",
+        "before_start": 144,
+        "before_end": 144,
+        "after_start": 139,
+        "after_end": 140,
+        "before": "",
+        "after": ","
+      },
+      {
+        "kind": "insert",
+        "before_start": 145,
+        "before_end": 145,
+        "after_start": 141,
+        "after_end": 148,
+        "before": "",
+        "after": "подключ"
+      },
+      {
+        "kind": "replace",
+        "before_start": 146,
+        "before_end": 147,
+        "after_start": 149,
+        "after_end": 156,
+        "before": "з",
+        "after": "в его к"
+      },
+      {
+        "kind": "insert",
+        "before_start": 152,
+        "before_end": 152,
+        "after_start": 161,
+        "after_end": 163,
+        "before": "",
+        "after": "ам"
+      },
+      {
+        "kind": "replace",
+        "before_start": 163,
+        "before_end": 164,
+        "after_start": 174,
+        "after_end": 175,
+        "before": "х",
+        "after": "м"
+      },
+      {
+        "kind": "replace",
+        "before_start": 293,
+        "before_end": 294,
+        "after_start": 304,
+        "after_end": 307,
+        "before": "ф",
+        "after": "льц"
+      },
+      {
+        "kind": "replace",
+        "before_start": 295,
+        "before_end": 297,
+        "after_start": 308,
+        "after_end": 309,
+        "before": "йн",
+        "after": "в"
+      },
+      {
+        "kind": "insert",
+        "before_start": 300,
+        "before_end": 300,
+        "after_start": 312,
+        "after_end": 322,
+        "before": "",
+        "after": "следах от "
+      },
+      {
+        "kind": "replace",
+        "before_start": 302,
+        "before_end": 307,
+        "after_start": 324,
+        "after_end": 326,
+        "before": "льцах",
+        "after": "фе"
+      }
+    ],
+    "model_reported_changes": [
+      {
+        "source_quote": "go-thermos",
+        "draft_quote": "походном термосе",
+        "reason": "Термокружка соответствует кофе навынос; походное назначение не указано."
+      },
+      {
+        "source_quote": "had rigged a shower from the pipes feeding the basement washrooms",
+        "draft_quote": "соорудил душ из труб, подававших воду в подвальные туалеты",
+        "reason": "Уточнено подключение душа к существующему водоснабжению."
+      },
+      {
+        "source_quote": "coffee-rings",
+        "draft_quote": "кофейных кольцах",
+        "reason": "«Кольцевые следы от кофе» ясно обозначает пятна на мебели."
+      }
+    ]
+  },
+  {
+    "arm": "memory_random",
+    "id": "q3cb5976585",
+    "source": "A third, turning to face the new threat, took a blow to the face that audibly crunched the bones of his cheek. I remember wondering why I didn't take any satisfaction from that sound, why it meant nothing beyond the fact I had one less opponent to worry about.",
+    "draft": "Третий, обернувшись к новой угрозе, получил удар в лицо — кости щеки отчётливо хрустнули. Помню, я удивился: почему этот звук не доставил мне никакого удовлетворения, почему не означал ничего, кроме того, что теперь мне придётся иметь дело на одного противника меньше.",
+    "result": "Третий, обернувшись к новой угрозе, получил удар в лицо — скула отчётливо хрустнула. Помню, я удивился: почему этот звук не доставил мне никакого удовлетворения, почему не означал ничего, кроме того, что противников, о которых мне приходилось беспокоиться, стало на одного меньше.",
+    "source_sha256": "0a470a7b4dcd1825a8fbaabcda1748c5a322cbceb50ffedcb680e7ce60db6ac2",
+    "draft_sha256": "5c25536bd094d71248fdf49151b7edb5182a33391bfb07fbbaf43a8c7806d2d2",
+    "result_sha256": "ce8a81ea670621a6a9b5d6f49c91fa79c989749ee55abfc031db29ecc57389fc",
+    "actual_diff": [
+      {
+        "kind": "insert",
+        "before_start": 58,
+        "before_end": 58,
+        "after_start": 58,
+        "after_end": 59,
+        "before": "",
+        "after": "с"
+      },
+      {
+        "kind": "replace",
+        "before_start": 59,
+        "before_end": 68,
+        "after_start": 60,
+        "after_end": 63,
+        "before": "ости щеки",
+        "after": "ула"
+      },
+      {
+        "kind": "replace",
+        "before_start": 87,
+        "before_end": 88,
+        "after_start": 82,
+        "after_end": 83,
+        "before": "и",
+        "after": "а"
+      },
+      {
+        "kind": "insert",
+        "before_start": 209,
+        "before_end": 209,
+        "after_start": 204,
+        "after_end": 207,
+        "before": "",
+        "after": "про"
+      },
+      {
+        "kind": "replace",
+        "before_start": 210,
+        "before_end": 213,
+        "after_start": 208,
+        "after_end": 223,
+        "before": "епе",
+        "after": "ивников, о кото"
+      },
+      {
+        "kind": "replace",
+        "before_start": 214,
+        "before_end": 215,
+        "after_start": 224,
+        "after_end": 226,
+        "before": "ь",
+        "after": "ых"
+      },
+      {
+        "kind": "insert",
+        "before_start": 223,
+        "before_end": 223,
+        "after_start": 234,
+        "after_end": 236,
+        "before": "",
+        "after": "хо"
+      },
+      {
+        "kind": "replace",
+        "before_start": 224,
+        "before_end": 225,
+        "after_start": 237,
+        "after_end": 251,
+        "before": "ё",
+        "after": "илось беспокои"
+      },
+      {
+        "kind": "insert",
+        "before_start": 226,
+        "before_end": 226,
+        "after_start": 252,
+        "after_end": 253,
+        "before": "",
+        "after": "ь"
+      },
+      {
+        "kind": "insert",
+        "before_start": 228,
+        "before_end": 228,
+        "after_start": 255,
+        "after_end": 256,
+        "before": "",
+        "after": ","
+      },
+      {
+        "kind": "replace",
+        "before_start": 229,
+        "before_end": 232,
+        "after_start": 257,
+        "after_end": 258,
+        "before": "име",
+        "after": "с"
+      },
+      {
+        "kind": "replace",
+        "before_start": 233,
+        "before_end": 237,
+        "after_start": 259,
+        "after_end": 260,
+        "before": "ь де",
+        "after": "а"
+      },
+      {
+        "kind": "delete",
+        "before_start": 250,
+        "before_end": 261,
+        "after_start": 273,
+        "after_end": 273,
+        "before": "противника ",
+        "after": ""
+      }
+    ],
+    "model_reported_changes": [
+      {
+        "source_quote": "audibly crunched the bones of his cheek",
+        "draft_quote": "кости щеки отчётливо хрустнули",
+        "reason": "«Скула» естественно обозначает повреждённую кость лица."
+      },
+      {
+        "source_quote": "I had one less opponent to worry about",
+        "draft_quote": "теперь мне придётся иметь дело на одного противника меньше",
+        "reason": "Исправлено управление и восстановлен смысл беспокойства о противниках."
+      }
+    ]
+  },
+  {
+    "arm": "memory_random",
+    "id": "q0ee1c0cd42",
+    "source": "He slithered into the skull before he had a chance to think too hard about what he was doing. He'd brought too much of himself along and didn't have much headroom to think or add new conclusions. He jettisoned as much of his consciousness as he could without major refactoring and cleared enough space for thinking room. How did people get by in one of these? He moved the arms and legs. Waggled the head. Blew some air -- air! lungs! wet squishy things down there in the chest cavity -- out between the lips.",
+    "draft": "Он скользнул в череп, прежде чем успел как следует задуматься над тем, что делает. Он захватил с собой слишком много себя, и свободного места почти не оставалось — ни для размышлений, ни для новых выводов. Он сбросил столько своего сознания, сколько смог без серьёзной переделки кода, и расчистил достаточно места для мыслей. Как люди вообще обходились одной такой штукой? Он подвигал руками и ногами. Помотал головой. Выдул немного воздуха — воздуха! лёгкие! мокрые мягкие штуки там, в грудной полости, — сквозь губы.",
+    "result": "Он скользнул в череп, прежде чем успел как следует задуматься над тем, что делает. Он захватил с собой слишком много себя, и свободного места почти не оставалось — ни для размышлений, ни для новых выводов. Он сбросил столько своего сознания, сколько смог без серьёзной переделки кода, и расчистил достаточно места для мыслей. Как люди вообще обходились в такой штуке? Он подвигал руками и ногами. Помотал головой. Выдул немного воздуха — воздуха! лёгкие! мокрые мягкие штуки там, в грудной полости, — сквозь губы.",
+    "source_sha256": "835123734320eb69deef0c9ed314851dbbeb67194f9b2626d3bc500b457ff12a",
+    "draft_sha256": "4f6fe3ec6e9f835ad2e6f873bbe3c31ce1a00426fb1870f406f20e214be39521",
+    "result_sha256": "a5b37ad27cabac3af91c5c246707c6c93823f67c1ab15b4d77b1e4a5787b590e",
+    "actual_diff": [
+      {
+        "kind": "replace",
+        "before_start": 353,
+        "before_end": 358,
+        "after_start": 353,
+        "after_end": 354,
+        "before": "одной",
+        "after": "в"
+      },
+      {
+        "kind": "replace",
+        "before_start": 369,
+        "before_end": 371,
+        "after_start": 365,
+        "after_end": 366,
+        "before": "ой",
+        "after": "е"
+      }
+    ],
+    "model_reported_changes": [
+      {
+        "source_quote": "How did people get by in one of these?",
+        "draft_quote": "Как люди вообще обходились одной такой штукой?",
+        "reason": "Вопрос касается существования внутри тесного вместилища, а не пользования одним предметом."
+      }
+    ]
+  },
+  {
+    "arm": "memory_random",
+    "id": "q269307d5a9",
+    "source": "That didn't make sense. Even if he hadn't been my best friend, I should at least have empathized. I'd suffered less than Pag in the way of overt violence; my seizures tended to keep the other kids at a distance, scared them even as they incapacitated me. Still. I was no stranger to the taunts and insults, or the foot that appears from nowhere to trip you up en route from A to B. I knew how that felt.",
+    "draft": "Это было непонятно. Даже если бы он не был моим лучшим другом, я должен был хотя бы ему сочувствовать. От прямого насилия я страдал меньше Пэга: мои припадки обычно держали других детей на расстоянии, пугали их, даже когда лишали меня способности двигаться. И всё же. Мне были знакомы и насмешки, и оскорбления, и нога, возникающая из ниоткуда, чтобы подставить тебе подножку на пути из точки А в точку Б. Я знал, каково это.",
+    "result": "Это было непонятно. Даже если бы он не был моим лучшим другом, я должен был хотя бы ему сочувствовать. От прямого насилия я страдал меньше Пэга: мои припадки обычно держали других детей на расстоянии, пугали их, даже когда лишали меня способности двигаться. И всё же. Мне были знакомы и насмешки, и оскорбления, и нога, возникающая из ниоткуда, чтобы ты споткнулся на пути из точки А в точку Б. Я знал, каково это.",
+    "source_sha256": "c9666b2484d19ce24d40694cb898f964ea7cb8e118c1c401e2e958fcf3e6e7e8",
+    "draft_sha256": "a529eae54eb6b9039c8273f255c071ac93c51a7c807e73328be84b712bf4d118",
+    "result_sha256": "8c4999cf361d20a5f4b6ea54200296125f46962df02066c958711e6f49df9ae3",
+    "actual_diff": [
+      {
+        "kind": "insert",
+        "before_start": 351,
+        "before_end": 351,
+        "after_start": 351,
+        "after_end": 355,
+        "before": "",
+        "after": "ты с"
+      },
+      {
+        "kind": "replace",
+        "before_start": 353,
+        "before_end": 354,
+        "after_start": 357,
+        "after_end": 362,
+        "before": "д",
+        "after": "ткнул"
+      },
+      {
+        "kind": "replace",
+        "before_start": 355,
+        "before_end": 375,
+        "after_start": 363,
+        "after_end": 364,
+        "before": "тавить тебе подножку",
+        "after": "я"
+      }
+    ],
+    "model_reported_changes": [
+      {
+        "source_quote": "to trip you up",
+        "draft_quote": "чтобы подставить тебе подножку",
+        "reason": "Устранена конструкция, в которой нога сама подставляет подножку."
+      }
+    ]
+  },
+  {
+    "arm": "memory_random",
+    "id": "q28167c0ed9",
+    "source": "But it gave Arturo the willies. It was a machine designed to kill other machines, and that was all right with him, but it was run by a non-three-laws positronic brain. Someone in some Eurasian lab had built this brain -- this machine intelligence -- without the three laws' stricture to protect and serve humans. If it had been outfitted with a gun instead of a pulse-weapon, it could have shot him.",
+    "draft": "Но Артуро от этой штуки становилось не по себе. Это была машина для уничтожения других машин, и против этого он ничего не имел, но управлял ею позитронный мозг без трёх законов. Кто-то в какой-то евразийской лаборатории создал этот мозг — этот машинный разум — без предписанного тремя законами обязательства защищать людей и служить им. Если бы его оснастили огнестрельным оружием вместо импульсного, он мог бы застрелить Артуро.",
+    "result": "Но Артуро от этой штуки становилось не по себе. Это была машина для уничтожения других машин, и против этого он ничего не имел, но управлял ею позитронный мозг без трёх законов. Кто-то в какой-то евразийской лаборатории создал этот мозг — этот машинный разум — без предписанного тремя законами обязательства защищать людей и служить им. Если бы эту машину оснастили огнестрельным оружием вместо импульсного, она могла бы застрелить Артуро.",
+    "source_sha256": "17acae7b8b20c3cb85cfa2943e358a8bf11f0a05d152e3308487cbb0a9c9dff6",
+    "draft_sha256": "0804ec5b005c8f411f0f5a4bdc619bf4b5710fc88c5d0e94ac5cdd01ba723c48",
+    "result_sha256": "f68dc786c1499d961e559c4d10ce566f8565d85c864a1572d9db96743f6af527",
+    "actual_diff": [
+      {
+        "kind": "replace",
+        "before_start": 345,
+        "before_end": 348,
+        "after_start": 345,
+        "after_end": 355,
+        "before": "его",
+        "after": "эту машину"
+      },
+      {
+        "kind": "insert",
+        "before_start": 403,
+        "before_end": 403,
+        "after_start": 410,
+        "after_end": 411,
+        "before": "",
+        "after": "а"
+      },
+      {
+        "kind": "insert",
+        "before_start": 407,
+        "before_end": 407,
+        "after_start": 415,
+        "after_end": 417,
+        "before": "",
+        "after": "ла"
+      }
+    ],
+    "model_reported_changes": [
+      {
+        "source_quote": "If it had been outfitted with a gun instead of a pulse-weapon, it could have shot him.",
+        "draft_quote": "Если бы его оснастили огнестрельным оружием вместо импульсного, он мог бы застрелить Артуро.",
+        "reason": "Оружием оснащают машину; устранена ошибочная отсылка к мозгу."
+      }
+    ]
+  },
+  {
+    "arm": "memory_random",
+    "id": "qe1201d759d",
+    "source": "Arturo seethed. He hadn't arrested the kid -- but he had put a pen-trace and location-log on his phone. Arresting the kid would have raised questions about Ada with Social Harmony, but bugging him might just lead Arturo to his daughter.",
+    "draft": "Артуро кипел от злости. Он не арестовал парня — зато подключил к его телефону регистрацию вызовов и местоположения. Арест вызвал бы у Службы общественной гармонии вопросы об Аде, а слежка за парнем могла привести Артуро к дочери.",
+    "result": "Артуро кипел от злости. Он не арестовал парня — зато включил отслеживание вызовов и местоположения его телефона. Арест вызвал бы у Службы общественной гармонии вопросы об Аде, а слежка за парнем могла привести Артуро к дочери.",
+    "source_sha256": "4c6327d5c81bf9a350fcfbdb7e104f5fe025d62676e6590c9c687a2bae9dc890",
+    "draft_sha256": "ee9befc1fcae0e9edb25b5e418a3c9369c0447efed94c98edcef9186da1a9663",
+    "result_sha256": "adb7f2487709b8a1b25b9a1dd507e1f14e84543bc2a1f2ee7acd8a01615785a0",
+    "actual_diff": [
+      {
+        "kind": "replace",
+        "before_start": 53,
+        "before_end": 56,
+        "after_start": 53,
+        "after_end": 54,
+        "before": "под",
+        "after": "в"
+      },
+      {
+        "kind": "delete",
+        "before_start": 63,
+        "before_end": 67,
+        "after_start": 61,
+        "after_end": 61,
+        "before": "к ег",
+        "after": ""
+      },
+      {
+        "kind": "delete",
+        "before_start": 68,
+        "before_end": 69,
+        "after_start": 62,
+        "after_end": 62,
+        "before": " ",
+        "after": ""
+      },
+      {
+        "kind": "replace",
+        "before_start": 70,
+        "before_end": 71,
+        "after_start": 63,
+        "after_end": 64,
+        "before": "е",
+        "after": "с"
+      },
+      {
+        "kind": "replace",
+        "before_start": 73,
+        "before_end": 75,
+        "after_start": 66,
+        "after_end": 70,
+        "before": "фо",
+        "after": "жива"
+      },
+      {
+        "kind": "replace",
+        "before_start": 76,
+        "before_end": 79,
+        "after_start": 71,
+        "after_end": 72,
+        "before": "у р",
+        "after": "и"
+      },
+      {
+        "kind": "delete",
+        "before_start": 80,
+        "before_end": 89,
+        "after_start": 73,
+        "after_end": 73,
+        "before": "гистрацию",
+        "after": ""
+      },
+      {
+        "kind": "insert",
+        "before_start": 114,
+        "before_end": 114,
+        "after_start": 98,
+        "after_end": 111,
+        "before": "",
+        "after": " его телефона"
+      }
+    ],
+    "model_reported_changes": [
+      {
+        "source_quote": "he had put a pen-trace and location-log on his phone",
+        "draft_quote": "подключил к его телефону регистрацию вызовов и местоположения",
+        "reason": "«Включил отслеживание» естественнее описывает установленную слежку."
+      }
+    ]
+  },
+  {
+    "arm": "memory_random",
+    "id": "qa6ff60816c",
+    "source": "The man -- Robbie called him Isaac, of course -- caught the edge of the boat and kicked hard, hauling himself into the boat with his strong brown arms. Robbie was already rowing for Janet, who was swimming hard for him. She caught his oar -- she wasn't supposed to do that -- and began to climb along its length, lifting her body out of the water. Robbie saw that her eyes were wild, her breathing ragged.",
+    "draft": "Мужчина — Робби, конечно же, звал его Айзеком — ухватился за борт и, сильно оттолкнувшись ногами, втащил себя в лодку на крепких смуглых руках. Робби уже грёб к Джанет, которая изо всех сил плыла ему навстречу. Она схватилась за его весло — этого ей делать не полагалось — и начала перебираться вдоль него, вытягивая тело из воды. Робби увидел её обезумевший взгляд, услышал прерывистое дыхание.",
+    "result": "Мужчина — Робби, конечно же, звал его Айзеком — ухватился за борт и, сильно забив ногами по воде, втащил себя в лодку на крепких смуглых руках. Робби уже грёб к Джанет, которая изо всех сил плыла ему навстречу. Она схватилась за его весло — этого ей делать не полагалось — и начала перебираться вдоль него, вытягивая тело из воды. Робби увидел её обезумевший взгляд, услышал прерывистое дыхание.",
+    "source_sha256": "1b743a9da8d70ce9f36cb16b1039c04f89bb4c06e708a5084c720b9714d635f9",
+    "draft_sha256": "2917cbee6f6462e68eb7261eaadb8af648913ab311192c66f3c65cfab1ef788c",
+    "result_sha256": "64dd837caa22b24efb081c99700db2e999c16edea6686111106e6d1382d98024",
+    "actual_diff": [
+      {
+        "kind": "replace",
+        "before_start": 76,
+        "before_end": 84,
+        "after_start": 76,
+        "after_end": 80,
+        "before": "оттолкну",
+        "after": "заби"
+      },
+      {
+        "kind": "delete",
+        "before_start": 85,
+        "before_end": 89,
+        "after_start": 81,
+        "after_end": 81,
+        "before": "шись",
+        "after": ""
+      },
+      {
+        "kind": "insert",
+        "before_start": 96,
+        "before_end": 96,
+        "after_start": 88,
+        "after_end": 96,
+        "before": "",
+        "after": " по воде"
+      }
+    ],
+    "model_reported_changes": [
+      {
+        "source_quote": "kicked hard",
+        "draft_quote": "сильно оттолкнувшись ногами",
+        "reason": "Пловец работает ногами в воде; твёрдая опора в сцене не указана."
+      }
+    ]
+  },
+  {
+    "arm": "memory_random",
+    "id": "q8221a17b47",
+    "source": "But you could make a case for what he said. I do remember Helen telling me (and telling me) how difficult it was to adjust. Like you had a whole new personality, she said, and why not? There's a reason they call it radical hemispherectomy: half the brain thrown out with yesterday's krill, the remaining half press-ganged into double duty. Think of all the rewiring that one lonely hemisphere must have struggled with as it tried to take up the slack. It turned out okay, obviously. The brain's a very flexible piece of meat; it took some doing, but it adapted. I adapted. Still. Think of all that must have been squeezed out, deformed, reshaped by the time the renovations were through. You could argue that I'm a different person than the one who used to occupy this body.",
+    "draft": "Но в пользу его слов можно было привести доводы. Я ведь помню, как Хелен говорила мне — снова и снова, — до чего трудно было привыкнуть. Будто у тебя совершенно другая личность, говорила она, и почему бы нет? Не зря это называется радикальной гемисферэктомией: половину мозга выбрасывают вместе со вчерашним крилем, оставшуюся насильно припрягают работать за двоих. Подумайте, сколько соединений пришлось с трудом перестроить этому одинокому полушарию, пытаясь восполнить потерю. В итоге всё, очевидно, обошлось. Мозг — очень гибкий кусок мяса; не сразу, но он приспособился. Я приспособился. И всё же. Подумайте, сколько всего к концу перестройки было, должно быть, вытеснено, исковеркано, перекроено. Можно утверждать, что я уже не тот человек, который прежде занимал это тело.",
+    "result": "Но в пользу его слов можно было привести доводы. Я ведь помню, как Хелен говорила мне (снова и снова), до чего трудно было привыкнуть. Будто у тебя совершенно другая личность, говорила она, и почему бы нет? Не зря это называется радикальной гемисферэктомией: половину мозга выбрасывают вместе со вчерашним крилем, оставшуюся насильно припрягают работать за двоих. Подумайте, сколько соединений пришлось с трудом перестроить этому одинокому полушарию, пытаясь восполнить потерю. В итоге всё, очевидно, обошлось. Мозг — очень гибкий кусок мяса; не сразу, но он приспособился. Я приспособился. И всё же. Подумайте, сколько всего к концу перестройки было, должно быть, вытеснено, исковеркано, перекроено. Можно утверждать, что я уже не тот человек, который прежде занимал это тело.",
+    "source_sha256": "82561277da05c6b23b16ce1ad601097f5ff0978072cdfce64d887fd4d1c2d421",
+    "draft_sha256": "da78f0c7e58e35b36678eca0da303d2eb409f1f22ecfac9be2930d44edb73583",
+    "result_sha256": "1478ff7519ddd0dd1b72b69fa8de705c5662440024294ec3474a2ff86cf7934c",
+    "actual_diff": [
+      {
+        "kind": "replace",
+        "before_start": 86,
+        "before_end": 88,
+        "after_start": 86,
+        "after_end": 87,
+        "before": "— ",
+        "after": "("
+      },
+      {
+        "kind": "insert",
+        "before_start": 101,
+        "before_end": 101,
+        "after_start": 100,
+        "after_end": 101,
+        "before": "",
+        "after": ")"
+      },
+      {
+        "kind": "delete",
+        "before_start": 102,
+        "before_end": 104,
+        "after_start": 102,
+        "after_end": 102,
+        "before": " —",
+        "after": ""
+      }
+    ],
+    "model_reported_changes": [
+      {
+        "source_quote": "I do remember Helen telling me (and telling me) how difficult it was to adjust.",
+        "draft_quote": "Я ведь помню, как Хелен говорила мне — снова и снова, — до чего трудно было привыкнуть.",
+        "reason": "Исправлено оформление вставки и сохранено подчёркнутое повторение."
+      }
+    ]
+  },
+  {
+    "arm": "memory_random",
+    "id": "qff3beb7bf1",
+    "source": "The Texan shrugged. \"Coulda been a month, coulda been a day. They're pretty much fire-and-forget. They can be triggered by phone, radio, timer -- hell, this thing's smart enough to only go off when some complicated condition is set, like 'once an agent makes his retreat, kill anything that comes after him'. Who knows?\"",
+    "draft": "Техасец пожал плечами.\n— Может, месяц назад, может, день. Они в основном по принципу «запустил и забыл» работают. Срабатывают по телефону, по радио, по таймеру — да чёрт, у этой штуки ума хватит сработать только при каком-нибудь сложном условии, вроде: «когда агент отступит, убей всех, кто за ним пойдёт». Кто ж знает?",
+    "result": "Техасец пожал плечами.\n— Может, месяц назад, может, день. Они в основном по принципу «запустил и забыл» работают. Срабатывают по телефону, по радио, по таймеру — да чёрт, у этой штуки ума хватит сработать только при каком-нибудь сложном условии, вроде: «когда агент отступит, уничтожь всё, что за ним пойдёт». Кто ж знает?",
+    "source_sha256": "bd5170a93c5f87462f37384b6b9a3768e4ba963f75d8196933ea215ef2768116",
+    "draft_sha256": "2c1aceb67298568b13b4138d2065a1b5c89d264960df01d27f856d23e41b6b05",
+    "result_sha256": "8e95f0d03ddfe0cbc8a2ccf13d0decbb7a9c5dc0f81bbd14e068fe6975858ad7",
+    "actual_diff": [
+      {
+        "kind": "replace",
+        "before_start": 277,
+        "before_end": 280,
+        "after_start": 277,
+        "after_end": 284,
+        "before": "бей",
+        "after": "ничтожь"
+      },
+      {
+        "kind": "replace",
+        "before_start": 283,
+        "before_end": 285,
+        "after_start": 287,
+        "after_end": 288,
+        "before": "ех",
+        "after": "ё"
+      },
+      {
+        "kind": "replace",
+        "before_start": 287,
+        "before_end": 288,
+        "after_start": 290,
+        "after_end": 291,
+        "before": "к",
+        "after": "ч"
+      }
+    ],
+    "model_reported_changes": [
+      {
+        "source_quote": "kill anything that comes after him",
+        "draft_quote": "убей всех, кто за ним пойдёт",
+        "reason": "«Уничтожь всё» сохраняет возможность поражения машин, существенную для сцены."
+      }
+    ]
+  },
+  {
+    "arm": "memory_random",
+    "id": "q49808d15b8",
+    "source": "\"And that's when I left. Without a word, I left my beautiful baby daughter and my wonderful husband, because I knew that once I was in the clutches of Social Harmony, it would only get worse, and I knew that if I stayed and refused, that they'd hurt you to get at me. I defected, and that's why, and I know it's just a reason, and not an excuse, but it's all I've got, Artie.\"",
+    "draft": "— Тогда я и ушла. Без единого слова бросила свою прекрасную маленькую дочку и замечательного мужа, потому что знала: попав в лапы Службы общественной гармонии, я могу ждать только худшего, и знала, что, если останусь и откажусь, они причинят вам боль, чтобы добраться до меня. Я перебежала на другую сторону — вот почему, и я знаю, что это лишь причина, а не оправдание, но больше у меня ничего нет, Арти.",
+    "result": "— Тогда я и ушла. Без единого слова бросила свою прекрасную маленькую дочку и замечательного мужа, потому что знала: попав в лапы Службы общественной гармонии, я могу ждать только худшего, и знала, что, если останусь и откажусь, они причинят вам боль, чтобы добраться до меня. Вот почему я перебежала на другую сторону, и я знаю, что это лишь причина, а не оправдание, но больше у меня ничего нет, Арти.",
+    "source_sha256": "f3da238cb3bfd74a2abb6b60441f504418c2014256711a6da3a73c2bf90d28ca",
+    "draft_sha256": "584209479ffe75ff0012e3aeba1f7e34aa9bde5e3c9cd35f6fe74c75511b425f",
+    "result_sha256": "2005d7d858da4cb4690d6a3d366b486ba1362696db9e01d8ab21ac99424ae271",
+    "actual_diff": [
+      {
+        "kind": "replace",
+        "before_start": 277,
+        "before_end": 278,
+        "after_start": 277,
+        "after_end": 289,
+        "before": "Я",
+        "after": "Вот почему я"
+      },
+      {
+        "kind": "delete",
+        "before_start": 306,
+        "before_end": 319,
+        "after_start": 317,
+        "after_end": 317,
+        "before": "у — вот почем",
+        "after": ""
+      }
+    ],
+    "model_reported_changes": [
+      {
+        "source_quote": "I defected, and that's why",
+        "draft_quote": "Я перебежала на другую сторону — вот почему",
+        "reason": "Восстановлена причинная связь: предыдущее объясняет её бегство."
+      }
+    ]
+  },
+  {
+    "arm": "memory_random",
+    "id": "q52c8bbe1ec",
+    "source": "I hadn't seen much of Pag lately. I was pretty sure he'd been avoiding me. Still, when your best friend's in trouble you help out, right? Even if the odds are impossible—and how many eight-year-olds would go up against six bigger kids for a sandbox buddy?—at least you call for backup. Flag a sentry. Something.",
+    "draft": "В последнее время я редко видел Пэга. Я был почти уверен, что он меня избегает. И всё же, когда твой лучший друг попадает в беду, ты ведь приходишь на помощь? Даже если шансов никаких — а многие ли восьмилетки пойдут против шестерых ребят постарше ради приятеля по песочнице? — хотя бы зовёшь подмогу. Подаёшь знак часовому. Что-нибудь.",
+    "result": "В последнее время я редко видел Пэга. Я был почти уверен, что он меня избегает. И всё же, когда твой лучший друг попадает в беду, ты ведь приходишь на помощь? Даже если шансов никаких — а многие ли восьмилетки пойдут против шестерых ребят покрупнее ради приятеля по песочнице? — хотя бы зовёшь подмогу. Подаёшь знак часовому. Что-нибудь.",
+    "source_sha256": "a91358f527b4f0c91a26c95da40c0e611910e3136176a856da2339fabdd85c5a",
+    "draft_sha256": "6b77b68001b3bcde5d116f978aec05436ad5973285386df4f2da7cfdb1538c45",
+    "result_sha256": "afbda2dcbd671f281b9007b1c8222967b31f7adb64fe4e0fcdf7613207275b64",
+    "actual_diff": [
+      {
+        "kind": "replace",
+        "before_start": 241,
+        "before_end": 244,
+        "after_start": 241,
+        "after_end": 242,
+        "before": "ста",
+        "after": "к"
+      },
+      {
+        "kind": "replace",
+        "before_start": 245,
+        "before_end": 246,
+        "after_start": 243,
+        "after_end": 247,
+        "before": "ш",
+        "after": "упне"
+      }
+    ],
+    "model_reported_changes": [
+      {
+        "source_quote": "six bigger kids",
+        "draft_quote": "шестерых ребят постарше",
+        "reason": "Оригинал указывает на превосходство в размерах, а не в возрасте."
+      }
+    ]
+  },
+  {
+    "arm": "memory_random",
+    "id": "q81934bc463",
+    "source": "\"Back in the net's prehistory it was mostly universities online, and every September a new cohort of students would come online and  make all those noob mistakes. Then this commercial service full of noobs called AOL interconnected with the net and all its users came online at once, faster than the net could absorb them, and they called it Perpetual September.\"",
+    "draft": "— В доисторические времена сети к ней были подключены в основном университеты, и каждый сентябрь в сеть приходил новый поток студентов и делал все эти ошибки новичков. Потом к сети подключился коммерческий сервис AOL, полный новичков, и все его пользователи хлынули в сеть разом, быстрее, чем она успевала их освоить. Это назвали Вечным сентябрём.",
+    "result": "— В доисторические времена сети к ней были подключены в основном университеты, и каждый сентябрь в сеть приходил новый поток студентов и делал все эти ошибки новичков. Потом к сети подключился коммерческий сервис AOL, полный новичков, и все его пользователи хлынули в сеть разом, быстрее, чем она успевала их переварить. Это назвали Вечным сентябрём.",
+    "source_sha256": "6ca4e19eab6a4a16594be3a93579d13a31c98659a1d3783ec3a08bf8f61df680",
+    "draft_sha256": "fa60841c3672668ce9c2de6b48045e5deca2e5abad8b9d9fe8d966a4cf7a1c29",
+    "result_sha256": "5f98371575d8c83c1012241cd3e53a13c3e5c2106c2077c46254d0e4de6e2522",
+    "actual_diff": [
+      {
+        "kind": "replace",
+        "before_start": 309,
+        "before_end": 311,
+        "after_start": 309,
+        "after_end": 313,
+        "before": "ос",
+        "after": "пере"
+      },
+      {
+        "kind": "replace",
+        "before_start": 312,
+        "before_end": 313,
+        "after_start": 314,
+        "after_end": 316,
+        "before": "о",
+        "after": "ар"
+      }
+    ],
+    "model_reported_changes": [
+      {
+        "source_quote": "faster than the net could absorb them",
+        "draft_quote": "быстрее, чем она успевала их освоить",
+        "reason": "«Переварить» естественно передаёт неспособность сообщества справиться с наплывом новичков."
+      }
+    ]
+  }
+]

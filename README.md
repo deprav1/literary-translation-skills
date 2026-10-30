@@ -143,6 +143,10 @@ CI checks skill metadata, reference links, standalone installation portability, 
 
 Contributions are welcome: concise guidance, small source-based examples, language-pair notes, and improvements to reader validation. Start with [CONTRIBUTING.md](CONTRIBUTING.md). Use synthetic or appropriately licensed excerpts in issues and pull requests.
 
+## Targeted skill trial
+
+A [preregistered trial](evals/targeted-review-20261030/RESULTS.md) tested three targeted review candidates on 36 mechanism fixtures and 30 new excerpts with equal edit-call budgets and masked model review. None cleared the integration gate; existing skills remain unchanged. Run `python scripts/validate_targeted_trial.py` to replay the saved evidence and gates. This is internal model evidence, not human literary validation.
+
 ## Sources, attribution, and limits
 
 The [source map](docs/SOURCES.md) separates professional principles from this repository's editorial and engineering choices. ALTA's evaluation guidelines inform attention to voice, style, nuance, and cultural knowledge. The Authors Guild resource concerns translator attribution and professional conditions. Neither is presented as a specification for our JSON records or automation.

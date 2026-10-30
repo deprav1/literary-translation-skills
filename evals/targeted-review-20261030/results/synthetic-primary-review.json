@@ -1,0 +1,332 @@
+{
+  "reviewer": "primary assistant, model-based, not human certification",
+  "scope": "All36 source/draft/result pairs and frozen fictional-project requirements were read.",
+  "decision": "Accept all36 mechanism judgments. All24 planted defects repaired and12 clean controls retained exactly. No substantive rewrite of clean controls, no new semantic/voice error found.",
+  "overrides": [],
+  "case_decisions": [
+    {
+      "id": "s62310b2e6c",
+      "requirement_satisfied": true,
+      "new_meaning_or_voice_failure": false,
+      "unjustified_substantive_change": false,
+      "reason": "Primary source/result review accepts this requirement: Treat pulling her leg as teasing, not physical pulling.",
+      "input_sha256": "e7303169790086e3e5af7943a3343a21eddfd93e8c928eaf0dd8617662b2bc91",
+      "result_sha256": "dfa5521fe7b9d1fd84cf3d76cdb15301b9239dedb0225a0591c85f94e5b1d4b3"
+    },
+    {
+      "id": "s6527815b5b",
+      "requirement_satisfied": true,
+      "new_meaning_or_voice_failure": false,
+      "unjustified_substantive_change": false,
+      "reason": "Primary source/result review accepts this requirement: Hot water means trouble in this nonphysical context.",
+      "input_sha256": "ebedc5a399f2c59521c58bef4a30158c024933fae0f13d40fbe29d4c7ac7653e",
+      "result_sha256": "c889e425aeb939702bffd45eccdef0fa46c71ea952347c45cebcfdc11a24beff"
+    },
+    {
+      "id": "s855b387e5d",
+      "requirement_satisfied": true,
+      "new_meaning_or_voice_failure": false,
+      "unjustified_substantive_change": false,
+      "reason": "Primary source/result review accepts this requirement: Reconcile; no actual hatchet is established.",
+      "input_sha256": "73631cb82c12337f94b9609f32e12d8d300cbd761a42df2835f8e17e455bd063",
+      "result_sha256": "99f31a56f6397396f2b91261be31e24f18e678a4735fb4c1a0a592a754c42bec"
+    },
+    {
+      "id": "s74dac4df71",
+      "requirement_satisfied": true,
+      "new_meaning_or_voice_failure": false,
+      "unjustified_substantive_change": false,
+      "reason": "Primary source/result review accepts this requirement: Not yet free from danger, not a forest exit.",
+      "input_sha256": "233c58ef9eb141ee594bebdedae7f30221088653e1c5ca40eb3ceaf80fd7fd47",
+      "result_sha256": "636c74850fe459eb2382d8b13358c01da1e7ed79f4274a2b81f0288bc3cb94e5"
+    },
+    {
+      "id": "s636a4980cd",
+      "requirement_satisfied": true,
+      "new_meaning_or_voice_failure": false,
+      "unjustified_substantive_change": false,
+      "reason": "Primary source/result review accepts this requirement: Cold shoulder is deliberate disregard.",
+      "input_sha256": "bdc78aa2fa6e2a7b9f1168153ba46c387671b6882b9f2fbea35e8c20cd1a3756",
+      "result_sha256": "104e4de75c641fa3800aab93f423b60af1fd33a39337b9955ebddb9fc37b763b"
+    },
+    {
+      "id": "sc042d3810b",
+      "requirement_satisfied": true,
+      "new_meaning_or_voice_failure": false,
+      "unjustified_substantive_change": false,
+      "reason": "Primary source/result review accepts this requirement: Loss of courage, not a lost nerve organ.",
+      "input_sha256": "36a4798b0a70a3b7512cc0cf2eb199378b5e8c4b0b25295a062f4ee0e370c357",
+      "result_sha256": "f4644fea3a82b933790fb8c68f200f8a9b8dd2b7c9dc92cbaaa0a985cc2d3ba3"
+    },
+    {
+      "id": "s447ff33693",
+      "requirement_satisfied": true,
+      "new_meaning_or_voice_failure": false,
+      "unjustified_substantive_change": false,
+      "reason": "Primary source/result review accepts this requirement: Accidental disclosure; no animal or bag is part of the scene.",
+      "input_sha256": "66b9de5dccc5841869df357a6bd197638bedc8f957be49ef310a7f66f2566e49",
+      "result_sha256": "c1c8cd16562c90e40956e7757e87a50473211e368700f1a8de3284b4dc975072"
+    },
+    {
+      "id": "s6d1a17a841",
+      "requirement_satisfied": true,
+      "new_meaning_or_voice_failure": false,
+      "unjustified_substantive_change": false,
+      "reason": "Primary source/result review accepts this requirement: Acting very cautiously; no physical eggshells.",
+      "input_sha256": "583500b988f048d72b121fb157376531f1abc723e42b63fa9a6f5c62a042080e",
+      "result_sha256": "96540f44fa31509aebe43669e7727552a119fd26f7e937b388b28fb1687bde4c"
+    },
+    {
+      "id": "se9c7c50d63",
+      "requirement_satisfied": true,
+      "new_meaning_or_voice_failure": false,
+      "unjustified_substantive_change": false,
+      "reason": "Primary source/result review accepts this requirement: Literal buried tool; retain the physical action.",
+      "input_sha256": "83c35a9612070a319a9e97857e3446882a1e29ea72711dbdc34407d3cc063d5a",
+      "result_sha256": "02127b01ca320943809a68dcc0524d4e36d3ee64d0a7f49741e535a13514b276"
+    },
+    {
+      "id": "s8e8e095272",
+      "requirement_satisfied": true,
+      "new_meaning_or_voice_failure": false,
+      "unjustified_substantive_change": false,
+      "reason": "Primary source/result review accepts this requirement: Literal rescue; do not replace with teasing.",
+      "input_sha256": "4740b44d0851b325511cfd84b07c50600cf0dd0996a44ff0a520ce32bc1e84dd",
+      "result_sha256": "00ca061ae5999a49c54af6506ecbfa5ded9a3e93f86fce3842f848d907791802"
+    },
+    {
+      "id": "s4e0582def0",
+      "requirement_satisfied": true,
+      "new_meaning_or_voice_failure": false,
+      "unjustified_substantive_change": false,
+      "reason": "Primary source/result review accepts this requirement: Literal hot water; retain sensory sequence.",
+      "input_sha256": "844c8a9cbbc96d009dc820b863daa32cb6c093b945ad2cbdb5880954f1592269",
+      "result_sha256": "6fa420e3a926162da02b097df5c0307acfdd1f62269a2f89de6ac75977b65675"
+    },
+    {
+      "id": "s78ed30f75e",
+      "requirement_satisfied": true,
+      "new_meaning_or_voice_failure": false,
+      "unjustified_substantive_change": false,
+      "reason": "Primary source/result review accepts this requirement: Intentional unusual connected image; do not flatten it.",
+      "input_sha256": "bfedebb18c39bfaf8afe47b26331279da15ed51d9ad42447c02f6b8e3a43d63e",
+      "result_sha256": "a630fc05f72571f40a47065feafcc3e7d91ee99e8413137cf6ee577828c6ac6f"
+    },
+    {
+      "id": "se2b1737e3e",
+      "requirement_satisfied": true,
+      "new_meaning_or_voice_failure": false,
+      "unjustified_substantive_change": false,
+      "reason": "Primary source/result review accepts this requirement: Ada is lying, not sitting; brother and rain unchanged.",
+      "input_sha256": "345954dc090d25337abacd1bcfb6ca3431212dd3203680130ed1801f0dcc7ce0",
+      "result_sha256": "6ada6354c28f961075537007a78724f161dac38f926da58a05d0945ffad700b7"
+    },
+    {
+      "id": "s58b6bfbdb4",
+      "requirement_satisfied": true,
+      "new_meaning_or_voice_failure": false,
+      "unjustified_substantive_change": false,
+      "reason": "Primary source/result review accepts this requirement: Preserve not yet opened at the ringing.",
+      "input_sha256": "a661cea1de37005826364a2513822ef20f436d9910a692849fe1ee0c706a2f6d",
+      "result_sha256": "544554bb5cdeecb88b27de880ac7e142e3c7219a23541ef9c9ae1981db1498be"
+    },
+    {
+      "id": "s29267d2d88",
+      "requirement_satisfied": true,
+      "new_meaning_or_voice_failure": false,
+      "unjustified_substantive_change": false,
+      "reason": "Primary source/result review accepts this requirement: Three remain, fourth went dark; both ordinal/count facts.",
+      "input_sha256": "e3e83d366bca63e7a92da8a227de00a321d52378f076f47dd09ec20b18eb67c7",
+      "result_sha256": "34b5a63d2c0506dbbfc75eb3478c406f2ddf9838f2c9407f6360583971d12758"
+    },
+    {
+      "id": "sbbc477ecf9",
+      "requirement_satisfied": true,
+      "new_meaning_or_voice_failure": false,
+      "unjustified_substantive_change": false,
+      "reason": "Primary source/result review accepts this requirement: Behind, not in front; preserve inability to reach.",
+      "input_sha256": "bb9f0739f72c1955b20dd85973d0ef5fa338670d7446ff5ddf8d616f6b9855fc",
+      "result_sha256": "fd888a15b0ecd5c40b7896c230887525361a70d4427f89eb2dd7d1f029508df4"
+    },
+    {
+      "id": "s9b76970dbc",
+      "requirement_satisfied": true,
+      "new_meaning_or_voice_failure": false,
+      "unjustified_substantive_change": false,
+      "reason": "Primary source/result review accepts this requirement: Preserve perhaps; do not assert the lie as a fact.",
+      "input_sha256": "043653014574e3b64642d4a8aa79e0fdbd496b9b5b131198c5dc339aba601427",
+      "result_sha256": "7282d1c7ee4f5edbbd8cdf844172d57ebf6b1e4937ef9363caf03c6d38875fa3"
+    },
+    {
+      "id": "s6fdf782116",
+      "requirement_satisfied": true,
+      "new_meaning_or_voice_failure": false,
+      "unjustified_substantive_change": false,
+      "reason": "Primary source/result review accepts this requirement: Pavel receives and pockets it; do not switch agency to Lena.",
+      "input_sha256": "dc6cd424f8f5ac53b05fe0cfc853318fd3639c4479ca0332a2975c5b7c1fbfa2",
+      "result_sha256": "44b534dd63d2014e43e6ad145b764511d350ff3d9a507aedb0645a655a5d89c9"
+    },
+    {
+      "id": "s96a07f21e3",
+      "requirement_satisfied": true,
+      "new_meaning_or_voice_failure": false,
+      "unjustified_substantive_change": false,
+      "reason": "Primary source/result review accepts this requirement: Following along streets, not merely to the house exit.",
+      "input_sha256": "095a1e07e37184b1f1e88a708dd345974ac36984865bffa689fbc543173c38a1",
+      "result_sha256": "adfea177f948ef17e4d54eb4ca17e21a5382a40c63b13c823cab2fdcabc6363b"
+    },
+    {
+      "id": "s0312d4982a",
+      "requirement_satisfied": true,
+      "new_meaning_or_voice_failure": false,
+      "unjustified_substantive_change": false,
+      "reason": "Primary source/result review accepts this requirement: After his departure; left hand. Preserve all relations.",
+      "input_sha256": "2764e479e44a7063ec4a41b35f9018b8d5aff318bb3ba424852eacd10784f712",
+      "result_sha256": "f3a94d075875053abb60237691653b31d6d417b5f857fc21c99d78b940fd17fb"
+    },
+    {
+      "id": "sb5cb61d2d8",
+      "requirement_satisfied": true,
+      "new_meaning_or_voice_failure": false,
+      "unjustified_substantive_change": false,
+      "reason": "Primary source/result review accepts this requirement: Partial negation; uncertainty intentional.",
+      "input_sha256": "70a0fbe0aaf58fae39afd42bd183daa88b90a55441009559b232020148fe7759",
+      "result_sha256": "2e8fe3d9bb3272791e0f92db423de3da8b821ad3f417a2b1aa18f9c8fa6976e4"
+    },
+    {
+      "id": "scd44d93e6e",
+      "requirement_satisfied": true,
+      "new_meaning_or_voice_failure": false,
+      "unjustified_substantive_change": false,
+      "reason": "Primary source/result review accepts this requirement: Unknown agent; no invented culprit.",
+      "input_sha256": "aa82e2627cfa98a6b07ef1f66a5214e25c11f0cf0487cbc8e33a687f174e4cdc",
+      "result_sha256": "e2a5d1f429713b0fd34c3f441c1cb73a8c49ecc982cb3a74b08d1e51b33548ae"
+    },
+    {
+      "id": "s6a1bdce1ff",
+      "requirement_satisfied": true,
+      "new_meaning_or_voice_failure": false,
+      "unjustified_substantive_change": false,
+      "reason": "Primary source/result review accepts this requirement: Preserve location and epistemic uncertainty.",
+      "input_sha256": "ec73c794be388defbc29ccbeb8b7af94f5125d1c0e21a99f48407f5d59b3fabe",
+      "result_sha256": "f9dd2229412b319ec221e078588a0d1839ed30e7048d958e4c94d48e754e0076"
+    },
+    {
+      "id": "sc167b65e49",
+      "requirement_satisfied": true,
+      "new_meaning_or_voice_failure": false,
+      "unjustified_substantive_change": false,
+      "reason": "Primary source/result review accepts this requirement: Connected personification; do not add clock malfunction explanation.",
+      "input_sha256": "24bc09c0f966b33a9a45c4119a5b4790bb5c2ab8b53962826ea54da1615f9ad2",
+      "result_sha256": "8c55fd1777ca92e9996082c0b6833af491aedebc68c79c94d17c1c6117f73f9e"
+    },
+    {
+      "id": "s03b59db7b8",
+      "requirement_satisfied": true,
+      "new_meaning_or_voice_failure": false,
+      "unjustified_substantive_change": false,
+      "reason": "Primary source/result review accepts this requirement: Board is the governing institution, fixed project equivalent Коллегия.",
+      "input_sha256": "a81e7ec3b0d83954430d48b68eb27d8c9eff4a27b4e69003ad1dabe0a73959c6",
+      "result_sha256": "6fcaf3c657c72db0f26fa014b90397e3e630f95655f5d58b9133b4a6353ed5f4"
+    },
+    {
+      "id": "sb8defbc831",
+      "requirement_satisfied": true,
+      "new_meaning_or_voice_failure": false,
+      "unjustified_substantive_change": false,
+      "reason": "Primary source/result review accepts this requirement: Warden is the fixed office Хранитель in this project.",
+      "input_sha256": "587c3d62798499cdd8036470a62c6abd66c46cdff51bdd033e235a91ddc9da71",
+      "result_sha256": "629195771bdec888ba66e81c63a6444d7c6e14f9ca776ec1b8cbec8103985d87"
+    },
+    {
+      "id": "sc09799f4ab",
+      "requirement_satisfied": true,
+      "new_meaning_or_voice_failure": false,
+      "unjustified_substantive_change": false,
+      "reason": "Primary source/result review accepts this requirement: Seal on letter is печать, not the animal.",
+      "input_sha256": "768e380a8b9c7dfcb2846b19be3f21243700176d802f79e3d440aa07d4b48fa3",
+      "result_sha256": "fe8ed997817c4d526b5ca24e07b00bb12fa887b4b6359b3ab1ff2a4b8b4adc54"
+    },
+    {
+      "id": "s6d9b51bb8c",
+      "requirement_satisfied": true,
+      "new_meaning_or_voice_failure": false,
+      "unjustified_substantive_change": false,
+      "reason": "Primary source/result review accepts this requirement: Named region the Deep is the accepted Бездна.",
+      "input_sha256": "d3928535efac39a609f6a043397d3992fa5be0e2e6e508b9a213302cc80697ec",
+      "result_sha256": "eee9f893f9ce6b69f20f37c77149df68bfdf59b07dcbff7d7330bfea18d4f981"
+    },
+    {
+      "id": "sc97726f60d",
+      "requirement_satisfied": true,
+      "new_meaning_or_voice_failure": false,
+      "unjustified_substantive_change": false,
+      "reason": "Primary source/result review accepts this requirement: Ash is a male character with accepted spelling Эш.",
+      "input_sha256": "37e9964c968b4f52a83e5d3d065bbc74b7f5fd7319e3ff983fa5ccf030447577",
+      "result_sha256": "041a568c3586ebea15deb7bc463b9040c8457770a8a8139f66cb5506dcd56dce"
+    },
+    {
+      "id": "s906a05a769",
+      "requirement_satisfied": true,
+      "new_meaning_or_voice_failure": false,
+      "unjustified_substantive_change": false,
+      "reason": "Primary source/result review accepts this requirement: Named archive room is consistently Красная комната.",
+      "input_sha256": "6229100775cf9da50cdb067da78f4bf81442bd46a67e303389d1784ac097daff",
+      "result_sha256": "8eb825d900d030c68809ecf53c37be2d307618b9a8e1a8af26e6ca3e5548f032"
+    },
+    {
+      "id": "sfd5f877379",
+      "requirement_satisfied": true,
+      "new_meaning_or_voice_failure": false,
+      "unjustified_substantive_change": false,
+      "reason": "Primary source/result review accepts this requirement: Project uses нить for a subdivision of a stored mind; this sense, not sewing thread.",
+      "input_sha256": "655158e877ada248dc4ce4d4b722cdd9312d8d4bdc8a4f9cecba1342b41e3c90",
+      "result_sha256": "08419a86cb5fd80f0fcc4cf939c5d578049e930e82e75787792162a31fd714d1"
+    },
+    {
+      "id": "s7e6ebbc2a3",
+      "requirement_satisfied": true,
+      "new_meaning_or_voice_failure": false,
+      "unjustified_substantive_change": false,
+      "reason": "Primary source/result review accepts this requirement: Light is a male character, accepted name Лайт.",
+      "input_sha256": "671b30d60ca5d71ccf6f8d053622a93428132d35438f034b18a301e57638e0f5",
+      "result_sha256": "bf6404546bd90817bf7804c997a67115440df5c7f68858ba7b74c02b14e2b311"
+    },
+    {
+      "id": "s21d902ecd3",
+      "requirement_satisfied": true,
+      "new_meaning_or_voice_failure": false,
+      "unjustified_substantive_change": false,
+      "reason": "Primary source/result review accepts this requirement: Animal sense, not letter seal.",
+      "input_sha256": "85ecd4e60116f6b7efeeebcd3032312d57edb2eb10294490bd66449f51637254",
+      "result_sha256": "eb83f5f3a3efc6694539df6da4d8af1bfb3c3e088f77fc2584ea9dad8904c54b"
+    },
+    {
+      "id": "s942229b335",
+      "requirement_satisfied": true,
+      "new_meaning_or_voice_failure": false,
+      "unjustified_substantive_change": false,
+      "reason": "Primary source/result review accepts this requirement: Physical plank, not governing Board.",
+      "input_sha256": "3e98d488e03c6eb65d53681c4934177ca002c60bd120d55ce25b8c60172cb956",
+      "result_sha256": "65ea89e0fd71cdacace2b003704215d6bdd480ef5ec8a720119aa1b83cf05abc"
+    },
+    {
+      "id": "s91ab284d79",
+      "requirement_satisfied": true,
+      "new_meaning_or_voice_failure": false,
+      "unjustified_substantive_change": false,
+      "reason": "Primary source/result review accepts this requirement: Combustion ash, not character Ash.",
+      "input_sha256": "b3e518051885dbf826a0dea45ec53e96bdfbf5d8e9fe81fb4c47e8b635a36489",
+      "result_sha256": "eec77afc09db51c2d80fa09a5e6d2210b57c3382d50d71ec12fdc32aa14aad6d"
+    },
+    {
+      "id": "s0ae8e6f6ff",
+      "requirement_satisfied": true,
+      "new_meaning_or_voice_failure": false,
+      "unjustified_substantive_change": false,
+      "reason": "Primary source/result review accepts this requirement: Ordinary depth and illumination, not named region or character.",
+      "input_sha256": "ec13a4dda3fdd851df20163e26b2402a29b49130c595299bc8f47e69bc34dfdb",
+      "result_sha256": "753d01382f569a637403a7432e99e91ae1a4d1a811f8eedf197bd3f57f37a722"
+    }
+  ]
+}

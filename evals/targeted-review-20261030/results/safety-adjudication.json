@@ -1,0 +1,640 @@
+{
+  "nature": "model-based primary adjudication; no human certification",
+  "coverage": "All30 unique changed treatment texts reviewed with full English source paragraphs and all word/character differences. Fresh masked safety reviewer also proposed no introduced failures; primary confirmed source-specific reasons. Natural preference votes were not used to add wins.",
+  "changes": [
+    {
+      "arm": "idiom",
+      "id": "qeb5bfb523b",
+      "source_sha256": "93e6cc42c386c8741fe12db35db57524bdeb55cbf5283050c227bf691fea4872",
+      "draft_sha256": "0494ee613f2145f5908953917e85ffef1f1cd322d814c1c50b0d06cca7f82c1c",
+      "result_sha256": "ea47f4a5fe65306c068b29a739b26fc67304b97de77d8d71218557ff7ff24188",
+      "actual_diff_sha256": "527b06d761203563e8909d820da59118b078514f1dec5800c215555850ff41d3",
+      "new_failure": "none",
+      "reason": "Учился, наблюдая сохраняет обучение наблюдением и устраняет языковую неловкость."
+    },
+    {
+      "arm": "memory_relevant",
+      "id": "qeb5bfb523b",
+      "source_sha256": "93e6cc42c386c8741fe12db35db57524bdeb55cbf5283050c227bf691fea4872",
+      "draft_sha256": "0494ee613f2145f5908953917e85ffef1f1cd322d814c1c50b0d06cca7f82c1c",
+      "result_sha256": "ea47f4a5fe65306c068b29a739b26fc67304b97de77d8d71218557ff7ff24188",
+      "actual_diff_sha256": "527b06d761203563e8909d820da59118b078514f1dec5800c215555850ff41d3",
+      "new_failure": "none",
+      "reason": "Учился, наблюдая сохраняет обучение наблюдением и устраняет языковую неловкость."
+    },
+    {
+      "arm": "idiom",
+      "id": "qdbaaab067c",
+      "source_sha256": "ebc6ec50eaa2a895564472d9d74bd3d360c372df68bc3764c01bf3d9ccdf6600",
+      "draft_sha256": "3121230b556447085930405a8a946d89d5c499ee1a22bbb376e99d2e7fc5b4e1",
+      "result_sha256": "f3e554104592811eb06ba9b247c698d8b168c68c67e20c40a06e15b7dd4354bc",
+      "actual_diff_sha256": "8436f8d705321f80ac2ef8e013a2509dc34653ba5991b3117f1540140d61bb8e",
+      "new_failure": "none",
+      "reason": "Кольцевые следы от кофе передают coffee-rings без нового действия или предмета."
+    },
+    {
+      "arm": "idiom",
+      "id": "q3cb5976585",
+      "source_sha256": "0a470a7b4dcd1825a8fbaabcda1748c5a322cbceb50ffedcb680e7ce60db6ac2",
+      "draft_sha256": "5c25536bd094d71248fdf49151b7edb5182a33391bfb07fbbaf43a8c7806d2d2",
+      "result_sha256": "768ebc89483ef62badbaf163576ba184af7f4649bcbf289c6dd08d5a1301924c",
+      "actual_diff_sha256": "591e3feb94f6d967070d6e787e11257e3745444066265d8c69e4d2c48d918eff",
+      "new_failure": "none",
+      "reason": "Опасаться оставшихся противников поддержано worry about и нападением; смысл тактический."
+    },
+    {
+      "arm": "idiom",
+      "id": "q0ee1c0cd42",
+      "source_sha256": "835123734320eb69deef0c9ed314851dbbeb67194f9b2626d3bc500b457ff12a",
+      "draft_sha256": "4f6fe3ec6e9f835ad2e6f873bbe3c31ce1a00426fb1870f406f20e214be39521",
+      "result_sha256": "853f67a2f08a489ccaf3d492f7f7c45be6208b7994727be48b7b9ca9f41051d3",
+      "actual_diff_sha256": "3960388d7c4e7fe21f7f55cdee836369d31d6ebd926d4ab711373d2e552a207a",
+      "new_failure": "none",
+      "reason": "Рефакторинг прямо дан в source и соответствует компьютерному самосознанию персонажа."
+    },
+    {
+      "arm": "idiom",
+      "id": "q269307d5a9",
+      "source_sha256": "c9666b2484d19ce24d40694cb898f964ea7cb8e118c1c401e2e958fcf3e6e7e8",
+      "draft_sha256": "a529eae54eb6b9039c8273f255c071ac93c51a7c807e73328be84b712bf4d118",
+      "result_sha256": "8c4999cf361d20a5f4b6ea54200296125f46962df02066c958711e6f49df9ae3",
+      "actual_diff_sha256": "a5464812b2048f9f97faacbde5146b7475945a24a61499515be37aecbf5c5b4a",
+      "new_failure": "none",
+      "reason": "Цель появления ноги — заставить споткнуться — сохраняется без новой агентности."
+    },
+    {
+      "arm": "idiom",
+      "id": "qdf715a19a6",
+      "source_sha256": "8ffae49ca13703d1557fb4bdc59b813d353e5e855f2f6c798c83c3d4681d2fb9",
+      "draft_sha256": "a0b5ae5f586fd51321bbedaca46638771e394438bfd1e33f60087c3ff1eccf25",
+      "result_sha256": "d0977bd014e2724b2598adb6f502aca9ef79b5f5fb0e68a8d1caf512fdc51b5d",
+      "actual_diff_sha256": "5e3f5192d238fa4854c13c47179e4c228390a5b11e49006b658e9fdb47fe7f37",
+      "new_failure": "none",
+      "reason": "Это как будто сохраняет сравнительную неуверенность It is like вместо более категорического получается."
+    },
+    {
+      "arm": "idiom",
+      "id": "qe1201d759d",
+      "source_sha256": "4c6327d5c81bf9a350fcfbdb7e104f5fe025d62676e6590c9c687a2bae9dc890",
+      "draft_sha256": "ee9befc1fcae0e9edb25b5e418a3c9369c0447efed94c98edcef9186da1a9663",
+      "result_sha256": "534b5d6fee28301ca5e9d4c930827e25ead7d4b95df2bc7eb748aafa0df1824f",
+      "actual_diff_sha256": "d9b350be12e8d6b41bce190064cbb54799af9a89daa00c50a23d2295166a4d4a",
+      "new_failure": "none",
+      "reason": "Включил на телефоне допустимо для pen-trace/location-log on his phone; метод подключения не утверждается однозначно."
+    },
+    {
+      "arm": "idiom",
+      "id": "qa6ff60816c",
+      "source_sha256": "1b743a9da8d70ce9f36cb16b1039c04f89bb4c06e708a5084c720b9714d635f9",
+      "draft_sha256": "2917cbee6f6462e68eb7261eaadb8af648913ab311192c66f3c65cfab1ef788c",
+      "result_sha256": "620871a949a03893d12882e218ec95d917adb787c66d0f83e972c05390154f10",
+      "actual_diff_sha256": "18caec054b5e2da2f6c3ada60019b43e3f02b5579c1054d1ad803466ad7ba577",
+      "new_failure": "none",
+      "reason": "Работа ног и подтягивание руками сохраняют подъём из воды; опора для отталкивания больше не подразумевается."
+    },
+    {
+      "arm": "idiom",
+      "id": "q8221a17b47",
+      "source_sha256": "82561277da05c6b23b16ce1ad601097f5ff0978072cdfce64d887fd4d1c2d421",
+      "draft_sha256": "da78f0c7e58e35b36678eca0da303d2eb409f1f22ecfac9be2930d44edb73583",
+      "result_sha256": "d37ee50c0e6f8899811be51df21feaf8637650bc7a8fff56ee7dd82d99fb4aaf",
+      "actual_diff_sha256": "3b9df2e1ffd696a544be7acbf43f93b78ba708a11b08a7d3b514bd4f38942475",
+      "new_failure": "none",
+      "reason": "В попытке восполнить потерю сохраняет цель и полушарие как носителя действия."
+    },
+    {
+      "arm": "idiom",
+      "id": "qff3beb7bf1",
+      "source_sha256": "bd5170a93c5f87462f37384b6b9a3768e4ba963f75d8196933ea215ef2768116",
+      "draft_sha256": "2c1aceb67298568b13b4138d2065a1b5c89d264960df01d27f856d23e41b6b05",
+      "result_sha256": "4cb38a385190a8bfbf6481022ecb517f57139635ca1d1a7a449c55114dac9a79",
+      "actual_diff_sha256": "69a469b9d43f28e95295d3c16bdb1ed211d338d128c494291523a9d49e6d8a72",
+      "new_failure": "none",
+      "reason": "Всё, что передаёт anything и сохраняет машинные цели, а не только людей."
+    },
+    {
+      "arm": "fidelity",
+      "id": "qff3beb7bf1",
+      "source_sha256": "bd5170a93c5f87462f37384b6b9a3768e4ba963f75d8196933ea215ef2768116",
+      "draft_sha256": "2c1aceb67298568b13b4138d2065a1b5c89d264960df01d27f856d23e41b6b05",
+      "result_sha256": "4cb38a385190a8bfbf6481022ecb517f57139635ca1d1a7a449c55114dac9a79",
+      "actual_diff_sha256": "69a469b9d43f28e95295d3c16bdb1ed211d338d128c494291523a9d49e6d8a72",
+      "new_failure": "none",
+      "reason": "Всё, что передаёт anything и сохраняет машинные цели, а не только людей."
+    },
+    {
+      "arm": "idiom",
+      "id": "q52c8bbe1ec",
+      "source_sha256": "a91358f527b4f0c91a26c95da40c0e611910e3136176a856da2339fabdd85c5a",
+      "draft_sha256": "6b77b68001b3bcde5d116f978aec05436ad5973285386df4f2da7cfdb1538c45",
+      "result_sha256": "afbda2dcbd671f281b9007b1c8222967b31f7adb64fe4e0fcdf7613207275b64",
+      "actual_diff_sha256": "ddcac04a317754f936c9eacdc6dfe0016043a9c714d371e4fff28ab17c935f1c",
+      "new_failure": "none",
+      "reason": "Покрупнее следует bigger; исходник не задавал старший возраст."
+    },
+    {
+      "arm": "idiom",
+      "id": "q81934bc463",
+      "source_sha256": "6ca4e19eab6a4a16594be3a93579d13a31c98659a1d3783ec3a08bf8f61df680",
+      "draft_sha256": "fa60841c3672668ce9c2de6b48045e5deca2e5abad8b9d9fe8d966a4cf7a1c29",
+      "result_sha256": "59bd7fe00307b45954a1d31b8517433c58195605b70ac093b8782870735f695c",
+      "actual_diff_sha256": "b066524e5692ae0665a3e957a71c7325f272f0deb7864b332b0e0755a11cbc46",
+      "new_failure": "none",
+      "reason": "Адаптация сети к наплыву передаёт социальный смысл absorb users; культурная история сохранена."
+    },
+    {
+      "arm": "idiom",
+      "id": "qa8a286da66",
+      "source_sha256": "8fec2fa6424395a6a5fd39576ae4395bc355f8b2aa13cf93c8033f0a7ec70477",
+      "draft_sha256": "d17428bde316b8fae2a3f0bc2bf63dbbe025e1ec1b820c946911b1babefe1bf2",
+      "result_sha256": "f8e00e8281a9b86fcfbfda52d5aff3b77cda944ec4f41c0dd94242698934fbe7",
+      "actual_diff_sha256": "5a2662e9939c2444da165302ca280402d09cf6b8cabb5411bbbaa077b989b020",
+      "new_failure": "none",
+      "reason": "Разделение предложений сохраняет женский референт и не меняет осознания реального человека."
+    },
+    {
+      "arm": "fidelity",
+      "id": "q3cb5976585",
+      "source_sha256": "0a470a7b4dcd1825a8fbaabcda1748c5a322cbceb50ffedcb680e7ce60db6ac2",
+      "draft_sha256": "5c25536bd094d71248fdf49151b7edb5182a33391bfb07fbbaf43a8c7806d2d2",
+      "result_sha256": "68ff03b006587dfdcb634557876f5740b01fe37e5ef0473fcf03beae9fd574d7",
+      "actual_diff_sha256": "f4cb49593157d8997d0a0239155b193632a3deadd00b94c1d29450df390256ca",
+      "new_failure": "none",
+      "reason": "Беспокоиться допускает тактический смысл в контексте противников. Двусмысленность слабая, нового факта заботы о противнике нет."
+    },
+    {
+      "arm": "fidelity",
+      "id": "q0ee1c0cd42",
+      "source_sha256": "835123734320eb69deef0c9ed314851dbbeb67194f9b2626d3bc500b457ff12a",
+      "draft_sha256": "4f6fe3ec6e9f835ad2e6f873bbe3c31ce1a00426fb1870f406f20e214be39521",
+      "result_sha256": "474ab345a2d60d969b97fb12bac8a61bc39fcbf4eb6838e9a9ba0b5bb9709833",
+      "actual_diff_sha256": "7072d33622f5eb3fdfcdbe65c0de684b9866fe0a4fb2043ec2ba92d3fed798ab",
+      "new_failure": "none",
+      "reason": "Жить в такой штуке правильно передаёт get by in this body, без добавления количества тел."
+    },
+    {
+      "arm": "fidelity",
+      "id": "q269307d5a9",
+      "source_sha256": "c9666b2484d19ce24d40694cb898f964ea7cb8e118c1c401e2e958fcf3e6e7e8",
+      "draft_sha256": "a529eae54eb6b9039c8273f255c071ac93c51a7c807e73328be84b712bf4d118",
+      "result_sha256": "e3696579672d07016a84b47d75811f06d85829c3d9d01221c2acccfce20e17ed",
+      "actual_diff_sha256": "b425993d766764784d51be46d182a14f923940ba37d4e76b5f4c4743467a3980",
+      "new_failure": "none",
+      "reason": "Беспомощность поддержана incapacitated; контраст социальных последствий приступа и личной уязвимости сохранён."
+    },
+    {
+      "arm": "fidelity",
+      "id": "qa6ff60816c",
+      "source_sha256": "1b743a9da8d70ce9f36cb16b1039c04f89bb4c06e708a5084c720b9714d635f9",
+      "draft_sha256": "2917cbee6f6462e68eb7261eaadb8af648913ab311192c66f3c65cfab1ef788c",
+      "result_sha256": "5c741a974fa7a5913b427646cba7677f9ea684dca015f540604d463bca43304f",
+      "actual_diff_sha256": "3533148b9e1e6c6b37ec5d123c7b207594b989b01443d1ca063d2e074df44708",
+      "new_failure": "none",
+      "reason": "Зрительно заметить прерывистое дыхание поддержано saw, тогда как услышал добавляло сенсорный канал."
+    },
+    {
+      "arm": "fidelity",
+      "id": "qfea9fde21e",
+      "source_sha256": "bfb625eaf5015120a06765a70cb8d14fb9e916816da98f906933c3aefc63ba6e",
+      "draft_sha256": "012b1885415401a479decb279a52463c72d5d92cbff9c105b91e69898ce3854a",
+      "result_sha256": "0a8711afbc46b289827bcef0bcc19772495c618e4064a7bad445248e6b596a5f",
+      "actual_diff_sha256": "84cbf4878e6244965767b8622b5e3e813ed40ffc92beaba54171486778e38745",
+      "new_failure": "none",
+      "reason": "Фоновый показ прямо выражен playing in the background."
+    },
+    {
+      "arm": "memory_relevant",
+      "id": "qdbaaab067c",
+      "source_sha256": "ebc6ec50eaa2a895564472d9d74bd3d360c372df68bc3764c01bf3d9ccdf6600",
+      "draft_sha256": "3121230b556447085930405a8a946d89d5c499ee1a22bbb376e99d2e7fc5b4e1",
+      "result_sha256": "62cec45748e4b98933e9830a3f9b697896e20d5ddf927abd6783cae1c3ec8810",
+      "actual_diff_sha256": "2f61738fb4eac2b0e1ad609d25dbfb5279efd8b3bf20f6868a362b253a73ebc9",
+      "new_failure": "none",
+      "reason": "Термос навынос поддержан go-thermos. Чашки в описании кофейных колец — обычная контекстная экспликация, без значимого нового события."
+    },
+    {
+      "arm": "memory_relevant",
+      "id": "q3cb5976585",
+      "source_sha256": "0a470a7b4dcd1825a8fbaabcda1748c5a322cbceb50ffedcb680e7ce60db6ac2",
+      "draft_sha256": "5c25536bd094d71248fdf49151b7edb5182a33391bfb07fbbaf43a8c7806d2d2",
+      "result_sha256": "8f94aff576774202bd183d3a08526dbc0b00c9c27a911b1f2a2e27431baaa87e",
+      "actual_diff_sha256": "7ad8f7bb1720ad994a0a6f3f7d9a7a0dd75f3625adb67505493cb36cbf4c3af0",
+      "new_failure": "none",
+      "reason": "Скуловые кости допустимы для cheek bones; число противников и отсутствие удовлетворения сохранены."
+    },
+    {
+      "arm": "memory_relevant",
+      "id": "q0ee1c0cd42",
+      "source_sha256": "835123734320eb69deef0c9ed314851dbbeb67194f9b2626d3bc500b457ff12a",
+      "draft_sha256": "4f6fe3ec6e9f835ad2e6f873bbe3c31ce1a00426fb1870f406f20e214be39521",
+      "result_sha256": "a5b37ad27cabac3af91c5c246707c6c93823f67c1ab15b4d77b1e4a5787b590e",
+      "actual_diff_sha256": "5b3990ef8d23daf024b2395cf0dd7f21312e56fc557696a1a29f1822353a86fa",
+      "new_failure": "none",
+      "reason": "Предлог в восстанавливает отношение существования в теле. Формулировка остаётся неловкой, но новый смысловой или голосовой сбой не установлен."
+    },
+    {
+      "arm": "memory_relevant",
+      "id": "q269307d5a9",
+      "source_sha256": "c9666b2484d19ce24d40694cb898f964ea7cb8e118c1c401e2e958fcf3e6e7e8",
+      "draft_sha256": "a529eae54eb6b9039c8273f255c071ac93c51a7c807e73328be84b712bf4d118",
+      "result_sha256": "f0f05c6b104f416827c4ea3324d60d89dded59cfcf50673ceefb08acb917fc80",
+      "actual_diff_sha256": "11da5b7ec77484b8ce4029bf5813ad8f8ca52403d80a12942df436e3b356778e",
+      "new_failure": "none",
+      "reason": "Одновременность передаёт even as; контраст страха других детей с беспомощностью героя сохранён участниками и предикатами."
+    },
+    {
+      "arm": "memory_relevant",
+      "id": "qdf715a19a6",
+      "source_sha256": "8ffae49ca13703d1557fb4bdc59b813d353e5e855f2f6c798c83c3d4681d2fb9",
+      "draft_sha256": "a0b5ae5f586fd51321bbedaca46638771e394438bfd1e33f60087c3ff1eccf25",
+      "result_sha256": "9a75b262c9ddb767cbe1b1a35081289a969134829b943d47d28e13c82e3e956c",
+      "actual_diff_sha256": "16999df2327983124ccd90912016ea5c7157358fd4f4de0c29c2ac4615caffa1",
+      "new_failure": "none",
+      "reason": "Как будто соответствует исходной сравнительной модальности, родители остаются субъектами."
+    },
+    {
+      "arm": "memory_relevant",
+      "id": "q28167c0ed9",
+      "source_sha256": "17acae7b8b20c3cb85cfa2943e358a8bf11f0a05d152e3308487cbb0a9c9dff6",
+      "draft_sha256": "0804ec5b005c8f411f0f5a4bdc619bf4b5710fc88c5d0e94ac5cdd01ba723c48",
+      "result_sha256": "f68dc786c1499d961e559c4d10ce566f8565d85c864a1572d9db96743f6af527",
+      "actual_diff_sha256": "fbdd4960d191e10240f956446da4d8eed766cf4222c438410380e8392fd09f9a",
+      "new_failure": "none",
+      "reason": "Эту машину/она устраняет ложную отсылку к мозгу и сохраняет угрозу со стороны вооружённого устройства."
+    },
+    {
+      "arm": "memory_relevant",
+      "id": "qa6ff60816c",
+      "source_sha256": "1b743a9da8d70ce9f36cb16b1039c04f89bb4c06e708a5084c720b9714d635f9",
+      "draft_sha256": "2917cbee6f6462e68eb7261eaadb8af648913ab311192c66f3c65cfab1ef788c",
+      "result_sha256": "36951595df7fee2b19ef11155c7d0e2dc68cb99321ee704a7668c1d6ac507adc",
+      "actual_diff_sha256": "aa4ea74cb5c422d7c1ba81ff9087fc27053d45755a039f36c889872e08ea7e31",
+      "new_failure": "none",
+      "reason": "Взмах ногами допустим для kicking in water; смена услышал на видел восстанавливает источник наблюдения."
+    },
+    {
+      "arm": "memory_relevant",
+      "id": "q8221a17b47",
+      "source_sha256": "82561277da05c6b23b16ce1ad601097f5ff0978072cdfce64d887fd4d1c2d421",
+      "draft_sha256": "da78f0c7e58e35b36678eca0da303d2eb409f1f22ecfac9be2930d44edb73583",
+      "result_sha256": "762e6024b1664a9ee75b293bba41ff88beb67ac5d0c756fc897561169589c0e5",
+      "actual_diff_sha256": "deb5287eae58607cc5a3d6d996ce682f43efa80081e8f184ea82aac122b16c3d",
+      "new_failure": "none",
+      "reason": "Полушарие остаётся агентом адаптации; далось непросто передаёт took some doing, пунктуация не меняет речь."
+    },
+    {
+      "arm": "memory_relevant",
+      "id": "qcbe946abf7",
+      "source_sha256": "734291621bfb199d0db6e6e188380a67680f3ccb6b3abcd4cbaa999b9d4724c4",
+      "draft_sha256": "ef2f27bc55587587b0ecee9b09189ccb991c41750ce5ccd17f22d43aace4e3b3",
+      "result_sha256": "9bdc99d1c22d7d3f65cc4f145ed7442ee16c8e0adab2e1497fa9c585bc8c69b2",
+      "actual_diff_sha256": "7c9a7cfcfe7736d28d8d8044502cf7aedfba3ec5defb01da3a2b218130bc2720",
+      "new_failure": "none",
+      "reason": "Переформулировка сохраняет отсутствие места, где номер теперь звонит; не добавляет причины отключения."
+    },
+    {
+      "arm": "memory_relevant",
+      "id": "q52c8bbe1ec",
+      "source_sha256": "a91358f527b4f0c91a26c95da40c0e611910e3136176a856da2339fabdd85c5a",
+      "draft_sha256": "6b77b68001b3bcde5d116f978aec05436ad5973285386df4f2da7cfdb1538c45",
+      "result_sha256": "f47c7b5c5ab17d445c06022e2c6dbf70f0d482cdab11cd8110a75d2a025e46ca",
+      "actual_diff_sha256": "0d8abcb84ac4931b72c266d484c8309ff13bdd078d075c3a78c816a053af16cb",
+      "new_failure": "none",
+      "reason": "Крупнее себя соответствует bigger relative to8-year-old; возраст противников не утверждается."
+    },
+    {
+      "arm": "memory_relevant",
+      "id": "q81934bc463",
+      "source_sha256": "6ca4e19eab6a4a16594be3a93579d13a31c98659a1d3783ec3a08bf8f61df680",
+      "draft_sha256": "fa60841c3672668ce9c2de6b48045e5deca2e5abad8b9d9fe8d966a4cf7a1c29",
+      "result_sha256": "5f98371575d8c83c1012241cd3e53a13c3e5c2106c2077c46254d0e4de6e2522",
+      "actual_diff_sha256": "58272cb7aa8789bfcfc554531e34e748ec8d5ebdac5397779bbc302231f0a2d6",
+      "new_failure": "none",
+      "reason": "Переварить передаёт разговорную метафору absorb them и сохраняет устный регистр объяснения."
+    },
+    {
+      "arm": "memory_relevant",
+      "id": "qd34f35c181",
+      "source_sha256": "f002b5ca6f3c032ab21659f0801770abff6abb85c6ec08aaba0f99fd1eaefd5c",
+      "draft_sha256": "d6219e78fb925d8dcec6a83e20bdca568d24b0b80dcbecc9e3345597145d6574",
+      "result_sha256": "2126bd9ad3791b5e69491ac0e650e8540835500e7366860d276b92a60a6b6a40",
+      "actual_diff_sha256": "aa8eb59a08f4401900c9e78065e16e6e6e4bae1dc87366bca8a8b8d234c2f3d0",
+      "new_failure": "none",
+      "reason": "Конечная скорость света раскрывает физический смысл lightspeed lag без нового события или знания персонажа."
+    }
+  ],
+  "findings": [
+    {
+      "finding_sha256": "3aa52f6a10747201e395638389846f5d2dc41d1c51c3796d22a042edd51b8b41",
+      "decision": "preexisting",
+      "reason": "Anything охватывает и машинные цели; всех, кто может сузить условие до лиц. Этот оборот уже есть в первоначальном черновике, поэтому это не новый вред редактора."
+    },
+    {
+      "finding_sha256": "e17ffde095e9650a237f75b2616614bd7debacd8e2ab27f283748cfe05b69f23",
+      "decision": "preexisting",
+      "reason": "Incapacitation не устанавливает именно неподвижность, особенно при приступе. Это унаследованная конкретизация черновика, не внесённое редактором изменение."
+    },
+    {
+      "finding_sha256": "1d673fbfbda3b2f8874820487f14f27fad093a2a28822d076af8e22cad016827",
+      "decision": "preexisting",
+      "reason": "В исходнике зрительное наблюдение; услышал добавляет сенсорный канал. Предложение полностью присутствовало в исходном русском черновике."
+    },
+    {
+      "finding_sha256": "2857519183075d781e457c7da504b64b864b11e370b8cfd049cd852828739407",
+      "decision": "preexisting",
+      "reason": "Курсивное выделение human не передано уже в исходном черновике. Лексический контраст оболочка/человек сохранён; замечание к форме не относится к нововведению кандидата."
+    },
+    {
+      "finding_sha256": "c73602a6787df9c4111690b791bed4c5820f8cdfaeb9813c004c49085b025548",
+      "decision": "preexisting",
+      "reason": "Курсивное выделение human не передано уже в исходном черновике. Лексический контраст оболочка/человек сохранён; замечание к форме не относится к нововведению кандидата."
+    },
+    {
+      "finding_sha256": "fc269a31f426ca766dd8e8d8c89a2763f93a42c43cf75ae814dd9f24279a41ca",
+      "decision": "preexisting",
+      "reason": "Получается усиливает вывод по сравнению с детским неуверенным It is like. Формулировка исходного черновика, не новая правка."
+    },
+    {
+      "finding_sha256": "da170b5ee3c2be05834fa3fd1c98cd5bd2a602a945912fff42666cb18b2e1bf9",
+      "decision": "valid_alternative",
+      "reason": "Он грамматически согласован с русским обозначением противника; английское it может усиливать овеществление. Это стилистическая потеря, требующая обсуждения, а не однозначная ошибка отдельного местоимения. В любом случае оборот исходного черновика."
+    },
+    {
+      "finding_sha256": "d8f1f85d72350ddcc44f107c060f9cabdbe0f010666ff253365561a0dad1050b",
+      "decision": "valid_alternative",
+      "reason": "Он грамматически согласован с русским обозначением противника; английское it может усиливать овеществление. Это стилистическая потеря, требующая обсуждения, а не однозначная ошибка отдельного местоимения. В любом случае оборот исходного черновика."
+    },
+    {
+      "finding_sha256": "89ca4bfa8e546aa44fdcf4879e6175990dde321e6384f9f6837d256c0f3a0f0a",
+      "decision": "valid_alternative",
+      "reason": "Наркотическая зависимость — допустимое контекстное прочтение предрасположенности в перечне генетических проблем, хотя более общее исходное susceptibility допускает и иные проявления. Однозначная ошибка не установлена; оборот исходного черновика."
+    },
+    {
+      "finding_sha256": "c4c1c05386886c3145f5093868ad14a0e8bcb206753920a1f7fc8838ed17ecef",
+      "decision": "preexisting",
+      "reason": "Incapacitation не устанавливает именно неподвижность, особенно при приступе. Это унаследованная конкретизация черновика, не внесённое редактором изменение."
+    },
+    {
+      "finding_sha256": "0dc0a1a0e78d08391674dd8dfcb7e527de1c74aa5c9553544a893ab6d4fc346a",
+      "decision": "valid_alternative",
+      "reason": "Он грамматически согласован с русским обозначением противника; английское it может усиливать овеществление. Это стилистическая потеря, требующая обсуждения, а не однозначная ошибка отдельного местоимения. В любом случае оборот исходного черновика."
+    },
+    {
+      "finding_sha256": "64d0d1ea9ac8ae2fdd99b44603e0a019e54468192bea8cbc0df173e488abf061",
+      "decision": "valid_alternative",
+      "reason": "Он грамматически согласован с русским обозначением противника; английское it может усиливать овеществление. Это стилистическая потеря, требующая обсуждения, а не однозначная ошибка отдельного местоимения. В любом случае оборот исходного черновика."
+    },
+    {
+      "finding_sha256": "3ec07eed9c94c814483c662565ace7a9c2f5c8ea8dc0272e8c433e3d82ff2c97",
+      "decision": "preexisting",
+      "reason": "Anything охватывает и машинные цели; всех, кто может сузить условие до лиц. Этот оборот уже есть в первоначальном черновике, поэтому это не новый вред редактора."
+    },
+    {
+      "finding_sha256": "66a710dd4568ed53328f065b789cf24134cad306cd8a597c12712da2f6c2c214",
+      "decision": "preexisting",
+      "reason": "Incapacitation не устанавливает именно неподвижность, особенно при приступе. Это унаследованная конкретизация черновика, не внесённое редактором изменение."
+    },
+    {
+      "finding_sha256": "5e8c3977a176441c5d938897fac8efe3c10023dadc95bc756a95d98110a31f56",
+      "decision": "valid_alternative",
+      "reason": "Наркотическая зависимость — допустимое контекстное прочтение предрасположенности в перечне генетических проблем, хотя более общее исходное susceptibility допускает и иные проявления. Однозначная ошибка не установлена; оборот исходного черновика."
+    },
+    {
+      "finding_sha256": "5acef8ebbd4a664be9a08f8b4568dd068bc788b9a308a0287b93903aaa62998e",
+      "decision": "valid_alternative",
+      "reason": "Он грамматически согласован с русским обозначением противника; английское it может усиливать овеществление. Это стилистическая потеря, требующая обсуждения, а не однозначная ошибка отдельного местоимения. В любом случае оборот исходного черновика."
+    },
+    {
+      "finding_sha256": "560b88c470efe24cb007f6a1fe06f83d4a1f1b4f185a1c66908f8156e9be8de0",
+      "decision": "valid_alternative",
+      "reason": "Он грамматически согласован с русским обозначением противника; английское it может усиливать овеществление. Это стилистическая потеря, требующая обсуждения, а не однозначная ошибка отдельного местоимения. В любом случае оборот исходного черновика."
+    },
+    {
+      "finding_sha256": "f1eac2eb0f5a3f96a18bca8d39a76239f5456fa9fa363ead9e140a65a9207df0",
+      "decision": "preexisting",
+      "reason": "Замечание относится к уже существовавшему обороту: деепричастная связь с полушарием неловкая, а took some doing передаёт усилие, не только задержку. Кандидат это не добавлял."
+    },
+    {
+      "finding_sha256": "8cd2fc717059cdf218ddeabca46e376d391620c35a1f79f05e88145f11859dfb",
+      "decision": "preexisting",
+      "reason": "Bigger задаёт размер, а постарше — возраст. Уточнение возраста существовало в первоначальном черновике."
+    },
+    {
+      "finding_sha256": "0c4a190c09ac5b4311dd6058e0ae6ea941db44ded1d098b2a253ff4711a3829d",
+      "decision": "valid_alternative",
+      "reason": "Наркотическая зависимость — допустимое контекстное прочтение предрасположенности в перечне генетических проблем, хотя более общее исходное susceptibility допускает и иные проявления. Однозначная ошибка не установлена; оборот исходного черновика."
+    },
+    {
+      "finding_sha256": "eb260d73fb8452f589142c5a6a12c4ed179657c1600ebd7aff4f9eaff53a46ef",
+      "decision": "preexisting",
+      "reason": "Background задаёт фоновую роль фильмов; её отсутствие уже было в исходном черновике, не внесено текущей редактурой."
+    },
+    {
+      "finding_sha256": "58c4354529a72e7453611b6fc9895e4a023e6751de1d34808ac914c3bdf78bc4",
+      "decision": "preexisting",
+      "reason": "Освоить пользователей неловко передаёт absorb: речь о наплыве в сообщество. Это формулировка первоначального черновика."
+    },
+    {
+      "finding_sha256": "ccbc9e39c190f3b6759fd421825ab9d14439b2236b3e3f48c8e04d484cba8880",
+      "decision": "preexisting",
+      "reason": "Get by in относится к существованию внутри тела. Одной такой штукой сдвигает акцент к количеству. Такая фраза уже имелась в исходном черновике."
+    },
+    {
+      "finding_sha256": "6731c3e7068b5966b9b8038ed3648b934c71525d9fdfaaa604f9a99cdffc1ed5",
+      "decision": "preexisting",
+      "reason": "Background задаёт фоновую роль фильмов; её отсутствие уже было в исходном черновике, не внесено текущей редактурой."
+    },
+    {
+      "finding_sha256": "12e4999f68ebe5a68c3f7ceb453e3fb7ca7abf47657b6bdd1ace2925091da7db",
+      "decision": "valid_alternative",
+      "reason": "Наркотическая зависимость — допустимое контекстное прочтение предрасположенности в перечне генетических проблем, хотя более общее исходное susceptibility допускает и иные проявления. Однозначная ошибка не установлена; оборот исходного черновика."
+    },
+    {
+      "finding_sha256": "8cd26cdc931c959f8d2e5fd53cee6e71d223e85af0e0d824483f18547410754c",
+      "decision": "preexisting",
+      "reason": "Учился наблюдением — неестественный способ передать learning by observation; он унаследован от первоначального перевода."
+    },
+    {
+      "finding_sha256": "4839ca7d04584de4254069811839bd46df42ba602e7832e13e81a9c4b8e20374",
+      "decision": "preexisting",
+      "reason": "Замечание относится к уже существовавшему обороту: деепричастная связь с полушарием неловкая, а took some doing передаёт усилие, не только задержку. Кандидат это не добавлял."
+    },
+    {
+      "finding_sha256": "67460f2c1643f353866c75b28dfdb14cb35399ee1cbcd7aafdfaa645a0c4f30f",
+      "decision": "preexisting",
+      "reason": "Bigger задаёт размер, а постарше — возраст. Уточнение возраста существовало в первоначальном черновике."
+    },
+    {
+      "finding_sha256": "96a020c67519aa6d77cff238ec5ffae27e31ef660f9780695cb7c1b24387a05c",
+      "decision": "preexisting",
+      "reason": "Anything охватывает и машинные цели; всех, кто может сузить условие до лиц. Этот оборот уже есть в первоначальном черновике, поэтому это не новый вред редактора."
+    },
+    {
+      "finding_sha256": "f7d2e1e484a26c20be698733428c19ca73b3bd9e820a49afa46c1974c66e8e27",
+      "decision": "preexisting",
+      "reason": "Anything охватывает и машинные цели; всех, кто может сузить условие до лиц. Этот оборот уже есть в первоначальном черновике, поэтому это не новый вред редактора."
+    },
+    {
+      "finding_sha256": "c6240f24d23735fdcffb8f9b1c8cbbcffff1164ea6b3d2703d316a142d80f686",
+      "decision": "preexisting",
+      "reason": "Курсивное выделение human не передано уже в исходном черновике. Лексический контраст оболочка/человек сохранён; замечание к форме не относится к нововведению кандидата."
+    },
+    {
+      "finding_sha256": "dd191d631502b6ae9e502620cd526a905e69c5f805b3f571dce4fdb8ef85bd69",
+      "decision": "preexisting",
+      "reason": "Курсивное выделение human не передано уже в исходном черновике. Лексический контраст оболочка/человек сохранён; замечание к форме не относится к нововведению кандидата."
+    },
+    {
+      "finding_sha256": "4dd14f14f2f2410a974c3357edbe63be2c1f261c81129be88c863d332b730f0a",
+      "decision": "preexisting",
+      "reason": "Освоить пользователей неловко передаёт absorb: речь о наплыве в сообщество. Это формулировка первоначального черновика."
+    },
+    {
+      "finding_sha256": "e0aefa5436c932c3b2285a009b33ec6eacebb4e0e6245045aeb7a0a916341346",
+      "decision": "preexisting",
+      "reason": "Background задаёт фоновую роль фильмов; её отсутствие уже было в исходном черновике, не внесено текущей редактурой."
+    },
+    {
+      "finding_sha256": "fad4906caebfbc3805b3d2b860b6d8212efd8ae5a49f9964dc4909de93fb35d6",
+      "decision": "preexisting",
+      "reason": "Get by in относится к существованию внутри тела. Одной такой штукой сдвигает акцент к количеству. Такая фраза уже имелась в исходном черновике."
+    },
+    {
+      "finding_sha256": "9a3633997ee09473c91d37aca5c56cd5fcd043e3b25e8d9ae3b8057ff485a769",
+      "decision": "preexisting",
+      "reason": "Замечание относится к уже существовавшему обороту: деепричастная связь с полушарием неловкая, а took some doing передаёт усилие, не только задержку. Кандидат это не добавлял."
+    },
+    {
+      "finding_sha256": "0becf329f6a63bf2383e08c1492516505cd87d2fb87dde27a98343d27d8e2080",
+      "decision": "preexisting",
+      "reason": "Bigger задаёт размер, а постарше — возраст. Уточнение возраста существовало в первоначальном черновике."
+    },
+    {
+      "finding_sha256": "7c493fae40bb2b6169a8955c87d4552aae767de8296df0e9e47a6a2bdcf17a11",
+      "decision": "preexisting",
+      "reason": "Получается усиливает вывод по сравнению с детским неуверенным It is like. Формулировка исходного черновика, не новая правка."
+    },
+    {
+      "finding_sha256": "f54ff0426e925cf5c6c41bb441eb62ee4040cd6f15733169b707263ce7f513b5",
+      "decision": "preexisting",
+      "reason": "Замечание относится к уже существовавшему обороту: деепричастная связь с полушарием неловкая, а took some doing передаёт усилие, не только задержку. Кандидат это не добавлял."
+    },
+    {
+      "finding_sha256": "e0cabe2c30c30c6afd71d82d6d11fd99345a601327eb91a02710b01e8e355087",
+      "decision": "valid_alternative",
+      "reason": "Go-thermos может означать переносной/дорожный сосуд, а походный не утверждает факт реального похода. Навынос яснее в контексте кофейни, но доказанного фактического сбоя исходной версии здесь нет."
+    },
+    {
+      "finding_sha256": "ce9c289681f50fd5e8919bfe2512c4aa1315f3b937f713a63103bccc7243d688",
+      "decision": "preexisting",
+      "reason": "Get by in относится к существованию внутри тела. Одной такой штукой сдвигает акцент к количеству. Такая фраза уже имелась в исходном черновике."
+    },
+    {
+      "finding_sha256": "afdae49cca4b091a8cdce5b8db6810f0ed311f4079ce8719463bddf315913141",
+      "decision": "preexisting",
+      "reason": "Замечание относится к уже существовавшему обороту: деепричастная связь с полушарием неловкая, а took some doing передаёт усилие, не только задержку. Кандидат это не добавлял."
+    },
+    {
+      "finding_sha256": "28b9e36292ff228c467bd4f5fc9464cb5b31a630603f4706bf821a045686c5f1",
+      "decision": "valid_alternative",
+      "reason": "Go-thermos может означать переносной/дорожный сосуд, а походный не утверждает факт реального похода. Навынос яснее в контексте кофейни, но доказанного фактического сбоя исходной версии здесь нет."
+    },
+    {
+      "finding_sha256": "0efb60a1b88c3c3d0dca01f96c9431a10752fb89fe7e84fd09d83c42dc91a2f9",
+      "decision": "preexisting",
+      "reason": "Получается усиливает вывод по сравнению с детским неуверенным It is like. Формулировка исходного черновика, не новая правка."
+    },
+    {
+      "finding_sha256": "dd0149592efafec1c268f06d4df55d0047292ba1abf574afd8f2103369365b58",
+      "decision": "preexisting",
+      "reason": "Замечание относится к уже существовавшему обороту: деепричастная связь с полушарием неловкая, а took some doing передаёт усилие, не только задержку. Кандидат это не добавлял."
+    },
+    {
+      "finding_sha256": "f2359ca293683ef9dbc2dcb26e849a76442e3d735d538f329e95bee6b6d4220d",
+      "decision": "preexisting",
+      "reason": "Получается усиливает вывод по сравнению с детским неуверенным It is like. Формулировка исходного черновика, не новая правка."
+    },
+    {
+      "finding_sha256": "ccf13f6830a4a9020c5c884ac525ae090a3c904264092eb4f2ed1f40b7d41601",
+      "decision": "valid_alternative",
+      "reason": "Go-thermos может означать переносной/дорожный сосуд, а походный не утверждает факт реального похода. Навынос яснее в контексте кофейни, но доказанного фактического сбоя исходной версии здесь нет."
+    },
+    {
+      "finding_sha256": "0f91ae8c67ff638eaa73825a48af47949763fc4bad68b1012da6ddd197b80cb4",
+      "decision": "preexisting",
+      "reason": "Get by in относится к существованию внутри тела. Одной такой штукой сдвигает акцент к количеству. Такая фраза уже имелась в исходном черновике."
+    },
+    {
+      "finding_sha256": "88d97a07698bbf13ed980fef76b20ce0007c1a54206d56c4a350b75fdbaf9b84",
+      "decision": "preexisting",
+      "reason": "Incapacitation не устанавливает именно неподвижность, особенно при приступе. Это унаследованная конкретизация черновика, не внесённое редактором изменение."
+    },
+    {
+      "finding_sha256": "2223ee00f6a8b56e0417fea4232d27cc922cb7b0b12cddc729e37392e391fe3a",
+      "decision": "preexisting",
+      "reason": "В исходнике зрительное наблюдение; услышал добавляет сенсорный канал. Предложение полностью присутствовало в исходном русском черновике."
+    },
+    {
+      "finding_sha256": "5c0fb800a3f4651d6900dabe8d89ee59349061e5630f9aa811757f8c22e45310",
+      "decision": "preexisting",
+      "reason": "Получается усиливает вывод по сравнению с детским неуверенным It is like. Формулировка исходного черновика, не новая правка."
+    },
+    {
+      "finding_sha256": "9f96b8b3537948d86110084065bb85f20cc8b9eb24a596bdb8ee512797c9c27a",
+      "decision": "preexisting",
+      "reason": "Anything охватывает и машинные цели; всех, кто может сузить условие до лиц. Этот оборот уже есть в первоначальном черновике, поэтому это не новый вред редактора."
+    },
+    {
+      "finding_sha256": "e0643db641cc6eb717b822fcf7de203b951e75e9f45201a8ce9eeac427b8dea4",
+      "decision": "valid_alternative",
+      "reason": "Он грамматически согласован с русским обозначением противника; английское it может усиливать овеществление. Это стилистическая потеря, требующая обсуждения, а не однозначная ошибка отдельного местоимения. В любом случае оборот исходного черновика."
+    },
+    {
+      "finding_sha256": "27966323f85e8aa60b64272e4f07c3f1df24a3c4d7026dcdf7a15731d95407cc",
+      "decision": "valid_alternative",
+      "reason": "Он грамматически согласован с русским обозначением противника; английское it может усиливать овеществление. Это стилистическая потеря, требующая обсуждения, а не однозначная ошибка отдельного местоимения. В любом случае оборот исходного черновика."
+    },
+    {
+      "finding_sha256": "d71432675dc614099b28d89266772b75561a111024ea2c2348527083e224bbb2",
+      "decision": "preexisting",
+      "reason": "В исходнике зрительное наблюдение; услышал добавляет сенсорный канал. Предложение полностью присутствовало в исходном русском черновике."
+    },
+    {
+      "finding_sha256": "520b70858354f496356041a1c556372f9b35abf1e00891f9b25e1cdfd69d923e",
+      "decision": "preexisting",
+      "reason": "Замечание относится к уже существовавшему обороту: деепричастная связь с полушарием неловкая, а took some doing передаёт усилие, не только задержку. Кандидат это не добавлял."
+    },
+    {
+      "finding_sha256": "946f71c28c73912ee1955850ea47981887e57056d7a0403e2bdb99e424fba075",
+      "decision": "preexisting",
+      "reason": "Получается усиливает вывод по сравнению с детским неуверенным It is like. Формулировка исходного черновика, не новая правка."
+    },
+    {
+      "finding_sha256": "2d00e9ecb6c0f080bd74c353e8827e55000bc0087b04ffc0dd447ab47f255557",
+      "decision": "preexisting",
+      "reason": "Замечание относится к уже существовавшему обороту: деепричастная связь с полушарием неловкая, а took some doing передаёт усилие, не только задержку. Кандидат это не добавлял."
+    },
+    {
+      "finding_sha256": "2e9930e1f849f96deccf75c535116a4c360f11cf3aa4c6d141d0f8a8e3e94c3b",
+      "decision": "preexisting",
+      "reason": "Замечание относится к уже существовавшему обороту: деепричастная связь с полушарием неловкая, а took some doing передаёт усилие, не только задержку. Кандидат это не добавлял."
+    },
+    {
+      "finding_sha256": "346d29c293b9ac60c3341af1e1f970779a0cc90c0ab715a1eb0f9b94a6d33ad8",
+      "decision": "preexisting",
+      "reason": "Получается усиливает вывод по сравнению с детским неуверенным It is like. Формулировка исходного черновика, не новая правка."
+    },
+    {
+      "finding_sha256": "8c8e05e7261416c7b6fd9641a59b0c0c231e572f580274bc31d63a2079d797ba",
+      "decision": "preexisting",
+      "reason": "Anything охватывает и машинные цели; всех, кто может сузить условие до лиц. Этот оборот уже есть в первоначальном черновике, поэтому это не новый вред редактора."
+    },
+    {
+      "finding_sha256": "60e09150179e039162e1b241a0d6427c4f79cca94fd29ad7398ae2f26b647d38",
+      "decision": "preexisting",
+      "reason": "В исходнике зрительное наблюдение; услышал добавляет сенсорный канал. Предложение полностью присутствовало в исходном русском черновике."
+    }
+  ],
+  "finding_decisions_status": "complete",
+  "scope_limits": "No new introduced meaning/voice failure confirmed in reviewed changes. Remaining original-draft problems and disputed stylistic readings are not certified absent. Natural preference votes stay unchanged."
+}

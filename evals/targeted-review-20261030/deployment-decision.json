@@ -1,0 +1,15 @@
+{
+  "candidate_integration": {
+    "idiom": false,
+    "fidelity": false,
+    "memory": false
+  },
+  "decision": "No candidate cleared all preregistered gates; do not activate experimental profiles.",
+  "published_skill_packages": 7,
+  "skills_tree_before": "114f6cd929fdc9b7b9eb27f1cb2734842fc83d4f",
+  "skills_tree_after": "114f6cd929fdc9b7b9eb27f1cb2734842fc83d4f",
+  "unchanged": true,
+  "experimental_profiles": "candidates/*.txt outside installable skills folders",
+  "test_harness_integrated": true,
+  "current_voting_dataset_unchanged": true
+}

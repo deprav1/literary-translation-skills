@@ -1,0 +1,308 @@
+{
+  "items": [
+    {
+      "id": "q81934bc463",
+      "reason": "A preserves the network's ability to accommodate newcomers. B makes that relationship awkward and semantically less accurate.",
+      "findings": [
+        {
+          "candidate": "B",
+          "severity": "minor",
+          "source_quote": "faster than the net could absorb them",
+          "target_quote": "быстрее, чем она успевала их освоить",
+          "reason": "«Освоить пользователей» suggests mastering or learning to use the users, rather than absorbing their influx."
+        }
+      ],
+      "overall": "A",
+      "meaning": "A",
+      "prose": "A"
+    },
+    {
+      "id": "qed34513c3c",
+      "reason": "Identical translations preserve the multiple selves, technical process, and conversational explanation.",
+      "findings": [],
+      "overall": "tie",
+      "meaning": "tie",
+      "prose": "tie"
+    },
+    {
+      "id": "qf75369d6ce",
+      "reason": "Identical translations preserve the distinction between the reef's bodies, the dangerous dance, and Kate's reaction.",
+      "findings": [],
+      "overall": "tie",
+      "meaning": "tie",
+      "prose": "tie"
+    },
+    {
+      "id": "q169b1b9d62",
+      "reason": "Identical translations preserve the command, bodily reaction, download sensation, and final interruption of consciousness.",
+      "findings": [],
+      "overall": "tie",
+      "meaning": "tie",
+      "prose": "tie"
+    },
+    {
+      "id": "q1a124e210a",
+      "reason": "Identical translations retain the retrospective argument, uncertainty about Earth's fate, and repeated point-of-view language.",
+      "findings": [],
+      "overall": "tie",
+      "meaning": "tie",
+      "prose": "tie"
+    },
+    {
+      "id": "q0ee1c0cd42",
+      "reason": "B correctly locates human existence inside the body. A shifts the question toward managing with a single object.",
+      "findings": [
+        {
+          "candidate": "A",
+          "severity": "minor",
+          "source_quote": "How did people get by in one of these?",
+          "target_quote": "Как люди вообще обходились одной такой штукой?",
+          "reason": "The source asks how humans function inside such a body; the translation asks how they manage with just one such thing."
+        }
+      ],
+      "overall": "B",
+      "meaning": "B",
+      "prose": "tie"
+    },
+    {
+      "id": "qdeb6786d21",
+      "reason": "Identical translations preserve Robbie's rationalization and the deliberately trivializing haircut comparison.",
+      "findings": [],
+      "overall": "tie",
+      "meaning": "tie",
+      "prose": "tie"
+    },
+    {
+      "id": "qfea9fde21e",
+      "reason": "B retains the films' background role, which A omits. Otherwise the translations are equivalent.",
+      "findings": [
+        {
+          "candidate": "A",
+          "severity": "minor",
+          "source_quote": "violent kung-fu movies playing in the background in crack-houses",
+          "target_quote": "жестокие фильмы о кунг-фу на экранах в притонах, где курили крэк",
+          "reason": "The films are specifically playing in the background, rather than merely appearing on screens."
+        }
+      ],
+      "overall": "B",
+      "meaning": "B",
+      "prose": "tie"
+    },
+    {
+      "id": "qdbaaab067c",
+      "reason": "Identical translations preserve the investigative deductions and repeated uncertainty about the occupant's identity.",
+      "findings": [],
+      "overall": "tie",
+      "meaning": "tie",
+      "prose": "tie"
+    },
+    {
+      "id": "qfa3f76ea9a",
+      "reason": "Identical translations retain the vertical cityscape, animated towers, fishlike robot formations, and intimate final gesture.",
+      "findings": [],
+      "overall": "tie",
+      "meaning": "tie",
+      "prose": "tie"
+    },
+    {
+      "id": "qa6ff60816c",
+      "reason": "Both preserve the rescue movements and signs of panic. The final sentence uses valid alternative Russian constructions.",
+      "findings": [],
+      "overall": "tie",
+      "meaning": "tie",
+      "prose": "tie"
+    },
+    {
+      "id": "q3cb5976585",
+      "reason": "Both preserve the injury and emotionally detached calculation. Worrying about an opponent and considering him a threat are valid contextual alternatives.",
+      "findings": [],
+      "overall": "tie",
+      "meaning": "tie",
+      "prose": "tie"
+    },
+    {
+      "id": "q269307d5a9",
+      "reason": "Both preserve the seizures' simultaneous incapacitating and protective effects. Their phrasing differs without a material change.",
+      "findings": [],
+      "overall": "tie",
+      "meaning": "tie",
+      "prose": "tie"
+    },
+    {
+      "id": "qd34f35c181",
+      "reason": "Identical translations preserve the distributed intelligence, inferred topology, and distinction between advice and an order.",
+      "findings": [],
+      "overall": "tie",
+      "meaning": "tie",
+      "prose": "tie"
+    },
+    {
+      "id": "qcf950c4864",
+      "reason": "A retains the broader susceptibility to narcotics. B narrows this to addiction, which the supplied passage does not explicitly establish.",
+      "findings": [
+        {
+          "candidate": "B",
+          "severity": "minor",
+          "source_quote": "a susceptibility to narcotics",
+          "target_quote": "наркотической зависимости",
+          "reason": "Susceptibility to narcotics can include heightened sensitivity to their effects; addiction is a more specific condition."
+        }
+      ],
+      "overall": "A",
+      "meaning": "A",
+      "prose": "tie"
+    },
+    {
+      "id": "qdf715a19a6",
+      "reason": "Identical translations preserve the child's hesitation, conceptual struggle, and accusation.",
+      "findings": [],
+      "overall": "tie",
+      "meaning": "tie",
+      "prose": "tie"
+    },
+    {
+      "id": "qe1201d759d",
+      "reason": "Identical translations preserve the surveillance measures and Arturo's reason for avoiding an arrest.",
+      "findings": [],
+      "overall": "tie",
+      "meaning": "tie",
+      "prose": "tie"
+    },
+    {
+      "id": "qcbe946abf7",
+      "reason": "Both preserve the speed-dial discovery and the disconnected number's bleak implication. The final formulations are valid alternatives.",
+      "findings": [],
+      "overall": "tie",
+      "meaning": "tie",
+      "prose": "tie"
+    },
+    {
+      "id": "qe8c00254a0",
+      "reason": "Identical translations preserve the drifting boat, first awakened reef, and earlier electromagnetic activity.",
+      "findings": [],
+      "overall": "tie",
+      "meaning": "tie",
+      "prose": "tie"
+    },
+    {
+      "id": "q7c3d95f57d",
+      "reason": "Identical translations preserve the disturbing replacement image, hesitation, and repeated insistence that Siri has changed.",
+      "findings": [],
+      "overall": "tie",
+      "meaning": "tie",
+      "prose": "tie"
+    },
+    {
+      "id": "q4d3dc54baa",
+      "reason": "Identical translations preserve the legal threat, anti-religious irony, and pleasure of forbidden theological debate.",
+      "findings": [],
+      "overall": "tie",
+      "meaning": "tie",
+      "prose": "tie"
+    },
+    {
+      "id": "qa8a286da66",
+      "reason": "Both preserve the human-versus-shell realization and physical danger. Splitting or joining the following sentence is a valid rhythmic choice.",
+      "findings": [],
+      "overall": "tie",
+      "meaning": "tie",
+      "prose": "tie"
+    },
+    {
+      "id": "q28167c0ed9",
+      "reason": "Identical translations preserve Arturo's fear of an intelligence unconstrained by the three laws and the hypothetical shooting.",
+      "findings": [],
+      "overall": "tie",
+      "meaning": "tie",
+      "prose": "tie"
+    },
+    {
+      "id": "qeb5bfb523b",
+      "reason": "B expresses learning through observation naturally. A's instrumental construction is awkward; the remaining text is identical.",
+      "findings": [
+        {
+          "candidate": "A",
+          "severity": "minor",
+          "source_quote": "still learning by observation",
+          "target_quote": "всё ещё учился наблюдением",
+          "reason": "«Учился наблюдением» is an unidiomatic construction for learning through observation."
+        }
+      ],
+      "overall": "B",
+      "meaning": "tie",
+      "prose": "B"
+    },
+    {
+      "id": "qd96c62da74",
+      "reason": "Identical translations preserve the inflated professional introduction and the comic scale of the mother's shrine.",
+      "findings": [],
+      "overall": "tie",
+      "meaning": "tie",
+      "prose": "tie"
+    },
+    {
+      "id": "qb6f48742c7",
+      "reason": "Identical translations preserve the brutal sequence and the unthinking movement toward Pag.",
+      "findings": [],
+      "overall": "tie",
+      "meaning": "tie",
+      "prose": "tie"
+    },
+    {
+      "id": "q8221a17b47",
+      "reason": "A correctly attaches the compensatory effort to the hemisphere. B introduces a dangling participial phrase.",
+      "findings": [
+        {
+          "candidate": "B",
+          "severity": "minor",
+          "source_quote": "as it tried to take up the slack",
+          "target_quote": "Подумайте, сколько соединений пришлось с трудом перестроить этому одинокому полушарию, пытаясь восполнить потерю.",
+          "reason": "«Пытаясь» lacks a grammatically appropriate subject in the impersonal clause and can attach to the imperative's addressee rather than the hemisphere."
+        }
+      ],
+      "overall": "A",
+      "meaning": "tie",
+      "prose": "A"
+    },
+    {
+      "id": "q52c8bbe1ec",
+      "reason": "A preserves the attackers' greater size. B substitutes greater age, which is not established.",
+      "findings": [
+        {
+          "candidate": "B",
+          "severity": "minor",
+          "source_quote": "six bigger kids",
+          "target_quote": "шестерых ребят постарше",
+          "reason": "The source specifies physical size, not age."
+        }
+      ],
+      "overall": "A",
+      "meaning": "A",
+      "prose": "tie"
+    },
+    {
+      "id": "q49808d15b8",
+      "reason": "Both preserve the confession, threats against the family, and distinction between explanation and excuse. The reordered clause is a valid alternative.",
+      "findings": [],
+      "overall": "tie",
+      "meaning": "tie",
+      "prose": "tie"
+    },
+    {
+      "id": "qff3beb7bf1",
+      "reason": "B preserves the weapon's unrestricted target category. A restricts it to persons, a meaningful distinction in this scene about a machine-killing device.",
+      "findings": [
+        {
+          "candidate": "A",
+          "severity": "minor",
+          "source_quote": "kill anything that comes after him",
+          "target_quote": "убей всех, кто за ним пойдёт",
+          "reason": "«Всех, кто» narrows the instruction to persons, whereas «anything» also encompasses machines and other pursuing targets."
+        }
+      ],
+      "overall": "B",
+      "meaning": "B",
+      "prose": "tie"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "phase": "synthetic_fidelity",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "medium",
+  "session_id_sha256": "630fc109ff8083ffaad5fd3dcaaa6872408323b2dbe82afdd568fe9b5989c2f6",
+  "observed_runtime_item_types": [
+    "agent_message",
+    "error"
+  ],
+  "tool_calls": 0,
+  "fresh_session": true,
+  "exit_code": 0,
+  "prompt_sha256": "dfa79164b18120cf34c210e1d172d7fb21372fede80c25412d2580206f01a500",
+  "input_sha256": "b729bcd8d887862e374b0b0900cdbb87af25f2ff3c21d2b8b28580aa202a1ac4",
+  "instruction_sha256": "bbf841d876abcd6ce111b23e87336fe90096f3ff07b19767a5b44eb269a244de",
+  "output_sha256": "78d2ca1a34af5cad57d0da30b092baddcc8a75ef112aa34c5ce3ed034fc0dd31",
+  "elapsed_seconds": 21.96,
+  "usage": [
+    {
+      "input_tokens": 15888,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1263,
+      "reasoning_output_tokens": 225
+    }
+  ],
+  "preregistration_sha256": "7042a1b616639cb1b8450e93e16a0464713ec3f03f8ff03975781adfbf207fee"
+}

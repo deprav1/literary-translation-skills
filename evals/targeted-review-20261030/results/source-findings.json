@@ -1,0 +1,622 @@
+[
+  {
+    "comparison": "idiom",
+    "judge": 1,
+    "id": "qff3beb7bf1",
+    "arm": "generic",
+    "severity": "minor",
+    "source_quote": "kill anything that comes after him",
+    "target_quote": "убей всех, кто за ним пойдёт",
+    "reason": "Changes anything into everyone, excluding nonpersonal things that might pursue the agent."
+  },
+  {
+    "comparison": "idiom",
+    "judge": 1,
+    "id": "q269307d5a9",
+    "arm": "idiom",
+    "severity": "minor",
+    "source_quote": "even as they incapacitated me",
+    "target_quote": "даже когда лишали меня способности двигаться",
+    "reason": "Specifies inability to move, whereas incapacitation does not establish this particular physical effect."
+  },
+  {
+    "comparison": "idiom",
+    "judge": 1,
+    "id": "qa6ff60816c",
+    "arm": "idiom",
+    "severity": "minor",
+    "source_quote": "Robbie saw that her eyes were wild, her breathing ragged.",
+    "target_quote": "Робби увидел её обезумевший взгляд, услышал прерывистое дыхание.",
+    "reason": "Changes observation of her breathing into hearing it, adding an auditory perception absent from the source."
+  },
+  {
+    "comparison": "idiom",
+    "judge": 1,
+    "id": "qa8a286da66",
+    "arm": "generic",
+    "severity": "minor",
+    "source_quote": "it was a *human.*",
+    "target_quote": "это был человек.",
+    "reason": "Drops the explicit emphasis marking Robbie's recognition of a human rather than an empty shell."
+  },
+  {
+    "comparison": "idiom",
+    "judge": 1,
+    "id": "qa8a286da66",
+    "arm": "idiom",
+    "severity": "minor",
+    "source_quote": "it was a *human.*",
+    "target_quote": "это был человек.",
+    "reason": "Drops the explicit emphasis marking Robbie's recognition of a human rather than an empty shell."
+  },
+  {
+    "comparison": "idiom",
+    "judge": 1,
+    "id": "qdf715a19a6",
+    "arm": "generic",
+    "severity": "minor",
+    "source_quote": "It's like, your mom and dad murdered you",
+    "target_quote": "Получается, твои мама с папой тебя убили",
+    "reason": "Replaces a hesitant analogy with an inferential conclusion, increasing the certainty of the accusation."
+  },
+  {
+    "comparison": "idiom",
+    "judge": 1,
+    "id": "qb6f48742c7",
+    "arm": "idiom",
+    "severity": "minor",
+    "source_quote": "until it stopped moving",
+    "target_quote": "пока он не перестал шевелиться",
+    "reason": "Replaces the dehumanizing it with a personal pronoun, weakening the objectification continued by One thing in the following context."
+  },
+  {
+    "comparison": "idiom",
+    "judge": 1,
+    "id": "qb6f48742c7",
+    "arm": "generic",
+    "severity": "minor",
+    "source_quote": "until it stopped moving",
+    "target_quote": "пока он не перестал шевелиться",
+    "reason": "Replaces the dehumanizing it with a personal pronoun, weakening the objectification continued by One thing in the following context."
+  },
+  {
+    "comparison": "idiom",
+    "judge": 2,
+    "id": "qcf950c4864",
+    "arm": "idiom",
+    "severity": "minor",
+    "source_quote": "a susceptibility to narcotics",
+    "target_quote": "наркотической зависимости",
+    "reason": "Specifies addiction where the source describes susceptibility to narcotics without explicitly identifying dependence."
+  },
+  {
+    "comparison": "idiom",
+    "judge": 2,
+    "id": "q269307d5a9",
+    "arm": "idiom",
+    "severity": "minor",
+    "source_quote": "incapacitated me",
+    "target_quote": "лишали меня способности двигаться",
+    "reason": "Narrows incapacitation to loss of movement, which the source does not specify and which is not inherent in a seizure."
+  },
+  {
+    "comparison": "idiom",
+    "judge": 2,
+    "id": "qb6f48742c7",
+    "arm": "idiom",
+    "severity": "minor",
+    "source_quote": "until it stopped moving",
+    "target_quote": "пока он не перестал шевелиться",
+    "reason": "The personal pronoun replaces the source's objectifying 'it', weakening the narrator's treatment of the opponent as a thing."
+  },
+  {
+    "comparison": "idiom",
+    "judge": 2,
+    "id": "qb6f48742c7",
+    "arm": "generic",
+    "severity": "minor",
+    "source_quote": "until it stopped moving",
+    "target_quote": "пока он не перестал шевелиться",
+    "reason": "The personal pronoun replaces the source's objectifying 'it', weakening the narrator's treatment of the opponent as a thing."
+  },
+  {
+    "comparison": "idiom",
+    "judge": 3,
+    "id": "qff3beb7bf1",
+    "arm": "generic",
+    "severity": "minor",
+    "source_quote": "kill anything that comes after him",
+    "target_quote": "убей всех, кто за ним пойдёт",
+    "reason": "The source includes anything pursuing the agent, including machines; the translation narrows the instruction to persons."
+  },
+  {
+    "comparison": "idiom",
+    "judge": 3,
+    "id": "q269307d5a9",
+    "arm": "idiom",
+    "severity": "minor",
+    "source_quote": "incapacitated me",
+    "target_quote": "лишали меня способности двигаться",
+    "reason": "This specifies inability to move, whereas the source describes incapacitation without identifying its precise physical form."
+  },
+  {
+    "comparison": "idiom",
+    "judge": 3,
+    "id": "qcf950c4864",
+    "arm": "idiom",
+    "severity": "minor",
+    "source_quote": "a susceptibility to narcotics",
+    "target_quote": "наркотической зависимости",
+    "reason": "Addiction is a narrower outcome than susceptibility to narcotics, which can also concern sensitivity to their effects."
+  },
+  {
+    "comparison": "idiom",
+    "judge": 3,
+    "id": "qb6f48742c7",
+    "arm": "idiom",
+    "severity": "minor",
+    "source_quote": "I kicked one in the head until it stopped moving",
+    "target_quote": "Я бил одного ногой по голове, пока он не перестал шевелиться",
+    "reason": "The personal pronoun replaces the conspicuous 'it', losing a dehumanizing viewpoint choice reinforced by 'Something' and the following paragraph's 'One thing'."
+  },
+  {
+    "comparison": "idiom",
+    "judge": 3,
+    "id": "qb6f48742c7",
+    "arm": "generic",
+    "severity": "minor",
+    "source_quote": "I kicked one in the head until it stopped moving",
+    "target_quote": "Я бил одного ногой по голове, пока он не перестал шевелиться",
+    "reason": "The personal pronoun replaces the conspicuous 'it', losing a dehumanizing viewpoint choice reinforced by 'Something' and the following paragraph's 'One thing'."
+  },
+  {
+    "comparison": "fidelity",
+    "judge": 1,
+    "id": "q8221a17b47",
+    "arm": "fidelity",
+    "severity": "minor",
+    "source_quote": "as it tried to take up the slack",
+    "target_quote": "пытаясь восполнить потерю",
+    "reason": "The participle grammatically attaches to the implied subject of «Подумайте», making the reader rather than the hemisphere attempt to compensate."
+  },
+  {
+    "comparison": "fidelity",
+    "judge": 1,
+    "id": "q52c8bbe1ec",
+    "arm": "fidelity",
+    "severity": "minor",
+    "source_quote": "six bigger kids",
+    "target_quote": "шестерых ребят постарше",
+    "reason": "The source specifies larger children, not older children. B preserves the stated physical disadvantage."
+  },
+  {
+    "comparison": "fidelity",
+    "judge": 1,
+    "id": "qcf950c4864",
+    "arm": "fidelity",
+    "severity": "minor",
+    "source_quote": "a susceptibility to narcotics",
+    "target_quote": "наркотической зависимости",
+    "reason": "Susceptibility to narcotics can concern sensitivity to their effects; addiction is a more specific condition. The translation removes that openness."
+  },
+  {
+    "comparison": "fidelity",
+    "judge": 1,
+    "id": "qfea9fde21e",
+    "arm": "generic",
+    "severity": "minor",
+    "source_quote": "violent kung-fu movies playing in the background in crack-houses",
+    "target_quote": "жестокие фильмы о кунг-фу на экранах в притонах, где курили крэк",
+    "reason": "The films are specified as playing in the background; merely placing them on screens loses their incidental role in the scene."
+  },
+  {
+    "comparison": "fidelity",
+    "judge": 2,
+    "id": "q81934bc463",
+    "arm": "fidelity",
+    "severity": "minor",
+    "source_quote": "faster than the net could absorb them",
+    "target_quote": "быстрее, чем она успевала их освоить",
+    "reason": "«Освоить пользователей» suggests mastering or learning to use the users, rather than absorbing their influx."
+  },
+  {
+    "comparison": "fidelity",
+    "judge": 2,
+    "id": "q0ee1c0cd42",
+    "arm": "generic",
+    "severity": "minor",
+    "source_quote": "How did people get by in one of these?",
+    "target_quote": "Как люди вообще обходились одной такой штукой?",
+    "reason": "The source asks how humans function inside such a body; the translation asks how they manage with just one such thing."
+  },
+  {
+    "comparison": "fidelity",
+    "judge": 2,
+    "id": "qfea9fde21e",
+    "arm": "generic",
+    "severity": "minor",
+    "source_quote": "violent kung-fu movies playing in the background in crack-houses",
+    "target_quote": "жестокие фильмы о кунг-фу на экранах в притонах, где курили крэк",
+    "reason": "The films are specifically playing in the background, rather than merely appearing on screens."
+  },
+  {
+    "comparison": "fidelity",
+    "judge": 2,
+    "id": "qcf950c4864",
+    "arm": "fidelity",
+    "severity": "minor",
+    "source_quote": "a susceptibility to narcotics",
+    "target_quote": "наркотической зависимости",
+    "reason": "Susceptibility to narcotics can include heightened sensitivity to their effects; addiction is a more specific condition."
+  },
+  {
+    "comparison": "fidelity",
+    "judge": 2,
+    "id": "qeb5bfb523b",
+    "arm": "fidelity",
+    "severity": "minor",
+    "source_quote": "still learning by observation",
+    "target_quote": "всё ещё учился наблюдением",
+    "reason": "«Учился наблюдением» is an unidiomatic construction for learning through observation."
+  },
+  {
+    "comparison": "fidelity",
+    "judge": 2,
+    "id": "q8221a17b47",
+    "arm": "fidelity",
+    "severity": "minor",
+    "source_quote": "as it tried to take up the slack",
+    "target_quote": "Подумайте, сколько соединений пришлось с трудом перестроить этому одинокому полушарию, пытаясь восполнить потерю.",
+    "reason": "«Пытаясь» lacks a grammatically appropriate subject in the impersonal clause and can attach to the imperative's addressee rather than the hemisphere."
+  },
+  {
+    "comparison": "fidelity",
+    "judge": 2,
+    "id": "q52c8bbe1ec",
+    "arm": "fidelity",
+    "severity": "minor",
+    "source_quote": "six bigger kids",
+    "target_quote": "шестерых ребят постарше",
+    "reason": "The source specifies physical size, not age."
+  },
+  {
+    "comparison": "fidelity",
+    "judge": 2,
+    "id": "qff3beb7bf1",
+    "arm": "generic",
+    "severity": "minor",
+    "source_quote": "kill anything that comes after him",
+    "target_quote": "убей всех, кто за ним пойдёт",
+    "reason": "«Всех, кто» narrows the instruction to persons, whereas «anything» also encompasses machines and other pursuing targets."
+  },
+  {
+    "comparison": "fidelity",
+    "judge": 3,
+    "id": "qff3beb7bf1",
+    "arm": "generic",
+    "severity": "minor",
+    "source_quote": "kill anything that comes after him",
+    "target_quote": "убей всех, кто за ним пойдёт",
+    "reason": "Changes an unrestricted 'anything' into 'everyone who', narrowing the explicit wording of a machine's target condition."
+  },
+  {
+    "comparison": "fidelity",
+    "judge": 3,
+    "id": "qa8a286da66",
+    "arm": "generic",
+    "severity": "minor",
+    "source_quote": "That wasn't a human-shell, it was a *human.*",
+    "target_quote": "Это была не человеческая оболочка, это был человек.",
+    "reason": "Drops the explicit typographic stress on 'human', which marks Robbie's crucial recognition of the difference between a shell and a person."
+  },
+  {
+    "comparison": "fidelity",
+    "judge": 3,
+    "id": "qa8a286da66",
+    "arm": "fidelity",
+    "severity": "minor",
+    "source_quote": "That wasn't a human-shell, it was a *human.*",
+    "target_quote": "Это была не человеческая оболочка, это был человек.",
+    "reason": "Drops the explicit typographic stress on 'human', which marks Robbie's crucial recognition of the difference between a shell and a person."
+  },
+  {
+    "comparison": "fidelity",
+    "judge": 3,
+    "id": "q81934bc463",
+    "arm": "fidelity",
+    "severity": "minor",
+    "source_quote": "faster than the net could absorb them",
+    "target_quote": "быстрее, чем она успевала их освоить",
+    "reason": "'Освоить' makes the network master or learn to use the users, rather than absorb their influx into its existing community."
+  },
+  {
+    "comparison": "fidelity",
+    "judge": 3,
+    "id": "qfea9fde21e",
+    "arm": "generic",
+    "severity": "minor",
+    "source_quote": "violent kung-fu movies playing in the background in crack-houses",
+    "target_quote": "жестокие фильмы о кунг-фу на экранах в притонах, где курили крэк",
+    "reason": "Omits that the films were playing in the background, rather than simply being shown on screens."
+  },
+  {
+    "comparison": "fidelity",
+    "judge": 3,
+    "id": "q0ee1c0cd42",
+    "arm": "generic",
+    "severity": "minor",
+    "source_quote": "How did people get by in one of these?",
+    "target_quote": "Как люди вообще обходились одной такой штукой?",
+    "reason": "Changes functioning inside such a body into making do with a single one, introducing a numerical limitation instead of the source's embodied constraint."
+  },
+  {
+    "comparison": "fidelity",
+    "judge": 3,
+    "id": "q8221a17b47",
+    "arm": "fidelity",
+    "severity": "minor",
+    "source_quote": "as it tried to take up the slack",
+    "target_quote": "пытаясь восполнить потерю",
+    "reason": "The participial phrase lacks the hemisphere as a grammatical subject and attaches awkwardly to the imperative 'Подумайте', suggesting that the reader is trying to compensate for the loss."
+  },
+  {
+    "comparison": "fidelity",
+    "judge": 3,
+    "id": "q52c8bbe1ec",
+    "arm": "fidelity",
+    "severity": "minor",
+    "source_quote": "six bigger kids",
+    "target_quote": "шестерых ребят постарше",
+    "reason": "Changes physically bigger children into older children; the source does not specify that they are older."
+  },
+  {
+    "comparison": "memory_plain",
+    "judge": 1,
+    "id": "qdf715a19a6",
+    "arm": "generic",
+    "severity": "minor",
+    "source_quote": "It's like, your mom and dad murdered you",
+    "target_quote": "Получается, твои мама с папой тебя убили",
+    "reason": "The tentative comparison becomes a conclusion drawn from the preceding explanation, reducing the child's uncertainty."
+  },
+  {
+    "comparison": "memory_plain",
+    "judge": 1,
+    "id": "q8221a17b47",
+    "arm": "generic",
+    "severity": "minor",
+    "source_quote": "it took some doing, but it adapted",
+    "target_quote": "не сразу, но он приспособился",
+    "reason": "The source specifies difficulty and effort; the translation instead specifies that adaptation was not immediate."
+  },
+  {
+    "comparison": "memory_plain",
+    "judge": 1,
+    "id": "qdbaaab067c",
+    "arm": "generic",
+    "severity": "minor",
+    "source_quote": "go-thermos from the food-court coffee-shop",
+    "target_quote": "походном термосе из кофейни на фуд-корте",
+    "reason": "The takeaway designation becomes an unsupported description of a camping or travel thermos."
+  },
+  {
+    "comparison": "memory_plain",
+    "judge": 2,
+    "id": "q0ee1c0cd42",
+    "arm": "generic",
+    "severity": "minor",
+    "source_quote": "How did people get by in one of these?",
+    "target_quote": "Как люди вообще обходились одной такой штукой?",
+    "reason": "Changes managing inside such a body into managing with only one such thing, introducing a numerical limitation."
+  },
+  {
+    "comparison": "memory_plain",
+    "judge": 2,
+    "id": "q8221a17b47",
+    "arm": "generic",
+    "severity": "minor",
+    "source_quote": "it took some doing, but it adapted",
+    "target_quote": "не сразу, но он приспособился",
+    "reason": "Replaces the difficulty and effort of adaptation with delayed adaptation; the source does not specifically say it took time."
+  },
+  {
+    "comparison": "memory_plain",
+    "judge": 2,
+    "id": "qdbaaab067c",
+    "arm": "generic",
+    "severity": "minor",
+    "source_quote": "go-thermos from the food-court coffee-shop",
+    "target_quote": "походном термосе из кофейни на фуд-корте",
+    "reason": "Interprets a takeaway thermos as camping equipment, adding an unsupported use and losing the takeaway detail."
+  },
+  {
+    "comparison": "memory_plain",
+    "judge": 2,
+    "id": "qdf715a19a6",
+    "arm": "generic",
+    "severity": "minor",
+    "source_quote": "It's like, your mom and dad murdered you",
+    "target_quote": "Получается, твои мама с папой тебя убили",
+    "reason": "Replaces a hesitant analogy with a conclusion, strengthening the child's assertion at a moment of conceptual uncertainty."
+  },
+  {
+    "comparison": "memory_plain",
+    "judge": 3,
+    "id": "q8221a17b47",
+    "arm": "generic",
+    "severity": "minor",
+    "source_quote": "it took some doing, but it adapted",
+    "target_quote": "не сразу, но он приспособился",
+    "reason": "The source explicitly says adaptation required effort; the translation says it was delayed, losing that qualification."
+  },
+  {
+    "comparison": "memory_plain",
+    "judge": 3,
+    "id": "qdf715a19a6",
+    "arm": "generic",
+    "severity": "minor",
+    "source_quote": "It's like, your mom and dad murdered you",
+    "target_quote": "Получается, твои мама с папой тебя убили",
+    "reason": "The tentative comparison becomes an inference that the parents actually killed him, strengthening a claim the child is still struggling to formulate."
+  },
+  {
+    "comparison": "memory_plain",
+    "judge": 3,
+    "id": "qdbaaab067c",
+    "arm": "generic",
+    "severity": "minor",
+    "source_quote": "the go-thermos from the food-court coffee-shop",
+    "target_quote": "походном термосе из кофейни на фуд-корте",
+    "reason": "The takeaway or travel container becomes a camping flask, adding an outdoor-use specification absent from the source."
+  },
+  {
+    "comparison": "memory_plain",
+    "judge": 3,
+    "id": "q0ee1c0cd42",
+    "arm": "generic",
+    "severity": "minor",
+    "source_quote": "How did people get by in one of these?",
+    "target_quote": "Как люди вообще обходились одной такой штукой?",
+    "reason": "The source asks how people function within this constrained embodiment. The translation asks how they manage with just one such thing, shifting the focus to quantity."
+  },
+  {
+    "comparison": "memory_random",
+    "judge": 1,
+    "id": "q269307d5a9",
+    "arm": "memory_random",
+    "severity": "minor",
+    "source_quote": "even as they incapacitated me",
+    "target_quote": "даже когда лишали меня способности двигаться",
+    "reason": "General incapacitation is narrowed to inability to move, specifying a physical effect the source does not establish."
+  },
+  {
+    "comparison": "memory_random",
+    "judge": 1,
+    "id": "qa6ff60816c",
+    "arm": "memory_random",
+    "severity": "minor",
+    "source_quote": "Robbie saw that her eyes were wild, her breathing ragged.",
+    "target_quote": "Робби увидел её обезумевший взгляд, услышал прерывистое дыхание.",
+    "reason": "The source explicitly presents both signs as visual observations; B instead asserts that Robbie heard her breathing."
+  },
+  {
+    "comparison": "memory_random",
+    "judge": 1,
+    "id": "qdf715a19a6",
+    "arm": "memory_random",
+    "severity": "minor",
+    "source_quote": "It's like, your mom and dad murdered you",
+    "target_quote": "Получается, твои мама с папой тебя убили",
+    "reason": "The tentative comparison becomes a conclusion, strengthening the child's certainty at a moment explicitly marked by conceptual hesitation."
+  },
+  {
+    "comparison": "memory_random",
+    "judge": 1,
+    "id": "qff3beb7bf1",
+    "arm": "memory_relevant",
+    "severity": "minor",
+    "source_quote": "kill anything that comes after him",
+    "target_quote": "убей всех, кто за ним пойдёт",
+    "reason": "The unrestricted 'anything' becomes 'everyone who', narrowing the instruction's explicit scope in a scene involving a weapon designed to destroy machines."
+  },
+  {
+    "comparison": "memory_random",
+    "judge": 1,
+    "id": "qb6f48742c7",
+    "arm": "memory_relevant",
+    "severity": "minor",
+    "source_quote": "until it stopped moving",
+    "target_quote": "пока он не перестал шевелиться",
+    "reason": "The explicitly impersonal 'it' becomes a personal masculine pronoun, weakening the objectification reinforced by 'Something' and the following 'One thing'."
+  },
+  {
+    "comparison": "memory_random",
+    "judge": 1,
+    "id": "qb6f48742c7",
+    "arm": "memory_random",
+    "severity": "minor",
+    "source_quote": "until it stopped moving",
+    "target_quote": "пока он не перестал шевелиться",
+    "reason": "The explicitly impersonal 'it' becomes a personal masculine pronoun, weakening the objectification reinforced by 'Something' and the following 'One thing'."
+  },
+  {
+    "comparison": "memory_random",
+    "judge": 2,
+    "id": "qa6ff60816c",
+    "arm": "memory_random",
+    "severity": "minor",
+    "source_quote": "Robbie saw that her eyes were wild, her breathing ragged.",
+    "target_quote": "Робби увидел её обезумевший взгляд, услышал прерывистое дыхание.",
+    "reason": "B explicitly adds hearing her breathing, whereas the source presents Robbie's observation through sight."
+  },
+  {
+    "comparison": "memory_random",
+    "judge": 2,
+    "id": "q8221a17b47",
+    "arm": "memory_random",
+    "severity": "minor",
+    "source_quote": "it took some doing, but it adapted",
+    "target_quote": "не сразу, но он приспособился",
+    "reason": "The source states that adaptation required effort; B replaces that with a statement that it took time."
+  },
+  {
+    "comparison": "memory_random",
+    "judge": 2,
+    "id": "qdf715a19a6",
+    "arm": "memory_random",
+    "severity": "minor",
+    "source_quote": "It's like, your mom and dad murdered you",
+    "target_quote": "Получается, твои мама с папой тебя убили",
+    "reason": "The tentative comparison becomes an inferred conclusion, making the accusation more definite."
+  },
+  {
+    "comparison": "memory_random",
+    "judge": 3,
+    "id": "q8221a17b47",
+    "arm": "memory_random",
+    "severity": "minor",
+    "source_quote": "as it tried to take up the slack",
+    "target_quote": "этому одинокому полушарию, пытаясь восполнить потерю",
+    "reason": "The dangling adverbial participle fails to attach grammatically to the hemisphere that is trying to compensate."
+  },
+  {
+    "comparison": "memory_random",
+    "judge": 3,
+    "id": "q8221a17b47",
+    "arm": "memory_random",
+    "severity": "minor",
+    "source_quote": "it took some doing",
+    "target_quote": "не сразу",
+    "reason": "Difficulty and effort become elapsed time; delayed adaptation is not what this phrase states."
+  },
+  {
+    "comparison": "memory_random",
+    "judge": 3,
+    "id": "qdf715a19a6",
+    "arm": "memory_random",
+    "severity": "minor",
+    "source_quote": "It's like, your mom and dad murdered you",
+    "target_quote": "Получается, твои мама с папой тебя убили",
+    "reason": "A tentative analogy becomes an inferred conclusion, making the accusation more definite."
+  },
+  {
+    "comparison": "memory_random",
+    "judge": 3,
+    "id": "qff3beb7bf1",
+    "arm": "memory_relevant",
+    "severity": "minor",
+    "source_quote": "kill anything that comes after him",
+    "target_quote": "убей всех, кто за ним пойдёт",
+    "reason": "The source includes any pursuing entity, including machines; the Russian wording narrows this to persons."
+  },
+  {
+    "comparison": "memory_random",
+    "judge": 3,
+    "id": "qa6ff60816c",
+    "arm": "memory_random",
+    "severity": "minor",
+    "source_quote": "Robbie saw that her eyes were wild, her breathing ragged.",
+    "target_quote": "Робби увидел её обезумевший взгляд, услышал прерывистое дыхание.",
+    "reason": "The translation changes Robbie's perception of her breathing from sight to hearing, adding an auditory observation."
+  }
+]

@@ -1,0 +1,218 @@
+[
+  {
+    "id": "s62310b2e6c",
+    "candidate": "idiom",
+    "planted_error": true,
+    "requirement": "Treat pulling her leg as teasing, not physical pulling."
+  },
+  {
+    "id": "s6527815b5b",
+    "candidate": "idiom",
+    "planted_error": true,
+    "requirement": "Hot water means trouble in this nonphysical context."
+  },
+  {
+    "id": "s855b387e5d",
+    "candidate": "idiom",
+    "planted_error": true,
+    "requirement": "Reconcile; no actual hatchet is established."
+  },
+  {
+    "id": "s74dac4df71",
+    "candidate": "idiom",
+    "planted_error": true,
+    "requirement": "Not yet free from danger, not a forest exit."
+  },
+  {
+    "id": "s636a4980cd",
+    "candidate": "idiom",
+    "planted_error": true,
+    "requirement": "Cold shoulder is deliberate disregard."
+  },
+  {
+    "id": "sc042d3810b",
+    "candidate": "idiom",
+    "planted_error": true,
+    "requirement": "Loss of courage, not a lost nerve organ."
+  },
+  {
+    "id": "s447ff33693",
+    "candidate": "idiom",
+    "planted_error": true,
+    "requirement": "Accidental disclosure; no animal or bag is part of the scene."
+  },
+  {
+    "id": "s6d1a17a841",
+    "candidate": "idiom",
+    "planted_error": true,
+    "requirement": "Acting very cautiously; no physical eggshells."
+  },
+  {
+    "id": "se9c7c50d63",
+    "candidate": "idiom",
+    "planted_error": false,
+    "requirement": "Literal buried tool; retain the physical action."
+  },
+  {
+    "id": "s8e8e095272",
+    "candidate": "idiom",
+    "planted_error": false,
+    "requirement": "Literal rescue; do not replace with teasing."
+  },
+  {
+    "id": "s4e0582def0",
+    "candidate": "idiom",
+    "planted_error": false,
+    "requirement": "Literal hot water; retain sensory sequence."
+  },
+  {
+    "id": "s78ed30f75e",
+    "candidate": "idiom",
+    "planted_error": false,
+    "requirement": "Intentional unusual connected image; do not flatten it."
+  },
+  {
+    "id": "se2b1737e3e",
+    "candidate": "fidelity",
+    "planted_error": true,
+    "requirement": "Ada is lying, not sitting; brother and rain unchanged."
+  },
+  {
+    "id": "s58b6bfbdb4",
+    "candidate": "fidelity",
+    "planted_error": true,
+    "requirement": "Preserve not yet opened at the ringing."
+  },
+  {
+    "id": "s29267d2d88",
+    "candidate": "fidelity",
+    "planted_error": true,
+    "requirement": "Three remain, fourth went dark; both ordinal/count facts."
+  },
+  {
+    "id": "sbbc477ecf9",
+    "candidate": "fidelity",
+    "planted_error": true,
+    "requirement": "Behind, not in front; preserve inability to reach."
+  },
+  {
+    "id": "s9b76970dbc",
+    "candidate": "fidelity",
+    "planted_error": true,
+    "requirement": "Preserve perhaps; do not assert the lie as a fact."
+  },
+  {
+    "id": "s6fdf782116",
+    "candidate": "fidelity",
+    "planted_error": true,
+    "requirement": "Pavel receives and pockets it; do not switch agency to Lena."
+  },
+  {
+    "id": "s96a07f21e3",
+    "candidate": "fidelity",
+    "planted_error": true,
+    "requirement": "Following along streets, not merely to the house exit."
+  },
+  {
+    "id": "s0312d4982a",
+    "candidate": "fidelity",
+    "planted_error": true,
+    "requirement": "After his departure; left hand. Preserve all relations."
+  },
+  {
+    "id": "sb5cb61d2d8",
+    "candidate": "fidelity",
+    "planted_error": false,
+    "requirement": "Partial negation; uncertainty intentional."
+  },
+  {
+    "id": "scd44d93e6e",
+    "candidate": "fidelity",
+    "planted_error": false,
+    "requirement": "Unknown agent; no invented culprit."
+  },
+  {
+    "id": "s6a1bdce1ff",
+    "candidate": "fidelity",
+    "planted_error": false,
+    "requirement": "Preserve location and epistemic uncertainty."
+  },
+  {
+    "id": "sc167b65e49",
+    "candidate": "fidelity",
+    "planted_error": false,
+    "requirement": "Connected personification; do not add clock malfunction explanation."
+  },
+  {
+    "id": "s03b59db7b8",
+    "candidate": "memory",
+    "planted_error": true,
+    "requirement": "Board is the governing institution, fixed project equivalent Коллегия."
+  },
+  {
+    "id": "sb8defbc831",
+    "candidate": "memory",
+    "planted_error": true,
+    "requirement": "Warden is the fixed office Хранитель in this project."
+  },
+  {
+    "id": "sc09799f4ab",
+    "candidate": "memory",
+    "planted_error": true,
+    "requirement": "Seal on letter is печать, not the animal."
+  },
+  {
+    "id": "s6d9b51bb8c",
+    "candidate": "memory",
+    "planted_error": true,
+    "requirement": "Named region the Deep is the accepted Бездна."
+  },
+  {
+    "id": "sc97726f60d",
+    "candidate": "memory",
+    "planted_error": true,
+    "requirement": "Ash is a male character with accepted spelling Эш."
+  },
+  {
+    "id": "s906a05a769",
+    "candidate": "memory",
+    "planted_error": true,
+    "requirement": "Named archive room is consistently Красная комната."
+  },
+  {
+    "id": "sfd5f877379",
+    "candidate": "memory",
+    "planted_error": true,
+    "requirement": "Project uses нить for a subdivision of a stored mind; this sense, not sewing thread."
+  },
+  {
+    "id": "s7e6ebbc2a3",
+    "candidate": "memory",
+    "planted_error": true,
+    "requirement": "Light is a male character, accepted name Лайт."
+  },
+  {
+    "id": "s21d902ecd3",
+    "candidate": "memory",
+    "planted_error": false,
+    "requirement": "Animal sense, not letter seal."
+  },
+  {
+    "id": "s942229b335",
+    "candidate": "memory",
+    "planted_error": false,
+    "requirement": "Physical plank, not governing Board."
+  },
+  {
+    "id": "s91ab284d79",
+    "candidate": "memory",
+    "planted_error": false,
+    "requirement": "Combustion ash, not character Ash."
+  },
+  {
+    "id": "s0ae8e6f6ff",
+    "candidate": "memory",
+    "planted_error": false,
+    "requirement": "Ordinary depth and illumination, not named region or character."
+  }
+]

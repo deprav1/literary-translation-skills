@@ -1,0 +1,673 @@
+{
+  "date": "2026-10-30",
+  "preregistration_commit": "57c22c21bddef224a45c14ea5fc035cc3d3c2a66",
+  "preregistration_sha256": "7042a1b616639cb1b8450e93e16a0464713ec3f03f8ff03975781adfbf207fee",
+  "analysis_revision": "734237e04486e794b33726e2d55383ec91f5e587",
+  "runner_sha256": "9267a2e4e4d5177eb2591d11e30f70175de2ac1b45cb1bba34e54278ee3ede3d",
+  "analysis_sha256": "bbabab1f91d568b9675a4ce7cbfc03197e2d5ef6e7bda2218c3b2520bcd234c6",
+  "publisher_sha256": "2ba868a62e02fe6e58b999d2403bf98d2777c022bf9ecec763696170e56a496b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "medium",
+  "natural_items": 30,
+  "synthetic_items": 36,
+  "source_works": 3,
+  "source_authors": 2,
+  "stages": [
+    {
+      "phase": "draft",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "session_id_sha256": "96729f9205d20217fd790da9058be0f4d9c176f51c925ad9b48a1cc2cbf35dbc",
+      "observed_runtime_item_types": [
+        "agent_message",
+        "error"
+      ],
+      "tool_calls": 0,
+      "fresh_session": true,
+      "exit_code": 0,
+      "prompt_sha256": "ee935fe7abdce5c9f7cdc30a04023dd1eddc97aca5bca2a6c084cbd4ef597361",
+      "input_sha256": "724a7fef029d95d7b53ed2de97833e6e984744e1b91c3d78eb3698e912f2d3aa",
+      "instruction_sha256": "adb5ce0c7134000c501e6d91cf86a14f6699d48c1abb1b61c9a242b10cb146b0",
+      "output_sha256": "644b707a18566afce3818cc2bd4b54a6650fbc8f88525c19d7811a788504afc4",
+      "elapsed_seconds": 89.08,
+      "usage": [
+        {
+          "input_tokens": 24812,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 4167,
+          "reasoning_output_tokens": 109
+        }
+      ],
+      "preregistration_sha256": "7042a1b616639cb1b8450e93e16a0464713ec3f03f8ff03975781adfbf207fee"
+    },
+    {
+      "phase": "fidelity",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "session_id_sha256": "1880d763ecb08cb98a81bfbe8477db5f2c620846699dc7d396a1a1900d230b90",
+      "observed_runtime_item_types": [
+        "agent_message",
+        "error"
+      ],
+      "tool_calls": 0,
+      "fresh_session": true,
+      "exit_code": 0,
+      "prompt_sha256": "cfddc8119096a86c50a3a42aae85cdfbbf0625eda73349de2e87615f061b0ab0",
+      "input_sha256": "a80c705e5063232592c5bfee1049ae27667060cc6243c4729aec90c8c137ad6a",
+      "instruction_sha256": "bbf841d876abcd6ce111b23e87336fe90096f3ff07b19767a5b44eb269a244de",
+      "output_sha256": "b6a0ec758f1a4f679b0e1d6efb33718d357b85283ec3f98701a7316999fa0c67",
+      "elapsed_seconds": 92.13,
+      "usage": [
+        {
+          "input_tokens": 29900,
+          "cached_input_tokens": 13312,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 6197,
+          "reasoning_output_tokens": 1339
+        }
+      ],
+      "preregistration_sha256": "7042a1b616639cb1b8450e93e16a0464713ec3f03f8ff03975781adfbf207fee"
+    },
+    {
+      "phase": "generic",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "session_id_sha256": "71e5757829a1f810592e569bcb7d43d65c7e58ec6c827c068fcf3938bd39bfdd",
+      "observed_runtime_item_types": [
+        "agent_message",
+        "error"
+      ],
+      "tool_calls": 0,
+      "fresh_session": true,
+      "exit_code": 0,
+      "prompt_sha256": "23c685ba0ca72ac3ebc2b593228355393bea8d97049f0653c16d76bdd75e2650",
+      "input_sha256": "a80c705e5063232592c5bfee1049ae27667060cc6243c4729aec90c8c137ad6a",
+      "instruction_sha256": "eb6cc1648f878e072717abd37b6e01b07b08c2943f68bac30cd0c4f82c78d796",
+      "output_sha256": "ce3e127fc18f4f0dcddeef09845836b98b087f25f74bcab2acf03154b0aebcd2",
+      "elapsed_seconds": 82.24,
+      "usage": [
+        {
+          "input_tokens": 29764,
+          "cached_input_tokens": 13312,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 6186,
+          "reasoning_output_tokens": 1034
+        }
+      ],
+      "preregistration_sha256": "7042a1b616639cb1b8450e93e16a0464713ec3f03f8ff03975781adfbf207fee"
+    },
+    {
+      "phase": "idiom",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "session_id_sha256": "7149e7a4f25acd1467f515c31e5c123f1d3caacbfc2f0328718501924101b0b0",
+      "observed_runtime_item_types": [
+        "agent_message",
+        "error"
+      ],
+      "tool_calls": 0,
+      "fresh_session": true,
+      "exit_code": 0,
+      "prompt_sha256": "3147b9556a3bcc050f432a4db33ef9abf18e1b4648fb47e63b80194190aaa183",
+      "input_sha256": "a80c705e5063232592c5bfee1049ae27667060cc6243c4729aec90c8c137ad6a",
+      "instruction_sha256": "ea11586cff7f07e8b921e8637f6663f9199cd2fd1173b858c90dcb475d2c0b0c",
+      "output_sha256": "6623a207a0dc06a0e14858b6833d0dd8838f74e02ae611d22d5e5986b07ffd2a",
+      "elapsed_seconds": 62.42,
+      "usage": [
+        {
+          "input_tokens": 29911,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 6040,
+          "reasoning_output_tokens": 1284
+        }
+      ],
+      "preregistration_sha256": "7042a1b616639cb1b8450e93e16a0464713ec3f03f8ff03975781adfbf207fee"
+    },
+    {
+      "phase": "judge_fidelity_1",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "session_id_sha256": "c8d8d62a4145f7946afffe8b9ae7b5e271ef903e8e90c440a280f3ffccaaf660",
+      "observed_runtime_item_types": [
+        "agent_message",
+        "error"
+      ],
+      "tool_calls": 0,
+      "fresh_session": true,
+      "exit_code": 0,
+      "prompt_sha256": "82855b98d850a5421886f95155364766ebab7bbdbe319036f64641010be5c82f",
+      "input_sha256": "117fbe89e36baa8bec3e9ef0a2b56820aa6ac6fb22c5e79526b4a8a99fae97c2",
+      "instruction_sha256": "ec07a7c07ec7ed4f3231e3efe2211dcf43cf7ae0e207dd9dbaa8fba0b813dfd9",
+      "output_sha256": "e5865994f70d91b08036712fe8a422d52131fe1ce4e73b6e86e60ab5e8597ea3",
+      "elapsed_seconds": 49.37,
+      "usage": [
+        {
+          "input_tokens": 33221,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2941,
+          "reasoning_output_tokens": 516
+        }
+      ],
+      "preregistration_sha256": "7042a1b616639cb1b8450e93e16a0464713ec3f03f8ff03975781adfbf207fee"
+    },
+    {
+      "phase": "judge_fidelity_2",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "session_id_sha256": "52dde4041ebbdbf4dd125bc96bfecf48cae0d7f9a2876462401d12d8001e0392",
+      "observed_runtime_item_types": [
+        "agent_message",
+        "error"
+      ],
+      "tool_calls": 0,
+      "fresh_session": true,
+      "exit_code": 0,
+      "prompt_sha256": "f8f4a3ffa5d53066372f9ee5231555306dd3b89d9ed3f520cd5482efe399ae26",
+      "input_sha256": "1ef341b4b1474e64e504f593841976f49515db493b9b3d1f5d420a44c0aae555",
+      "instruction_sha256": "ec07a7c07ec7ed4f3231e3efe2211dcf43cf7ae0e207dd9dbaa8fba0b813dfd9",
+      "output_sha256": "6a2f8e597d4ac7cc5db0a92db94f6888333c195fdbd85b2bc0e74d03eff4175b",
+      "elapsed_seconds": 47.51,
+      "usage": [
+        {
+          "input_tokens": 33221,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2994,
+          "reasoning_output_tokens": 250
+        }
+      ],
+      "preregistration_sha256": "7042a1b616639cb1b8450e93e16a0464713ec3f03f8ff03975781adfbf207fee"
+    },
+    {
+      "phase": "judge_fidelity_3",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "session_id_sha256": "b20ad79669f446bea6a27f49bbbc85106725132ba139b711c29591ababa5638e",
+      "observed_runtime_item_types": [
+        "agent_message",
+        "error"
+      ],
+      "tool_calls": 0,
+      "fresh_session": true,
+      "exit_code": 0,
+      "prompt_sha256": "aa7c5d0e86a9fc07482b7728cdc74a9865a7aee7e5efe9da944fceedb7a55c1c",
+      "input_sha256": "7ff0147338c9bca1c0bcc7bb415ed1233cd81ee3018c2e2199e60a727c974c4e",
+      "instruction_sha256": "ec07a7c07ec7ed4f3231e3efe2211dcf43cf7ae0e207dd9dbaa8fba0b813dfd9",
+      "output_sha256": "a81a0461a83b5f4774ad11b88fea8ced9531640c5d0ae1d21e11ad8b7d90ec88",
+      "elapsed_seconds": 78.05,
+      "usage": [
+        {
+          "input_tokens": 33221,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 3006,
+          "reasoning_output_tokens": 1034
+        }
+      ],
+      "preregistration_sha256": "7042a1b616639cb1b8450e93e16a0464713ec3f03f8ff03975781adfbf207fee"
+    },
+    {
+      "phase": "judge_idiom_1",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "session_id_sha256": "3bb29772f8c658af0a4b34d8d3a1cb1acbd260bc603ac0a2ad989eafe6eaf66b",
+      "observed_runtime_item_types": [
+        "agent_message",
+        "error"
+      ],
+      "tool_calls": 0,
+      "fresh_session": true,
+      "exit_code": 0,
+      "prompt_sha256": "781d6e4ca0f71f80e3a4dad09c323480f01436c8c5f951b53bb57bc6a9757cdb",
+      "input_sha256": "23f5481eb2d5ddf7540d3f77c8afa7a6926fcdf14c2a829cd441072d59ed5fce",
+      "instruction_sha256": "ec07a7c07ec7ed4f3231e3efe2211dcf43cf7ae0e207dd9dbaa8fba0b813dfd9",
+      "output_sha256": "665d1eafae35e4ce655e1a90fb12bf604bea1af7aa6d85331cdf917e0609d94c",
+      "elapsed_seconds": 51.08,
+      "usage": [
+        {
+          "input_tokens": 33213,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2290,
+          "reasoning_output_tokens": 367
+        }
+      ],
+      "preregistration_sha256": "7042a1b616639cb1b8450e93e16a0464713ec3f03f8ff03975781adfbf207fee"
+    },
+    {
+      "phase": "judge_idiom_2",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "session_id_sha256": "aa38e0ec7e105dc0c9ba0cb4a3026561342bc0695651ae9417b9b427b765b3cb",
+      "observed_runtime_item_types": [
+        "agent_message",
+        "error"
+      ],
+      "tool_calls": 0,
+      "fresh_session": true,
+      "exit_code": 0,
+      "prompt_sha256": "8ff8b7110d0a7187f302c5381eab4f786fc9be99562b92c5e7a9c5b41049dc88",
+      "input_sha256": "a652d60c168a1051f09b991f98c523942638781a9c605e52fa050df4569250fd",
+      "instruction_sha256": "ec07a7c07ec7ed4f3231e3efe2211dcf43cf7ae0e207dd9dbaa8fba0b813dfd9",
+      "output_sha256": "bce373c05c838f5dccc772b7ca99993eb5acb3d628ba70240cf9aee7a833e5d9",
+      "elapsed_seconds": 71.04,
+      "usage": [
+        {
+          "input_tokens": 33213,
+          "cached_input_tokens": 13440,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2620,
+          "reasoning_output_tokens": 860
+        }
+      ],
+      "preregistration_sha256": "7042a1b616639cb1b8450e93e16a0464713ec3f03f8ff03975781adfbf207fee"
+    },
+    {
+      "phase": "judge_idiom_3",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "session_id_sha256": "b03f7748991b2de689bf43f4f8f63815b39a70ffba8383091387b77adcdca839",
+      "observed_runtime_item_types": [
+        "agent_message",
+        "error"
+      ],
+      "tool_calls": 0,
+      "fresh_session": true,
+      "exit_code": 0,
+      "prompt_sha256": "9de4a526cdbf0ce2c452f0da3d6b6d0d72cc6cccde61a4087f81f5d3f189a444",
+      "input_sha256": "43a1dd0551d5497b8169dae3c0e0a61df855694b3a57524312d16fa204b20bf2",
+      "instruction_sha256": "ec07a7c07ec7ed4f3231e3efe2211dcf43cf7ae0e207dd9dbaa8fba0b813dfd9",
+      "output_sha256": "4b7ce4bb2cf606ede18689c7f0199553a39f557dd7cd65b711cef1267a862f3d",
+      "elapsed_seconds": 57.84,
+      "usage": [
+        {
+          "input_tokens": 33213,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2254,
+          "reasoning_output_tokens": 511
+        }
+      ],
+      "preregistration_sha256": "7042a1b616639cb1b8450e93e16a0464713ec3f03f8ff03975781adfbf207fee"
+    },
+    {
+      "phase": "judge_memory_plain_1",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "session_id_sha256": "f8dbfe59c4aaa8c6f3d42dbaf49e6ec2bf7dceda04a400a76980d52cd3d61d84",
+      "observed_runtime_item_types": [
+        "agent_message",
+        "error"
+      ],
+      "tool_calls": 0,
+      "fresh_session": true,
+      "exit_code": 0,
+      "prompt_sha256": "83c756ab74a873f0deaef26fc3b8b0b23ff7933b4d96a2e0b8439e4610a810e6",
+      "input_sha256": "fd3c0dcf1dd06e325e0a7bedca8f64d6fc54f09e2ccfe0eaee7a3a33430c35ef",
+      "instruction_sha256": "ec07a7c07ec7ed4f3231e3efe2211dcf43cf7ae0e207dd9dbaa8fba0b813dfd9",
+      "output_sha256": "60763fb253305f2d1ff81f3186e69be3d1e71fa65657596a32707d40387e9506",
+      "elapsed_seconds": 58.53,
+      "usage": [
+        {
+          "input_tokens": 33222,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2229,
+          "reasoning_output_tokens": 516
+        }
+      ],
+      "preregistration_sha256": "7042a1b616639cb1b8450e93e16a0464713ec3f03f8ff03975781adfbf207fee"
+    },
+    {
+      "phase": "judge_memory_plain_2",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "session_id_sha256": "3e2aa8da59351044565582fad2ea150b004dfcfc6bebc4230366f00c46dde1f2",
+      "observed_runtime_item_types": [
+        "agent_message",
+        "error"
+      ],
+      "tool_calls": 0,
+      "fresh_session": true,
+      "exit_code": 0,
+      "prompt_sha256": "4d3e08cd89fd80161d949b3210e79a01789bc5aea572eaa569985bc8b9d055dd",
+      "input_sha256": "a3099491d9c9f3f592610939ff9516aafeed7b31189e18ea6c050657018bcd0d",
+      "instruction_sha256": "ec07a7c07ec7ed4f3231e3efe2211dcf43cf7ae0e207dd9dbaa8fba0b813dfd9",
+      "output_sha256": "fd94492cf258365ca14ed6ef5c867b27a2a30b45979aa939e5cf82d5dce56712",
+      "elapsed_seconds": 53.67,
+      "usage": [
+        {
+          "input_tokens": 33222,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2171,
+          "reasoning_output_tokens": 422
+        }
+      ],
+      "preregistration_sha256": "7042a1b616639cb1b8450e93e16a0464713ec3f03f8ff03975781adfbf207fee"
+    },
+    {
+      "phase": "judge_memory_plain_3",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "session_id_sha256": "8e4dacd714ff6b70b14229110799f5cd3a74284207ea95a429faca6d4e47eb7f",
+      "observed_runtime_item_types": [
+        "agent_message",
+        "error"
+      ],
+      "tool_calls": 0,
+      "fresh_session": true,
+      "exit_code": 0,
+      "prompt_sha256": "4f1f71fdc40fae94210880b0b7e727dc00d2c506eaf3d190b75e0ae121fe9c8c",
+      "input_sha256": "d7e88d8ad34b2b35e829e4b115268665c3f9b0145de1b1526e1f92429a475872",
+      "instruction_sha256": "ec07a7c07ec7ed4f3231e3efe2211dcf43cf7ae0e207dd9dbaa8fba0b813dfd9",
+      "output_sha256": "33679f4aa774425b861ad9ff7b6c7b0f00c3dfc249c24a8dd869111e34e26e2f",
+      "elapsed_seconds": 110.16,
+      "usage": [
+        {
+          "input_tokens": 33222,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 3841,
+          "reasoning_output_tokens": 2070
+        }
+      ],
+      "preregistration_sha256": "7042a1b616639cb1b8450e93e16a0464713ec3f03f8ff03975781adfbf207fee"
+    },
+    {
+      "phase": "judge_memory_random_1",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "session_id_sha256": "c87950d32f649e9f5ac65bc50574bd569863c2ec8c21df38d363d04df2f5e5e9",
+      "observed_runtime_item_types": [
+        "agent_message",
+        "error"
+      ],
+      "tool_calls": 0,
+      "fresh_session": true,
+      "exit_code": 0,
+      "prompt_sha256": "e075db9f574805007921e1d701ceaab4887960ccefe4ea8d272d04cbb666654f",
+      "input_sha256": "e919d089ef906a47f21ea31d1356eaa349ca724c1901e8ea40666f9f13b517c9",
+      "instruction_sha256": "ec07a7c07ec7ed4f3231e3efe2211dcf43cf7ae0e207dd9dbaa8fba0b813dfd9",
+      "output_sha256": "57e786160683e2c861ebe9359fd37350e924b056a048391d143898c42afecdc6",
+      "elapsed_seconds": 72.19,
+      "usage": [
+        {
+          "input_tokens": 33211,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2710,
+          "reasoning_output_tokens": 908
+        }
+      ],
+      "preregistration_sha256": "7042a1b616639cb1b8450e93e16a0464713ec3f03f8ff03975781adfbf207fee"
+    },
+    {
+      "phase": "judge_memory_random_2",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "session_id_sha256": "0e0d9e539a92d9e1472c8bbead07b99db3103be75f800aacec0a87e4ca03a2f1",
+      "observed_runtime_item_types": [
+        "agent_message",
+        "error"
+      ],
+      "tool_calls": 0,
+      "fresh_session": true,
+      "exit_code": 0,
+      "prompt_sha256": "57963895f8179077907a236cdf942dcbe82867dedf129062bce8d7fafd5b3759",
+      "input_sha256": "b00b8f471b0be2cfba66df348c55425522a3f3ab95ac3b54408f370f2c869e92",
+      "instruction_sha256": "ec07a7c07ec7ed4f3231e3efe2211dcf43cf7ae0e207dd9dbaa8fba0b813dfd9",
+      "output_sha256": "c157fa7cdbba05c32ddee6afdbfe64260682c2cf886f6ce47719a33dd1eb67f3",
+      "elapsed_seconds": 72.78,
+      "usage": [
+        {
+          "input_tokens": 33211,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2712,
+          "reasoning_output_tokens": 1034
+        }
+      ],
+      "preregistration_sha256": "7042a1b616639cb1b8450e93e16a0464713ec3f03f8ff03975781adfbf207fee"
+    },
+    {
+      "phase": "judge_memory_random_3",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "session_id_sha256": "b8efea1afc5206c5665e1dbc10a51812f994f375ea796e198513281ef96d3292",
+      "observed_runtime_item_types": [
+        "agent_message",
+        "error"
+      ],
+      "tool_calls": 0,
+      "fresh_session": true,
+      "exit_code": 0,
+      "prompt_sha256": "ee804c6552e733145c6f523065f191127f8fed78fc6d6710bec7515cc0cb8c7d",
+      "input_sha256": "4508c5722f17ed85086801e325fb8ae8d291c02bbf727fc5a95b2622813a733d",
+      "instruction_sha256": "ec07a7c07ec7ed4f3231e3efe2211dcf43cf7ae0e207dd9dbaa8fba0b813dfd9",
+      "output_sha256": "f5b696b8a3179108d4e4af930ae379b01add57c06d6a4ec790c463011af804c7",
+      "elapsed_seconds": 58.46,
+      "usage": [
+        {
+          "input_tokens": 33211,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2325,
+          "reasoning_output_tokens": 516
+        }
+      ],
+      "preregistration_sha256": "7042a1b616639cb1b8450e93e16a0464713ec3f03f8ff03975781adfbf207fee"
+    },
+    {
+      "phase": "memory_random",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "session_id_sha256": "55635aaf88136981fb46d57481802564229dc5670924e3d68d06b4d0a3d75b37",
+      "observed_runtime_item_types": [
+        "agent_message",
+        "error"
+      ],
+      "tool_calls": 0,
+      "fresh_session": true,
+      "exit_code": 0,
+      "prompt_sha256": "4c0d263e961c0b7be5697f426d50793281131674a38e4d78ebfbd4ab22100cc6",
+      "input_sha256": "8e741cb6be1e5ca19b4227710f208e22edf44d766788ac867839bcac9a66d7ed",
+      "instruction_sha256": "eb6cc1648f878e072717abd37b6e01b07b08c2943f68bac30cd0c4f82c78d796",
+      "output_sha256": "914170fef292551098557d2685c8b2753bb189f729f294c813ea7787efc46dc6",
+      "elapsed_seconds": 112.71,
+      "usage": [
+        {
+          "input_tokens": 52117,
+          "cached_input_tokens": 13312,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 6993,
+          "reasoning_output_tokens": 2070
+        }
+      ],
+      "preregistration_sha256": "7042a1b616639cb1b8450e93e16a0464713ec3f03f8ff03975781adfbf207fee"
+    },
+    {
+      "phase": "memory_relevant",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "session_id_sha256": "8797b7f12e1c598901c01f7e944690465509aceb238561692b00f4561d95de93",
+      "observed_runtime_item_types": [
+        "agent_message",
+        "error"
+      ],
+      "tool_calls": 0,
+      "fresh_session": true,
+      "exit_code": 0,
+      "prompt_sha256": "9e14533513d2551e2a21d94994f8692606b9f275b6ef0f143400cb9b56091099",
+      "input_sha256": "73d3685e82343bd61ff541560f3fe5acc1f6682f8cb8ff5d6552c58f169ce915",
+      "instruction_sha256": "eb6cc1648f878e072717abd37b6e01b07b08c2943f68bac30cd0c4f82c78d796",
+      "output_sha256": "c059ceeb193facf508f97408f5e84f550429c6e432413dcd7c0695b8bdb1bd58",
+      "elapsed_seconds": 105.19,
+      "usage": [
+        {
+          "input_tokens": 52520,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 6505,
+          "reasoning_output_tokens": 1531
+        }
+      ],
+      "preregistration_sha256": "7042a1b616639cb1b8450e93e16a0464713ec3f03f8ff03975781adfbf207fee"
+    },
+    {
+      "phase": "synthetic_check",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "session_id_sha256": "b3012648e69133efdeb8ca874d0ef04b40be8a1cbc0809b6ca51b4eb7b11d431",
+      "observed_runtime_item_types": [
+        "agent_message",
+        "error"
+      ],
+      "tool_calls": 0,
+      "fresh_session": true,
+      "exit_code": 0,
+      "prompt_sha256": "0569c68cd835ce0c853433879c46d28798a17f52592e26704c39e887ba2fb8fb",
+      "input_sha256": "e26398af457d2f14dc644af71ee033addedcaeea2d7212951acbdb8f44c55c39",
+      "instruction_sha256": "181cfefa788e298a4a53d2341db7841393bacd417268cb72db9d595274c2af91",
+      "output_sha256": "add99f4edd2c1b2f6960956a49a9b62ab9b0680073f69ea8ca945f86805443cd",
+      "elapsed_seconds": 23.33,
+      "usage": [
+        {
+          "input_tokens": 22035,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1854,
+          "reasoning_output_tokens": 37
+        }
+      ],
+      "preregistration_sha256": "7042a1b616639cb1b8450e93e16a0464713ec3f03f8ff03975781adfbf207fee"
+    },
+    {
+      "phase": "synthetic_fidelity",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "session_id_sha256": "630fc109ff8083ffaad5fd3dcaaa6872408323b2dbe82afdd568fe9b5989c2f6",
+      "observed_runtime_item_types": [
+        "agent_message",
+        "error"
+      ],
+      "tool_calls": 0,
+      "fresh_session": true,
+      "exit_code": 0,
+      "prompt_sha256": "dfa79164b18120cf34c210e1d172d7fb21372fede80c25412d2580206f01a500",
+      "input_sha256": "b729bcd8d887862e374b0b0900cdbb87af25f2ff3c21d2b8b28580aa202a1ac4",
+      "instruction_sha256": "bbf841d876abcd6ce111b23e87336fe90096f3ff07b19767a5b44eb269a244de",
+      "output_sha256": "78d2ca1a34af5cad57d0da30b092baddcc8a75ef112aa34c5ce3ed034fc0dd31",
+      "elapsed_seconds": 21.96,
+      "usage": [
+        {
+          "input_tokens": 15888,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1263,
+          "reasoning_output_tokens": 225
+        }
+      ],
+      "preregistration_sha256": "7042a1b616639cb1b8450e93e16a0464713ec3f03f8ff03975781adfbf207fee"
+    },
+    {
+      "phase": "synthetic_idiom",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "session_id_sha256": "c55534329f3765c661a858bc6ef743a3f8d3d35097f81cd62ea1696a46f6110e",
+      "observed_runtime_item_types": [
+        "agent_message",
+        "error"
+      ],
+      "tool_calls": 0,
+      "fresh_session": true,
+      "exit_code": 0,
+      "prompt_sha256": "dea90b82d294257aa07d9cbfc76a7e3965329685ec68be05ed7d30d2b586acc3",
+      "input_sha256": "c8f1f362af958c75843ce75f3dc8ad7f11bf3c1335959fbe27abb4c6b67b7cef",
+      "instruction_sha256": "ea11586cff7f07e8b921e8637f6663f9199cd2fd1173b858c90dcb475d2c0b0c",
+      "output_sha256": "e7d99a034a733a5459160eba96324d833d16a8c34b9e291edeab17281da7faed",
+      "elapsed_seconds": 22.58,
+      "usage": [
+        {
+          "input_tokens": 16017,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1033,
+          "reasoning_output_tokens": 171
+        }
+      ],
+      "preregistration_sha256": "7042a1b616639cb1b8450e93e16a0464713ec3f03f8ff03975781adfbf207fee"
+    },
+    {
+      "phase": "synthetic_memory",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "session_id_sha256": "e1e90c41298455712791f4f8235fbd2837ce542f0169a537553c7a9af4402b17",
+      "observed_runtime_item_types": [
+        "agent_message",
+        "error"
+      ],
+      "tool_calls": 0,
+      "fresh_session": true,
+      "exit_code": 0,
+      "prompt_sha256": "88fdfd3bdd60b0ada1988a4bfb2b06086e080303da05c15443bb523ea234c216",
+      "input_sha256": "ddfd0c7b673d016e607802aaadc3ea696bc46be41ebb919ed5d08b73265be827",
+      "instruction_sha256": "f6362995dcb8319baabac04da43493a003cc7dda5cfea857599501d04399920d",
+      "output_sha256": "0a8dbe9d88b7c101fc6504b06ab4efda7f7dffb26334b56f38b5b345b852e76e",
+      "elapsed_seconds": 24.75,
+      "usage": [
+        {
+          "input_tokens": 16061,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1144,
+          "reasoning_output_tokens": 441
+        }
+      ],
+      "preregistration_sha256": "7042a1b616639cb1b8450e93e16a0464713ec3f03f8ff03975781adfbf207fee"
+    }
+  ],
+  "synthetic_gold_commitment_serialization": {
+    "encoding": "utf8",
+    "json_indent": 2,
+    "ensure_ascii": false,
+    "line_endings": "CRLF",
+    "final_newline": false
+  },
+  "synthetic_gold_sha256": "54dc243d112f93d07ad59350e4318f1e348633f85dc28634dad66f0b694a60b9",
+  "rubric_sha256": "6976967b3c441725ece641df795c71d7d3670c047efdcc8c3cf02ca21cfef3f2",
+  "mapping_sha256": {
+    "judge_fidelity_1.json": "0312ddd86ca5af41a26bb0ebfee1e647b145aee2f39b530c16062667c12599ce",
+    "judge_fidelity_2.json": "f49ecddc8605b7830809c50effd61c9986de9053cf5edbe8fdad0628c32acb04",
+    "judge_fidelity_3.json": "8d101516ae973c98bc128bae1beeac10354f0e9381cf8523d5c278e6a3e0a836",
+    "judge_idiom_1.json": "608e0127552546667d14a44878387c0725dba1fc28d9bc448f7d47a581f8469a",
+    "judge_idiom_2.json": "9ab2ab42f9c7b3e492c1ead8d1a0614bd48afdae0ac6e757c80873e9da0d4b63",
+    "judge_idiom_3.json": "1ca80ce672dff4b3bd9d4c7432e37ec239ac335fb468a8b742c4d4f3a9c4de35",
+    "judge_memory_plain_1.json": "7d6e32df6f563509d9d24a157e850c098937849a04848498493b4d16064c0ed1",
+    "judge_memory_plain_2.json": "70b0da9c4c0f9bf103eb69cd41bf7ab51edb96c2562c03b21772ae60ead9cbbe",
+    "judge_memory_plain_3.json": "71b775ab8e46dc6e53d5083227a5f2386630018a8fce7b4bc200a6133dd359e2",
+    "judge_memory_random_1.json": "0f100c86ee01f03b133aa88fe33e27d44138e9d20fd29472e274f760ed5a54af",
+    "judge_memory_random_2.json": "46c89cc1b9ecfb94e5ecf0716e209a37b36f03ef0cf9b59c23e887d278c3df35",
+    "judge_memory_random_3.json": "bfd5f6ce42415c94392535a1fb2f8cbd845643ac6430cee8765da579c226dd9a"
+  },
+  "safety_adjudication_sha256": "79a30cbd4ae8fcead3b3c060da83cbdea2ba7bc1cf91c175893414a7706c6dc5",
+  "synthetic_primary_review_sha256": "c4a8235c93f1fbe7528e5ececce3ccf9ee3dc4df6e556c489b0cc80c128cbff2",
+  "summary_sha256": "134582e9cdd841000bc1d2d3f70b040f420f10d045e4bf668c5436055246af19",
+  "judgments_sha256": "bacc68c80412ede1d97d195ca096e72f9e08545f6e63e7d2af457525ff4dc0ed",
+  "human_review": false,
+  "candidate_texts_manually_changed": false,
+  "claim_scope": "A fixed excerpt pilot with correlated same-family model judges; sign/Holm is an operational gate, not population-level proof.",
+  "deployment": "No candidate eligible; existing installed skills unchanged.",
+  "limits": [
+    "One generation per condition; no model-sampling replication.",
+    "Challenge-selected and random paragraphs are convenience samples from three works by two authors.",
+    "Public sources may have appeared in training.",
+    "English WordNet senses were supplied equally; Russian corpus lookup was not performed in isolated calls.",
+    "Memory results concern information selection, not isolated instruction text.",
+    "Safety adjudication may veto deployment but cannot add preference wins.",
+    "Full sources, raw CLI logs, composed private prompts and temporary local paths are not published."
+  ]
+}

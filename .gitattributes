@@ -1,3 +1,5 @@
 * text=auto eol=lf
 # Preserve the exact preregistered synthetic-gold byte commitment.
-evals/targeted-review-20261030/results/synthetic-gold.json -text
+evals/targeted-review-20261030/results/synthetic-gold.json -text whitespace=cr-at-eol
+# Frozen instruction snapshots preserve the prompt's significant byte representation.
+evals/targeted-review-20261030/results/*/instruction.txt whitespace=-blank-at-eol,-blank-at-eof

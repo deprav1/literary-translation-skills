@@ -1,0 +1,122 @@
+{
+  "qeb5bfb523b": {
+    "A": "memory_relevant",
+    "B": "memory_random"
+  },
+  "qdbaaab067c": {
+    "A": "memory_relevant",
+    "B": "memory_random"
+  },
+  "q7c3d95f57d": {
+    "A": "memory_relevant",
+    "B": "memory_random"
+  },
+  "q1a124e210a": {
+    "A": "memory_random",
+    "B": "memory_relevant"
+  },
+  "q3cb5976585": {
+    "A": "memory_relevant",
+    "B": "memory_random"
+  },
+  "qcf950c4864": {
+    "A": "memory_random",
+    "B": "memory_relevant"
+  },
+  "q0ee1c0cd42": {
+    "A": "memory_relevant",
+    "B": "memory_random"
+  },
+  "q269307d5a9": {
+    "A": "memory_relevant",
+    "B": "memory_random"
+  },
+  "qb6f48742c7": {
+    "A": "memory_random",
+    "B": "memory_relevant"
+  },
+  "q4d3dc54baa": {
+    "A": "memory_relevant",
+    "B": "memory_random"
+  },
+  "qdf715a19a6": {
+    "A": "memory_random",
+    "B": "memory_relevant"
+  },
+  "qfa3f76ea9a": {
+    "A": "memory_random",
+    "B": "memory_relevant"
+  },
+  "qdeb6786d21": {
+    "A": "memory_random",
+    "B": "memory_relevant"
+  },
+  "q28167c0ed9": {
+    "A": "memory_random",
+    "B": "memory_relevant"
+  },
+  "qf75369d6ce": {
+    "A": "memory_random",
+    "B": "memory_relevant"
+  },
+  "qed34513c3c": {
+    "A": "memory_random",
+    "B": "memory_relevant"
+  },
+  "qe1201d759d": {
+    "A": "memory_relevant",
+    "B": "memory_random"
+  },
+  "qa6ff60816c": {
+    "A": "memory_relevant",
+    "B": "memory_random"
+  },
+  "q8221a17b47": {
+    "A": "memory_relevant",
+    "B": "memory_random"
+  },
+  "qd96c62da74": {
+    "A": "memory_random",
+    "B": "memory_relevant"
+  },
+  "qff3beb7bf1": {
+    "A": "memory_relevant",
+    "B": "memory_random"
+  },
+  "q49808d15b8": {
+    "A": "memory_relevant",
+    "B": "memory_random"
+  },
+  "qcbe946abf7": {
+    "A": "memory_random",
+    "B": "memory_relevant"
+  },
+  "qfea9fde21e": {
+    "A": "memory_random",
+    "B": "memory_relevant"
+  },
+  "q52c8bbe1ec": {
+    "A": "memory_relevant",
+    "B": "memory_random"
+  },
+  "q81934bc463": {
+    "A": "memory_random",
+    "B": "memory_relevant"
+  },
+  "q169b1b9d62": {
+    "A": "memory_relevant",
+    "B": "memory_random"
+  },
+  "qe8c00254a0": {
+    "A": "memory_random",
+    "B": "memory_relevant"
+  },
+  "qa8a286da66": {
+    "A": "memory_relevant",
+    "B": "memory_random"
+  },
+  "qd34f35c181": {
+    "A": "memory_relevant",
+    "B": "memory_random"
+  }
+}
