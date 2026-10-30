@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-31",
+  "timing": "After all translator outputs and coverage were inspected; before source-audit7. No translation quality outcomes or final scores used to design this correction.",
+  "problem": "Luna brief changed id q3cb5976585 to unknown q3cb5976585d. Frozen normalization retains a missing/empty target. A strict quote validator cannot demand a nonempty target quote from missing text.",
+  "correction": "Allow only critical omission findings on truly empty target text, with exact source evidence and empty/missing marker. Keep raw output and coverage failure. First complete model calls reused, not regenerated.",
+  "runner_and_analysis_inputs_unchanged": true,
+  "selection_and_thresholds_unchanged": true,
+  "risk": "An empty-text critical omission and coverage failure may both appear in raw diagnostics; final reporting deduplicates affected critical items and never counts it as two independent errors. A profile with failed coverage is ineligible regardless.",
+  "adapter_sha256": "206f197a03f74f05c6392a7517b46a621aa9fcdd37b3d6a251df9251cfc32127"
+}
