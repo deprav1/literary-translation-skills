@@ -20,6 +20,10 @@ def main():
     parser.add_argument('--workspace', type=Path, required=True)
     args = parser.parse_args(); workspace = args.workspace.resolve()
     assert not workspace.is_relative_to(ROOT.resolve())
+    coverage_adapter = BASE/'coverage-validation-amendment.json'
+    if coverage_adapter.exists():
+        from budget_coverage_adapter import activate
+        activate()
     check_amendment(); verify(workspace)
     destination = BASE/'results'; assert not destination.exists(), 'Never overwrite an evidence set'
     for name in ['publish_budget_trial.py', 'verify_budget_trial.py', 'budget_economic_gate.py', 'route_budget_trial.py']:
@@ -72,6 +76,7 @@ def main():
         'quality_scope': 'Known development excerpts, one generation per arm, model audit only; no general literary certification.',
         'deployment': 'Evaluation skill updated for explicit quality-cost auditing; translation profiles remain experimental and no website candidates changed.',
         'runtime_evidence_checked': True, 'private_prompts_or_logs_published': False,
+        'coverage_validation_amendment_sha256': sha(coverage_adapter.read_bytes()) if coverage_adapter.exists() else None,
         'human_review': False, 'manual_candidate_text_edits': False,
         'economic_estimates': costs}
     write(destination/'record.json', record)
