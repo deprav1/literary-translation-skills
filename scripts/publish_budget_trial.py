@@ -21,7 +21,11 @@ def main():
     args = parser.parse_args(); workspace = args.workspace.resolve()
     assert not workspace.is_relative_to(ROOT.resolve())
     coverage_adapter = BASE/'coverage-validation-amendment.json'
-    if coverage_adapter.exists():
+    prose_adapter = BASE/'prose-coverage-amendment.json'
+    if prose_adapter.exists():
+        from budget_prose_coverage_recovery import activate
+        activate()
+    elif coverage_adapter.exists():
         from budget_coverage_adapter import activate
         activate()
     check_amendment(); verify(workspace)
@@ -51,6 +55,8 @@ def main():
     roots = ['brief-used.json', 'candidate-mapping.json', 'pair-mapping.json', 'calibration-mapping.json',
              'issue-proposals.json', 'scored.json', 'route-terra.json', 'route-luna.json', 'route-anchor.json',
              'final-pair-mapping.json', 'final-prose-counts.json', 'economic-gates.json']
+    if (workspace/'prose-audit-normalized.json').exists():
+        roots += ['prose-audit-normalized.json', 'prose-audit-lineage.json']
     for name in roots:
         write(destination/name, read(workspace/name))
     production = set()
@@ -77,6 +83,8 @@ def main():
         'deployment': 'Evaluation skill updated for explicit quality-cost auditing; translation profiles remain experimental and no website candidates changed.',
         'runtime_evidence_checked': True, 'private_prompts_or_logs_published': False,
         'coverage_validation_amendment_sha256': sha(coverage_adapter.read_bytes()) if coverage_adapter.exists() else None,
+        'prose_coverage_amendment_sha256': sha(prose_adapter.read_bytes()) if prose_adapter.exists() else None,
+        'final_mask_amendment_sha256': sha((BASE/'final-mask-amendment.json').read_bytes()),
         'human_review': False, 'manual_candidate_text_edits': False,
         'economic_estimates': costs}
     write(destination/'record.json', record)

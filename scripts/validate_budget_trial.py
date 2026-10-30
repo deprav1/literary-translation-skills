@@ -13,6 +13,9 @@ from translation_economics import manifest_cost, pipeline_cost
 
 
 def validate():
+    if (BASE/'prose-coverage-amendment.json').exists():
+        from budget_prose_coverage_recovery import activate
+        activate()
     check_frozen(); results = BASE/'results'; record = read(results/'record.json')
     assert record['preregistration_sha256'] == sha((BASE/'preregistration.json').read_bytes())
     assert record['routing_amendment_sha256'] == sha((BASE/'routing-amendment.json').read_bytes())
@@ -27,6 +30,12 @@ def validate():
         assert stage['model'] == stage['requested_model'] and stage['model'] in set(config['models'].values())
         assert sha((results/stage['phase']/'output.json').read_bytes()) == stage['output_sha256']
     assert len(sessions) == record['model_calls'] <= 36
+    if (results/'prose-audit-lineage.json').exists():
+        lineage = read(results/'prose-audit-lineage.json')
+        assert lineage['raw_output_sha256'] == sha((results/'prose_audit/output.json').read_bytes())
+        assert lineage['completion_output_sha256'] == sha((results/'prose_coverage_completion/output.json').read_bytes())
+        assert lineage['derived_output_sha256'] == sha((results/'prose-audit-normalized.json').read_bytes())
+        assert read(results/'prose-audit-normalized.json')['pairs'] == read(results/'prose_audit/output.json')['pairs']
     # score() emits a working report; execute only in an isolated copy.
     with tempfile.TemporaryDirectory(prefix='budget-replay-') as temporary:
         workspace = Path(temporary)/'results'; shutil.copytree(results, workspace)
