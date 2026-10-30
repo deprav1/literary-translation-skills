@@ -1,0 +1,8 @@
+{
+  "date": "2026-10-31",
+  "timing": "Before base prose/adjudication results, before any routing or final prose calls.",
+  "problem": "Prelaunch review missed that final routing wrapper used model-family names in pair_ids and initial-letter candidate_ids. That could expose model identity to final prose review.",
+  "correction": "Replace generated final pair/candidate metadata with deterministic opaque hashes. Pair order, texts, source context, auditor, rubric and thresholds unchanged. Private mapping retained for exact replay.",
+  "adapter_sha256": "5ed23cf964eea624ece3fbe557c176a725b48f91cceea4531d113237f3ae7433",
+  "base_preregistration_and_routing_wrapper_unchanged": true
+}
