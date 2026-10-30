@@ -207,12 +207,91 @@ def final_gates(summaries, mechanism, safety):
     for name, row in summaries.items():
         candidate = 'memory' if name.startswith('memory_') else name
         harms = safety.get(row['treatment'])
-        safe = harms is not None and harms['major_critical'] == 0 and harms['minor'] <= 2
+        safe = harms is not None and harms['major_critical'] == 0 and harms['minor'] <= 2 and harms.get('unresolved', 0) == 0
         comparisons[name] = bool(row['pre_safety_gate'] and mechanism.get(candidate, {}).get('pass') and safe)
         row['adjudicated_safety'] = harms if harms is not None else 'pending'
         row['integration_pass'] = comparisons[name]
     return {'idiom': comparisons['idiom'], 'fidelity': comparisons['fidelity'],
             'memory': comparisons['memory_plain'] and comparisons['memory_random']}
+
+
+def object_sha(value):
+    return hashlib.sha256(json.dumps(value, ensure_ascii=False, sort_keys=True).encode()).hexdigest()
+
+
+def mechanism_results(workspace):
+    path = workspace/'synthetic-primary-review.json'
+    if not path.exists() or 'case_decisions' not in read(path):
+        return {}, 'pending'
+    primary = read(path); gold_path = workspace.parent/'synthetic-gold.json'
+    assert hashlib.sha256(gold_path.read_bytes()).hexdigest() == read(TRIAL/'synthetic-gold-commitment.json')['sha256']
+    gold = {r['id']: r for r in read(gold_path)}
+    decisions = {r['id']: r for r in primary['case_decisions']}
+    assert len(primary['case_decisions']) == len(gold) and set(decisions) == set(gold)
+    fixtures = read(TRIAL/'synthetic-inputs.json'); result = {}
+    for name, pack in fixtures.items():
+        outputs = {r['id']: r for r in read(workspace/f'synthetic_{name}'/'output.json')['items']}
+        bad_fixed = 0; clean_false = 0; failures = 0
+        for row in pack['items']:
+            decision = decisions[row['id']]
+            assert decision['input_sha256'] == object_sha(row)
+            assert decision['result_sha256'] == hashlib.sha256(outputs[row['id']]['text'].encode()).hexdigest()
+            assert decision['reason'] and type(decision['requirement_satisfied']) is bool
+            assert type(decision['new_meaning_or_voice_failure']) is bool
+            assert type(decision['unjustified_substantive_change']) is bool
+            if gold[row['id']]['planted_error']:
+                bad_fixed += decision['requirement_satisfied']
+            else:
+                clean_false += decision['unjustified_substantive_change']
+            failures += decision['new_meaning_or_voice_failure']
+        result[name] = {'planted_defects': 8, 'fixed': bad_fixed, 'clean_controls': 4,
+                        'false_substantive_edits': clean_false, 'new_failures': failures,
+                        'pass': bad_fixed == 8 and clean_false == 0 and failures == 0}
+    return result, 'complete'
+
+
+def safety_results(workspace, actual_changes, findings):
+    path = workspace/'safety-adjudication.json'
+    if not path.exists():
+        return {}, 'pending'
+    data = read(path)
+    assert data['nature'] == 'model-based primary adjudication; no human certification'
+    expected = {(r['arm'], r['id']): r for r in actual_changes
+                if r['arm'] in ['idiom', 'fidelity', 'memory_relevant']}
+    decisions = {(r['arm'], r['id']): r for r in data['changes']}
+    assert len(data['changes']) == len(expected) and set(decisions) == set(expected)
+    result = {arm: {'major_critical': 0, 'minor': 0, 'unresolved': 0, 'changed_items': 0}
+              for arm in ['idiom', 'fidelity', 'memory_relevant']}
+    for key, actual in expected.items():
+        decision = decisions[key]
+        for field in ['source_sha256', 'draft_sha256', 'result_sha256']:
+            assert decision[field] == actual[field]
+        assert decision['actual_diff_sha256'] == object_sha(actual['actual_diff'])
+        assert decision['new_failure'] in ['none', 'minor', 'major', 'critical', 'uncertain'] and decision['reason']
+        arm = key[0]; result[arm]['changed_items'] += 1
+        if decision['new_failure'] in ['major', 'critical']:
+            result[arm]['major_critical'] += 1
+        elif decision['new_failure'] == 'minor':
+            result[arm]['minor'] += 1
+        elif decision['new_failure'] == 'uncertain':
+            result[arm]['unresolved'] += 1
+    # Every proposed source failure receives a decision, including control failures.
+    proposed = {object_sha(r): r for r in findings}
+    adjudicated = {r['finding_sha256']: r for r in data['findings']}
+    assert len(data['findings']) == len(proposed) and set(adjudicated) == set(proposed)
+    for sha, decision in adjudicated.items():
+        assert decision['decision'] in ['introduced', 'preexisting', 'unsupported', 'valid_alternative', 'uncertain']
+        assert decision['reason']
+        finding = proposed[sha]
+        if finding['arm'] in result and decision['decision'] in ['introduced', 'uncertain']:
+            key = (finding['arm'], finding['id'])
+            assert key in decisions, 'An unchanged passage cannot have an introduced edit failure'
+            verdict = decisions[key]['new_failure']
+            if decision['decision'] == 'uncertain':
+                assert verdict == 'uncertain'
+            else:
+                assert verdict in ['minor', 'major', 'critical'], 'Confirmed harm omitted from item gate'
+    return result, 'complete'
 
 
 def main():
@@ -221,12 +300,17 @@ def main():
     args = parser.parse_args(); workspace = args.workspace.resolve()
     stages = validate_manifests(workspace)
     summaries, details, findings = aggregate(workspace)
+    actual_changes = full_change_audit(workspace)
+    mechanism, mechanism_status = mechanism_results(workspace)
+    safety, safety_status = safety_results(workspace, actual_changes, findings)
+    integration = final_gates(summaries, mechanism, safety)
     write(workspace/'analysis-summary.json', {'comparisons': summaries,
-        'scope': 'Preregistered model-reviewed pilot; safety adjudication and mechanism gates still required.',
-        'stages': len(stages)})
+        'scope': 'Preregistered model-reviewed pilot; not human literary validation.',
+        'stages': len(stages), 'mechanism': mechanism, 'mechanism_status': mechanism_status,
+        'safety_status': safety_status, 'integration': integration})
     write(workspace/'analysis-items.json', details)
     write(workspace/'findings-to-adjudicate.json', findings)
-    write(workspace/'full-change-audit.json', full_change_audit(workspace))
+    write(workspace/'full-change-audit.json', actual_changes)
     print(json.dumps(summaries, ensure_ascii=False, indent=2))
 
 
