@@ -1,4 +1,5 @@
-export const METHODS = ['skilled', 'published', 'baseline', 'reviewed'];
+export const METHODS = ['published', 'baseline', 'reviewed'];
+export const LEGACY_METHODS = ['skilled', 'published', 'baseline', 'reviewed'];
 export const COHORT_ALGORITHM = 3;
 export function hashSeed(value) { let h = 2166136261; for (const ch of value) { h ^= ch.codePointAt(0); h = Math.imul(h, 16777619); } return h >>> 0; }
 export function seededRandom(seed) { let x = seed >>> 0; return () => { x += 0x6D2B79F5; let t = x; t = Math.imul(t ^ t >>> 15, t | 1); t ^= t + Math.imul(t ^ t >>> 7, t | 61); return ((t ^ t >>> 14) >>> 0) / 4294967296; }; }
@@ -8,8 +9,9 @@ export function shuffled(values, random = () => crypto.getRandomValues(new Uint3
   return result;
 }
 export function cohortFor(data, participantId) {
-  const size = Math.min(data.cohortSize || data.rounds.length, data.rounds.length);
-  const ranked = data.rounds.map(r => ({ id: r.id, title: r.title, source: r.source.replace(/\s+/g, ' ').trim(), score: hashSeed(`${data.version}:${COHORT_ALGORITHM}:${participantId}:${r.id}`) })).sort((a,b) => a.score - b.score || a.id.localeCompare(b.id));
+  const eligible = data.rounds.filter(round => round.votingEligible !== false);
+  const size = Math.min(data.cohortSize || eligible.length, eligible.length);
+  const ranked = eligible.map(r => ({ id: r.id, title: r.title, source: r.source.replace(/\s+/g, ' ').trim(), score: hashSeed(`${data.version}:${COHORT_ALGORITHM}:${participantId}:${r.id}`) })).sort((a,b) => a.score - b.score || a.id.localeCompare(b.id));
   const selected = [];
   const add = row => { if (selected.length < size && !selected.some(previous => previous.id === row.id || previous.source.includes(row.source) || row.source.includes(previous.source))) selected.push(row); };
   // Give each available work a presence before filling the remainder by rank.
@@ -65,12 +67,11 @@ export function nextUnanswered(state, from = state.index) {
 export function countsForGroup(payload, group = 'all', rounds = []) {
   const counts = Object.fromEntries(METHODS.map(method => [method, 0]));
   if (group === 'all') return payload.methods;
-  if (!['original', 'new'].includes(group) || !rounds.length) throw new Error('missing comparison groups');
-  const desired = group === 'new' ? 'shared_context' : 'original';
-  const groups = new Map(rounds.map(round => [round.id, round.comparisonGroup]));
+  if (!rounds.length || !rounds.some(round => round.workId === group)) throw new Error('unknown work');
+  const groups = new Map(rounds.map(round => [round.id, round.workId]));
   for (const [id, row] of Object.entries(payload.fragments || {})) {
-    if (!['original','shared_context'].includes(groups.get(id))) throw new Error('unknown comparison group');
-    if (groups.get(id) !== desired) continue;
+    if (!groups.has(id)) throw new Error('unknown fragment');
+    if (groups.get(id) !== group) continue;
     for (const method of METHODS) {
       if (!Number.isSafeInteger(row[method]) || row[method] < 0) throw new Error('invalid fragment counts');
       counts[method] += row[method];

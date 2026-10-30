@@ -79,8 +79,8 @@ test('rate limit counts mutation attempts atomically', async () => {
 });
 test('historical and current datasets remain separate and both can be erased', async () => {
   const versions = Object.keys(DATASETS);
-  const oldVersion = versions.find(v => v.startsWith('blind-v2-'));
-  const newVersion = versions.find(v => v.startsWith('blind-v4-'));
+  const oldVersion = versions.find(v => v.startsWith('blind-v4-'));
+  const newVersion = versions.find(v => v.startsWith('blind-v5-'));
   assert.ok(oldVersion && newVersion);
   const db = new FakeDB();
   const env = { DB: db, VOTE_SALT: 'test secret', ALLOWED_ORIGIN: 'https://deprav1.github.io' };

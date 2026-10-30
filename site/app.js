@@ -1,13 +1,13 @@
-import { METHODS, createState, validState, personalCounts, percentage, rememberLegacy, nextUnanswered, countsForGroup } from './logic.mjs';
+import { METHODS, LEGACY_METHODS, createState, validState, personalCounts, percentage, rememberLegacy, nextUnanswered, countsForGroup } from './logic.mjs';
 
 const $ = id => document.getElementById(id);
 const STORAGE = 'blind-translation-v1';
-const LABELS = { skilled: 'AI + навыки', published: 'Опубликованный перевод', baseline: 'AI: короткий запрос', reviewed: 'AI + редактура' };
+const LABELS = { skilled: 'AI + craft', published: 'Опубликованный перевод', baseline: 'AI: короткий запрос', reviewed: 'AI + craft + QA' };
 const REACTIONS = {
-  skilled: ['Тебе зашёл AI с инструкциями.', 'Здесь модель работала с навыком художественного перевода. Получился именно этот текст — не обещание, что он лучше во всём.'],
+  skilled: ['Твой выбор — перевод с craft.', 'Sol работал с английскими оригиналами, подготовленным брифом, глоссарием и навыком художественного перевода. Опубликованный перевод генератору не передавался.'],
   published: ['Ты выбрал опубликованный перевод.', 'Никаких медалей за «правильный» выбор. Просто этот голос тебе ближе. Автор перевода и источник — на карточке.'],
-  baseline: ['Короткий запрос тоже умеет попадать.', 'Это та же модель, но без подключённого переводческого навыка. Не плохой вариант «для контраста», а обычный независимый ответ.'],
-  reviewed: ['Твой выбор — AI с редактурой.', 'Модель перевела фрагмент и отдельно сверила его с оригиналом и контекстом рассказа. Человеческой редакторской проверки не было.'],
+  baseline: ['Твой выбор — короткий запрос.', 'Та же Sol и тот же английский контекст, но короткая просьба перевести и без переводческих skills. Ответ получен в отдельной сессии.'],
+  reviewed: ['Твой выбор — craft и QA.', 'Craft-черновик прошёл отдельную QA-сверку и редакторские решения в новых сессиях той же модели. Человеческой редакторской проверки не было.'],
 };
 let data, config, state, screen = 'home', memoryOnly = false, eraseBusy = false;
 const LEGACY_STORAGE = 'blind-translation-legacy-participants-v1';
@@ -208,14 +208,14 @@ async function renderWorld() {
   const target = $('world-stats');
   const requestId = ++statsRequest;
   const group = $('stats-group').value;
-  $('stats-context').textContent = group === 'new' ? 'Эти варианты созданы в одном общем контексте с доступом к историческому переводу. Их голоса показывают предпочтение среди этих текстов.' : group === 'original' ? 'Первые 30: исходные генерации со skill и без него выполнялись отдельно; поздняя редактура уже имела доступ к другим переводам.' : 'В подборке разные условия генерации. Для сравнения подходов смотри группы отдельно; общий процент не доказывает пользу навыка.';
+  $('stats-context').textContent = 'Все AI-варианты этой версии получены заново в изолированных сессиях Sol с одинаковым английским контекстом. Craft и craft+QA используют больше этапов, чем короткий запрос. Сравниваем полученные тексты, а не общий рейтинг моделей.';
   target.replaceChildren(el('p', 'section-description', 'Считаем голоса…'));
   try {
     const { response, payload } = await api(`/stats?dataset=${encodeURIComponent(data.version)}`);
     if (requestId !== statsRequest) return;
     if (!response.ok || payload.dataset !== data.version || !Number.isSafeInteger(payload.totalVotes) || !Number.isSafeInteger(payload.participantBrowsers)) throw new Error('stats');
     if (!METHODS.every(m => Number.isSafeInteger(payload.methods?.[m]) && payload.methods[m] >= 0) || METHODS.reduce((n,m) => n + payload.methods[m],0) !== payload.totalVotes) throw new Error('stats');
-    if (group !== 'all' && (!payload.fragments || Object.keys(payload.fragments).length !== data.rounds.length || data.rounds.some(r => !Object.hasOwn(payload.fragments,r.id)))) throw new Error('stats');
+    if (group !== 'all' && (!payload.fragments || Object.keys(payload.fragments).length !== data.rounds.filter(r=>r.votingEligible!==false).length || data.rounds.filter(r=>r.votingEligible!==false).some(r => !Object.hasOwn(payload.fragments,r.id)))) throw new Error('stats');
     const counts = countsForGroup(payload, group, data.rounds);
     const total = METHODS.reduce((n,m) => n + counts[m],0);
     target.replaceChildren();
@@ -233,7 +233,7 @@ async function renderWorld() {
 }
 async function renderPreviousWorld() {
   const target = $('previous-stats');
-  const previousLabels = { ...LABELS, reviewed: 'AI + самопроверка' };
+  const previousLabels = { skilled: 'AI + навыки (прежний запуск)', published: 'Опубликованный перевод', baseline: 'AI: короткий запрос', reviewed: 'AI + редактура (прежний запуск)' };
   if (!data.previousDataset) { target.replaceChildren(); return; }
   target.replaceChildren(el('p', 'section-description', 'Загружаем прежние голоса…'));
   try {
@@ -241,10 +241,10 @@ async function renderPreviousWorld() {
       api(`/stats?dataset=${encodeURIComponent(data.previousDataset)}`),
       fetch('./research/legacy_catalog.json')
     ]);
-    if (!response.ok || payload.dataset !== data.previousDataset || !Number.isSafeInteger(payload.totalVotes) || !METHODS.every(m => Number.isSafeInteger(payload.methods?.[m]) && payload.methods[m] >= 0) || METHODS.reduce((n,m) => n + payload.methods[m],0) !== payload.totalVotes || !catalogResponse.ok) throw new Error('stats');
+    if (!response.ok || payload.dataset !== data.previousDataset || !Number.isSafeInteger(payload.totalVotes) || !LEGACY_METHODS.every(m => Number.isSafeInteger(payload.methods?.[m]) && payload.methods[m] >= 0) || LEGACY_METHODS.reduce((n,m) => n + payload.methods[m],0) !== payload.totalVotes || !catalogResponse.ok) throw new Error('stats');
     const catalog = await catalogResponse.json();
     target.replaceChildren(el('p', 'section-description', `Всего голосов: ${payload.totalVotes}. Эти голоса не входят в текущие итоги.`));
-    for (const method of METHODS) {
+    for (const method of LEGACY_METHODS) {
       const row = el('div', 'stat-row'); const bar = el('div', 'stat-bar'); const fill = el('div');
       fill.style.width = `${percentage(payload.methods[method], payload.totalVotes)}%`; bar.append(fill);
       row.append(el('span', '', previousLabels[method]), bar, el('span', 'stat-percent', `${percentage(payload.methods[method], payload.totalVotes)}%`)); target.append(row);
@@ -253,22 +253,22 @@ async function renderPreviousWorld() {
     try { legacy = JSON.parse(localStorage.getItem(LEGACY_STORAGE) || '[]'); } catch {}
     const entry = Array.isArray(legacy) ? legacy.find(item => item.dataset === data.previousDataset && item.choices) : null;
     if (entry && catalog[entry.dataset]) {
-      const counts = Object.fromEntries(METHODS.map(method => [method, 0]));
+      const counts = Object.fromEntries(LEGACY_METHODS.map(method => [method, 0]));
       for (const [id, choice] of Object.entries(entry.choices)) {
         const method = catalog[entry.dataset]?.[id]?.[choice?.candidateId];
-        if (METHODS.includes(method)) counts[method]++;
+        if (LEGACY_METHODS.includes(method)) counts[method]++;
       }
       const total = Object.values(counts).reduce((a,b) => a+b,0);
-      if (total) target.append(el('p', 'section-description', `Твои прежние выборы (${total}): ${METHODS.map(m => `${previousLabels[m]} — ${counts[m]}`).join('; ')}.`));
+      if (total) target.append(el('p', 'section-description', `Твои прежние выборы (${total}): ${LEGACY_METHODS.map(m => `${previousLabels[m]} — ${counts[m]}`).join('; ')}.`));
     }
   } catch { target.replaceChildren(el('p', 'empty-stats', 'Не удалось загрузить результаты предыдущей подборки. Попробуй обновить страницу.')); }
 }
 function showDialog(kind) {
   const node = $('dialog-content'); node.replaceChildren();
   if (kind === 'method') {
-    node.append(el('h2', '', 'Тексты дерутся. Лейблы молчат.'), el('p', '', 'В каждом раунде один оригинал и четыре русских перевода: исторический опубликованный и три варианта AI. Авторы скрыты до выбора. Порядок текстов и карточек перемешан и сохраняется в браузере.'));
-    node.append(el('h3', '', 'Что именно сравниваем'), el('p', '', 'В базе 40 фрагментов трёх произведений. Каждый браузер получает 20 фрагментов. Три варианта AI: короткий запрос, запрос с навыком и новый перевод с модельной редактурой по оригиналу. Для редактуры модель учитывала контекст рассказов; независимой человеческой проверки не было. В десяти новых фрагментах все варианты AI созданы в общем контексте, где был доступен исторический перевод; это неконтролируемое сравнение.'));
-    node.append(el('h3', '', 'Это пилот читательских предпочтений'), el('p', '', 'Опубликованные переводы исторические, в современной орфографии цифрового источника. Эпоха, узнаваемость, длина и твой вкус влияют на выбор. Голоса не доказывают превосходство модели или навыка. Атрибуция скрыта в интерфейсе до выбора, но доступна в исходниках.'));
+    node.append(el('h2', '', 'Тексты дерутся. Лейблы молчат.'), el('p', '', 'В каждом раунде один оригинал и три русских перевода: исторический опубликованный, короткий AI-запрос и полный craft+QA. Авторы скрыты до выбора. Порядок текстов и карточек перемешан и сохраняется в браузере.'));
+    node.append(el('h3', '', 'Что именно сравниваем'), el('p', '', 'В базе 40 фрагментов трёх произведений. В четырёх простой и полный AI-переводы совпали: они сохранены в материалах, но исключены из голосования. Каждый браузер получает до 20 из оставшихся 36. Все AI-варианты заново получены на Sol с одинаковыми настройками и английским контекстом. Короткий запрос работает без skills. Craft использует план, глоссарий и калибровку на четырёх сценах. Craft+QA — тот же черновик после отдельной сверки и редактуры. Каждый этап запущен в новой сессии. Исторические переводы и ответы другого условия генераторам не передавались.'));
+    node.append(el('h3', '', 'Это пилот читательских предпочтений'), el('p', '', 'Опубликованные переводы исторические, в современной орфографии цифрового источника. Эпоха, узнаваемость, длина и твой вкус влияют на выбор. Голоса не доказывают превосходство модели или навыка. Полный цикл требует больше вызовов; в памяти обучения модели могли быть эти публичные произведения. Изоляция запуска не устраняет такое предварительное знание. Атрибуция скрыта в интерфейсе до выбора, но доступна в исходниках.'));
     node.append(el('h3', '', 'Откуда опубликованные тексты'), el('p', '', 'Эдгар По — перевод Константина Бальмонта, издание 1913 года. Оскар Уайльд — перевод Михаила Ликиардопуло, публикация 1911 года. Оригиналы и эти переводы находятся в общественном достоянии в юрисдикциях со сроком «жизнь автора + 70 лет». Цифровые источники и точная атрибуция открываются после выбора.'));
     node.append(safeLink('Методика, источники и условия публикации ↗', './CONTENT.md'), el('p', '', 'Цель простая: сначала услышать текст, потом прочитать бейдж. Можно предпочесть любой вариант. Можно вообще не продолжать.'));
   } else {
@@ -318,7 +318,7 @@ $('close-dialog').addEventListener('click', () => $('info-dialog').close());
 $('info-dialog').addEventListener('click', e => { if (e.target === $('info-dialog')) { const r = e.target.getBoundingClientRect(); if (e.clientX < r.left || e.clientX > r.right || e.clientY < r.top || e.clientY > r.bottom) e.target.close(); } });
 $('refresh-stats').addEventListener('click', () => { renderWorld(); renderPreviousWorld(); });
 $('stats-group').addEventListener('change', renderWorld);
-$('share-button').addEventListener('click', async () => { const c = personalCounts(state, data); const message = `Мой вкус в «Без лица»: AI + навыки ${c.skilled}, опубликованный ${c.published}, AI короткий запрос ${c.baseline}, AI с редактурой ${c.reviewed}. Выбирай вслепую: ${location.href.split('#')[0]}`; try { await navigator.clipboard.writeText(message); toast('Результат скопирован. Пускай друзья тоже снимут погоны.'); } catch { toast('Буфер обмена недоступен. Ссылку на сайт можно скопировать из адресной строки.'); } });
+$('share-button').addEventListener('click', async () => { const c = personalCounts(state, data); const message = `Мой вкус в «Без лица»: опубликованный ${c.published}, AI короткий запрос ${c.baseline}, AI + craft + QA ${c.reviewed}. Выбирай вслепую: ${location.href.split('#')[0]}`; try { await navigator.clipboard.writeText(message); toast('Результат скопирован. Пускай друзья тоже снимут погоны.'); } catch { toast('Буфер обмена недоступен. Ссылку на сайт можно скопировать из адресной строки.'); } });
 
 async function init() {
   try {

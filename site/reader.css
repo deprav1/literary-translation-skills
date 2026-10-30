@@ -47,3 +47,7 @@ summary:focus-visible, select:focus-visible { outline: 3px solid var(--orange); 
   .reading-controls { gap: 8px; }
   #reading-layout { display: none; }
 }
+
+.personal-result{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media(min-width:1150px){.arena .candidate-grid:not(.single-column){grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:600px){.personal-result{grid-template-columns:1fr}}

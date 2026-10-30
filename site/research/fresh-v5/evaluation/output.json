@@ -1,0 +1,488 @@
+{
+  "coverage": [
+    "poe-nerves",
+    "doer-city",
+    "poe-silence",
+    "poe-ray",
+    "doer-weeping",
+    "poe-heart",
+    "poe-extra-01",
+    "poe-extra-03",
+    "poe-extra-04",
+    "poe-extra-06",
+    "poe-extra-08",
+    "poe-extra-11",
+    "poe-extra-12",
+    "poe-extra-13",
+    "poe-extra-14",
+    "poe-extra-15",
+    "poe-extra-16",
+    "poe-extra-17",
+    "wilde-extra-01",
+    "wilde-extra-02",
+    "wilde-extra-03",
+    "wilde-extra-04",
+    "wilde-extra-05",
+    "wilde-extra-06",
+    "wilde-extra-07",
+    "wilde-extra-08",
+    "wilde-extra-09",
+    "wilde-extra-10",
+    "wilde-extra-11",
+    "wilde-extra-12",
+    "cat-01",
+    "cat-02",
+    "cat-03",
+    "cat-04",
+    "cat-05",
+    "cat-06",
+    "cat-07",
+    "cat-08",
+    "cat-09",
+    "cat-10"
+  ],
+  "findings": [
+    {
+      "id": "poe-nerves",
+      "candidate_id": "279d39c8a5abf4f7",
+      "source_quote": "How then am I mad?",
+      "target_quote": "Как же я безумен?",
+      "classification": "possible_issue",
+      "reason": "Риторическое отрицание безумия становится менее ясным: русскую фразу можно прочитать как вопрос о характере безумия. Контекст поддерживает нужное прочтение, поэтому однозначной смысловой ошибки нет."
+    },
+    {
+      "id": "poe-nerves",
+      "candidate_id": "ed2e9e1c83bc0f9f",
+      "source_quote": "How then am I mad?",
+      "target_quote": "Как же я могу быть безумен?",
+      "classification": "valid_alternative",
+      "reason": "Модальный глагол передаёт подразумеваемую невозможность безумия в рассуждении рассказчика; самостоятельного нового утверждения не добавляет."
+    },
+    {
+      "id": "poe-nerves",
+      "candidate_id": "fb4092219ccc3517",
+      "source_quote": "Above all was the sense of hearing acute.",
+      "target_quote": "Особенно острым стал слух.",
+      "classification": "valid_alternative",
+      "reason": "«Стал» опирается на предыдущее сообщение об обострившей чувства болезни. «Особенно» несколько ослабляет прямое ранжирование чувств, но сохраняет выделение слуха."
+    },
+    {
+      "id": "doer-city",
+      "candidate_id": "9b310dea4f34fc86",
+      "source_quote": "The pillars were hung with garlands",
+      "target_quote": "Колонны были увиты гирляндами",
+      "classification": "valid_alternative",
+      "reason": "Допустимое описание убранства колонн. Способ размещения гирлянд слегка конкретизирован, но существенного изменения сцены нет."
+    },
+    {
+      "id": "poe-silence",
+      "candidate_id": "202a5695ccc4a170",
+      "source_quote": "hearkening to the death watches in the wall",
+      "target_quote": "прислушивался к тиканью жуков-точильщиков в стене, предвещающему смерть",
+      "classification": "possible_issue",
+      "reason": "Название превращено в прямое утверждение о предзнаменовании. Оно может читаться как убеждение рассказчика, однако оригинал оставляет эту ассоциацию внутри названия и не формулирует её отдельно."
+    },
+    {
+      "id": "poe-silence",
+      "candidate_id": "615452e1b2a06638",
+      "source_quote": "the death watches in the wall",
+      "target_quote": "тиканью жуков-точильщиков — «часов смерти» — в стене",
+      "classification": "valid_alternative",
+      "reason": "Пояснение сохраняет предметный источник звука и смертную ассоциацию названия. Вставная конструкция делает перевод более объяснительным; это само по себе не смысловая ошибка."
+    },
+    {
+      "id": "poe-silence",
+      "candidate_id": "c2acc3b00ba73a98",
+      "source_quote": "the death watches in the wall",
+      "target_quote": "тиканью жуков-точильщиков — «часов смерти» — в стене",
+      "classification": "valid_alternative",
+      "reason": "Пояснение сохраняет предметный источник звука и смертную ассоциацию названия. Более объяснительная подача не нарушает события сцены."
+    },
+    {
+      "id": "poe-ray",
+      "candidate_id": "3615d56aa27a2861",
+      "source_quote": "a single dim ray like the thread of the spider",
+      "target_quote": "единственный тусклый луч, тонкий, как паутинная нить",
+      "classification": "valid_alternative",
+      "reason": "«Тонкий» раскрывает основание сравнения, уже подразумеваемое образом паутинной нити. Слабость света и единичность луча сохранены."
+    },
+    {
+      "id": "doer-weeping",
+      "candidate_id": "c5ebec1aff45e6f5",
+      "source_quote": "But I was dead once, and you raised me from the dead.",
+      "target_quote": "Но ведь я был мёртв, и ты воскресил меня из мёртвых.",
+      "classification": "valid_alternative",
+      "reason": "Отдельное соответствие once отсутствует, но прежнее состояние и последующее воскрешение однозначно выражены. «Ведь» допустимо передаёт оправдательную интонацию ответа."
+    },
+    {
+      "id": "poe-heart",
+      "candidate_id": "1edf474206bc20fc",
+      "source_quote": "what you mistake for madness is but over-acuteness of the senses",
+      "target_quote": "вы принимаете за безумие всего лишь чрезмерную остроту чувств",
+      "classification": "valid_alternative",
+      "reason": "Перестройка предложения сохраняет утверждение рассказчика о неверном истолковании его обострённых чувств. Отсутствие конструкции «то, что» не создаёт грамматической или смысловой ошибки."
+    },
+    {
+      "id": "poe-heart",
+      "candidate_id": "bfe26915792aeef2",
+      "source_quote": "what you mistake for madness is but over-acuteness of the senses",
+      "target_quote": "вы принимаете за безумие всего лишь чрезмерную остроту чувств",
+      "classification": "valid_alternative",
+      "reason": "Синтаксическая перестройка допустима: объект ошибочного истолкования и объяснение рассказчика сохранены."
+    },
+    {
+      "id": "poe-extra-01",
+      "candidate_id": "ca12c85caad17202",
+      "source_quote": "Whenever it fell upon me",
+      "target_quote": "Всякий раз, когда он обращался ко мне",
+      "classification": "possible_issue",
+      "reason": "Подразумевается направленный на рассказчика глаз, но «обращался ко мне» обычно обозначает речевое обращение человека. Возникает устранимая контекстом двусмысленность между глазом и стариком."
+    },
+    {
+      "id": "poe-extra-03",
+      "candidate_id": "2234fa871b402751",
+      "source_quote": "His room was as black as pitch",
+      "target_quote": "В его комнате было черно, как в смоле",
+      "classification": "possible_issue",
+      "reason": "Сравнение черноты превращено в сравнение с нахождением внутри смолы. Это локальная неловкость образа, а не изменение освещения или событий."
+    },
+    {
+      "id": "poe-extra-03",
+      "candidate_id": "a1103c3028184303",
+      "source_quote": "His room was as black as pitch",
+      "target_quote": "В его комнате было черно, как в смоле",
+      "classification": "possible_issue",
+      "reason": "«Как в смоле» меняет устройство сравнения и звучит непривычно. Основной смысл густой темноты остаётся понятным."
+    },
+    {
+      "id": "poe-extra-04",
+      "candidate_id": "629976f0b154bea9",
+      "source_quote": "the old man sprang up in the bed",
+      "target_quote": "старик рывком сел в постели",
+      "classification": "valid_alternative",
+      "reason": "Последующий контекст прямо сообщает, что старик продолжал сидеть в постели. Конкретизация положения тела поддержана источником."
+    },
+    {
+      "id": "poe-extra-04",
+      "candidate_id": "edad8cead45a0b9a",
+      "source_quote": "my thumb slipped upon the tin fastening",
+      "target_quote": "мой большой палец соскользнул с жестяной застёжки",
+      "classification": "valid_alternative",
+      "reason": "Допустимая передача случайного скольжения пальца на застёжке. Причина внезапной реакции старика и порядок действий сохранены."
+    },
+    {
+      "id": "poe-extra-06",
+      "candidate_id": "42bf30cc1e070734",
+      "source_quote": "Yes, he has been trying to comfort himself with these suppositions; but he had found all in vain.",
+      "target_quote": "Да, он пытается утешиться этими догадками; но всё оказалось напрасно.",
+      "classification": "valid_alternative",
+      "reason": "В самом источнике здесь происходит временной сдвиг. Настоящее время в переводе допустимо передаёт его и не является само по себе нарушением хронологии."
+    },
+    {
+      "id": "poe-extra-06",
+      "candidate_id": "aa1c62acd5b1a059",
+      "source_quote": "Yes, he has been trying to comfort himself with these suppositions; but he had found all in vain.",
+      "target_quote": "Да, он пытался утешиться этими догадками, но всё оказалось напрасно.",
+      "classification": "valid_alternative",
+      "reason": "Выравнивание времён согласовано с основным прошедшим временем повествования. Содержание попыток самоуспокоения и их безуспешность сохранены."
+    },
+    {
+      "id": "poe-extra-08",
+      "candidate_id": "f17539238445ab62",
+      "source_quote": "I could see nothing else of the old man's face or person",
+      "target_quote": "больше ни лица, ни тела старика я не видел",
+      "classification": "possible_issue",
+      "reason": "Оригинал исключает всё остальное, кроме освещённого глаза. Русская конструкция допускает нужное прочтение, но может означать и полную невидимость лица, частью которого является глаз."
+    },
+    {
+      "id": "poe-extra-11",
+      "candidate_id": "f5027d8324091b3a",
+      "source_quote": "The night waned",
+      "target_quote": "Ночь шла к концу",
+      "classification": "valid_alternative",
+      "reason": "Передано течение ночи к утру. Более статическое «была на исходе» у других кандидатов также не создаёт доказуемой ошибки."
+    },
+    {
+      "id": "poe-extra-12",
+      "candidate_id": "67aa393c765954e4",
+      "source_quote": "I had been too wary for that.",
+      "target_quote": "Для этого я был слишком предусмотрителен.",
+      "classification": "possible_issue",
+      "reason": "«Для этого» неясно отсылает к отсутствующим следам или к отмыванию, а не прямо к предотвращённому появлению крови. Вывод восстанавливается из контекста, но связь выражена неловко."
+    },
+    {
+      "id": "poe-extra-12",
+      "candidate_id": "e83d5505b6d10532",
+      "source_quote": "I had been too wary for that.",
+      "target_quote": "Для этого я был слишком осмотрителен.",
+      "classification": "possible_issue",
+      "reason": "Не вполне ясно, какое действие обозначает «для этого». Контекст позволяет понять предусмотрительность убийцы, поэтому уверенно утверждать инверсию смысла нельзя."
+    },
+    {
+      "id": "poe-extra-13",
+      "candidate_id": "88f277886adbf978",
+      "source_quote": "As the bell sounded the hour, there came a knocking at the street door.",
+      "target_quote": "Едва колокол отбил час, в уличную дверь постучали.",
+      "classification": "valid_alternative",
+      "reason": "«Отбил час» означает обозначение времени боем, а не обязательно один удар. Предыдущее указание на четыре часа сохранено; числового противоречия нет."
+    },
+    {
+      "id": "poe-extra-14",
+      "candidate_id": "72b455a9fc7b1224",
+      "source_quote": "in the wild audacity of my perfect triumph",
+      "target_quote": "с безудержной дерзостью полного торжества",
+      "classification": "valid_alternative",
+      "reason": "«Безудержной» передаёт необузданность wild. «Безумной» у других кандидатов сильнее связывает фразу с мотивом безумия, но это различие не доказывает ошибку."
+    },
+    {
+      "id": "poe-extra-15",
+      "candidate_id": "cca1a04ba2dd5304",
+      "source_quote": "until, at length, I found that the noise was not within my ears",
+      "target_quote": "пока наконец я не понял, что шум раздаётся не у меня в ушах",
+      "classification": "valid_alternative",
+      "reason": "Сохранён субъективный вывод рассказчика о внешнем происхождении звука. Перевод не обязан отдельно обозначать его возможную ненадёжность."
+    },
+    {
+      "id": "poe-extra-16",
+      "candidate_id": "de66acef6e2e3e4d",
+      "source_quote": "this I thought, and this I think",
+      "target_quote": "так я думал тогда и так думаю теперь",
+      "classification": "valid_alternative",
+      "reason": "Временные указатели раскрывают уже выраженное противопоставление прошедшего и настоящего. Упорство рассказчика в своём убеждении сохранено."
+    },
+    {
+      "id": "poe-extra-17",
+      "candidate_id": "581a560d78aeffc6",
+      "source_quote": "tear up the planks!",
+      "target_quote": "Взломайте доски!",
+      "classification": "possible_issue",
+      "reason": "В сцене требуется поднять или сорвать половицы. «Взломайте доски» менее точно называет действие и может подразумевать их разрушение; местонахождение тела при этом остаётся понятным."
+    },
+    {
+      "id": "poe-extra-17",
+      "candidate_id": "6c867d2d1bc40f12",
+      "source_quote": "tear up the planks!",
+      "target_quote": "Взломайте доски!",
+      "classification": "possible_issue",
+      "reason": "Глагол неточно сочетается с досками как предметом снятия. Это локальная проблема обозначения действия, а не подмена признания или места сокрытия тела."
+    },
+    {
+      "id": "wilde-extra-01",
+      "candidate_id": "98b69f463f4e9530",
+      "source_quote": "went towards the city",
+      "target_quote": "пошёл к городу",
+      "classification": "valid_alternative",
+      "reason": "Направление движения сохранено. Различие с «направился к городу» относится к стилистическому выбору."
+    },
+    {
+      "id": "wilde-extra-02",
+      "candidate_id": "917df4c2c82deb6b",
+      "source_quote": "the tread of the feet of joy, and the laughter of the mouth of gladness",
+      "target_quote": "поступь ног радости, и смех уст веселья",
+      "classification": "valid_alternative",
+      "reason": "Необычная олицетворяющая конструкция принадлежит самому источнику. Её сохранение нельзя считать ошибкой только из-за непривычности русского выражения."
+    },
+    {
+      "id": "wilde-extra-03",
+      "candidate_id": "717ba588ec548d12",
+      "source_quote": "He saw lying on a couch of sea-purple one",
+      "target_quote": "то увидел на ложе морского пурпура человека",
+      "classification": "error",
+      "reason": "Пропущено прямо названное положение человека: он лежит. Нахождение на ложе само по себе не исключает сидячего положения. Это локальный пропуск содержания."
+    },
+    {
+      "id": "wilde-extra-03",
+      "candidate_id": "c09a14df7c3bb30a",
+      "source_quote": "He saw lying on a couch of sea-purple one",
+      "target_quote": "Он увидел на ложе цвета морского пурпура человека",
+      "classification": "error",
+      "reason": "Не передано lying: перевод сообщает местонахождение человека, но опускает его позу. Масштаб ошибки ограничен одной деталью сцены."
+    },
+    {
+      "id": "wilde-extra-03",
+      "candidate_id": "102e5bf727a998c1",
+      "source_quote": "a couch of sea-purple",
+      "target_quote": "ложе цвета морского пурпура",
+      "classification": "possible_issue",
+      "reason": "Перевод закрепляет только цветовое прочтение. Выражение источника может также обозначать пурпурное покрытие или ткань, окрашенную морским пурпуром; по предоставленному контексту окончательно разрешить этот нюанс нельзя."
+    },
+    {
+      "id": "wilde-extra-04",
+      "candidate_id": "4fe0c8a19ea89561",
+      "source_quote": "went behind him and touched him on the shoulder",
+      "target_quote": "подошёл к нему сзади, и коснулся его плеча",
+      "classification": "valid_alternative",
+      "reason": "Переданы направление подхода, действующее лицо и место прикосновения."
+    },
+    {
+      "id": "wilde-extra-05",
+      "candidate_id": "1a5613f6caf419d7",
+      "source_quote": "made answer and said",
+      "target_quote": "сказал в ответ",
+      "classification": "preference",
+      "reason": "Смысл ответа сохранён, но формульное удвоение сжато. Предпочтение более буквальному «ответил, и сказал» касается сохранения библейского ритма и не доказывает содержательной ошибки."
+    },
+    {
+      "id": "wilde-extra-06",
+      "candidate_id": "9ca58eb2ab3fc410",
+      "source_quote": "went again into the street",
+      "target_quote": "снова пошёл по улице",
+      "classification": "valid_alternative",
+      "reason": "Оттенок выхода на улицу передан вместе с предшествующим выходом из дома. В контексте нет существенной подмены места действия."
+    },
+    {
+      "id": "wilde-extra-07",
+      "candidate_id": "bdbce956d1effc47",
+      "source_quote": "whose feet were shod with pearls",
+      "target_quote": "чья обувь была унизана жемчугом",
+      "classification": "valid_alternative",
+      "reason": "Образ раскрыт как жемчужное украшение обуви. Сохраняется роскошь наряда; источник не требует буквального представления обуви, целиком сделанной из жемчуга."
+    },
+    {
+      "id": "wilde-extra-08",
+      "candidate_id": "15cf8419bad2b717",
+      "source_quote": "Why do you look at this woman and in such wise?",
+      "target_quote": "Почему ты смотришь на эту женщину и смотришь так?",
+      "classification": "valid_alternative",
+      "reason": "Повтор глагола раскрывает эллиптическое соединение объекта взгляда и его характера. Оба элемента вопроса сохранены."
+    },
+    {
+      "id": "wilde-extra-09",
+      "candidate_id": "a12baf650680f97d",
+      "source_quote": "At what else should I look?",
+      "target_quote": "На что же ещё мне смотреть?",
+      "classification": "valid_alternative",
+      "reason": "Сохранены риторическая безальтернативность ответа и связь с возвращённым зрением."
+    },
+    {
+      "id": "wilde-extra-10",
+      "candidate_id": "b6c67ab4b0974fdd",
+      "source_quote": "He ran forward and touched the painted raiment of the woman",
+      "target_quote": "Он подбежал к женщине, и коснулся её расписного одеяния",
+      "classification": "valid_alternative",
+      "reason": "Адресат движения уточнён по непосредственному действию и расположению персонажей. Быстрота движения и прикосновение сохранены."
+    },
+    {
+      "id": "wilde-extra-11",
+      "candidate_id": "26f02614e5e25edf",
+      "source_quote": "the way is a pleasant way",
+      "target_quote": "по этому пути приятно идти",
+      "classification": "preference",
+      "reason": "Смысл удовольствия от избранного пути сохранён, но исчезает повтор way. Выбор между плавностью и буквальным повтором относится к ритмической стратегии, а не к доказуемому искажению мысли."
+    },
+    {
+      "id": "wilde-extra-12",
+      "candidate_id": "223cc3c8d0f3d02a",
+      "source_quote": "And He passed out of the city.",
+      "target_quote": "И Он вышел из города.",
+      "classification": "valid_alternative",
+      "reason": "Действие, направление движения, начальное «И» и выделение местоимения сохранены. Все три кандидата этого фрагмента совпадают."
+    },
+    {
+      "id": "cat-01",
+      "candidate_id": "d9645402f9edbf74",
+      "source_quote": "to-day I would unburthen my soul",
+      "target_quote": "сегодня хочу облегчить душу",
+      "classification": "valid_alternative",
+      "reason": "Would здесь выражает желание или намерение, а не обязательное условие. Прямое «хочу» допустимо наряду с более мягким «хотел бы»."
+    },
+    {
+      "id": "cat-02",
+      "candidate_id": "e9785b096cf13d5c",
+      "source_quote": "these events have terrified—have tortured—have destroyed me",
+      "target_quote": "ужаснули меня — истерзали — погубили",
+      "classification": "valid_alternative",
+      "reason": "Трёхступенчатое усиление сохранено. Однократное «меня» синтаксически относится ко всем трём глаголам; участник событий не утрачен."
+    },
+    {
+      "id": "cat-03",
+      "candidate_id": "91ee00593a6b99bb",
+      "source_quote": "make me the jest of my companions",
+      "target_quote": "товарищи даже поднимали меня на смех",
+      "classification": "valid_alternative",
+      "reason": "Идиоматическая перестройка сохраняет насмешки товарищей и их причину. Оснований считать её смысловым ослаблением по сравнению с «посмешищем» недостаточно."
+    },
+    {
+      "id": "cat-04",
+      "candidate_id": "116e545f76304afb",
+      "source_quote": "was indulged by my parents with a great variety of pets",
+      "target_quote": "родители, потакая мне, позволяли держать самых разных питомцев",
+      "classification": "possible_issue",
+      "reason": "Источник представляет множество питомцев как предоставленное родителями удовлетворение желания ребёнка. «Позволяли держать» ослабляет их участие до разрешения, хотя наличие животных и родительское потакание сохраняет."
+    },
+    {
+      "id": "cat-04",
+      "candidate_id": "4a1a3d15b3a2aed7",
+      "source_quote": "was indulged by my parents with a great variety of pets",
+      "target_quote": "родители, потакая мне, позволяли держать самых разных питомцев",
+      "classification": "possible_issue",
+      "reason": "Активное удовлетворение желания ребёнка сужено до разрешения держать животных. Это небольшой сдвиг роли родителей, а не потеря основного события."
+    },
+    {
+      "id": "cat-05",
+      "candidate_id": "84ea6050f4efc003",
+      "source_quote": "a disposition not uncongenial with my own",
+      "target_quote": "нрав, созвучный моему",
+      "classification": "valid_alternative",
+      "reason": "Утвердительная формулировка передаёт совместимость характеров, выраженную в источнике литотой. Некоторая осторожность исходной интонации сглажена, но противоположного смысла не возникает."
+    },
+    {
+      "id": "cat-06",
+      "candidate_id": "7be4e7a83aa38696",
+      "source_quote": "a small monkey, and a cat",
+      "target_quote": "маленькая обезьянка и кот",
+      "classification": "valid_alternative",
+      "reason": "Мужской пол кота подтверждён окружающим текстом. Уменьшительная форма названия обезьяны согласуется с её размером и тёплым описанием питомцев. Все три кандидата совпадают."
+    },
+    {
+      "id": "cat-07",
+      "candidate_id": "57845867b051b4b6",
+      "source_quote": "prevent him from following me through the streets",
+      "target_quote": "удерживать его от того, чтобы он шёл за мной на улицу",
+      "classification": "possible_issue",
+      "reason": "Следование за хозяином по улицам сужено до выхода вслед за ним из дома. Общая привязанность кота сохранена, но пространственный охват действия изменён."
+    },
+    {
+      "id": "cat-07",
+      "candidate_id": "634782a2ccd3f0ce",
+      "source_quote": "prevent him from following me through the streets",
+      "target_quote": "удержать его от того, чтобы следовать за мной по улицам",
+      "classification": "possible_issue",
+      "reason": "Оборот «от того, чтобы следовать» синтаксически неловок и хуже закрепляет кота как субъекта следования. Контекст позволяет восстановить участников, поэтому уверенного основания объявлять их перепутанными нет."
+    },
+    {
+      "id": "cat-08",
+      "candidate_id": "b760a93ae7b18ac9",
+      "source_quote": "for no other reason than because he knows he should not",
+      "target_quote": "лишь потому, что знает: совершать его не следует",
+      "classification": "valid_alternative",
+      "reason": "Сохранён парадоксальный мотив поступка: знание запрета само становится причиной нарушения. «Не следует» допустимо передаёт should not без усиления до абсолютного запрета."
+    },
+    {
+      "id": "cat-09",
+      "candidate_id": "3c1813b7eaed3f75",
+      "source_quote": "The curtains of my bed were in flames.",
+      "target_quote": "Полог моей кровати был в огне.",
+      "classification": "valid_alternative",
+      "reason": "«Полог» допустимо обозначает тканевое окружение постели. Замена множественного числа собирательным названием не доказывает изменения устройства кровати."
+    },
+    {
+      "id": "cat-10",
+      "candidate_id": "b4b3aa0006ea8b0a",
+      "source_quote": "fully as large as Pluto",
+      "target_quote": "ничуть не меньше Плутона",
+      "classification": "valid_alternative",
+      "reason": "В данном сравнении это допустимая идиоматическая передача сопоставимого крупного размера. Логическая возможность большего размера сама по себе недостаточна для диагноза ошибки."
+    }
+  ],
+  "limits": [
+    "Применён предоставленный протокол literary-translation-evaluation. Это автоматическая модельная диагностика, без независимой проверки квалифицированным двуязычным редактором.",
+    "Проверены все 40 запрошенных фрагментов и все 120 кандидатов по предоставленным английским текстам и контексту трёх рассказов. Findings содержит локальные диагностические замечания и пояснения допустимых решений, а не отдельную запись о каждом кандидате.",
+    "Единица оценки — фрагмент. Полные рассказы использованы только как контекст; полный русский текст произведений не предоставлен. Сквозная согласованность переводов за пределами этих фрагментов не установлена.",
+    "Исходный язык — английский, целевой — русский; жанр — литературная проза. Издания указаны во входных данных: Mystery Tales of Edgar Allan Poe, 1907, и Selected Prose of Oscar Wilde, Gutenberg #774. Аудитория и отдельная редакционная стратегия перевода не заданы.",
+    "Оценка выполнена исключительно по входным данным, без инструментов, файлов, внешних источников, других агентов и референсных переводов. Издания, происхождение кандидатов и предоставленные хеши независимо не проверялись; хеши целевых артефактов отсутствуют.",
+    "Одинаковые тексты под разными candidate_id не являются независимыми подтверждениями качества. Отсутствие отдельного замечания не означает профессиональной приёмки.",
+    "Терминологические и исторические нюансы, не разрешаемые предоставленным контекстом, оставлены как possible_issue. Предпочтения ритма и степени буквальности отделены от подтверждённых пропусков.",
+    "Кандидаты не редактировались. Баллы, предпочтения читателей и победитель не определялись; выводы об общем превосходстве моделей, человеческой приёмке и качестве озвучивания не делались."
+  ]
+}

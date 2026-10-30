@@ -6,7 +6,7 @@ Public frontend: <https://deprav1.github.io/literary-translation-skills/>.
 
 - `site/` is a buildless HTML/CSS/JS site deployed by GitHub Pages Actions.
 - `site/data.json` holds the current versioned corpus and post-choice attribution. Identity hiding is an interface property; source code is public.
-- The current corpus contains 40 fragments. Each local participant receives a deterministic cohort of 20 selected from the versioned corpus; different participant IDs may receive different cohorts. The backend still aggregates all 40 fragment IDs.
+- The current corpus contains 40 fragments; 36 are vote-eligible because four have identical baseline/reviewed outputs. Each local participant receives a deterministic cohort of 20 selected from the versioned corpus; different participant IDs may receive different cohorts. The backend vote allowlist contains only the 36 vote-eligible fragment IDs.
 - `backend/worker.js` is a separate Cloudflare Worker. D1 stores votes and rate buckets. No browser API credential is needed or included.
 - `backend/catalog.js` is an authoritative candidate allowlist generated from the same corpus. The server does not trust a client-supplied method label.
 - The browser keeps a random participant ID, candidate order, and chosen votes in localStorage. The server stores only its dataset-scoped HMAC key.
@@ -14,16 +14,18 @@ Public frontend: <https://deprav1.github.io/literary-translation-skills/>.
 
 See [content provenance and privacy](../site/CONTENT.md), the [generation record](../site/METHODS.json), and [backend contract](../backend/README.md).
 
-## Updating the corpus
+## Reproduce the isolated v5 generations
 
-1. Select matched source/published-translation excerpts with documented reproduction rights and edition details. Prefer complete paragraphs. Do not insert a generated text under the published-translator label.
-2. Generate AI conditions independently with recorded model/settings; describe any self-review or human editing accurately. Do not show either condition the published translation or the other generated output. Record prompts, model, date, and any subsequent editing honestly.
-3. Update `site/research/selected.json`, `translation-input.json`, `skilled.json`, `baseline.json`, and `reviewed.json`.
-4. Run `python scripts/build_blind_catalog.py`. It derives a new dataset version from the exact corpus. If generation settings or conditions change, update the method record and versioning logic as well.
-5. Run package/site validation and Node/Python tests. Inspect the actual page on desktop and phone.
-6. Deploy the backend's matching catalog before making a new frontend version available. Do not merge statistics from different datasets. Preserve historical catalogs and an erasure plan if keeping votes from older versions.
+1. Prepare an English-only source pack outside this repository: `works` with full original story context, edition URLs and text hashes; `fragments` with stable IDs, work IDs and exact English text. Do not put historical Russian translations, prior outputs or chat history in it.
+2. Run `python scripts/run_fresh_generations.py --source-pack /temporary/source-pack.json --workspace /temporary/new-run --model gpt-6.1-sol`. The workspace must not exist as a completed run; stage directories refuse overwrite. Calls are sequential and each phase starts a fresh ephemeral, tool-disabled session. No paid-provider key or account is configured by this script; it uses the user's configured Codex authentication.
+3. Retain every first complete output and all failures. Do not silently retry literary alternatives until a preferred winner appears. Structural repair or a transport retry must remain explicit in the record.
+4. After all eight phases complete, use `python scripts/publish_fresh_artifacts.py --workspace /temporary/new-run --source-pack /temporary/source-pack.json`. It publishes outputs, stage instructions, hashes and runtime summaries, excluding full stories, raw logs and composite prompts. Preserve the existing evidence set before starting a different published run.
+5. Preserve the current catalog and dataset in the historical archive, then build the new dataset. The v5 builder derives its version from exact candidates and the execution record. Never relabel an old output as a new generation.
+6. Validate packaging, source/translation anchors, stage coverage, artifact hashes and the frontend/backend catalogs. Deploy the matching backend before the frontend, and keep historical identities usable for erasure.
 
-The builder retains the prior allowlist from `site/research/legacy_catalog.json`. The frontend preserves the previous browser ID for deletion across dataset changes; it does not merge old and new results. Deploy the backend before the frontend, and verify erasure and rollout before releasing.
+The baseline receives no skill instructions. Craft receives a source-linked plan, glossary and pilot calibration; QA receives that craft draft and source context. Evaluation sees anonymized frozen AI outputs only and does not select which generation to publish. No generator receives historical Russian text. Runtime isolation cannot exclude prior model training on these public works. This is a workflow comparison with different call counts, not a controlled estimate of a skill text's isolated effect.
+
+The reading interface supports previous-round and numbered navigation, skips without votes, text-size controls and single-column layout. A skipped item remains available; it never enters the shared counter. Statistics use declared `workId` values. Distinct-browser counts are shown only for the whole dataset. `resultsViewedAt` and later choices' `resultsSeenBeforeChoice` remain local, so aggregate results cannot be filtered by that exposure.
 
 ## Deploying your own backend
 

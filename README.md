@@ -10,7 +10,9 @@
 
 ## Try the blind translation test
 
-**[Без лица — read four versions, choose, then reveal the translators](https://deprav1.github.io/literary-translation-skills/).** A 40-fragment corpus with deterministic cohorts of 20, three AI conditions, historical published translations, and a shared vote counter. No account required. Read the [methodology, text licenses, and data policy](site/CONTENT.md). It is an open preference pilot, not proof of general model or translator quality.
+**[Без лица — read three versions, choose, then reveal the translators](https://deprav1.github.io/literary-translation-skills/).** A 40-fragment corpus with deterministic cohorts of 20, two AI voting conditions, historical published translations, and a shared vote counter. No account required. Read the [methodology, text licenses, and data policy](site/CONTENT.md). It is an open preference pilot, not proof of general model or translator quality.
+
+The current AI candidates were regenerated in fresh Sol sessions with identical English context: a short request, planned craft, and craft followed by QA editing. See the [execution record](site/research/fresh-v5/record.json). Reference translations were not supplied to these runs; prior model training remains outside this control.
 
 Translate a scene without flattening its voice. Review a paragraph without inventing errors. Produce an EPUB without mistaking valid XML for a good translation.
 

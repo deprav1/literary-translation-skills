@@ -29,7 +29,7 @@ test('personal totals use actual selected identities, independent of card positi
   const fixture = {...data, cohortSize: Math.min(20, data.rounds.length)};
   const state = createState(fixture, '00000000-0000-4000-8000-000000000003');
   for (const id of state.cohortIds) { const round = fixture.rounds.find(r => r.id === id); state.choices[id] = { candidateId: round.candidates.find(c => c.method === 'baseline').id, voteId: crypto.randomUUID(), status: 'saved' }; }
-  assert.deepEqual(personalCounts(state, fixture), { skilled: 0, published: 0, baseline: state.cohortIds.length, reviewed: 0 });
+  assert.deepEqual(personalCounts(state, fixture), { published: 0, baseline: state.cohortIds.length, reviewed: 0 });
   assert.equal(validState(state, fixture), true);
 });
 test('different participant IDs usually receive different cohorts', () => {
@@ -53,6 +53,7 @@ test('a cohort does not repeat a passage already included in a longer excerpt', 
     const state = createState(data, id);
     assert.equal(state.order.length, data.cohortSize);
     assert.ok(state.cohortIds.filter(id => id.startsWith('cat-')).length >= 2);
+    assert.ok(state.cohortIds.every(id => data.rounds.find(row => row.id===id).votingEligible!==false));
     const sources = state.cohortIds.map(id => data.rounds.find(r => r.id === id).source.replace(/\s+/g, ' ').trim());
     for (let a=0; a<sources.length; a++) for (let b=a+1; b<sources.length; b++) assert.ok(!sources[a].includes(sources[b]) && !sources[b].includes(sources[a]));
   }
@@ -89,15 +90,15 @@ test('old saved states keep their votes when optional skip tracking is introduce
   state.skipped = ['not-in-this-cohort'];
   assert.equal(validState(state,data),false);
 });
-test('statistics keep shared-context items separate and count only their actual votes', () => {
-  const payload = {methods:{skilled:3,published:1,baseline:2,reviewed:0}, fragments:{'poe-nerves':{skilled:3,published:0,baseline:1,reviewed:0},'cat-01':{skilled:0,published:1,baseline:1,reviewed:0}}};
-  const rounds = [{id:'poe-nerves',comparisonGroup:'original'},{id:'cat-01',comparisonGroup:'shared_context'}];
-  assert.deepEqual(countsForGroup(payload,'original',rounds),{skilled:3,published:0,baseline:1,reviewed:0});
-  assert.deepEqual(countsForGroup(payload,'new',rounds),{skilled:0,published:1,baseline:1,reviewed:0});
+test('statistics select declared works and count only their actual votes', () => {
+  const payload = {methods:{published:1,baseline:2,reviewed:3}, fragments:{'poe-nerves':{published:0,baseline:1,reviewed:3},'cat-01':{published:1,baseline:1,reviewed:0}}};
+  const rounds = [{id:'poe-nerves',workId:'heart'},{id:'cat-01',workId:'cat'}];
+  assert.deepEqual(countsForGroup(payload,'heart',rounds),{published:0,baseline:1,reviewed:3});
+  assert.deepEqual(countsForGroup(payload,'cat',rounds),{published:1,baseline:1,reviewed:0});
   assert.deepEqual(countsForGroup(payload),payload.methods);
   // Labels, not ID spelling, determine assignment when adding another work.
-  rounds[0].comparisonGroup = 'shared_context';
-  assert.deepEqual(countsForGroup(payload,'new',rounds),payload.methods);
+  rounds[0].workId = 'cat';
+  assert.deepEqual(countsForGroup(payload,'cat',rounds),payload.methods);
   payload.fragments['cat-01'].baseline=-1;
-  assert.throws(()=>countsForGroup(payload,'new',rounds));
+  assert.throws(()=>countsForGroup(payload,'cat',rounds));
 });

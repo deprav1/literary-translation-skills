@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.4.0 — 2026-10-30
+
+- Regenerated all 120 AI candidates in eight fresh tool-disabled Sol sessions: short request, source-linked plan, four-scene pilot, calibration, craft draft, QA critique, adjudicated editing and frozen-output diagnostics.
+- Published stage outputs, instructions, hashes, runtime summaries and actual coverage; historical translations were supplied only to the final corpus builder.
+- Kept previous datasets and vote identities separate; current statistics can be filtered by work.
+
 ## 0.3.0 — 2026-10-30
 
 - Added traceable execution stages, source/translation boundary checks, and conflict resolution for literary editing.

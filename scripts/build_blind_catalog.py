@@ -1,49 +1,72 @@
-"""Assemble the public, versioned blind-test corpus from immutable generation outputs."""
-import hashlib,json
+"""Assemble the isolated v5 pilot and retain historical vote catalogs."""
+import hashlib
+import json
 from pathlib import Path
 
-ROOT=Path(__file__).resolve().parents[1]
-RESEARCH=ROOT/'site/research'
+ROOT = Path(__file__).resolve().parents[1]
+RESEARCH = ROOT / 'site/research'
+FRESH = RESEARCH / 'fresh-v5'
+
 
 def digest(value):
-    return hashlib.sha256(json.dumps(value,ensure_ascii=False,sort_keys=True).encode('utf8')).hexdigest()
+    return hashlib.sha256(json.dumps(value, ensure_ascii=False, sort_keys=True).encode('utf8')).hexdigest()
+
+
+def load(path):
+    return json.loads(path.read_text(encoding='utf8'))
+
 
 def main():
-    selected=json.loads((RESEARCH/'selected.json').read_text(encoding='utf8'))
-    candidates_path=RESEARCH/'corpus_candidates.json'
-    if candidates_path.exists(): selected.extend(json.loads(candidates_path.read_text(encoding='utf8')))
-    skilled=json.loads((RESEARCH/'skilled.json').read_text(encoding='utf8'))
-    baseline=json.loads((RESEARCH/'baseline.json').read_text(encoding='utf8'))
-    reviewed=json.loads((RESEARCH/'reviewed.json').read_text(encoding='utf8'))
-    audit=json.loads((RESEARCH/'literary-review.json').read_text(encoding='utf8'))
-    shared_context_ids=set(audit['new_excerpts']['ids'])
-    expected={r['id'] for r in selected}
-    assert shared_context_ids <= expected and set(audit['coverage'])==expected
-    assert len(selected)>=30 and len(expected)==len(selected)
-    assert {r['id'] for r in skilled}=={r['id'] for r in baseline}=={r['id'] for r in reviewed}==expected
-    assert len(skilled)==len(baseline)==len(reviewed)==len(selected)
-    s={r['id']:r['text'] for r in skilled};b={r['id']:r['text'] for r in baseline};v={r['id']:r['text'] for r in reviewed}
-    version='blind-v4-'+digest([selected,skilled,baseline,reviewed])[:12]
-    rounds=[];registry={}
+    selected = load(RESEARCH/'selected.json') + load(RESEARCH/'corpus_candidates.json')
+    generations = {name: load(FRESH/name/'output.json')['translations'] for name in ['baseline','skilled','reviewed']}
+    record = load(FRESH/'record.json')
+    expected = {row['id'] for row in selected}
+    assert len(expected) == len(selected) == 40
+    for rows in generations.values():
+        assert len(rows) == len(expected) and {row['id'] for row in rows} == expected
+    by_method = {method:{row['id']:row['text'] for row in rows} for method,rows in generations.items()}
+    version = 'blind-v5-' + digest([selected,generations,record])[:12]
+    notes = {
+        'baseline':'Новая изолированная генерация: короткая просьба перевести, без переводческих skills. Английский контекст тот же, что в других условиях.',
+        'skilled':'Новая изолированная генерация с craft: исходные рассказы, бриф, глоссарий и калибровка на четырёх фрагментах. Исторический перевод не передавался.',
+        'reviewed':'Тот же craft-черновик после отдельной QA-сверки и редакторского решения. Новые сессии той же модели; человеческой редактуры не было.',
+        'published':'Исторический опубликованный перевод. Добавлен при сборке после завершения всех AI-генераций.'
+    }
+    rounds = []
+    registry = {}
     for row in selected:
-        variants=[];registry[row['id']]={}
-        for method,text in [('skilled',s[row['id']]),('published',row['human_text']),('baseline',b[row['id']]),('reviewed',v[row['id']])]:
-            assert isinstance(text,str) and len(text)>20
-            candidate_id=digest([row['id'],method,text])[:16]
-            registry[row['id']][candidate_id]=method
-            notes={'skilled':'Один независимый ответ с literary-translation-craft. Без ручной доработки.','published':'Исторический опубликованный перевод. Цифровая транскрипция в современной орфографии.','baseline':'Один независимый ответ на просьбу перевести. Без подключённого навыка и ручной доработки.','reviewed':'AI перевёл фрагменты и отдельно сверил их с оригиналами, учитывая контекст произведений. Человеческой редакторской проверки не было.'}
-            if row['id'] in shared_context_ids and method!='published':
-                notes[method]='Новый отрывок: все AI-варианты созданы одной моделью в общем контексте, где был доступен исторический перевод; условия не изолированы. Редактура также модельная.'
-            credit=row['translator']+' · '+row['published'] if method=='published' else ('GPT-6.1 Terra · 29.10.2026' if row['id'] in shared_context_ids else ('GPT-6.1 Terra · перевод и редактура · 29.10.2026' if method=='reviewed' else 'GPT-6.1 Terra · reasoning medium · 29.10.2026'))
-            variants.append({'id':candidate_id,'method':method,'text':text,'credit':credit,'note':notes[method],'sourceUrl':row['human_url'] if method=='published' else 'https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json'})
-        rounds.append({'id':row['id'],'author':row['author'],'title':row['title'],'tag':row['tag'],'source':row['source_text'],'sourceUrl':row['source_url'],'comparisonGroup':'shared_context' if row['id'] in shared_context_ids else 'original','candidates':variants})
-    data={'version':version,'cohortSize':20,'previousDataset':'blind-v3-bd065db04a20','rounds':rounds}
-    (ROOT/'site/data.json').write_text(json.dumps(data,ensure_ascii=False,indent=2),encoding='utf8')
-    legacy=json.loads((RESEARCH/'legacy_catalog.json').read_text(encoding='utf8'))
+        variants = []
+        eligible = ' '.join(by_method['baseline'][row['id']].split()) != ' '.join(by_method['reviewed'][row['id']].split())
+        if eligible:
+            registry[row['id']] = {}
+        for method in record['poll_methods']:
+            text = row['human_text'] if method == 'published' else by_method[method][row['id']]
+            assert isinstance(text,str) and len(text.strip()) > 20
+            candidate_id = digest([row['id'],method,text])[:16]
+            if eligible:
+                registry[row['id']][candidate_id] = method
+            variants.append({'id':candidate_id,'method':method,'text':text,'credit':row['translator']+' · '+row['published'] if method=='published' else 'GPT-6.1 Sol · medium · 30.10.2026','note':notes[method],'sourceUrl':row['human_url'] if method=='published' else 'https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json'})
+        rounds.append({'id':row['id'],'author':row['author'],'title':row['title'],'tag':row['tag'],'source':row['source_text'],'sourceUrl':row['source_url'],'comparisonGroup':'isolated','votingEligible':eligible,'workId':record['fragment_work_ids'][row['id']],'candidates':variants})
+    data = {'version':version,'cohortSize':20,'previousDataset':'blind-v4-45b2949d1c6a','rounds':rounds}
+    (ROOT/'site/data.json').write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
+    legacy = load(RESEARCH/'legacy_catalog.json')
     assert version not in legacy
     (ROOT/'backend/catalog.js').write_text('// Generated by scripts/build_blind_catalog.py; versioned candidate allowlist.\nexport const DATASETS = '+json.dumps({**legacy,version:registry},ensure_ascii=False,indent=2)+';\n',encoding='utf8')
-    methods={'dataset':version,'generated_on':'2026-10-29','selection':f'{len(selected)} matched excerpts from three works. Curated preference pilot, not a representative literary benchmark.','cohort_size':20,'blinding':'Source identities are hidden in the interface until a choice, not technically secret in a public static repository. The ten new Black Cat excerpts use AI variants produced in one shared context containing the historical translation; their generation was not blind or independent.','model':'gpt-6.1-terra','reasoning_effort':'medium for the earlier v3 baseline and skill outputs; not recorded for the ten added items','generations_per_condition':1,'baseline_prompt':'Earlier 30: Translate the entries in translation-input.json into Russian. Return an array of {id,text}. Do not read other files or use additional translation tools.','skilled_prompt':'Earlier 30: Read translation-input.json and literary-translation-craft/SKILL.md and its references. Produce complete literary Russian translations, preserving voice, viewpoint, rhythm, uncertainty, and repetitions. Do not read baseline or published translations.','new_items_method':'Ten Black Cat items: all three AI variants were written by the same model in a single shared conversation after the original and published translation had been read. The brief-request and skill labels describe drafting approaches only; their conditions are not isolated.','operational_note':'Prompts above describe their semantic content; local output paths and operational write instructions are omitted. Agent-host behavior is not fully controlled.','skill_version':'e59426cd3c64fbb361c529c82b4c647486350f4a','reviewed_prompt':'For v4, GPT-6.1 Terra read the stories, prepared an editorial brief and separately reviewed all 30 earlier outputs against source excerpts; eight changes were recorded. Ten additional excerpts were then drafted and checked in the same shared context. This is model-assisted self-review, not human proofreading or multi-model routing.', 'reviewed_skill_version':'139ade5ab13c2072f12d7b575f7347e62efef4e2', 'review_record':'research/literary-review.json', 'editorial_brief':'research/literary-brief.md', 'reviewed_sha256':digest(reviewed), 'manual_postediting':False,'best_of_selection':False,'human_condition':'Historical published translations with rights/source notes per excerpt; age, edition and transcription may affect preference.','source_input_sha256':digest(json.loads((RESEARCH/'translation-input.json').read_text(encoding='utf8'))),'baseline_sha256':digest(baseline),'skilled_sha256':digest(skilled),'interpretation':'Preference for these particular outputs only. The ten new excerpts have unblinded, non-independent AI variants and cannot establish a controlled comparison.'}
-    (ROOT/'site/METHODS.json').write_text(json.dumps(methods,ensure_ascii=False,indent=2),encoding='utf8')
-    print(json.dumps({'dataset':version,'rounds':len(rounds),'candidates':sum(len(r['candidates']) for r in rounds)},ensure_ascii=False))
+    methods = {
+        'dataset':version,'generated_on':'2026-10-30','selection':'40 fixed excerpts from three works; all AI outputs regenerated. Convenience preference pilot, not a representative literary benchmark.',
+        'model':record['model'],'reasoning_effort':record['reasoning_effort'],'skill_version':record['skill_revision'],
+        'poll_methods':record['poll_methods'],'intermediate_condition':record['intermediate_condition'],'voting_eligibility':'Four fragments have exactly equal whitespace-normalized baseline and reviewed outputs. All outputs are preserved, but those fragments are excluded from UI cohorts and the vote allowlist to avoid arbitrary method attribution. This is deterministic duplicate handling, not selection by quality or preference.','voting_fragments':len(registry),'conditions':{'baseline':'One fresh session with a short translation request and the common English source pack, no skill instructions.','skilled':'A fresh craft translation using a separately prepared plan, glossary and four-passage pilot calibration.','reviewed':'The craft output after source-based QA critique and adjudicated editing, each in a fresh session of the same model.','published':'Historical published translation; never supplied to any AI generation or evaluation call.'},
+        'same_source_context':True,'reference_translations_supplied':False,'cross_condition_access':{'baseline':[],'skilled':['plan','pilot calibration'],'reviewed':['craft draft','plan','pilot calibration','QA findings'],'evaluation':['anonymized AI candidates after their outputs were frozen']},
+        'isolation':'Fresh ephemeral Codex exec sessions, tools disabled; host skill discovery, memory, plugins and web search disabled. Inputs supplied inline. Actual tool-use events checked. No prior chat history supplied.',
+        'generation_record':'research/fresh-v5/record.json','stages':record['stages'],
+        'source_input_sha256':record['source_pack_sha256'],'output_sha256':{method:record['outputs'][method] for method in generations},
+        'human_editing':False,'primary_agent_text_edits':False,'best_of_selection':False,
+        'qualification':'This compares a short request, planned craft generation and a longer craft+QA workflow. The workflow uses more calls; an effect cannot be attributed to the skill text alone. Same-model reviews can share mistakes. Historical public works may have been present in model training; runtime isolation cannot erase that prior knowledge.',
+        'interpretation':'Preferences for these fixed outputs only. UI identities are hidden until a choice but remain visible in public source files. Viewing results can affect later choices.'
+    }
+    (ROOT/'site/METHODS.json').write_text(json.dumps(methods,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
+    print(json.dumps({'dataset':version,'rounds':len(rounds),'candidates':sum(len(row['candidates']) for row in rounds)}))
 
-if __name__=='__main__':main()
+
+if __name__ == '__main__':
+    main()

@@ -1,0 +1,554 @@
+{
+  "date": "2026-10-30",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "medium",
+  "skill_revision": "d9dc9ae64d8090ffecdf540897b70779b0b19585",
+  "source_pack_sha256": "28edcc8e15ee062a47e96e6d36e58d9fd517a372b71eca6edd05b681f91efdcb",
+  "source_context": [
+    {
+      "id": "heart",
+      "source_url": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+      "edition": "Mystery Tales of Edgar Allan Poe, 1907, Wikisource digital transcription",
+      "retrieval": "web search connector source-page extraction; normalized whitespace and zero-width markers",
+      "sha256": "ffe86e667e1cb86ace87ff0b4448c58f782a672e62147d0f3215806823d22be3"
+    },
+    {
+      "id": "cat",
+      "source_url": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Black_Cat",
+      "edition": "Mystery Tales of Edgar Allan Poe, 1907, Wikisource digital transcription",
+      "retrieval": "web search connector source-page extraction; normalized whitespace and zero-width markers",
+      "sha256": "056353f73fd5801d3cdf4186e0134565121153eaafe20b0947f39f5772528de6"
+    },
+    {
+      "id": "doer",
+      "source_url": "https://www.gutenberg.org/files/774/774-h/774-h.htm",
+      "edition": "Selected Prose of Oscar Wilde, Gutenberg #774",
+      "retrieval": "HTML text extraction; normalized whitespace",
+      "sha256": "5f565f9bff11e3d436fe1dff17053fb051496505b4bd6e8f6c384dd8dbf6239f"
+    }
+  ],
+  "fragment_work_ids": {
+    "poe-nerves": "heart",
+    "doer-city": "doer",
+    "poe-silence": "heart",
+    "poe-ray": "heart",
+    "doer-weeping": "doer",
+    "poe-heart": "heart",
+    "poe-extra-01": "heart",
+    "poe-extra-03": "heart",
+    "poe-extra-04": "heart",
+    "poe-extra-06": "heart",
+    "poe-extra-08": "heart",
+    "poe-extra-11": "heart",
+    "poe-extra-12": "heart",
+    "poe-extra-13": "heart",
+    "poe-extra-14": "heart",
+    "poe-extra-15": "heart",
+    "poe-extra-16": "heart",
+    "poe-extra-17": "heart",
+    "wilde-extra-01": "doer",
+    "wilde-extra-02": "doer",
+    "wilde-extra-03": "doer",
+    "wilde-extra-04": "doer",
+    "wilde-extra-05": "doer",
+    "wilde-extra-06": "doer",
+    "wilde-extra-07": "doer",
+    "wilde-extra-08": "doer",
+    "wilde-extra-09": "doer",
+    "wilde-extra-10": "doer",
+    "wilde-extra-11": "doer",
+    "wilde-extra-12": "doer",
+    "cat-01": "cat",
+    "cat-02": "cat",
+    "cat-03": "cat",
+    "cat-04": "cat",
+    "cat-05": "cat",
+    "cat-06": "cat",
+    "cat-07": "cat",
+    "cat-08": "cat",
+    "cat-09": "cat",
+    "cat-10": "cat"
+  },
+  "stages": [
+    {
+      "phase": "baseline",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "fresh_session": true,
+      "tool_calls": 0,
+      "prompt_sha256": "54cd50e58626dab3109182f717622c0188578dd8e8c923c477b5251981be5964",
+      "output_sha256": "423de32670a3b4e3ccd90a10952b1b4d8e0cc7941587ee9c4cbfbcf4705589b5",
+      "source_pack_sha256": "28edcc8e15ee062a47e96e6d36e58d9fd517a372b71eca6edd05b681f91efdcb",
+      "skill_files_sha256": {},
+      "input_artifacts": [],
+      "elapsed_seconds": 75.98,
+      "usage": [
+        {
+          "input_tokens": 26749,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 4005,
+          "reasoning_output_tokens": 95
+        }
+      ],
+      "exit_code": 0,
+      "status": "done",
+      "artifact": "baseline/output.json",
+      "instruction": "baseline/instruction.txt",
+      "session_id_sha256": "8855b009358358b6ffcf7eb42ec656ecc947661c180fe279d4d8e288f373bb9e",
+      "observed_runtime_item_types": [
+        "agent_message",
+        "error"
+      ]
+    },
+    {
+      "phase": "plan",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "fresh_session": true,
+      "tool_calls": 0,
+      "prompt_sha256": "f8625708b444bd5102c790ec508c9c84927bb377ff2e9a3de2ebebf36bf4f614",
+      "output_sha256": "6ef9fe122e5743dd284ad6955772b1a0f64d6959af1b8b30e6c13b2e723bd0eb",
+      "source_pack_sha256": "28edcc8e15ee062a47e96e6d36e58d9fd517a372b71eca6edd05b681f91efdcb",
+      "skill_files_sha256": {
+        "skills/literary-translation-craft/SKILL.md": "5a15e1fdcfeac8112e0126e777e8b99bc1e82b368e2a4fab2e8a2830f633e81e",
+        "skills/literary-translation-craft/references/brief.md": "e0fba7858181ecd9cf98b69576c64c85052d74ebe77a4631ea36fbfd49c115a7",
+        "skills/literary-translation-craft/references/context-handoff.md": "1937fd5d0f35b38afa26912c507d1ece92e88e3c6dd00ba11b29f94796528a3d",
+        "skills/literary-translation-craft/references/execution-record.json": "bb0f3c583b57d8ecc5500a5411ab45322f3db544b1196f24fd13bc6974dd1007",
+        "skills/literary-translation-craft/references/long-work.md": "964900604b91bdf3f49ca6d0003be72c6417119ece4bba23a6f85a5c3cea4f25",
+        "skills/literary-translation-craft/references/principles.md": "78aaeb0421d1fe79a777cdbabcd169557b8d11cf5ef62b4610a1dd7368cd7d26",
+        "skills/literary-translation-craft/references/russian-editing.md": "4339033dbc18f20a388510afe0ac5d86449e52d76f7864a6a29ba6b1c0aa2bda"
+      },
+      "input_artifacts": [],
+      "elapsed_seconds": 123.63,
+      "usage": [
+        {
+          "input_tokens": 30947,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 5212,
+          "reasoning_output_tokens": 140
+        }
+      ],
+      "exit_code": 0,
+      "status": "done",
+      "artifact": "plan/output.json",
+      "instruction": "plan/instruction.txt",
+      "session_id_sha256": "fb46cdcd68f6bc94ed2c02a27b3d3e3c51ab7923006d18076b9f3528d0daedd1",
+      "observed_runtime_item_types": [
+        "agent_message",
+        "error"
+      ]
+    },
+    {
+      "phase": "pilot",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "fresh_session": true,
+      "tool_calls": 0,
+      "prompt_sha256": "6d28c0d8852b963897763f74b7add54cc25f73eabbc9bfa791c5a6bba7c49e81",
+      "output_sha256": "416c30631593019000bb2d15ee32b1693e693b55f8b9601cbf18d07e4d2faaf5",
+      "source_pack_sha256": "166ab9ef8744a0291c7b755142e077eca5a25a17ac8851688fd08d42b64fa6e4",
+      "skill_files_sha256": {
+        "skills/literary-translation-craft/SKILL.md": "5a15e1fdcfeac8112e0126e777e8b99bc1e82b368e2a4fab2e8a2830f633e81e",
+        "skills/literary-translation-craft/references/brief.md": "e0fba7858181ecd9cf98b69576c64c85052d74ebe77a4631ea36fbfd49c115a7",
+        "skills/literary-translation-craft/references/context-handoff.md": "1937fd5d0f35b38afa26912c507d1ece92e88e3c6dd00ba11b29f94796528a3d",
+        "skills/literary-translation-craft/references/execution-record.json": "bb0f3c583b57d8ecc5500a5411ab45322f3db544b1196f24fd13bc6974dd1007",
+        "skills/literary-translation-craft/references/long-work.md": "964900604b91bdf3f49ca6d0003be72c6417119ece4bba23a6f85a5c3cea4f25",
+        "skills/literary-translation-craft/references/principles.md": "78aaeb0421d1fe79a777cdbabcd169557b8d11cf5ef62b4610a1dd7368cd7d26",
+        "skills/literary-translation-craft/references/russian-editing.md": "4339033dbc18f20a388510afe0ac5d86449e52d76f7864a6a29ba6b1c0aa2bda"
+      },
+      "input_artifacts": [
+        "plan"
+      ],
+      "elapsed_seconds": 30.58,
+      "usage": [
+        {
+          "input_tokens": 32322,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1219,
+          "reasoning_output_tokens": 516
+        }
+      ],
+      "exit_code": 0,
+      "status": "done",
+      "artifact": "pilot/output.json",
+      "instruction": "pilot/instruction.txt",
+      "session_id_sha256": "37b1fc24a6bf255028fd7775f30cadf00c70088d2d24c4e5c47b036c9e9fbe47",
+      "observed_runtime_item_types": [
+        "agent_message",
+        "error"
+      ]
+    },
+    {
+      "phase": "calibration",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "fresh_session": true,
+      "tool_calls": 0,
+      "prompt_sha256": "1b33515eb72b6ca8708ebaa60dbea4f302871e38fb0bf81d9bd1b3598ef68a8e",
+      "output_sha256": "a9e4caea36e9bdb6ad47fa1867e6bfc2791fb56f17cb1e6bb3f860e5750134a3",
+      "source_pack_sha256": "28edcc8e15ee062a47e96e6d36e58d9fd517a372b71eca6edd05b681f91efdcb",
+      "skill_files_sha256": {
+        "skills/literary-translation-craft/SKILL.md": "5a15e1fdcfeac8112e0126e777e8b99bc1e82b368e2a4fab2e8a2830f633e81e",
+        "skills/literary-translation-craft/references/brief.md": "e0fba7858181ecd9cf98b69576c64c85052d74ebe77a4631ea36fbfd49c115a7",
+        "skills/literary-translation-craft/references/context-handoff.md": "1937fd5d0f35b38afa26912c507d1ece92e88e3c6dd00ba11b29f94796528a3d",
+        "skills/literary-translation-craft/references/execution-record.json": "bb0f3c583b57d8ecc5500a5411ab45322f3db544b1196f24fd13bc6974dd1007",
+        "skills/literary-translation-craft/references/long-work.md": "964900604b91bdf3f49ca6d0003be72c6417119ece4bba23a6f85a5c3cea4f25",
+        "skills/literary-translation-craft/references/principles.md": "78aaeb0421d1fe79a777cdbabcd169557b8d11cf5ef62b4610a1dd7368cd7d26",
+        "skills/literary-translation-craft/references/russian-editing.md": "4339033dbc18f20a388510afe0ac5d86449e52d76f7864a6a29ba6b1c0aa2bda",
+        "skills/literary-translation-qa/SKILL.md": "900fdd5dcbc7126adb88ae2a30ea3d6f98fd37f0e3dd319b161b4c5ecb45fbfa",
+        "skills/literary-translation-qa/references/review-decision.json": "3b104f088ebd10b87e72744a67b9e089775c29b02651f71879c005c2436240b2"
+      },
+      "input_artifacts": [
+        "plan",
+        "pilot"
+      ],
+      "elapsed_seconds": 43.98,
+      "usage": [
+        {
+          "input_tokens": 37337,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1622,
+          "reasoning_output_tokens": 201
+        }
+      ],
+      "exit_code": 0,
+      "status": "done",
+      "artifact": "calibration/output.json",
+      "instruction": "calibration/instruction.txt",
+      "session_id_sha256": "a7ea586a342677fdcf395156c50b7da60e5beab0f02b2611a40b1a2f623b4396",
+      "observed_runtime_item_types": [
+        "agent_message",
+        "error"
+      ]
+    },
+    {
+      "phase": "skilled",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "fresh_session": true,
+      "tool_calls": 0,
+      "prompt_sha256": "442825ea04bcaaf8bad8be3bb5f715d87d8647e396af86c6c096af218c5e43b7",
+      "output_sha256": "88f5f5916d72585777bb9c937ce6b2b5a2fe7f4fafa70fa3d93ac8df6c79af47",
+      "source_pack_sha256": "28edcc8e15ee062a47e96e6d36e58d9fd517a372b71eca6edd05b681f91efdcb",
+      "skill_files_sha256": {
+        "skills/literary-translation-craft/SKILL.md": "5a15e1fdcfeac8112e0126e777e8b99bc1e82b368e2a4fab2e8a2830f633e81e",
+        "skills/literary-translation-craft/references/brief.md": "e0fba7858181ecd9cf98b69576c64c85052d74ebe77a4631ea36fbfd49c115a7",
+        "skills/literary-translation-craft/references/context-handoff.md": "1937fd5d0f35b38afa26912c507d1ece92e88e3c6dd00ba11b29f94796528a3d",
+        "skills/literary-translation-craft/references/execution-record.json": "bb0f3c583b57d8ecc5500a5411ab45322f3db544b1196f24fd13bc6974dd1007",
+        "skills/literary-translation-craft/references/long-work.md": "964900604b91bdf3f49ca6d0003be72c6417119ece4bba23a6f85a5c3cea4f25",
+        "skills/literary-translation-craft/references/principles.md": "78aaeb0421d1fe79a777cdbabcd169557b8d11cf5ef62b4610a1dd7368cd7d26",
+        "skills/literary-translation-craft/references/russian-editing.md": "4339033dbc18f20a388510afe0ac5d86449e52d76f7864a6a29ba6b1c0aa2bda"
+      },
+      "input_artifacts": [
+        "plan",
+        "calibration"
+      ],
+      "elapsed_seconds": 85.97,
+      "usage": [
+        {
+          "input_tokens": 36810,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 4035,
+          "reasoning_output_tokens": 132
+        }
+      ],
+      "exit_code": 0,
+      "status": "done",
+      "artifact": "skilled/output.json",
+      "instruction": "skilled/instruction.txt",
+      "session_id_sha256": "48d25dbbfa3f4ce1510f85f69ef5f66a5f0607feceb3bda88d701ccecef9928c",
+      "observed_runtime_item_types": [
+        "agent_message",
+        "error"
+      ]
+    },
+    {
+      "phase": "critique",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "fresh_session": true,
+      "tool_calls": 0,
+      "prompt_sha256": "1e8aa3a8dc2a84d6d943658ba8e2c926d336e8431d802b9c4d9b6c10f4076b30",
+      "output_sha256": "16de366557364fe73b9cb1f7db1f89023cf7fea496cc044981a79a7533e80961",
+      "source_pack_sha256": "28edcc8e15ee062a47e96e6d36e58d9fd517a372b71eca6edd05b681f91efdcb",
+      "skill_files_sha256": {
+        "skills/literary-translation-craft/SKILL.md": "5a15e1fdcfeac8112e0126e777e8b99bc1e82b368e2a4fab2e8a2830f633e81e",
+        "skills/literary-translation-craft/references/brief.md": "e0fba7858181ecd9cf98b69576c64c85052d74ebe77a4631ea36fbfd49c115a7",
+        "skills/literary-translation-craft/references/context-handoff.md": "1937fd5d0f35b38afa26912c507d1ece92e88e3c6dd00ba11b29f94796528a3d",
+        "skills/literary-translation-craft/references/execution-record.json": "bb0f3c583b57d8ecc5500a5411ab45322f3db544b1196f24fd13bc6974dd1007",
+        "skills/literary-translation-craft/references/long-work.md": "964900604b91bdf3f49ca6d0003be72c6417119ece4bba23a6f85a5c3cea4f25",
+        "skills/literary-translation-craft/references/principles.md": "78aaeb0421d1fe79a777cdbabcd169557b8d11cf5ef62b4610a1dd7368cd7d26",
+        "skills/literary-translation-craft/references/russian-editing.md": "4339033dbc18f20a388510afe0ac5d86449e52d76f7864a6a29ba6b1c0aa2bda",
+        "skills/literary-translation-qa/SKILL.md": "900fdd5dcbc7126adb88ae2a30ea3d6f98fd37f0e3dd319b161b4c5ecb45fbfa",
+        "skills/literary-translation-qa/references/review-decision.json": "3b104f088ebd10b87e72744a67b9e089775c29b02651f71879c005c2436240b2"
+      },
+      "input_artifacts": [
+        "plan",
+        "draft"
+      ],
+      "elapsed_seconds": 52.46,
+      "usage": [
+        {
+          "input_tokens": 40722,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1633,
+          "reasoning_output_tokens": 382
+        }
+      ],
+      "exit_code": 0,
+      "status": "done",
+      "artifact": "critique/output.json",
+      "instruction": "critique/instruction.txt",
+      "session_id_sha256": "87f688c8391cc0ae0214d79ad9e044004b6c21e681054d26c9c1631b94791c66",
+      "observed_runtime_item_types": [
+        "agent_message",
+        "error"
+      ]
+    },
+    {
+      "phase": "reviewed",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "fresh_session": true,
+      "tool_calls": 0,
+      "prompt_sha256": "2f2c12ad03caf1bcbfd9594955e83a4cfd4b73498ec95cf038561332791d0057",
+      "output_sha256": "4330746f7e9381e376fdd36bfe5a35a5c7cdde7a4e67c1eb1aa21713e4566ed7",
+      "source_pack_sha256": "28edcc8e15ee062a47e96e6d36e58d9fd517a372b71eca6edd05b681f91efdcb",
+      "skill_files_sha256": {
+        "skills/literary-translation-craft/SKILL.md": "5a15e1fdcfeac8112e0126e777e8b99bc1e82b368e2a4fab2e8a2830f633e81e",
+        "skills/literary-translation-craft/references/brief.md": "e0fba7858181ecd9cf98b69576c64c85052d74ebe77a4631ea36fbfd49c115a7",
+        "skills/literary-translation-craft/references/context-handoff.md": "1937fd5d0f35b38afa26912c507d1ece92e88e3c6dd00ba11b29f94796528a3d",
+        "skills/literary-translation-craft/references/execution-record.json": "bb0f3c583b57d8ecc5500a5411ab45322f3db544b1196f24fd13bc6974dd1007",
+        "skills/literary-translation-craft/references/long-work.md": "964900604b91bdf3f49ca6d0003be72c6417119ece4bba23a6f85a5c3cea4f25",
+        "skills/literary-translation-craft/references/principles.md": "78aaeb0421d1fe79a777cdbabcd169557b8d11cf5ef62b4610a1dd7368cd7d26",
+        "skills/literary-translation-craft/references/russian-editing.md": "4339033dbc18f20a388510afe0ac5d86449e52d76f7864a6a29ba6b1c0aa2bda",
+        "skills/literary-translation-qa/SKILL.md": "900fdd5dcbc7126adb88ae2a30ea3d6f98fd37f0e3dd319b161b4c5ecb45fbfa",
+        "skills/literary-translation-qa/references/review-decision.json": "3b104f088ebd10b87e72744a67b9e089775c29b02651f71879c005c2436240b2"
+      },
+      "input_artifacts": [
+        "plan",
+        "draft",
+        "critique",
+        "calibration"
+      ],
+      "elapsed_seconds": 63.53,
+      "usage": [
+        {
+          "input_tokens": 43187,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 4998,
+          "reasoning_output_tokens": 58
+        }
+      ],
+      "exit_code": 0,
+      "status": "done",
+      "artifact": "reviewed/output.json",
+      "instruction": "reviewed/instruction.txt",
+      "session_id_sha256": "b3236a6d03b4749cf66d11c3f97b1a2b1f06b48d8af6d9ec64f857aababf3f8d",
+      "observed_runtime_item_types": [
+        "agent_message",
+        "error"
+      ]
+    },
+    {
+      "phase": "evaluation",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "fresh_session": true,
+      "tool_calls": 0,
+      "prompt_sha256": "9aa4f657173af97910aad2e00be8a5e921eaf57ef4a55551092f6625427de464",
+      "output_sha256": "814e64cf88e78aab537989ba24830f65233ed43615b6064a2c571f97edd163a6",
+      "source_pack_sha256": "28edcc8e15ee062a47e96e6d36e58d9fd517a372b71eca6edd05b681f91efdcb",
+      "skill_files_sha256": {
+        "skills/literary-translation-evaluation/SKILL.md": "a84859627659c060b317a6e5c692a800aa330448d5d1590407258e3f59673424",
+        "skills/literary-translation-evaluation/references/comparison-design.md": "dfd8424ba45dc0a9ca6170ab2096e8de34653f1d34f7d4538976b85738722aac",
+        "skills/literary-translation-evaluation/references/rubric.md": "6976967b3c441725ece641df795c71d7d3670c047efdcc8c3cf02ca21cfef3f2"
+      },
+      "input_artifacts": [
+        "candidates"
+      ],
+      "elapsed_seconds": 177.63,
+      "usage": [
+        {
+          "input_tokens": 42050,
+          "cached_input_tokens": 3328,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 7480,
+          "reasoning_output_tokens": 385
+        }
+      ],
+      "exit_code": 0,
+      "status": "done",
+      "artifact": "evaluation/output.json",
+      "instruction": "evaluation/instruction.txt",
+      "session_id_sha256": "def165ad2fcfe4110f5d8c19a93726cb9a255a4b9d9633138aaefae4f1a7d95c",
+      "observed_runtime_item_types": [
+        "agent_message",
+        "error"
+      ]
+    }
+  ],
+  "outputs": {
+    "baseline": "423de32670a3b4e3ccd90a10952b1b4d8e0cc7941587ee9c4cbfbcf4705589b5",
+    "skilled": "88f5f5916d72585777bb9c937ce6b2b5a2fe7f4fafa70fa3d93ac8df6c79af47",
+    "reviewed": "4330746f7e9381e376fdd36bfe5a35a5c7cdde7a4e67c1eb1aa21713e4566ed7"
+  },
+  "reference_translations_supplied": false,
+  "primary_agent_text_edits": false,
+  "best_of_selection": false,
+  "isolation": {
+    "new_session_each_phase": true,
+    "inline_inputs": true,
+    "tools_used": 0,
+    "host_skills_disabled": true,
+    "memory_disabled": true,
+    "plugins_disabled": true,
+    "network_tools_disabled": true,
+    "baseline_skill_instructions": []
+  },
+  "runtime_notes": [
+    "The installed CLI ignored the tools.view_image configuration key; there were no image inputs or image tool calls.",
+    "Host skill discovery was disabled using the installed experimental skip_host_skill_discovery feature.",
+    "The same model family performed generation, critique, editing and diagnostics. Separate contexts do not establish independent human validation."
+  ],
+  "limits": [
+    "Public-domain originals and historical translations may be present in model training. Runtime isolation does not remove that prior knowledge.",
+    "Source context is identical across the main conditions; craft and craft+QA intentionally receive additional plan, glossary and pilot calibration.",
+    "The reviewed condition is a revision of the craft draft, not an independently sampled translation.",
+    "Evaluation results are diagnostic; no candidate was selected, replaced or manually rewritten after evaluation.",
+    "Full original stories, complete prompts and raw CLI logs remain outside the public repository. Context URLs/hashes, exact stage instructions and generated artifacts are published."
+  ],
+  "common_launch_options": [
+    "--ignore-user-config",
+    "--ephemeral",
+    "--skip-git-repo-check",
+    "--sandbox read-only",
+    "model_reasoning_effort=medium",
+    "project_doc_max_bytes=0",
+    "web_search=disabled",
+    "shell_tool=false",
+    "apps=false",
+    "plugins=false",
+    "memories=false",
+    "hooks=false",
+    "multi_agent=false",
+    "browser_use=false",
+    "computer_use=false",
+    "image_generation=false",
+    "skill_search=false",
+    "skip_host_skill_discovery=true"
+  ],
+  "poll_methods": [
+    "published",
+    "baseline",
+    "reviewed"
+  ],
+  "intermediate_condition": "The skilled output is the frozen craft draft, retained as evidence but not a separate voting card. QA left 36 of 40 drafts unchanged, so displaying it alongside the reviewed candidate would duplicate text and split votes.",
+  "source_alignment": {
+    "normalization": "Lowercase Unicode alphanumeric characters only, dropping punctuation, whitespace and zero-width markers. Every fragment must be contained in its declared work context.",
+    "checked_ids": [
+      "poe-nerves",
+      "doer-city",
+      "poe-silence",
+      "poe-ray",
+      "doer-weeping",
+      "poe-heart",
+      "poe-extra-01",
+      "poe-extra-03",
+      "poe-extra-04",
+      "poe-extra-06",
+      "poe-extra-08",
+      "poe-extra-11",
+      "poe-extra-12",
+      "poe-extra-13",
+      "poe-extra-14",
+      "poe-extra-15",
+      "poe-extra-16",
+      "poe-extra-17",
+      "wilde-extra-01",
+      "wilde-extra-02",
+      "wilde-extra-03",
+      "wilde-extra-04",
+      "wilde-extra-05",
+      "wilde-extra-06",
+      "wilde-extra-07",
+      "wilde-extra-08",
+      "wilde-extra-09",
+      "wilde-extra-10",
+      "wilde-extra-11",
+      "wilde-extra-12",
+      "cat-01",
+      "cat-02",
+      "cat-03",
+      "cat-04",
+      "cat-05",
+      "cat-06",
+      "cat-07",
+      "cat-08",
+      "cat-09",
+      "cat-10"
+    ],
+    "fragment_sha256": {
+      "poe-nerves": "d6354bec323d75e4cc027fa5c98b28b89569c3033265917bd1a068b9b6d6d627",
+      "doer-city": "ee7e183ea965c7b758e8eb3044e5856a806b45a4c83fc859863e796b8ed9302d",
+      "poe-silence": "6e8c5cdf8f2061ada24dab348d77cf99f2929aa77264d88f8ae5d777895f6105",
+      "poe-ray": "033aab34905d14c792998c6fd94310dc2bb41308069ea61318679f0fa533995b",
+      "doer-weeping": "0f70858db300da302f6274c2ff93a6380d9cd460c3d3826fe5eb4352a0939718",
+      "poe-heart": "09ac2e1a520c9a95baa77ffbde72b8877f3b965eada1420ef86262a9e94ae861",
+      "poe-extra-01": "addcd73eda01c103a264b400769502cc39075c401bcf5fc8da3d2ab661587504",
+      "poe-extra-03": "ce58c30ebb3525d8664ba7520425308a48c38200dc7f70b84132574bdd7d2f65",
+      "poe-extra-04": "11883920272acef10ec01a967ab75ae67569c95c6e69b426e3437b8375847912",
+      "poe-extra-06": "e49d56124078129b9530d676a0bdf38f2e818e1ea86f53e7f3af0f96bea2ad80",
+      "poe-extra-08": "ccdef32b68a6353b9c3fe69fe26a3953cce0a113b5916bcda0ea26a96abaa3a4",
+      "poe-extra-11": "9ce0237207f8beaaa471cdd5cf0dd52852b07bd650dfad13b691533c8a4ea452",
+      "poe-extra-12": "c085aefc16172c4cf2e637bd252884332b5847a6d404b3fee3056f1eb6c22733",
+      "poe-extra-13": "0e8012f05791e9ce9f43a75b5738d80d3537d997e11c9e8d700d5344b9146de8",
+      "poe-extra-14": "8d997a9e8f223bf27ef87734fa41e3ed991e5bbf0c047771ca920f052142ee74",
+      "poe-extra-15": "10b05727bb0e44ec8eb31c26211dbeac40b6ab3a6c5fdee6e785571cf9759642",
+      "poe-extra-16": "c559b78c9d26c10c31d47095d667dcc6816a8d3b54a5a3e0cbb0b131f0247307",
+      "poe-extra-17": "75f4f751dbd65ae00cfde7cced970f5d28b33a30a4623cf64e49f2c1acb1e48a",
+      "wilde-extra-01": "b8737023c27f70c89d217b8cf93e02d9d01ba36259cfdcef15f13adcac7d59aa",
+      "wilde-extra-02": "324ec8de586dabf560617531b1177b36a4280b6401abf40141cab0a18468360e",
+      "wilde-extra-03": "885fa2ec4bcd65481a9efc75ef0ad2ad0d70ea716385541eaf6a4102bd21610f",
+      "wilde-extra-04": "dfbc1beaace7ba48ed994a75b8903d58bb4243c653175b7af656f6ebd2f460db",
+      "wilde-extra-05": "6708383ad1356093cd18577c689fa517b67085d82e8595c9617afe213515ff10",
+      "wilde-extra-06": "d7adf7444e8ca8af83b508479ab880cbea19e66923cce3e653ee1be1e0b098a4",
+      "wilde-extra-07": "976b346384180c09560975eb6b14d4428e85878f918488132b421daadea685b7",
+      "wilde-extra-08": "d8031f3acb47ccab59fb7807c80ab7ffa667fef2037c43c5e56787b6246ba787",
+      "wilde-extra-09": "4fcb95122f3f25e04a22f92cc6b33385fa7d28f5b85a0addf145948f25410620",
+      "wilde-extra-10": "d9c6aeba231413800486030e143cc323ca7b9f2f7a247d6fae0be8441b9683d0",
+      "wilde-extra-11": "0d89cb75d83d1181dd62da27c5348deb3a653a0f70f69e2ae61ad49f822c2387",
+      "wilde-extra-12": "5f2b1ba9d0c34124dcba82b629f09cde24a5324664b81d8978e8ca5c57efcfdd",
+      "cat-01": "2df3ca856c92a1979e241add9a00bcf39c4f7a5dd79f9f19bee0e17d6be6f9e2",
+      "cat-02": "cc3ec237821e80d2ef6660ee793d82734af44bfdfa5c0e6ef2a4ab6fbaeadf42",
+      "cat-03": "8bdf41f1f2866551e79f9277e23b475f282b594c398247d5f4f9404b289f2b3e",
+      "cat-04": "f609d6d7bddf6894056bb3b49302151590e8ae4b0cecf1535bad4168bae2a4f9",
+      "cat-05": "ff28d8fc5a0bb661834c9e87bab8240e6cc08acc7fcd03cf7d3e4d153e0b5271",
+      "cat-06": "b899e927d1ca234b3e50354c1687fc9ef960b0843ad6c0e51f7b285ae97bf55b",
+      "cat-07": "0bcfbb509b2227e1488cfa61e215d52599ef55a8f55eeae4aee5a882eb6dcb22",
+      "cat-08": "951ea5eb9bcff4a926dae192e4ddb56ad0f51248ec2c1731917b8b5147708162",
+      "cat-09": "2984d70016a202746dd53840f8b5a5c38a0d1bc63d8789f3df82f726cd2a5a1a",
+      "cat-10": "403e8002ca0b4d5cc7c75731f076321032cf6a1a7d09f79a2a413d88a728456e"
+    }
+  },
+  "non_voting_fragments": [
+    "wilde-extra-04",
+    "wilde-extra-06",
+    "wilde-extra-12",
+    "cat-06"
+  ],
+  "non_voting_policy": "Exclude exact whitespace-normalized baseline/reviewed duplicates from UI cohorts and the server allowlist. Preserve their first outputs in evidence; no regeneration to force differences.",
+  "condition_call_counts": {
+    "baseline": 1,
+    "craft_draft_including_preparation": 4,
+    "craft_plus_QA_including_preparation": 6,
+    "post_freeze_diagnostic_evaluation": 1
+  }
+}
