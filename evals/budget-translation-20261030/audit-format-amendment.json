@@ -1,0 +1,7 @@
+{
+  "date": "2026-10-31",
+  "timing": "After supplementary coverage call, before adjudication or scoring/routing.",
+  "observed_format": "Supplementary reviewer explicitly named all9required candidates using source-id/candidate-id strings rather than bare candidate ids. No ids absent or extra; no new pair votes.",
+  "correction": "Decode this exact explicit notation in addition to prior grouped notation. No inference of missing ids, no text or judgment change, no repeat modelcall.",
+  "adapter_sha256": "a374e40ba9a063d46733471467e79e64f89526518477d0b0b71c15587c576c3f"
+}
