@@ -1,0 +1,50 @@
+[
+  {
+    "id": "cal-a",
+    "source": "She had not yet opened the letter.",
+    "text": "Она уже открыла письмо.",
+    "expected_issue": true,
+    "context_before": "The room was quiet. No one spoke.",
+    "context_after": "Then someone knocked. They waited."
+  },
+  {
+    "id": "cal-b",
+    "source": "He lay on the bench.",
+    "text": "Он сидел на скамейке.",
+    "expected_issue": true,
+    "context_before": "The room was quiet. No one spoke.",
+    "context_after": "Then someone knocked. They waited."
+  },
+  {
+    "id": "cal-c",
+    "source": "Three lamps were lit.",
+    "text": "Горели четыре лампы.",
+    "expected_issue": true,
+    "context_before": "The room was quiet. No one spoke.",
+    "context_after": "Then someone knocked. They waited."
+  },
+  {
+    "id": "cal-d",
+    "source": "The window drank the evening.",
+    "text": "Окно пило вечер.",
+    "expected_issue": false,
+    "context_before": "The room was quiet. No one spoke.",
+    "context_after": "Then someone knocked. They waited."
+  },
+  {
+    "id": "cal-e",
+    "source": "He buried the hatchet beneath a tree, blade downward.",
+    "text": "Он закопал топор под деревом, лезвием вниз.",
+    "expected_issue": false,
+    "context_before": "The room was quiet. No one spoke.",
+    "context_after": "Then someone knocked. They waited."
+  },
+  {
+    "id": "cal-f",
+    "source": "Not all the doors were locked.",
+    "text": "Не все двери были заперты.",
+    "expected_issue": false,
+    "context_before": "The room was quiet. No one spoke.",
+    "context_after": "Then someone knocked. They waited."
+  }
+]

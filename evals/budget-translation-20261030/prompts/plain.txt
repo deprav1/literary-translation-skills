@@ -1,0 +1,1 @@
+Translate every source item into Russian. Use the surrounding English paragraphs as read-only context; do not translate them. Preserve the item ids. Return each complete translation, not a summary. Output only the requested JSON.

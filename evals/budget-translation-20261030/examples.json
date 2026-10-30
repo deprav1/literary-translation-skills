@@ -1,0 +1,55 @@
+{
+  "origin": "Original synthetic micro-examples authored and reviewed by the primary assistant, not published human reference translations or gold for the test passages.",
+  "examples": [
+    {
+      "id": "ex-modality",
+      "source": "She might have seen him, but she said nothing.",
+      "translation": "Возможно, она его заметила, но ничего не сказала.",
+      "purpose": "uncertainty without explanatory additions"
+    },
+    {
+      "id": "ex-state",
+      "source": "The man lay on the bench, his eyes open.",
+      "translation": "Мужчина лежал на скамье с открытыми глазами.",
+      "purpose": "state and sensory detail"
+    },
+    {
+      "id": "ex-fragment",
+      "source": "The signal went dead. He tried again. Nothing.",
+      "translation": "Сигнал пропал. Он попробовал ещё раз. Ничего.",
+      "purpose": "technical register and deliberate fragments"
+    },
+    {
+      "id": "ex-idiom",
+      "source": "It gave her the creeps, though she knew the room was empty.",
+      "translation": "Ей стало жутко, хотя она знала, что в комнате никого нет.",
+      "purpose": "idiom in an emotional context"
+    },
+    {
+      "id": "ex-shell",
+      "source": "He called it a shell, not a person.",
+      "translation": "Он называл это оболочкой, не человеком.",
+      "purpose": "contrast and terminology by sense"
+    },
+    {
+      "id": "ex-image",
+      "source": "The old pump coughed twice and fell silent.",
+      "translation": "Старый насос дважды кашлянул и умолк.",
+      "purpose": "preserve intentional personification"
+    }
+  ],
+  "selection": {
+    "rowboat": [
+      "ex-fragment",
+      "ex-shell"
+    ],
+    "robot": [
+      "ex-modality",
+      "ex-state"
+    ],
+    "blindsight": [
+      "ex-idiom",
+      "ex-image"
+    ]
+  }
+}

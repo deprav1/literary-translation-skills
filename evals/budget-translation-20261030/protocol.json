@@ -1,0 +1,147 @@
+{
+  "date": "2026-10-30",
+  "purpose": "Development pilot: skill effects on lower-cost translators and full-pipeline economics; not a confirmation holdout.",
+  "source": {
+    "path": "evals/targeted-review-20261030/natural-source.json",
+    "sha256": "724a7fef029d95d7b53ed2de97833e6e984744e1b91c3d78eb3698e912f2d3aa",
+    "items": 30,
+    "status": "Previously evaluated sources; development use only. No prior Russian outputs supplied."
+  },
+  "models": {
+    "terra": "gpt-6.1-terra",
+    "luna": "gpt-6-luna",
+    "planner": "gpt-6.1-sol",
+    "anchor": "gpt-6.1-sol",
+    "auditor": "gpt-6.1-sol"
+  },
+  "reasoning_effort": "medium",
+  "arms": [
+    "plain",
+    "guard",
+    "brief",
+    "memory"
+  ],
+  "pricing": {
+    "quote_date": "2026-10-30",
+    "currency": "USD",
+    "basis": "API list-price equivalent; not actual Codex subscription billing",
+    "service_tier": "Standard assumed; tier not attested by CLI usage",
+    "context_class": "below272kinputtokens",
+    "unit": "per1000000tokens",
+    "sources": [
+      "https://developers.openai.com/api/docs/pricing",
+      "https://developers.openai.com/api/docs/models/gpt-6.1-terra",
+      "https://developers.openai.com/api/docs/models/gpt-6-luna",
+      "https://developers.openai.com/api/docs/guides/token-counting"
+    ],
+    "rates": {
+      "gpt-6.1-sol": {
+        "input": 2.0,
+        "cached_input": 0.1,
+        "cache_write": 2.5,
+        "output": 10.0
+      },
+      "gpt-6.1-terra": {
+        "input": 1.0,
+        "cached_input": 0.05,
+        "cache_write": 1.25,
+        "output": 5.0
+      },
+      "gpt-6-luna": {
+        "input": 0.1,
+        "cached_input": 0.01,
+        "cache_write": 0.125,
+        "output": 0.5
+      }
+    },
+    "output_includes_reasoning": true,
+    "cache_write_assumption": "cache_write_input_tokens treated as subset of input_tokens; separate cold-cost scenario reported. Positive cache-write counts require review of accounting semantics."
+  },
+  "escalation": {
+    "flag": "at least one confirmed major/critical, unresolved meaning, or two confirmed minor fidelity issues",
+    "luna": [
+      "terra",
+      "anchor"
+    ],
+    "terra": [
+      "anchor"
+    ],
+    "max_levels": 2,
+    "retranslate_only_flagged_items": true
+  },
+  "auto_deploy": false,
+  "confirmation_required": "Fresh60+item,6+work holdout and qualified bilingual review before general quality claim or mandatory default.",
+  "pair_comparisons": {
+    "terra_guard_vs_plain": [
+      "terra_guard",
+      "terra_plain"
+    ],
+    "terra_brief_vs_plain": [
+      "terra_brief",
+      "terra_plain"
+    ],
+    "terra_memory_vs_plain": [
+      "terra_memory",
+      "terra_plain"
+    ],
+    "terra_plain_vs_anchor": [
+      "terra_plain",
+      "sol_anchor"
+    ],
+    "terra_guard_vs_anchor": [
+      "terra_guard",
+      "sol_anchor"
+    ],
+    "terra_brief_vs_anchor": [
+      "terra_brief",
+      "sol_anchor"
+    ],
+    "terra_memory_vs_anchor": [
+      "terra_memory",
+      "sol_anchor"
+    ],
+    "luna_guard_vs_plain": [
+      "luna_guard",
+      "luna_plain"
+    ],
+    "luna_brief_vs_plain": [
+      "luna_brief",
+      "luna_plain"
+    ],
+    "luna_memory_vs_plain": [
+      "luna_memory",
+      "luna_plain"
+    ],
+    "luna_plain_vs_anchor": [
+      "luna_plain",
+      "sol_anchor"
+    ],
+    "luna_guard_vs_anchor": [
+      "luna_guard",
+      "sol_anchor"
+    ],
+    "luna_brief_vs_anchor": [
+      "luna_brief",
+      "sol_anchor"
+    ],
+    "luna_memory_vs_anchor": [
+      "luna_memory",
+      "sol_anchor"
+    ]
+  },
+  "pilot_rules": {
+    "scope": "Development signal only, no automatic default or proven literary claim",
+    "within_model_signal": "Complete coverage; no new accepted critical or major error relative to plain; semantic-error improvement on>=2items OR prose preference net>=2 without increased calque count; no more1newminor semantic harm; nonnegative direction in>=2works.",
+    "ranking": "Among signal arms rank by confirmed critical count, major count, total fidelity count, prose preference loss to anchor, then cold translation+full planning cost. If no arm signals, choose plain for economic baseline; do not label it skill improvement.",
+    "economic_observed_gate": "After actual bounded routing: no critical/unresolved production flags, major error density within0.5per1000sourcewords of anchor, decisive prose losses to anchor<=10%ofcorpus, cold total pipeline cost<=80%of equally audited anchor. Internal pilot gate only.",
+    "production_routing_uses": "Raw evidence-backed online audit flags without a free human/model adjudicator; charge false-positive escalation too. Final research adjudication is separate.",
+    "strong_baseline_routing": "Sol anchor also receives one online audit; if flagged, one Sol correction+reaudit, both charged.",
+    "max_total_model_calls": 36,
+    "bootstrap": "Work-stratified item bootstrap and per-work counts are descriptive; no population-level certainty from3works.",
+    "unique_issue_key": "source_id + anonymous candidate_id + final category + source_quote; coalesce exact duplicate evidence across audit contexts using max severity; aliases inherit once.",
+    "new_harm_key": "category+source_quote absent in same-model plain accepted issues",
+    "prose_preference": "One blinded prose/voice context, no majority claim. Exact duplicate text pairs deterministic tie; empty/missing wronglanguage automatically failure.",
+    "acceptance": "No raw online major/critical/unresolved or2minor semantic flags and complete translator coverage. Pending flags count as unaccepted until actual re-audit clears them.",
+    "cost_signal_cap": "guard cold cost<=1.25plain; brief/memory fullplanner+translator cold cost<=1.5plain. Opportunities failing this cap are quality observations only."
+  }
+}

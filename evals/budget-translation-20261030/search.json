@@ -1,0 +1,79 @@
+{
+  "checked_on": "2026-10-30",
+  "scope": "New search for lower-cost translators. Source/code reviewed; no installation, no third-party model invocation.",
+  "repositories": [
+    {
+      "repo": "Tencent-Hunyuan/Hy-MT2",
+      "url": "https://github.com/Tencent-Hunyuan/Hy-MT2",
+      "stars": 1506,
+      "forks": 159,
+      "license": "NOASSERTION",
+      "default_branch": "main",
+      "last_push": "2026-08-26T01:48:04Z"
+    },
+    {
+      "repo": "Maryleya/RAG_System_for_Specialized_Terms",
+      "url": "https://github.com/Maryleya/RAG_System_for_Specialized_Terms",
+      "stars": 0,
+      "forks": 0,
+      "license": "MIT",
+      "default_branch": "main",
+      "last_push": "2026-09-10T17:01:13Z"
+    },
+    {
+      "repo": "zwhe99/MAPS-mt",
+      "url": "https://github.com/zwhe99/MAPS-mt",
+      "stars": 148,
+      "forks": 7,
+      "license": null,
+      "default_branch": "main",
+      "last_push": "2024-06-07T06:11:52Z"
+    },
+    {
+      "repo": "HongyuanLuke/Chain-of-Dictionary",
+      "url": "https://github.com/HongyuanLuke/Chain-of-Dictionary",
+      "stars": 1,
+      "forks": 0,
+      "license": null,
+      "default_branch": "main",
+      "last_push": "2024-08-17T11:03:15Z"
+    }
+  ],
+  "candidate_decisions": [
+    {
+      "name": "Hy-MT2 translator skill",
+      "url": "https://clawhub.ai/tencent-adm/skills/hy-mt2-translator-skill",
+      "kind": "installable vendor-specific adapter",
+      "useful": "Compact context, style and terminology modes, structured output.",
+      "decision": "Do not install: would replace user-requested Terra/Luna with Tencent endpoint; cloud credentials or selfhosted model required. Broad ALLtranslationrequests routing not adopted. Model-specific claims do not prove a prompt works on Terra/Luna."
+    },
+    {
+      "name": "EN-RU terminology retrieval",
+      "url": "https://aclanthology.org/2026.wmt-main.40/",
+      "kind": "research/code",
+      "useful": "Term extraction, meaning/domain disambiguation, source-linked glossary handoff for smaller models.",
+      "decision": "Test as compact source-derived brief; no bulk domain KB injected into fiction; literature evidence absent."
+    },
+    {
+      "name": "MAPS",
+      "url": "https://aclanthology.org/2024.tacl-1.13/",
+      "kind": "research/code",
+      "useful": "Source-topic/keywords/preparatory knowledge selection before cheap translation.",
+      "decision": "Adapt only short evidence-linked handoff. Not a faithful fullMAPSreplication, no claim that role labels establish quality."
+    },
+    {
+      "name": "Chain-of-Dictionary",
+      "url": "https://aclanthology.org/2024.emnlp-main.55/",
+      "kind": "research/samplecode",
+      "useful": "Sense-oriented lexical support for translation limitations.",
+      "decision": "Keep as research reference. NoverifiedEN-RUliteraryorTerra/Lunapromptresult; not add noisy multilingualchains inthispilot."
+    }
+  ],
+  "prior_trial_diagnosis": [
+    "All conditions previously generated or edited with gpt-6.1-sol; no measurement of weaker-model lift.",
+    "Strong source-based ordinary editing was the control; this tested marginal specialist instructions, not economically useful first-pass guidance.",
+    "No raw/dollar-equivalent quality-cost frontier or actual paid escalation.",
+    "Most natural gains were rare; no statistical failure is a proof of no benefit on weak models.",
+    "Broad A/B preference obscured source-grounded categories and uncertainty; new audit separates semantic/form and Russian/voice."
+  ]
+}
