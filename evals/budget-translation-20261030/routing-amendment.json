@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-31",
+  "timing": "Before observing translation outputs, before audit/scoring/routing. First generation already running; no base prompt or selection threshold changed.",
+  "reason": "Prelaunch read-only review identified missing evidence reconstruction and final economic-gate implementation; retranslation must receive unresolved/operational triggers as well as issues.",
+  "base_preregistration_unchanged": true,
+  "changes": [
+    "Add infrastructure-only reconstruction verifier and economic-gate tests.",
+    "Production routing uses versioned wrapper carrying all normalized triggers; original frozen generator/analyzer bytes remain untouched.",
+    "Final routed texts receive actual hidden prose comparison against equally routed anchor; research cost recorded separately.",
+    "Conservative economic gate requires both selected and anchor routes have no unresolved flags; this is stronger than allowing0.5majorerrors/1000words."
+  ],
+  "code_sha256": {
+    "scripts/verify_budget_trial.py": "a140dbb450567b7637549e40e5bb51e630cadaf00e22874a6ce43aed1888b8ca",
+    "scripts/budget_economic_gate.py": "8faa0317352def5f2f71d0eb008f5e3601af84717da77b2c939463e62ffb5738",
+    "scripts/route_budget_trial.py": "bedfe891c6530f57228bc2ca9691bb9d47ec6f3e1ef0d4fff89e61af1d94cb83"
+  },
+  "promotion": "Development evidence only; no mandatory or proven-quality skill deployment."
+}
