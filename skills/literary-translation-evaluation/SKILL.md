@@ -12,6 +12,8 @@ Use this skill when the task is to compare candidate translations, measure a tra
 
 Record the source edition, source and target languages, genre, audience, candidate IDs, and the scope (`excerpt`, `sample`, or `full`). Read the complete scene or paragraph range needed to resolve agents, viewpoint, modality, chronology, cultural references, and recurring terms. For files, record the hashes of the actual source and target artifacts. Do not treat a remembered sentence, a model confidence value, or a valid JSON response as evidence of quality.
 
+For lower-cost model substitution, use [quality and cost evaluation](references/quality-cost.md). Measure gains on the actual lower-cost translator and charge planning, operational audits and escalation; marginal improvements to an already strong draft answer a different question.
+
 For a pilot or benchmark, read [comparison design](references/comparison-design.md) before generating candidates. Verify source/historical-translation boundaries, isolate generator contexts, and record reference exposure. Keep unblinded or differently generated groups visible in results instead of attributing their pooled votes to the skill.
 
 ## Apply gates before soft scores
