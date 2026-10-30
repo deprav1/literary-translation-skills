@@ -67,6 +67,17 @@ The TransAgents root LICENSE contains Apache-2.0 while its README badge says CC 
 
 The pasted Argon response was used as a candidate list, not as authority. Its useful Russian-target checks were converted into conditional review questions rather than hard rules to delete pronouns, passive voice, or foreignness. Named books and translator examples were not copied into prompts or few-shot data; they need edition, rights, and context checks before any separate use.
 
+## Follow-up: lower-cost translators
+
+The [budget-pilot search](../evals/budget-translation-20261030/SEARCH.md) and its [dated metadata](../evals/budget-translation-20261030/search.json) distinguish reusable mechanisms from vendor-specific adapters. The pilot explicitly uses Terra and Luna as translators; the preceding strong-Sol review experiment did not measure their skill benefit.
+
+| Source | Candidate operation | Limit |
+|---|---|---|
+| [Retrieval-Augmented Terminology Translation for English-Russian](https://aclanthology.org/2026.wmt-main.40/) | Extract terms, resolve domain/sense and retrieve a bounded glossary | Specialised-domain results do not establish literary quality on Terra/Luna |
+| [MAPS](https://aclanthology.org/2024.tacl-1.13/) | Source analysis and selection of useful preparation | Our compact handoff is an adaptation, not a full reproduction or proof of the method |
+| [Hy-MT2 task prompts](https://github.com/Tencent-Hunyuan/Hy-MT2) | Explicit context, terminology, style and structure interfaces | The installable adapter invokes a different translation backend and is not installed for the requested Terra/Luna experiment |
+| [Official model pricing](https://developers.openai.com/api/docs/pricing) and [token accounting](https://developers.openai.com/api/docs/guides/token-counting) | Dated API-equivalent cost scenarios, including audits and escalation | CLI usage and a list-price calculation are not an actual subscription bill or provider-tier attestation |
+
 ## Attribution and book profiles
 
 Optional profiles name works to identify their intended scope. They contain original editorial notes, not official translations, full books, or long source excerpts. Book authors and publishers retain their rights. The repository's MIT license covers its original material only.
