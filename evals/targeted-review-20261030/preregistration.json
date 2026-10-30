@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-30",
+  "outputs_observed": false,
+  "files": {
+    "candidates/fidelity.txt": "c977894fa3191004025975e9f994c35101c2f6424f83dbcc616252dbda7f00a7",
+    "candidates/idiom.txt": "5b88a973de4e588160b2b9a2affea6e6ef8050549660973887e7cd8b5898eba0",
+    "candidates/memory.txt": "e8c7044beac6b1c5eebcf6c81e84212a4ad228937dded6ca26b915f614e3530e",
+    "lexical-evidence.json": "e26eb7f199684005f8ed0d3f542787ec7b6a26fcabea8ec6f363d2f05854cb52",
+    "LICENSE.md": "7bd383325a684b4e49d9dd70614820268885521f4e4c422bc50fb4b435c9c327",
+    "memory-catalog.json": "8cbdb17aaf9f8e2a0fc3b771db96237268b2290f5ea95c5e0f638645d43edcf1",
+    "memory-packets.json": "94ba64f4d0dec5656efd16cf65adb36685f92ae23db2df3fee2e9aaa5ea3fee8",
+    "memory-selection.json": "78af8dd1760c44f2fe5863aaf7b0b5e0bf14efaa8904d01414682e100ec5e475",
+    "natural-source.json": "724a7fef029d95d7b53ed2de97833e6e984744e1b91c3d78eb3698e912f2d3aa",
+    "PLAN.md": "26a9543188bbced48275739187587a969d6c58233912b5d5fde090b536ba498e",
+    "selection.json": "16b8ec98da97c7af36e94b3888faad416c3550ab97db2ef02d66b339360bdcfd",
+    "sources.json": "8241358afdcde05ded6f0f1e576be2fb72bfb1b62213aead4678f53f5d451460",
+    "synthetic-gold-commitment.json": "f76f40b8808eca3bfb6c88a734489558c47cf26207c19c6017637f6fa4a20050",
+    "synthetic-inputs.json": "14c1188688627877a266c276d8184ab9513de8c0dac9be5b57da4b5463c74147",
+    "WORDNET-LICENSE.txt": "7731175a77952e259390b496fab905e57118b8d19ad3a8383c67eee724ff443f"
+  },
+  "runner_sha256": "9267a2e4e4d5177eb2591d11e30f70175de2ac1b45cb1bba34e54278ee3ede3d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "medium",
+  "confirmation_items": 30,
+  "judge_contexts_per_comparison": 3,
+  "comparisons": {
+    "idiom": [
+      "idiom",
+      "generic"
+    ],
+    "fidelity": [
+      "fidelity",
+      "generic"
+    ],
+    "memory_plain": [
+      "memory_relevant",
+      "generic"
+    ],
+    "memory_random": [
+      "memory_relevant",
+      "memory_random"
+    ]
+  },
+  "family_alpha": 0.05
+}

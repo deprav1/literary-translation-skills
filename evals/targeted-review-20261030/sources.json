@@ -1,0 +1,58 @@
+{
+  "retrieved_on": "2026-10-30",
+  "works": [
+    {
+      "author": "Cory Doctorow",
+      "title": "I, Row-Boat",
+      "year": 2006,
+      "url": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_I_Row-Boat.txt",
+      "first": "Robbie the Row-Boat's great crisis of faith came when the coral reef woke up.",
+      "last": "Someone should uplift them.",
+      "id": "rowboat",
+      "license": "CC BY-NC-SA 2.5",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/2.5/",
+      "license_authority": "https://craphound.com/overclocked/download/",
+      "scope": "complete story available privately",
+      "full_text_sha256": "a2b8038a7493f45d604b2f5c05b61330af6c3ea5fa55fe7cb9708eaa7350cbbb",
+      "paragraph_count": 443,
+      "narrative_first": "Robbie the Row-Boat's great crisis of faith came when the coral reef woke up.",
+      "narrative_last": "Someone should uplift them."
+    },
+    {
+      "author": "Cory Doctorow",
+      "title": "I, Robot",
+      "year": 2005,
+      "url": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_I_Robot.txt",
+      "id": "robot",
+      "license": "CC BY-NC-SA 2.5",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/2.5/",
+      "license_authority": "https://craphound.com/overclocked/download/",
+      "scope": "complete story available privately",
+      "full_text_sha256": "d540eda34aa7861c965744106fb094d49626ebe120d8ac31cb37aecb8be206ff",
+      "paragraph_count": 434,
+      "narrative_first": "Arturo Icaza de Arana-Goldberg, Police Detective Third Grade, United North American Trading Sphere, Third District, Fourth Prefecture, Second Division (Parkdale) had had many adventures in his distinguished career, running crooks to ground with an unbeatable combination of instinct and unstinting devotion to duty. He'd been decorated on three separate occasions by his commander and by the Regional Manager for Social Harmony, and his mother kept a small shrine dedicated to his press clippings and commendations that occupied most of the cramped sitting-room of her flat off Steeles Avenue.",
+      "narrative_last": "\"Not for long!\" she said, and broke away, skipping forward and whirling around to take it all in."
+    },
+    {
+      "author": "Peter Watts",
+      "title": "Blindsight — Prologue",
+      "year": 2006,
+      "url": "https://www.rifters.com/real/Blindsight.htm",
+      "first": "It didn't start out here.",
+      "last": "It came in especially handy when the real aliens came calling.",
+      "id": "blindsight",
+      "license": "CC BY-NC-SA 2.5",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/2.5/",
+      "license_authority": "https://www.rifters.com/real/shorts.htm",
+      "scope": "complete prologue context available privately",
+      "full_text_sha256": "5cfd9c1663e4ec2caa44a74e54794624bda1b6c794462e6d0e6f4bd7f4efb053",
+      "paragraph_count": 45,
+      "narrative_first": "It didn't start out here. Not with the scramblers or Rorschach, not with Big Ben or Theseus or the vampires. Most people would say it started with the Fireflies, but they'd be wrong. It ended with all those things.",
+      "narrative_last": "It came in especially handy when the real aliens came calling."
+    }
+  ],
+  "selection_seed": 20261030,
+  "eligibility": "40-150 English whitespace-delimited words, non-heading; no overlapping source paragraphs. Five source-defined challenge paragraphs plus five random remaining paragraphs per work.",
+  "context_window": "two preceding and two following source paragraphs",
+  "full_sources_published": false
+}

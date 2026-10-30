@@ -1,0 +1,455 @@
+{
+  "rule": "Relevant: source token overlap weighted log(1+N/(1+df)), stopwords removed, add1.5 for matching Doctorow author; top2. Random: uniformly draw a different pair from the catalog whose combined English/Russian word count is within15% of the relevant pair, seed20261031. Random examples can accidentally overlap relevant examples; exact same pair excluded.",
+  "items": [
+    {
+      "id": "qeb5bfb523b",
+      "relevant_ids": [
+        "sysadmin-03",
+        "poe-extra-15"
+      ],
+      "random_ids": [
+        "poe-extra-01",
+        "poe-extra-13"
+      ],
+      "relevant_words": 418,
+      "random_words": 403,
+      "ratio": 0.964,
+      "chance_overlap_allowed": true
+    },
+    {
+      "id": "qdbaaab067c",
+      "relevant_ids": [
+        "sysadmin-03",
+        "cat-04"
+      ],
+      "random_ids": [
+        "poe-extra-04",
+        "poe-extra-14"
+      ],
+      "relevant_words": 289,
+      "random_words": 287,
+      "ratio": 0.993,
+      "chance_overlap_allowed": true
+    },
+    {
+      "id": "q7c3d95f57d",
+      "relevant_ids": [
+        "poe-silence",
+        "sysadmin-02"
+      ],
+      "random_ids": [
+        "poe-extra-12",
+        "cat-10"
+      ],
+      "relevant_words": 203,
+      "random_words": 214,
+      "ratio": 1.054,
+      "chance_overlap_allowed": true
+    },
+    {
+      "id": "q1a124e210a",
+      "relevant_ids": [
+        "poe-extra-14",
+        "poe-extra-01"
+      ],
+      "random_ids": [
+        "poe-extra-01",
+        "poe-extra-15"
+      ],
+      "relevant_words": 447,
+      "random_words": 420,
+      "ratio": 0.94,
+      "chance_overlap_allowed": true
+    },
+    {
+      "id": "q3cb5976585",
+      "relevant_ids": [
+        "poe-extra-08",
+        "poe-extra-12"
+      ],
+      "random_ids": [
+        "doer-weeping",
+        "sysadmin-06"
+      ],
+      "relevant_words": 239,
+      "random_words": 230,
+      "ratio": 0.962,
+      "chance_overlap_allowed": true
+    },
+    {
+      "id": "qcf950c4864",
+      "relevant_ids": [
+        "cat-10",
+        "poe-extra-01"
+      ],
+      "random_ids": [
+        "poe-nerves",
+        "poe-extra-13"
+      ],
+      "relevant_words": 322,
+      "random_words": 331,
+      "ratio": 1.028,
+      "chance_overlap_allowed": true
+    },
+    {
+      "id": "q0ee1c0cd42",
+      "relevant_ids": [
+        "sysadmin-03",
+        "poe-extra-12"
+      ],
+      "random_ids": [
+        "poe-ray",
+        "sysadmin-04"
+      ],
+      "relevant_words": 332,
+      "random_words": 300,
+      "ratio": 0.904,
+      "chance_overlap_allowed": true
+    },
+    {
+      "id": "q269307d5a9",
+      "relevant_ids": [
+        "poe-nerves",
+        "poe-extra-15"
+      ],
+      "random_ids": [
+        "poe-heart",
+        "sysadmin-03"
+      ],
+      "relevant_words": 348,
+      "random_words": 347,
+      "ratio": 0.997,
+      "chance_overlap_allowed": true
+    },
+    {
+      "id": "qb6f48742c7",
+      "relevant_ids": [
+        "wilde-extra-07",
+        "poe-ray"
+      ],
+      "random_ids": [
+        "wilde-extra-07",
+        "sysadmin-06"
+      ],
+      "relevant_words": 221,
+      "random_words": 189,
+      "ratio": 0.855,
+      "chance_overlap_allowed": true
+    },
+    {
+      "id": "q4d3dc54baa",
+      "relevant_ids": [
+        "sysadmin-05",
+        "poe-extra-15"
+      ],
+      "random_ids": [
+        "poe-ray",
+        "sysadmin-04"
+      ],
+      "relevant_words": 301,
+      "random_words": 300,
+      "ratio": 0.997,
+      "chance_overlap_allowed": true
+    },
+    {
+      "id": "qdf715a19a6",
+      "relevant_ids": [
+        "sysadmin-07",
+        "sysadmin-03"
+      ],
+      "random_ids": [
+        "poe-extra-14",
+        "wilde-extra-07"
+      ],
+      "relevant_words": 310,
+      "random_words": 331,
+      "ratio": 1.068,
+      "chance_overlap_allowed": true
+    },
+    {
+      "id": "qfa3f76ea9a",
+      "relevant_ids": [
+        "sysadmin-03",
+        "sysadmin-07"
+      ],
+      "random_ids": [
+        "poe-ray",
+        "poe-extra-01"
+      ],
+      "relevant_words": 310,
+      "random_words": 337,
+      "ratio": 1.087,
+      "chance_overlap_allowed": true
+    },
+    {
+      "id": "qdeb6786d21",
+      "relevant_ids": [
+        "sysadmin-03",
+        "sysadmin-04"
+      ],
+      "random_ids": [
+        "doer-city",
+        "poe-extra-15"
+      ],
+      "relevant_words": 403,
+      "random_words": 343,
+      "ratio": 0.851,
+      "chance_overlap_allowed": true
+    },
+    {
+      "id": "q28167c0ed9",
+      "relevant_ids": [
+        "sysadmin-03",
+        "poe-ray"
+      ],
+      "random_ids": [
+        "sysadmin-03",
+        "sysadmin-08"
+      ],
+      "relevant_words": 335,
+      "random_words": 301,
+      "ratio": 0.899,
+      "chance_overlap_allowed": true
+    },
+    {
+      "id": "qf75369d6ce",
+      "relevant_ids": [
+        "cat-10",
+        "sysadmin-02"
+      ],
+      "random_ids": [
+        "poe-nerves",
+        "sysadmin-06"
+      ],
+      "relevant_words": 203,
+      "random_words": 233,
+      "ratio": 1.148,
+      "chance_overlap_allowed": true
+    },
+    {
+      "id": "qed34513c3c",
+      "relevant_ids": [
+        "sysadmin-03",
+        "poe-extra-01"
+      ],
+      "random_ids": [
+        "poe-extra-01",
+        "sysadmin-04"
+      ],
+      "relevant_words": 440,
+      "random_words": 405,
+      "ratio": 0.92,
+      "chance_overlap_allowed": true
+    },
+    {
+      "id": "qe1201d759d",
+      "relevant_ids": [
+        "sysadmin-03",
+        "sysadmin-02"
+      ],
+      "random_ids": [
+        "doer-weeping",
+        "poe-extra-15"
+      ],
+      "relevant_words": 321,
+      "random_words": 345,
+      "ratio": 1.075,
+      "chance_overlap_allowed": true
+    },
+    {
+      "id": "qa6ff60816c",
+      "relevant_ids": [
+        "doer-weeping",
+        "poe-extra-14"
+      ],
+      "random_ids": [
+        "poe-nerves",
+        "sysadmin-04"
+      ],
+      "relevant_words": 372,
+      "random_words": 333,
+      "ratio": 0.895,
+      "chance_overlap_allowed": true
+    },
+    {
+      "id": "q8221a17b47",
+      "relevant_ids": [
+        "poe-extra-01",
+        "poe-extra-14"
+      ],
+      "random_ids": [
+        "poe-extra-01",
+        "sysadmin-04"
+      ],
+      "relevant_words": 447,
+      "random_words": 405,
+      "ratio": 0.906,
+      "chance_overlap_allowed": true
+    },
+    {
+      "id": "qd96c62da74",
+      "relevant_ids": [
+        "sysadmin-03",
+        "sysadmin-04"
+      ],
+      "random_ids": [
+        "poe-extra-15",
+        "sysadmin-03"
+      ],
+      "relevant_words": 403,
+      "random_words": 418,
+      "ratio": 1.037,
+      "chance_overlap_allowed": true
+    },
+    {
+      "id": "qff3beb7bf1",
+      "relevant_ids": [
+        "sysadmin-03",
+        "doer-weeping"
+      ],
+      "random_ids": [
+        "doer-city",
+        "sysadmin-04"
+      ],
+      "relevant_words": 365,
+      "random_words": 328,
+      "ratio": 0.899,
+      "chance_overlap_allowed": true
+    },
+    {
+      "id": "q49808d15b8",
+      "relevant_ids": [
+        "sysadmin-03",
+        "sysadmin-02"
+      ],
+      "random_ids": [
+        "wilde-extra-03",
+        "sysadmin-03"
+      ],
+      "relevant_words": 321,
+      "random_words": 302,
+      "ratio": 0.941,
+      "chance_overlap_allowed": true
+    },
+    {
+      "id": "qcbe946abf7",
+      "relevant_ids": [
+        "sysadmin-04",
+        "sysadmin-02"
+      ],
+      "random_ids": [
+        "poe-extra-14",
+        "sysadmin-02"
+      ],
+      "relevant_words": 286,
+      "random_words": 328,
+      "ratio": 1.147,
+      "chance_overlap_allowed": true
+    },
+    {
+      "id": "qfea9fde21e",
+      "relevant_ids": [
+        "sysadmin-04",
+        "sysadmin-03"
+      ],
+      "random_ids": [
+        "poe-extra-13",
+        "poe-extra-14"
+      ],
+      "relevant_words": 403,
+      "random_words": 408,
+      "ratio": 1.012,
+      "chance_overlap_allowed": true
+    },
+    {
+      "id": "q52c8bbe1ec",
+      "relevant_ids": [
+        "sysadmin-03",
+        "poe-extra-01"
+      ],
+      "random_ids": [
+        "poe-extra-15",
+        "sysadmin-04"
+      ],
+      "relevant_words": 440,
+      "random_words": 383,
+      "ratio": 0.87,
+      "chance_overlap_allowed": true
+    },
+    {
+      "id": "q81934bc463",
+      "relevant_ids": [
+        "sysadmin-03",
+        "poe-extra-08"
+      ],
+      "random_ids": [
+        "cat-10",
+        "sysadmin-03"
+      ],
+      "relevant_words": 345,
+      "random_words": 320,
+      "ratio": 0.928,
+      "chance_overlap_allowed": true
+    },
+    {
+      "id": "q169b1b9d62",
+      "relevant_ids": [
+        "poe-extra-12",
+        "sysadmin-03"
+      ],
+      "random_ids": [
+        "doer-weeping",
+        "poe-extra-15"
+      ],
+      "relevant_words": 332,
+      "random_words": 345,
+      "ratio": 1.039,
+      "chance_overlap_allowed": true
+    },
+    {
+      "id": "qe8c00254a0",
+      "relevant_ids": [
+        "sysadmin-03",
+        "sysadmin-02"
+      ],
+      "random_ids": [
+        "doer-city",
+        "sysadmin-04"
+      ],
+      "relevant_words": 321,
+      "random_words": 328,
+      "ratio": 1.022,
+      "chance_overlap_allowed": true
+    },
+    {
+      "id": "qa8a286da66",
+      "relevant_ids": [
+        "poe-extra-13",
+        "wilde-extra-07"
+      ],
+      "random_ids": [
+        "poe-nerves",
+        "sysadmin-05"
+      ],
+      "relevant_words": 287,
+      "random_words": 251,
+      "ratio": 0.875,
+      "chance_overlap_allowed": true
+    },
+    {
+      "id": "qd34f35c181",
+      "relevant_ids": [
+        "sysadmin-03",
+        "doer-weeping"
+      ],
+      "random_ids": [
+        "poe-heart",
+        "sysadmin-03"
+      ],
+      "relevant_words": 365,
+      "random_words": 347,
+      "ratio": 0.951,
+      "chance_overlap_allowed": true
+    }
+  ]
+}

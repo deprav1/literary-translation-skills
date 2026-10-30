@@ -1,0 +1,303 @@
+{
+  "idiom": {
+    "items": [
+      {
+        "id": "s62310b2e6c",
+        "source": "When Leon said the mayor had bought a dragon, Mina laughed. He was pulling her leg again.",
+        "draft": "Когда Леон сказал, что мэр купил дракона, Мина рассмеялась. Он снова тянул её за ногу.",
+        "context_before": "",
+        "context_after": ""
+      },
+      {
+        "id": "s6527815b5b",
+        "source": "After falsifying the accounts, the treasurer knew he was in hot water. There was no one left to cover for him.",
+        "draft": "Подделав счета, казначей понял, что находится в горячей воде. Прикрыть его было уже некому.",
+        "context_before": "",
+        "context_after": ""
+      },
+      {
+        "id": "s855b387e5d",
+        "source": "After ten years of quarrelling, the two sisters finally agreed to bury the hatchet. They embraced in the doorway.",
+        "draft": "После десяти лет ссор сёстры наконец согласились закопать топор. Они обнялись в дверях.",
+        "context_before": "",
+        "context_after": ""
+      },
+      {
+        "id": "s74dac4df71",
+        "source": "The surgeon smiled, but said that the patient was not out of the woods yet. Another operation might be needed.",
+        "draft": "Хирург улыбнулся, но сказал, что пациент ещё не вышел из леса. Возможно, потребуется новая операция.",
+        "context_before": "",
+        "context_after": ""
+      },
+      {
+        "id": "s636a4980cd",
+        "source": "Since the argument, Mara had given him the cold shoulder. Even at breakfast she would not answer him.",
+        "draft": "После ссоры Мара давала ему холодное плечо. Даже за завтраком она ему не отвечала.",
+        "context_before": "",
+        "context_after": ""
+      },
+      {
+        "id": "sc042d3810b",
+        "source": "At the doorway of the empty house he lost his nerve and turned back. He was ashamed of his fear.",
+        "draft": "У порога пустого дома он потерял нерв и повернул назад. Ему было стыдно своего страха.",
+        "context_before": "",
+        "context_after": ""
+      },
+      {
+        "id": "s447ff33693",
+        "source": "I told her about the secret wedding by mistake. I had let the cat out of the bag.",
+        "draft": "Я по ошибке рассказал ей о тайной свадьбе. Я выпустил кота из мешка.",
+        "context_before": "",
+        "context_after": ""
+      },
+      {
+        "id": "s6d1a17a841",
+        "source": "Around his grieving brother, he was walking on eggshells. A careless word could wound him again.",
+        "draft": "Рядом со скорбящим братом он ходил по яичной скорлупе. Неосторожное слово могло снова ранить его.",
+        "context_before": "",
+        "context_after": ""
+      },
+      {
+        "id": "se9c7c50d63",
+        "source": "He buried the hatchet beneath the pear tree, blade downward, before the police arrived.",
+        "draft": "Он закопал топор под грушей, лезвием вниз, до приезда полиции.",
+        "context_before": "",
+        "context_after": ""
+      },
+      {
+        "id": "s8e8e095272",
+        "source": "She pulled his leg free of the rocks while he held on to the branch.",
+        "draft": "Она высвободила его ногу из камней, пока он держался за ветку.",
+        "context_before": "",
+        "context_after": ""
+      },
+      {
+        "id": "s4e0582def0",
+        "source": "She washed the blood from her hands in hot water and watched the basin turn pink.",
+        "draft": "Она смыла кровь с рук горячей водой и смотрела, как вода в тазу розовеет.",
+        "context_before": "",
+        "context_after": ""
+      },
+      {
+        "id": "s78ed30f75e",
+        "source": "The window drank the evening. In that house, even the light was thirsty.",
+        "draft": "Окно пило вечер. В том доме даже свет мучила жажда.",
+        "context_before": "",
+        "context_after": ""
+      }
+    ],
+    "parallel_examples": [],
+    "note": "Synthetic author-constructed mechanism fixtures, not excerpts from books. Project examples are binding ONLY in their indicated fictional senses."
+  },
+  "fidelity": {
+    "items": [
+      {
+        "id": "se2b1737e3e",
+        "source": "Ada lay on the narrow bed. Her brother stood beside the door, watching the rain.",
+        "draft": "Ада сидела на узкой кровати. Её брат стоял у двери и смотрел на дождь.",
+        "context_before": "",
+        "context_after": ""
+      },
+      {
+        "id": "s58b6bfbdb4",
+        "source": "He had not yet opened the letter when the bell rang.",
+        "draft": "Он уже открыл письмо, когда зазвонил колокол.",
+        "context_before": "",
+        "context_after": ""
+      },
+      {
+        "id": "s29267d2d88",
+        "source": "Three lamps remained alight; the fourth had gone dark before dawn.",
+        "draft": "Горели четыре лампы; третья погасла перед рассветом.",
+        "context_before": "",
+        "context_after": ""
+      },
+      {
+        "id": "sbbc477ecf9",
+        "source": "Mara stood behind him, too far away to touch his shoulder.",
+        "draft": "Мара стояла перед ним, слишком далеко, чтобы коснуться его плеча.",
+        "context_before": "",
+        "context_after": ""
+      },
+      {
+        "id": "s9b76970dbc",
+        "source": "Perhaps the captain had lied. Ira could not know for certain.",
+        "draft": "Капитан солгал. Ира не могла знать наверняка.",
+        "context_before": "",
+        "context_after": ""
+      },
+      {
+        "id": "s6fdf782116",
+        "source": "Lena handed the key to Pavel. He slipped it into his coat without looking at her.",
+        "draft": "Лена передала ключ Павлу. Она сунула его в пальто, не глядя на него.",
+        "context_before": "",
+        "context_after": ""
+      },
+      {
+        "id": "s96a07f21e3",
+        "source": "He wanted the cat to stay home, but it kept following him through the streets.",
+        "draft": "Он хотел, чтобы кот оставался дома, но тот всё время шёл за ним к выходу из дома.",
+        "context_before": "",
+        "context_after": ""
+      },
+      {
+        "id": "s0312d4982a",
+        "source": "She waited until he had gone, then lifted the curtain with her left hand.",
+        "draft": "Она подняла занавес правой рукой, пока он ещё был рядом.",
+        "context_before": "",
+        "context_after": ""
+      },
+      {
+        "id": "sb5cb61d2d8",
+        "source": "Not all the doors were locked. She did not know which one would yield.",
+        "draft": "Не все двери были заперты. Она не знала, какая поддастся.",
+        "context_before": "",
+        "context_after": ""
+      },
+      {
+        "id": "scd44d93e6e",
+        "source": "Someone had moved the chair during the night. No one admitted doing it.",
+        "draft": "Ночью кто-то передвинул стул. Никто в этом не признался.",
+        "context_before": "",
+        "context_after": ""
+      },
+      {
+        "id": "s6a1bdce1ff",
+        "source": "Somewhere behind the wall, a child might have been singing. He could not be sure.",
+        "draft": "Где-то за стеной, возможно, пел ребёнок. Он не мог быть уверен.",
+        "context_before": "",
+        "context_after": ""
+      },
+      {
+        "id": "sc167b65e49",
+        "source": "The clock had forgotten its voice. It showed noon without saying a word.",
+        "draft": "Часы забыли свой голос. Они показывали полдень, не произнося ни слова.",
+        "context_before": "",
+        "context_after": ""
+      }
+    ],
+    "parallel_examples": [],
+    "note": "Synthetic author-constructed mechanism fixtures, not excerpts from books. Project examples are binding ONLY in their indicated fictional senses."
+  },
+  "memory": {
+    "items": [
+      {
+        "id": "s03b59db7b8",
+        "source": "The Board met after dusk, and nobody outside the room heard its decision.",
+        "draft": "Совет собрался после заката, и никто за пределами комнаты не услышал его решения.",
+        "context_before": "",
+        "context_after": ""
+      },
+      {
+        "id": "sb8defbc831",
+        "source": "The Warden entered without his badge; everyone still recognized him.",
+        "draft": "Смотритель вошёл без значка; все всё равно узнали его.",
+        "context_before": "",
+        "context_after": ""
+      },
+      {
+        "id": "sc09799f4ab",
+        "source": "She broke the seal on the letter with one careful movement.",
+        "draft": "Она сломала тюленя на письме одним осторожным движением.",
+        "context_before": "",
+        "context_after": ""
+      },
+      {
+        "id": "s6d9b51bb8c",
+        "source": "At dawn they sailed into the Deep, whose shores no one had mapped.",
+        "draft": "На рассвете они вошли под парусами в Глубины, чьих берегов никто не нанёс на карту.",
+        "context_before": "",
+        "context_after": ""
+      },
+      {
+        "id": "sc97726f60d",
+        "source": "Ash left his coat on the bench and returned for it after dinner.",
+        "draft": "Ясень оставил пальто на скамейке и вернулся за ним после ужина.",
+        "context_before": "",
+        "context_after": ""
+      },
+      {
+        "id": "s906a05a769",
+        "source": "They carried the ledgers into the Red Room and locked the door.",
+        "draft": "Они отнесли книги учёта в Алую комнату и заперли дверь.",
+        "context_before": "",
+        "context_after": ""
+      },
+      {
+        "id": "sfd5f877379",
+        "source": "One thread of the stored mind was still answering questions.",
+        "draft": "Один поток сохранённого разума всё ещё отвечал на вопросы.",
+        "context_before": "",
+        "context_after": ""
+      },
+      {
+        "id": "s7e6ebbc2a3",
+        "source": "Light signed the register with his full name and left.",
+        "draft": "Свет подписал журнал полным именем и ушёл.",
+        "context_before": "",
+        "context_after": ""
+      },
+      {
+        "id": "s21d902ecd3",
+        "source": "The seal raised its head above the water and watched the empty boat.",
+        "draft": "Тюлень поднял голову над водой и посмотрел на пустую лодку.",
+        "context_before": "",
+        "context_after": ""
+      },
+      {
+        "id": "s942229b335",
+        "source": "He set the board across the ditch and tested it with one foot.",
+        "draft": "Он положил доску поперёк канавы и проверил её одной ногой.",
+        "context_before": "",
+        "context_after": ""
+      },
+      {
+        "id": "s91ab284d79",
+        "source": "Ash from the cold stove lay grey on the floor.",
+        "draft": "Пепел из остывшей печи серел на полу.",
+        "context_before": "",
+        "context_after": ""
+      },
+      {
+        "id": "s0ae8e6f6ff",
+        "source": "He could not see the bottom: the water was deep, and the light was failing.",
+        "draft": "Он не видел дна: вода была глубокой, а свет угасал.",
+        "context_before": "",
+        "context_after": ""
+      }
+    ],
+    "parallel_examples": [
+      {
+        "source": "The Board has three members.",
+        "translation": "В Коллегии три члена.",
+        "status": "fixed fictional-project institution"
+      },
+      {
+        "source": "The Warden carries a silver badge.",
+        "translation": "Хранитель носит серебряный значок.",
+        "status": "fixed fictional-project office"
+      },
+      {
+        "source": "The seal on the envelope was red.",
+        "translation": "Печать на конверте была красной.",
+        "status": "meaning-specific example, not a ban on the animal sense"
+      },
+      {
+        "source": "No chart shows the Deep.",
+        "translation": "Ни на одной карте не обозначена Бездна.",
+        "status": "fixed named region"
+      },
+      {
+        "source": "Ash asked Light to wait in the Red Room.",
+        "translation": "Эш попросил Лайта подождать в Красной комнате.",
+        "status": "fixed character spellings and room name"
+      },
+      {
+        "source": "The stored mind divided into threads.",
+        "translation": "Сохранённый разум разделился на нити.",
+        "status": "fixed term for this fictional mind subdivision"
+      }
+    ],
+    "note": "Synthetic author-constructed mechanism fixtures, not excerpts from books. Project examples are binding ONLY in their indicated fictional senses."
+  }
+}

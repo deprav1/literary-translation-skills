@@ -1,0 +1,1382 @@
+{
+  "qeb5bfb523b": {
+    "relevant": [
+      {
+        "id": "sysadmin-03",
+        "author": "Кори Доктороу",
+        "source": "\"Massive flashworm attack. Some jackass with a zero-day exploit has got every Windows box on the net running Monte Carlo probes on every IP block, including IPv6. The big Ciscos all run administrative interfaces over v6, and they all fall over if they get more than ten simultaneous probes, which means that just about every interchange has gone down. DNS is screwy, too -- like maybe someone poisoned the zone transfer last night. Oh, and there's an email and IM component that sends pretty lifelike messages to everyone in your address book, barfing up Eliza-dialog that keys off of your logged email and messages to get you to open a Trojan.\"",
+        "translation": "- Массированная атака флэш-червя. Какой-то урод с эксплойтом нулевого дня, похоже, заставил все Windows в сети прощупывать каждый блок IP по методу Монте-Карло. Включая IPv6. Доступ к админскому интерфейсу больших цисок идёт по v6, и если к ним присасывается более десяти зондов, они падают. В итоге почти все пункты межсетевого обмена лежат. С DNS тоже свистопляска - очень может быть, что они ещё с прошлой ночи стали распространять испорченную информацию. Ах да, а ещё есть компонент, который прочёсывает адресную книгу и рассылает по почте и мессенджерам вполне себе убедительные сообщения, заводит разговор с помощью бота вроде Eliza , натасканного на письмах из почтового ящика, и уговаривает открыть трояна.",
+        "translator": "Михаил Карпов",
+        "source_url": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+        "translation_url": "https://litmir.club/br/?b=89169&p=1",
+        "license": "CC BY-NC-SA 2.5"
+      },
+      {
+        "id": "poe-extra-15",
+        "author": "Эдгар Аллан По",
+        "source": "The officers were satisfied. My manner had convinced them. I was singularly at ease. They sat, and while I answered cheerily, they chatted of familiar things. But, ere long, I felt myself getting pale and wished them gone. My head ached, and I fancied a ringing in my ears; but still they sat, and still chatted. The ringing became more distinct;—it continued and became more distinct. I talked more freely to get rid of the feeling, but it continued and gained definitiveness—until, at length, I found that the noise was not within my ears.",
+        "translation": "Полицейские чиновники были удовлетворены. Мои манеры убедили их. Я чувствовал себя необыкновенно хорошо. Они сидели, и между тем как я весело отвечал, болтали о том-о-сем. Но прошло немного времени, я почувствовал, что бледнею, и искренно пожелал, чтобы они поскорее ушли. У меня заболела голова, и мне показалось, что в ушах моих раздался звон; но они все еще продолжали сидеть, все продолжали болтать. Звон стал делаться явственнее — он продолжался и делался все более явственным: я начал говорить с усиленной развязностью, чтобы отделаться от этого чувства, но звон продолжался с неуклонным упорством — он возрастал и, наконец, я понял, что шум был не в моих ушах.",
+        "translator": "Константин Бальмонт",
+        "source_url": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "translation_url": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      }
+    ],
+    "random": [
+      {
+        "id": "poe-extra-01",
+        "author": "Эдгар Аллан По",
+        "source": "It is impossible to say how first the idea entered my brain, but, once conceived, it haunted me day and night. Object there was none. Passion there was none. I loved the old man. He had never wronged me. He had never given me insult. For his gold I had no desire. I think it was his eye! Yes, it was this! One of his eyes resembled that of a vulture—a pale blue eye with a film over it. Whenever it fell upon me my blood ran cold, and so by degrees, very gradually, I made up my mind to take the life of the old man, and thus rid myself of the eye forever.",
+        "translation": "Невозможно определить, каким образом эта мысль первый раз пришла мне в голову; но, раз придя, она преследовала меня и днем и ночью. Цели тут не было никакой. Срасти не было никакой. Я любил старика. Он никогда мне не делал зла. Он никогда меня не оскорблял. Денег его я не хотел. Я думаю, что во всем был виноват его глаз! Да, именно так! Один его глаз был похож на глаз ястреба — бледно-голубого цвета с бельмом. Каждый раз, когда он смотрел на меня этим глазом, кровь во мне холодела, и вот мало-помалу, постепенно, мной овладела мысль убить старика, и этим путем раз навсегда избавиться от его глаза.",
+        "translator": "Константин Бальмонт",
+        "source_url": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "translation_url": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      },
+      {
+        "id": "poe-extra-13",
+        "author": "Эдгар Аллан По",
+        "source": "When I had made an end of these labors, it was four o'clock—still dark as midnight. As the bell sounded the hour, there came a knocking at the street door. I went down to open it with a light heart—for what had I now to fear? There entered three men, who introduced themselves, with perfect suavity, as officers of the police. A shriek had been heard by a neighbor during the night; suspicion of foul play had been aroused; information had been lodged at the police office, and they (the officers) had been deputed to search the premises.",
+        "translation": "Когда я все кончил, было четыре часа — на дворе было еще темно, как в полночь. В ту самую минуту, когда били часы, с улицы раздался стук в наружную дверь. С легким сердцем я пошел отворить ее, — чего мне было бояться теперь? Вошли три человека и с большой учтивостью представились мне, называя себя полицейскими чиновниками. Один из соседей слышал ночью крик; возникло подозрение, не случилось ли какого злого дела; полиция была об этом извещена, и вот они (полицейские чиновники) были отправлены произвести обыск.",
+        "translator": "Константин Бальмонт",
+        "source_url": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "translation_url": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      }
+    ]
+  },
+  "qdbaaab067c": {
+    "relevant": [
+      {
+        "id": "sysadmin-03",
+        "author": "Кори Доктороу",
+        "source": "\"Massive flashworm attack. Some jackass with a zero-day exploit has got every Windows box on the net running Monte Carlo probes on every IP block, including IPv6. The big Ciscos all run administrative interfaces over v6, and they all fall over if they get more than ten simultaneous probes, which means that just about every interchange has gone down. DNS is screwy, too -- like maybe someone poisoned the zone transfer last night. Oh, and there's an email and IM component that sends pretty lifelike messages to everyone in your address book, barfing up Eliza-dialog that keys off of your logged email and messages to get you to open a Trojan.\"",
+        "translation": "- Массированная атака флэш-червя. Какой-то урод с эксплойтом нулевого дня, похоже, заставил все Windows в сети прощупывать каждый блок IP по методу Монте-Карло. Включая IPv6. Доступ к админскому интерфейсу больших цисок идёт по v6, и если к ним присасывается более десяти зондов, они падают. В итоге почти все пункты межсетевого обмена лежат. С DNS тоже свистопляска - очень может быть, что они ещё с прошлой ночи стали распространять испорченную информацию. Ах да, а ещё есть компонент, который прочёсывает адресную книгу и рассылает по почте и мессенджерам вполне себе убедительные сообщения, заводит разговор с помощью бота вроде Eliza , натасканного на письмах из почтового ящика, и уговаривает открыть трояна.",
+        "translator": "Михаил Карпов",
+        "source_url": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+        "translation_url": "https://litmir.club/br/?b=89169&p=1",
+        "license": "CC BY-NC-SA 2.5"
+      },
+      {
+        "id": "cat-04",
+        "author": "Эдгар Аллан По",
+        "source": "I was especially fond of animals, and was indulged by my parents with a great variety of pets. With these I spent most of my time, and never was so happy as when feeding and caressing them.",
+        "translation": "В особенности я любил животных, и родители мои награждали меня целым множеством бессловесных любимцев. С ними я проводил бо́льшую часть моего времени, и для меня было самым большим удовольствием кормить и ласкать их.",
+        "translator": "Константин Бальмонт",
+        "source_url": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Black_Cat",
+        "translation_url": "https://ru.wikisource.org/wiki/Чёрный_кот_(По;_Бальмонт)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      }
+    ],
+    "random": [
+      {
+        "id": "poe-extra-04",
+        "author": "Эдгар Аллан По",
+        "source": "​ I had my head in, and was about to open the lantern when my thumb slipped upon the tin fastening, and the old man sprang up in the bed, crying out, \"Who's there?\"",
+        "translation": "Я уже просунул голову в комнату, и готовился открыть фонарь, как вдруг большой мой палец скользнул по жестяной задвижке, и старик вскочил на постели, вскрикнув: «Кто там?»",
+        "translator": "Константин Бальмонт",
+        "source_url": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "translation_url": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      },
+      {
+        "id": "poe-extra-14",
+        "author": "Эдгар Аллан По",
+        "source": "I smiled—for what had I to fear? I bade the gentlemen welcome. The shriek, I said, was my own in a dream. The old man, I mentioned, was absent in the country. I took my visitors all over the house. ​ I bade them search—search well . I led them, at length, to his chamber. I showed them his treasures, secure, undisturbed. In the enthusiasm of my confidence, I brought chairs into the room, and desired them here to rest from their fatigues, while I myself, in the wild audacity of my perfect triumph, placed my own seat upon the very spot beneath which reposed the corpse of the victim.",
+        "translation": "Я улыбался — чего мне было бояться? Я попросил джентльменов пожаловать в комнаты. Закричал это я сам, сказал я, закричал во сне. А старика, сообщил я, нет дома, он на время уехал из города. Я провел посетителей по всему дому. Я просил их обыскать все — обыскать хорошенько . Я провел их, наконец, в его комнату. Я показал им все его драгоценности, они были целы, и лежали в своем обычном порядке. Охваченный энтузиазмом своей уверенности, я принес стулья в эту комнату и пожелал, чтобы именно здесь они отдохнули от своих поисков, между тем как я сам, в дикой смелости полного торжества, поставил свой собственный стул как раз на том самом месте, под которым покоилось тело жертвы.",
+        "translator": "Константин Бальмонт",
+        "source_url": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "translation_url": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      }
+    ]
+  },
+  "q7c3d95f57d": {
+    "relevant": [
+      {
+        "id": "poe-silence",
+        "author": "Эдгар Аллан По",
+        "source": "I kept quite still and said nothing. For a whole hour I did not move a muscle, and in the meantime I did not hear him lie down. He was still sitting up in the bed, listening; just as I have done night after night hearkening to the death watches in the wall.",
+        "translation": "Я был неподвижен и не говорил ни слова. В продолжении целого часа я не двинулся ни одним мускулом, и все время слышал, что он не ложился. Он все еще сидел на своей постели и слушал; совершенно так же, как ночь за ночью я слушал здесь тиканье стенного жучка-точильщика.",
+        "translator": "Константин Бальмонт",
+        "source_url": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "translation_url": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      },
+      {
+        "id": "sysadmin-02",
+        "author": "Кори Доктороу",
+        "source": "\"2.0's awake,\" she said. The baby had been Beta Test when he was in her womb, and when her water broke, he got the call and dashed out of the office, shouting, *The Gold Master just shipped!* They'd started calling him 2.0 before he'd finished his first cry. \"This little bastard was born to suck tit.\"",
+        "translation": "- 2.0 проснулся.\n\nПока малыш был в утробе, его звали Бетой, а когда отошли воды, Феликс выбежал из офиса с воплем: \"Отправлен на золото!\" Они стали называть его 2.0 ещё до того, как затих его первый крик. \"Маленький засранец просто рождён для того, чтобы титьку сосать.\"",
+        "translator": "Михаил Карпов",
+        "source_url": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+        "translation_url": "https://litmir.club/br/?b=89169&p=1",
+        "license": "CC BY-NC-SA 2.5"
+      }
+    ],
+    "random": [
+      {
+        "id": "poe-extra-12",
+        "author": "Эдгар Аллан По",
+        "source": "I took up three planks from the flooring of the chamber, and deposited all between the scantlings. I then replaced the boards so cleverly, so cunningly, that no human eye—not even his —could have detected anything wrong. There was nothing to wash out—no stain of any kind—no bloodspot whatever. I had been too wary for that.",
+        "translation": "Я вынул три доски из пола комнаты и положил труп между драницами. Потом я опять укрепил доски так хорошо, так аккуратно, что никакой человеческий глаз — даже и его — не мог бы открыть здесь ничего подозрительного. Ничего не нужно было замывать — ни одного пятна — ни одной капли крови. Я был слишком предусмотрителен для этого.",
+        "translator": "Константин Бальмонт",
+        "source_url": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "translation_url": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      },
+      {
+        "id": "cat-10",
+        "author": "Эдгар Аллан По",
+        "source": "It was a black cat—a very large one—fully as large as Pluto, and closely resembling him in every respect but one. Pluto had not a white hair upon any portion of his body; but this cat had a large, although indefinite splotch of white, covering nearly the whole region of the breast.",
+        "translation": "Это был черный кот — очень большой — совершенно таких же размеров, как Плутон, и похожий на него во всех отношениях, кроме одного. У Плутона не было ни одного белого волоска на всем теле; а у этого кота было широкое, хотя и неопределенное, белое пятно, почти во всю грудь.",
+        "translator": "Константин Бальмонт",
+        "source_url": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Black_Cat",
+        "translation_url": "https://ru.wikisource.org/wiki/Чёрный_кот_(По;_Бальмонт)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      }
+    ]
+  },
+  "q1a124e210a": {
+    "relevant": [
+      {
+        "id": "poe-extra-14",
+        "author": "Эдгар Аллан По",
+        "source": "I smiled—for what had I to fear? I bade the gentlemen welcome. The shriek, I said, was my own in a dream. The old man, I mentioned, was absent in the country. I took my visitors all over the house. ​ I bade them search—search well . I led them, at length, to his chamber. I showed them his treasures, secure, undisturbed. In the enthusiasm of my confidence, I brought chairs into the room, and desired them here to rest from their fatigues, while I myself, in the wild audacity of my perfect triumph, placed my own seat upon the very spot beneath which reposed the corpse of the victim.",
+        "translation": "Я улыбался — чего мне было бояться? Я попросил джентльменов пожаловать в комнаты. Закричал это я сам, сказал я, закричал во сне. А старика, сообщил я, нет дома, он на время уехал из города. Я провел посетителей по всему дому. Я просил их обыскать все — обыскать хорошенько . Я провел их, наконец, в его комнату. Я показал им все его драгоценности, они были целы, и лежали в своем обычном порядке. Охваченный энтузиазмом своей уверенности, я принес стулья в эту комнату и пожелал, чтобы именно здесь они отдохнули от своих поисков, между тем как я сам, в дикой смелости полного торжества, поставил свой собственный стул как раз на том самом месте, под которым покоилось тело жертвы.",
+        "translator": "Константин Бальмонт",
+        "source_url": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "translation_url": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      },
+      {
+        "id": "poe-extra-01",
+        "author": "Эдгар Аллан По",
+        "source": "It is impossible to say how first the idea entered my brain, but, once conceived, it haunted me day and night. Object there was none. Passion there was none. I loved the old man. He had never wronged me. He had never given me insult. For his gold I had no desire. I think it was his eye! Yes, it was this! One of his eyes resembled that of a vulture—a pale blue eye with a film over it. Whenever it fell upon me my blood ran cold, and so by degrees, very gradually, I made up my mind to take the life of the old man, and thus rid myself of the eye forever.",
+        "translation": "Невозможно определить, каким образом эта мысль первый раз пришла мне в голову; но, раз придя, она преследовала меня и днем и ночью. Цели тут не было никакой. Срасти не было никакой. Я любил старика. Он никогда мне не делал зла. Он никогда меня не оскорблял. Денег его я не хотел. Я думаю, что во всем был виноват его глаз! Да, именно так! Один его глаз был похож на глаз ястреба — бледно-голубого цвета с бельмом. Каждый раз, когда он смотрел на меня этим глазом, кровь во мне холодела, и вот мало-помалу, постепенно, мной овладела мысль убить старика, и этим путем раз навсегда избавиться от его глаза.",
+        "translator": "Константин Бальмонт",
+        "source_url": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "translation_url": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      }
+    ],
+    "random": [
+      {
+        "id": "poe-extra-01",
+        "author": "Эдгар Аллан По",
+        "source": "It is impossible to say how first the idea entered my brain, but, once conceived, it haunted me day and night. Object there was none. Passion there was none. I loved the old man. He had never wronged me. He had never given me insult. For his gold I had no desire. I think it was his eye! Yes, it was this! One of his eyes resembled that of a vulture—a pale blue eye with a film over it. Whenever it fell upon me my blood ran cold, and so by degrees, very gradually, I made up my mind to take the life of the old man, and thus rid myself of the eye forever.",
+        "translation": "Невозможно определить, каким образом эта мысль первый раз пришла мне в голову; но, раз придя, она преследовала меня и днем и ночью. Цели тут не было никакой. Срасти не было никакой. Я любил старика. Он никогда мне не делал зла. Он никогда меня не оскорблял. Денег его я не хотел. Я думаю, что во всем был виноват его глаз! Да, именно так! Один его глаз был похож на глаз ястреба — бледно-голубого цвета с бельмом. Каждый раз, когда он смотрел на меня этим глазом, кровь во мне холодела, и вот мало-помалу, постепенно, мной овладела мысль убить старика, и этим путем раз навсегда избавиться от его глаза.",
+        "translator": "Константин Бальмонт",
+        "source_url": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "translation_url": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      },
+      {
+        "id": "poe-extra-15",
+        "author": "Эдгар Аллан По",
+        "source": "The officers were satisfied. My manner had convinced them. I was singularly at ease. They sat, and while I answered cheerily, they chatted of familiar things. But, ere long, I felt myself getting pale and wished them gone. My head ached, and I fancied a ringing in my ears; but still they sat, and still chatted. The ringing became more distinct;—it continued and became more distinct. I talked more freely to get rid of the feeling, but it continued and gained definitiveness—until, at length, I found that the noise was not within my ears.",
+        "translation": "Полицейские чиновники были удовлетворены. Мои манеры убедили их. Я чувствовал себя необыкновенно хорошо. Они сидели, и между тем как я весело отвечал, болтали о том-о-сем. Но прошло немного времени, я почувствовал, что бледнею, и искренно пожелал, чтобы они поскорее ушли. У меня заболела голова, и мне показалось, что в ушах моих раздался звон; но они все еще продолжали сидеть, все продолжали болтать. Звон стал делаться явственнее — он продолжался и делался все более явственным: я начал говорить с усиленной развязностью, чтобы отделаться от этого чувства, но звон продолжался с неуклонным упорством — он возрастал и, наконец, я понял, что шум был не в моих ушах.",
+        "translator": "Константин Бальмонт",
+        "source_url": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "translation_url": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      }
+    ]
+  },
+  "q3cb5976585": {
+    "relevant": [
+      {
+        "id": "poe-extra-08",
+        "author": "Эдгар Аллан По",
+        "source": "It was open, wide, wide open, and I grew furious as I gazed upon it. I saw it with perfect distinctness—all a dull blue with a hideous veil over it that chilled the very marrow in my bones, but I could see nothing else of the old man's face or person, for I had directed the ray as if by instinct precisely upon the damned spot.",
+        "translation": "Он был открыт, широко, широко открыт, и я пришел в ярость, увидев его. Я видел его совершенно явственно — это был тускло-голубой глаз с отвратительным налетом, который заморозил кровь в моих жилах, но я не видал ничего другого, ни черт его лица, ни его тела, потому что как бы по инстинкту я направил луч света как раз на проклятое пятно.",
+        "translator": "Константин Бальмонт",
+        "source_url": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "translation_url": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      },
+      {
+        "id": "poe-extra-12",
+        "author": "Эдгар Аллан По",
+        "source": "I took up three planks from the flooring of the chamber, and deposited all between the scantlings. I then replaced the boards so cleverly, so cunningly, that no human eye—not even his —could have detected anything wrong. There was nothing to wash out—no stain of any kind—no bloodspot whatever. I had been too wary for that.",
+        "translation": "Я вынул три доски из пола комнаты и положил труп между драницами. Потом я опять укрепил доски так хорошо, так аккуратно, что никакой человеческий глаз — даже и его — не мог бы открыть здесь ничего подозрительного. Ничего не нужно было замывать — ни одного пятна — ни одной капли крови. Я был слишком предусмотрителен для этого.",
+        "translator": "Константин Бальмонт",
+        "source_url": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "translation_url": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      }
+    ],
+    "random": [
+      {
+        "id": "doer-weeping",
+        "author": "Оскар Уайльд",
+        "source": "And He passed out of the city.\n\nAnd when He had passed out of the city He saw seated by the roadside a young man who was weeping.\n\nAnd He went towards him and touched the long locks of his hair and said to him, ‘Why are you weeping?’\n\nAnd the young man looked up and recognised Him and made answer, ‘But I was dead once, and you raised me from the dead. What else should I do but weep?’",
+        "translation": "И Он вышел из города.\n\nИ когда Он был за городом, увидал Он юношу, который сидел у дороги и рыдал.\n\nИ Он подошел к нему и коснулся длинных локонов его волос и сказал ему:\n\n— Отчего ты плачешь?\n\nИ юноша поднял глаза и узнал Его, и ответил:\n— Но я был мертв когда-то, и Ты воскресил меня из мертвых. Что же мне делать, как не плакать?",
+        "translator": "Михаил Фёдорович Ликиардопуло",
+        "source_url": "https://www.gutenberg.org/files/774/774-h/774-h.htm",
+        "translation_url": "https://ru.wikisource.org/wiki/Творитель_добра_(Уайльд)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      },
+      {
+        "id": "sysadmin-06",
+        "author": "Кори Доктороу",
+        "source": "They had less than a day's worth of fuel when Felix was elected the first ever Prime Minister of Cyberspace. The first count was spoiled by a bot that spammed the voting process and they lost a critical day while they added up the votes a second time.",
+        "translation": "Когда Феликса избрали первым за всю историю человечества премьер-министром киберпространства, топлива у них оставалось где-то на день. Первый подсчёт голосов был сорван ботом, который наспамил во время выборов, и они потратили ещё день на их пересчёт.",
+        "translator": "Михаил Карпов",
+        "source_url": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+        "translation_url": "https://litmir.club/br/?b=89169&p=7",
+        "license": "CC BY-NC-SA 2.5"
+      }
+    ]
+  },
+  "qcf950c4864": {
+    "relevant": [
+      {
+        "id": "cat-10",
+        "author": "Эдгар Аллан По",
+        "source": "It was a black cat—a very large one—fully as large as Pluto, and closely resembling him in every respect but one. Pluto had not a white hair upon any portion of his body; but this cat had a large, although indefinite splotch of white, covering nearly the whole region of the breast.",
+        "translation": "Это был черный кот — очень большой — совершенно таких же размеров, как Плутон, и похожий на него во всех отношениях, кроме одного. У Плутона не было ни одного белого волоска на всем теле; а у этого кота было широкое, хотя и неопределенное, белое пятно, почти во всю грудь.",
+        "translator": "Константин Бальмонт",
+        "source_url": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Black_Cat",
+        "translation_url": "https://ru.wikisource.org/wiki/Чёрный_кот_(По;_Бальмонт)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      },
+      {
+        "id": "poe-extra-01",
+        "author": "Эдгар Аллан По",
+        "source": "It is impossible to say how first the idea entered my brain, but, once conceived, it haunted me day and night. Object there was none. Passion there was none. I loved the old man. He had never wronged me. He had never given me insult. For his gold I had no desire. I think it was his eye! Yes, it was this! One of his eyes resembled that of a vulture—a pale blue eye with a film over it. Whenever it fell upon me my blood ran cold, and so by degrees, very gradually, I made up my mind to take the life of the old man, and thus rid myself of the eye forever.",
+        "translation": "Невозможно определить, каким образом эта мысль первый раз пришла мне в голову; но, раз придя, она преследовала меня и днем и ночью. Цели тут не было никакой. Срасти не было никакой. Я любил старика. Он никогда мне не делал зла. Он никогда меня не оскорблял. Денег его я не хотел. Я думаю, что во всем был виноват его глаз! Да, именно так! Один его глаз был похож на глаз ястреба — бледно-голубого цвета с бельмом. Каждый раз, когда он смотрел на меня этим глазом, кровь во мне холодела, и вот мало-помалу, постепенно, мной овладела мысль убить старика, и этим путем раз навсегда избавиться от его глаза.",
+        "translator": "Константин Бальмонт",
+        "source_url": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "translation_url": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      }
+    ],
+    "random": [
+      {
+        "id": "poe-nerves",
+        "author": "Эдгар Аллан По",
+        "source": "True ! nervous, very, very dreadfully nervous I had been and am; but why will you say that I am mad? The disease had sharpened my senses, not destroyed, not dulled them. Above all was the sense of hearing acute. I heard all things in the heaven and in the earth. I heard many things in hell. How then am I mad? Hearken! and observe how healthily, how calmly I can tell you the whole story.",
+        "translation": "Да! я очень, очень нервен, страшно нервен; но почему хотите вы утверждать, что я сумасшедший? Болезнь обострила мои чувства, отнюдь не ослабила их, отнюдь не притупила. Прежде всего чувство слуха всегда отличалось у меня особенной остротой. Я слышал все, что делалось на небе и на земле. Я слышал многое из того, что делалось в аду. Какой же я сумасшедший? Слушайте! вы только слушайте и наблюдайте, как трезво и спокойно я могу все рассказать.",
+        "translator": "Константин Бальмонт",
+        "source_url": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "translation_url": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      },
+      {
+        "id": "poe-extra-13",
+        "author": "Эдгар Аллан По",
+        "source": "When I had made an end of these labors, it was four o'clock—still dark as midnight. As the bell sounded the hour, there came a knocking at the street door. I went down to open it with a light heart—for what had I now to fear? There entered three men, who introduced themselves, with perfect suavity, as officers of the police. A shriek had been heard by a neighbor during the night; suspicion of foul play had been aroused; information had been lodged at the police office, and they (the officers) had been deputed to search the premises.",
+        "translation": "Когда я все кончил, было четыре часа — на дворе было еще темно, как в полночь. В ту самую минуту, когда били часы, с улицы раздался стук в наружную дверь. С легким сердцем я пошел отворить ее, — чего мне было бояться теперь? Вошли три человека и с большой учтивостью представились мне, называя себя полицейскими чиновниками. Один из соседей слышал ночью крик; возникло подозрение, не случилось ли какого злого дела; полиция была об этом извещена, и вот они (полицейские чиновники) были отправлены произвести обыск.",
+        "translator": "Константин Бальмонт",
+        "source_url": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "translation_url": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      }
+    ]
+  },
+  "q0ee1c0cd42": {
+    "relevant": [
+      {
+        "id": "sysadmin-03",
+        "author": "Кори Доктороу",
+        "source": "\"Massive flashworm attack. Some jackass with a zero-day exploit has got every Windows box on the net running Monte Carlo probes on every IP block, including IPv6. The big Ciscos all run administrative interfaces over v6, and they all fall over if they get more than ten simultaneous probes, which means that just about every interchange has gone down. DNS is screwy, too -- like maybe someone poisoned the zone transfer last night. Oh, and there's an email and IM component that sends pretty lifelike messages to everyone in your address book, barfing up Eliza-dialog that keys off of your logged email and messages to get you to open a Trojan.\"",
+        "translation": "- Массированная атака флэш-червя. Какой-то урод с эксплойтом нулевого дня, похоже, заставил все Windows в сети прощупывать каждый блок IP по методу Монте-Карло. Включая IPv6. Доступ к админскому интерфейсу больших цисок идёт по v6, и если к ним присасывается более десяти зондов, они падают. В итоге почти все пункты межсетевого обмена лежат. С DNS тоже свистопляска - очень может быть, что они ещё с прошлой ночи стали распространять испорченную информацию. Ах да, а ещё есть компонент, который прочёсывает адресную книгу и рассылает по почте и мессенджерам вполне себе убедительные сообщения, заводит разговор с помощью бота вроде Eliza , натасканного на письмах из почтового ящика, и уговаривает открыть трояна.",
+        "translator": "Михаил Карпов",
+        "source_url": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+        "translation_url": "https://litmir.club/br/?b=89169&p=1",
+        "license": "CC BY-NC-SA 2.5"
+      },
+      {
+        "id": "poe-extra-12",
+        "author": "Эдгар Аллан По",
+        "source": "I took up three planks from the flooring of the chamber, and deposited all between the scantlings. I then replaced the boards so cleverly, so cunningly, that no human eye—not even his —could have detected anything wrong. There was nothing to wash out—no stain of any kind—no bloodspot whatever. I had been too wary for that.",
+        "translation": "Я вынул три доски из пола комнаты и положил труп между драницами. Потом я опять укрепил доски так хорошо, так аккуратно, что никакой человеческий глаз — даже и его — не мог бы открыть здесь ничего подозрительного. Ничего не нужно было замывать — ни одного пятна — ни одной капли крови. Я был слишком предусмотрителен для этого.",
+        "translator": "Константин Бальмонт",
+        "source_url": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "translation_url": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      }
+    ],
+    "random": [
+      {
+        "id": "poe-ray",
+        "author": "Эдгар Аллан По",
+        "source": "When I had waited a long time very patiently without hearing him lie down, I resolved to open a little—  a very, very little crevice in the lantern. So I opened it—you cannot imagine how stealthily—until at length a single dim ray like the thread of the spider shot out from the crevice and fell upon the vulture eye.",
+        "translation": "Я выждал очень терпеливо значительный промежуток времени, но слыша, что старик не ложится, я решил открыть в фонаре маленькую щелку — очень, очень маленькую. Я стал ее открывать — вы представить себе не можете, до какой степени бесшумно, бесшумно — и, наконец, отдельный бледный луч, похожий на вытянутую паутинку, выделился из щели и упал на ястребиный глаз.",
+        "translator": "Константин Бальмонт",
+        "source_url": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "translation_url": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      },
+      {
+        "id": "sysadmin-04",
+        "author": "Кори Доктороу",
+        "source": "The CN Tower, a giant white-elephant needle of a building loomed to the east of them. It was askew, like a branch stuck in wet sand. Was it moving? It was. It was heeling over, slowly, but gaining speed, falling northeast toward the financial district. In a second, it slid over the tipping point and crashed down. They felt the shock, then heard it, the whole building rocking from the impact. A cloud of dust rose from the wreckage, and there was more thunder as the world's tallest freestanding structure crashed through building after building.",
+        "translation": "Башня CN , возвышавшаяся над городом, словно огромная игла из слоновой кости, виднелась вдали к востоку от них. Она накренилась, словно палка, воткнутая в мокрый песок. Двигалась ли она? Двигалась. Сначала медленно, а потом всё быстрее и быстрее, башня падала по направлению к северо-востоку, на деловой квартал. Секунду спустя она надломилась и рухнула вниз. Ударная волна сначала докатилась до их мозгов и только потом до ушей, когда затрясло всё здание. Над местом происшествия поднялось облако пыли, а падающая башня продолжала прошивать одно здание за другим, и грохот не утихал.",
+        "translator": "Михаил Карпов",
+        "source_url": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+        "translation_url": "https://litmir.club/br/?b=89169&p=2",
+        "license": "CC BY-NC-SA 2.5"
+      }
+    ]
+  },
+  "q269307d5a9": {
+    "relevant": [
+      {
+        "id": "poe-nerves",
+        "author": "Эдгар Аллан По",
+        "source": "True ! nervous, very, very dreadfully nervous I had been and am; but why will you say that I am mad? The disease had sharpened my senses, not destroyed, not dulled them. Above all was the sense of hearing acute. I heard all things in the heaven and in the earth. I heard many things in hell. How then am I mad? Hearken! and observe how healthily, how calmly I can tell you the whole story.",
+        "translation": "Да! я очень, очень нервен, страшно нервен; но почему хотите вы утверждать, что я сумасшедший? Болезнь обострила мои чувства, отнюдь не ослабила их, отнюдь не притупила. Прежде всего чувство слуха всегда отличалось у меня особенной остротой. Я слышал все, что делалось на небе и на земле. Я слышал многое из того, что делалось в аду. Какой же я сумасшедший? Слушайте! вы только слушайте и наблюдайте, как трезво и спокойно я могу все рассказать.",
+        "translator": "Константин Бальмонт",
+        "source_url": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "translation_url": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      },
+      {
+        "id": "poe-extra-15",
+        "author": "Эдгар Аллан По",
+        "source": "The officers were satisfied. My manner had convinced them. I was singularly at ease. They sat, and while I answered cheerily, they chatted of familiar things. But, ere long, I felt myself getting pale and wished them gone. My head ached, and I fancied a ringing in my ears; but still they sat, and still chatted. The ringing became more distinct;—it continued and became more distinct. I talked more freely to get rid of the feeling, but it continued and gained definitiveness—until, at length, I found that the noise was not within my ears.",
+        "translation": "Полицейские чиновники были удовлетворены. Мои манеры убедили их. Я чувствовал себя необыкновенно хорошо. Они сидели, и между тем как я весело отвечал, болтали о том-о-сем. Но прошло немного времени, я почувствовал, что бледнею, и искренно пожелал, чтобы они поскорее ушли. У меня заболела голова, и мне показалось, что в ушах моих раздался звон; но они все еще продолжали сидеть, все продолжали болтать. Звон стал делаться явственнее — он продолжался и делался все более явственным: я начал говорить с усиленной развязностью, чтобы отделаться от этого чувства, но звон продолжался с неуклонным упорством — он возрастал и, наконец, я понял, что шум был не в моих ушах.",
+        "translator": "Константин Бальмонт",
+        "source_url": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "translation_url": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      }
+    ],
+    "random": [
+      {
+        "id": "poe-heart",
+        "author": "Эдгар Аллан По",
+        "source": "And now have I not told you that what you mistake for madness is but over-acuteness of the senses? now, I say, there came to my ears a low, dull, quick sound, such as a watch makes when enveloped in cotton. I knew that sound well, too. It was the beating of the old man's heart. It increased my fury, as the beating of a drum stimulates the soldier into courage.",
+        "translation": "Ну, и что же, разве я вам не говорил, что то, что вы считаете сумасшествием, есть лишь утонченность моих чувств? Я услышал тихий, глухой, быстрый звук, подобный тиканью карманных часов, завернутых в вату. Этот звук я знал, отлично знал и его. Это билось сердце старика. Быстрый звук усилил мое бешенство, как звук барабанного боя усиливает мужество солдата.",
+        "translator": "Константин Бальмонт",
+        "source_url": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "translation_url": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      },
+      {
+        "id": "sysadmin-03",
+        "author": "Кори Доктороу",
+        "source": "\"Massive flashworm attack. Some jackass with a zero-day exploit has got every Windows box on the net running Monte Carlo probes on every IP block, including IPv6. The big Ciscos all run administrative interfaces over v6, and they all fall over if they get more than ten simultaneous probes, which means that just about every interchange has gone down. DNS is screwy, too -- like maybe someone poisoned the zone transfer last night. Oh, and there's an email and IM component that sends pretty lifelike messages to everyone in your address book, barfing up Eliza-dialog that keys off of your logged email and messages to get you to open a Trojan.\"",
+        "translation": "- Массированная атака флэш-червя. Какой-то урод с эксплойтом нулевого дня, похоже, заставил все Windows в сети прощупывать каждый блок IP по методу Монте-Карло. Включая IPv6. Доступ к админскому интерфейсу больших цисок идёт по v6, и если к ним присасывается более десяти зондов, они падают. В итоге почти все пункты межсетевого обмена лежат. С DNS тоже свистопляска - очень может быть, что они ещё с прошлой ночи стали распространять испорченную информацию. Ах да, а ещё есть компонент, который прочёсывает адресную книгу и рассылает по почте и мессенджерам вполне себе убедительные сообщения, заводит разговор с помощью бота вроде Eliza , натасканного на письмах из почтового ящика, и уговаривает открыть трояна.",
+        "translator": "Михаил Карпов",
+        "source_url": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+        "translation_url": "https://litmir.club/br/?b=89169&p=1",
+        "license": "CC BY-NC-SA 2.5"
+      }
+    ]
+  },
+  "qb6f48742c7": {
+    "relevant": [
+      {
+        "id": "wilde-extra-07",
+        "author": "Оскар Уайльд",
+        "source": "And after a little while He saw one whose face and raiment were painted and whose feet were shod with pearls. And behind her came, slowly as a hunter, a young man who wore a cloak of two colours. Now the face of the woman was as the fair face of an idol, and the eyes of the young man were bright with lust.",
+        "translation": "И вскоре Он увидал женщину, чье лицо и одежда были разрисованы, и ноги которой были обуты в жемчуг. И за нею медленно крался, словно охотник, юноша в двухцветном плаще.\n\nЛицо женщины было подобно прекрасному лику идола, а глаза юноши горели сладострастием.",
+        "translator": "Михаил Фёдорович Ликиардопуло",
+        "source_url": "https://www.gutenberg.org/files/774/774-h/774-h.htm",
+        "translation_url": "https://ru.wikisource.org/wiki/Творитель_добра_(Уайльд)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      },
+      {
+        "id": "poe-ray",
+        "author": "Эдгар Аллан По",
+        "source": "When I had waited a long time very patiently without hearing him lie down, I resolved to open a little—  a very, very little crevice in the lantern. So I opened it—you cannot imagine how stealthily—until at length a single dim ray like the thread of the spider shot out from the crevice and fell upon the vulture eye.",
+        "translation": "Я выждал очень терпеливо значительный промежуток времени, но слыша, что старик не ложится, я решил открыть в фонаре маленькую щелку — очень, очень маленькую. Я стал ее открывать — вы представить себе не можете, до какой степени бесшумно, бесшумно — и, наконец, отдельный бледный луч, похожий на вытянутую паутинку, выделился из щели и упал на ястребиный глаз.",
+        "translator": "Константин Бальмонт",
+        "source_url": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "translation_url": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      }
+    ],
+    "random": [
+      {
+        "id": "wilde-extra-07",
+        "author": "Оскар Уайльд",
+        "source": "And after a little while He saw one whose face and raiment were painted and whose feet were shod with pearls. And behind her came, slowly as a hunter, a young man who wore a cloak of two colours. Now the face of the woman was as the fair face of an idol, and the eyes of the young man were bright with lust.",
+        "translation": "И вскоре Он увидал женщину, чье лицо и одежда были разрисованы, и ноги которой были обуты в жемчуг. И за нею медленно крался, словно охотник, юноша в двухцветном плаще.\n\nЛицо женщины было подобно прекрасному лику идола, а глаза юноши горели сладострастием.",
+        "translator": "Михаил Фёдорович Ликиардопуло",
+        "source_url": "https://www.gutenberg.org/files/774/774-h/774-h.htm",
+        "translation_url": "https://ru.wikisource.org/wiki/Творитель_добра_(Уайльд)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      },
+      {
+        "id": "sysadmin-06",
+        "author": "Кори Доктороу",
+        "source": "They had less than a day's worth of fuel when Felix was elected the first ever Prime Minister of Cyberspace. The first count was spoiled by a bot that spammed the voting process and they lost a critical day while they added up the votes a second time.",
+        "translation": "Когда Феликса избрали первым за всю историю человечества премьер-министром киберпространства, топлива у них оставалось где-то на день. Первый подсчёт голосов был сорван ботом, который наспамил во время выборов, и они потратили ещё день на их пересчёт.",
+        "translator": "Михаил Карпов",
+        "source_url": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+        "translation_url": "https://litmir.club/br/?b=89169&p=7",
+        "license": "CC BY-NC-SA 2.5"
+      }
+    ]
+  },
+  "q4d3dc54baa": {
+    "relevant": [
+      {
+        "id": "sysadmin-05",
+        "author": "Кори Доктороу",
+        "source": "The Flickr photostreams were horrific. Felix had to unsubscribe from them after he caught a photo of a woman and a baby, dead in a kitchen, twisted into an agonized heiroglyph by the bioagent. They didn't look like Kelly and 2.0, but they didn't have to. He started shaking and couldn't stop.",
+        "translation": "Потоки фоток во Flickr-е ужасали. Феликс отписался от них, когда наткнулся на снимок женщины с ребёнком, умерших на собственной кухне. Под действием биоагента их тела свернулись в ужасный иероглиф. Они не были похожи на Келли и 2.0, но дело было не в этом. Его трясло, и он не мог остановиться.",
+        "translator": "Михаил Карпов",
+        "source_url": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+        "translation_url": "https://litmir.club/br/?b=89169&p=5",
+        "license": "CC BY-NC-SA 2.5"
+      },
+      {
+        "id": "poe-extra-15",
+        "author": "Эдгар Аллан По",
+        "source": "The officers were satisfied. My manner had convinced them. I was singularly at ease. They sat, and while I answered cheerily, they chatted of familiar things. But, ere long, I felt myself getting pale and wished them gone. My head ached, and I fancied a ringing in my ears; but still they sat, and still chatted. The ringing became more distinct;—it continued and became more distinct. I talked more freely to get rid of the feeling, but it continued and gained definitiveness—until, at length, I found that the noise was not within my ears.",
+        "translation": "Полицейские чиновники были удовлетворены. Мои манеры убедили их. Я чувствовал себя необыкновенно хорошо. Они сидели, и между тем как я весело отвечал, болтали о том-о-сем. Но прошло немного времени, я почувствовал, что бледнею, и искренно пожелал, чтобы они поскорее ушли. У меня заболела голова, и мне показалось, что в ушах моих раздался звон; но они все еще продолжали сидеть, все продолжали болтать. Звон стал делаться явственнее — он продолжался и делался все более явственным: я начал говорить с усиленной развязностью, чтобы отделаться от этого чувства, но звон продолжался с неуклонным упорством — он возрастал и, наконец, я понял, что шум был не в моих ушах.",
+        "translator": "Константин Бальмонт",
+        "source_url": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "translation_url": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      }
+    ],
+    "random": [
+      {
+        "id": "poe-ray",
+        "author": "Эдгар Аллан По",
+        "source": "When I had waited a long time very patiently without hearing him lie down, I resolved to open a little—  a very, very little crevice in the lantern. So I opened it—you cannot imagine how stealthily—until at length a single dim ray like the thread of the spider shot out from the crevice and fell upon the vulture eye.",
+        "translation": "Я выждал очень терпеливо значительный промежуток времени, но слыша, что старик не ложится, я решил открыть в фонаре маленькую щелку — очень, очень маленькую. Я стал ее открывать — вы представить себе не можете, до какой степени бесшумно, бесшумно — и, наконец, отдельный бледный луч, похожий на вытянутую паутинку, выделился из щели и упал на ястребиный глаз.",
+        "translator": "Константин Бальмонт",
+        "source_url": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "translation_url": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      },
+      {
+        "id": "sysadmin-04",
+        "author": "Кори Доктороу",
+        "source": "The CN Tower, a giant white-elephant needle of a building loomed to the east of them. It was askew, like a branch stuck in wet sand. Was it moving? It was. It was heeling over, slowly, but gaining speed, falling northeast toward the financial district. In a second, it slid over the tipping point and crashed down. They felt the shock, then heard it, the whole building rocking from the impact. A cloud of dust rose from the wreckage, and there was more thunder as the world's tallest freestanding structure crashed through building after building.",
+        "translation": "Башня CN , возвышавшаяся над городом, словно огромная игла из слоновой кости, виднелась вдали к востоку от них. Она накренилась, словно палка, воткнутая в мокрый песок. Двигалась ли она? Двигалась. Сначала медленно, а потом всё быстрее и быстрее, башня падала по направлению к северо-востоку, на деловой квартал. Секунду спустя она надломилась и рухнула вниз. Ударная волна сначала докатилась до их мозгов и только потом до ушей, когда затрясло всё здание. Над местом происшествия поднялось облако пыли, а падающая башня продолжала прошивать одно здание за другим, и грохот не утихал.",
+        "translator": "Михаил Карпов",
+        "source_url": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+        "translation_url": "https://litmir.club/br/?b=89169&p=2",
+        "license": "CC BY-NC-SA 2.5"
+      }
+    ]
+  },
+  "qdf715a19a6": {
+    "relevant": [
+      {
+        "id": "sysadmin-07",
+        "author": "Кори Доктороу",
+        "source": "They waited for the interior doors to close behind them and then Felix opened the exterior doors. The air smelled and tasted like a mown grass, like the first drops of rain, like the lake and the sky, like the outdoors and the world, an old friend not heard from in an eternity.",
+        "translation": "Они подождали, пока закроются внутренние двери, и тогда Феликс открыл внешние. Воздух пах свежескошенной травой, первыми каплями дождя; словно озеро, в котором отражается небо, словно улица и словно мир, словно старый друг, с которым не виделся целую вечность.",
+        "translator": "Михаил Карпов",
+        "source_url": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+        "translation_url": "https://litmir.club/br/?b=89169&p=9",
+        "license": "CC BY-NC-SA 2.5"
+      },
+      {
+        "id": "sysadmin-03",
+        "author": "Кори Доктороу",
+        "source": "\"Massive flashworm attack. Some jackass with a zero-day exploit has got every Windows box on the net running Monte Carlo probes on every IP block, including IPv6. The big Ciscos all run administrative interfaces over v6, and they all fall over if they get more than ten simultaneous probes, which means that just about every interchange has gone down. DNS is screwy, too -- like maybe someone poisoned the zone transfer last night. Oh, and there's an email and IM component that sends pretty lifelike messages to everyone in your address book, barfing up Eliza-dialog that keys off of your logged email and messages to get you to open a Trojan.\"",
+        "translation": "- Массированная атака флэш-червя. Какой-то урод с эксплойтом нулевого дня, похоже, заставил все Windows в сети прощупывать каждый блок IP по методу Монте-Карло. Включая IPv6. Доступ к админскому интерфейсу больших цисок идёт по v6, и если к ним присасывается более десяти зондов, они падают. В итоге почти все пункты межсетевого обмена лежат. С DNS тоже свистопляска - очень может быть, что они ещё с прошлой ночи стали распространять испорченную информацию. Ах да, а ещё есть компонент, который прочёсывает адресную книгу и рассылает по почте и мессенджерам вполне себе убедительные сообщения, заводит разговор с помощью бота вроде Eliza , натасканного на письмах из почтового ящика, и уговаривает открыть трояна.",
+        "translator": "Михаил Карпов",
+        "source_url": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+        "translation_url": "https://litmir.club/br/?b=89169&p=1",
+        "license": "CC BY-NC-SA 2.5"
+      }
+    ],
+    "random": [
+      {
+        "id": "poe-extra-14",
+        "author": "Эдгар Аллан По",
+        "source": "I smiled—for what had I to fear? I bade the gentlemen welcome. The shriek, I said, was my own in a dream. The old man, I mentioned, was absent in the country. I took my visitors all over the house. ​ I bade them search—search well . I led them, at length, to his chamber. I showed them his treasures, secure, undisturbed. In the enthusiasm of my confidence, I brought chairs into the room, and desired them here to rest from their fatigues, while I myself, in the wild audacity of my perfect triumph, placed my own seat upon the very spot beneath which reposed the corpse of the victim.",
+        "translation": "Я улыбался — чего мне было бояться? Я попросил джентльменов пожаловать в комнаты. Закричал это я сам, сказал я, закричал во сне. А старика, сообщил я, нет дома, он на время уехал из города. Я провел посетителей по всему дому. Я просил их обыскать все — обыскать хорошенько . Я провел их, наконец, в его комнату. Я показал им все его драгоценности, они были целы, и лежали в своем обычном порядке. Охваченный энтузиазмом своей уверенности, я принес стулья в эту комнату и пожелал, чтобы именно здесь они отдохнули от своих поисков, между тем как я сам, в дикой смелости полного торжества, поставил свой собственный стул как раз на том самом месте, под которым покоилось тело жертвы.",
+        "translator": "Константин Бальмонт",
+        "source_url": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "translation_url": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      },
+      {
+        "id": "wilde-extra-07",
+        "author": "Оскар Уайльд",
+        "source": "And after a little while He saw one whose face and raiment were painted and whose feet were shod with pearls. And behind her came, slowly as a hunter, a young man who wore a cloak of two colours. Now the face of the woman was as the fair face of an idol, and the eyes of the young man were bright with lust.",
+        "translation": "И вскоре Он увидал женщину, чье лицо и одежда были разрисованы, и ноги которой были обуты в жемчуг. И за нею медленно крался, словно охотник, юноша в двухцветном плаще.\n\nЛицо женщины было подобно прекрасному лику идола, а глаза юноши горели сладострастием.",
+        "translator": "Михаил Фёдорович Ликиардопуло",
+        "source_url": "https://www.gutenberg.org/files/774/774-h/774-h.htm",
+        "translation_url": "https://ru.wikisource.org/wiki/Творитель_добра_(Уайльд)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      }
+    ]
+  },
+  "qfa3f76ea9a": {
+    "relevant": [
+      {
+        "id": "sysadmin-03",
+        "author": "Кори Доктороу",
+        "source": "\"Massive flashworm attack. Some jackass with a zero-day exploit has got every Windows box on the net running Monte Carlo probes on every IP block, including IPv6. The big Ciscos all run administrative interfaces over v6, and they all fall over if they get more than ten simultaneous probes, which means that just about every interchange has gone down. DNS is screwy, too -- like maybe someone poisoned the zone transfer last night. Oh, and there's an email and IM component that sends pretty lifelike messages to everyone in your address book, barfing up Eliza-dialog that keys off of your logged email and messages to get you to open a Trojan.\"",
+        "translation": "- Массированная атака флэш-червя. Какой-то урод с эксплойтом нулевого дня, похоже, заставил все Windows в сети прощупывать каждый блок IP по методу Монте-Карло. Включая IPv6. Доступ к админскому интерфейсу больших цисок идёт по v6, и если к ним присасывается более десяти зондов, они падают. В итоге почти все пункты межсетевого обмена лежат. С DNS тоже свистопляска - очень может быть, что они ещё с прошлой ночи стали распространять испорченную информацию. Ах да, а ещё есть компонент, который прочёсывает адресную книгу и рассылает по почте и мессенджерам вполне себе убедительные сообщения, заводит разговор с помощью бота вроде Eliza , натасканного на письмах из почтового ящика, и уговаривает открыть трояна.",
+        "translator": "Михаил Карпов",
+        "source_url": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+        "translation_url": "https://litmir.club/br/?b=89169&p=1",
+        "license": "CC BY-NC-SA 2.5"
+      },
+      {
+        "id": "sysadmin-07",
+        "author": "Кори Доктороу",
+        "source": "They waited for the interior doors to close behind them and then Felix opened the exterior doors. The air smelled and tasted like a mown grass, like the first drops of rain, like the lake and the sky, like the outdoors and the world, an old friend not heard from in an eternity.",
+        "translation": "Они подождали, пока закроются внутренние двери, и тогда Феликс открыл внешние. Воздух пах свежескошенной травой, первыми каплями дождя; словно озеро, в котором отражается небо, словно улица и словно мир, словно старый друг, с которым не виделся целую вечность.",
+        "translator": "Михаил Карпов",
+        "source_url": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+        "translation_url": "https://litmir.club/br/?b=89169&p=9",
+        "license": "CC BY-NC-SA 2.5"
+      }
+    ],
+    "random": [
+      {
+        "id": "poe-ray",
+        "author": "Эдгар Аллан По",
+        "source": "When I had waited a long time very patiently without hearing him lie down, I resolved to open a little—  a very, very little crevice in the lantern. So I opened it—you cannot imagine how stealthily—until at length a single dim ray like the thread of the spider shot out from the crevice and fell upon the vulture eye.",
+        "translation": "Я выждал очень терпеливо значительный промежуток времени, но слыша, что старик не ложится, я решил открыть в фонаре маленькую щелку — очень, очень маленькую. Я стал ее открывать — вы представить себе не можете, до какой степени бесшумно, бесшумно — и, наконец, отдельный бледный луч, похожий на вытянутую паутинку, выделился из щели и упал на ястребиный глаз.",
+        "translator": "Константин Бальмонт",
+        "source_url": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "translation_url": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      },
+      {
+        "id": "poe-extra-01",
+        "author": "Эдгар Аллан По",
+        "source": "It is impossible to say how first the idea entered my brain, but, once conceived, it haunted me day and night. Object there was none. Passion there was none. I loved the old man. He had never wronged me. He had never given me insult. For his gold I had no desire. I think it was his eye! Yes, it was this! One of his eyes resembled that of a vulture—a pale blue eye with a film over it. Whenever it fell upon me my blood ran cold, and so by degrees, very gradually, I made up my mind to take the life of the old man, and thus rid myself of the eye forever.",
+        "translation": "Невозможно определить, каким образом эта мысль первый раз пришла мне в голову; но, раз придя, она преследовала меня и днем и ночью. Цели тут не было никакой. Срасти не было никакой. Я любил старика. Он никогда мне не делал зла. Он никогда меня не оскорблял. Денег его я не хотел. Я думаю, что во всем был виноват его глаз! Да, именно так! Один его глаз был похож на глаз ястреба — бледно-голубого цвета с бельмом. Каждый раз, когда он смотрел на меня этим глазом, кровь во мне холодела, и вот мало-помалу, постепенно, мной овладела мысль убить старика, и этим путем раз навсегда избавиться от его глаза.",
+        "translator": "Константин Бальмонт",
+        "source_url": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "translation_url": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      }
+    ]
+  },
+  "qdeb6786d21": {
+    "relevant": [
+      {
+        "id": "sysadmin-03",
+        "author": "Кори Доктороу",
+        "source": "\"Massive flashworm attack. Some jackass with a zero-day exploit has got every Windows box on the net running Monte Carlo probes on every IP block, including IPv6. The big Ciscos all run administrative interfaces over v6, and they all fall over if they get more than ten simultaneous probes, which means that just about every interchange has gone down. DNS is screwy, too -- like maybe someone poisoned the zone transfer last night. Oh, and there's an email and IM component that sends pretty lifelike messages to everyone in your address book, barfing up Eliza-dialog that keys off of your logged email and messages to get you to open a Trojan.\"",
+        "translation": "- Массированная атака флэш-червя. Какой-то урод с эксплойтом нулевого дня, похоже, заставил все Windows в сети прощупывать каждый блок IP по методу Монте-Карло. Включая IPv6. Доступ к админскому интерфейсу больших цисок идёт по v6, и если к ним присасывается более десяти зондов, они падают. В итоге почти все пункты межсетевого обмена лежат. С DNS тоже свистопляска - очень может быть, что они ещё с прошлой ночи стали распространять испорченную информацию. Ах да, а ещё есть компонент, который прочёсывает адресную книгу и рассылает по почте и мессенджерам вполне себе убедительные сообщения, заводит разговор с помощью бота вроде Eliza , натасканного на письмах из почтового ящика, и уговаривает открыть трояна.",
+        "translator": "Михаил Карпов",
+        "source_url": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+        "translation_url": "https://litmir.club/br/?b=89169&p=1",
+        "license": "CC BY-NC-SA 2.5"
+      },
+      {
+        "id": "sysadmin-04",
+        "author": "Кори Доктороу",
+        "source": "The CN Tower, a giant white-elephant needle of a building loomed to the east of them. It was askew, like a branch stuck in wet sand. Was it moving? It was. It was heeling over, slowly, but gaining speed, falling northeast toward the financial district. In a second, it slid over the tipping point and crashed down. They felt the shock, then heard it, the whole building rocking from the impact. A cloud of dust rose from the wreckage, and there was more thunder as the world's tallest freestanding structure crashed through building after building.",
+        "translation": "Башня CN , возвышавшаяся над городом, словно огромная игла из слоновой кости, виднелась вдали к востоку от них. Она накренилась, словно палка, воткнутая в мокрый песок. Двигалась ли она? Двигалась. Сначала медленно, а потом всё быстрее и быстрее, башня падала по направлению к северо-востоку, на деловой квартал. Секунду спустя она надломилась и рухнула вниз. Ударная волна сначала докатилась до их мозгов и только потом до ушей, когда затрясло всё здание. Над местом происшествия поднялось облако пыли, а падающая башня продолжала прошивать одно здание за другим, и грохот не утихал.",
+        "translator": "Михаил Карпов",
+        "source_url": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+        "translation_url": "https://litmir.club/br/?b=89169&p=2",
+        "license": "CC BY-NC-SA 2.5"
+      }
+    ],
+    "random": [
+      {
+        "id": "doer-city",
+        "author": "Оскар Уайльд",
+        "source": "And when He came near He heard within the city the tread of the feet of joy, and the laughter of the mouth of gladness and the loud noise of many lutes. And He knocked at the gate and certain of the gate-keepers opened to Him.\n\nAnd He beheld a house that was of marble and had fair pillars of marble before it. The pillars were hung with garlands, and within and without there were torches of cedar. And He entered the house.",
+        "translation": "И когда Он подошел ближе, услыхал Он в городе топот радостных ног и смех ликующих уст и громкие звуки многих лютней. И Он постучал в ворота, и некоторые из привратников отворили Ему.\n\nИ Он увидал дом из мрамора и красивые мраморные колонны перед ним. Колонны были обвиты гирляндами, и внутри и снаружи горели факелы из кедра. И Он вошел в дом.",
+        "translator": "Михаил Фёдорович Ликиардопуло",
+        "source_url": "https://www.gutenberg.org/files/774/774-h/774-h.htm",
+        "translation_url": "https://ru.wikisource.org/wiki/Творитель_добра_(Уайльд)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      },
+      {
+        "id": "poe-extra-15",
+        "author": "Эдгар Аллан По",
+        "source": "The officers were satisfied. My manner had convinced them. I was singularly at ease. They sat, and while I answered cheerily, they chatted of familiar things. But, ere long, I felt myself getting pale and wished them gone. My head ached, and I fancied a ringing in my ears; but still they sat, and still chatted. The ringing became more distinct;—it continued and became more distinct. I talked more freely to get rid of the feeling, but it continued and gained definitiveness—until, at length, I found that the noise was not within my ears.",
+        "translation": "Полицейские чиновники были удовлетворены. Мои манеры убедили их. Я чувствовал себя необыкновенно хорошо. Они сидели, и между тем как я весело отвечал, болтали о том-о-сем. Но прошло немного времени, я почувствовал, что бледнею, и искренно пожелал, чтобы они поскорее ушли. У меня заболела голова, и мне показалось, что в ушах моих раздался звон; но они все еще продолжали сидеть, все продолжали болтать. Звон стал делаться явственнее — он продолжался и делался все более явственным: я начал говорить с усиленной развязностью, чтобы отделаться от этого чувства, но звон продолжался с неуклонным упорством — он возрастал и, наконец, я понял, что шум был не в моих ушах.",
+        "translator": "Константин Бальмонт",
+        "source_url": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "translation_url": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      }
+    ]
+  },
+  "q28167c0ed9": {
+    "relevant": [
+      {
+        "id": "sysadmin-03",
+        "author": "Кори Доктороу",
+        "source": "\"Massive flashworm attack. Some jackass with a zero-day exploit has got every Windows box on the net running Monte Carlo probes on every IP block, including IPv6. The big Ciscos all run administrative interfaces over v6, and they all fall over if they get more than ten simultaneous probes, which means that just about every interchange has gone down. DNS is screwy, too -- like maybe someone poisoned the zone transfer last night. Oh, and there's an email and IM component that sends pretty lifelike messages to everyone in your address book, barfing up Eliza-dialog that keys off of your logged email and messages to get you to open a Trojan.\"",
+        "translation": "- Массированная атака флэш-червя. Какой-то урод с эксплойтом нулевого дня, похоже, заставил все Windows в сети прощупывать каждый блок IP по методу Монте-Карло. Включая IPv6. Доступ к админскому интерфейсу больших цисок идёт по v6, и если к ним присасывается более десяти зондов, они падают. В итоге почти все пункты межсетевого обмена лежат. С DNS тоже свистопляска - очень может быть, что они ещё с прошлой ночи стали распространять испорченную информацию. Ах да, а ещё есть компонент, который прочёсывает адресную книгу и рассылает по почте и мессенджерам вполне себе убедительные сообщения, заводит разговор с помощью бота вроде Eliza , натасканного на письмах из почтового ящика, и уговаривает открыть трояна.",
+        "translator": "Михаил Карпов",
+        "source_url": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+        "translation_url": "https://litmir.club/br/?b=89169&p=1",
+        "license": "CC BY-NC-SA 2.5"
+      },
+      {
+        "id": "poe-ray",
+        "author": "Эдгар Аллан По",
+        "source": "When I had waited a long time very patiently without hearing him lie down, I resolved to open a little—  a very, very little crevice in the lantern. So I opened it—you cannot imagine how stealthily—until at length a single dim ray like the thread of the spider shot out from the crevice and fell upon the vulture eye.",
+        "translation": "Я выждал очень терпеливо значительный промежуток времени, но слыша, что старик не ложится, я решил открыть в фонаре маленькую щелку — очень, очень маленькую. Я стал ее открывать — вы представить себе не можете, до какой степени бесшумно, бесшумно — и, наконец, отдельный бледный луч, похожий на вытянутую паутинку, выделился из щели и упал на ястребиный глаз.",
+        "translator": "Константин Бальмонт",
+        "source_url": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "translation_url": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      }
+    ],
+    "random": [
+      {
+        "id": "sysadmin-03",
+        "author": "Кори Доктороу",
+        "source": "\"Massive flashworm attack. Some jackass with a zero-day exploit has got every Windows box on the net running Monte Carlo probes on every IP block, including IPv6. The big Ciscos all run administrative interfaces over v6, and they all fall over if they get more than ten simultaneous probes, which means that just about every interchange has gone down. DNS is screwy, too -- like maybe someone poisoned the zone transfer last night. Oh, and there's an email and IM component that sends pretty lifelike messages to everyone in your address book, barfing up Eliza-dialog that keys off of your logged email and messages to get you to open a Trojan.\"",
+        "translation": "- Массированная атака флэш-червя. Какой-то урод с эксплойтом нулевого дня, похоже, заставил все Windows в сети прощупывать каждый блок IP по методу Монте-Карло. Включая IPv6. Доступ к админскому интерфейсу больших цисок идёт по v6, и если к ним присасывается более десяти зондов, они падают. В итоге почти все пункты межсетевого обмена лежат. С DNS тоже свистопляска - очень может быть, что они ещё с прошлой ночи стали распространять испорченную информацию. Ах да, а ещё есть компонент, который прочёсывает адресную книгу и рассылает по почте и мессенджерам вполне себе убедительные сообщения, заводит разговор с помощью бота вроде Eliza , натасканного на письмах из почтового ящика, и уговаривает открыть трояна.",
+        "translator": "Михаил Карпов",
+        "source_url": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+        "translation_url": "https://litmir.club/br/?b=89169&p=1",
+        "license": "CC BY-NC-SA 2.5"
+      },
+      {
+        "id": "sysadmin-08",
+        "author": "Кори Доктороу",
+        "source": "They drank. The next day, they started to rebuild. And months later, they started over again, when disagreements drove apart the fragile little group they'd pulled together. And a year after that, they started over again. And five years later, they started again.",
+        "translation": "Они выпили. На следующий день они взялись за работу. Через несколько месяцев они разругались, хрупкое маленькое сообщество, собранное ими, развалилось, но они начали всё заново. А потом, ещё через год, ещё раз. И снова - когда миновало пять лет.",
+        "translator": "Михаил Карпов",
+        "source_url": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+        "translation_url": "https://litmir.club/br/?b=89169&p=10",
+        "license": "CC BY-NC-SA 2.5"
+      }
+    ]
+  },
+  "qf75369d6ce": {
+    "relevant": [
+      {
+        "id": "cat-10",
+        "author": "Эдгар Аллан По",
+        "source": "It was a black cat—a very large one—fully as large as Pluto, and closely resembling him in every respect but one. Pluto had not a white hair upon any portion of his body; but this cat had a large, although indefinite splotch of white, covering nearly the whole region of the breast.",
+        "translation": "Это был черный кот — очень большой — совершенно таких же размеров, как Плутон, и похожий на него во всех отношениях, кроме одного. У Плутона не было ни одного белого волоска на всем теле; а у этого кота было широкое, хотя и неопределенное, белое пятно, почти во всю грудь.",
+        "translator": "Константин Бальмонт",
+        "source_url": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Black_Cat",
+        "translation_url": "https://ru.wikisource.org/wiki/Чёрный_кот_(По;_Бальмонт)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      },
+      {
+        "id": "sysadmin-02",
+        "author": "Кори Доктороу",
+        "source": "\"2.0's awake,\" she said. The baby had been Beta Test when he was in her womb, and when her water broke, he got the call and dashed out of the office, shouting, *The Gold Master just shipped!* They'd started calling him 2.0 before he'd finished his first cry. \"This little bastard was born to suck tit.\"",
+        "translation": "- 2.0 проснулся.\n\nПока малыш был в утробе, его звали Бетой, а когда отошли воды, Феликс выбежал из офиса с воплем: \"Отправлен на золото!\" Они стали называть его 2.0 ещё до того, как затих его первый крик. \"Маленький засранец просто рождён для того, чтобы титьку сосать.\"",
+        "translator": "Михаил Карпов",
+        "source_url": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+        "translation_url": "https://litmir.club/br/?b=89169&p=1",
+        "license": "CC BY-NC-SA 2.5"
+      }
+    ],
+    "random": [
+      {
+        "id": "poe-nerves",
+        "author": "Эдгар Аллан По",
+        "source": "True ! nervous, very, very dreadfully nervous I had been and am; but why will you say that I am mad? The disease had sharpened my senses, not destroyed, not dulled them. Above all was the sense of hearing acute. I heard all things in the heaven and in the earth. I heard many things in hell. How then am I mad? Hearken! and observe how healthily, how calmly I can tell you the whole story.",
+        "translation": "Да! я очень, очень нервен, страшно нервен; но почему хотите вы утверждать, что я сумасшедший? Болезнь обострила мои чувства, отнюдь не ослабила их, отнюдь не притупила. Прежде всего чувство слуха всегда отличалось у меня особенной остротой. Я слышал все, что делалось на небе и на земле. Я слышал многое из того, что делалось в аду. Какой же я сумасшедший? Слушайте! вы только слушайте и наблюдайте, как трезво и спокойно я могу все рассказать.",
+        "translator": "Константин Бальмонт",
+        "source_url": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "translation_url": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      },
+      {
+        "id": "sysadmin-06",
+        "author": "Кори Доктороу",
+        "source": "They had less than a day's worth of fuel when Felix was elected the first ever Prime Minister of Cyberspace. The first count was spoiled by a bot that spammed the voting process and they lost a critical day while they added up the votes a second time.",
+        "translation": "Когда Феликса избрали первым за всю историю человечества премьер-министром киберпространства, топлива у них оставалось где-то на день. Первый подсчёт голосов был сорван ботом, который наспамил во время выборов, и они потратили ещё день на их пересчёт.",
+        "translator": "Михаил Карпов",
+        "source_url": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+        "translation_url": "https://litmir.club/br/?b=89169&p=7",
+        "license": "CC BY-NC-SA 2.5"
+      }
+    ]
+  },
+  "qed34513c3c": {
+    "relevant": [
+      {
+        "id": "sysadmin-03",
+        "author": "Кори Доктороу",
+        "source": "\"Massive flashworm attack. Some jackass with a zero-day exploit has got every Windows box on the net running Monte Carlo probes on every IP block, including IPv6. The big Ciscos all run administrative interfaces over v6, and they all fall over if they get more than ten simultaneous probes, which means that just about every interchange has gone down. DNS is screwy, too -- like maybe someone poisoned the zone transfer last night. Oh, and there's an email and IM component that sends pretty lifelike messages to everyone in your address book, barfing up Eliza-dialog that keys off of your logged email and messages to get you to open a Trojan.\"",
+        "translation": "- Массированная атака флэш-червя. Какой-то урод с эксплойтом нулевого дня, похоже, заставил все Windows в сети прощупывать каждый блок IP по методу Монте-Карло. Включая IPv6. Доступ к админскому интерфейсу больших цисок идёт по v6, и если к ним присасывается более десяти зондов, они падают. В итоге почти все пункты межсетевого обмена лежат. С DNS тоже свистопляска - очень может быть, что они ещё с прошлой ночи стали распространять испорченную информацию. Ах да, а ещё есть компонент, который прочёсывает адресную книгу и рассылает по почте и мессенджерам вполне себе убедительные сообщения, заводит разговор с помощью бота вроде Eliza , натасканного на письмах из почтового ящика, и уговаривает открыть трояна.",
+        "translator": "Михаил Карпов",
+        "source_url": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+        "translation_url": "https://litmir.club/br/?b=89169&p=1",
+        "license": "CC BY-NC-SA 2.5"
+      },
+      {
+        "id": "poe-extra-01",
+        "author": "Эдгар Аллан По",
+        "source": "It is impossible to say how first the idea entered my brain, but, once conceived, it haunted me day and night. Object there was none. Passion there was none. I loved the old man. He had never wronged me. He had never given me insult. For his gold I had no desire. I think it was his eye! Yes, it was this! One of his eyes resembled that of a vulture—a pale blue eye with a film over it. Whenever it fell upon me my blood ran cold, and so by degrees, very gradually, I made up my mind to take the life of the old man, and thus rid myself of the eye forever.",
+        "translation": "Невозможно определить, каким образом эта мысль первый раз пришла мне в голову; но, раз придя, она преследовала меня и днем и ночью. Цели тут не было никакой. Срасти не было никакой. Я любил старика. Он никогда мне не делал зла. Он никогда меня не оскорблял. Денег его я не хотел. Я думаю, что во всем был виноват его глаз! Да, именно так! Один его глаз был похож на глаз ястреба — бледно-голубого цвета с бельмом. Каждый раз, когда он смотрел на меня этим глазом, кровь во мне холодела, и вот мало-помалу, постепенно, мной овладела мысль убить старика, и этим путем раз навсегда избавиться от его глаза.",
+        "translator": "Константин Бальмонт",
+        "source_url": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "translation_url": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      }
+    ],
+    "random": [
+      {
+        "id": "poe-extra-01",
+        "author": "Эдгар Аллан По",
+        "source": "It is impossible to say how first the idea entered my brain, but, once conceived, it haunted me day and night. Object there was none. Passion there was none. I loved the old man. He had never wronged me. He had never given me insult. For his gold I had no desire. I think it was his eye! Yes, it was this! One of his eyes resembled that of a vulture—a pale blue eye with a film over it. Whenever it fell upon me my blood ran cold, and so by degrees, very gradually, I made up my mind to take the life of the old man, and thus rid myself of the eye forever.",
+        "translation": "Невозможно определить, каким образом эта мысль первый раз пришла мне в голову; но, раз придя, она преследовала меня и днем и ночью. Цели тут не было никакой. Срасти не было никакой. Я любил старика. Он никогда мне не делал зла. Он никогда меня не оскорблял. Денег его я не хотел. Я думаю, что во всем был виноват его глаз! Да, именно так! Один его глаз был похож на глаз ястреба — бледно-голубого цвета с бельмом. Каждый раз, когда он смотрел на меня этим глазом, кровь во мне холодела, и вот мало-помалу, постепенно, мной овладела мысль убить старика, и этим путем раз навсегда избавиться от его глаза.",
+        "translator": "Константин Бальмонт",
+        "source_url": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "translation_url": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      },
+      {
+        "id": "sysadmin-04",
+        "author": "Кори Доктороу",
+        "source": "The CN Tower, a giant white-elephant needle of a building loomed to the east of them. It was askew, like a branch stuck in wet sand. Was it moving? It was. It was heeling over, slowly, but gaining speed, falling northeast toward the financial district. In a second, it slid over the tipping point and crashed down. They felt the shock, then heard it, the whole building rocking from the impact. A cloud of dust rose from the wreckage, and there was more thunder as the world's tallest freestanding structure crashed through building after building.",
+        "translation": "Башня CN , возвышавшаяся над городом, словно огромная игла из слоновой кости, виднелась вдали к востоку от них. Она накренилась, словно палка, воткнутая в мокрый песок. Двигалась ли она? Двигалась. Сначала медленно, а потом всё быстрее и быстрее, башня падала по направлению к северо-востоку, на деловой квартал. Секунду спустя она надломилась и рухнула вниз. Ударная волна сначала докатилась до их мозгов и только потом до ушей, когда затрясло всё здание. Над местом происшествия поднялось облако пыли, а падающая башня продолжала прошивать одно здание за другим, и грохот не утихал.",
+        "translator": "Михаил Карпов",
+        "source_url": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+        "translation_url": "https://litmir.club/br/?b=89169&p=2",
+        "license": "CC BY-NC-SA 2.5"
+      }
+    ]
+  },
+  "qe1201d759d": {
+    "relevant": [
+      {
+        "id": "sysadmin-03",
+        "author": "Кори Доктороу",
+        "source": "\"Massive flashworm attack. Some jackass with a zero-day exploit has got every Windows box on the net running Monte Carlo probes on every IP block, including IPv6. The big Ciscos all run administrative interfaces over v6, and they all fall over if they get more than ten simultaneous probes, which means that just about every interchange has gone down. DNS is screwy, too -- like maybe someone poisoned the zone transfer last night. Oh, and there's an email and IM component that sends pretty lifelike messages to everyone in your address book, barfing up Eliza-dialog that keys off of your logged email and messages to get you to open a Trojan.\"",
+        "translation": "- Массированная атака флэш-червя. Какой-то урод с эксплойтом нулевого дня, похоже, заставил все Windows в сети прощупывать каждый блок IP по методу Монте-Карло. Включая IPv6. Доступ к админскому интерфейсу больших цисок идёт по v6, и если к ним присасывается более десяти зондов, они падают. В итоге почти все пункты межсетевого обмена лежат. С DNS тоже свистопляска - очень может быть, что они ещё с прошлой ночи стали распространять испорченную информацию. Ах да, а ещё есть компонент, который прочёсывает адресную книгу и рассылает по почте и мессенджерам вполне себе убедительные сообщения, заводит разговор с помощью бота вроде Eliza , натасканного на письмах из почтового ящика, и уговаривает открыть трояна.",
+        "translator": "Михаил Карпов",
+        "source_url": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+        "translation_url": "https://litmir.club/br/?b=89169&p=1",
+        "license": "CC BY-NC-SA 2.5"
+      },
+      {
+        "id": "sysadmin-02",
+        "author": "Кори Доктороу",
+        "source": "\"2.0's awake,\" she said. The baby had been Beta Test when he was in her womb, and when her water broke, he got the call and dashed out of the office, shouting, *The Gold Master just shipped!* They'd started calling him 2.0 before he'd finished his first cry. \"This little bastard was born to suck tit.\"",
+        "translation": "- 2.0 проснулся.\n\nПока малыш был в утробе, его звали Бетой, а когда отошли воды, Феликс выбежал из офиса с воплем: \"Отправлен на золото!\" Они стали называть его 2.0 ещё до того, как затих его первый крик. \"Маленький засранец просто рождён для того, чтобы титьку сосать.\"",
+        "translator": "Михаил Карпов",
+        "source_url": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+        "translation_url": "https://litmir.club/br/?b=89169&p=1",
+        "license": "CC BY-NC-SA 2.5"
+      }
+    ],
+    "random": [
+      {
+        "id": "doer-weeping",
+        "author": "Оскар Уайльд",
+        "source": "And He passed out of the city.\n\nAnd when He had passed out of the city He saw seated by the roadside a young man who was weeping.\n\nAnd He went towards him and touched the long locks of his hair and said to him, ‘Why are you weeping?’\n\nAnd the young man looked up and recognised Him and made answer, ‘But I was dead once, and you raised me from the dead. What else should I do but weep?’",
+        "translation": "И Он вышел из города.\n\nИ когда Он был за городом, увидал Он юношу, который сидел у дороги и рыдал.\n\nИ Он подошел к нему и коснулся длинных локонов его волос и сказал ему:\n\n— Отчего ты плачешь?\n\nИ юноша поднял глаза и узнал Его, и ответил:\n— Но я был мертв когда-то, и Ты воскресил меня из мертвых. Что же мне делать, как не плакать?",
+        "translator": "Михаил Фёдорович Ликиардопуло",
+        "source_url": "https://www.gutenberg.org/files/774/774-h/774-h.htm",
+        "translation_url": "https://ru.wikisource.org/wiki/Творитель_добра_(Уайльд)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      },
+      {
+        "id": "poe-extra-15",
+        "author": "Эдгар Аллан По",
+        "source": "The officers were satisfied. My manner had convinced them. I was singularly at ease. They sat, and while I answered cheerily, they chatted of familiar things. But, ere long, I felt myself getting pale and wished them gone. My head ached, and I fancied a ringing in my ears; but still they sat, and still chatted. The ringing became more distinct;—it continued and became more distinct. I talked more freely to get rid of the feeling, but it continued and gained definitiveness—until, at length, I found that the noise was not within my ears.",
+        "translation": "Полицейские чиновники были удовлетворены. Мои манеры убедили их. Я чувствовал себя необыкновенно хорошо. Они сидели, и между тем как я весело отвечал, болтали о том-о-сем. Но прошло немного времени, я почувствовал, что бледнею, и искренно пожелал, чтобы они поскорее ушли. У меня заболела голова, и мне показалось, что в ушах моих раздался звон; но они все еще продолжали сидеть, все продолжали болтать. Звон стал делаться явственнее — он продолжался и делался все более явственным: я начал говорить с усиленной развязностью, чтобы отделаться от этого чувства, но звон продолжался с неуклонным упорством — он возрастал и, наконец, я понял, что шум был не в моих ушах.",
+        "translator": "Константин Бальмонт",
+        "source_url": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "translation_url": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      }
+    ]
+  },
+  "qa6ff60816c": {
+    "relevant": [
+      {
+        "id": "doer-weeping",
+        "author": "Оскар Уайльд",
+        "source": "And He passed out of the city.\n\nAnd when He had passed out of the city He saw seated by the roadside a young man who was weeping.\n\nAnd He went towards him and touched the long locks of his hair and said to him, ‘Why are you weeping?’\n\nAnd the young man looked up and recognised Him and made answer, ‘But I was dead once, and you raised me from the dead. What else should I do but weep?’",
+        "translation": "И Он вышел из города.\n\nИ когда Он был за городом, увидал Он юношу, который сидел у дороги и рыдал.\n\nИ Он подошел к нему и коснулся длинных локонов его волос и сказал ему:\n\n— Отчего ты плачешь?\n\nИ юноша поднял глаза и узнал Его, и ответил:\n— Но я был мертв когда-то, и Ты воскресил меня из мертвых. Что же мне делать, как не плакать?",
+        "translator": "Михаил Фёдорович Ликиардопуло",
+        "source_url": "https://www.gutenberg.org/files/774/774-h/774-h.htm",
+        "translation_url": "https://ru.wikisource.org/wiki/Творитель_добра_(Уайльд)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      },
+      {
+        "id": "poe-extra-14",
+        "author": "Эдгар Аллан По",
+        "source": "I smiled—for what had I to fear? I bade the gentlemen welcome. The shriek, I said, was my own in a dream. The old man, I mentioned, was absent in the country. I took my visitors all over the house. ​ I bade them search—search well . I led them, at length, to his chamber. I showed them his treasures, secure, undisturbed. In the enthusiasm of my confidence, I brought chairs into the room, and desired them here to rest from their fatigues, while I myself, in the wild audacity of my perfect triumph, placed my own seat upon the very spot beneath which reposed the corpse of the victim.",
+        "translation": "Я улыбался — чего мне было бояться? Я попросил джентльменов пожаловать в комнаты. Закричал это я сам, сказал я, закричал во сне. А старика, сообщил я, нет дома, он на время уехал из города. Я провел посетителей по всему дому. Я просил их обыскать все — обыскать хорошенько . Я провел их, наконец, в его комнату. Я показал им все его драгоценности, они были целы, и лежали в своем обычном порядке. Охваченный энтузиазмом своей уверенности, я принес стулья в эту комнату и пожелал, чтобы именно здесь они отдохнули от своих поисков, между тем как я сам, в дикой смелости полного торжества, поставил свой собственный стул как раз на том самом месте, под которым покоилось тело жертвы.",
+        "translator": "Константин Бальмонт",
+        "source_url": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "translation_url": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      }
+    ],
+    "random": [
+      {
+        "id": "poe-nerves",
+        "author": "Эдгар Аллан По",
+        "source": "True ! nervous, very, very dreadfully nervous I had been and am; but why will you say that I am mad? The disease had sharpened my senses, not destroyed, not dulled them. Above all was the sense of hearing acute. I heard all things in the heaven and in the earth. I heard many things in hell. How then am I mad? Hearken! and observe how healthily, how calmly I can tell you the whole story.",
+        "translation": "Да! я очень, очень нервен, страшно нервен; но почему хотите вы утверждать, что я сумасшедший? Болезнь обострила мои чувства, отнюдь не ослабила их, отнюдь не притупила. Прежде всего чувство слуха всегда отличалось у меня особенной остротой. Я слышал все, что делалось на небе и на земле. Я слышал многое из того, что делалось в аду. Какой же я сумасшедший? Слушайте! вы только слушайте и наблюдайте, как трезво и спокойно я могу все рассказать.",
+        "translator": "Константин Бальмонт",
+        "source_url": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "translation_url": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      },
+      {
+        "id": "sysadmin-04",
+        "author": "Кори Доктороу",
+        "source": "The CN Tower, a giant white-elephant needle of a building loomed to the east of them. It was askew, like a branch stuck in wet sand. Was it moving? It was. It was heeling over, slowly, but gaining speed, falling northeast toward the financial district. In a second, it slid over the tipping point and crashed down. They felt the shock, then heard it, the whole building rocking from the impact. A cloud of dust rose from the wreckage, and there was more thunder as the world's tallest freestanding structure crashed through building after building.",
+        "translation": "Башня CN , возвышавшаяся над городом, словно огромная игла из слоновой кости, виднелась вдали к востоку от них. Она накренилась, словно палка, воткнутая в мокрый песок. Двигалась ли она? Двигалась. Сначала медленно, а потом всё быстрее и быстрее, башня падала по направлению к северо-востоку, на деловой квартал. Секунду спустя она надломилась и рухнула вниз. Ударная волна сначала докатилась до их мозгов и только потом до ушей, когда затрясло всё здание. Над местом происшествия поднялось облако пыли, а падающая башня продолжала прошивать одно здание за другим, и грохот не утихал.",
+        "translator": "Михаил Карпов",
+        "source_url": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+        "translation_url": "https://litmir.club/br/?b=89169&p=2",
+        "license": "CC BY-NC-SA 2.5"
+      }
+    ]
+  },
+  "q8221a17b47": {
+    "relevant": [
+      {
+        "id": "poe-extra-01",
+        "author": "Эдгар Аллан По",
+        "source": "It is impossible to say how first the idea entered my brain, but, once conceived, it haunted me day and night. Object there was none. Passion there was none. I loved the old man. He had never wronged me. He had never given me insult. For his gold I had no desire. I think it was his eye! Yes, it was this! One of his eyes resembled that of a vulture—a pale blue eye with a film over it. Whenever it fell upon me my blood ran cold, and so by degrees, very gradually, I made up my mind to take the life of the old man, and thus rid myself of the eye forever.",
+        "translation": "Невозможно определить, каким образом эта мысль первый раз пришла мне в голову; но, раз придя, она преследовала меня и днем и ночью. Цели тут не было никакой. Срасти не было никакой. Я любил старика. Он никогда мне не делал зла. Он никогда меня не оскорблял. Денег его я не хотел. Я думаю, что во всем был виноват его глаз! Да, именно так! Один его глаз был похож на глаз ястреба — бледно-голубого цвета с бельмом. Каждый раз, когда он смотрел на меня этим глазом, кровь во мне холодела, и вот мало-помалу, постепенно, мной овладела мысль убить старика, и этим путем раз навсегда избавиться от его глаза.",
+        "translator": "Константин Бальмонт",
+        "source_url": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "translation_url": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      },
+      {
+        "id": "poe-extra-14",
+        "author": "Эдгар Аллан По",
+        "source": "I smiled—for what had I to fear? I bade the gentlemen welcome. The shriek, I said, was my own in a dream. The old man, I mentioned, was absent in the country. I took my visitors all over the house. ​ I bade them search—search well . I led them, at length, to his chamber. I showed them his treasures, secure, undisturbed. In the enthusiasm of my confidence, I brought chairs into the room, and desired them here to rest from their fatigues, while I myself, in the wild audacity of my perfect triumph, placed my own seat upon the very spot beneath which reposed the corpse of the victim.",
+        "translation": "Я улыбался — чего мне было бояться? Я попросил джентльменов пожаловать в комнаты. Закричал это я сам, сказал я, закричал во сне. А старика, сообщил я, нет дома, он на время уехал из города. Я провел посетителей по всему дому. Я просил их обыскать все — обыскать хорошенько . Я провел их, наконец, в его комнату. Я показал им все его драгоценности, они были целы, и лежали в своем обычном порядке. Охваченный энтузиазмом своей уверенности, я принес стулья в эту комнату и пожелал, чтобы именно здесь они отдохнули от своих поисков, между тем как я сам, в дикой смелости полного торжества, поставил свой собственный стул как раз на том самом месте, под которым покоилось тело жертвы.",
+        "translator": "Константин Бальмонт",
+        "source_url": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "translation_url": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      }
+    ],
+    "random": [
+      {
+        "id": "poe-extra-01",
+        "author": "Эдгар Аллан По",
+        "source": "It is impossible to say how first the idea entered my brain, but, once conceived, it haunted me day and night. Object there was none. Passion there was none. I loved the old man. He had never wronged me. He had never given me insult. For his gold I had no desire. I think it was his eye! Yes, it was this! One of his eyes resembled that of a vulture—a pale blue eye with a film over it. Whenever it fell upon me my blood ran cold, and so by degrees, very gradually, I made up my mind to take the life of the old man, and thus rid myself of the eye forever.",
+        "translation": "Невозможно определить, каким образом эта мысль первый раз пришла мне в голову; но, раз придя, она преследовала меня и днем и ночью. Цели тут не было никакой. Срасти не было никакой. Я любил старика. Он никогда мне не делал зла. Он никогда меня не оскорблял. Денег его я не хотел. Я думаю, что во всем был виноват его глаз! Да, именно так! Один его глаз был похож на глаз ястреба — бледно-голубого цвета с бельмом. Каждый раз, когда он смотрел на меня этим глазом, кровь во мне холодела, и вот мало-помалу, постепенно, мной овладела мысль убить старика, и этим путем раз навсегда избавиться от его глаза.",
+        "translator": "Константин Бальмонт",
+        "source_url": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "translation_url": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      },
+      {
+        "id": "sysadmin-04",
+        "author": "Кори Доктороу",
+        "source": "The CN Tower, a giant white-elephant needle of a building loomed to the east of them. It was askew, like a branch stuck in wet sand. Was it moving? It was. It was heeling over, slowly, but gaining speed, falling northeast toward the financial district. In a second, it slid over the tipping point and crashed down. They felt the shock, then heard it, the whole building rocking from the impact. A cloud of dust rose from the wreckage, and there was more thunder as the world's tallest freestanding structure crashed through building after building.",
+        "translation": "Башня CN , возвышавшаяся над городом, словно огромная игла из слоновой кости, виднелась вдали к востоку от них. Она накренилась, словно палка, воткнутая в мокрый песок. Двигалась ли она? Двигалась. Сначала медленно, а потом всё быстрее и быстрее, башня падала по направлению к северо-востоку, на деловой квартал. Секунду спустя она надломилась и рухнула вниз. Ударная волна сначала докатилась до их мозгов и только потом до ушей, когда затрясло всё здание. Над местом происшествия поднялось облако пыли, а падающая башня продолжала прошивать одно здание за другим, и грохот не утихал.",
+        "translator": "Михаил Карпов",
+        "source_url": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+        "translation_url": "https://litmir.club/br/?b=89169&p=2",
+        "license": "CC BY-NC-SA 2.5"
+      }
+    ]
+  },
+  "qd96c62da74": {
+    "relevant": [
+      {
+        "id": "sysadmin-03",
+        "author": "Кори Доктороу",
+        "source": "\"Massive flashworm attack. Some jackass with a zero-day exploit has got every Windows box on the net running Monte Carlo probes on every IP block, including IPv6. The big Ciscos all run administrative interfaces over v6, and they all fall over if they get more than ten simultaneous probes, which means that just about every interchange has gone down. DNS is screwy, too -- like maybe someone poisoned the zone transfer last night. Oh, and there's an email and IM component that sends pretty lifelike messages to everyone in your address book, barfing up Eliza-dialog that keys off of your logged email and messages to get you to open a Trojan.\"",
+        "translation": "- Массированная атака флэш-червя. Какой-то урод с эксплойтом нулевого дня, похоже, заставил все Windows в сети прощупывать каждый блок IP по методу Монте-Карло. Включая IPv6. Доступ к админскому интерфейсу больших цисок идёт по v6, и если к ним присасывается более десяти зондов, они падают. В итоге почти все пункты межсетевого обмена лежат. С DNS тоже свистопляска - очень может быть, что они ещё с прошлой ночи стали распространять испорченную информацию. Ах да, а ещё есть компонент, который прочёсывает адресную книгу и рассылает по почте и мессенджерам вполне себе убедительные сообщения, заводит разговор с помощью бота вроде Eliza , натасканного на письмах из почтового ящика, и уговаривает открыть трояна.",
+        "translator": "Михаил Карпов",
+        "source_url": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+        "translation_url": "https://litmir.club/br/?b=89169&p=1",
+        "license": "CC BY-NC-SA 2.5"
+      },
+      {
+        "id": "sysadmin-04",
+        "author": "Кори Доктороу",
+        "source": "The CN Tower, a giant white-elephant needle of a building loomed to the east of them. It was askew, like a branch stuck in wet sand. Was it moving? It was. It was heeling over, slowly, but gaining speed, falling northeast toward the financial district. In a second, it slid over the tipping point and crashed down. They felt the shock, then heard it, the whole building rocking from the impact. A cloud of dust rose from the wreckage, and there was more thunder as the world's tallest freestanding structure crashed through building after building.",
+        "translation": "Башня CN , возвышавшаяся над городом, словно огромная игла из слоновой кости, виднелась вдали к востоку от них. Она накренилась, словно палка, воткнутая в мокрый песок. Двигалась ли она? Двигалась. Сначала медленно, а потом всё быстрее и быстрее, башня падала по направлению к северо-востоку, на деловой квартал. Секунду спустя она надломилась и рухнула вниз. Ударная волна сначала докатилась до их мозгов и только потом до ушей, когда затрясло всё здание. Над местом происшествия поднялось облако пыли, а падающая башня продолжала прошивать одно здание за другим, и грохот не утихал.",
+        "translator": "Михаил Карпов",
+        "source_url": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+        "translation_url": "https://litmir.club/br/?b=89169&p=2",
+        "license": "CC BY-NC-SA 2.5"
+      }
+    ],
+    "random": [
+      {
+        "id": "poe-extra-15",
+        "author": "Эдгар Аллан По",
+        "source": "The officers were satisfied. My manner had convinced them. I was singularly at ease. They sat, and while I answered cheerily, they chatted of familiar things. But, ere long, I felt myself getting pale and wished them gone. My head ached, and I fancied a ringing in my ears; but still they sat, and still chatted. The ringing became more distinct;—it continued and became more distinct. I talked more freely to get rid of the feeling, but it continued and gained definitiveness—until, at length, I found that the noise was not within my ears.",
+        "translation": "Полицейские чиновники были удовлетворены. Мои манеры убедили их. Я чувствовал себя необыкновенно хорошо. Они сидели, и между тем как я весело отвечал, болтали о том-о-сем. Но прошло немного времени, я почувствовал, что бледнею, и искренно пожелал, чтобы они поскорее ушли. У меня заболела голова, и мне показалось, что в ушах моих раздался звон; но они все еще продолжали сидеть, все продолжали болтать. Звон стал делаться явственнее — он продолжался и делался все более явственным: я начал говорить с усиленной развязностью, чтобы отделаться от этого чувства, но звон продолжался с неуклонным упорством — он возрастал и, наконец, я понял, что шум был не в моих ушах.",
+        "translator": "Константин Бальмонт",
+        "source_url": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "translation_url": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      },
+      {
+        "id": "sysadmin-03",
+        "author": "Кори Доктороу",
+        "source": "\"Massive flashworm attack. Some jackass with a zero-day exploit has got every Windows box on the net running Monte Carlo probes on every IP block, including IPv6. The big Ciscos all run administrative interfaces over v6, and they all fall over if they get more than ten simultaneous probes, which means that just about every interchange has gone down. DNS is screwy, too -- like maybe someone poisoned the zone transfer last night. Oh, and there's an email and IM component that sends pretty lifelike messages to everyone in your address book, barfing up Eliza-dialog that keys off of your logged email and messages to get you to open a Trojan.\"",
+        "translation": "- Массированная атака флэш-червя. Какой-то урод с эксплойтом нулевого дня, похоже, заставил все Windows в сети прощупывать каждый блок IP по методу Монте-Карло. Включая IPv6. Доступ к админскому интерфейсу больших цисок идёт по v6, и если к ним присасывается более десяти зондов, они падают. В итоге почти все пункты межсетевого обмена лежат. С DNS тоже свистопляска - очень может быть, что они ещё с прошлой ночи стали распространять испорченную информацию. Ах да, а ещё есть компонент, который прочёсывает адресную книгу и рассылает по почте и мессенджерам вполне себе убедительные сообщения, заводит разговор с помощью бота вроде Eliza , натасканного на письмах из почтового ящика, и уговаривает открыть трояна.",
+        "translator": "Михаил Карпов",
+        "source_url": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+        "translation_url": "https://litmir.club/br/?b=89169&p=1",
+        "license": "CC BY-NC-SA 2.5"
+      }
+    ]
+  },
+  "qff3beb7bf1": {
+    "relevant": [
+      {
+        "id": "sysadmin-03",
+        "author": "Кори Доктороу",
+        "source": "\"Massive flashworm attack. Some jackass with a zero-day exploit has got every Windows box on the net running Monte Carlo probes on every IP block, including IPv6. The big Ciscos all run administrative interfaces over v6, and they all fall over if they get more than ten simultaneous probes, which means that just about every interchange has gone down. DNS is screwy, too -- like maybe someone poisoned the zone transfer last night. Oh, and there's an email and IM component that sends pretty lifelike messages to everyone in your address book, barfing up Eliza-dialog that keys off of your logged email and messages to get you to open a Trojan.\"",
+        "translation": "- Массированная атака флэш-червя. Какой-то урод с эксплойтом нулевого дня, похоже, заставил все Windows в сети прощупывать каждый блок IP по методу Монте-Карло. Включая IPv6. Доступ к админскому интерфейсу больших цисок идёт по v6, и если к ним присасывается более десяти зондов, они падают. В итоге почти все пункты межсетевого обмена лежат. С DNS тоже свистопляска - очень может быть, что они ещё с прошлой ночи стали распространять испорченную информацию. Ах да, а ещё есть компонент, который прочёсывает адресную книгу и рассылает по почте и мессенджерам вполне себе убедительные сообщения, заводит разговор с помощью бота вроде Eliza , натасканного на письмах из почтового ящика, и уговаривает открыть трояна.",
+        "translator": "Михаил Карпов",
+        "source_url": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+        "translation_url": "https://litmir.club/br/?b=89169&p=1",
+        "license": "CC BY-NC-SA 2.5"
+      },
+      {
+        "id": "doer-weeping",
+        "author": "Оскар Уайльд",
+        "source": "And He passed out of the city.\n\nAnd when He had passed out of the city He saw seated by the roadside a young man who was weeping.\n\nAnd He went towards him and touched the long locks of his hair and said to him, ‘Why are you weeping?’\n\nAnd the young man looked up and recognised Him and made answer, ‘But I was dead once, and you raised me from the dead. What else should I do but weep?’",
+        "translation": "И Он вышел из города.\n\nИ когда Он был за городом, увидал Он юношу, который сидел у дороги и рыдал.\n\nИ Он подошел к нему и коснулся длинных локонов его волос и сказал ему:\n\n— Отчего ты плачешь?\n\nИ юноша поднял глаза и узнал Его, и ответил:\n— Но я был мертв когда-то, и Ты воскресил меня из мертвых. Что же мне делать, как не плакать?",
+        "translator": "Михаил Фёдорович Ликиардопуло",
+        "source_url": "https://www.gutenberg.org/files/774/774-h/774-h.htm",
+        "translation_url": "https://ru.wikisource.org/wiki/Творитель_добра_(Уайльд)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      }
+    ],
+    "random": [
+      {
+        "id": "doer-city",
+        "author": "Оскар Уайльд",
+        "source": "And when He came near He heard within the city the tread of the feet of joy, and the laughter of the mouth of gladness and the loud noise of many lutes. And He knocked at the gate and certain of the gate-keepers opened to Him.\n\nAnd He beheld a house that was of marble and had fair pillars of marble before it. The pillars were hung with garlands, and within and without there were torches of cedar. And He entered the house.",
+        "translation": "И когда Он подошел ближе, услыхал Он в городе топот радостных ног и смех ликующих уст и громкие звуки многих лютней. И Он постучал в ворота, и некоторые из привратников отворили Ему.\n\nИ Он увидал дом из мрамора и красивые мраморные колонны перед ним. Колонны были обвиты гирляндами, и внутри и снаружи горели факелы из кедра. И Он вошел в дом.",
+        "translator": "Михаил Фёдорович Ликиардопуло",
+        "source_url": "https://www.gutenberg.org/files/774/774-h/774-h.htm",
+        "translation_url": "https://ru.wikisource.org/wiki/Творитель_добра_(Уайльд)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      },
+      {
+        "id": "sysadmin-04",
+        "author": "Кори Доктороу",
+        "source": "The CN Tower, a giant white-elephant needle of a building loomed to the east of them. It was askew, like a branch stuck in wet sand. Was it moving? It was. It was heeling over, slowly, but gaining speed, falling northeast toward the financial district. In a second, it slid over the tipping point and crashed down. They felt the shock, then heard it, the whole building rocking from the impact. A cloud of dust rose from the wreckage, and there was more thunder as the world's tallest freestanding structure crashed through building after building.",
+        "translation": "Башня CN , возвышавшаяся над городом, словно огромная игла из слоновой кости, виднелась вдали к востоку от них. Она накренилась, словно палка, воткнутая в мокрый песок. Двигалась ли она? Двигалась. Сначала медленно, а потом всё быстрее и быстрее, башня падала по направлению к северо-востоку, на деловой квартал. Секунду спустя она надломилась и рухнула вниз. Ударная волна сначала докатилась до их мозгов и только потом до ушей, когда затрясло всё здание. Над местом происшествия поднялось облако пыли, а падающая башня продолжала прошивать одно здание за другим, и грохот не утихал.",
+        "translator": "Михаил Карпов",
+        "source_url": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+        "translation_url": "https://litmir.club/br/?b=89169&p=2",
+        "license": "CC BY-NC-SA 2.5"
+      }
+    ]
+  },
+  "q49808d15b8": {
+    "relevant": [
+      {
+        "id": "sysadmin-03",
+        "author": "Кори Доктороу",
+        "source": "\"Massive flashworm attack. Some jackass with a zero-day exploit has got every Windows box on the net running Monte Carlo probes on every IP block, including IPv6. The big Ciscos all run administrative interfaces over v6, and they all fall over if they get more than ten simultaneous probes, which means that just about every interchange has gone down. DNS is screwy, too -- like maybe someone poisoned the zone transfer last night. Oh, and there's an email and IM component that sends pretty lifelike messages to everyone in your address book, barfing up Eliza-dialog that keys off of your logged email and messages to get you to open a Trojan.\"",
+        "translation": "- Массированная атака флэш-червя. Какой-то урод с эксплойтом нулевого дня, похоже, заставил все Windows в сети прощупывать каждый блок IP по методу Монте-Карло. Включая IPv6. Доступ к админскому интерфейсу больших цисок идёт по v6, и если к ним присасывается более десяти зондов, они падают. В итоге почти все пункты межсетевого обмена лежат. С DNS тоже свистопляска - очень может быть, что они ещё с прошлой ночи стали распространять испорченную информацию. Ах да, а ещё есть компонент, который прочёсывает адресную книгу и рассылает по почте и мессенджерам вполне себе убедительные сообщения, заводит разговор с помощью бота вроде Eliza , натасканного на письмах из почтового ящика, и уговаривает открыть трояна.",
+        "translator": "Михаил Карпов",
+        "source_url": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+        "translation_url": "https://litmir.club/br/?b=89169&p=1",
+        "license": "CC BY-NC-SA 2.5"
+      },
+      {
+        "id": "sysadmin-02",
+        "author": "Кори Доктороу",
+        "source": "\"2.0's awake,\" she said. The baby had been Beta Test when he was in her womb, and when her water broke, he got the call and dashed out of the office, shouting, *The Gold Master just shipped!* They'd started calling him 2.0 before he'd finished his first cry. \"This little bastard was born to suck tit.\"",
+        "translation": "- 2.0 проснулся.\n\nПока малыш был в утробе, его звали Бетой, а когда отошли воды, Феликс выбежал из офиса с воплем: \"Отправлен на золото!\" Они стали называть его 2.0 ещё до того, как затих его первый крик. \"Маленький засранец просто рождён для того, чтобы титьку сосать.\"",
+        "translator": "Михаил Карпов",
+        "source_url": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+        "translation_url": "https://litmir.club/br/?b=89169&p=1",
+        "license": "CC BY-NC-SA 2.5"
+      }
+    ],
+    "random": [
+      {
+        "id": "wilde-extra-03",
+        "author": "Оскар Уайльд",
+        "source": "And when He had passed through the hall of chalcedony and the hall of jasper, and reached the long hall of feasting, He saw lying on a couch of sea-purple one whose hair was crowned with red roses and whose lips were red with wine.",
+        "translation": "И когда Он прошел через зал из халцедона и через зал из яшмы, и пришел в длинный пиршественный зал, Он увидел на пурпурном ложе человека, чьи волосы были увенчаны алыми розами и чьи губы были красны от вина.",
+        "translator": "Михаил Фёдорович Ликиардопуло",
+        "source_url": "https://www.gutenberg.org/files/774/774-h/774-h.htm",
+        "translation_url": "https://ru.wikisource.org/wiki/Творитель_добра_(Уайльд)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      },
+      {
+        "id": "sysadmin-03",
+        "author": "Кори Доктороу",
+        "source": "\"Massive flashworm attack. Some jackass with a zero-day exploit has got every Windows box on the net running Monte Carlo probes on every IP block, including IPv6. The big Ciscos all run administrative interfaces over v6, and they all fall over if they get more than ten simultaneous probes, which means that just about every interchange has gone down. DNS is screwy, too -- like maybe someone poisoned the zone transfer last night. Oh, and there's an email and IM component that sends pretty lifelike messages to everyone in your address book, barfing up Eliza-dialog that keys off of your logged email and messages to get you to open a Trojan.\"",
+        "translation": "- Массированная атака флэш-червя. Какой-то урод с эксплойтом нулевого дня, похоже, заставил все Windows в сети прощупывать каждый блок IP по методу Монте-Карло. Включая IPv6. Доступ к админскому интерфейсу больших цисок идёт по v6, и если к ним присасывается более десяти зондов, они падают. В итоге почти все пункты межсетевого обмена лежат. С DNS тоже свистопляска - очень может быть, что они ещё с прошлой ночи стали распространять испорченную информацию. Ах да, а ещё есть компонент, который прочёсывает адресную книгу и рассылает по почте и мессенджерам вполне себе убедительные сообщения, заводит разговор с помощью бота вроде Eliza , натасканного на письмах из почтового ящика, и уговаривает открыть трояна.",
+        "translator": "Михаил Карпов",
+        "source_url": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+        "translation_url": "https://litmir.club/br/?b=89169&p=1",
+        "license": "CC BY-NC-SA 2.5"
+      }
+    ]
+  },
+  "qcbe946abf7": {
+    "relevant": [
+      {
+        "id": "sysadmin-04",
+        "author": "Кори Доктороу",
+        "source": "The CN Tower, a giant white-elephant needle of a building loomed to the east of them. It was askew, like a branch stuck in wet sand. Was it moving? It was. It was heeling over, slowly, but gaining speed, falling northeast toward the financial district. In a second, it slid over the tipping point and crashed down. They felt the shock, then heard it, the whole building rocking from the impact. A cloud of dust rose from the wreckage, and there was more thunder as the world's tallest freestanding structure crashed through building after building.",
+        "translation": "Башня CN , возвышавшаяся над городом, словно огромная игла из слоновой кости, виднелась вдали к востоку от них. Она накренилась, словно палка, воткнутая в мокрый песок. Двигалась ли она? Двигалась. Сначала медленно, а потом всё быстрее и быстрее, башня падала по направлению к северо-востоку, на деловой квартал. Секунду спустя она надломилась и рухнула вниз. Ударная волна сначала докатилась до их мозгов и только потом до ушей, когда затрясло всё здание. Над местом происшествия поднялось облако пыли, а падающая башня продолжала прошивать одно здание за другим, и грохот не утихал.",
+        "translator": "Михаил Карпов",
+        "source_url": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+        "translation_url": "https://litmir.club/br/?b=89169&p=2",
+        "license": "CC BY-NC-SA 2.5"
+      },
+      {
+        "id": "sysadmin-02",
+        "author": "Кори Доктороу",
+        "source": "\"2.0's awake,\" she said. The baby had been Beta Test when he was in her womb, and when her water broke, he got the call and dashed out of the office, shouting, *The Gold Master just shipped!* They'd started calling him 2.0 before he'd finished his first cry. \"This little bastard was born to suck tit.\"",
+        "translation": "- 2.0 проснулся.\n\nПока малыш был в утробе, его звали Бетой, а когда отошли воды, Феликс выбежал из офиса с воплем: \"Отправлен на золото!\" Они стали называть его 2.0 ещё до того, как затих его первый крик. \"Маленький засранец просто рождён для того, чтобы титьку сосать.\"",
+        "translator": "Михаил Карпов",
+        "source_url": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+        "translation_url": "https://litmir.club/br/?b=89169&p=1",
+        "license": "CC BY-NC-SA 2.5"
+      }
+    ],
+    "random": [
+      {
+        "id": "poe-extra-14",
+        "author": "Эдгар Аллан По",
+        "source": "I smiled—for what had I to fear? I bade the gentlemen welcome. The shriek, I said, was my own in a dream. The old man, I mentioned, was absent in the country. I took my visitors all over the house. ​ I bade them search—search well . I led them, at length, to his chamber. I showed them his treasures, secure, undisturbed. In the enthusiasm of my confidence, I brought chairs into the room, and desired them here to rest from their fatigues, while I myself, in the wild audacity of my perfect triumph, placed my own seat upon the very spot beneath which reposed the corpse of the victim.",
+        "translation": "Я улыбался — чего мне было бояться? Я попросил джентльменов пожаловать в комнаты. Закричал это я сам, сказал я, закричал во сне. А старика, сообщил я, нет дома, он на время уехал из города. Я провел посетителей по всему дому. Я просил их обыскать все — обыскать хорошенько . Я провел их, наконец, в его комнату. Я показал им все его драгоценности, они были целы, и лежали в своем обычном порядке. Охваченный энтузиазмом своей уверенности, я принес стулья в эту комнату и пожелал, чтобы именно здесь они отдохнули от своих поисков, между тем как я сам, в дикой смелости полного торжества, поставил свой собственный стул как раз на том самом месте, под которым покоилось тело жертвы.",
+        "translator": "Константин Бальмонт",
+        "source_url": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "translation_url": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      },
+      {
+        "id": "sysadmin-02",
+        "author": "Кори Доктороу",
+        "source": "\"2.0's awake,\" she said. The baby had been Beta Test when he was in her womb, and when her water broke, he got the call and dashed out of the office, shouting, *The Gold Master just shipped!* They'd started calling him 2.0 before he'd finished his first cry. \"This little bastard was born to suck tit.\"",
+        "translation": "- 2.0 проснулся.\n\nПока малыш был в утробе, его звали Бетой, а когда отошли воды, Феликс выбежал из офиса с воплем: \"Отправлен на золото!\" Они стали называть его 2.0 ещё до того, как затих его первый крик. \"Маленький засранец просто рождён для того, чтобы титьку сосать.\"",
+        "translator": "Михаил Карпов",
+        "source_url": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+        "translation_url": "https://litmir.club/br/?b=89169&p=1",
+        "license": "CC BY-NC-SA 2.5"
+      }
+    ]
+  },
+  "qfea9fde21e": {
+    "relevant": [
+      {
+        "id": "sysadmin-04",
+        "author": "Кори Доктороу",
+        "source": "The CN Tower, a giant white-elephant needle of a building loomed to the east of them. It was askew, like a branch stuck in wet sand. Was it moving? It was. It was heeling over, slowly, but gaining speed, falling northeast toward the financial district. In a second, it slid over the tipping point and crashed down. They felt the shock, then heard it, the whole building rocking from the impact. A cloud of dust rose from the wreckage, and there was more thunder as the world's tallest freestanding structure crashed through building after building.",
+        "translation": "Башня CN , возвышавшаяся над городом, словно огромная игла из слоновой кости, виднелась вдали к востоку от них. Она накренилась, словно палка, воткнутая в мокрый песок. Двигалась ли она? Двигалась. Сначала медленно, а потом всё быстрее и быстрее, башня падала по направлению к северо-востоку, на деловой квартал. Секунду спустя она надломилась и рухнула вниз. Ударная волна сначала докатилась до их мозгов и только потом до ушей, когда затрясло всё здание. Над местом происшествия поднялось облако пыли, а падающая башня продолжала прошивать одно здание за другим, и грохот не утихал.",
+        "translator": "Михаил Карпов",
+        "source_url": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+        "translation_url": "https://litmir.club/br/?b=89169&p=2",
+        "license": "CC BY-NC-SA 2.5"
+      },
+      {
+        "id": "sysadmin-03",
+        "author": "Кори Доктороу",
+        "source": "\"Massive flashworm attack. Some jackass with a zero-day exploit has got every Windows box on the net running Monte Carlo probes on every IP block, including IPv6. The big Ciscos all run administrative interfaces over v6, and they all fall over if they get more than ten simultaneous probes, which means that just about every interchange has gone down. DNS is screwy, too -- like maybe someone poisoned the zone transfer last night. Oh, and there's an email and IM component that sends pretty lifelike messages to everyone in your address book, barfing up Eliza-dialog that keys off of your logged email and messages to get you to open a Trojan.\"",
+        "translation": "- Массированная атака флэш-червя. Какой-то урод с эксплойтом нулевого дня, похоже, заставил все Windows в сети прощупывать каждый блок IP по методу Монте-Карло. Включая IPv6. Доступ к админскому интерфейсу больших цисок идёт по v6, и если к ним присасывается более десяти зондов, они падают. В итоге почти все пункты межсетевого обмена лежат. С DNS тоже свистопляска - очень может быть, что они ещё с прошлой ночи стали распространять испорченную информацию. Ах да, а ещё есть компонент, который прочёсывает адресную книгу и рассылает по почте и мессенджерам вполне себе убедительные сообщения, заводит разговор с помощью бота вроде Eliza , натасканного на письмах из почтового ящика, и уговаривает открыть трояна.",
+        "translator": "Михаил Карпов",
+        "source_url": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+        "translation_url": "https://litmir.club/br/?b=89169&p=1",
+        "license": "CC BY-NC-SA 2.5"
+      }
+    ],
+    "random": [
+      {
+        "id": "poe-extra-13",
+        "author": "Эдгар Аллан По",
+        "source": "When I had made an end of these labors, it was four o'clock—still dark as midnight. As the bell sounded the hour, there came a knocking at the street door. I went down to open it with a light heart—for what had I now to fear? There entered three men, who introduced themselves, with perfect suavity, as officers of the police. A shriek had been heard by a neighbor during the night; suspicion of foul play had been aroused; information had been lodged at the police office, and they (the officers) had been deputed to search the premises.",
+        "translation": "Когда я все кончил, было четыре часа — на дворе было еще темно, как в полночь. В ту самую минуту, когда били часы, с улицы раздался стук в наружную дверь. С легким сердцем я пошел отворить ее, — чего мне было бояться теперь? Вошли три человека и с большой учтивостью представились мне, называя себя полицейскими чиновниками. Один из соседей слышал ночью крик; возникло подозрение, не случилось ли какого злого дела; полиция была об этом извещена, и вот они (полицейские чиновники) были отправлены произвести обыск.",
+        "translator": "Константин Бальмонт",
+        "source_url": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "translation_url": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      },
+      {
+        "id": "poe-extra-14",
+        "author": "Эдгар Аллан По",
+        "source": "I smiled—for what had I to fear? I bade the gentlemen welcome. The shriek, I said, was my own in a dream. The old man, I mentioned, was absent in the country. I took my visitors all over the house. ​ I bade them search—search well . I led them, at length, to his chamber. I showed them his treasures, secure, undisturbed. In the enthusiasm of my confidence, I brought chairs into the room, and desired them here to rest from their fatigues, while I myself, in the wild audacity of my perfect triumph, placed my own seat upon the very spot beneath which reposed the corpse of the victim.",
+        "translation": "Я улыбался — чего мне было бояться? Я попросил джентльменов пожаловать в комнаты. Закричал это я сам, сказал я, закричал во сне. А старика, сообщил я, нет дома, он на время уехал из города. Я провел посетителей по всему дому. Я просил их обыскать все — обыскать хорошенько . Я провел их, наконец, в его комнату. Я показал им все его драгоценности, они были целы, и лежали в своем обычном порядке. Охваченный энтузиазмом своей уверенности, я принес стулья в эту комнату и пожелал, чтобы именно здесь они отдохнули от своих поисков, между тем как я сам, в дикой смелости полного торжества, поставил свой собственный стул как раз на том самом месте, под которым покоилось тело жертвы.",
+        "translator": "Константин Бальмонт",
+        "source_url": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "translation_url": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      }
+    ]
+  },
+  "q52c8bbe1ec": {
+    "relevant": [
+      {
+        "id": "sysadmin-03",
+        "author": "Кори Доктороу",
+        "source": "\"Massive flashworm attack. Some jackass with a zero-day exploit has got every Windows box on the net running Monte Carlo probes on every IP block, including IPv6. The big Ciscos all run administrative interfaces over v6, and they all fall over if they get more than ten simultaneous probes, which means that just about every interchange has gone down. DNS is screwy, too -- like maybe someone poisoned the zone transfer last night. Oh, and there's an email and IM component that sends pretty lifelike messages to everyone in your address book, barfing up Eliza-dialog that keys off of your logged email and messages to get you to open a Trojan.\"",
+        "translation": "- Массированная атака флэш-червя. Какой-то урод с эксплойтом нулевого дня, похоже, заставил все Windows в сети прощупывать каждый блок IP по методу Монте-Карло. Включая IPv6. Доступ к админскому интерфейсу больших цисок идёт по v6, и если к ним присасывается более десяти зондов, они падают. В итоге почти все пункты межсетевого обмена лежат. С DNS тоже свистопляска - очень может быть, что они ещё с прошлой ночи стали распространять испорченную информацию. Ах да, а ещё есть компонент, который прочёсывает адресную книгу и рассылает по почте и мессенджерам вполне себе убедительные сообщения, заводит разговор с помощью бота вроде Eliza , натасканного на письмах из почтового ящика, и уговаривает открыть трояна.",
+        "translator": "Михаил Карпов",
+        "source_url": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+        "translation_url": "https://litmir.club/br/?b=89169&p=1",
+        "license": "CC BY-NC-SA 2.5"
+      },
+      {
+        "id": "poe-extra-01",
+        "author": "Эдгар Аллан По",
+        "source": "It is impossible to say how first the idea entered my brain, but, once conceived, it haunted me day and night. Object there was none. Passion there was none. I loved the old man. He had never wronged me. He had never given me insult. For his gold I had no desire. I think it was his eye! Yes, it was this! One of his eyes resembled that of a vulture—a pale blue eye with a film over it. Whenever it fell upon me my blood ran cold, and so by degrees, very gradually, I made up my mind to take the life of the old man, and thus rid myself of the eye forever.",
+        "translation": "Невозможно определить, каким образом эта мысль первый раз пришла мне в голову; но, раз придя, она преследовала меня и днем и ночью. Цели тут не было никакой. Срасти не было никакой. Я любил старика. Он никогда мне не делал зла. Он никогда меня не оскорблял. Денег его я не хотел. Я думаю, что во всем был виноват его глаз! Да, именно так! Один его глаз был похож на глаз ястреба — бледно-голубого цвета с бельмом. Каждый раз, когда он смотрел на меня этим глазом, кровь во мне холодела, и вот мало-помалу, постепенно, мной овладела мысль убить старика, и этим путем раз навсегда избавиться от его глаза.",
+        "translator": "Константин Бальмонт",
+        "source_url": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "translation_url": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      }
+    ],
+    "random": [
+      {
+        "id": "poe-extra-15",
+        "author": "Эдгар Аллан По",
+        "source": "The officers were satisfied. My manner had convinced them. I was singularly at ease. They sat, and while I answered cheerily, they chatted of familiar things. But, ere long, I felt myself getting pale and wished them gone. My head ached, and I fancied a ringing in my ears; but still they sat, and still chatted. The ringing became more distinct;—it continued and became more distinct. I talked more freely to get rid of the feeling, but it continued and gained definitiveness—until, at length, I found that the noise was not within my ears.",
+        "translation": "Полицейские чиновники были удовлетворены. Мои манеры убедили их. Я чувствовал себя необыкновенно хорошо. Они сидели, и между тем как я весело отвечал, болтали о том-о-сем. Но прошло немного времени, я почувствовал, что бледнею, и искренно пожелал, чтобы они поскорее ушли. У меня заболела голова, и мне показалось, что в ушах моих раздался звон; но они все еще продолжали сидеть, все продолжали болтать. Звон стал делаться явственнее — он продолжался и делался все более явственным: я начал говорить с усиленной развязностью, чтобы отделаться от этого чувства, но звон продолжался с неуклонным упорством — он возрастал и, наконец, я понял, что шум был не в моих ушах.",
+        "translator": "Константин Бальмонт",
+        "source_url": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "translation_url": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      },
+      {
+        "id": "sysadmin-04",
+        "author": "Кори Доктороу",
+        "source": "The CN Tower, a giant white-elephant needle of a building loomed to the east of them. It was askew, like a branch stuck in wet sand. Was it moving? It was. It was heeling over, slowly, but gaining speed, falling northeast toward the financial district. In a second, it slid over the tipping point and crashed down. They felt the shock, then heard it, the whole building rocking from the impact. A cloud of dust rose from the wreckage, and there was more thunder as the world's tallest freestanding structure crashed through building after building.",
+        "translation": "Башня CN , возвышавшаяся над городом, словно огромная игла из слоновой кости, виднелась вдали к востоку от них. Она накренилась, словно палка, воткнутая в мокрый песок. Двигалась ли она? Двигалась. Сначала медленно, а потом всё быстрее и быстрее, башня падала по направлению к северо-востоку, на деловой квартал. Секунду спустя она надломилась и рухнула вниз. Ударная волна сначала докатилась до их мозгов и только потом до ушей, когда затрясло всё здание. Над местом происшествия поднялось облако пыли, а падающая башня продолжала прошивать одно здание за другим, и грохот не утихал.",
+        "translator": "Михаил Карпов",
+        "source_url": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+        "translation_url": "https://litmir.club/br/?b=89169&p=2",
+        "license": "CC BY-NC-SA 2.5"
+      }
+    ]
+  },
+  "q81934bc463": {
+    "relevant": [
+      {
+        "id": "sysadmin-03",
+        "author": "Кори Доктороу",
+        "source": "\"Massive flashworm attack. Some jackass with a zero-day exploit has got every Windows box on the net running Monte Carlo probes on every IP block, including IPv6. The big Ciscos all run administrative interfaces over v6, and they all fall over if they get more than ten simultaneous probes, which means that just about every interchange has gone down. DNS is screwy, too -- like maybe someone poisoned the zone transfer last night. Oh, and there's an email and IM component that sends pretty lifelike messages to everyone in your address book, barfing up Eliza-dialog that keys off of your logged email and messages to get you to open a Trojan.\"",
+        "translation": "- Массированная атака флэш-червя. Какой-то урод с эксплойтом нулевого дня, похоже, заставил все Windows в сети прощупывать каждый блок IP по методу Монте-Карло. Включая IPv6. Доступ к админскому интерфейсу больших цисок идёт по v6, и если к ним присасывается более десяти зондов, они падают. В итоге почти все пункты межсетевого обмена лежат. С DNS тоже свистопляска - очень может быть, что они ещё с прошлой ночи стали распространять испорченную информацию. Ах да, а ещё есть компонент, который прочёсывает адресную книгу и рассылает по почте и мессенджерам вполне себе убедительные сообщения, заводит разговор с помощью бота вроде Eliza , натасканного на письмах из почтового ящика, и уговаривает открыть трояна.",
+        "translator": "Михаил Карпов",
+        "source_url": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+        "translation_url": "https://litmir.club/br/?b=89169&p=1",
+        "license": "CC BY-NC-SA 2.5"
+      },
+      {
+        "id": "poe-extra-08",
+        "author": "Эдгар Аллан По",
+        "source": "It was open, wide, wide open, and I grew furious as I gazed upon it. I saw it with perfect distinctness—all a dull blue with a hideous veil over it that chilled the very marrow in my bones, but I could see nothing else of the old man's face or person, for I had directed the ray as if by instinct precisely upon the damned spot.",
+        "translation": "Он был открыт, широко, широко открыт, и я пришел в ярость, увидев его. Я видел его совершенно явственно — это был тускло-голубой глаз с отвратительным налетом, который заморозил кровь в моих жилах, но я не видал ничего другого, ни черт его лица, ни его тела, потому что как бы по инстинкту я направил луч света как раз на проклятое пятно.",
+        "translator": "Константин Бальмонт",
+        "source_url": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "translation_url": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      }
+    ],
+    "random": [
+      {
+        "id": "cat-10",
+        "author": "Эдгар Аллан По",
+        "source": "It was a black cat—a very large one—fully as large as Pluto, and closely resembling him in every respect but one. Pluto had not a white hair upon any portion of his body; but this cat had a large, although indefinite splotch of white, covering nearly the whole region of the breast.",
+        "translation": "Это был черный кот — очень большой — совершенно таких же размеров, как Плутон, и похожий на него во всех отношениях, кроме одного. У Плутона не было ни одного белого волоска на всем теле; а у этого кота было широкое, хотя и неопределенное, белое пятно, почти во всю грудь.",
+        "translator": "Константин Бальмонт",
+        "source_url": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Black_Cat",
+        "translation_url": "https://ru.wikisource.org/wiki/Чёрный_кот_(По;_Бальмонт)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      },
+      {
+        "id": "sysadmin-03",
+        "author": "Кори Доктороу",
+        "source": "\"Massive flashworm attack. Some jackass with a zero-day exploit has got every Windows box on the net running Monte Carlo probes on every IP block, including IPv6. The big Ciscos all run administrative interfaces over v6, and they all fall over if they get more than ten simultaneous probes, which means that just about every interchange has gone down. DNS is screwy, too -- like maybe someone poisoned the zone transfer last night. Oh, and there's an email and IM component that sends pretty lifelike messages to everyone in your address book, barfing up Eliza-dialog that keys off of your logged email and messages to get you to open a Trojan.\"",
+        "translation": "- Массированная атака флэш-червя. Какой-то урод с эксплойтом нулевого дня, похоже, заставил все Windows в сети прощупывать каждый блок IP по методу Монте-Карло. Включая IPv6. Доступ к админскому интерфейсу больших цисок идёт по v6, и если к ним присасывается более десяти зондов, они падают. В итоге почти все пункты межсетевого обмена лежат. С DNS тоже свистопляска - очень может быть, что они ещё с прошлой ночи стали распространять испорченную информацию. Ах да, а ещё есть компонент, который прочёсывает адресную книгу и рассылает по почте и мессенджерам вполне себе убедительные сообщения, заводит разговор с помощью бота вроде Eliza , натасканного на письмах из почтового ящика, и уговаривает открыть трояна.",
+        "translator": "Михаил Карпов",
+        "source_url": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+        "translation_url": "https://litmir.club/br/?b=89169&p=1",
+        "license": "CC BY-NC-SA 2.5"
+      }
+    ]
+  },
+  "q169b1b9d62": {
+    "relevant": [
+      {
+        "id": "poe-extra-12",
+        "author": "Эдгар Аллан По",
+        "source": "I took up three planks from the flooring of the chamber, and deposited all between the scantlings. I then replaced the boards so cleverly, so cunningly, that no human eye—not even his —could have detected anything wrong. There was nothing to wash out—no stain of any kind—no bloodspot whatever. I had been too wary for that.",
+        "translation": "Я вынул три доски из пола комнаты и положил труп между драницами. Потом я опять укрепил доски так хорошо, так аккуратно, что никакой человеческий глаз — даже и его — не мог бы открыть здесь ничего подозрительного. Ничего не нужно было замывать — ни одного пятна — ни одной капли крови. Я был слишком предусмотрителен для этого.",
+        "translator": "Константин Бальмонт",
+        "source_url": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "translation_url": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      },
+      {
+        "id": "sysadmin-03",
+        "author": "Кори Доктороу",
+        "source": "\"Massive flashworm attack. Some jackass with a zero-day exploit has got every Windows box on the net running Monte Carlo probes on every IP block, including IPv6. The big Ciscos all run administrative interfaces over v6, and they all fall over if they get more than ten simultaneous probes, which means that just about every interchange has gone down. DNS is screwy, too -- like maybe someone poisoned the zone transfer last night. Oh, and there's an email and IM component that sends pretty lifelike messages to everyone in your address book, barfing up Eliza-dialog that keys off of your logged email and messages to get you to open a Trojan.\"",
+        "translation": "- Массированная атака флэш-червя. Какой-то урод с эксплойтом нулевого дня, похоже, заставил все Windows в сети прощупывать каждый блок IP по методу Монте-Карло. Включая IPv6. Доступ к админскому интерфейсу больших цисок идёт по v6, и если к ним присасывается более десяти зондов, они падают. В итоге почти все пункты межсетевого обмена лежат. С DNS тоже свистопляска - очень может быть, что они ещё с прошлой ночи стали распространять испорченную информацию. Ах да, а ещё есть компонент, который прочёсывает адресную книгу и рассылает по почте и мессенджерам вполне себе убедительные сообщения, заводит разговор с помощью бота вроде Eliza , натасканного на письмах из почтового ящика, и уговаривает открыть трояна.",
+        "translator": "Михаил Карпов",
+        "source_url": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+        "translation_url": "https://litmir.club/br/?b=89169&p=1",
+        "license": "CC BY-NC-SA 2.5"
+      }
+    ],
+    "random": [
+      {
+        "id": "doer-weeping",
+        "author": "Оскар Уайльд",
+        "source": "And He passed out of the city.\n\nAnd when He had passed out of the city He saw seated by the roadside a young man who was weeping.\n\nAnd He went towards him and touched the long locks of his hair and said to him, ‘Why are you weeping?’\n\nAnd the young man looked up and recognised Him and made answer, ‘But I was dead once, and you raised me from the dead. What else should I do but weep?’",
+        "translation": "И Он вышел из города.\n\nИ когда Он был за городом, увидал Он юношу, который сидел у дороги и рыдал.\n\nИ Он подошел к нему и коснулся длинных локонов его волос и сказал ему:\n\n— Отчего ты плачешь?\n\nИ юноша поднял глаза и узнал Его, и ответил:\n— Но я был мертв когда-то, и Ты воскресил меня из мертвых. Что же мне делать, как не плакать?",
+        "translator": "Михаил Фёдорович Ликиардопуло",
+        "source_url": "https://www.gutenberg.org/files/774/774-h/774-h.htm",
+        "translation_url": "https://ru.wikisource.org/wiki/Творитель_добра_(Уайльд)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      },
+      {
+        "id": "poe-extra-15",
+        "author": "Эдгар Аллан По",
+        "source": "The officers were satisfied. My manner had convinced them. I was singularly at ease. They sat, and while I answered cheerily, they chatted of familiar things. But, ere long, I felt myself getting pale and wished them gone. My head ached, and I fancied a ringing in my ears; but still they sat, and still chatted. The ringing became more distinct;—it continued and became more distinct. I talked more freely to get rid of the feeling, but it continued and gained definitiveness—until, at length, I found that the noise was not within my ears.",
+        "translation": "Полицейские чиновники были удовлетворены. Мои манеры убедили их. Я чувствовал себя необыкновенно хорошо. Они сидели, и между тем как я весело отвечал, болтали о том-о-сем. Но прошло немного времени, я почувствовал, что бледнею, и искренно пожелал, чтобы они поскорее ушли. У меня заболела голова, и мне показалось, что в ушах моих раздался звон; но они все еще продолжали сидеть, все продолжали болтать. Звон стал делаться явственнее — он продолжался и делался все более явственным: я начал говорить с усиленной развязностью, чтобы отделаться от этого чувства, но звон продолжался с неуклонным упорством — он возрастал и, наконец, я понял, что шум был не в моих ушах.",
+        "translator": "Константин Бальмонт",
+        "source_url": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "translation_url": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      }
+    ]
+  },
+  "qe8c00254a0": {
+    "relevant": [
+      {
+        "id": "sysadmin-03",
+        "author": "Кори Доктороу",
+        "source": "\"Massive flashworm attack. Some jackass with a zero-day exploit has got every Windows box on the net running Monte Carlo probes on every IP block, including IPv6. The big Ciscos all run administrative interfaces over v6, and they all fall over if they get more than ten simultaneous probes, which means that just about every interchange has gone down. DNS is screwy, too -- like maybe someone poisoned the zone transfer last night. Oh, and there's an email and IM component that sends pretty lifelike messages to everyone in your address book, barfing up Eliza-dialog that keys off of your logged email and messages to get you to open a Trojan.\"",
+        "translation": "- Массированная атака флэш-червя. Какой-то урод с эксплойтом нулевого дня, похоже, заставил все Windows в сети прощупывать каждый блок IP по методу Монте-Карло. Включая IPv6. Доступ к админскому интерфейсу больших цисок идёт по v6, и если к ним присасывается более десяти зондов, они падают. В итоге почти все пункты межсетевого обмена лежат. С DNS тоже свистопляска - очень может быть, что они ещё с прошлой ночи стали распространять испорченную информацию. Ах да, а ещё есть компонент, который прочёсывает адресную книгу и рассылает по почте и мессенджерам вполне себе убедительные сообщения, заводит разговор с помощью бота вроде Eliza , натасканного на письмах из почтового ящика, и уговаривает открыть трояна.",
+        "translator": "Михаил Карпов",
+        "source_url": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+        "translation_url": "https://litmir.club/br/?b=89169&p=1",
+        "license": "CC BY-NC-SA 2.5"
+      },
+      {
+        "id": "sysadmin-02",
+        "author": "Кори Доктороу",
+        "source": "\"2.0's awake,\" she said. The baby had been Beta Test when he was in her womb, and when her water broke, he got the call and dashed out of the office, shouting, *The Gold Master just shipped!* They'd started calling him 2.0 before he'd finished his first cry. \"This little bastard was born to suck tit.\"",
+        "translation": "- 2.0 проснулся.\n\nПока малыш был в утробе, его звали Бетой, а когда отошли воды, Феликс выбежал из офиса с воплем: \"Отправлен на золото!\" Они стали называть его 2.0 ещё до того, как затих его первый крик. \"Маленький засранец просто рождён для того, чтобы титьку сосать.\"",
+        "translator": "Михаил Карпов",
+        "source_url": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+        "translation_url": "https://litmir.club/br/?b=89169&p=1",
+        "license": "CC BY-NC-SA 2.5"
+      }
+    ],
+    "random": [
+      {
+        "id": "doer-city",
+        "author": "Оскар Уайльд",
+        "source": "And when He came near He heard within the city the tread of the feet of joy, and the laughter of the mouth of gladness and the loud noise of many lutes. And He knocked at the gate and certain of the gate-keepers opened to Him.\n\nAnd He beheld a house that was of marble and had fair pillars of marble before it. The pillars were hung with garlands, and within and without there were torches of cedar. And He entered the house.",
+        "translation": "И когда Он подошел ближе, услыхал Он в городе топот радостных ног и смех ликующих уст и громкие звуки многих лютней. И Он постучал в ворота, и некоторые из привратников отворили Ему.\n\nИ Он увидал дом из мрамора и красивые мраморные колонны перед ним. Колонны были обвиты гирляндами, и внутри и снаружи горели факелы из кедра. И Он вошел в дом.",
+        "translator": "Михаил Фёдорович Ликиардопуло",
+        "source_url": "https://www.gutenberg.org/files/774/774-h/774-h.htm",
+        "translation_url": "https://ru.wikisource.org/wiki/Творитель_добра_(Уайльд)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      },
+      {
+        "id": "sysadmin-04",
+        "author": "Кори Доктороу",
+        "source": "The CN Tower, a giant white-elephant needle of a building loomed to the east of them. It was askew, like a branch stuck in wet sand. Was it moving? It was. It was heeling over, slowly, but gaining speed, falling northeast toward the financial district. In a second, it slid over the tipping point and crashed down. They felt the shock, then heard it, the whole building rocking from the impact. A cloud of dust rose from the wreckage, and there was more thunder as the world's tallest freestanding structure crashed through building after building.",
+        "translation": "Башня CN , возвышавшаяся над городом, словно огромная игла из слоновой кости, виднелась вдали к востоку от них. Она накренилась, словно палка, воткнутая в мокрый песок. Двигалась ли она? Двигалась. Сначала медленно, а потом всё быстрее и быстрее, башня падала по направлению к северо-востоку, на деловой квартал. Секунду спустя она надломилась и рухнула вниз. Ударная волна сначала докатилась до их мозгов и только потом до ушей, когда затрясло всё здание. Над местом происшествия поднялось облако пыли, а падающая башня продолжала прошивать одно здание за другим, и грохот не утихал.",
+        "translator": "Михаил Карпов",
+        "source_url": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+        "translation_url": "https://litmir.club/br/?b=89169&p=2",
+        "license": "CC BY-NC-SA 2.5"
+      }
+    ]
+  },
+  "qa8a286da66": {
+    "relevant": [
+      {
+        "id": "poe-extra-13",
+        "author": "Эдгар Аллан По",
+        "source": "When I had made an end of these labors, it was four o'clock—still dark as midnight. As the bell sounded the hour, there came a knocking at the street door. I went down to open it with a light heart—for what had I now to fear? There entered three men, who introduced themselves, with perfect suavity, as officers of the police. A shriek had been heard by a neighbor during the night; suspicion of foul play had been aroused; information had been lodged at the police office, and they (the officers) had been deputed to search the premises.",
+        "translation": "Когда я все кончил, было четыре часа — на дворе было еще темно, как в полночь. В ту самую минуту, когда били часы, с улицы раздался стук в наружную дверь. С легким сердцем я пошел отворить ее, — чего мне было бояться теперь? Вошли три человека и с большой учтивостью представились мне, называя себя полицейскими чиновниками. Один из соседей слышал ночью крик; возникло подозрение, не случилось ли какого злого дела; полиция была об этом извещена, и вот они (полицейские чиновники) были отправлены произвести обыск.",
+        "translator": "Константин Бальмонт",
+        "source_url": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "translation_url": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      },
+      {
+        "id": "wilde-extra-07",
+        "author": "Оскар Уайльд",
+        "source": "And after a little while He saw one whose face and raiment were painted and whose feet were shod with pearls. And behind her came, slowly as a hunter, a young man who wore a cloak of two colours. Now the face of the woman was as the fair face of an idol, and the eyes of the young man were bright with lust.",
+        "translation": "И вскоре Он увидал женщину, чье лицо и одежда были разрисованы, и ноги которой были обуты в жемчуг. И за нею медленно крался, словно охотник, юноша в двухцветном плаще.\n\nЛицо женщины было подобно прекрасному лику идола, а глаза юноши горели сладострастием.",
+        "translator": "Михаил Фёдорович Ликиардопуло",
+        "source_url": "https://www.gutenberg.org/files/774/774-h/774-h.htm",
+        "translation_url": "https://ru.wikisource.org/wiki/Творитель_добра_(Уайльд)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      }
+    ],
+    "random": [
+      {
+        "id": "poe-nerves",
+        "author": "Эдгар Аллан По",
+        "source": "True ! nervous, very, very dreadfully nervous I had been and am; but why will you say that I am mad? The disease had sharpened my senses, not destroyed, not dulled them. Above all was the sense of hearing acute. I heard all things in the heaven and in the earth. I heard many things in hell. How then am I mad? Hearken! and observe how healthily, how calmly I can tell you the whole story.",
+        "translation": "Да! я очень, очень нервен, страшно нервен; но почему хотите вы утверждать, что я сумасшедший? Болезнь обострила мои чувства, отнюдь не ослабила их, отнюдь не притупила. Прежде всего чувство слуха всегда отличалось у меня особенной остротой. Я слышал все, что делалось на небе и на земле. Я слышал многое из того, что делалось в аду. Какой же я сумасшедший? Слушайте! вы только слушайте и наблюдайте, как трезво и спокойно я могу все рассказать.",
+        "translator": "Константин Бальмонт",
+        "source_url": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "translation_url": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      },
+      {
+        "id": "sysadmin-05",
+        "author": "Кори Доктороу",
+        "source": "The Flickr photostreams were horrific. Felix had to unsubscribe from them after he caught a photo of a woman and a baby, dead in a kitchen, twisted into an agonized heiroglyph by the bioagent. They didn't look like Kelly and 2.0, but they didn't have to. He started shaking and couldn't stop.",
+        "translation": "Потоки фоток во Flickr-е ужасали. Феликс отписался от них, когда наткнулся на снимок женщины с ребёнком, умерших на собственной кухне. Под действием биоагента их тела свернулись в ужасный иероглиф. Они не были похожи на Келли и 2.0, но дело было не в этом. Его трясло, и он не мог остановиться.",
+        "translator": "Михаил Карпов",
+        "source_url": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+        "translation_url": "https://litmir.club/br/?b=89169&p=5",
+        "license": "CC BY-NC-SA 2.5"
+      }
+    ]
+  },
+  "qd34f35c181": {
+    "relevant": [
+      {
+        "id": "sysadmin-03",
+        "author": "Кори Доктороу",
+        "source": "\"Massive flashworm attack. Some jackass with a zero-day exploit has got every Windows box on the net running Monte Carlo probes on every IP block, including IPv6. The big Ciscos all run administrative interfaces over v6, and they all fall over if they get more than ten simultaneous probes, which means that just about every interchange has gone down. DNS is screwy, too -- like maybe someone poisoned the zone transfer last night. Oh, and there's an email and IM component that sends pretty lifelike messages to everyone in your address book, barfing up Eliza-dialog that keys off of your logged email and messages to get you to open a Trojan.\"",
+        "translation": "- Массированная атака флэш-червя. Какой-то урод с эксплойтом нулевого дня, похоже, заставил все Windows в сети прощупывать каждый блок IP по методу Монте-Карло. Включая IPv6. Доступ к админскому интерфейсу больших цисок идёт по v6, и если к ним присасывается более десяти зондов, они падают. В итоге почти все пункты межсетевого обмена лежат. С DNS тоже свистопляска - очень может быть, что они ещё с прошлой ночи стали распространять испорченную информацию. Ах да, а ещё есть компонент, который прочёсывает адресную книгу и рассылает по почте и мессенджерам вполне себе убедительные сообщения, заводит разговор с помощью бота вроде Eliza , натасканного на письмах из почтового ящика, и уговаривает открыть трояна.",
+        "translator": "Михаил Карпов",
+        "source_url": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+        "translation_url": "https://litmir.club/br/?b=89169&p=1",
+        "license": "CC BY-NC-SA 2.5"
+      },
+      {
+        "id": "doer-weeping",
+        "author": "Оскар Уайльд",
+        "source": "And He passed out of the city.\n\nAnd when He had passed out of the city He saw seated by the roadside a young man who was weeping.\n\nAnd He went towards him and touched the long locks of his hair and said to him, ‘Why are you weeping?’\n\nAnd the young man looked up and recognised Him and made answer, ‘But I was dead once, and you raised me from the dead. What else should I do but weep?’",
+        "translation": "И Он вышел из города.\n\nИ когда Он был за городом, увидал Он юношу, который сидел у дороги и рыдал.\n\nИ Он подошел к нему и коснулся длинных локонов его волос и сказал ему:\n\n— Отчего ты плачешь?\n\nИ юноша поднял глаза и узнал Его, и ответил:\n— Но я был мертв когда-то, и Ты воскресил меня из мертвых. Что же мне делать, как не плакать?",
+        "translator": "Михаил Фёдорович Ликиардопуло",
+        "source_url": "https://www.gutenberg.org/files/774/774-h/774-h.htm",
+        "translation_url": "https://ru.wikisource.org/wiki/Творитель_добра_(Уайльд)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      }
+    ],
+    "random": [
+      {
+        "id": "poe-heart",
+        "author": "Эдгар Аллан По",
+        "source": "And now have I not told you that what you mistake for madness is but over-acuteness of the senses? now, I say, there came to my ears a low, dull, quick sound, such as a watch makes when enveloped in cotton. I knew that sound well, too. It was the beating of the old man's heart. It increased my fury, as the beating of a drum stimulates the soldier into courage.",
+        "translation": "Ну, и что же, разве я вам не говорил, что то, что вы считаете сумасшествием, есть лишь утонченность моих чувств? Я услышал тихий, глухой, быстрый звук, подобный тиканью карманных часов, завернутых в вату. Этот звук я знал, отлично знал и его. Это билось сердце старика. Быстрый звук усилил мое бешенство, как звук барабанного боя усиливает мужество солдата.",
+        "translator": "Константин Бальмонт",
+        "source_url": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "translation_url": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)",
+        "license": "CC BY-SA 4.0 digital transcription; underlying work public domain in stated jurisdictions"
+      },
+      {
+        "id": "sysadmin-03",
+        "author": "Кори Доктороу",
+        "source": "\"Massive flashworm attack. Some jackass with a zero-day exploit has got every Windows box on the net running Monte Carlo probes on every IP block, including IPv6. The big Ciscos all run administrative interfaces over v6, and they all fall over if they get more than ten simultaneous probes, which means that just about every interchange has gone down. DNS is screwy, too -- like maybe someone poisoned the zone transfer last night. Oh, and there's an email and IM component that sends pretty lifelike messages to everyone in your address book, barfing up Eliza-dialog that keys off of your logged email and messages to get you to open a Trojan.\"",
+        "translation": "- Массированная атака флэш-червя. Какой-то урод с эксплойтом нулевого дня, похоже, заставил все Windows в сети прощупывать каждый блок IP по методу Монте-Карло. Включая IPv6. Доступ к админскому интерфейсу больших цисок идёт по v6, и если к ним присасывается более десяти зондов, они падают. В итоге почти все пункты межсетевого обмена лежат. С DNS тоже свистопляска - очень может быть, что они ещё с прошлой ночи стали распространять испорченную информацию. Ах да, а ещё есть компонент, который прочёсывает адресную книгу и рассылает по почте и мессенджерам вполне себе убедительные сообщения, заводит разговор с помощью бота вроде Eliza , натасканного на письмах из почтового ящика, и уговаривает открыть трояна.",
+        "translator": "Михаил Карпов",
+        "source_url": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+        "translation_url": "https://litmir.club/br/?b=89169&p=1",
+        "license": "CC BY-NC-SA 2.5"
+      }
+    ]
+  }
+}

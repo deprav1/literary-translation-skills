@@ -1,0 +1,242 @@
+[
+  {
+    "id": "qe8c00254a0",
+    "work_id": "rowboat",
+    "paragraph": 2,
+    "stratum": "challenge",
+    "reason": "nautical action, embodiment and sentience",
+    "source_sha256": "1d2216caac5feebd1ea36d358d92194a7dc72944905619220303b699c8b8ea9c"
+  },
+  {
+    "id": "qa6ff60816c",
+    "work_id": "rowboat",
+    "paragraph": 16,
+    "stratum": "random",
+    "reason": "seeded random eligible paragraph",
+    "source_sha256": "1b743a9da8d70ce9f36cb16b1039c04f89bb4c06e708a5084c720b9714d635f9"
+  },
+  {
+    "id": "qa8a286da66",
+    "work_id": "rowboat",
+    "paragraph": 18,
+    "stratum": "challenge",
+    "reason": "human-shell versus human, urgency and agency",
+    "source_sha256": "8fec2fa6424395a6a5fd39576ae4395bc355f8b2aa13cf93c8033f0a7ec70477"
+  },
+  {
+    "id": "q4d3dc54baa",
+    "work_id": "rowboat",
+    "paragraph": 50,
+    "stratum": "challenge",
+    "reason": "estate, copyright and religious irony",
+    "source_sha256": "6d40425e58b3d0425ad351cd8b14348d0712e1cbdbddf5969d663a4135e68df5"
+  },
+  {
+    "id": "q81934bc463",
+    "work_id": "rowboat",
+    "paragraph": 114,
+    "stratum": "challenge",
+    "reason": "cultural/technical history in speech",
+    "source_sha256": "6ca4e19eab6a4a16594be3a93579d13a31c98659a1d3783ec3a08bf8f61df680"
+  },
+  {
+    "id": "qd34f35c181",
+    "work_id": "rowboat",
+    "paragraph": 158,
+    "stratum": "random",
+    "reason": "seeded random eligible paragraph",
+    "source_sha256": "f002b5ca6f3c032ab21659f0801770abff6abb85c6ec08aaba0f99fd1eaefd5c"
+  },
+  {
+    "id": "qf75369d6ce",
+    "work_id": "rowboat",
+    "paragraph": 279,
+    "stratum": "random",
+    "reason": "seeded random eligible paragraph",
+    "source_sha256": "51457e71d12fc181887837b3b75c78fbbee965495cb9f84da53d3a4e215f58b7"
+  },
+  {
+    "id": "qdeb6786d21",
+    "work_id": "rowboat",
+    "paragraph": 316,
+    "stratum": "challenge",
+    "reason": "negation, consciousness and ethical reasoning",
+    "source_sha256": "5e9d473b485a7460f77b884bdd18c0f8d663fca1090020079f2babc9a2b78adb"
+  },
+  {
+    "id": "q0ee1c0cd42",
+    "work_id": "rowboat",
+    "paragraph": 352,
+    "stratum": "random",
+    "reason": "seeded random eligible paragraph",
+    "source_sha256": "835123734320eb69deef0c9ed314851dbbeb67194f9b2626d3bc500b457ff12a"
+  },
+  {
+    "id": "q169b1b9d62",
+    "work_id": "rowboat",
+    "paragraph": 396,
+    "stratum": "random",
+    "reason": "seeded random eligible paragraph",
+    "source_sha256": "652863f9bdf751b161fc622922a1ce91197bc24bdbf1b11c4990338a68aa651c"
+  },
+  {
+    "id": "qd96c62da74",
+    "work_id": "robot",
+    "paragraph": 0,
+    "stratum": "challenge",
+    "reason": "bureaucratic ranks versus character voice",
+    "source_sha256": "46817ef0ad2521bb689fe6ffa6afe27c33cbb6b47c341de9962a28f21528f465"
+  },
+  {
+    "id": "qfea9fde21e",
+    "work_id": "robot",
+    "paragraph": 56,
+    "stratum": "random",
+    "reason": "seeded random eligible paragraph",
+    "source_sha256": "bfb625eaf5015120a06765a70cb8d14fb9e916816da98f906933c3aefc63ba6e"
+  },
+  {
+    "id": "q28167c0ed9",
+    "work_id": "robot",
+    "paragraph": 128,
+    "stratum": "challenge",
+    "reason": "willies and non-three-laws technical register",
+    "source_sha256": "17acae7b8b20c3cb85cfa2943e358a8bf11f0a05d152e3308487cbb0a9c9dff6"
+  },
+  {
+    "id": "qff3beb7bf1",
+    "work_id": "robot",
+    "paragraph": 139,
+    "stratum": "random",
+    "reason": "seeded random eligible paragraph",
+    "source_sha256": "bd5170a93c5f87462f37384b6b9a3768e4ba963f75d8196933ea215ef2768116"
+  },
+  {
+    "id": "qcbe946abf7",
+    "work_id": "robot",
+    "paragraph": 147,
+    "stratum": "random",
+    "reason": "seeded random eligible paragraph",
+    "source_sha256": "734291621bfb199d0db6e6e188380a67680f3ccb6b3abcd4cbaa999b9d4724c4"
+  },
+  {
+    "id": "qe1201d759d",
+    "work_id": "robot",
+    "paragraph": 188,
+    "stratum": "random",
+    "reason": "seeded random eligible paragraph",
+    "source_sha256": "4c6327d5c81bf9a350fcfbdb7e104f5fe025d62676e6590c9c687a2bae9dc890"
+  },
+  {
+    "id": "qdbaaab067c",
+    "work_id": "robot",
+    "paragraph": 198,
+    "stratum": "challenge",
+    "reason": "deliberately unknown agent he/she/they",
+    "source_sha256": "ebc6ec50eaa2a895564472d9d74bd3d360c372df68bc3764c01bf3d9ccdf6600"
+  },
+  {
+    "id": "q49808d15b8",
+    "work_id": "robot",
+    "paragraph": 287,
+    "stratum": "challenge",
+    "reason": "causal/conditional account of departure",
+    "source_sha256": "f3da238cb3bfd74a2abb6b60441f504418c2014256711a6da3a73c2bf90d28ca"
+  },
+  {
+    "id": "qfa3f76ea9a",
+    "work_id": "robot",
+    "paragraph": 391,
+    "stratum": "random",
+    "reason": "seeded random eligible paragraph",
+    "source_sha256": "2b90606d190a60b209cab19b8c249689f34109d04c38c02fc93c617c7aa252af"
+  },
+  {
+    "id": "qed34513c3c",
+    "work_id": "robot",
+    "paragraph": 403,
+    "stratum": "challenge",
+    "reason": "copies of a person and interrupted emotional speech",
+    "source_sha256": "73966234a4d739823caf5888a71a8ea46b598fd059c938885e6e16ee710e9cbe"
+  },
+  {
+    "id": "qcf950c4864",
+    "work_id": "blindsight",
+    "paragraph": 2,
+    "stratum": "challenge",
+    "reason": "genetic circumstances and contrast between two children",
+    "source_sha256": "393e8c7ae46a0236c8a0da9799cf7f4833a44560c7bfd7cb87e84d79a745b0ee"
+  },
+  {
+    "id": "q52c8bbe1ec",
+    "work_id": "blindsight",
+    "paragraph": 5,
+    "stratum": "random",
+    "reason": "seeded random eligible paragraph",
+    "source_sha256": "a91358f527b4f0c91a26c95da40c0e611910e3136176a856da2339fabdd85c5a"
+  },
+  {
+    "id": "q269307d5a9",
+    "work_id": "blindsight",
+    "paragraph": 7,
+    "stratum": "random",
+    "reason": "seeded random eligible paragraph",
+    "source_sha256": "c9666b2484d19ce24d40694cb898f964ea7cb8e118c1c401e2e958fcf3e6e7e8"
+  },
+  {
+    "id": "qeb5bfb523b",
+    "work_id": "blindsight",
+    "paragraph": 9,
+    "stratum": "challenge",
+    "reason": "metaphorical wiring and missing empathy",
+    "source_sha256": "93e6cc42c386c8741fe12db35db57524bdeb55cbf5283050c227bf691fea4872"
+  },
+  {
+    "id": "q3cb5976585",
+    "work_id": "blindsight",
+    "paragraph": 12,
+    "stratum": "random",
+    "reason": "seeded random eligible paragraph",
+    "source_sha256": "0a470a7b4dcd1825a8fbaabcda1748c5a322cbceb50ffedcb680e7ce60db6ac2"
+  },
+  {
+    "id": "qb6f48742c7",
+    "work_id": "blindsight",
+    "paragraph": 15,
+    "stratum": "challenge",
+    "reason": "physical sequence and a newly identified actor",
+    "source_sha256": "cdefc9db64677d3eea7cb1ee06a54ba21698b29ec48373d44e43bd96b2d99f19"
+  },
+  {
+    "id": "qdf715a19a6",
+    "work_id": "blindsight",
+    "paragraph": 35,
+    "stratum": "random",
+    "reason": "seeded random eligible paragraph",
+    "source_sha256": "8ffae49ca13703d1557fb4bdc59b813d353e5e855f2f6c798c83c3d4681d2fb9"
+  },
+  {
+    "id": "q7c3d95f57d",
+    "work_id": "blindsight",
+    "paragraph": 37,
+    "stratum": "random",
+    "reason": "seeded random eligible paragraph",
+    "source_sha256": "a44c2b90db24112c260cbf6eca4edc94b90b20a5dec31bab3dbea8fdb4f30f2f"
+  },
+  {
+    "id": "q8221a17b47",
+    "work_id": "blindsight",
+    "paragraph": 39,
+    "stratum": "challenge",
+    "reason": "remembered speech, distance and identity",
+    "source_sha256": "82561277da05c6b23b16ce1ad601097f5ff0978072cdfce64d887fd4d1c2d421"
+  },
+  {
+    "id": "q1a124e210a",
+    "work_id": "blindsight",
+    "paragraph": 42,
+    "stratum": "challenge",
+    "reason": "objective/distant viewpoint and alien metaphor",
+    "source_sha256": "340d0d1c20298d1bc89779189fe90a07d54ad1f8846f2838d68b5b5b3cf5322a"
+  }
+]

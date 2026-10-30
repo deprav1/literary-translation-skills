@@ -1,0 +1,190 @@
+{
+  "resource_type": "English lexical notes; no Russian replacement for a confirmation item",
+  "retrieval_date": "2026-10-30",
+  "source": "Princeton WordNet 3.0, NLTK redistribution",
+  "source_url": "https://github.com/nltk/nltk_data/blob/gh-pages/packages/corpora/wordnet.zip",
+  "limits": "Definitions are English lexical senses, not literary instructions or evidence that an entire phrase is idiomatic. Select by scene; no nautical ship-oars definition was verified. Do not force a listed sense. Public dictionary sites attempted first were inaccessible and were not used as evidence.",
+  "notes": [
+    {
+      "lemmas": [
+        "genotype",
+        "genetic_constitution"
+      ],
+      "synset": "04934043-n",
+      "gloss": "the particular alleles at specified loci present in an organism"
+    },
+    {
+      "lemmas": [
+        "marrow",
+        "bone_marrow"
+      ],
+      "synset": "05285623-n",
+      "gloss": "the fatty network of connective tissue that fills the cavities of bones"
+    },
+    {
+      "lemmas": [
+        "kernel",
+        "substance",
+        "core",
+        "center",
+        "centre",
+        "essence",
+        "gist",
+        "heart",
+        "heart_and_soul",
+        "inwardness",
+        "marrow",
+        "meat",
+        "nub",
+        "pith",
+        "sum",
+        "nitty-gritty"
+      ],
+      "synset": "05921123-n",
+      "gloss": "the choicest or most essential or most vital part of some idea or experience; \"the gist of the prosecutor's argument\"; \"the heart and soul of the Republican Party\"; \"the nub of the story\""
+    },
+    {
+      "lemmas": [
+        "willies"
+      ],
+      "synset": "07525259-n",
+      "gloss": "feelings of uneasiness; \"that guy gave me the willies\""
+    },
+    {
+      "lemmas": [
+        "marrow",
+        "vegetable_marrow"
+      ],
+      "synset": "07716504-n",
+      "gloss": "large elongated squash with creamy to deep green skins"
+    },
+    {
+      "lemmas": [
+        "marrow",
+        "bone_marrow"
+      ],
+      "synset": "07873057-n",
+      "gloss": "very tender and very nutritious tissue from marrowbones"
+    },
+    {
+      "lemmas": [
+        "genotype"
+      ],
+      "synset": "07941405-n",
+      "gloss": "a group of organisms sharing a specific genetic constitution"
+    },
+    {
+      "lemmas": [
+        "estate_of_the_realm",
+        "estate",
+        "the_three_estates"
+      ],
+      "synset": "08167365-n",
+      "gloss": "a major social class or order of persons regarded collectively as part of the body politic of the country (especially in the United Kingdom) and formerly possessing distinct political rights"
+    },
+    {
+      "lemmas": [
+        "marrow",
+        "marrow_squash",
+        "vegetable_marrow"
+      ],
+      "synset": "12159555-n",
+      "gloss": "any of various squash plants grown for their elongated fruit with smooth dark green skin and whitish flesh"
+    },
+    {
+      "lemmas": [
+        "estate",
+        "land",
+        "landed_estate",
+        "acres",
+        "demesne"
+      ],
+      "synset": "13246662-n",
+      "gloss": "extensive landed property (especially in the country) retained by the owner for his own use; \"the family owned a large estate on Long Island\""
+    },
+    {
+      "lemmas": [
+        "estate"
+      ],
+      "synset": "13250930-n",
+      "gloss": "everything you own; all of your assets (whether real property or personal property) and liabilities"
+    },
+    {
+      "lemmas": [
+        "objective"
+      ],
+      "synset": "00013442-s",
+      "gloss": "belonging to immediate experience of actual things or events; \"objective benefits\"; \"an objective example\"; \"there is no objective evidence of anything of the kind\""
+    },
+    {
+      "lemmas": [
+        "objective",
+        "nonsubjective"
+      ],
+      "synset": "01615180-a",
+      "gloss": "undistorted by emotion or personal bias; based on observable phenomena; \"an objective appraisal\"; \"objective evidence\""
+    },
+    {
+      "lemmas": [
+        "objective",
+        "documentary"
+      ],
+      "synset": "01934026-s",
+      "gloss": "emphasizing or expressing things as perceived without distortion of personal feelings, insertion of fictional matter, or interpretation; \"objective art\""
+    },
+    {
+      "lemmas": [
+        "objective",
+        "accusative"
+      ],
+      "synset": "02861997-a",
+      "gloss": "serving as or indicating the object of a verb or of certain prepositions and used for certain other purposes; \"objective case\"; \"accusative endings\""
+    },
+    {
+      "lemmas": [
+        "unplug",
+        "disconnect"
+      ],
+      "synset": "01421417-v",
+      "gloss": "pull the plug of (electrical appliances) and render inoperable; \"unplug the hair dryer after using it\""
+    },
+    {
+      "lemmas": [
+        "ship"
+      ],
+      "synset": "01496978-v",
+      "gloss": "place on board a ship; \"ship the cargo in the hold of the vessel\""
+    },
+    {
+      "lemmas": [
+        "ship"
+      ],
+      "synset": "01847582-v",
+      "gloss": "travel by ship"
+    },
+    {
+      "lemmas": [
+        "transport",
+        "send",
+        "ship"
+      ],
+      "synset": "01950798-v",
+      "gloss": "transport commercially"
+    },
+    {
+      "lemmas": [
+        "embark",
+        "ship"
+      ],
+      "synset": "01979462-v",
+      "gloss": "go on board"
+    },
+    {
+      "lemmas": [
+        "ship"
+      ],
+      "synset": "02409838-v",
+      "gloss": "hire for work on a ship"
+    }
+  ]
+}
