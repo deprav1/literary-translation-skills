@@ -52,6 +52,7 @@ def literal_instruction(function):
     tree = ast.parse((ROOT/'scripts/run_targeted_trial.py').read_text(encoding='utf8'))
     func = next(n for n in tree.body if isinstance(n, ast.FunctionDef) and n.name == function)
     assignment = next(n for n in ast.walk(func) if isinstance(n, ast.Assign)
+                      and isinstance(n.value, ast.Constant) and isinstance(n.value.value, str)
                       and any(isinstance(t, ast.Name) and t.id == 'instruction' for t in n.targets))
     return ast.literal_eval(assignment.value)
 
@@ -151,6 +152,8 @@ def validate_manifests(workspace):
     sources = read(TRIAL/'natural-source.json')
     drafts = {r['id']: r['text'] for r in read(workspace/'draft/output.json')['items']}
     assert read(workspace/'draft/input.json') == sources
+    assert (workspace/'draft/instruction.txt').read_text(encoding='utf8')[:-1] == SHARED+literal_instruction('generate')
+    assert (workspace/'synthetic_check/instruction.txt').read_text(encoding='utf8')[:-1] == SHARED+literal_instruction('synthetic_judge')
     for name in ['idiom', 'fidelity', 'memory']:
         phase = 'synthetic_'+name
         expected_input = read(TRIAL/'synthetic-inputs.json')[name]
