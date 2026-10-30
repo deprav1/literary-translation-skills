@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.0 — 2026-10-30
+
+- Added traceable execution stages, source/translation boundary checks, and conflict resolution for literary editing.
+- Added standalone comparison-design guidance on isolated generation, reference exposure, skipped votes and versioned results.
+- Improved the reading interface with passage navigation, skipping without a vote, reading controls, and results grouped by generation conditions.
+
 ## 0.2.0 — 2026-10-29
 
 - Added `literary-translation-evaluation`: a standalone, context-first evaluation skill with hard gates, blind pairwise review, compact dimensions, and explicit limits.

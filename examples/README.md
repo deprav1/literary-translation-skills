@@ -84,3 +84,24 @@ translation blocks. Preserve links, notes, images, and intended emphasis.
 Report the exact file hash, structural checks, and visual checks separately.
 TTS in a named reader has not yet been tested.
 ```
+
+### Coordinate a long translation
+
+```text
+Use $literary-translation-craft for the supplied work. Prepare an evidence-linked
+brief and glossary, then calibrate on contrasting scenes before scaling.
+Record the actual model, context, input versions and outputs at each stage.
+Assign simpler passages to a cheaper model only if it is available, authorized
+and performs adequately on the pilot. Keep source review and target editing
+separate and recheck substantive edits. Report stages that were not run.
+```
+
+### Compare workflows without contaminating the baseline
+
+```text
+Use $literary-translation-evaluation to design this comparison before generation.
+Keep identical source excerpts and isolated candidate contexts. Record whether
+published translations were visible, preserve all first complete outputs and
+their revisions, and keep exposed items in a separately reported group.
+Collect preference and source-based error judgments as different outcomes.
+```

@@ -42,4 +42,6 @@ For Russian-target editing, consult [conditional checks](references/russian-edit
 
 For an excerpt, return the translation or assessment with its actual limits. For a book, record unresolved decisions and the scope really reviewed. A checklist, complete ID set, or valid JSON does not prove literary quality.
 
+For a comparison experiment, keep published translations and competing candidates out of the generator's context. If they were seen, record the exposure; another prompt in the same conversation cannot restore a blind condition. Distinguish actually reading a skill from carrying out its planning, context and revision stages.
+
 Independent review and electronic-book production can be separate stages. Use other installed skills if available; this skill does not require them. See [principles and source limits](references/principles.md).

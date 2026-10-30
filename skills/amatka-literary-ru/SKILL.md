@@ -14,7 +14,7 @@ Keep character voices distinct: Vanja's initial formality and hesitation, Nina's
 
 Names and object labels can be actions. Check written labels, spoken naming, songs, repetitions, and later changes against one another. Do not replace plot-bearing object words with elegant synonyms or silently correct an intentionally wrong name.
 
-Before translating, make a project glossary. Possible working Russian choices include `Аматка`, `Ванья`, `Нина`, `Ивар`, `Улла`, and `Эвген`; verify pronunciation and the chosen edition rather than treating these as mandatory. Preserve the distinction between an ordinary personal name and the book's formal multi-part naming system. Do not invent an etymology for the initial marker.
+For a long translation, keep a project glossary; an excerpt needs only the entries actually relevant to it. Possible working Russian choices include `Аматка`, `Ванья`, `Нина`, `Ивар`, `Улла`, and `Эвген`; verify pronunciation and the chosen edition rather than treating these as mandatory. Preserve the distinction between an ordinary personal name and the book's formal multi-part naming system. Do not invent an etymology for the initial marker.
 
 The numbered weekdays form an invented calendar. Choose a consistent Russian system; do not silently normalize it to Monday–Sunday. Document inflection, capitalization, and the exact wording of recurring titles and institutional phrases.
 

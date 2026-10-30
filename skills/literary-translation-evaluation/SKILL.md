@@ -12,6 +12,8 @@ Use this skill when the task is to compare candidate translations, measure a tra
 
 Record the source edition, source and target languages, genre, audience, candidate IDs, and the scope (`excerpt`, `sample`, or `full`). Read the complete scene or paragraph range needed to resolve agents, viewpoint, modality, chronology, cultural references, and recurring terms. For files, record the hashes of the actual source and target artifacts. Do not treat a remembered sentence, a model confidence value, or a valid JSON response as evidence of quality.
 
+For a pilot or benchmark, read [comparison design](references/comparison-design.md) before generating candidates. Verify source/historical-translation boundaries, isolate generator contexts, and record reference exposure. Keep unblinded or differently generated groups visible in results instead of attributing their pooled votes to the skill.
+
 ## Apply gates before soft scores
 
 Check each candidate for:
@@ -35,4 +37,4 @@ Classify findings as `error`, `possible_issue`, `valid_alternative`, or `prefere
 
 Report the assigned scope, actual coverage, gate failures, pairwise choices or dimension notes, disagreements, accepted decisions, and unresolved limits. Do not call a preference pilot a benchmark of general literary quality. Do not infer human proofreading, reader behavior, or TTS quality from automatic scores.
 
-See [rubric.md](references/rubric.md) for anchors and a minimal record shape. When an accepted decision must be applied to a real translation, continue with the separately installable `literary-translation-qa` skill.
+See [rubric.md](references/rubric.md) for anchors and a minimal record shape. When applying an accepted correction, preserve the complete before/after passage, check it against the source, and record actual application. The separately installable `literary-translation-qa` skill can support that work but is not required.

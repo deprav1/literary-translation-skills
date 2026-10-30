@@ -32,6 +32,8 @@ A smoother alternative is not automatically a correction. A literal alternative 
 
 For a comparison study, add [literary-translation-evaluation](../skills/literary-translation-evaluation/SKILL.md): apply content, context, and form gates first, then use blind pairwise choices or dimension notes. Keep the actual context, candidate identities, reviewer disagreements, and coverage with the result. Preference counts describe the tested set; they do not establish general literary quality.
 
+Before scoring, confirm that source and historical translation cover the same events and boundaries. For a skill-effect comparison, isolate the generators and hold other conditions constant; record any reference exposure. Keep contaminated or differently generated items in a separate results group. See [comparison design](../skills/literary-translation-evaluation/references/comparison-design.md).
+
 ## 5. Adjudicate before writing
 
 Use `accept`, `edit`, `reject`, or `defer`:
@@ -52,6 +54,8 @@ Recheck substantive edits against the source. Assemble the actual accepted passa
 For long tasks, use nonoverlapping output responsibilities and one editor responsible for accepted changes. A reviewer should not also silently rewrite the publication artifact.
 
 Keep checkpoints based on actual files, not intentions. Before restarting work, inspect any still-live worker/process and preserve validated completed chunks. Resume the first missing or invalid part. Use the model/provider chosen for the task; do not silently swap in an external translation service.
+
+The [execution record](../skills/literary-translation-craft/references/execution-record.json) distinguishes planned work from completed stages. Record the source and decision versions, actual model roles, references/context read, draft, source review, target editing and post-edit check. `not_run` is preferable to implying a stage happened. A short excerpt can state the same facts without a file.
 
 These are collaboration practices, not an instruction to spawn parallel agents without the user's or host's authorization.
 

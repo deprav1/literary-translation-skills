@@ -6,6 +6,8 @@ license: MIT
 
 # Ngai: Russian terminology profile
 
+Identify the actual edition and requested passage. Establish which voice owns each claim: Ngai, a cited theorist, or a translated quotation. Treat the working terms below as hypotheses to check in that passage; unfamiliar usage should remain open until its source and sense are established.
+
 Preserve the central ambivalence: the gimmick appears to do too much and too little. Do not render it everywhere as a fraud, advertisement, or trick. `Гиммик` is a working term, not evidence that an official Russian translation exists.
 
 Use context-sensitive distinctions:

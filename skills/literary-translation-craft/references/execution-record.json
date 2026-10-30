@@ -1,0 +1,24 @@
+{
+  "scope": "sample",
+  "source_edition": null,
+  "source_sha256": null,
+  "skill_revision": null,
+  "references_read": [],
+  "context_actually_read": [],
+  "brief_version": null,
+  "glossary_version": null,
+  "roles": [],
+  "passages": [],
+  "stages": {
+    "planning": {"status": "not_run", "evidence": null},
+    "pilot": {"status": "not_run", "evidence": null},
+    "draft": {"status": "not_run", "evidence": null},
+    "source_review": {"status": "not_run", "evidence": null},
+    "target_editing": {"status": "not_run", "evidence": null},
+    "post_edit_source_check": {"status": "not_run", "evidence": null},
+    "assembly": {"status": "not_run", "evidence": null}
+  },
+  "reference_translations_exposed": [],
+  "unresolved": [],
+  "limitations": []
+}

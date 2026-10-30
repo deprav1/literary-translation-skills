@@ -20,6 +20,8 @@ Compare emphasis scope, nested quotations, visible anchor labels, and decorated 
 
 Every final block must match its accepted translation. An English image does not become translated when metadata changes: provide appropriate translated alt text/caption, disclose the limitation, or prepare an explicitly authorized localized image.
 
+Reconcile expected source block IDs with accepted output IDs before assembling. Account explicitly for missing, duplicated or deliberately merged/split blocks, including chapter-boundary paragraphs. A structurally valid EPUB can still contain a shifted or stale translation. Keep approved source/target correspondence separate from XML validity.
+
 ## Technical checks
 
 - ZIP/CRC; `mimetype` first and uncompressed; XML, OPF, nav, spine, and NCX if present.

@@ -12,6 +12,8 @@ Choose `excerpt`, `sample`, or `full` from the user's request. Assessing two par
 
 For files, extract fresh source/target pairs from the current artifacts and record their hashes. For chat passages, quote the versions actually supplied. Do not substitute a remembered sentence or an old proposed revision for the current text. State when comparison is limited to an intermediary translation.
 
+Confirm that each pair covers the same events and start/end boundaries before judging quality. A correctly keyed record can still contain a neighboring paragraph or a truncated translation. Flag a pairing defect separately, repair its provenance, and reassess the corrected pair; never attribute a corpus alignment failure to the translator.
+
 ## Evaluate in context
 
 Read the whole passage and enough adjacent material to identify agents, speakers, viewpoint, gender, modality, negation, sequence, physical actions, and cultural meaning. Idioms, titles, euphemisms, and spatial terms such as *first floor* require context and locale.
@@ -40,5 +42,7 @@ After applying an accepted change, reread the entire target passage and compare 
 ## Report the actual result
 
 Keep these evidence levels separate: delivered, read, adjudicated, applied, artifact-verified, rendered, reader-tested. A list of reviewed IDs records claimed coverage, not absence of errors or human proofreading. Two models may share a mistaken assumption.
+
+State whether this was self-review, a separate model review, or qualified human review, and whether reference translations or earlier findings were visible. A different prompt or role in the same conversation is not an independent assessment. A verified no-change decision is valid; do not manufacture corrections to demonstrate activity.
 
 Close the requested scope. Do not repeat full reviews without a concrete new risk. State limits without calling the translation flawless. Technical EPUB conformance, browser layout, and real-reader TTS are separate claims. For electronic-book production, use an appropriate tool or installed skill if available; this review skill is independently usable.
