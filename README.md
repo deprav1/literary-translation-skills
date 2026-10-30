@@ -10,7 +10,7 @@
 
 ## Try the blind translation test
 
-**[Без лица — read three versions, choose, then reveal the translators](https://deprav1.github.io/literary-translation-skills/).** A 40-fragment corpus with deterministic cohorts of 20, two AI voting conditions, historical published translations, and a shared vote counter. No account required. Read the [methodology, text licenses, and data policy](site/CONTENT.md). It is an open preference pilot, not proof of general model or translator quality.
+**[Без лица — read three versions, choose, then reveal the translators](https://deprav1.github.io/literary-translation-skills/).** A 48-fragment corpus including Cory Doctorow’s 2006 “When Sysadmins Ruled the Earth” with deterministic cohorts of 20, two AI voting conditions, published translations, and a shared vote counter. No account required. Read the [methodology, text licenses, and data policy](site/CONTENT.md). It is an open preference pilot, not proof of general model or translator quality.
 
 The current AI candidates were regenerated in fresh Sol sessions with identical English context: a short request, planned craft, and craft followed by QA editing. See the [execution record](site/research/fresh-v5/record.json). Reference translations were not supplied to these runs; prior model training remains outside this control.
 
@@ -151,4 +151,4 @@ The project is independent and is not affiliated with OpenAI, Anthropic, Vercel,
 
 ## License
 
-[MIT](LICENSE) for this repository's original instructions, templates, examples, and code. Third-party source pages and books retain their own rights. A link or editorial profile does not grant rights to reproduce a book.
+[MIT](LICENSE) for this repository's original instructions, templates, synthetic examples, and code. Contemporary Doctorow excerpts and derivative translations are **CC BY-NC-SA 2.5**, not MIT; classic dataset excerpts have separate notices. See [text licences](site/CONTENT.md). Third-party source pages and books retain their own rights. A link or editorial profile does not grant rights to reproduce a book.

@@ -1,0 +1,1868 @@
+{
+  "data": {
+    "version": "blind-v5-78c4d8d96151",
+    "cohortSize": 20,
+    "previousDataset": "blind-v4-45b2949d1c6a",
+    "rounds": [
+      {
+        "id": "poe-nerves",
+        "author": "Эдгар Аллан По",
+        "title": "The Tell-Tale Heart / Сердце-изобличитель",
+        "tag": "нервный монолог",
+        "source": "True ! nervous, very, very dreadfully nervous I had been and am; but why will you say that I am mad? The disease had sharpened my senses, not destroyed, not dulled them. Above all was the sense of hearing acute. I heard all things in the heaven and in the earth. I heard many things in hell. How then am I mad? Hearken! and observe how healthily, how calmly I can tell you the whole story.",
+        "sourceUrl": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "comparisonGroup": "isolated",
+        "votingEligible": true,
+        "workId": "heart",
+        "candidates": [
+          {
+            "id": "4c330d00bd485690",
+            "method": "published",
+            "text": "Да! я очень, очень нервен, страшно нервен; но почему хотите вы утверждать, что я сумасшедший? Болезнь обострила мои чувства, отнюдь не ослабила их, отнюдь не притупила. Прежде всего чувство слуха всегда отличалось у меня особенной остротой. Я слышал все, что делалось на небе и на земле. Я слышал многое из того, что делалось в аду. Какой же я сумасшедший? Слушайте! вы только слушайте и наблюдайте, как трезво и спокойно я могу все рассказать.",
+            "credit": "Константин Бальмонт · 1843 (original); 1913 (translation edition)",
+            "note": "Исторический опубликованный перевод. Добавлен при сборке после завершения всех AI-генераций.",
+            "sourceUrl": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)"
+          },
+          {
+            "id": "b05be45b83afc3a2",
+            "method": "baseline",
+            "text": "Правда! Я был и остаюсь нервным, очень, очень, до ужаса нервным; но почему вы твердите, что я безумен? Болезнь обострила мои чувства, а не разрушила, не притупила их. Особенно острым стал слух. Я слышал всё на небе и на земле. Я слышал многое в аду. Как же я могу быть безумен? Слушайте! И заметьте, как здраво, как спокойно я могу рассказать вам всю эту историю.",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Новая изолированная генерация: короткая просьба перевести, без переводческих skills. Английский контекст тот же, что в других условиях.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          },
+          {
+            "id": "ba983faf53a18cfa",
+            "method": "reviewed",
+            "text": "Верно! Я был и остаюсь нервным, очень, очень, до ужаса нервным; но почему вы твердите, что я безумен? Болезнь обострила мои чувства, а не разрушила, не притупила их. Острее всего был слух. Я слышал всё на небе и на земле. Я слышал многое в аду. Как же я могу быть безумен? Слушайте! И заметьте, как здраво, как спокойно я могу рассказать вам всю эту историю.",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Тот же craft-черновик после отдельной QA-сверки и редакторского решения. Новые сессии той же модели; человеческой редактуры не было.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          }
+        ]
+      },
+      {
+        "id": "doer-city",
+        "author": "Оскар Уайльд",
+        "title": "The Doer of Good / Творитель добра",
+        "tag": "притча",
+        "source": "And when He came near He heard within the city the tread of the feet of joy, and the laughter of the mouth of gladness and the loud noise of many lutes. And He knocked at the gate and certain of the gate-keepers opened to Him.\n\nAnd He beheld a house that was of marble and had fair pillars of marble before it. The pillars were hung with garlands, and within and without there were torches of cedar. And He entered the house.",
+        "sourceUrl": "https://www.gutenberg.org/files/774/774-h/774-h.htm",
+        "comparisonGroup": "isolated",
+        "votingEligible": true,
+        "workId": "doer",
+        "candidates": [
+          {
+            "id": "a4df5474de9ae2db",
+            "method": "published",
+            "text": "И когда Он подошел ближе, услыхал Он в городе топот радостных ног и смех ликующих уст и громкие звуки многих лютней. И Он постучал в ворота, и некоторые из привратников отворили Ему.\n\nИ Он увидал дом из мрамора и красивые мраморные колонны перед ним. Колонны были обвиты гирляндами, и внутри и снаружи горели факелы из кедра. И Он вошел в дом.",
+            "credit": "Михаил Фёдорович Ликиардопуло · 1894 (original); 1911 (translation, Новый чтец-декламатор, Kyiv, p. 61)",
+            "note": "Исторический опубликованный перевод. Добавлен при сборке после завершения всех AI-генераций.",
+            "sourceUrl": "https://ru.wikisource.org/wiki/Творитель_добра_(Уайльд)"
+          },
+          {
+            "id": "ed4b976aea887440",
+            "method": "baseline",
+            "text": "И когда Он приблизился, то услышал в городе поступь ног радости, и смех уст веселья, и громкие звуки множества лютен. И Он постучал в ворота, и некоторые из привратников отворили Ему.\n\nИ Он увидел дом из мрамора, и перед домом стояли прекрасные мраморные колонны. Колонны были увиты гирляндами, и внутри и снаружи горели кедровые факелы. И Он вошёл в дом.",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Новая изолированная генерация: короткая просьба перевести, без переводческих skills. Английский контекст тот же, что в других условиях.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          },
+          {
+            "id": "4f5bd6c316d06cde",
+            "method": "reviewed",
+            "text": "И когда Он приблизился, Он услышал в городе поступь ног радости, и смех уст веселья, и громкие звуки множества лютен. И Он постучал в ворота, и некоторые из привратников отворили Ему.\n\nИ Он увидел дом из мрамора, и перед ним стояли прекрасные мраморные колонны. Колонны были увешаны гирляндами, и внутри и снаружи горели кедровые факелы. И Он вошёл в дом.",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Тот же craft-черновик после отдельной QA-сверки и редакторского решения. Новые сессии той же модели; человеческой редактуры не было.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          }
+        ]
+      },
+      {
+        "id": "poe-silence",
+        "author": "Эдгар Аллан По",
+        "title": "The Tell-Tale Heart / Сердце-изобличитель",
+        "tag": "тишина",
+        "source": "I kept quite still and said nothing. For a whole hour I did not move a muscle, and in the meantime I did not hear him lie down. He was still sitting up in the bed, listening; just as I have done night after night hearkening to the death watches in the wall.",
+        "sourceUrl": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "comparisonGroup": "isolated",
+        "votingEligible": true,
+        "workId": "heart",
+        "candidates": [
+          {
+            "id": "66b1123f397782ce",
+            "method": "published",
+            "text": "Я был неподвижен и не говорил ни слова. В продолжении целого часа я не двинулся ни одним мускулом, и все время слышал, что он не ложился. Он все еще сидел на своей постели и слушал; совершенно так же, как ночь за ночью я слушал здесь тиканье стенного жучка-точильщика.",
+            "credit": "Константин Бальмонт · 1843 (original); 1913 (translation edition)",
+            "note": "Исторический опубликованный перевод. Добавлен при сборке после завершения всех AI-генераций.",
+            "sourceUrl": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)"
+          },
+          {
+            "id": "9058f9b58f3003ab",
+            "method": "baseline",
+            "text": "Я застыл и молчал. Целый час ни один мускул у меня не дрогнул, и за всё это время я так и не услышал, чтобы он лёг. Он по-прежнему сидел в постели, прислушиваясь; так и я ночь за ночью прислушивался к тиканью жуков-точильщиков в стене, предвещающему смерть.",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Новая изолированная генерация: короткая просьба перевести, без переводческих skills. Английский контекст тот же, что в других условиях.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          },
+          {
+            "id": "f4fed38fbad68c2b",
+            "method": "reviewed",
+            "text": "Я замер и молчал. Целый час я не шевельнул ни единым мускулом и за всё это время не услышал, чтобы он лёг. Он всё ещё сидел в постели, прислушиваясь; так и я ночь за ночью прислушивался к тиканью жуков-точильщиков — «часов смерти» — в стене.",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Тот же craft-черновик после отдельной QA-сверки и редакторского решения. Новые сессии той же модели; человеческой редактуры не было.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          }
+        ]
+      },
+      {
+        "id": "poe-ray",
+        "author": "Эдгар Аллан По",
+        "title": "The Tell-Tale Heart / Сердце-изобличитель",
+        "tag": "свет и ритм",
+        "source": "When I had waited a long time very patiently without hearing him lie down, I resolved to open a little—  a very, very little crevice in the lantern. So I opened it—you cannot imagine how stealthily—until at length a single dim ray like the thread of the spider shot out from the crevice and fell upon the vulture eye.",
+        "sourceUrl": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "comparisonGroup": "isolated",
+        "votingEligible": true,
+        "workId": "heart",
+        "candidates": [
+          {
+            "id": "e0cdd353fb710ef7",
+            "method": "published",
+            "text": "Я выждал очень терпеливо значительный промежуток времени, но слыша, что старик не ложится, я решил открыть в фонаре маленькую щелку — очень, очень маленькую. Я стал ее открывать — вы представить себе не можете, до какой степени бесшумно, бесшумно — и, наконец, отдельный бледный луч, похожий на вытянутую паутинку, выделился из щели и упал на ястребиный глаз.",
+            "credit": "Константин Бальмонт · 1843 (original); 1913 (translation edition)",
+            "note": "Исторический опубликованный перевод. Добавлен при сборке после завершения всех AI-генераций.",
+            "sourceUrl": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)"
+          },
+          {
+            "id": "cf5ad6ed00c7042a",
+            "method": "baseline",
+            "text": "Долго и терпеливо прождав и так и не услышав, чтобы он лёг, я решил приоткрыть в фонаре маленькую — совсем, совсем крошечную щёлку. И я приоткрывал его — вы не можете вообразить, с какой осторожностью, — пока наконец из щёлки не вырвался единственный тусклый луч, тонкий, как паутинная нить, и не упал на глаз грифа.",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Новая изолированная генерация: короткая просьба перевести, без переводческих skills. Английский контекст тот же, что в других условиях.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          },
+          {
+            "id": "cd893c424f14cadb",
+            "method": "reviewed",
+            "text": "Долго прождав с великим терпением и так и не услышав, чтобы он лёг, я решил приоткрыть в фонаре щёлочку — совсем, совсем крошечную щёлочку. И я стал приоткрывать его — вы и представить не можете, как тихо и незаметно, — пока наконец один тусклый луч, тонкий, как паутинная нить, не вырвался из щели и не упал на глаз стервятника.",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Тот же craft-черновик после отдельной QA-сверки и редакторского решения. Новые сессии той же модели; человеческой редактуры не было.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          }
+        ]
+      },
+      {
+        "id": "doer-weeping",
+        "author": "Оскар Уайльд",
+        "title": "The Doer of Good / Творитель добра",
+        "tag": "ирония",
+        "source": "And He passed out of the city.\n\nAnd when He had passed out of the city He saw seated by the roadside a young man who was weeping.\n\nAnd He went towards him and touched the long locks of his hair and said to him, ‘Why are you weeping?’\n\nAnd the young man looked up and recognised Him and made answer, ‘But I was dead once, and you raised me from the dead. What else should I do but weep?’",
+        "sourceUrl": "https://www.gutenberg.org/files/774/774-h/774-h.htm",
+        "comparisonGroup": "isolated",
+        "votingEligible": true,
+        "workId": "doer",
+        "candidates": [
+          {
+            "id": "cf861d736e824712",
+            "method": "published",
+            "text": "И Он вышел из города.\n\nИ когда Он был за городом, увидал Он юношу, который сидел у дороги и рыдал.\n\nИ Он подошел к нему и коснулся длинных локонов его волос и сказал ему:\n\n— Отчего ты плачешь?\n\nИ юноша поднял глаза и узнал Его, и ответил:\n— Но я был мертв когда-то, и Ты воскресил меня из мертвых. Что же мне делать, как не плакать?",
+            "credit": "Михаил Фёдорович Ликиардопуло · 1894 (original); 1911 (translation, Новый чтец-декламатор, Kyiv, p. 61)",
+            "note": "Исторический опубликованный перевод. Добавлен при сборке после завершения всех AI-генераций.",
+            "sourceUrl": "https://ru.wikisource.org/wiki/Творитель_добра_(Уайльд)"
+          },
+          {
+            "id": "6a6fb3f0e1892bed",
+            "method": "baseline",
+            "text": "И Он вышел из города.\n\nИ когда Он вышел из города, то увидел юношу, который сидел у дороги и плакал.\n\nИ Он подошёл к нему, и коснулся длинных прядей его волос, и сказал ему: «Почему ты плачешь?»\n\nИ юноша поднял глаза, и узнал Его, и ответил: «Но ведь я был мёртв, и ты воскресил меня из мёртвых. Что же мне делать, как не плакать?»",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Новая изолированная генерация: короткая просьба перевести, без переводческих skills. Английский контекст тот же, что в других условиях.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          },
+          {
+            "id": "a8f5e056f98cc034",
+            "method": "reviewed",
+            "text": "И Он вышел из города.\n\nИ когда Он вышел из города, Он увидел у дороги юношу, который сидел и плакал.\n\nИ Он подошёл к нему, и коснулся длинных прядей его волос, и сказал ему: «Почему ты плачешь?»\n\nИ юноша поднял глаза и узнал Его, и ответил: «Но когда-то я был мёртв, и ты воскресил меня из мёртвых. Что же мне делать, как не плакать?»",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Тот же craft-черновик после отдельной QA-сверки и редакторского решения. Новые сессии той же модели; человеческой редактуры не было.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          }
+        ]
+      },
+      {
+        "id": "poe-heart",
+        "author": "Эдгар Аллан По",
+        "title": "The Tell-Tale Heart / Сердце-изобличитель",
+        "tag": "звук",
+        "source": "And now have I not told you that what you mistake for madness is but over-acuteness of the senses? now, I say, there came to my ears a low, dull, quick sound, such as a watch makes when enveloped in cotton. I knew that sound well, too. It was the beating of the old man's heart. It increased my fury, as the beating of a drum stimulates the soldier into courage.",
+        "sourceUrl": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "comparisonGroup": "isolated",
+        "votingEligible": true,
+        "workId": "heart",
+        "candidates": [
+          {
+            "id": "f3170dc8fb645ad0",
+            "method": "published",
+            "text": "Ну, и что же, разве я вам не говорил, что то, что вы считаете сумасшествием, есть лишь утонченность моих чувств? Я услышал тихий, глухой, быстрый звук, подобный тиканью карманных часов, завернутых в вату. Этот звук я знал, отлично знал и его. Это билось сердце старика. Быстрый звук усилил мое бешенство, как звук барабанного боя усиливает мужество солдата.",
+            "credit": "Константин Бальмонт · 1843 (original); 1913 (translation edition)",
+            "note": "Исторический опубликованный перевод. Добавлен при сборке после завершения всех AI-генераций.",
+            "sourceUrl": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)"
+          },
+          {
+            "id": "255319d952e70cc3",
+            "method": "baseline",
+            "text": "И разве я не говорил вам, что то, что вы принимаете за безумие, — лишь чрезмерная острота чувств? Так вот, говорю я вам, до моего слуха донёсся тихий, глухой, частый звук, какой издают часы, завёрнутые в вату. Этот звук я тоже хорошо знал. Это билось сердце старика. Оно усиливало мою ярость, как барабанный бой пробуждает в солдате отвагу.",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Новая изолированная генерация: короткая просьба перевести, без переводческих skills. Английский контекст тот же, что в других условиях.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          },
+          {
+            "id": "a7597980b12088d3",
+            "method": "reviewed",
+            "text": "И разве я не говорил вам, что вы принимаете за безумие всего лишь чрезмерную остроту чувств? Так вот, говорю я вам, до моих ушей донёсся тихий, глухой, частый стук, какой издают часы, завёрнутые в вату. Этот звук я тоже хорошо знал. Это билось сердце старика. Оно усиливало мою ярость, как бой барабана разжигает отвагу солдата.",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Тот же craft-черновик после отдельной QA-сверки и редакторского решения. Новые сессии той же модели; человеческой редактуры не было.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          }
+        ]
+      },
+      {
+        "id": "poe-extra-01",
+        "author": "Эдгар Аллан По",
+        "title": "The Tell-Tale Heart / Сердце-изобличитель",
+        "tag": "нервная проза",
+        "source": "It is impossible to say how first the idea entered my brain, but, once conceived, it haunted me day and night. Object there was none. Passion there was none. I loved the old man. He had never wronged me. He had never given me insult. For his gold I had no desire. I think it was his eye! Yes, it was this! One of his eyes resembled that of a vulture—a pale blue eye with a film over it. Whenever it fell upon me my blood ran cold, and so by degrees, very gradually, I made up my mind to take the life of the old man, and thus rid myself of the eye forever.",
+        "sourceUrl": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "comparisonGroup": "isolated",
+        "votingEligible": true,
+        "workId": "heart",
+        "candidates": [
+          {
+            "id": "112c18673febeda4",
+            "method": "published",
+            "text": "Невозможно определить, каким образом эта мысль первый раз пришла мне в голову; но, раз придя, она преследовала меня и днем и ночью. Цели тут не было никакой. Срасти не было никакой. Я любил старика. Он никогда мне не делал зла. Он никогда меня не оскорблял. Денег его я не хотел. Я думаю, что во всем был виноват его глаз! Да, именно так! Один его глаз был похож на глаз ястреба — бледно-голубого цвета с бельмом. Каждый раз, когда он смотрел на меня этим глазом, кровь во мне холодела, и вот мало-помалу, постепенно, мной овладела мысль убить старика, и этим путем раз навсегда избавиться от его глаза.",
+            "credit": "Константин Бальмонт · 1843 (original); 1913 (translation edition)",
+            "note": "Исторический опубликованный перевод. Добавлен при сборке после завершения всех AI-генераций.",
+            "sourceUrl": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)"
+          },
+          {
+            "id": "01e3a89f74e761aa",
+            "method": "baseline",
+            "text": "Невозможно сказать, как эта мысль впервые проникла мне в голову, но, однажды зародившись, она преследовала меня днём и ночью. Цели не было никакой. Страсти — никакой. Я любил старика. Он никогда не причинял мне зла. Никогда не оскорблял меня. Его золота я не желал. Думаю, всё дело было в его глазе! Да, именно в нём! Один его глаз походил на глаз грифа — бледно-голубой глаз, подёрнутый плёнкой. Всякий раз, когда он обращался ко мне, кровь у меня стыла в жилах, и так, мало-помалу, очень постепенно, я решился лишить старика жизни и тем самым навсегда избавиться от этого глаза.",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Новая изолированная генерация: короткая просьба перевести, без переводческих skills. Английский контекст тот же, что в других условиях.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          },
+          {
+            "id": "b2e2660804bd0425",
+            "method": "reviewed",
+            "text": "Невозможно сказать, как эта мысль впервые проникла мне в голову, но, раз зародившись, она преследовала меня день и ночь. Цели не было никакой. Страсти не было никакой. Я любил старика. Он никогда не причинял мне зла. Никогда не оскорблял меня. Его золота я не желал. Думаю, всё дело было в его глазе! Да, именно в нём! Один его глаз напоминал глаз стервятника — бледно-голубой глаз, подёрнутый плёнкой. Всякий раз, когда он обращался на меня, кровь стыла у меня в жилах, и так, мало-помалу, очень постепенно, я решился лишить старика жизни и тем самым навсегда избавиться от глаза.",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Тот же craft-черновик после отдельной QA-сверки и редакторского решения. Новые сессии той же модели; человеческой редактуры не было.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          }
+        ]
+      },
+      {
+        "id": "poe-extra-03",
+        "author": "Эдгар Аллан По",
+        "title": "The Tell-Tale Heart / Сердце-изобличитель",
+        "tag": "нервная проза",
+        "source": "Upon the eighth night I was more than usually cautious in opening the door. A watch's minute hand moves more quickly than did mine. Never before that night had I felt the extent of my own powers, of my sagacity. I could scarcely contain my feelings of triumph. To think that there I was opening the door little by little, and he not even to dream of my secret deeds or thoughts. I fairly chuckled at the idea, and perhaps he heard me, for he moved on the bed suddenly as if startled. Now you may think that I drew back—but no. His room was as black as pitch with the thick darkness (for the shutters were close fastened through fear of robbers), and so I knew that he could not see the opening of the door, and I kept pushing it on steadily, steadily.",
+        "sourceUrl": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "comparisonGroup": "isolated",
+        "votingEligible": true,
+        "workId": "heart",
+        "candidates": [
+          {
+            "id": "0db34f279c7c74a5",
+            "method": "published",
+            "text": "На восьмую ночь я опять пошел, и на этот раз открывал дверь с еще большей осторожностью, чем прежде. Минутная стрелка на часах двигается быстрее, чем двигалась тогда моя рука. Никогда до этой ночи не чувствовал я размеров моих сил, моей предусмотрительности. Я едва мог сдерживать торжествующий восторг. Подумать только, я тут потихоньку открываю дверь, а ему даже и не снятся мои тайные дела и мысли. Когда это пришло мне в голову, я засмеялся чуть внятным, прерывистым смехом, и, быть может, он услыхал меня, потому что он внезапно повернулся на постели, как бы вздрогнув. Вы, пожалуй, подумаете, что я прокрался назад — нет. В его комнате не видно было ни зги (ставни были плотно заперты, он боялся воров), и я знал, что он не мог видеть открытой двери, и я все толкал ее вперед так спокойно, так спокойно…",
+            "credit": "Константин Бальмонт · 1843 (original); 1913 (translation edition)",
+            "note": "Исторический опубликованный перевод. Добавлен при сборке после завершения всех AI-генераций.",
+            "sourceUrl": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)"
+          },
+          {
+            "id": "fdc5f73467b064d1",
+            "method": "baseline",
+            "text": "На восьмую ночь я открывал дверь осторожнее обычного. Минутная стрелка часов движется быстрее, чем двигалась моя рука. Никогда прежде я не ощущал так полно собственной силы, собственной проницательности. Я едва сдерживал ликование. Подумать только: я понемногу отворяю дверь, а он и не подозревает о моих тайных делах и помыслах. При этой мысли я даже тихонько засмеялся, и, возможно, он меня услышал, потому что вдруг шевельнулся в постели, словно испугавшись. Вы, наверное, думаете, что я отступил, — но нет. Густой мрак делал его комнату чёрной как смоль (из страха перед грабителями ставни были плотно заперты), и потому я знал, что он не может видеть, как отворяется дверь, и продолжал толкать её всё так же мерно, мерно.",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Новая изолированная генерация: короткая просьба перевести, без переводческих skills. Английский контекст тот же, что в других условиях.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          },
+          {
+            "id": "bf0dce3df1d8bd2b",
+            "method": "reviewed",
+            "text": "На восьмую ночь я открывал дверь ещё осторожнее обычного. Минутная стрелка часов движется быстрее, чем двигалась моя рука. Никогда до этой ночи я не чувствовал всей меры своих сил, своей проницательности. Я едва мог сдержать ликование. Подумать только: вот я понемногу открываю дверь, а он и не подозревает о моих тайных делах и мыслях. Я даже тихонько засмеялся при этой мысли, и, быть может, он меня услышал, потому что вдруг шевельнулся на постели, словно испугавшись. Теперь вы, наверное, думаете, что я отпрянул, — но нет. В его комнате было черно, как в смоле, от густого мрака (ставни были наглухо заперты из страха перед грабителями), и потому я знал, что он не может видеть, как открывается дверь, и продолжал толкать её — плавно, плавно.",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Тот же craft-черновик после отдельной QA-сверки и редакторского решения. Новые сессии той же модели; человеческой редактуры не было.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          }
+        ]
+      },
+      {
+        "id": "poe-extra-04",
+        "author": "Эдгар Аллан По",
+        "title": "The Tell-Tale Heart / Сердце-изобличитель",
+        "tag": "нервная проза",
+        "source": "​ I had my head in, and was about to open the lantern when my thumb slipped upon the tin fastening, and the old man sprang up in the bed, crying out, \"Who's there?\"",
+        "sourceUrl": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "comparisonGroup": "isolated",
+        "votingEligible": true,
+        "workId": "heart",
+        "candidates": [
+          {
+            "id": "a248ad617d5eaeb0",
+            "method": "published",
+            "text": "Я уже просунул голову в комнату, и готовился открыть фонарь, как вдруг большой мой палец скользнул по жестяной задвижке, и старик вскочил на постели, вскрикнув: «Кто там?»",
+            "credit": "Константин Бальмонт · 1843 (original); 1913 (translation edition)",
+            "note": "Исторический опубликованный перевод. Добавлен при сборке после завершения всех AI-генераций.",
+            "sourceUrl": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)"
+          },
+          {
+            "id": "32d9e0e5ecb35386",
+            "method": "baseline",
+            "text": "Я уже просунул голову внутрь и собирался открыть фонарь, как вдруг мой большой палец соскользнул с жестяной застёжки, и старик подскочил в постели с криком: «Кто здесь?»",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Новая изолированная генерация: короткая просьба перевести, без переводческих skills. Английский контекст тот же, что в других условиях.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          },
+          {
+            "id": "16dea06034dea0aa",
+            "method": "reviewed",
+            "text": "Я уже просунул голову внутрь и собирался открыть фонарь, когда мой большой палец скользнул по жестяной застёжке, и старик рывком сел в постели с криком: «Кто там?»",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Тот же craft-черновик после отдельной QA-сверки и редакторского решения. Новые сессии той же модели; человеческой редактуры не было.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          }
+        ]
+      },
+      {
+        "id": "poe-extra-06",
+        "author": "Эдгар Аллан По",
+        "title": "The Tell-Tale Heart / Сердце-изобличитель",
+        "tag": "нервная проза",
+        "source": "Presently I heard a slight groan, and I knew it was the groan of mortal terror. It was not a groan of pain or of grief—oh, no! it was the low stifled sound that arises from the bottom of the soul when overcharged with awe. I knew the sound well. Many a night, just at midnight, when all the world slept, it has welled up from my own bosom, deepening, with its dreadful echo, the terrors that distracted me. I say I knew it well. I knew what the old man felt, and pitied him, although I chuckled at heart. I knew that he had been lying awake ever since the first slight noise when he had turned in the bed. His fears had been ever since growing upon him. He had been trying to fancy them causeless, but could not. He had been saying to himself, \"It is nothing but the wind in the chimney, it is only a mouse crossing the floor,\" or \"It is merely a cricket which has made a single chirp.\" Yes, he has been trying to comfort himself with these suppositions; but he had found all in vain. All in vain , because Death in approaching him had stalked with his black shadow before him and enveloped the victim. And it was the mournful influence of the unperceived shadow that caused him to feel, although he neither saw nor heard, to feel the presence of my head within the room.",
+        "sourceUrl": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "comparisonGroup": "isolated",
+        "votingEligible": true,
+        "workId": "heart",
+        "candidates": [
+          {
+            "id": "4597ccb68479de94",
+            "method": "published",
+            "text": "Но вот я услыхал слабый стон, и я знал, что это был стон смертельного страха. То не был стон муки или печали — о, нет! — то был тихий, заглушенный звук, который исходит из глубины души, когда она подавлена ужасом. Я хорошо знал этот звук. Много ночей, ровно в полночь, когда весь мир спал, он вырывался из моей груди, усиливая своим чудовищным откликом ужасы, терзавшие меня. Я говорю, я знал его хорошо. Я знал, что̀ чувствовал старик, и мне было его жалко, хотя в сердце моем дрожал судорожный смех. Я знал, что он не спал с того самого мгновения, когда легкий шум заставил его повернуться в постели. С этого мгновения страх все больше наползал на него. Он старался убедить себя, что опасения напрасны, но не мог. Он говорил себе: «Это ничего, это только ветер в камине, это только мышь пробежала по полу», или: «Это только крикнул сверчок, он только раз крикнул». Да, он старался успокоить себя такими догадками; но видел, что все тщетно. Все тщетно , потому что Смерть, приближаясь к нему, прошла перед ним с своею черной тенью, и окутала жертву. И это именно зловещее влияние незримой тени заставило его чувствовать, хотя он ничего не видел и не слышал, чувствовать присутствие моей головы в комнате.",
+            "credit": "Константин Бальмонт · 1843 (original); 1913 (translation edition)",
+            "note": "Исторический опубликованный перевод. Добавлен при сборке после завершения всех AI-генераций.",
+            "sourceUrl": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)"
+          },
+          {
+            "id": "d6ec6f24cb76974f",
+            "method": "baseline",
+            "text": "Вскоре я услышал слабый стон и понял, что это стон смертельного ужаса. То был не стон боли или горя — о нет! То был тихий, сдавленный звук, который поднимается из глубины души, переполненной страхом. Я хорошо знал этот звук. Не одну ночь, ровно в полночь, когда весь мир спал, он вырывался из моей собственной груди, своим страшным эхом усугубляя терзавшие меня ужасы. Говорю вам, я хорошо его знал. Я знал, что чувствует старик, и жалел его, хотя в душе посмеивался. Я знал, что он не спал с того самого первого слабого звука, когда повернулся в постели. С тех пор страх всё сильнее овладевал им. Он пытался уверить себя, что страх этот беспричинен, но не мог. Он говорил себе: «Это всего лишь ветер в трубе, это всего лишь мышь пробежала по полу» или: «Это просто сверчок разок стрекотнул». Да, он пытался утешиться этими догадками, но всё оказалось напрасно. Всё напрасно, потому что Смерть, приближаясь к нему, простёрла перед собой свою чёрную тень и окутала ею жертву. И именно гнетущее воздействие этой незримой тени заставило его почувствовать, хотя он ничего не видел и не слышал, почувствовать присутствие моей головы в комнате.",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Новая изолированная генерация: короткая просьба перевести, без переводческих skills. Английский контекст тот же, что в других условиях.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          },
+          {
+            "id": "c23ddcc0d34e1da4",
+            "method": "reviewed",
+            "text": "Вскоре я услышал слабый стон и понял, что это стон смертельного ужаса. Не стон боли или горя — о нет! — а тот тихий, сдавленный звук, что поднимается со дна души, переполненной страхом. Я хорошо знал этот звук. Не одну ночь, ровно в полночь, когда весь мир спал, он вырывался из моей собственной груди, своим страшным эхом усиливая терзавшие меня ужасы. Говорю вам, я хорошо его знал. Я знал, что чувствует старик, и жалел его, хотя в душе посмеивался. Я знал, что он лежит без сна с того первого слабого шороха, когда он повернулся в постели. С той минуты страхи всё сильнее овладевали им. Он пытался вообразить, что они беспричинны, но не мог. Он говорил себе: «Это всего лишь ветер в трубе, это просто мышь пробежала по полу» или: «Это только сверчок один раз стрекотнул». Да, он пытается утешиться этими догадками; но всё оказалось напрасно. Всё напрасно, потому что Смерть, приближаясь к нему, уже простёрла перед собой свою чёрную тень и окутала ею жертву. И именно тягостное влияние этой незримой тени заставляло его чувствовать, хотя он ничего не видел и не слышал, чувствовать присутствие моей головы в комнате.",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Тот же craft-черновик после отдельной QA-сверки и редакторского решения. Новые сессии той же модели; человеческой редактуры не было.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          }
+        ]
+      },
+      {
+        "id": "poe-extra-08",
+        "author": "Эдгар Аллан По",
+        "title": "The Tell-Tale Heart / Сердце-изобличитель",
+        "tag": "нервная проза",
+        "source": "It was open, wide, wide open, and I grew furious as I gazed upon it. I saw it with perfect distinctness—all a dull blue with a hideous veil over it that chilled the very marrow in my bones, but I could see nothing else of the old man's face or person, for I had directed the ray as if by instinct precisely upon the damned spot.",
+        "sourceUrl": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "comparisonGroup": "isolated",
+        "votingEligible": true,
+        "workId": "heart",
+        "candidates": [
+          {
+            "id": "1e477a7e1bd79b3f",
+            "method": "published",
+            "text": "Он был открыт, широко, широко открыт, и я пришел в ярость, увидев его. Я видел его совершенно явственно — это был тускло-голубой глаз с отвратительным налетом, который заморозил кровь в моих жилах, но я не видал ничего другого, ни черт его лица, ни его тела, потому что как бы по инстинкту я направил луч света как раз на проклятое пятно.",
+            "credit": "Константин Бальмонт · 1843 (original); 1913 (translation edition)",
+            "note": "Исторический опубликованный перевод. Добавлен при сборке после завершения всех AI-генераций.",
+            "sourceUrl": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)"
+          },
+          {
+            "id": "0c574edf0c739473",
+            "method": "baseline",
+            "text": "Он был открыт, широко, широко открыт, и, глядя на него, я приходил в ярость. Я видел его совершенно отчётливо — весь тускло-голубой, подёрнутый отвратительной пеленой, от которой у меня стыл мозг в костях; но больше ни лица, ни тела старика я не видел, потому что, словно повинуясь чутью, направил луч точно на это проклятое место.",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Новая изолированная генерация: короткая просьба перевести, без переводческих skills. Английский контекст тот же, что в других условиях.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          },
+          {
+            "id": "902b3be891ce9b49",
+            "method": "reviewed",
+            "text": "Он был открыт, широко, широко открыт, и, глядя на него, я приходил в ярость. Я видел его совершенно отчётливо — весь тускло-голубой, с отвратительной завесой, от которой холод пробирал меня до мозга костей, — но больше ничего в лице или теле старика я не видел, потому что, словно по наитию, направил луч точно на это проклятое место.",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Тот же craft-черновик после отдельной QA-сверки и редакторского решения. Новые сессии той же модели; человеческой редактуры не было.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          }
+        ]
+      },
+      {
+        "id": "poe-extra-11",
+        "author": "Эдгар Аллан По",
+        "title": "The Tell-Tale Heart / Сердце-изобличитель",
+        "tag": "нервная проза",
+        "source": "If still you think me mad, you will think so no longer when I describe the wise precautions I took for the concealment of the body. The night waned, and I worked hastily, but in silence.",
+        "sourceUrl": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "comparisonGroup": "isolated",
+        "votingEligible": true,
+        "workId": "heart",
+        "candidates": [
+          {
+            "id": "acace807609ac127",
+            "method": "published",
+            "text": "Если вы еще продолжаете думать, что я сумасшедший, вы разубедитесь, когда я опишу вам все меры предосторожности, которые я предпринял, чтобы скрыть труп. Ночь уходила, и я работал быстро, но молчаливо.",
+            "credit": "Константин Бальмонт · 1843 (original); 1913 (translation edition)",
+            "note": "Исторический опубликованный перевод. Добавлен при сборке после завершения всех AI-генераций.",
+            "sourceUrl": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)"
+          },
+          {
+            "id": "8fdd67d69e89303e",
+            "method": "baseline",
+            "text": "Если вы всё ещё считаете меня безумным, вы перестанете так думать, когда я опишу разумные предосторожности, которые принял, чтобы скрыть тело. Ночь шла к концу, и я работал поспешно, но беззвучно.",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Новая изолированная генерация: короткая просьба перевести, без переводческих skills. Английский контекст тот же, что в других условиях.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          },
+          {
+            "id": "31569da843808a88",
+            "method": "reviewed",
+            "text": "Если вы всё ещё считаете меня безумным, то перестанете так считать, когда я опишу разумные предосторожности, которые принял, чтобы скрыть тело. Ночь была на исходе, и я работал поспешно, но беззвучно.",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Тот же craft-черновик после отдельной QA-сверки и редакторского решения. Новые сессии той же модели; человеческой редактуры не было.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          }
+        ]
+      },
+      {
+        "id": "poe-extra-12",
+        "author": "Эдгар Аллан По",
+        "title": "The Tell-Tale Heart / Сердце-изобличитель",
+        "tag": "нервная проза",
+        "source": "I took up three planks from the flooring of the chamber, and deposited all between the scantlings. I then replaced the boards so cleverly, so cunningly, that no human eye—not even his —could have detected anything wrong. There was nothing to wash out—no stain of any kind—no bloodspot whatever. I had been too wary for that.",
+        "sourceUrl": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "comparisonGroup": "isolated",
+        "votingEligible": true,
+        "workId": "heart",
+        "candidates": [
+          {
+            "id": "85f4af4dd8b4b30f",
+            "method": "published",
+            "text": "Я вынул три доски из пола комнаты и положил труп между драницами. Потом я опять укрепил доски так хорошо, так аккуратно, что никакой человеческий глаз — даже и его — не мог бы открыть здесь ничего подозрительного. Ничего не нужно было замывать — ни одного пятна — ни одной капли крови. Я был слишком предусмотрителен для этого.",
+            "credit": "Константин Бальмонт · 1843 (original); 1913 (translation edition)",
+            "note": "Исторический опубликованный перевод. Добавлен при сборке после завершения всех AI-генераций.",
+            "sourceUrl": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)"
+          },
+          {
+            "id": "269ec5b297e3abd3",
+            "method": "baseline",
+            "text": "Я поднял три доски в полу спальни и уложил всё между балками. Затем я вернул доски на место так искусно, так хитро, что ничей глаз — даже его — не заметил бы ничего неладного. Ничего не пришлось отмывать — ни единого пятна, ни единой капли крови. Для этого я был слишком предусмотрителен.",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Новая изолированная генерация: короткая просьба перевести, без переводческих skills. Английский контекст тот же, что в других условиях.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          },
+          {
+            "id": "f3baed28a3c8482e",
+            "method": "reviewed",
+            "text": "Я поднял три доски в полу спальни и поместил всё между балками под полом. Затем я уложил доски на место так искусно, так хитро, что ни один человеческий глаз — даже его глаз — не заметил бы ничего неладного. Нечего было отмывать — ни единого пятна — ни единого пятнышка крови. Я был слишком осмотрителен, чтобы оставить такие следы.",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Тот же craft-черновик после отдельной QA-сверки и редакторского решения. Новые сессии той же модели; человеческой редактуры не было.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          }
+        ]
+      },
+      {
+        "id": "poe-extra-13",
+        "author": "Эдгар Аллан По",
+        "title": "The Tell-Tale Heart / Сердце-изобличитель",
+        "tag": "нервная проза",
+        "source": "When I had made an end of these labors, it was four o'clock—still dark as midnight. As the bell sounded the hour, there came a knocking at the street door. I went down to open it with a light heart—for what had I now to fear? There entered three men, who introduced themselves, with perfect suavity, as officers of the police. A shriek had been heard by a neighbor during the night; suspicion of foul play had been aroused; information had been lodged at the police office, and they (the officers) had been deputed to search the premises.",
+        "sourceUrl": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "comparisonGroup": "isolated",
+        "votingEligible": true,
+        "workId": "heart",
+        "candidates": [
+          {
+            "id": "0b8e3b54cd18331e",
+            "method": "published",
+            "text": "Когда я все кончил, было четыре часа — на дворе было еще темно, как в полночь. В ту самую минуту, когда били часы, с улицы раздался стук в наружную дверь. С легким сердцем я пошел отворить ее, — чего мне было бояться теперь? Вошли три человека и с большой учтивостью представились мне, называя себя полицейскими чиновниками. Один из соседей слышал ночью крик; возникло подозрение, не случилось ли какого злого дела; полиция была об этом извещена, и вот они (полицейские чиновники) были отправлены произвести обыск.",
+            "credit": "Константин Бальмонт · 1843 (original); 1913 (translation edition)",
+            "note": "Исторический опубликованный перевод. Добавлен при сборке после завершения всех AI-генераций.",
+            "sourceUrl": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)"
+          },
+          {
+            "id": "643d54135592ac75",
+            "method": "baseline",
+            "text": "Когда я закончил эти труды, было четыре часа — ещё темно, как в полночь. Едва колокол отбил час, в уличную дверь постучали. Я спустился отворить с лёгким сердцем — чего мне теперь было бояться? Вошли трое мужчин, которые с безупречной учтивостью назвались полицейскими. Ночью кто-то из соседей услышал крик; возникло подозрение в злодеянии; в полицию поступило заявление, и их (полицейских) направили обыскать дом.",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Новая изолированная генерация: короткая просьба перевести, без переводческих skills. Английский контекст тот же, что в других условиях.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          },
+          {
+            "id": "c4af898634cd88c5",
+            "method": "reviewed",
+            "text": "Когда я окончил эти труды, было четыре часа — всё ещё темно, как в полночь. Едва колокол пробил час, в уличную дверь постучали. Я спустился открыть с лёгким сердцем — чего мне теперь было бояться? Вошли трое мужчин, с безупречной учтивостью представившихся служащими полиции. Ночью один из соседей слышал крик; возникло подозрение в преступлении; в полицейское управление поступило сообщение, и их (полицейских) направили произвести обыск в доме.",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Тот же craft-черновик после отдельной QA-сверки и редакторского решения. Новые сессии той же модели; человеческой редактуры не было.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          }
+        ]
+      },
+      {
+        "id": "poe-extra-14",
+        "author": "Эдгар Аллан По",
+        "title": "The Tell-Tale Heart / Сердце-изобличитель",
+        "tag": "нервная проза",
+        "source": "I smiled—for what had I to fear? I bade the gentlemen welcome. The shriek, I said, was my own in a dream. The old man, I mentioned, was absent in the country. I took my visitors all over the house. ​ I bade them search—search well . I led them, at length, to his chamber. I showed them his treasures, secure, undisturbed. In the enthusiasm of my confidence, I brought chairs into the room, and desired them here to rest from their fatigues, while I myself, in the wild audacity of my perfect triumph, placed my own seat upon the very spot beneath which reposed the corpse of the victim.",
+        "sourceUrl": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "comparisonGroup": "isolated",
+        "votingEligible": true,
+        "workId": "heart",
+        "candidates": [
+          {
+            "id": "9ed583649c29986c",
+            "method": "published",
+            "text": "Я улыбался — чего мне было бояться? Я попросил джентльменов пожаловать в комнаты. Закричал это я сам, сказал я, закричал во сне. А старика, сообщил я, нет дома, он на время уехал из города. Я провел посетителей по всему дому. Я просил их обыскать все — обыскать хорошенько . Я провел их, наконец, в его комнату. Я показал им все его драгоценности, они были целы, и лежали в своем обычном порядке. Охваченный энтузиазмом своей уверенности, я принес стулья в эту комнату и пожелал, чтобы именно здесь они отдохнули от своих поисков, между тем как я сам, в дикой смелости полного торжества, поставил свой собственный стул как раз на том самом месте, под которым покоилось тело жертвы.",
+            "credit": "Константин Бальмонт · 1843 (original); 1913 (translation edition)",
+            "note": "Исторический опубликованный перевод. Добавлен при сборке после завершения всех AI-генераций.",
+            "sourceUrl": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)"
+          },
+          {
+            "id": "92bf285b6fc97fc5",
+            "method": "baseline",
+            "text": "Я улыбнулся — чего мне было бояться? Я радушно приветствовал господ. Крик, сказал я, издал во сне я сам. Старик же, упомянул я, уехал в деревню. Я провёл гостей по всему дому. Я предложил им искать — искать как следует. Наконец я привёл их в его спальню. Я показал им его сокровища, целые и нетронутые. Воодушевлённый собственной уверенностью, я принёс в комнату стулья и предложил им здесь отдохнуть от трудов, а сам, с безудержной дерзостью полного торжества, поставил свой стул на то самое место, под которым покоилось тело жертвы.",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Новая изолированная генерация: короткая просьба перевести, без переводческих skills. Английский контекст тот же, что в других условиях.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          },
+          {
+            "id": "794440cdb7421e94",
+            "method": "reviewed",
+            "text": "Я улыбался — чего мне было бояться? Я приветствовал господ. Это я, сказал я, вскрикнул во сне. Старик, заметил я, уехал в деревню. Я провёл гостей по всему дому. Я предложил им искать — искать как следует. Наконец я привёл их в его спальню. Я показал им его сокровища, целые и нетронутые. Воодушевлённый своей уверенностью, я принёс в комнату стулья и предложил им отдохнуть здесь от трудов, а сам, с безумной дерзостью полного торжества, поставил свой стул на то самое место, под которым покоился труп жертвы.",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Тот же craft-черновик после отдельной QA-сверки и редакторского решения. Новые сессии той же модели; человеческой редактуры не было.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          }
+        ]
+      },
+      {
+        "id": "poe-extra-15",
+        "author": "Эдгар Аллан По",
+        "title": "The Tell-Tale Heart / Сердце-изобличитель",
+        "tag": "нервная проза",
+        "source": "The officers were satisfied. My manner had convinced them. I was singularly at ease. They sat, and while I answered cheerily, they chatted of familiar things. But, ere long, I felt myself getting pale and wished them gone. My head ached, and I fancied a ringing in my ears; but still they sat, and still chatted. The ringing became more distinct;—it continued and became more distinct. I talked more freely to get rid of the feeling, but it continued and gained definitiveness—until, at length, I found that the noise was not within my ears.",
+        "sourceUrl": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "comparisonGroup": "isolated",
+        "votingEligible": true,
+        "workId": "heart",
+        "candidates": [
+          {
+            "id": "68f0b49ada33a43b",
+            "method": "published",
+            "text": "Полицейские чиновники были удовлетворены. Мои манеры убедили их. Я чувствовал себя необыкновенно хорошо. Они сидели, и между тем как я весело отвечал, болтали о том-о-сем. Но прошло немного времени, я почувствовал, что бледнею, и искренно пожелал, чтобы они поскорее ушли. У меня заболела голова, и мне показалось, что в ушах моих раздался звон; но они все еще продолжали сидеть, все продолжали болтать. Звон стал делаться явственнее — он продолжался и делался все более явственным: я начал говорить с усиленной развязностью, чтобы отделаться от этого чувства, но звон продолжался с неуклонным упорством — он возрастал и, наконец, я понял, что шум был не в моих ушах.",
+            "credit": "Константин Бальмонт · 1843 (original); 1913 (translation edition)",
+            "note": "Исторический опубликованный перевод. Добавлен при сборке после завершения всех AI-генераций.",
+            "sourceUrl": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)"
+          },
+          {
+            "id": "df72ab081361db11",
+            "method": "baseline",
+            "text": "Полицейские остались довольны. Моё поведение убедило их. Я чувствовал себя на редкость непринуждённо. Они сидели и болтали о житейских вещах, а я весело отвечал. Но вскоре я почувствовал, что бледнею, и захотел, чтобы они ушли. У меня болела голова, и мне чудился звон в ушах; но они всё сидели и всё болтали. Звон становился отчётливее; он не прекращался и становился отчётливее. Я заговорил свободнее, чтобы избавиться от этого ощущения, но оно не проходило и становилось всё явственнее — пока наконец я не понял, что шум раздаётся не у меня в ушах.",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Новая изолированная генерация: короткая просьба перевести, без переводческих skills. Английский контекст тот же, что в других условиях.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          },
+          {
+            "id": "5f394412ee5d9f53",
+            "method": "reviewed",
+            "text": "Полицейские были удовлетворены. Моё поведение убедило их. Я чувствовал себя необычайно непринуждённо. Они сидели и толковали об обыденных вещах, а я весело отвечал. Но вскоре я почувствовал, что бледнею, и мне захотелось, чтобы они ушли. Голова у меня болела, и мне чудился звон в ушах; но они всё сидели и всё болтали. Звон становился отчётливее; он не прекращался и становился отчётливее. Я разговорился, чтобы отделаться от этого ощущения, но оно не проходило и делалось всё определённее — пока наконец я не обнаружил, что шум звучит не у меня в ушах.",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Тот же craft-черновик после отдельной QA-сверки и редакторского решения. Новые сессии той же модели; человеческой редактуры не было.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          }
+        ]
+      },
+      {
+        "id": "poe-extra-16",
+        "author": "Эдгар Аллан По",
+        "title": "The Tell-Tale Heart / Сердце-изобличитель",
+        "tag": "нервная проза",
+        "source": "No doubt I now grew very pale; but I talked more fluently and with a heightened voice. Yet the sound increased—and what could I do? It was a low, dull, quick sound—much such a sound as a watch makes when enveloped in cotton . I gasped for breath—and yet the officers heard it not. I talked more quickly—more vehemently; but the noise steadily increased. I arose and argued about trifles, in a high key and with violent gesticulations; but the noise steadily increased. Why would they not be gone? I paced the floor to and fro with heavy strides, as if excited to fury by the observations of the men—but the noise steadily increased. O God! what could I do? I foamed—I raved—I swore! I swung the chair upon which I had been sitting, and grated it upon the boards, but the noise arose over all and continually increased. It grew louder—louder— louder! And still the men chatted pleasantly, ​ and smiled. Was it possible they heard not? Almighty God!—no, no! They heard!—they suspected!—they knew! —they were making a mockery of my horror!—this I thought, and this I think. But anything was better than this agony! Anything was more tolerable than this derision! I could bear those hypocritical smiles no longer! I felt that I must scream or die!—and now—again!—hark! louder! louder! louder! louder!",
+        "sourceUrl": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "comparisonGroup": "isolated",
+        "votingEligible": true,
+        "workId": "heart",
+        "candidates": [
+          {
+            "id": "6ef64e2ad3d58c66",
+            "method": "published",
+            "text": "Не было сомнения, что я очень побледнел; но я говорил все более бегло, я все более повышал голос. Звук возрастал — что́ мне было делать? Это был тихий, глухой быстрый звук — очень похожий на тиканье карманных часов, завернутых в вату . Я задыхался — но полицейские чиновники не слыхали его. Я продолжал говорить все быстрее — все более порывисто; но шум упорно возрастал. Я вскочил и стал разглагольствовать о разных пустяках, громко и с резкими жестикуляциями; но шум упорно возрастал. Почему они не хотели уходить? Тяжелыми, большими шагами я стал расхаживать взад и вперед по комнате, как бы возбужденный до бешенства наблюдениями этих людей — но шум упорно возрастал. О, Боже! что мне было делать? Я кипятился — я приходил в неистовство — я клялся! Я дергал стул, на котором сидел, и царапал им по доскам, но шум поднимался надо всем и беспрерывно возрастал. Он становился все громче — громче — громче! А они все сидели и болтали и улыбались. Неужели они не слыхали? Боже всемогущий! — нет, нет! Они слышали! — они подозревали! — они знали! — они насмехались над моим ужасом! — я подумал это тогда, я так думаю и теперь. Но что бы ни случилось, все лучше, чем эта агония! Я все мог вынести, только не эту насмешку! Я не мог больше видеть эти лицемерные улыбки, чувствовал, что я должен закричать или умереть! — и вот — опять! — слышите! — громче! громче! громче! громче!",
+            "credit": "Константин Бальмонт · 1843 (original); 1913 (translation edition)",
+            "note": "Исторический опубликованный перевод. Добавлен при сборке после завершения всех AI-генераций.",
+            "sourceUrl": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)"
+          },
+          {
+            "id": "d40ea163cfae65d9",
+            "method": "baseline",
+            "text": "Несомненно, теперь я сильно побледнел; но речь моя лилась всё бойчее, а голос становился громче. И всё же звук усиливался — и что я мог поделать? Это был тихий, глухой, частый звук — почти такой, какой издают часы, завёрнутые в вату. Я задыхался — а полицейские всё же ничего не слышали. Я заговорил быстрее — горячее; но шум неуклонно нарастал. Я встал и принялся спорить о пустяках, повышая голос и неистово жестикулируя; но шум неуклонно нарастал. Почему они не уходили? Я зашагал по комнате взад и вперёд тяжёлой поступью, словно их замечания довели меня до бешенства, — но шум неуклонно нарастал. О Боже! Что я мог поделать? У меня пена выступила на губах — я буйствовал — я сыпал проклятиями! Я схватил стул, на котором сидел, размахивал им и скрёб им по половицам, но шум перекрывал всё и непрестанно нарастал. Он становился громче — громче — громче! А они по-прежнему мирно болтали и улыбались. Неужели они не слышали? Всемогущий Боже! — нет, нет! Они слышали! — они подозревали! — они знали! — они глумились над моим ужасом! — так я думал тогда и так думаю теперь. Но что угодно было лучше этой муки! Что угодно было сноснее этого глумления! Я больше не мог выносить этих лицемерных улыбок! Я чувствовал, что должен закричать или умереть! — и вот — опять! — слушайте! громче! громче! громче! громче!",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Новая изолированная генерация: короткая просьба перевести, без переводческих skills. Английский контекст тот же, что в других условиях.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          },
+          {
+            "id": "c7e08e9e451c168b",
+            "method": "reviewed",
+            "text": "Теперь я, несомненно, очень побледнел; но говорил всё бойчее и всё громче. А звук усиливался — и что я мог поделать? Это был тихий, глухой, частый стук — почти такой же стук, какой издают часы, завёрнутые в вату. Я задыхался — а полицейские всё же ничего не слышали. Я говорил быстрее — горячее; но шум неуклонно нарастал. Я встал и принялся спорить о пустяках, на повышенных тонах и бурно жестикулируя; но шум неуклонно нарастал. Почему же они не уходили? Я ходил по комнате взад и вперёд тяжёлыми шагами, словно замечания этих людей довели меня до ярости, — но шум неуклонно нарастал. О Боже! Что я мог поделать? Пена выступила у меня на губах — я неистовствовал — я ругался! Я схватил стул, на котором сидел, стал размахивать им и скрежетать его ножками по доскам, но шум перекрывал всё и непрерывно нарастал. Он становился громче — громче — громче! А эти люди всё мирно беседовали и улыбались. Неужели они не слышали? Боже всемогущий! — нет, нет! Они слышали! — они подозревали! — они знали! — они глумились над моим ужасом! — так я думал тогда и так думаю теперь. Но что угодно было лучше этой муки! Что угодно было сноснее этого издевательства! Я больше не мог выносить этих лицемерных улыбок! Я чувствовал, что должен закричать или умереть! — и вот — опять! — слышите! громче! громче! громче! громче!",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Тот же craft-черновик после отдельной QA-сверки и редакторского решения. Новые сессии той же модели; человеческой редактуры не было.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          }
+        ]
+      },
+      {
+        "id": "poe-extra-17",
+        "author": "Эдгар Аллан По",
+        "title": "The Tell-Tale Heart / Сердце-изобличитель",
+        "tag": "нервная проза",
+        "source": "\"Villains!\" I shrieked, \"dissemble no more! I admit the deed!—tear up the planks!—here, here!—it is the beating of his hideous heart!\"",
+        "sourceUrl": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Tell-Tale_Heart",
+        "comparisonGroup": "isolated",
+        "votingEligible": true,
+        "workId": "heart",
+        "candidates": [
+          {
+            "id": "50e5899e82521721",
+            "method": "published",
+            "text": "«Негодяи!» закричал я, «не притворяйтесь больше! Я сознаюсь в убийстве! — сорвите эти доски! — вот здесь, здесь! — вы слышите, это бьется его проклятое сердце!»",
+            "credit": "Константин Бальмонт · 1843 (original); 1913 (translation edition)",
+            "note": "Исторический опубликованный перевод. Добавлен при сборке после завершения всех AI-генераций.",
+            "sourceUrl": "https://ru.wikisource.org/wiki/Сердце-изобличитель_(По;_Бальмонт)"
+          },
+          {
+            "id": "ba5e96a14c8d5933",
+            "method": "baseline",
+            "text": "«Злодеи! — завопил я. — Хватит притворяться! Я признаюсь в содеянном! — Срывайте доски! — здесь, здесь! — это бьётся его омерзительное сердце!»",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Новая изолированная генерация: короткая просьба перевести, без переводческих skills. Английский контекст тот же, что в других условиях.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          },
+          {
+            "id": "edb31911123cd51d",
+            "method": "reviewed",
+            "text": "«Злодеи! — закричал я. — Хватит притворяться! Я признаюсь в содеянном! — Взломайте доски! — Здесь, здесь! — Это бьётся его отвратительное сердце!»",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Тот же craft-черновик после отдельной QA-сверки и редакторского решения. Новые сессии той же модели; человеческой редактуры не было.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          }
+        ]
+      },
+      {
+        "id": "wilde-extra-01",
+        "author": "Оскар Уайльд",
+        "title": "The Doer of Good / Творитель добра",
+        "tag": "притча и диалог",
+        "source": "And He saw afar-off the walls of a round city and went towards the city.",
+        "sourceUrl": "https://www.gutenberg.org/files/774/774-h/774-h.htm",
+        "comparisonGroup": "isolated",
+        "votingEligible": true,
+        "workId": "doer",
+        "candidates": [
+          {
+            "id": "6d01b810c7b10468",
+            "method": "published",
+            "text": "И Он увидел вдали стены круглого города, и направился к этому городу.",
+            "credit": "Михаил Фёдорович Ликиардопуло · 1894 (original); 1911 (translation, Новый чтец-декламатор, Kyiv, p.61)",
+            "note": "Исторический опубликованный перевод. Добавлен при сборке после завершения всех AI-генераций.",
+            "sourceUrl": "https://ru.wikisource.org/wiki/Творитель_добра_(Уайльд)"
+          },
+          {
+            "id": "02bf03fb82005838",
+            "method": "baseline",
+            "text": "И Он увидел вдали стены круглого города и пошёл к городу.",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Новая изолированная генерация: короткая просьба перевести, без переводческих skills. Английский контекст тот же, что в других условиях.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          },
+          {
+            "id": "c9ee543f27d327b5",
+            "method": "reviewed",
+            "text": "И Он увидел вдали стены круглого города и направился к городу.",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Тот же craft-черновик после отдельной QA-сверки и редакторского решения. Новые сессии той же модели; человеческой редактуры не было.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          }
+        ]
+      },
+      {
+        "id": "wilde-extra-02",
+        "author": "Оскар Уайльд",
+        "title": "The Doer of Good / Творитель добра",
+        "tag": "притча и диалог",
+        "source": "And when He came near He heard within the city the tread of the feet of joy, and the laughter of the mouth of gladness and the loud noise of many lutes. And He knocked at the gate and certain of the gate-keepers opened to Him.",
+        "sourceUrl": "https://www.gutenberg.org/files/774/774-h/774-h.htm",
+        "comparisonGroup": "isolated",
+        "votingEligible": true,
+        "workId": "doer",
+        "candidates": [
+          {
+            "id": "d3d6cb6d75340806",
+            "method": "published",
+            "text": "И когда Он подошел ближе, услыхал Он в городе топот радостных ног и смех ликующих уст и громкие звуки многих лютней. И Он постучал в ворота, и некоторые из привратников отворили Ему.",
+            "credit": "Михаил Фёдорович Ликиардопуло · 1894 (original); 1911 (translation, Новый чтец-декламатор, Kyiv, p.61)",
+            "note": "Исторический опубликованный перевод. Добавлен при сборке после завершения всех AI-генераций.",
+            "sourceUrl": "https://ru.wikisource.org/wiki/Творитель_добра_(Уайльд)"
+          },
+          {
+            "id": "5da411899c9e4d6b",
+            "method": "baseline",
+            "text": "И когда Он приблизился, то услышал в городе поступь ног радости, и смех уст веселья, и громкие звуки множества лютен. И Он постучал в ворота, и некоторые из привратников отворили Ему.",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Новая изолированная генерация: короткая просьба перевести, без переводческих skills. Английский контекст тот же, что в других условиях.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          },
+          {
+            "id": "69bcf3ec7749091e",
+            "method": "reviewed",
+            "text": "И когда Он приблизился, Он услышал в городе поступь ног радости, и смех уст веселья, и громкие звуки множества лютен. И Он постучал в ворота, и некоторые из привратников отворили Ему.",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Тот же craft-черновик после отдельной QA-сверки и редакторского решения. Новые сессии той же модели; человеческой редактуры не было.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          }
+        ]
+      },
+      {
+        "id": "wilde-extra-03",
+        "author": "Оскар Уайльд",
+        "title": "The Doer of Good / Творитель добра",
+        "tag": "притча и диалог",
+        "source": "And when He had passed through the hall of chalcedony and the hall of jasper, and reached the long hall of feasting, He saw lying on a couch of sea-purple one whose hair was crowned with red roses and whose lips were red with wine.",
+        "sourceUrl": "https://www.gutenberg.org/files/774/774-h/774-h.htm",
+        "comparisonGroup": "isolated",
+        "votingEligible": true,
+        "workId": "doer",
+        "candidates": [
+          {
+            "id": "ee929eb3dffc33c7",
+            "method": "published",
+            "text": "И когда Он прошел через зал из халцедона и через зал из яшмы, и пришел в длинный пиршественный зал, Он увидел на пурпурном ложе человека, чьи волосы были увенчаны алыми розами и чьи губы были красны от вина.",
+            "credit": "Михаил Фёдорович Ликиардопуло · 1894 (original); 1911 (translation, Новый чтец-декламатор, Kyiv, p.61)",
+            "note": "Исторический опубликованный перевод. Добавлен при сборке после завершения всех AI-генераций.",
+            "sourceUrl": "https://ru.wikisource.org/wiki/Творитель_добра_(Уайльд)"
+          },
+          {
+            "id": "60ec7bf2743a846d",
+            "method": "baseline",
+            "text": "И когда Он прошёл зал халцедона и зал яшмы и достиг длинного пиршественного зала, то увидел на ложе морского пурпура человека, чьи волосы были увенчаны красными розами и чьи губы были красны от вина.",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Новая изолированная генерация: короткая просьба перевести, без переводческих skills. Английский контекст тот же, что в других условиях.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          },
+          {
+            "id": "cc6c461d9c01389a",
+            "method": "reviewed",
+            "text": "И когда Он прошёл через зал халцедона и зал яшмы и достиг длинного пиршественного зала, Он увидел лежащего на ложе цвета морского пурпура человека, чьи волосы были увенчаны красными розами и чьи губы были красны от вина.",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Тот же craft-черновик после отдельной QA-сверки и редакторского решения. Новые сессии той же модели; человеческой редактуры не было.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          }
+        ]
+      },
+      {
+        "id": "wilde-extra-04",
+        "author": "Оскар Уайльд",
+        "title": "The Doer of Good / Творитель добра",
+        "tag": "притча и диалог",
+        "source": "And He went behind him and touched him on the shoulder and said to him, ‘Why do you live like this?’",
+        "sourceUrl": "https://www.gutenberg.org/files/774/774-h/774-h.htm",
+        "comparisonGroup": "isolated",
+        "votingEligible": false,
+        "workId": "doer",
+        "candidates": [
+          {
+            "id": "9e81fd542f6e8fee",
+            "method": "published",
+            "text": "И Он подошел к нему сзади, дотронулся до плеча его, и сказал: — Почему ты живешь так?",
+            "credit": "Михаил Фёдорович Ликиардопуло · 1894 (original); 1911 (translation, Новый чтец-декламатор, Kyiv, p.61)",
+            "note": "Исторический опубликованный перевод. Добавлен при сборке после завершения всех AI-генераций.",
+            "sourceUrl": "https://ru.wikisource.org/wiki/Творитель_добра_(Уайльд)"
+          },
+          {
+            "id": "ffdbfebbce2c7b30",
+            "method": "baseline",
+            "text": "И Он подошёл к нему сзади, и коснулся его плеча, и сказал ему: «Почему ты так живёшь?»",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Новая изолированная генерация: короткая просьба перевести, без переводческих skills. Английский контекст тот же, что в других условиях.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          },
+          {
+            "id": "04c5212b4592792d",
+            "method": "reviewed",
+            "text": "И Он подошёл к нему сзади, и коснулся его плеча, и сказал ему: «Почему ты так живёшь?»",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Тот же craft-черновик после отдельной QA-сверки и редакторского решения. Новые сессии той же модели; человеческой редактуры не было.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          }
+        ]
+      },
+      {
+        "id": "wilde-extra-05",
+        "author": "Оскар Уайльд",
+        "title": "The Doer of Good / Творитель добра",
+        "tag": "притча и диалог",
+        "source": "And the young man turned round and recognised Him, and made answer and said, ‘But I was a leper once, and you healed me. How else should I live?’",
+        "sourceUrl": "https://www.gutenberg.org/files/774/774-h/774-h.htm",
+        "comparisonGroup": "isolated",
+        "votingEligible": true,
+        "workId": "doer",
+        "candidates": [
+          {
+            "id": "feaffd1f3508cd94",
+            "method": "published",
+            "text": "И юноша обернулся и узнал Его, и сказал в ответ: — Но ведь когда-то я был прокаженным, и Ты исцелил меня. Как же мне иначе жить.",
+            "credit": "Михаил Фёдорович Ликиардопуло · 1894 (original); 1911 (translation, Новый чтец-декламатор, Kyiv, p.61)",
+            "note": "Исторический опубликованный перевод. Добавлен при сборке после завершения всех AI-генераций.",
+            "sourceUrl": "https://ru.wikisource.org/wiki/Творитель_добра_(Уайльд)"
+          },
+          {
+            "id": "dc948902c0f50155",
+            "method": "baseline",
+            "text": "И юноша обернулся, и узнал Его, и сказал в ответ: «Но ведь я был прокажённым, и ты исцелил меня. Как же ещё мне жить?»",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Новая изолированная генерация: короткая просьба перевести, без переводческих skills. Английский контекст тот же, что в других условиях.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          },
+          {
+            "id": "37b6dbace774de3f",
+            "method": "reviewed",
+            "text": "И юноша обернулся и узнал Его, и ответил, и сказал: «Но когда-то я был прокажённым, и ты исцелил меня. Как же мне ещё жить?»",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Тот же craft-черновик после отдельной QA-сверки и редакторского решения. Новые сессии той же модели; человеческой редактуры не было.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          }
+        ]
+      },
+      {
+        "id": "wilde-extra-06",
+        "author": "Оскар Уайльд",
+        "title": "The Doer of Good / Творитель добра",
+        "tag": "притча и диалог",
+        "source": "And He passed out of the house and went again into the street.",
+        "sourceUrl": "https://www.gutenberg.org/files/774/774-h/774-h.htm",
+        "comparisonGroup": "isolated",
+        "votingEligible": false,
+        "workId": "doer",
+        "candidates": [
+          {
+            "id": "09509eb83ce6786c",
+            "method": "published",
+            "text": "И Он оставил дом этот и вышел снова на улицу.",
+            "credit": "Михаил Фёдорович Ликиардопуло · 1894 (original); 1911 (translation, Новый чтец-декламатор, Kyiv, p.61)",
+            "note": "Исторический опубликованный перевод. Добавлен при сборке после завершения всех AI-генераций.",
+            "sourceUrl": "https://ru.wikisource.org/wiki/Творитель_добра_(Уайльд)"
+          },
+          {
+            "id": "f8b540e0d3097da0",
+            "method": "baseline",
+            "text": "И Он вышел из дома и снова пошёл по улице.",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Новая изолированная генерация: короткая просьба перевести, без переводческих skills. Английский контекст тот же, что в других условиях.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          },
+          {
+            "id": "67e6e678a8ab8f4f",
+            "method": "reviewed",
+            "text": "И Он вышел из дома и снова пошёл по улице.",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Тот же craft-черновик после отдельной QA-сверки и редакторского решения. Новые сессии той же модели; человеческой редактуры не было.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          }
+        ]
+      },
+      {
+        "id": "wilde-extra-07",
+        "author": "Оскар Уайльд",
+        "title": "The Doer of Good / Творитель добра",
+        "tag": "притча и диалог",
+        "source": "And after a little while He saw one whose face and raiment were painted and whose feet were shod with pearls. And behind her came, slowly as a hunter, a young man who wore a cloak of two colours. Now the face of the woman was as the fair face of an idol, and the eyes of the young man were bright with lust.",
+        "sourceUrl": "https://www.gutenberg.org/files/774/774-h/774-h.htm",
+        "comparisonGroup": "isolated",
+        "votingEligible": true,
+        "workId": "doer",
+        "candidates": [
+          {
+            "id": "78c530afd11b038b",
+            "method": "published",
+            "text": "И вскоре Он увидал женщину, чье лицо и одежда были разрисованы, и ноги которой были обуты в жемчуг. И за нею медленно крался, словно охотник, юноша в двухцветном плаще.\n\nЛицо женщины было подобно прекрасному лику идола, а глаза юноши горели сладострастием.",
+            "credit": "Михаил Фёдорович Ликиардопуло · 1894 (original); 1911 (translation, Новый чтец-декламатор, Kyiv, p.61)",
+            "note": "Исторический опубликованный перевод. Добавлен при сборке после завершения всех AI-генераций.",
+            "sourceUrl": "https://ru.wikisource.org/wiki/Творитель_добра_(Уайльд)"
+          },
+          {
+            "id": "ca1ee2baa85a950e",
+            "method": "baseline",
+            "text": "И немного погодя Он увидел женщину, чьё лицо было раскрашено, а одеяние расписано, и чья обувь была унизана жемчугом. И следом за нею шёл, медленно, как охотник, юноша в двухцветном плаще. Лицо же женщины было подобно прекрасному лику идола, а глаза юноши горели похотью.",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Новая изолированная генерация: короткая просьба перевести, без переводческих skills. Английский контекст тот же, что в других условиях.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          },
+          {
+            "id": "28755721c1f0567c",
+            "method": "reviewed",
+            "text": "И немного спустя Он увидел женщину, чьё лицо было раскрашено, чьи одежды были расписными и чья обувь была украшена жемчугом. И за нею шёл, медленно, как охотник, юноша в двухцветном плаще. И лицо женщины было подобно прекрасному лицу идола, и глаза юноши горели вожделением.",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Тот же craft-черновик после отдельной QA-сверки и редакторского решения. Новые сессии той же модели; человеческой редактуры не было.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          }
+        ]
+      },
+      {
+        "id": "wilde-extra-08",
+        "author": "Оскар Уайльд",
+        "title": "The Doer of Good / Творитель добра",
+        "tag": "притча и диалог",
+        "source": "And He followed swiftly and touched the hand of the young man and said to him, ‘Why do you look at this woman and in such wise?’",
+        "sourceUrl": "https://www.gutenberg.org/files/774/774-h/774-h.htm",
+        "comparisonGroup": "isolated",
+        "votingEligible": true,
+        "workId": "doer",
+        "candidates": [
+          {
+            "id": "a5911fce56610239",
+            "method": "published",
+            "text": "И Он быстро пошел за ними и коснулся руки юноши и сказал. — Почему ты смотришь на эту женщину и еще таким взором?",
+            "credit": "Михаил Фёдорович Ликиардопуло · 1894 (original); 1911 (translation, Новый чтец-декламатор, Kyiv, p.61)",
+            "note": "Исторический опубликованный перевод. Добавлен при сборке после завершения всех AI-генераций.",
+            "sourceUrl": "https://ru.wikisource.org/wiki/Творитель_добра_(Уайльд)"
+          },
+          {
+            "id": "954eab585c60340a",
+            "method": "baseline",
+            "text": "И Он поспешил следом, и коснулся руки юноши, и сказал ему: «Почему ты смотришь на эту женщину и смотришь так?»",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Новая изолированная генерация: короткая просьба перевести, без переводческих skills. Английский контекст тот же, что в других условиях.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          },
+          {
+            "id": "7802cb2dbab030bf",
+            "method": "reviewed",
+            "text": "И Он поспешил вслед за ними, и коснулся руки юноши, и сказал ему: «Почему ты смотришь на эту женщину, и смотришь так?»",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Тот же craft-черновик после отдельной QA-сверки и редакторского решения. Новые сессии той же модели; человеческой редактуры не было.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          }
+        ]
+      },
+      {
+        "id": "wilde-extra-09",
+        "author": "Оскар Уайльд",
+        "title": "The Doer of Good / Творитель добра",
+        "tag": "притча и диалог",
+        "source": "And the young man turned round and recognised Him and said, ‘But I was blind once, and you gave me sight. At what else should I look?’",
+        "sourceUrl": "https://www.gutenberg.org/files/774/774-h/774-h.htm",
+        "comparisonGroup": "isolated",
+        "votingEligible": true,
+        "workId": "doer",
+        "candidates": [
+          {
+            "id": "c1ed76d0b2322334",
+            "method": "published",
+            "text": "И юноша обернулся и узнал Его, и сказал: — Но ведь когда-то я был слепым и Ты вернул мне зрение. На что же другое мне смотреть?",
+            "credit": "Михаил Фёдорович Ликиардопуло · 1894 (original); 1911 (translation, Новый чтец-декламатор, Kyiv, p.61)",
+            "note": "Исторический опубликованный перевод. Добавлен при сборке после завершения всех AI-генераций.",
+            "sourceUrl": "https://ru.wikisource.org/wiki/Творитель_добра_(Уайльд)"
+          },
+          {
+            "id": "8d3f2e8819ac1381",
+            "method": "baseline",
+            "text": "И юноша обернулся, и узнал Его, и сказал: «Но ведь я был слеп, и ты дал мне зрение. На что же ещё мне смотреть?»",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Новая изолированная генерация: короткая просьба перевести, без переводческих skills. Английский контекст тот же, что в других условиях.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          },
+          {
+            "id": "0c3b298315796a7e",
+            "method": "reviewed",
+            "text": "И юноша обернулся и узнал Его, и сказал: «Но когда-то я был слеп, и ты дал мне зрение. На что же мне ещё смотреть?»",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Тот же craft-черновик после отдельной QA-сверки и редакторского решения. Новые сессии той же модели; человеческой редактуры не было.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          }
+        ]
+      },
+      {
+        "id": "wilde-extra-10",
+        "author": "Оскар Уайльд",
+        "title": "The Doer of Good / Творитель добра",
+        "tag": "притча и диалог",
+        "source": "And He ran forward and touched the painted raiment of the woman and said to her, ‘Is there no other way in which to walk save the way of sin?’",
+        "sourceUrl": "https://www.gutenberg.org/files/774/774-h/774-h.htm",
+        "comparisonGroup": "isolated",
+        "votingEligible": true,
+        "workId": "doer",
+        "candidates": [
+          {
+            "id": "921a09dfc373642b",
+            "method": "published",
+            "text": "И Он догнал женщину и коснулся разрисованной одежды ее и сказал ей: — Разве нет иного пути, кроме пути греха?",
+            "credit": "Михаил Фёдорович Ликиардопуло · 1894 (original); 1911 (translation, Новый чтец-декламатор, Kyiv, p.61)",
+            "note": "Исторический опубликованный перевод. Добавлен при сборке после завершения всех AI-генераций.",
+            "sourceUrl": "https://ru.wikisource.org/wiki/Творитель_добра_(Уайльд)"
+          },
+          {
+            "id": "069cf9a88c21f6b9",
+            "method": "baseline",
+            "text": "И Он подбежал к женщине, и коснулся её расписного одеяния, и сказал ей: «Разве нет иного пути, по которому можно идти, кроме пути греха?»",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Новая изолированная генерация: короткая просьба перевести, без переводческих skills. Английский контекст тот же, что в других условиях.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          },
+          {
+            "id": "cc2d15769a73cd73",
+            "method": "reviewed",
+            "text": "И Он побежал вперёд, и коснулся расписных одежд женщины, и сказал ей: «Разве нет иного пути, по которому можно идти, кроме пути греха?»",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Тот же craft-черновик после отдельной QA-сверки и редакторского решения. Новые сессии той же модели; человеческой редактуры не было.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          }
+        ]
+      },
+      {
+        "id": "wilde-extra-11",
+        "author": "Оскар Уайльд",
+        "title": "The Doer of Good / Творитель добра",
+        "tag": "притча и диалог",
+        "source": "And the woman turned round and recognised Him, and laughed and said, ‘But you forgave me my sins, and the way is a pleasant way.’",
+        "sourceUrl": "https://www.gutenberg.org/files/774/774-h/774-h.htm",
+        "comparisonGroup": "isolated",
+        "votingEligible": true,
+        "workId": "doer",
+        "candidates": [
+          {
+            "id": "a438f65b89a0e09e",
+            "method": "published",
+            "text": "И женщина обернулась и узнала Его, засмеялась, и сказала: — Но ты отпустил мне грехи мои, и путь этот — веселый путь.",
+            "credit": "Михаил Фёдорович Ликиардопуло · 1894 (original); 1911 (translation, Новый чтец-декламатор, Kyiv, p.61)",
+            "note": "Исторический опубликованный перевод. Добавлен при сборке после завершения всех AI-генераций.",
+            "sourceUrl": "https://ru.wikisource.org/wiki/Творитель_добра_(Уайльд)"
+          },
+          {
+            "id": "c437f4493889862b",
+            "method": "baseline",
+            "text": "И женщина обернулась, и узнала Его, и засмеялась, и сказала: «Но ведь ты простил мне мои грехи, а по этому пути приятно идти».",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Новая изолированная генерация: короткая просьба перевести, без переводческих skills. Английский контекст тот же, что в других условиях.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          },
+          {
+            "id": "b93230a44c0cc39d",
+            "method": "reviewed",
+            "text": "И женщина обернулась и узнала Его, и засмеялась, и сказала: «Но ты простил мне мои грехи, а этот путь — приятный путь».",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Тот же craft-черновик после отдельной QA-сверки и редакторского решения. Новые сессии той же модели; человеческой редактуры не было.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          }
+        ]
+      },
+      {
+        "id": "wilde-extra-12",
+        "author": "Оскар Уайльд",
+        "title": "The Doer of Good / Творитель добра",
+        "tag": "притча и диалог",
+        "source": "And He passed out of the city.",
+        "sourceUrl": "https://www.gutenberg.org/files/774/774-h/774-h.htm",
+        "comparisonGroup": "isolated",
+        "votingEligible": false,
+        "workId": "doer",
+        "candidates": [
+          {
+            "id": "62b40e356f2c82d8",
+            "method": "published",
+            "text": "И Он вышел из города.",
+            "credit": "Михаил Фёдорович Ликиардопуло · 1894 (original); 1911 (translation, Новый чтец-декламатор, Kyiv, p.61)",
+            "note": "Исторический опубликованный перевод. Добавлен при сборке после завершения всех AI-генераций.",
+            "sourceUrl": "https://ru.wikisource.org/wiki/Творитель_добра_(Уайльд)"
+          },
+          {
+            "id": "cf3163f07a631806",
+            "method": "baseline",
+            "text": "И Он вышел из города.",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Новая изолированная генерация: короткая просьба перевести, без переводческих skills. Английский контекст тот же, что в других условиях.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          },
+          {
+            "id": "22dc2e7f9e1a7cbb",
+            "method": "reviewed",
+            "text": "И Он вышел из города.",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Тот же craft-черновик после отдельной QA-сверки и редакторского решения. Новые сессии той же модели; человеческой редактуры не было.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          }
+        ]
+      },
+      {
+        "id": "cat-01",
+        "author": "Эдгар Аллан По",
+        "title": "The Black Cat / Чёрный кот",
+        "tag": "чёрный кот",
+        "source": "But to-morrow I die, and to-day I would unburthen my soul.",
+        "sourceUrl": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Black_Cat",
+        "comparisonGroup": "isolated",
+        "votingEligible": true,
+        "workId": "cat",
+        "candidates": [
+          {
+            "id": "fa4a976113d9baf4",
+            "method": "published",
+            "text": "Но завтра я умру, и сегодня мне хотелось бы освободить мою душу от тяжести.",
+            "credit": "Константин Бальмонт · 1843 (original); 1901 (translation edition)",
+            "note": "Исторический опубликованный перевод. Добавлен при сборке после завершения всех AI-генераций.",
+            "sourceUrl": "https://ru.wikisource.org/wiki/Чёрный_кот_(По;_Бальмонт)"
+          },
+          {
+            "id": "0f53133071577cc7",
+            "method": "baseline",
+            "text": "Но завтра я умру, а сегодня хочу облегчить душу.",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Новая изолированная генерация: короткая просьба перевести, без переводческих skills. Английский контекст тот же, что в других условиях.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          },
+          {
+            "id": "6c9e217a4841853c",
+            "method": "reviewed",
+            "text": "Но завтра я умру, а сегодня хотел бы облегчить душу.",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Тот же craft-черновик после отдельной QA-сверки и редакторского решения. Новые сессии той же модели; человеческой редактуры не было.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          }
+        ]
+      },
+      {
+        "id": "cat-02",
+        "author": "Эдгар Аллан По",
+        "title": "The Black Cat / Чёрный кот",
+        "tag": "чёрный кот",
+        "source": "In their consequences these events have terrified—have tortured—have destroyed me. Yet I will not attempt to expound them.",
+        "sourceUrl": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Black_Cat",
+        "comparisonGroup": "isolated",
+        "votingEligible": true,
+        "workId": "cat",
+        "candidates": [
+          {
+            "id": "2d4ff8f64c58b11c",
+            "method": "published",
+            "text": "В своих последствиях эти события устрашили — замучили — погубили меня. Однако я не буду пытаться истолковывать их.",
+            "credit": "Константин Бальмонт · 1843 (original); 1901 (translation edition)",
+            "note": "Исторический опубликованный перевод. Добавлен при сборке после завершения всех AI-генераций.",
+            "sourceUrl": "https://ru.wikisource.org/wiki/Чёрный_кот_(По;_Бальмонт)"
+          },
+          {
+            "id": "46b1da90ceba2228",
+            "method": "baseline",
+            "text": "Последствия этих событий ужаснули меня — истерзали — погубили. И всё же я не стану пытаться их истолковать.",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Новая изолированная генерация: короткая просьба перевести, без переводческих skills. Английский контекст тот же, что в других условиях.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          },
+          {
+            "id": "67865348c85c7d29",
+            "method": "reviewed",
+            "text": "Своими последствиями эти события ужаснули меня — измучили меня — погубили меня. И всё же я не стану пытаться их объяснить.",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Тот же craft-черновик после отдельной QA-сверки и редакторского решения. Новые сессии той же модели; человеческой редактуры не было.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          }
+        ]
+      },
+      {
+        "id": "cat-03",
+        "author": "Эдгар Аллан По",
+        "title": "The Black Cat / Чёрный кот",
+        "tag": "чёрный кот",
+        "source": "My tenderness of heart was even so conspicuous as to make me the jest of my companions.",
+        "sourceUrl": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Black_Cat",
+        "comparisonGroup": "isolated",
+        "votingEligible": true,
+        "workId": "cat",
+        "candidates": [
+          {
+            "id": "69c55d455e2e42f8",
+            "method": "published",
+            "text": "Нежность моего сердца была даже так велика, что я был посмешищем среди своих товарищей.",
+            "credit": "Константин Бальмонт · 1843 (original); 1901 (translation edition)",
+            "note": "Исторический опубликованный перевод. Добавлен при сборке после завершения всех AI-генераций.",
+            "sourceUrl": "https://ru.wikisource.org/wiki/Чёрный_кот_(По;_Бальмонт)"
+          },
+          {
+            "id": "ce293c434c60d1b8",
+            "method": "baseline",
+            "text": "Моя мягкосердечность была столь заметна, что товарищи даже поднимали меня на смех.",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Новая изолированная генерация: короткая просьба перевести, без переводческих skills. Английский контекст тот же, что в других условиях.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          },
+          {
+            "id": "cf05b54519c2ab8c",
+            "method": "reviewed",
+            "text": "Моя мягкосердечность была столь заметна, что даже сделала меня посмешищем для товарищей.",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Тот же craft-черновик после отдельной QA-сверки и редакторского решения. Новые сессии той же модели; человеческой редактуры не было.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          }
+        ]
+      },
+      {
+        "id": "cat-04",
+        "author": "Эдгар Аллан По",
+        "title": "The Black Cat / Чёрный кот",
+        "tag": "чёрный кот",
+        "source": "I was especially fond of animals, and was indulged by my parents with a great variety of pets. With these I spent most of my time, and never was so happy as when feeding and caressing them.",
+        "sourceUrl": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Black_Cat",
+        "comparisonGroup": "isolated",
+        "votingEligible": true,
+        "workId": "cat",
+        "candidates": [
+          {
+            "id": "cbc8ad83546d55df",
+            "method": "published",
+            "text": "В особенности я любил животных, и родители мои награждали меня целым множеством бессловесных любимцев. С ними я проводил бо́льшую часть моего времени, и для меня было самым большим удовольствием кормить и ласкать их.",
+            "credit": "Константин Бальмонт · 1843 (original); 1901 (translation edition)",
+            "note": "Исторический опубликованный перевод. Добавлен при сборке после завершения всех AI-генераций.",
+            "sourceUrl": "https://ru.wikisource.org/wiki/Чёрный_кот_(По;_Бальмонт)"
+          },
+          {
+            "id": "6bee9297741dae37",
+            "method": "baseline",
+            "text": "Особенно я любил животных, и родители, потакая мне, держали дома самых разных питомцев. С ними я проводил большую часть времени и никогда не бывал так счастлив, как тогда, когда кормил и ласкал их.",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Новая изолированная генерация: короткая просьба перевести, без переводческих skills. Английский контекст тот же, что в других условиях.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          },
+          {
+            "id": "33229f21123c99a5",
+            "method": "reviewed",
+            "text": "Я особенно любил животных, и родители, потакая мне, позволяли держать самых разных питомцев. С ними я проводил большую часть времени и никогда не был так счастлив, как в те минуты, когда кормил и ласкал их.",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Тот же craft-черновик после отдельной QA-сверки и редакторского решения. Новые сессии той же модели; человеческой редактуры не было.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          }
+        ]
+      },
+      {
+        "id": "cat-05",
+        "author": "Эдгар Аллан По",
+        "title": "The Black Cat / Чёрный кот",
+        "tag": "чёрный кот",
+        "source": "I married early, and was happy to find in my wife a disposition not uncongenial with my own.",
+        "sourceUrl": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Black_Cat",
+        "comparisonGroup": "isolated",
+        "votingEligible": true,
+        "workId": "cat",
+        "candidates": [
+          {
+            "id": "7f82eaaef8ce6ad1",
+            "method": "published",
+            "text": "Я женился рано, и с удовольствием заметил, что наклонности моей жены не противоречили моим.",
+            "credit": "Константин Бальмонт · 1843 (original); 1901 (translation edition)",
+            "note": "Исторический опубликованный перевод. Добавлен при сборке после завершения всех AI-генераций.",
+            "sourceUrl": "https://ru.wikisource.org/wiki/Чёрный_кот_(По;_Бальмонт)"
+          },
+          {
+            "id": "a5da4c920505bac8",
+            "method": "baseline",
+            "text": "Я рано женился и был счастлив найти в жене нрав, созвучный моему.",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Новая изолированная генерация: короткая просьба перевести, без переводческих skills. Английский контекст тот же, что в других условиях.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          },
+          {
+            "id": "1012122283b08daa",
+            "method": "reviewed",
+            "text": "Я рано женился и был счастлив обнаружить в жене нрав, не чуждый моему.",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Тот же craft-черновик после отдельной QA-сверки и редакторского решения. Новые сессии той же модели; человеческой редактуры не было.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          }
+        ]
+      },
+      {
+        "id": "cat-06",
+        "author": "Эдгар Аллан По",
+        "title": "The Black Cat / Чёрный кот",
+        "tag": "чёрный кот",
+        "source": "We had birds, gold-fish, a fine dog, rabbits, a small monkey, and a cat.",
+        "sourceUrl": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Black_Cat",
+        "comparisonGroup": "isolated",
+        "votingEligible": false,
+        "workId": "cat",
+        "candidates": [
+          {
+            "id": "501acc6d5d642269",
+            "method": "published",
+            "text": "У нас были птицы, золотая рыбка, славная собака, кролики, маленькая обезьянка, и кот.",
+            "credit": "Константин Бальмонт · 1843 (original); 1901 (translation edition)",
+            "note": "Исторический опубликованный перевод. Добавлен при сборке после завершения всех AI-генераций.",
+            "sourceUrl": "https://ru.wikisource.org/wiki/Чёрный_кот_(По;_Бальмонт)"
+          },
+          {
+            "id": "7a35bfb75c4531a7",
+            "method": "baseline",
+            "text": "У нас были птицы, золотые рыбки, прекрасная собака, кролики, маленькая обезьянка и кот.",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Новая изолированная генерация: короткая просьба перевести, без переводческих skills. Английский контекст тот же, что в других условиях.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          },
+          {
+            "id": "989c3c8f4132ed8f",
+            "method": "reviewed",
+            "text": "У нас были птицы, золотые рыбки, прекрасная собака, кролики, маленькая обезьянка и кот.",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Тот же craft-черновик после отдельной QA-сверки и редакторского решения. Новые сессии той же модели; человеческой редактуры не было.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          }
+        ]
+      },
+      {
+        "id": "cat-07",
+        "author": "Эдгар Аллан По",
+        "title": "The Black Cat / Чёрный кот",
+        "tag": "чёрный кот",
+        "source": "Pluto—this was the cat's name—was my favorite pet and playmate. I alone fed him, and he attended me wherever I went about the house. It was even with difficulty that I could prevent him from following me through the streets.",
+        "sourceUrl": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Black_Cat",
+        "comparisonGroup": "isolated",
+        "votingEligible": true,
+        "workId": "cat",
+        "candidates": [
+          {
+            "id": "a8950e70c166f671",
+            "method": "published",
+            "text": "Плутон — так назывался кот — был моим излюбленным и неизменным товарищем. Я сам кормил его, и он сопровождал меня всюду в доме, куда бы я ни пошел. Мне даже стоило усилий удерживать его, чтобы он не следовал за мной по улицам.",
+            "credit": "Константин Бальмонт · 1843 (original); 1901 (translation edition)",
+            "note": "Исторический опубликованный перевод. Добавлен при сборке после завершения всех AI-генераций.",
+            "sourceUrl": "https://ru.wikisource.org/wiki/Чёрный_кот_(По;_Бальмонт)"
+          },
+          {
+            "id": "ac541ee1b989eae2",
+            "method": "baseline",
+            "text": "Плутон — так звали кота — был моим любимцем и товарищем по играм. Только я кормил его, и он ходил за мной по всему дому. Мне даже с трудом удавалось удержать его от того, чтобы следовать за мной по улицам.",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Новая изолированная генерация: короткая просьба перевести, без переводческих skills. Английский контекст тот же, что в других условиях.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          },
+          {
+            "id": "9494d0ba2f850222",
+            "method": "reviewed",
+            "text": "Плутон — так звали кота — был моим любимцем и товарищем по играм. Только я кормил его, и он сопровождал меня, куда бы я ни шёл по дому. Мне даже с трудом удавалось помешать ему следовать за мной по улицам.",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Тот же craft-черновик после отдельной QA-сверки и редакторского решения. Новые сессии той же модели; человеческой редактуры не было.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          }
+        ]
+      },
+      {
+        "id": "cat-08",
+        "author": "Эдгар Аллан По",
+        "title": "The Black Cat / Чёрный кот",
+        "tag": "чёрный кот",
+        "source": "Who has not, a hundred times, found himself committing a vile or a silly action for no other reason than because he knows he should not?",
+        "sourceUrl": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Black_Cat",
+        "comparisonGroup": "isolated",
+        "votingEligible": true,
+        "workId": "cat",
+        "candidates": [
+          {
+            "id": "7b6866e6b57554aa",
+            "method": "published",
+            "text": "Кто же не чувствовал, сотни раз, что он совершает низость или глупость только потому, что, как он знает, он не должен был бы этого делать?",
+            "credit": "Константин Бальмонт · 1843 (original); 1901 (translation edition)",
+            "note": "Исторический опубликованный перевод. Добавлен при сборке после завершения всех AI-генераций.",
+            "sourceUrl": "https://ru.wikisource.org/wiki/Чёрный_кот_(По;_Бальмонт)"
+          },
+          {
+            "id": "0815dead6916a349",
+            "method": "baseline",
+            "text": "Кто не ловил себя сотни раз на том, что совершает низкий или глупый поступок лишь потому, что знает: совершать его не следует?",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Новая изолированная генерация: короткая просьба перевести, без переводческих skills. Английский контекст тот же, что в других условиях.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          },
+          {
+            "id": "ddf548cf0652837c",
+            "method": "reviewed",
+            "text": "Кто из нас сотни раз не ловил себя на том, что совершает подлый или глупый поступок лишь потому, что знает: так поступать нельзя?",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Тот же craft-черновик после отдельной QA-сверки и редакторского решения. Новые сессии той же модели; человеческой редактуры не было.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          }
+        ]
+      },
+      {
+        "id": "cat-09",
+        "author": "Эдгар Аллан По",
+        "title": "The Black Cat / Чёрный кот",
+        "tag": "чёрный кот",
+        "source": "On the night of the day on which this cruel deed was done, I was aroused from sleep by the cry of fire. The curtains of my bed were in flames. The whole house was blazing.",
+        "sourceUrl": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Black_Cat",
+        "comparisonGroup": "isolated",
+        "votingEligible": true,
+        "workId": "cat",
+        "candidates": [
+          {
+            "id": "4d052f2c542a22e6",
+            "method": "published",
+            "text": "В ночь после того дня, когда было совершено это жестокое деяние, я был пробужден от сна криками «пожар». Занавеси на моей постели пылали. Весь дом был объят пламенем.",
+            "credit": "Константин Бальмонт · 1843 (original); 1901 (translation edition)",
+            "note": "Исторический опубликованный перевод. Добавлен при сборке после завершения всех AI-генераций.",
+            "sourceUrl": "https://ru.wikisource.org/wiki/Чёрный_кот_(По;_Бальмонт)"
+          },
+          {
+            "id": "2f3e163d4f7a35bf",
+            "method": "baseline",
+            "text": "В ночь после того дня, когда было совершено это жестокое дело, меня разбудили крики: «Пожар!» Занавеси моей постели были охвачены пламенем. Весь дом пылал.",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Новая изолированная генерация: короткая просьба перевести, без переводческих skills. Английский контекст тот же, что в других условиях.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          },
+          {
+            "id": "c36ed727cc3288fa",
+            "method": "reviewed",
+            "text": "В ночь после того дня, когда было совершено это жестокое дело, меня разбудили крики: «Пожар!» Полог моей кровати был в огне. Весь дом пылал.",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Тот же craft-черновик после отдельной QA-сверки и редакторского решения. Новые сессии той же модели; человеческой редактуры не было.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          }
+        ]
+      },
+      {
+        "id": "cat-10",
+        "author": "Эдгар Аллан По",
+        "title": "The Black Cat / Чёрный кот",
+        "tag": "чёрный кот",
+        "source": "It was a black cat—a very large one—fully as large as Pluto, and closely resembling him in every respect but one. Pluto had not a white hair upon any portion of his body; but this cat had a large, although indefinite splotch of white, covering nearly the whole region of the breast.",
+        "sourceUrl": "https://en.wikisource.org/wiki/Mystery_Tales_of_Edgar_Allan_Poe/The_Black_Cat",
+        "comparisonGroup": "isolated",
+        "votingEligible": true,
+        "workId": "cat",
+        "candidates": [
+          {
+            "id": "742cbb7b1e896867",
+            "method": "published",
+            "text": "Это был черный кот — очень большой — совершенно таких же размеров, как Плутон, и похожий на него во всех отношениях, кроме одного. У Плутона не было ни одного белого волоска на всем теле; а у этого кота было широкое, хотя и неопределенное, белое пятно, почти во всю грудь.",
+            "credit": "Константин Бальмонт · 1843 (original); 1901 (translation edition)",
+            "note": "Исторический опубликованный перевод. Добавлен при сборке после завершения всех AI-генераций.",
+            "sourceUrl": "https://ru.wikisource.org/wiki/Чёрный_кот_(По;_Бальмонт)"
+          },
+          {
+            "id": "d4f7665175e1ae21",
+            "method": "baseline",
+            "text": "Это был чёрный кот — очень крупный, ничуть не меньше Плутона и во всём, кроме одного, чрезвычайно на него похожий. У Плутона нигде на теле не было ни единого белого волоска; у этого же кота большое белое пятно расплывчатых очертаний покрывало почти всю грудь.",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Новая изолированная генерация: короткая просьба перевести, без переводческих skills. Английский контекст тот же, что в других условиях.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          },
+          {
+            "id": "86a1566b9ef86e3e",
+            "method": "reviewed",
+            "text": "Это был чёрный кот — очень большой — ничуть не меньше Плутона и во всех отношениях очень на него похожий, кроме одного. У Плутона нигде на теле не было ни единого белого волоска; у этого же кота было большое белое пятно неопределённых очертаний, покрывавшее почти всю грудь.",
+            "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+            "note": "Тот же craft-черновик после отдельной QA-сверки и редакторского решения. Новые сессии той же модели; человеческой редактуры не было.",
+            "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
+          }
+        ]
+      }
+    ]
+  },
+  "methods": {
+    "dataset": "blind-v5-78c4d8d96151",
+    "generated_on": "2026-10-30",
+    "selection": "40 fixed excerpts from three works; all AI outputs regenerated. Convenience preference pilot, not a representative literary benchmark.",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "skill_version": "d9dc9ae64d8090ffecdf540897b70779b0b19585",
+    "poll_methods": [
+      "published",
+      "baseline",
+      "reviewed"
+    ],
+    "intermediate_condition": "The skilled output is the frozen craft draft, retained as evidence but not a separate voting card. QA left 36 of 40 drafts unchanged, so displaying it alongside the reviewed candidate would duplicate text and split votes.",
+    "voting_eligibility": "Four fragments have exactly equal whitespace-normalized baseline and reviewed outputs. All outputs are preserved, but those fragments are excluded from UI cohorts and the vote allowlist to avoid arbitrary method attribution. This is deterministic duplicate handling, not selection by quality or preference.",
+    "voting_fragments": 36,
+    "conditions": {
+      "baseline": "One fresh session with a short translation request and the common English source pack, no skill instructions.",
+      "skilled": "A fresh craft translation using a separately prepared plan, glossary and four-passage pilot calibration.",
+      "reviewed": "The craft output after source-based QA critique and adjudicated editing, each in a fresh session of the same model.",
+      "published": "Historical published translation; never supplied to any AI generation or evaluation call."
+    },
+    "same_source_context": true,
+    "reference_translations_supplied": false,
+    "cross_condition_access": {
+      "baseline": [],
+      "skilled": [
+        "plan",
+        "pilot calibration"
+      ],
+      "reviewed": [
+        "craft draft",
+        "plan",
+        "pilot calibration",
+        "QA findings"
+      ],
+      "evaluation": [
+        "anonymized AI candidates after their outputs were frozen"
+      ]
+    },
+    "isolation": "Fresh ephemeral Codex exec sessions, tools disabled; host skill discovery, memory, plugins and web search disabled. Inputs supplied inline. Actual tool-use events checked. No prior chat history supplied.",
+    "generation_record": "research/fresh-v5/record.json",
+    "stages": [
+      {
+        "phase": "baseline",
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "medium",
+        "fresh_session": true,
+        "tool_calls": 0,
+        "prompt_sha256": "54cd50e58626dab3109182f717622c0188578dd8e8c923c477b5251981be5964",
+        "output_sha256": "423de32670a3b4e3ccd90a10952b1b4d8e0cc7941587ee9c4cbfbcf4705589b5",
+        "source_pack_sha256": "28edcc8e15ee062a47e96e6d36e58d9fd517a372b71eca6edd05b681f91efdcb",
+        "skill_files_sha256": {},
+        "input_artifacts": [],
+        "elapsed_seconds": 75.98,
+        "usage": [
+          {
+            "input_tokens": 26749,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 4005,
+            "reasoning_output_tokens": 95
+          }
+        ],
+        "exit_code": 0,
+        "status": "done",
+        "artifact": "baseline/output.json",
+        "instruction": "baseline/instruction.txt",
+        "session_id_sha256": "8855b009358358b6ffcf7eb42ec656ecc947661c180fe279d4d8e288f373bb9e",
+        "observed_runtime_item_types": [
+          "agent_message",
+          "error"
+        ]
+      },
+      {
+        "phase": "plan",
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "medium",
+        "fresh_session": true,
+        "tool_calls": 0,
+        "prompt_sha256": "f8625708b444bd5102c790ec508c9c84927bb377ff2e9a3de2ebebf36bf4f614",
+        "output_sha256": "6ef9fe122e5743dd284ad6955772b1a0f64d6959af1b8b30e6c13b2e723bd0eb",
+        "source_pack_sha256": "28edcc8e15ee062a47e96e6d36e58d9fd517a372b71eca6edd05b681f91efdcb",
+        "skill_files_sha256": {
+          "skills/literary-translation-craft/SKILL.md": "5a15e1fdcfeac8112e0126e777e8b99bc1e82b368e2a4fab2e8a2830f633e81e",
+          "skills/literary-translation-craft/references/brief.md": "e0fba7858181ecd9cf98b69576c64c85052d74ebe77a4631ea36fbfd49c115a7",
+          "skills/literary-translation-craft/references/context-handoff.md": "1937fd5d0f35b38afa26912c507d1ece92e88e3c6dd00ba11b29f94796528a3d",
+          "skills/literary-translation-craft/references/execution-record.json": "bb0f3c583b57d8ecc5500a5411ab45322f3db544b1196f24fd13bc6974dd1007",
+          "skills/literary-translation-craft/references/long-work.md": "964900604b91bdf3f49ca6d0003be72c6417119ece4bba23a6f85a5c3cea4f25",
+          "skills/literary-translation-craft/references/principles.md": "78aaeb0421d1fe79a777cdbabcd169557b8d11cf5ef62b4610a1dd7368cd7d26",
+          "skills/literary-translation-craft/references/russian-editing.md": "4339033dbc18f20a388510afe0ac5d86449e52d76f7864a6a29ba6b1c0aa2bda"
+        },
+        "input_artifacts": [],
+        "elapsed_seconds": 123.63,
+        "usage": [
+          {
+            "input_tokens": 30947,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 5212,
+            "reasoning_output_tokens": 140
+          }
+        ],
+        "exit_code": 0,
+        "status": "done",
+        "artifact": "plan/output.json",
+        "instruction": "plan/instruction.txt",
+        "session_id_sha256": "fb46cdcd68f6bc94ed2c02a27b3d3e3c51ab7923006d18076b9f3528d0daedd1",
+        "observed_runtime_item_types": [
+          "agent_message",
+          "error"
+        ]
+      },
+      {
+        "phase": "pilot",
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "medium",
+        "fresh_session": true,
+        "tool_calls": 0,
+        "prompt_sha256": "6d28c0d8852b963897763f74b7add54cc25f73eabbc9bfa791c5a6bba7c49e81",
+        "output_sha256": "416c30631593019000bb2d15ee32b1693e693b55f8b9601cbf18d07e4d2faaf5",
+        "source_pack_sha256": "166ab9ef8744a0291c7b755142e077eca5a25a17ac8851688fd08d42b64fa6e4",
+        "skill_files_sha256": {
+          "skills/literary-translation-craft/SKILL.md": "5a15e1fdcfeac8112e0126e777e8b99bc1e82b368e2a4fab2e8a2830f633e81e",
+          "skills/literary-translation-craft/references/brief.md": "e0fba7858181ecd9cf98b69576c64c85052d74ebe77a4631ea36fbfd49c115a7",
+          "skills/literary-translation-craft/references/context-handoff.md": "1937fd5d0f35b38afa26912c507d1ece92e88e3c6dd00ba11b29f94796528a3d",
+          "skills/literary-translation-craft/references/execution-record.json": "bb0f3c583b57d8ecc5500a5411ab45322f3db544b1196f24fd13bc6974dd1007",
+          "skills/literary-translation-craft/references/long-work.md": "964900604b91bdf3f49ca6d0003be72c6417119ece4bba23a6f85a5c3cea4f25",
+          "skills/literary-translation-craft/references/principles.md": "78aaeb0421d1fe79a777cdbabcd169557b8d11cf5ef62b4610a1dd7368cd7d26",
+          "skills/literary-translation-craft/references/russian-editing.md": "4339033dbc18f20a388510afe0ac5d86449e52d76f7864a6a29ba6b1c0aa2bda"
+        },
+        "input_artifacts": [
+          "plan"
+        ],
+        "elapsed_seconds": 30.58,
+        "usage": [
+          {
+            "input_tokens": 32322,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 1219,
+            "reasoning_output_tokens": 516
+          }
+        ],
+        "exit_code": 0,
+        "status": "done",
+        "artifact": "pilot/output.json",
+        "instruction": "pilot/instruction.txt",
+        "session_id_sha256": "37b1fc24a6bf255028fd7775f30cadf00c70088d2d24c4e5c47b036c9e9fbe47",
+        "observed_runtime_item_types": [
+          "agent_message",
+          "error"
+        ]
+      },
+      {
+        "phase": "calibration",
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "medium",
+        "fresh_session": true,
+        "tool_calls": 0,
+        "prompt_sha256": "1b33515eb72b6ca8708ebaa60dbea4f302871e38fb0bf81d9bd1b3598ef68a8e",
+        "output_sha256": "a9e4caea36e9bdb6ad47fa1867e6bfc2791fb56f17cb1e6bb3f860e5750134a3",
+        "source_pack_sha256": "28edcc8e15ee062a47e96e6d36e58d9fd517a372b71eca6edd05b681f91efdcb",
+        "skill_files_sha256": {
+          "skills/literary-translation-craft/SKILL.md": "5a15e1fdcfeac8112e0126e777e8b99bc1e82b368e2a4fab2e8a2830f633e81e",
+          "skills/literary-translation-craft/references/brief.md": "e0fba7858181ecd9cf98b69576c64c85052d74ebe77a4631ea36fbfd49c115a7",
+          "skills/literary-translation-craft/references/context-handoff.md": "1937fd5d0f35b38afa26912c507d1ece92e88e3c6dd00ba11b29f94796528a3d",
+          "skills/literary-translation-craft/references/execution-record.json": "bb0f3c583b57d8ecc5500a5411ab45322f3db544b1196f24fd13bc6974dd1007",
+          "skills/literary-translation-craft/references/long-work.md": "964900604b91bdf3f49ca6d0003be72c6417119ece4bba23a6f85a5c3cea4f25",
+          "skills/literary-translation-craft/references/principles.md": "78aaeb0421d1fe79a777cdbabcd169557b8d11cf5ef62b4610a1dd7368cd7d26",
+          "skills/literary-translation-craft/references/russian-editing.md": "4339033dbc18f20a388510afe0ac5d86449e52d76f7864a6a29ba6b1c0aa2bda",
+          "skills/literary-translation-qa/SKILL.md": "900fdd5dcbc7126adb88ae2a30ea3d6f98fd37f0e3dd319b161b4c5ecb45fbfa",
+          "skills/literary-translation-qa/references/review-decision.json": "3b104f088ebd10b87e72744a67b9e089775c29b02651f71879c005c2436240b2"
+        },
+        "input_artifacts": [
+          "plan",
+          "pilot"
+        ],
+        "elapsed_seconds": 43.98,
+        "usage": [
+          {
+            "input_tokens": 37337,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 1622,
+            "reasoning_output_tokens": 201
+          }
+        ],
+        "exit_code": 0,
+        "status": "done",
+        "artifact": "calibration/output.json",
+        "instruction": "calibration/instruction.txt",
+        "session_id_sha256": "a7ea586a342677fdcf395156c50b7da60e5beab0f02b2611a40b1a2f623b4396",
+        "observed_runtime_item_types": [
+          "agent_message",
+          "error"
+        ]
+      },
+      {
+        "phase": "skilled",
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "medium",
+        "fresh_session": true,
+        "tool_calls": 0,
+        "prompt_sha256": "442825ea04bcaaf8bad8be3bb5f715d87d8647e396af86c6c096af218c5e43b7",
+        "output_sha256": "88f5f5916d72585777bb9c937ce6b2b5a2fe7f4fafa70fa3d93ac8df6c79af47",
+        "source_pack_sha256": "28edcc8e15ee062a47e96e6d36e58d9fd517a372b71eca6edd05b681f91efdcb",
+        "skill_files_sha256": {
+          "skills/literary-translation-craft/SKILL.md": "5a15e1fdcfeac8112e0126e777e8b99bc1e82b368e2a4fab2e8a2830f633e81e",
+          "skills/literary-translation-craft/references/brief.md": "e0fba7858181ecd9cf98b69576c64c85052d74ebe77a4631ea36fbfd49c115a7",
+          "skills/literary-translation-craft/references/context-handoff.md": "1937fd5d0f35b38afa26912c507d1ece92e88e3c6dd00ba11b29f94796528a3d",
+          "skills/literary-translation-craft/references/execution-record.json": "bb0f3c583b57d8ecc5500a5411ab45322f3db544b1196f24fd13bc6974dd1007",
+          "skills/literary-translation-craft/references/long-work.md": "964900604b91bdf3f49ca6d0003be72c6417119ece4bba23a6f85a5c3cea4f25",
+          "skills/literary-translation-craft/references/principles.md": "78aaeb0421d1fe79a777cdbabcd169557b8d11cf5ef62b4610a1dd7368cd7d26",
+          "skills/literary-translation-craft/references/russian-editing.md": "4339033dbc18f20a388510afe0ac5d86449e52d76f7864a6a29ba6b1c0aa2bda"
+        },
+        "input_artifacts": [
+          "plan",
+          "calibration"
+        ],
+        "elapsed_seconds": 85.97,
+        "usage": [
+          {
+            "input_tokens": 36810,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 4035,
+            "reasoning_output_tokens": 132
+          }
+        ],
+        "exit_code": 0,
+        "status": "done",
+        "artifact": "skilled/output.json",
+        "instruction": "skilled/instruction.txt",
+        "session_id_sha256": "48d25dbbfa3f4ce1510f85f69ef5f66a5f0607feceb3bda88d701ccecef9928c",
+        "observed_runtime_item_types": [
+          "agent_message",
+          "error"
+        ]
+      },
+      {
+        "phase": "critique",
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "medium",
+        "fresh_session": true,
+        "tool_calls": 0,
+        "prompt_sha256": "1e8aa3a8dc2a84d6d943658ba8e2c926d336e8431d802b9c4d9b6c10f4076b30",
+        "output_sha256": "16de366557364fe73b9cb1f7db1f89023cf7fea496cc044981a79a7533e80961",
+        "source_pack_sha256": "28edcc8e15ee062a47e96e6d36e58d9fd517a372b71eca6edd05b681f91efdcb",
+        "skill_files_sha256": {
+          "skills/literary-translation-craft/SKILL.md": "5a15e1fdcfeac8112e0126e777e8b99bc1e82b368e2a4fab2e8a2830f633e81e",
+          "skills/literary-translation-craft/references/brief.md": "e0fba7858181ecd9cf98b69576c64c85052d74ebe77a4631ea36fbfd49c115a7",
+          "skills/literary-translation-craft/references/context-handoff.md": "1937fd5d0f35b38afa26912c507d1ece92e88e3c6dd00ba11b29f94796528a3d",
+          "skills/literary-translation-craft/references/execution-record.json": "bb0f3c583b57d8ecc5500a5411ab45322f3db544b1196f24fd13bc6974dd1007",
+          "skills/literary-translation-craft/references/long-work.md": "964900604b91bdf3f49ca6d0003be72c6417119ece4bba23a6f85a5c3cea4f25",
+          "skills/literary-translation-craft/references/principles.md": "78aaeb0421d1fe79a777cdbabcd169557b8d11cf5ef62b4610a1dd7368cd7d26",
+          "skills/literary-translation-craft/references/russian-editing.md": "4339033dbc18f20a388510afe0ac5d86449e52d76f7864a6a29ba6b1c0aa2bda",
+          "skills/literary-translation-qa/SKILL.md": "900fdd5dcbc7126adb88ae2a30ea3d6f98fd37f0e3dd319b161b4c5ecb45fbfa",
+          "skills/literary-translation-qa/references/review-decision.json": "3b104f088ebd10b87e72744a67b9e089775c29b02651f71879c005c2436240b2"
+        },
+        "input_artifacts": [
+          "plan",
+          "draft"
+        ],
+        "elapsed_seconds": 52.46,
+        "usage": [
+          {
+            "input_tokens": 40722,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 1633,
+            "reasoning_output_tokens": 382
+          }
+        ],
+        "exit_code": 0,
+        "status": "done",
+        "artifact": "critique/output.json",
+        "instruction": "critique/instruction.txt",
+        "session_id_sha256": "87f688c8391cc0ae0214d79ad9e044004b6c21e681054d26c9c1631b94791c66",
+        "observed_runtime_item_types": [
+          "agent_message",
+          "error"
+        ]
+      },
+      {
+        "phase": "reviewed",
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "medium",
+        "fresh_session": true,
+        "tool_calls": 0,
+        "prompt_sha256": "2f2c12ad03caf1bcbfd9594955e83a4cfd4b73498ec95cf038561332791d0057",
+        "output_sha256": "4330746f7e9381e376fdd36bfe5a35a5c7cdde7a4e67c1eb1aa21713e4566ed7",
+        "source_pack_sha256": "28edcc8e15ee062a47e96e6d36e58d9fd517a372b71eca6edd05b681f91efdcb",
+        "skill_files_sha256": {
+          "skills/literary-translation-craft/SKILL.md": "5a15e1fdcfeac8112e0126e777e8b99bc1e82b368e2a4fab2e8a2830f633e81e",
+          "skills/literary-translation-craft/references/brief.md": "e0fba7858181ecd9cf98b69576c64c85052d74ebe77a4631ea36fbfd49c115a7",
+          "skills/literary-translation-craft/references/context-handoff.md": "1937fd5d0f35b38afa26912c507d1ece92e88e3c6dd00ba11b29f94796528a3d",
+          "skills/literary-translation-craft/references/execution-record.json": "bb0f3c583b57d8ecc5500a5411ab45322f3db544b1196f24fd13bc6974dd1007",
+          "skills/literary-translation-craft/references/long-work.md": "964900604b91bdf3f49ca6d0003be72c6417119ece4bba23a6f85a5c3cea4f25",
+          "skills/literary-translation-craft/references/principles.md": "78aaeb0421d1fe79a777cdbabcd169557b8d11cf5ef62b4610a1dd7368cd7d26",
+          "skills/literary-translation-craft/references/russian-editing.md": "4339033dbc18f20a388510afe0ac5d86449e52d76f7864a6a29ba6b1c0aa2bda",
+          "skills/literary-translation-qa/SKILL.md": "900fdd5dcbc7126adb88ae2a30ea3d6f98fd37f0e3dd319b161b4c5ecb45fbfa",
+          "skills/literary-translation-qa/references/review-decision.json": "3b104f088ebd10b87e72744a67b9e089775c29b02651f71879c005c2436240b2"
+        },
+        "input_artifacts": [
+          "plan",
+          "draft",
+          "critique",
+          "calibration"
+        ],
+        "elapsed_seconds": 63.53,
+        "usage": [
+          {
+            "input_tokens": 43187,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 4998,
+            "reasoning_output_tokens": 58
+          }
+        ],
+        "exit_code": 0,
+        "status": "done",
+        "artifact": "reviewed/output.json",
+        "instruction": "reviewed/instruction.txt",
+        "session_id_sha256": "b3236a6d03b4749cf66d11c3f97b1a2b1f06b48d8af6d9ec64f857aababf3f8d",
+        "observed_runtime_item_types": [
+          "agent_message",
+          "error"
+        ]
+      },
+      {
+        "phase": "evaluation",
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "medium",
+        "fresh_session": true,
+        "tool_calls": 0,
+        "prompt_sha256": "9aa4f657173af97910aad2e00be8a5e921eaf57ef4a55551092f6625427de464",
+        "output_sha256": "814e64cf88e78aab537989ba24830f65233ed43615b6064a2c571f97edd163a6",
+        "source_pack_sha256": "28edcc8e15ee062a47e96e6d36e58d9fd517a372b71eca6edd05b681f91efdcb",
+        "skill_files_sha256": {
+          "skills/literary-translation-evaluation/SKILL.md": "a84859627659c060b317a6e5c692a800aa330448d5d1590407258e3f59673424",
+          "skills/literary-translation-evaluation/references/comparison-design.md": "dfd8424ba45dc0a9ca6170ab2096e8de34653f1d34f7d4538976b85738722aac",
+          "skills/literary-translation-evaluation/references/rubric.md": "6976967b3c441725ece641df795c71d7d3670c047efdcc8c3cf02ca21cfef3f2"
+        },
+        "input_artifacts": [
+          "candidates"
+        ],
+        "elapsed_seconds": 177.63,
+        "usage": [
+          {
+            "input_tokens": 42050,
+            "cached_input_tokens": 3328,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 7480,
+            "reasoning_output_tokens": 385
+          }
+        ],
+        "exit_code": 0,
+        "status": "done",
+        "artifact": "evaluation/output.json",
+        "instruction": "evaluation/instruction.txt",
+        "session_id_sha256": "def165ad2fcfe4110f5d8c19a93726cb9a255a4b9d9633138aaefae4f1a7d95c",
+        "observed_runtime_item_types": [
+          "agent_message",
+          "error"
+        ]
+      }
+    ],
+    "source_input_sha256": "28edcc8e15ee062a47e96e6d36e58d9fd517a372b71eca6edd05b681f91efdcb",
+    "output_sha256": {
+      "baseline": "423de32670a3b4e3ccd90a10952b1b4d8e0cc7941587ee9c4cbfbcf4705589b5",
+      "skilled": "88f5f5916d72585777bb9c937ce6b2b5a2fe7f4fafa70fa3d93ac8df6c79af47",
+      "reviewed": "4330746f7e9381e376fdd36bfe5a35a5c7cdde7a4e67c1eb1aa21713e4566ed7"
+    },
+    "human_editing": false,
+    "primary_agent_text_edits": false,
+    "best_of_selection": false,
+    "qualification": "This compares a short request, planned craft generation and a longer craft+QA workflow. The workflow uses more calls; an effect cannot be attributed to the skill text alone. Same-model reviews can share mistakes. Historical public works may have been present in model training; runtime isolation cannot erase that prior knowledge.",
+    "interpretation": "Preferences for these fixed outputs only. UI identities are hidden until a choice but remain visible in public source files. Viewing results can affect later choices."
+  }
+}

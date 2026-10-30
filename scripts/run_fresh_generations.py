@@ -30,12 +30,12 @@ def validate_source_pack(source):
     assert set(source)=={'source_language','target_language','scope','works','fragments'}
     assert source['source_language']=='English' and source['target_language']=='Russian'
     work_ids={row['id'] for row in source['works']}
-    assert len(work_ids)==len(source['works'])==3
+    assert len(work_ids)==len(source['works']) and work_ids
     for work in source['works']:
         assert set(work) <= {'id','source_url','edition','retrieval','text','sha256'}
         assert sha(work['text'].encode())==work['sha256']
         assert not re.search(r'[\u0400-\u04ff]',work['text']), 'Russian material in English context'
-    assert len({row['id'] for row in source['fragments']})==len(source['fragments'])==40
+    assert len({row['id'] for row in source['fragments']})==len(source['fragments'])>=4
     for row in source['fragments']:
         assert set(row)=={'id','work_id','source'} and row['work_id'] in work_ids
         assert not re.search(r'[\u0400-\u04ff]',row['source']), 'Russian material in English fragment'
@@ -75,7 +75,7 @@ def instruction(phase):
         'reviewed': 'Act as editor under the supplied craft and QA skills. Adjudicate each critique finding against the English source and the source-linked plan. Accept, edit, reject or defer individually with a reason. Apply only justified changes; do not polish merely to differ from the draft. Recheck altered passages against the source and read the connected Russian voice. Return {"translations":[{"id":"...","text":"..."}],"decisions":[{"finding_id":"...","decision":"accept|edit|reject|defer","reason":"..."}],"post_edit_checked_ids":["..."],"limits":["..."]}. Keep unresolved significant issues visible. Do not claim human review or use any published Russian version.',
         'evaluation': 'Apply the evaluation skill to the anonymized candidates. This is diagnostic assessment, not a reader preference vote or a winner selection. Review all requested ids against the source, distinguish supported errors from preferences, and do not edit candidates. Return {"coverage":["..."],"findings":[{"id":"...","candidate_id":"...","source_quote":"...","target_quote":"...","classification":"error|possible_issue|valid_alternative|preference","reason":"..."}],"limits":["..."]}. Do not infer general model superiority or human acceptance.'
     }
-    return shared + phases[phase]
+    return shared + phases[phase].replace('all three works', 'all supplied works').replace('all 40 requested fragments', 'all requested fragments')
 
 
 def skill_files(names):

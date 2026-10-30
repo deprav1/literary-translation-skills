@@ -38,6 +38,16 @@ test('different participant IDs usually receive different cohorts', () => {
   const second = createState(fixture, '00000000-0000-4000-8000-000000000005');
   if (fixture.rounds.length > fixture.cohortSize) assert.notDeepEqual(first.cohortIds, second.cohortIds);
 });
+
+test('featured contemporary passages remain accessible in every assigned cohort', () => {
+  const featured = data.rounds.filter(r => r.votingEligible !== false && (data.featuredWorkIds || []).includes(r.workId));
+  for (let i=0; i<25; i++) {
+    const state = createState(data, `00000000-0000-4000-8000-${String(i).padStart(12,'0')}`);
+    for (const round of featured) assert.ok(state.cohortIds.includes(round.id));
+    assert.equal(state.cohortIds.length, data.cohortSize);
+    assert.equal(validState(state, data), true);
+  }
+});
 test('the reported Wilde fragments keep their original and historical translation together', () => {
   const one = data.rounds.find(r => r.id === 'wilde-extra-01');
   const two = data.rounds.find(r => r.id === 'wilde-extra-02');

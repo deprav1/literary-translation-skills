@@ -1,0 +1,34 @@
+{
+  "phase": "evaluation",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "medium",
+  "fresh_session": true,
+  "session_id_sha256": "ee9f8ca7d3a0d89ea0415cbada220de4bdf23644ec301a2dff0458805792fdff",
+  "observed_runtime_item_types": [
+    "agent_message",
+    "error"
+  ],
+  "tool_calls": 0,
+  "prompt_sha256": "2824df2a4267a26723f78a5d8489b74c096a6d9ca617a41513a3d33febebc737",
+  "output_sha256": "72480d45e21f60a3463577400ee6d1d9f36526c32353beb80f7c75470038b7d7",
+  "source_pack_sha256": "576a485ea85fa2e9459e161c2b28a2d4d56b59220700e5a4a5b598d3a6a24563",
+  "skill_files_sha256": {
+    "skills/literary-translation-evaluation/SKILL.md": "a84859627659c060b317a6e5c692a800aa330448d5d1590407258e3f59673424",
+    "skills/literary-translation-evaluation/references/comparison-design.md": "dfd8424ba45dc0a9ca6170ab2096e8de34653f1d34f7d4538976b85738722aac",
+    "skills/literary-translation-evaluation/references/rubric.md": "6976967b3c441725ece641df795c71d7d3670c047efdcc8c3cf02ca21cfef3f2"
+  },
+  "input_artifacts": [
+    "candidates"
+  ],
+  "elapsed_seconds": 74.96,
+  "usage": [
+    {
+      "input_tokens": 39182,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 3784,
+      "reasoning_output_tokens": 209
+    }
+  ],
+  "exit_code": 0
+}

@@ -1,0 +1,43 @@
+{
+  "phase": "reviewed",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "medium",
+  "fresh_session": true,
+  "session_id_sha256": "66743c5d6a74c9f5619ab3dbaf77ccf3ffffb7c9c45cf05e63348cdcd1aa2772",
+  "observed_runtime_item_types": [
+    "agent_message",
+    "error"
+  ],
+  "tool_calls": 0,
+  "prompt_sha256": "2aa84cd7c9e41e44761deba38ac4b57dc2f1b786da0fe145162a412fa5a97f06",
+  "output_sha256": "19106cb25e486e202c6df4971e83a28bc6923f86188cb498a62e4f09d1a5c11a",
+  "source_pack_sha256": "576a485ea85fa2e9459e161c2b28a2d4d56b59220700e5a4a5b598d3a6a24563",
+  "skill_files_sha256": {
+    "skills/literary-translation-craft/SKILL.md": "5a15e1fdcfeac8112e0126e777e8b99bc1e82b368e2a4fab2e8a2830f633e81e",
+    "skills/literary-translation-craft/references/brief.md": "e0fba7858181ecd9cf98b69576c64c85052d74ebe77a4631ea36fbfd49c115a7",
+    "skills/literary-translation-craft/references/context-handoff.md": "1937fd5d0f35b38afa26912c507d1ece92e88e3c6dd00ba11b29f94796528a3d",
+    "skills/literary-translation-craft/references/execution-record.json": "bb0f3c583b57d8ecc5500a5411ab45322f3db544b1196f24fd13bc6974dd1007",
+    "skills/literary-translation-craft/references/long-work.md": "964900604b91bdf3f49ca6d0003be72c6417119ece4bba23a6f85a5c3cea4f25",
+    "skills/literary-translation-craft/references/principles.md": "78aaeb0421d1fe79a777cdbabcd169557b8d11cf5ef62b4610a1dd7368cd7d26",
+    "skills/literary-translation-craft/references/russian-editing.md": "4339033dbc18f20a388510afe0ac5d86449e52d76f7864a6a29ba6b1c0aa2bda",
+    "skills/literary-translation-qa/SKILL.md": "900fdd5dcbc7126adb88ae2a30ea3d6f98fd37f0e3dd319b161b4c5ecb45fbfa",
+    "skills/literary-translation-qa/references/review-decision.json": "3b104f088ebd10b87e72744a67b9e089775c29b02651f71879c005c2436240b2"
+  },
+  "input_artifacts": [
+    "plan",
+    "draft",
+    "critique",
+    "calibration"
+  ],
+  "elapsed_seconds": 24.34,
+  "usage": [
+    {
+      "input_tokens": 45316,
+      "cached_input_tokens": 13184,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1566,
+      "reasoning_output_tokens": 92
+    }
+  ],
+  "exit_code": 0
+}

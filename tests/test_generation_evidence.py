@@ -11,6 +11,16 @@ SPEC.loader.exec_module(RUNNER)
 
 
 class GenerationIsolationTests(unittest.TestCase):
+    def test_a_new_batch_can_contain_one_work_without_weakening_source_alignment(self):
+        text='English source context with four fixed passages.'
+        source={'source_language':'English','target_language':'Russian','scope':'excerpts',
+                'works':[{'id':'modern','text':text,'sha256':RUNNER.sha(text.encode())}],
+                'fragments':[{'id':str(i),'work_id':'modern','source':'English source context'} for i in range(4)]}
+        RUNNER.validate_source_pack(source)
+        source['fragments'][0]['source']='An unrelated passage from another story'
+        with self.assertRaises(AssertionError):
+            RUNNER.validate_source_pack(source)
+
     def test_baseline_receives_no_skills_or_other_condition_outputs(self):
         source={'sentinel':'only the intended English input'}
         with tempfile.TemporaryDirectory() as temporary:

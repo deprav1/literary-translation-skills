@@ -3,7 +3,7 @@ name: Deploy blind test to Pages
 on:
   push:
     branches: [main]
-    paths: ['site/**', 'backend/catalog.js', 'scripts/build_blind_catalog.py', 'scripts/validate_site.py', '.github/workflows/pages.yml']
+    paths: ['site/**', 'backend/catalog.js', 'scripts/build_blind_catalog.py', 'scripts/build_modern_extension.py', 'scripts/validate_site.py', '.github/workflows/pages.yml']
   workflow_dispatch:
 
 permissions:

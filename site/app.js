@@ -17,6 +17,13 @@ let reading = { size: 18, single: false };
 try { const saved = JSON.parse(localStorage.getItem('blind-reading-settings')); if (saved && [16,18,20,22,24].includes(saved.size) && typeof saved.single === 'boolean') reading = saved; } catch {}
 
 function el(tag, className, text) { const node = document.createElement(tag); if (className) node.className = className; if (text !== undefined) node.textContent = text; return node; }
+function literaryText(node, text) {
+  // Plain-text source editions use single asterisks for emphasis; never parse HTML.
+  for (const part of text.split(/((?<!\*)\*[^*\n]+\*(?!\*))/g)) {
+    node.append(/^\*[^*\n]+\*$/.test(part) ? el('em', '', part.slice(1, -1)) : document.createTextNode(part));
+  }
+  return node;
+}
 function safeLink(label, href) { const a = el('a', '', label); a.href = href; a.target = '_blank'; a.rel = 'noopener noreferrer'; return a; }
 function persist() { try { localStorage.setItem(STORAGE, JSON.stringify(state)); } catch { memoryOnly = true; } }
 function toast(text) { $('toast').textContent = text; $('toast').hidden = false; clearTimeout(toast.timer); toast.timer = setTimeout(() => { $('toast').hidden = true; }, 4000); }
@@ -72,7 +79,7 @@ function renderRound() {
   $('round-title').textContent = choice ? 'Твой выбор — сохранён.' : 'Какой вариант хочется читать?';
   $('round-title').style.whiteSpace = 'pre-line';
   $('round-tag').textContent = round.tag;
-  $('source-text').textContent = round.source;
+  $('source-text').replaceChildren(); literaryText($('source-text'), round.source);
   $('source-credit').textContent = `${round.author} · ${round.title}`;
   $('source-link').href = round.sourceUrl;
   $('arena-hint').textContent = choice ? 'Сравни впечатление с лейблом. Изменить отправленный выбор нельзя.' : 'Читай в любом порядке. Авторство покажем только после твоего выбора.';
@@ -81,7 +88,7 @@ function renderRound() {
     const candidate = round.candidates.find(c => c.id === id); const selected = choice?.candidateId === id;
     const card = el('article', `candidate${selected ? ' selected' : ''}`);
     const top = el('div', 'candidate-top'); top.append(el('span', 'candidate-letter', `ВАРИАНТ ${['А', 'Б', 'В', 'Г'][index]}`), el('span', 'candidate-eye')); top.lastChild.setAttribute('aria-hidden', 'true');
-    card.append(top, el('p', 'candidate-text', candidate.text));
+    card.append(top, literaryText(el('p', 'candidate-text'), candidate.text));
     if (!choice) {
       const button = el('button', 'vote-button', 'Беру этот ↗'); button.setAttribute('aria-label', `Выбрать вариант ${['А', 'Б', 'В', 'Г'][index]}`); button.addEventListener('click', () => choose(round.id, id)); card.append(button);
     } else {
@@ -90,6 +97,7 @@ function renderRound() {
       if (selected) identity.append(el('span', 'choice-badge', '✓ ТВОЙ ВЫБОР'));
       identity.append(el('strong', '', LABELS[candidate.method]), el('p', '', candidate.credit), el('p', '', candidate.note));
       if (candidate.sourceUrl) identity.append(safeLink('Источник перевода ↗', candidate.sourceUrl));
+      if (candidate.licenseUrl) identity.append(el('p', '', `${round.author} · производные AI-версии отмечены отдельно.`), safeLink(candidate.license, candidate.licenseUrl));
       card.append(identity);
     }
     $('candidates').append(card);
@@ -208,7 +216,7 @@ async function renderWorld() {
   const target = $('world-stats');
   const requestId = ++statsRequest;
   const group = $('stats-group').value;
-  $('stats-context').textContent = 'Все AI-варианты этой версии получены заново в изолированных сессиях Sol с одинаковым английским контекстом. Craft и craft+QA используют больше этапов, чем короткий запрос. Сравниваем полученные тексты, а не общий рейтинг моделей.';
+  $('stats-context').textContent = 'Классические варианты сохранены из v5; современный рассказ добавлен отдельным новым запуском. Внутри каждого запуска AI-условия получили одинаковый английский контекст. Craft+QA требует больше этапов. Различия между произведениями не измеряют эффект навыков.';
   target.replaceChildren(el('p', 'section-description', 'Считаем голоса…'));
   try {
     const { response, payload } = await api(`/stats?dataset=${encodeURIComponent(data.version)}`);
@@ -266,10 +274,11 @@ async function renderPreviousWorld() {
 function showDialog(kind) {
   const node = $('dialog-content'); node.replaceChildren();
   if (kind === 'method') {
-    node.append(el('h2', '', 'Тексты дерутся. Лейблы молчат.'), el('p', '', 'В каждом раунде один оригинал и три русских перевода: исторический опубликованный, короткий AI-запрос и полный craft+QA. Авторы скрыты до выбора. Порядок текстов и карточек перемешан и сохраняется в браузере.'));
-    node.append(el('h3', '', 'Что именно сравниваем'), el('p', '', 'В базе 40 фрагментов трёх произведений. В четырёх простой и полный AI-переводы совпали: они сохранены в материалах, но исключены из голосования. Каждый браузер получает до 20 из оставшихся 36. Все AI-варианты заново получены на Sol с одинаковыми настройками и английским контекстом. Короткий запрос работает без skills. Craft использует план, глоссарий и калибровку на четырёх сценах. Craft+QA — тот же черновик после отдельной сверки и редактуры. Каждый этап запущен в новой сессии. Исторические переводы и ответы другого условия генераторам не передавались.'));
-    node.append(el('h3', '', 'Это пилот читательских предпочтений'), el('p', '', 'Опубликованные переводы исторические, в современной орфографии цифрового источника. Эпоха, узнаваемость, длина и твой вкус влияют на выбор. Голоса не доказывают превосходство модели или навыка. Полный цикл требует больше вызовов; в памяти обучения модели могли быть эти публичные произведения. Изоляция запуска не устраняет такое предварительное знание. Атрибуция скрыта в интерфейсе до выбора, но доступна в исходниках.'));
-    node.append(el('h3', '', 'Откуда опубликованные тексты'), el('p', '', 'Эдгар По — перевод Константина Бальмонта, издание 1913 года. Оскар Уайльд — перевод Михаила Ликиардопуло, публикация 1911 года. Оригиналы и эти переводы находятся в общественном достоянии в юрисдикциях со сроком «жизнь автора + 70 лет». Цифровые источники и точная атрибуция открываются после выбора.'));
+    node.append(el('h2', '', 'Тексты дерутся. Лейблы молчат.'), el('p', '', 'В каждом раунде один оригинал и три русских перевода: опубликованный, короткий AI-запрос и полный craft+QA. Авторы скрыты до выбора. Порядок текстов и карточек перемешан и сохраняется в браузере.'));
+    const eligible = data.rounds.filter(r => r.votingEligible !== false).length;
+    node.append(el('h3', '', 'Что именно сравниваем'), el('p', '', `В базе ${data.rounds.length} фрагментов; ${eligible} доступны для голосования. Одинаковые простой и полный AI-ответы сохранены в протоколе, но исключены из голосования. Подборка до 20 включает современные отрывки и классику. Короткий запрос работает без skills. Craft использует план, глоссарий и калибровку на четырёх сценах. Craft+QA — тот же черновик после отдельной сверки и редактуры. Каждый этап запущен в новой сессии Sol с одинаковыми настройками. Опубликованные переводы и ответы другого условия генераторам не передавались. Классические ответы сохранены из v5; современный рассказ получил собственный полный запуск.`));
+    node.append(el('h3', '', 'Это пилот читательских предпочтений'), el('p', '', 'Эпоха, жанр, узнаваемость, длина и твой вкус влияют на выбор. Один современный рассказ не представляет всю современную литературу. Голоса не доказывают превосходство модели или навыка. Полный цикл требует больше вызовов; в памяти обучения модели могли быть эти произведения. Изоляция запуска не устраняет такое предварительное знание. Атрибуция скрыта в интерфейсе до выбора, но доступна в исходниках.'));
+    node.append(el('h3', '', 'Откуда опубликованные тексты'), el('p', '', 'Классика: По в переводе Бальмонта и Уайльд в переводе Ликиардопуло; общественное достояние в юрисдикциях со сроком «жизнь + 70 лет». Современная проза: «Земля сисадминов» Кори Доктороу (2006), перевод Михаила Карпова; оригинал, опубликованный перевод и производные AI-переводы — CC BY-NC-SA 2.5, только некоммерческое использование с атрибуцией и сохранением лицензии. Цифровые источники открываются после выбора.'));
     node.append(safeLink('Методика, источники и условия публикации ↗', './CONTENT.md'), el('p', '', 'Цель простая: сначала услышать текст, потом прочитать бейдж. Можно предпочесть любой вариант. Можно вообще не продолжать.'));
   } else {
     node.append(el('h2', '', 'Про данные. Без тумана.'), el('p', '', 'В браузере остаются случайный идентификатор, порядок вариантов и твои выборы, включая сохранённые выборы предыдущей подборки. Сервер хранит хеш идентификатора, выбранный вариант, версию подборки, случайный ID голоса и время. Имя и почту не спрашиваем. Сырые IP-адреса в нашу базу не записываем.'));
@@ -318,13 +327,26 @@ $('close-dialog').addEventListener('click', () => $('info-dialog').close());
 $('info-dialog').addEventListener('click', e => { if (e.target === $('info-dialog')) { const r = e.target.getBoundingClientRect(); if (e.clientX < r.left || e.clientX > r.right || e.clientY < r.top || e.clientY > r.bottom) e.target.close(); } });
 $('refresh-stats').addEventListener('click', () => { renderWorld(); renderPreviousWorld(); });
 $('stats-group').addEventListener('change', renderWorld);
+$('modern-button').addEventListener('click', () => {
+  const indices = state.order.map((id, index) => ({round: data.rounds.find(r => r.id === id), index})).filter(({round}) => round.era === 'contemporary');
+  const next = indices.find(({round}) => !state.choices[round.id] && !(state.skipped || []).includes(round.id)) || indices[0];
+  if (next) goToRound(next.index);
+});
 $('share-button').addEventListener('click', async () => { const c = personalCounts(state, data); const message = `Мой вкус в «Без лица»: опубликованный ${c.published}, AI короткий запрос ${c.baseline}, AI + craft + QA ${c.reviewed}. Выбирай вслепую: ${location.href.split('#')[0]}`; try { await navigator.clipboard.writeText(message); toast('Результат скопирован. Пускай друзья тоже снимут погоны.'); } catch { toast('Буфер обмена недоступен. Ссылку на сайт можно скопировать из адресной строки.'); } });
 
 async function init() {
   try {
-    const responses = await Promise.all([fetch('./data.json'), fetch('./config.json')]); if (responses.some(r => !r.ok)) throw new Error('load');
+    const responses = await Promise.all([fetch('./data.json', {cache: 'no-store'}), fetch('./config.json', {cache: 'no-store'})]); if (responses.some(r => !r.ok)) throw new Error('load');
     [data, config] = await Promise.all(responses.map(r => r.json()));
     if (data.rounds?.length < 30 || data.cohortSize !== 20 || data.rounds.some(r => r.candidates?.length !== METHODS.length)) throw new Error('dataset');
+    const eligible = data.rounds.filter(r => r.votingEligible !== false);
+    $('corpus-summary').textContent = `До 20 раундов из ${eligible.length} оценочных фрагментов. Можно пропускать и остановиться в любой момент.`;
+    $('stats-group').replaceChildren(new Option(`Все ${eligible.length} оценочных фрагментов`, 'all'));
+    for (const workId of new Set(eligible.map(r => r.workId))) {
+      const rows = eligible.filter(r => r.workId === workId);
+      $('stats-group').append(new Option(`${rows[0].title.split(' / ').at(-1)} · ${rows.length}`, workId));
+    }
+    $('modern-button').disabled = !eligible.some(r => r.era === 'contemporary');
     try {
       const saved = JSON.parse(localStorage.getItem(STORAGE));
       if (saved?.version && saved.version !== data.version && /^[a-f0-9-]{36}$/i.test(saved.participantId || '')) {

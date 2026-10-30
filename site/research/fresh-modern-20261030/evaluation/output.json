@@ -1,0 +1,229 @@
+{
+  "coverage": [
+    "sysadmin-01",
+    "sysadmin-02",
+    "sysadmin-03",
+    "sysadmin-04",
+    "sysadmin-05",
+    "sysadmin-06",
+    "sysadmin-07",
+    "sysadmin-08"
+  ],
+  "findings": [
+    {
+      "id": "sysadmin-01",
+      "candidate_id": "8934f9b4175e39c3",
+      "source_quote": "They work you like a government mule",
+      "target_quote": "На тебе пашут как на ломовой лошади",
+      "classification": "valid_alternative",
+      "reason": "Русский оборот передаёт изнурительную эксплуатацию и разговорный упрёк. Замена образа мула ломовой лошадью не меняет смысла."
+    },
+    {
+      "id": "sysadmin-01",
+      "candidate_id": "8bb199259186eb6e",
+      "source_quote": "They work you like a government mule",
+      "target_quote": "На тебе пашут как на ломовой лошади",
+      "classification": "valid_alternative",
+      "reason": "Русский оборот передаёт изнурительную эксплуатацию и разговорный упрёк. Замена образа мула ломовой лошадью не меняет смысла."
+    },
+    {
+      "id": "sysadmin-01",
+      "candidate_id": "e5c817504a90aa31",
+      "source_quote": "every time someone's porn supply goes down",
+      "target_quote": "всякий раз, когда у кого-нибудь перекрывают подачу порнухи",
+      "classification": "possible_issue",
+      "reason": "«Перекрывают» может подразумевать чьё-то намеренное действие, тогда как источник говорит о сбое доступа. Комический образ подачи сохранён, поэтому смысловой сдвиг не вполне однозначен."
+    },
+    {
+      "id": "sysadmin-01",
+      "candidate_id": "e5c817504a90aa31",
+      "source_quote": "They work you like a government mule",
+      "target_quote": "На тебе пашут как на казённом муле",
+      "classification": "possible_issue",
+      "reason": "Общий смысл понятен, но буквальный «казённый мул» не обладает в русском той же узнаваемостью, что исходный разговорный оборот. Возможно ощущение переводной речи; это вопрос идиоматичности, а не установленная фактическая ошибка."
+    },
+    {
+      "id": "sysadmin-02",
+      "candidate_id": "332940c9ae58c5d4",
+      "source_quote": "The Gold Master just shipped!",
+      "target_quote": "Финальная сборка вышла!",
+      "classification": "valid_alternative",
+      "reason": "Функциональная передача программной метафоры: после бета-теста появляется окончательная версия. Специфика термина Gold Master сглажена, но шутка о рождении как выпуске продукта сохранена."
+    },
+    {
+      "id": "sysadmin-02",
+      "candidate_id": "5bea271b1f551105",
+      "source_quote": "The Gold Master just shipped!",
+      "target_quote": "Финальная сборка вышла!",
+      "classification": "valid_alternative",
+      "reason": "Функциональная передача программной метафоры: после бета-теста появляется окончательная версия. Специфика термина Gold Master сглажена, но шутка о рождении как выпуске продукта сохранена."
+    },
+    {
+      "id": "sysadmin-02",
+      "candidate_id": "702af12978bf51a8",
+      "source_quote": "The Gold Master just shipped!",
+      "target_quote": "«Золотой мастер отгружен!»",
+      "classification": "valid_alternative",
+      "reason": "Сохранены специальное название релизной версии и образ отгрузки. В речи системного администратора такая профессиональная калька мотивирована; её меньшая прозрачность сама по себе не доказывает ошибку."
+    },
+    {
+      "id": "sysadmin-03",
+      "candidate_id": "2860423472ea1ac0",
+      "source_quote": "Massive flashworm attack",
+      "target_quote": "Массовая атака молниеносно распространяющегося червя",
+      "classification": "valid_alternative",
+      "reason": "Описательная передача раскрывает ключевое свойство flashworm — чрезвычайно быстрое распространение. Причины отказов и техническая последовательность в остальной реплике сохранены."
+    },
+    {
+      "id": "sysadmin-03",
+      "candidate_id": "32630828111c50a5",
+      "source_quote": "Massive flashworm attack",
+      "target_quote": "Массовая атака молниеносно распространяющегося червя",
+      "classification": "valid_alternative",
+      "reason": "Описательная передача раскрывает ключевое свойство flashworm — чрезвычайно быстрое распространение. Причины отказов и техническая последовательность в остальной реплике сохранены."
+    },
+    {
+      "id": "sysadmin-03",
+      "candidate_id": "60fddb07ed8dfd19",
+      "source_quote": "like maybe someone poisoned the zone transfer last night",
+      "target_quote": "похоже, ночью кто-то подсунул левые данные при передаче зон",
+      "classification": "valid_alternative",
+      "reason": "Разговорное пояснение передаёт подмену данных при передаче DNS-зоны и сохраняет предположительный характер диагноза. «Виндовые машины» и «циски» также соответствуют профессиональной устной речи."
+    },
+    {
+      "id": "sysadmin-04",
+      "candidate_id": "51893db65e77d3a5",
+      "source_quote": "a giant white-elephant needle of a building",
+      "target_quote": "гигантская игла, дорогостоящая и бесполезная",
+      "classification": "valid_alternative",
+      "reason": "Раскрыт переносный смысл white elephant — дорогостоящего, бесполезного объекта. Игольчатый силуэт сохранён; буквальный белый слон здесь не требуется."
+    },
+    {
+      "id": "sysadmin-04",
+      "candidate_id": "9027430ac8b1a1c8",
+      "source_quote": "a giant white-elephant needle of a building",
+      "target_quote": "громадная, никому не нужная игла",
+      "classification": "possible_issue",
+      "reason": "Передана бесполезность сооружения, но ослаблен компонент затратности или обременительности, заключённый в white elephant. Это локальное обеднение характеристики, а не нарушение событий сцены."
+    },
+    {
+      "id": "sysadmin-04",
+      "candidate_id": "a582d301da246932",
+      "source_quote": "a giant white-elephant needle of a building",
+      "target_quote": "гигантская игла, дорогостоящая и бесполезная",
+      "classification": "valid_alternative",
+      "reason": "Раскрыт переносный смысл white elephant — дорогостоящего, бесполезного объекта. Игольчатый силуэт сохранён; буквальный белый слон здесь не требуется."
+    },
+    {
+      "id": "sysadmin-05",
+      "candidate_id": "2ea3aee705320240",
+      "source_quote": "twisted into an agonized heiroglyph by the bioagent",
+      "target_quote": "скрученных биоагентом в иероглиф агонии",
+      "classification": "valid_alternative",
+      "reason": "Сохранены причинность, телесная деформация и центральная метафора иероглифа. «Агония» допустима в контексте мучительной смерти, хотя сильнее подчёркивает предсмертное состояние."
+    },
+    {
+      "id": "sysadmin-05",
+      "candidate_id": "6b137736a0833689",
+      "source_quote": "twisted into an agonized heiroglyph by the bioagent",
+      "target_quote": "скрученных биоагентом в иероглиф агонии",
+      "classification": "valid_alternative",
+      "reason": "Сохранены причинность, телесная деформация и центральная метафора иероглифа. «Агония» допустима в контексте мучительной смерти, хотя сильнее подчёркивает предсмертное состояние."
+    },
+    {
+      "id": "sysadmin-05",
+      "candidate_id": "b94deadcb4778948",
+      "source_quote": "by the bioagent",
+      "target_quote": "биологическое оружие",
+      "classification": "valid_alternative",
+      "reason": "Локально bioagent обозначает поражающий биологический агент, но предоставленный контекст прямо связывает его с биологическим оружием. Контекстуальное уточнение поддержано источником."
+    },
+    {
+      "id": "sysadmin-05",
+      "candidate_id": "b94deadcb4778948",
+      "source_quote": "They didn't look like Kelly and 2.0, but they didn't have to",
+      "target_quote": "Они не были похожи на Келли и 2.0, но сходство было и не нужно",
+      "classification": "valid_alternative",
+      "reason": "Явно выражен подразумеваемый смысл: для травматического узнавания сходство не требуется. Логика реакции Феликса сохранена."
+    },
+    {
+      "id": "sysadmin-06",
+      "candidate_id": "790f16a51432fc91",
+      "source_quote": "they lost a critical day",
+      "target_quote": "они потеряли целый день — день, от которого зависело слишком многое",
+      "classification": "valid_alternative",
+      "reason": "Значимость потерянного дня передана развёрнутым пояснением. Оно усиливает риторическое выделение, но не добавляет отдельного события или противоречащего контексту факта."
+    },
+    {
+      "id": "sysadmin-06",
+      "candidate_id": "87e8df9946ed3c46",
+      "source_quote": "The first count was spoiled by a bot that spammed the voting process",
+      "target_quote": "Первый подсчёт сорвал бот, заваливший систему голосования спамом",
+      "classification": "valid_alternative",
+      "reason": "Сохранены виновник, механизм вмешательства и необходимость пересчёта. «Сорвал» допустимо передаёт непригодность первого результата, не утверждая отмены выборов."
+    },
+    {
+      "id": "sysadmin-06",
+      "candidate_id": "d49c3ae122b33d44",
+      "source_quote": "The first count was spoiled by a bot that spammed the voting process",
+      "target_quote": "Первый подсчёт сорвал бот, заваливший систему голосования спамом",
+      "classification": "valid_alternative",
+      "reason": "Сохранены виновник, механизм вмешательства и необходимость пересчёта. «Сорвал» допустимо передаёт непригодность первого результата, не утверждая отмены выборов."
+    },
+    {
+      "id": "sysadmin-07",
+      "candidate_id": "25262055494277fe",
+      "source_quote": "like the outdoors and the world, an old friend not heard from in an eternity",
+      "target_quote": "как улица и весь мир — старый друг, от которого целую вечность не было вестей",
+      "classification": "valid_alternative",
+      "reason": "«Улица» конкретизирует outdoors применительно к выходу из здания. Сохранены нарастающий ряд ощущений и олицетворение мира как старого друга."
+    },
+    {
+      "id": "sysadmin-07",
+      "candidate_id": "9cba8e28338a28e2",
+      "source_quote": "like the outdoors and the world, an old friend not heard from in an eternity",
+      "target_quote": "как у всего, что было за стенами, как у мира — старого друга, от которого целую вечность не было вестей",
+      "classification": "valid_alternative",
+      "reason": "Описательное «всё, что было за стенами» соответствует противопоставлению закрытого убежища внешнему миру. Повтор сравнений и образ давно отсутствовавшего друга сохранены."
+    },
+    {
+      "id": "sysadmin-07",
+      "candidate_id": "fb44b08f70d5df52",
+      "source_quote": "like the outdoors and the world, an old friend not heard from in an eternity",
+      "target_quote": "как у всего, что было за стенами, как у мира — старого друга, от которого целую вечность не было вестей",
+      "classification": "valid_alternative",
+      "reason": "Описательное «всё, что было за стенами» соответствует противопоставлению закрытого убежища внешнему миру. Повтор сравнений и образ давно отсутствовавшего друга сохранены."
+    },
+    {
+      "id": "sysadmin-08",
+      "candidate_id": "35d21fcc7e53ab99",
+      "source_quote": "they started over again",
+      "target_quote": "снова начали с нуля",
+      "classification": "possible_issue",
+      "reason": "«С нуля» может подразумевать полную утрату достигнутого, тогда как источник устанавливает необходимость начать заново после распада группы. Усиление возможно, но оборот допускает и неточное, разговорное понимание."
+    },
+    {
+      "id": "sysadmin-08",
+      "candidate_id": "ef4ef98fb1779204",
+      "source_quote": "The next day, they started to rebuild",
+      "target_quote": "На следующий день они принялись всё отстраивать заново",
+      "classification": "possible_issue",
+      "reason": "«Отстраивать» может сузить широкое восстановление общественной жизни до строительства. В переносном прочтении вариант допустим; последующая «община» поддерживает общественный смысл."
+    },
+    {
+      "id": "sysadmin-08",
+      "candidate_id": "f4c93a9e2d87a58c",
+      "source_quote": "they started over again",
+      "target_quote": "снова начали с нуля",
+      "classification": "possible_issue",
+      "reason": "«С нуля» может подразумевать полную утрату достигнутого, тогда как источник устанавливает необходимость начать заново после распада группы. Усиление возможно, но оборот допускает и неточное, разговорное понимание."
+    }
+  ],
+  "limits": [
+    "Выполнена автоматизированная диагностика всех 24 кандидатов для восьми фрагментов; полный английский рассказ использован только как контекст. Кандидаты не редактировались.",
+    "Применён предоставленный протокол literary-translation-evaluation. Проверены содержание, контекст и форма; однозначных существенных ошибок в действиях, участниках, отрицании или последовательности событий не установлено. Локальные сомнения отмечены отдельно.",
+    "Основание оценки — только предоставленные тексты. Издание Overclocked (2007), сведения о первой публикации и хеш приняты как входные данные и независимо не проверялись; хеши кандидатов не предоставлены.",
+    "Одинаковые тексты под разными candidate_id рассмотрены отдельно и получили одинаковую оценку соответствующих мест. Их повторение не является независимым подтверждением качества.",
+    "Это диагностика с участием модели, без независимой проверки двуязычным редактором. Оценки не устанавливают человеческое принятие перевода, читательские предпочтения, победителя или превосходство моделей."
+  ]
+}

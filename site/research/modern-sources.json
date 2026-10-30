@@ -1,0 +1,89 @@
+{
+  "retrieved_on": "2026-10-30",
+  "work": "Cory Doctorow — When Sysadmins Ruled the Earth (2006)",
+  "translator": "Михаил Карпов",
+  "original_url": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+  "original_license_url": "https://craphound.com/overclocked/download/",
+  "original_license_quote": "It is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 2.5 license",
+  "translation_metadata_urls": [
+    "https://litmir.club/bd/?b=89169",
+    "https://pda.coollib.in/b/56237"
+  ],
+  "translation_license_quote": "Перевод: Михаил Карпов. Оригинал и данный перевод доступны на условиях лицензии Creative Commons Attribution-NonCommercial-ShareAlike 2.5.",
+  "translation_full_reader_url": "https://pda.coollib.in/b/56237-kori-doktorou-zemlya-sisadminov/read",
+  "translation_reader_sha256": "0725ba80ce9080a2fe25368339c592d345b241641f9c342372a468913e1c11da",
+  "translation_metadata_sha256": "7d54d1212f738da071634ec734d6526837ebfec1356ca8805174b92a95588ada",
+  "alignment": "Manually matched complete narrative units, including translated paragraph splits. No replacement with an adjacent or thematically similar passage. Whitespace and inline-link boundaries normalized; Russian wording not edited. Source prose can have typos and differing editorial decisions.",
+  "pairs": [
+    {
+      "id": "sysadmin-01",
+      "english_sha256": "d7b34c9d224a3c7785e47e4ac210705243f6d46dafb85f0fb123819929bdf9b6",
+      "russian_sha256": "1c0cc15baf3aebb0b45f8ba351e5459b50a4155659bb9752beb2c544373aff45",
+      "english_opening": "When Felix's special phone rang at two in the morning, Kelly rolled over and punched him i",
+      "russian_opening": "Когда рабочий телефон Феликса зазвонил в два часа ночи, Келли перекатилась с другого края ",
+      "russian_page": "https://litmir.club/br/?b=89169&p=1"
+    },
+    {
+      "id": "sysadmin-02",
+      "english_sha256": "69b6fbdaa42dce80b536e5d0acfecc0412c8f2e56438138d146be736718b46c8",
+      "russian_sha256": "b1c094382f02e757e6b0ed59e2ac2116d7a89a3e7fe4b46a957842d43af0e2bc",
+      "english_opening": "\"2.0's awake,\" she said. The baby had been Beta Test when he was in her womb, and when her",
+      "russian_opening": "- 2.0 проснулся.\n\nПока малыш был в утробе, его звали Бетой, а когда отошли воды, Феликс вы",
+      "russian_page": "https://litmir.club/br/?b=89169&p=1"
+    },
+    {
+      "id": "sysadmin-03",
+      "english_sha256": "cea1b44908c693331546fb7b1cb5304dccc0d3b88e49c1ba478956b09d7ee66a",
+      "russian_sha256": "f84dadf25d39b3c57e9426b24d969c19978f484a5762f8744ce89a29993a3405",
+      "english_opening": "\"Massive flashworm attack. Some jackass with a zero-day exploit has got every Windows box ",
+      "russian_opening": "- Массированная атака флэш-червя. Какой-то урод с эксплойтом нулевого дня, похоже, застави",
+      "russian_page": "https://litmir.club/br/?b=89169&p=1"
+    },
+    {
+      "id": "sysadmin-04",
+      "english_sha256": "b752adf7b28e092cac1200c51746b9154a1ffb1d9539ab409ecbc8e4f68a4f1c",
+      "russian_sha256": "c3b7dd0a461fa0253e962f7f4b74d495658485bd75b57afc3e2cc9daf5170a8a",
+      "english_opening": "The CN Tower, a giant white-elephant needle of a building loomed to the east of them. It w",
+      "russian_opening": "Башня CN , возвышавшаяся над городом, словно огромная игла из слоновой кости, виднелась вд",
+      "russian_page": "https://litmir.club/br/?b=89169&p=2"
+    },
+    {
+      "id": "sysadmin-05",
+      "english_sha256": "52f68a7d8ddb7c0c1a3102972d137970f8bd5618deb27b8e07ee4bb4c0d9b1eb",
+      "russian_sha256": "56240d9b17d49b93f61c03f6af7555e3fddb0f72ace694dee40ffb14938d361a",
+      "english_opening": "The Flickr photostreams were horrific. Felix had to unsubscribe from them after he caught ",
+      "russian_opening": "Потоки фоток во Flickr-е ужасали. Феликс отписался от них, когда наткнулся на снимок женщи",
+      "russian_page": "https://litmir.club/br/?b=89169&p=5"
+    },
+    {
+      "id": "sysadmin-06",
+      "english_sha256": "f94e67d072373a606784c82cf9db6aef0f1258aa8102a3cb8ace5dcd72e3dfa6",
+      "russian_sha256": "844fa691a8adb1f784af437d2b2c0c32b1f8ad2a7ef3c85d13f8944d419bd8c1",
+      "english_opening": "They had less than a day's worth of fuel when Felix was elected the first ever Prime Minis",
+      "russian_opening": "Когда Феликса избрали первым за всю историю человечества премьер-министром киберпространст",
+      "russian_page": "https://litmir.club/br/?b=89169&p=7"
+    },
+    {
+      "id": "sysadmin-07",
+      "english_sha256": "54cc8b4117c19ace4ba2e49f144895080b383ccaa81fcedd1b50130c18bbd5c1",
+      "russian_sha256": "1d7260ed78df6c6edd69f2d88661868303d11a0391c8980bdfde5fd65e81d040",
+      "english_opening": "They waited for the interior doors to close behind them and then Felix opened the exterior",
+      "russian_opening": "Они подождали, пока закроются внутренние двери, и тогда Феликс открыл внешние. Воздух пах ",
+      "russian_page": "https://litmir.club/br/?b=89169&p=9"
+    },
+    {
+      "id": "sysadmin-08",
+      "english_sha256": "cc7e3338664edc30d2698de51739322b0e303179af89803d577bd0705c3db626",
+      "russian_sha256": "5cf9c850d75a1d37428ec84f9cb70bd6e5e3c08b2d59c77c9bbd74535e1746ab",
+      "english_opening": "They drank. The next day, they started to rebuild. And months later, they started over aga",
+      "russian_opening": "Они выпили. На следующий день они взялись за работу. Через несколько месяцев они разругали",
+      "russian_page": "https://litmir.club/br/?b=89169&p=10"
+    }
+  ],
+  "limits": [
+    "Licence and translator attribution confirmed in digital mirror notices, not an inspection of the original Computerra issue.",
+    "This is one 2006 story, not a representative sample of current literary fiction.",
+    "The source includes colloquial profanity and disturbing scenes; passages retain their actual register."
+  ],
+  "reuse": "Contemporary original excerpts, Mikhail Karpov translation excerpts, and derivative AI translations are CC BY-NC-SA 2.5; this does not relicense the MIT application code or public-domain classics."
+}

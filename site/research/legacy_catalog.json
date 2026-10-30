@@ -574,5 +574,187 @@
       "10b64193f78d6c98": "baseline",
       "4ed8923868e919ef": "reviewed"
     }
+  },
+  "blind-v5-78c4d8d96151": {
+    "poe-nerves": {
+      "4c330d00bd485690": "published",
+      "b05be45b83afc3a2": "baseline",
+      "ba983faf53a18cfa": "reviewed"
+    },
+    "doer-city": {
+      "a4df5474de9ae2db": "published",
+      "ed4b976aea887440": "baseline",
+      "4f5bd6c316d06cde": "reviewed"
+    },
+    "poe-silence": {
+      "66b1123f397782ce": "published",
+      "9058f9b58f3003ab": "baseline",
+      "f4fed38fbad68c2b": "reviewed"
+    },
+    "poe-ray": {
+      "e0cdd353fb710ef7": "published",
+      "cf5ad6ed00c7042a": "baseline",
+      "cd893c424f14cadb": "reviewed"
+    },
+    "doer-weeping": {
+      "cf861d736e824712": "published",
+      "6a6fb3f0e1892bed": "baseline",
+      "a8f5e056f98cc034": "reviewed"
+    },
+    "poe-heart": {
+      "f3170dc8fb645ad0": "published",
+      "255319d952e70cc3": "baseline",
+      "a7597980b12088d3": "reviewed"
+    },
+    "poe-extra-01": {
+      "112c18673febeda4": "published",
+      "01e3a89f74e761aa": "baseline",
+      "b2e2660804bd0425": "reviewed"
+    },
+    "poe-extra-03": {
+      "0db34f279c7c74a5": "published",
+      "fdc5f73467b064d1": "baseline",
+      "bf0dce3df1d8bd2b": "reviewed"
+    },
+    "poe-extra-04": {
+      "a248ad617d5eaeb0": "published",
+      "32d9e0e5ecb35386": "baseline",
+      "16dea06034dea0aa": "reviewed"
+    },
+    "poe-extra-06": {
+      "4597ccb68479de94": "published",
+      "d6ec6f24cb76974f": "baseline",
+      "c23ddcc0d34e1da4": "reviewed"
+    },
+    "poe-extra-08": {
+      "1e477a7e1bd79b3f": "published",
+      "0c574edf0c739473": "baseline",
+      "902b3be891ce9b49": "reviewed"
+    },
+    "poe-extra-11": {
+      "acace807609ac127": "published",
+      "8fdd67d69e89303e": "baseline",
+      "31569da843808a88": "reviewed"
+    },
+    "poe-extra-12": {
+      "85f4af4dd8b4b30f": "published",
+      "269ec5b297e3abd3": "baseline",
+      "f3baed28a3c8482e": "reviewed"
+    },
+    "poe-extra-13": {
+      "0b8e3b54cd18331e": "published",
+      "643d54135592ac75": "baseline",
+      "c4af898634cd88c5": "reviewed"
+    },
+    "poe-extra-14": {
+      "9ed583649c29986c": "published",
+      "92bf285b6fc97fc5": "baseline",
+      "794440cdb7421e94": "reviewed"
+    },
+    "poe-extra-15": {
+      "68f0b49ada33a43b": "published",
+      "df72ab081361db11": "baseline",
+      "5f394412ee5d9f53": "reviewed"
+    },
+    "poe-extra-16": {
+      "6ef64e2ad3d58c66": "published",
+      "d40ea163cfae65d9": "baseline",
+      "c7e08e9e451c168b": "reviewed"
+    },
+    "poe-extra-17": {
+      "50e5899e82521721": "published",
+      "ba5e96a14c8d5933": "baseline",
+      "edb31911123cd51d": "reviewed"
+    },
+    "wilde-extra-01": {
+      "6d01b810c7b10468": "published",
+      "02bf03fb82005838": "baseline",
+      "c9ee543f27d327b5": "reviewed"
+    },
+    "wilde-extra-02": {
+      "d3d6cb6d75340806": "published",
+      "5da411899c9e4d6b": "baseline",
+      "69bcf3ec7749091e": "reviewed"
+    },
+    "wilde-extra-03": {
+      "ee929eb3dffc33c7": "published",
+      "60ec7bf2743a846d": "baseline",
+      "cc6c461d9c01389a": "reviewed"
+    },
+    "wilde-extra-05": {
+      "feaffd1f3508cd94": "published",
+      "dc948902c0f50155": "baseline",
+      "37b6dbace774de3f": "reviewed"
+    },
+    "wilde-extra-07": {
+      "78c530afd11b038b": "published",
+      "ca1ee2baa85a950e": "baseline",
+      "28755721c1f0567c": "reviewed"
+    },
+    "wilde-extra-08": {
+      "a5911fce56610239": "published",
+      "954eab585c60340a": "baseline",
+      "7802cb2dbab030bf": "reviewed"
+    },
+    "wilde-extra-09": {
+      "c1ed76d0b2322334": "published",
+      "8d3f2e8819ac1381": "baseline",
+      "0c3b298315796a7e": "reviewed"
+    },
+    "wilde-extra-10": {
+      "921a09dfc373642b": "published",
+      "069cf9a88c21f6b9": "baseline",
+      "cc2d15769a73cd73": "reviewed"
+    },
+    "wilde-extra-11": {
+      "a438f65b89a0e09e": "published",
+      "c437f4493889862b": "baseline",
+      "b93230a44c0cc39d": "reviewed"
+    },
+    "cat-01": {
+      "fa4a976113d9baf4": "published",
+      "0f53133071577cc7": "baseline",
+      "6c9e217a4841853c": "reviewed"
+    },
+    "cat-02": {
+      "2d4ff8f64c58b11c": "published",
+      "46b1da90ceba2228": "baseline",
+      "67865348c85c7d29": "reviewed"
+    },
+    "cat-03": {
+      "69c55d455e2e42f8": "published",
+      "ce293c434c60d1b8": "baseline",
+      "cf05b54519c2ab8c": "reviewed"
+    },
+    "cat-04": {
+      "cbc8ad83546d55df": "published",
+      "6bee9297741dae37": "baseline",
+      "33229f21123c99a5": "reviewed"
+    },
+    "cat-05": {
+      "7f82eaaef8ce6ad1": "published",
+      "a5da4c920505bac8": "baseline",
+      "1012122283b08daa": "reviewed"
+    },
+    "cat-07": {
+      "a8950e70c166f671": "published",
+      "ac541ee1b989eae2": "baseline",
+      "9494d0ba2f850222": "reviewed"
+    },
+    "cat-08": {
+      "7b6866e6b57554aa": "published",
+      "0815dead6916a349": "baseline",
+      "ddf548cf0652837c": "reviewed"
+    },
+    "cat-09": {
+      "4d052f2c542a22e6": "published",
+      "2f3e163d4f7a35bf": "baseline",
+      "c36ed727cc3288fa": "reviewed"
+    },
+    "cat-10": {
+      "742cbb7b1e896867": "published",
+      "d4f7665175e1ae21": "baseline",
+      "86a1566b9ef86e3e": "reviewed"
+    }
   }
 }

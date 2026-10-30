@@ -17,6 +17,9 @@ def load(path):
 
 
 def main():
+    if (RESEARCH/'fresh-modern-20261030/record.json').exists():
+        from build_modern_extension import main as build_extension
+        return build_extension()
     selected = load(RESEARCH/'selected.json') + load(RESEARCH/'corpus_candidates.json')
     generations = {name: load(FRESH/name/'output.json')['translations'] for name in ['baseline','skilled','reviewed']}
     record = load(FRESH/'record.json')

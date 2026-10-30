@@ -1,7 +1,7 @@
 {
-  "version": "blind-v5-78c4d8d96151",
+  "version": "blind-v6-81776b484131",
   "cohortSize": 20,
-  "previousDataset": "blind-v4-45b2949d1c6a",
+  "previousDataset": "blind-v5-78c4d8d96151",
   "rounds": [
     {
       "id": "poe-nerves",
@@ -1482,6 +1482,361 @@
           "sourceUrl": "https://github.com/deprav1/literary-translation-skills/blob/main/site/METHODS.json"
         }
       ]
+    },
+    {
+      "id": "sysadmin-01",
+      "author": "Кори Доктороу",
+      "title": "Земля сисадминов",
+      "tag": "2006 · Ночной звонок",
+      "source": "When Felix's special phone rang at two in the morning, Kelly rolled over and punched him in the shoulder and hissed, \"Why didn't you turn that fucking thing off before bed?\"\n\n\"Because I'm on call,\" he said.\n\n\"You're not a fucking doctor,\" she said, kicking him as he sat on the bed's edge, pulling on the pants he'd left on the floor before turning in. \"You're a goddamned *systems administrator*.\"\n\n\"It's my job,\" he said.\n\n\"They work you like a government mule,\" she said. \"You know I'm right. For Christ's sake, you're a father now, you can't go running off in the middle of the night every time someone's porn supply goes down. Don't answer that phone.\"\n\nHe knew she was right. He answered the phone.",
+      "sourceUrl": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+      "comparisonGroup": "isolated",
+      "votingEligible": true,
+      "workId": "sysadmin",
+      "era": "contemporary",
+      "candidates": [
+        {
+          "id": "9e5e153976c4f9eb",
+          "method": "published",
+          "text": "Когда рабочий телефон Феликса зазвонил в два часа ночи, Келли перекатилась с другого края кровати, толкнула его в плечо и прошипела:\n\n- Какого чёрта ты не выключил его, когда ложился спать?\n\n- Такого, что я на дежурстве, - ответил он.\n\n- Ты ж не врач, черт подери, - она пихнула его ногой, пока он на краю кровати натягивал штаны. - Всего лишь сисадмин.\n\n- Такая у меня работа.\n\n- Они пашут на тебе, как на проклятом. Сам знаешь, что я права, - сказала она. - Господи, ты же теперь отец и не должен убегать из дома каждую ночь только потому, что у кого-то кончилась порнуха. Не бери трубку.\n\nОн знал, что она права, но взял трубку.",
+          "credit": "Михаил Карпов",
+          "note": "Опубликованный перевод; текст не исправлялся для сравнения. Кори Доктороу · 2006 · CC BY-NC-SA 2.5. AI-переводы — производные версии.",
+          "sourceUrl": "https://litmir.club/br/?b=89169&p=1",
+          "license": "CC BY-NC-SA 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.5/"
+        },
+        {
+          "id": "cae4183eddb31ae7",
+          "method": "baseline",
+          "text": "Когда в два часа ночи зазвонил дежурный телефон Феликса, Келли перевернулась на другой бок, стукнула его кулаком в плечо и прошипела:\n\n— Почему ты не выключил эту ёбаную штуку перед сном?\n\n— Потому что я на дежурстве, — сказал он.\n\n— Ты же не ёбаный врач, — сказала она и пнула его, пока он, сидя на краю кровати, натягивал брюки, брошенные перед сном на пол. — Ты, мать твою, *системный администратор*.\n\n— Это моя работа, — сказал он.\n\n— На тебе пашут как на казённом муле, — сказала она. — И ты знаешь, что я права. Господи, ты теперь отец, нельзя же срываться посреди ночи всякий раз, когда у кого-нибудь перекрывают подачу порнухи. Не бери трубку.\n\nОн знал, что она права. Он взял трубку.",
+          "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+          "note": "Новая изолированная генерация без опубликованного перевода во входе. Кори Доктороу · 2006 · CC BY-NC-SA 2.5. AI-переводы — производные версии.",
+          "sourceUrl": "./METHODS.json",
+          "license": "CC BY-NC-SA 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.5/"
+        },
+        {
+          "id": "07106fade00b47d6",
+          "method": "reviewed",
+          "text": "Когда в два часа ночи зазвонил специальный телефон Феликса, Келли перевернулась, ударила его кулаком в плечо и прошипела:\n\n— Какого хрена ты не выключил эту штуку перед сном?\n\n— Я на дежурстве, — сказал он.\n\n— Ты не врач, мать твою, — сказала она и пнула его, пока он сидел на краю кровати, натягивая штаны, которые бросил на пол перед сном. — Ты чёртов *системный администратор*.\n\n— У меня работа такая, — сказал он.\n\n— На тебе пашут как на ломовой лошади, — сказала она. — Ты же знаешь, что я права. Господи, ты теперь отец, нельзя срываться посреди ночи каждый раз, когда у кого-то перебои с поставками порнухи. Не бери трубку.\n\nОн знал, что она права. Он взял трубку.",
+          "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+          "note": "Новая изолированная генерация без опубликованного перевода во входе. Кори Доктороу · 2006 · CC BY-NC-SA 2.5. AI-переводы — производные версии.",
+          "sourceUrl": "./METHODS.json",
+          "license": "CC BY-NC-SA 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.5/"
+        }
+      ]
+    },
+    {
+      "id": "sysadmin-02",
+      "author": "Кори Доктороу",
+      "title": "Земля сисадминов",
+      "tag": "2006 · Семейный техносленг",
+      "source": "\"2.0's awake,\" she said. The baby had been Beta Test when he was in her womb, and when her water broke, he got the call and dashed out of the office, shouting, *The Gold Master just shipped!* They'd started calling him 2.0 before he'd finished his first cry. \"This little bastard was born to suck tit.\"",
+      "sourceUrl": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+      "comparisonGroup": "isolated",
+      "votingEligible": true,
+      "workId": "sysadmin",
+      "era": "contemporary",
+      "candidates": [
+        {
+          "id": "f6bce8961c18f392",
+          "method": "published",
+          "text": "- 2.0 проснулся.\n\nПока малыш был в утробе, его звали Бетой, а когда отошли воды, Феликс выбежал из офиса с воплем: \"Отправлен на золото!\" Они стали называть его 2.0 ещё до того, как затих его первый крик. \"Маленький засранец просто рождён для того, чтобы титьку сосать.\"",
+          "credit": "Михаил Карпов",
+          "note": "Опубликованный перевод; текст не исправлялся для сравнения. Кори Доктороу · 2006 · CC BY-NC-SA 2.5. AI-переводы — производные версии.",
+          "sourceUrl": "https://litmir.club/br/?b=89169&p=1",
+          "license": "CC BY-NC-SA 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.5/"
+        },
+        {
+          "id": "198489352611b797",
+          "method": "baseline",
+          "text": "— 2.0 проснулся, — сказала она. Пока малыш был у неё в животе, его звали Бета-тестом, а когда у неё отошли воды, Феликсу позвонили, и он вылетел из офиса с криком: *«Золотой мастер отгружен!»* Его уже называли 2.0, когда он ещё не закончил свой первый крик. — Этот маленький засранец родился, чтобы сосать сиську.",
+          "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+          "note": "Новая изолированная генерация без опубликованного перевода во входе. Кори Доктороу · 2006 · CC BY-NC-SA 2.5. AI-переводы — производные версии.",
+          "sourceUrl": "./METHODS.json",
+          "license": "CC BY-NC-SA 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.5/"
+        },
+        {
+          "id": "b4889134b7acd971",
+          "method": "reviewed",
+          "text": "— 2.0 проснулся, — сказала она. Пока ребёнок был у неё в животе, его звали Бета-тестом, а когда у неё отошли воды, Феликсу позвонили, и он выскочил из офиса с криком: *Финальная сборка вышла!* Его начали звать 2.0 ещё до того, как он закончил свой первый крик. — Этот мелкий засранец родился, чтобы сосать сиську.",
+          "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+          "note": "Новая изолированная генерация без опубликованного перевода во входе. Кори Доктороу · 2006 · CC BY-NC-SA 2.5. AI-переводы — производные версии.",
+          "sourceUrl": "./METHODS.json",
+          "license": "CC BY-NC-SA 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.5/"
+        }
+      ]
+    },
+    {
+      "id": "sysadmin-03",
+      "author": "Кори Доктороу",
+      "title": "Земля сисадминов",
+      "tag": "2006 · Технический диалог",
+      "source": "\"Massive flashworm attack. Some jackass with a zero-day exploit has got every Windows box on the net running Monte Carlo probes on every IP block, including IPv6. The big Ciscos all run administrative interfaces over v6, and they all fall over if they get more than ten simultaneous probes, which means that just about every interchange has gone down. DNS is screwy, too -- like maybe someone poisoned the zone transfer last night. Oh, and there's an email and IM component that sends pretty lifelike messages to everyone in your address book, barfing up Eliza-dialog that keys off of your logged email and messages to get you to open a Trojan.\"",
+      "sourceUrl": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+      "comparisonGroup": "isolated",
+      "votingEligible": true,
+      "workId": "sysadmin",
+      "era": "contemporary",
+      "candidates": [
+        {
+          "id": "da524aaa38ff6472",
+          "method": "published",
+          "text": "- Массированная атака флэш-червя. Какой-то урод с эксплойтом нулевого дня, похоже, заставил все Windows в сети прощупывать каждый блок IP по методу Монте-Карло. Включая IPv6. Доступ к админскому интерфейсу больших цисок идёт по v6, и если к ним присасывается более десяти зондов, они падают. В итоге почти все пункты межсетевого обмена лежат. С DNS тоже свистопляска - очень может быть, что они ещё с прошлой ночи стали распространять испорченную информацию. Ах да, а ещё есть компонент, который прочёсывает адресную книгу и рассылает по почте и мессенджерам вполне себе убедительные сообщения, заводит разговор с помощью бота вроде Eliza , натасканного на письмах из почтового ящика, и уговаривает открыть трояна.",
+          "credit": "Михаил Карпов",
+          "note": "Опубликованный перевод; текст не исправлялся для сравнения. Кори Доктороу · 2006 · CC BY-NC-SA 2.5. AI-переводы — производные версии.",
+          "sourceUrl": "https://litmir.club/br/?b=89169&p=1",
+          "license": "CC BY-NC-SA 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.5/"
+        },
+        {
+          "id": "06fcce5efcd3f37a",
+          "method": "baseline",
+          "text": "— Массированная атака молниеносного червя. Какой-то мудак раздобыл эксплойт нулевого дня и заставил все виндовые машины в сети зондировать методом Монте-Карло все блоки IP-адресов, включая IPv6. У всех больших цисок интерфейсы администрирования работают через v6, и все они падают, если получают больше десяти одновременных запросов. Так что почти все узлы обмена трафиком легли. DNS тоже глючит — похоже, ночью кто-то подсунул левые данные при передаче зон. А ещё там есть компонент для почты и мессенджеров: рассылает всем из адресной книги вполне правдоподобные сообщения. Изрыгает диалоги в духе «Элизы», цепляясь за твою почту и историю переписки, чтобы заставить тебя открыть троян.",
+          "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+          "note": "Новая изолированная генерация без опубликованного перевода во входе. Кори Доктороу · 2006 · CC BY-NC-SA 2.5. AI-переводы — производные версии.",
+          "sourceUrl": "./METHODS.json",
+          "license": "CC BY-NC-SA 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.5/"
+        },
+        {
+          "id": "6c60e8838525ecac",
+          "method": "reviewed",
+          "text": "— Массовая атака молниеносно распространяющегося червя. Какой-то мудак с эксплойтом нулевого дня заставил все машины под Windows в сети зондировать методом Монте-Карло все блоки IP-адресов, включая IPv6. У всех больших маршрутизаторов Cisco интерфейсы управления работают по v6, и все они валятся, если получают больше десяти одновременных запросов, так что легли почти все узлы обмена трафиком. DNS тоже глючит — похоже, кто-то прошлой ночью отравил передачу зоны. А, ещё там компонент для почты и мгновенных сообщений: рассылает всем из твоей адресной книги довольно правдоподобные сообщения, изрыгает диалоги в духе «Элизы» на основе сохранённой переписки, чтобы заставить тебя открыть троян.",
+          "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+          "note": "Новая изолированная генерация без опубликованного перевода во входе. Кори Доктороу · 2006 · CC BY-NC-SA 2.5. AI-переводы — производные версии.",
+          "sourceUrl": "./METHODS.json",
+          "license": "CC BY-NC-SA 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.5/"
+        }
+      ]
+    },
+    {
+      "id": "sysadmin-04",
+      "author": "Кори Доктороу",
+      "title": "Земля сисадминов",
+      "tag": "2006 · Катастрофа",
+      "source": "The CN Tower, a giant white-elephant needle of a building loomed to the east of them. It was askew, like a branch stuck in wet sand. Was it moving? It was. It was heeling over, slowly, but gaining speed, falling northeast toward the financial district. In a second, it slid over the tipping point and crashed down. They felt the shock, then heard it, the whole building rocking from the impact. A cloud of dust rose from the wreckage, and there was more thunder as the world's tallest freestanding structure crashed through building after building.",
+      "sourceUrl": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+      "comparisonGroup": "isolated",
+      "votingEligible": true,
+      "workId": "sysadmin",
+      "era": "contemporary",
+      "candidates": [
+        {
+          "id": "c85ae054a28fc9dd",
+          "method": "published",
+          "text": "Башня CN , возвышавшаяся над городом, словно огромная игла из слоновой кости, виднелась вдали к востоку от них. Она накренилась, словно палка, воткнутая в мокрый песок. Двигалась ли она? Двигалась. Сначала медленно, а потом всё быстрее и быстрее, башня падала по направлению к северо-востоку, на деловой квартал. Секунду спустя она надломилась и рухнула вниз. Ударная волна сначала докатилась до их мозгов и только потом до ушей, когда затрясло всё здание. Над местом происшествия поднялось облако пыли, а падающая башня продолжала прошивать одно здание за другим, и грохот не утихал.",
+          "credit": "Михаил Карпов",
+          "note": "Опубликованный перевод; текст не исправлялся для сравнения. Кори Доктороу · 2006 · CC BY-NC-SA 2.5. AI-переводы — производные версии.",
+          "sourceUrl": "https://litmir.club/br/?b=89169&p=2",
+          "license": "CC BY-NC-SA 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.5/"
+        },
+        {
+          "id": "7cb2c36e508fb150",
+          "method": "baseline",
+          "text": "К востоку от них высилась Си-Эн-Тауэр — громадная, никому не нужная игла. Она стояла криво, как ветка, воткнутая в мокрый песок. Она что, двигалась? Да. Она кренилась, медленно, но всё быстрее, падая на северо-восток, в сторону финансового квартала. Ещё секунда — и она миновала точку равновесия и рухнула. Они ощутили удар, потом услышали его; всё здание качнулось. Над обломками поднялось облако пыли, и грохот продолжился: самое высокое в мире отдельно стоящее сооружение крушило одно здание за другим.",
+          "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+          "note": "Новая изолированная генерация без опубликованного перевода во входе. Кори Доктороу · 2006 · CC BY-NC-SA 2.5. AI-переводы — производные версии.",
+          "sourceUrl": "./METHODS.json",
+          "license": "CC BY-NC-SA 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.5/"
+        },
+        {
+          "id": "bb7220d222c9964d",
+          "method": "reviewed",
+          "text": "К востоку от них высилась Си-Эн Тауэр — гигантская игла, дорогостоящая и бесполезная. Она стояла криво, как ветка, воткнутая в мокрый песок. Она двигалась? Да. Она кренилась, медленно, но всё быстрее, падая на северо-восток, в сторону финансового квартала. Через секунду она миновала точку равновесия и рухнула. Они почувствовали толчок, потом услышали грохот; всё здание качнулось от удара. Над обломками поднялось облако пыли, и грохотало снова и снова: самое высокое в мире отдельно стоящее сооружение проламывало одно здание за другим.",
+          "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+          "note": "Новая изолированная генерация без опубликованного перевода во входе. Кори Доктороу · 2006 · CC BY-NC-SA 2.5. AI-переводы — производные версии.",
+          "sourceUrl": "./METHODS.json",
+          "license": "CC BY-NC-SA 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.5/"
+        }
+      ]
+    },
+    {
+      "id": "sysadmin-05",
+      "author": "Кори Доктороу",
+      "title": "Земля сисадминов",
+      "tag": "2006 · Сдержанное горе",
+      "source": "The Flickr photostreams were horrific. Felix had to unsubscribe from them after he caught a photo of a woman and a baby, dead in a kitchen, twisted into an agonized heiroglyph by the bioagent. They didn't look like Kelly and 2.0, but they didn't have to. He started shaking and couldn't stop.",
+      "sourceUrl": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+      "comparisonGroup": "isolated",
+      "votingEligible": true,
+      "workId": "sysadmin",
+      "era": "contemporary",
+      "candidates": [
+        {
+          "id": "14329718bac906b8",
+          "method": "published",
+          "text": "Потоки фоток во Flickr-е ужасали. Феликс отписался от них, когда наткнулся на снимок женщины с ребёнком, умерших на собственной кухне. Под действием биоагента их тела свернулись в ужасный иероглиф. Они не были похожи на Келли и 2.0, но дело было не в этом. Его трясло, и он не мог остановиться.",
+          "credit": "Михаил Карпов",
+          "note": "Опубликованный перевод; текст не исправлялся для сравнения. Кори Доктороу · 2006 · CC BY-NC-SA 2.5. AI-переводы — производные версии.",
+          "sourceUrl": "https://litmir.club/br/?b=89169&p=5",
+          "license": "CC BY-NC-SA 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.5/"
+        },
+        {
+          "id": "df731971814ff867",
+          "method": "baseline",
+          "text": "Фотоленты Flickr были чудовищны. Феликсу пришлось отписаться от них после того, как ему попался снимок женщины и младенца, мёртвых, на кухне: биологическое оружие скрутило их в иероглиф мучительной боли. Они не были похожи на Келли и 2.0, но сходство было и не нужно. Его затрясло, и он не мог унять дрожь.",
+          "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+          "note": "Новая изолированная генерация без опубликованного перевода во входе. Кори Доктороу · 2006 · CC BY-NC-SA 2.5. AI-переводы — производные версии.",
+          "sourceUrl": "./METHODS.json",
+          "license": "CC BY-NC-SA 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.5/"
+        },
+        {
+          "id": "573a7365e178fa9b",
+          "method": "reviewed",
+          "text": "Фотоленты Flickr были ужасны. Феликсу пришлось от них отписаться после того, как ему попался снимок мёртвых женщины и младенца на кухне, скрученных биоагентом в иероглиф агонии. Они не были похожи на Келли и 2.0, но им и не надо было. Его затрясло, и он не мог остановиться.",
+          "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+          "note": "Новая изолированная генерация без опубликованного перевода во входе. Кори Доктороу · 2006 · CC BY-NC-SA 2.5. AI-переводы — производные версии.",
+          "sourceUrl": "./METHODS.json",
+          "license": "CC BY-NC-SA 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.5/"
+        }
+      ]
+    },
+    {
+      "id": "sysadmin-06",
+      "author": "Кори Доктороу",
+      "title": "Земля сисадминов",
+      "tag": "2006 · Политическая ирония",
+      "source": "They had less than a day's worth of fuel when Felix was elected the first ever Prime Minister of Cyberspace. The first count was spoiled by a bot that spammed the voting process and they lost a critical day while they added up the votes a second time.",
+      "sourceUrl": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+      "comparisonGroup": "isolated",
+      "votingEligible": true,
+      "workId": "sysadmin",
+      "era": "contemporary",
+      "candidates": [
+        {
+          "id": "56b0979e9fbbcf5c",
+          "method": "published",
+          "text": "Когда Феликса избрали первым за всю историю человечества премьер-министром киберпространства, топлива у них оставалось где-то на день. Первый подсчёт голосов был сорван ботом, который наспамил во время выборов, и они потратили ещё день на их пересчёт.",
+          "credit": "Михаил Карпов",
+          "note": "Опубликованный перевод; текст не исправлялся для сравнения. Кори Доктороу · 2006 · CC BY-NC-SA 2.5. AI-переводы — производные версии.",
+          "sourceUrl": "https://litmir.club/br/?b=89169&p=7",
+          "license": "CC BY-NC-SA 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.5/"
+        },
+        {
+          "id": "3dc17ed0b13ece98",
+          "method": "baseline",
+          "text": "Когда Феликса избрали первым в истории премьер-министром Киберпространства, топлива у них оставалось меньше чем на сутки. Первый подсчёт сорвал бот, заваливший систему голосования спамом, и на повторном подсчёте они потеряли целый день — день, от которого зависело слишком многое.",
+          "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+          "note": "Новая изолированная генерация без опубликованного перевода во входе. Кори Доктороу · 2006 · CC BY-NC-SA 2.5. AI-переводы — производные версии.",
+          "sourceUrl": "./METHODS.json",
+          "license": "CC BY-NC-SA 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.5/"
+        },
+        {
+          "id": "b2707d375030287d",
+          "method": "reviewed",
+          "text": "Когда Феликса избрали первым в истории премьер-министром киберпространства, топлива у них оставалось меньше чем на сутки. Первый подсчёт сорвал бот, заваливший систему голосования спамом, и, пока они пересчитывали голоса, были потеряны драгоценные сутки.",
+          "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+          "note": "Новая изолированная генерация без опубликованного перевода во входе. Кори Доктороу · 2006 · CC BY-NC-SA 2.5. AI-переводы — производные версии.",
+          "sourceUrl": "./METHODS.json",
+          "license": "CC BY-NC-SA 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.5/"
+        }
+      ]
+    },
+    {
+      "id": "sysadmin-07",
+      "author": "Кори Доктороу",
+      "title": "Земля сисадминов",
+      "tag": "2006 · Возвращение в мир",
+      "source": "They waited for the interior doors to close behind them and then Felix opened the exterior doors. The air smelled and tasted like a mown grass, like the first drops of rain, like the lake and the sky, like the outdoors and the world, an old friend not heard from in an eternity.",
+      "sourceUrl": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+      "comparisonGroup": "isolated",
+      "votingEligible": true,
+      "workId": "sysadmin",
+      "era": "contemporary",
+      "candidates": [
+        {
+          "id": "05839e9b2ce559bc",
+          "method": "published",
+          "text": "Они подождали, пока закроются внутренние двери, и тогда Феликс открыл внешние. Воздух пах свежескошенной травой, первыми каплями дождя; словно озеро, в котором отражается небо, словно улица и словно мир, словно старый друг, с которым не виделся целую вечность.",
+          "credit": "Михаил Карпов",
+          "note": "Опубликованный перевод; текст не исправлялся для сравнения. Кори Доктороу · 2006 · CC BY-NC-SA 2.5. AI-переводы — производные версии.",
+          "sourceUrl": "https://litmir.club/br/?b=89169&p=9",
+          "license": "CC BY-NC-SA 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.5/"
+        },
+        {
+          "id": "9bca5a70b54166af",
+          "method": "baseline",
+          "text": "Они дождались, пока за ними закроются внутренние двери, и Феликс открыл наружные. Воздух пах и был на вкус как скошенная трава, как первые капли дождя, как озеро и небо, как улица и весь мир — старый друг, от которого целую вечность не было вестей.",
+          "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+          "note": "Новая изолированная генерация без опубликованного перевода во входе. Кори Доктороу · 2006 · CC BY-NC-SA 2.5. AI-переводы — производные версии.",
+          "sourceUrl": "./METHODS.json",
+          "license": "CC BY-NC-SA 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.5/"
+        },
+        {
+          "id": "703fd512208c5076",
+          "method": "reviewed",
+          "text": "Они дождались, пока за ними закроются внутренние двери, и тогда Феликс открыл наружные. Запах и вкус воздуха были как у скошенной травы, как у первых капель дождя, как у озера и неба, как у всего, что было за стенами, как у мира — старого друга, от которого целую вечность не было вестей.",
+          "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+          "note": "Новая изолированная генерация без опубликованного перевода во входе. Кори Доктороу · 2006 · CC BY-NC-SA 2.5. AI-переводы — производные версии.",
+          "sourceUrl": "./METHODS.json",
+          "license": "CC BY-NC-SA 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.5/"
+        }
+      ]
+    },
+    {
+      "id": "sysadmin-08",
+      "author": "Кори Доктороу",
+      "title": "Земля сисадминов",
+      "tag": "2006 · Повтор и время",
+      "source": "They drank. The next day, they started to rebuild. And months later, they started over again, when disagreements drove apart the fragile little group they'd pulled together. And a year after that, they started over again. And five years later, they started again.",
+      "sourceUrl": "https://craphound.com/overclocked/Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt",
+      "comparisonGroup": "isolated",
+      "votingEligible": true,
+      "workId": "sysadmin",
+      "era": "contemporary",
+      "candidates": [
+        {
+          "id": "b8d6849cfe1398d4",
+          "method": "published",
+          "text": "Они выпили. На следующий день они взялись за работу. Через несколько месяцев они разругались, хрупкое маленькое сообщество, собранное ими, развалилось, но они начали всё заново. А потом, ещё через год, ещё раз. И снова - когда миновало пять лет.",
+          "credit": "Михаил Карпов",
+          "note": "Опубликованный перевод; текст не исправлялся для сравнения. Кори Доктороу · 2006 · CC BY-NC-SA 2.5. AI-переводы — производные версии.",
+          "sourceUrl": "https://litmir.club/br/?b=89169&p=10",
+          "license": "CC BY-NC-SA 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.5/"
+        },
+        {
+          "id": "bb8084f75fcd7501",
+          "method": "baseline",
+          "text": "Они выпили. На следующий день они принялись всё отстраивать заново. А через несколько месяцев начали сначала, когда разногласия раскололи хрупкую маленькую общину, которую им удалось собрать. И ещё через год они снова начали сначала. И пять лет спустя начали опять.",
+          "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+          "note": "Новая изолированная генерация без опубликованного перевода во входе. Кори Доктороу · 2006 · CC BY-NC-SA 2.5. AI-переводы — производные версии.",
+          "sourceUrl": "./METHODS.json",
+          "license": "CC BY-NC-SA 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.5/"
+        },
+        {
+          "id": "cdfa86fb025d990e",
+          "method": "reviewed",
+          "text": "Они выпили. На следующий день они принялись восстанавливать мир. А спустя несколько месяцев снова начали с нуля: разногласия раскололи хрупкую маленькую группу, которую им удалось собрать. А ещё через год они снова начали с нуля. А пять лет спустя начали снова.",
+          "credit": "GPT-6.1 Sol · medium · 30.10.2026",
+          "note": "Новая изолированная генерация без опубликованного перевода во входе. Кори Доктороу · 2006 · CC BY-NC-SA 2.5. AI-переводы — производные версии.",
+          "sourceUrl": "./METHODS.json",
+          "license": "CC BY-NC-SA 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.5/"
+        }
+      ]
     }
+  ],
+  "featuredWorkIds": [
+    "sysadmin"
   ]
 }

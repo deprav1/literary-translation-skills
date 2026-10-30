@@ -1,6 +1,6 @@
 export const METHODS = ['published', 'baseline', 'reviewed'];
 export const LEGACY_METHODS = ['skilled', 'published', 'baseline', 'reviewed'];
-export const COHORT_ALGORITHM = 3;
+export const COHORT_ALGORITHM = 4;
 export function hashSeed(value) { let h = 2166136261; for (const ch of value) { h ^= ch.codePointAt(0); h = Math.imul(h, 16777619); } return h >>> 0; }
 export function seededRandom(seed) { let x = seed >>> 0; return () => { x += 0x6D2B79F5; let t = x; t = Math.imul(t ^ t >>> 15, t | 1); t ^= t + Math.imul(t ^ t >>> 7, t | 61); return ((t ^ t >>> 14) >>> 0) / 4294967296; }; }
 export function shuffled(values, random = () => crypto.getRandomValues(new Uint32Array(1))[0] / 4294967296) {
@@ -14,6 +14,8 @@ export function cohortFor(data, participantId) {
   const ranked = eligible.map(r => ({ id: r.id, title: r.title, source: r.source.replace(/\s+/g, ' ').trim(), score: hashSeed(`${data.version}:${COHORT_ALGORITHM}:${participantId}:${r.id}`) })).sort((a,b) => a.score - b.score || a.id.localeCompare(b.id));
   const selected = [];
   const add = row => { if (selected.length < size && !selected.some(previous => previous.id === row.id || previous.source.includes(row.source) || row.source.includes(previous.source))) selected.push(row); };
+  const featured = new Set(eligible.filter(r => (data.featuredWorkIds || []).includes(r.workId)).map(r => r.id));
+  for (const row of ranked.filter(r => featured.has(r.id))) add(row);
   // Give each available work a presence before filling the remainder by rank.
   for (const title of [...new Set(ranked.map(r => r.title))].sort()) {
     for (const row of ranked.filter(r => r.title === title)) {

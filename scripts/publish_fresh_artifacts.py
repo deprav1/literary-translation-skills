@@ -18,8 +18,11 @@ def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--workspace',type=Path,required=True)
     parser.add_argument('--source-pack',type=Path,required=True)
+    parser.add_argument('--evidence-name',default='fresh-v5')
+    parser.add_argument('--preparation-note',type=Path)
     args=parser.parse_args()
-    destination=ROOT/'site/research/fresh-v5'
+    assert __import__('re').fullmatch(r'fresh-[a-z0-9-]+',args.evidence_name)
+    destination=ROOT/'site/research'/args.evidence_name
     assert not destination.exists(), 'Never overwrite an evidence set'
     source=json.loads(args.source_pack.read_text(encoding='utf8'))
     validate_source_pack(source)
@@ -58,12 +61,14 @@ def main():
     first=manifests['baseline']
     baseline={row['id']:row['text'] for row in json.loads((args.workspace/'baseline/output.json').read_text(encoding='utf8'))['translations']}
     reviewed={row['id']:row['text'] for row in json.loads((args.workspace/'reviewed/output.json').read_text(encoding='utf8'))['translations']}
+    draft={row['id']:row['text'] for row in json.loads((args.workspace/'skilled/output.json').read_text(encoding='utf8'))['translations']}
     record={
         'date':'2026-10-30','model':first['model'],'reasoning_effort':first['reasoning_effort'],
         'skill_revision':skill_revision,'source_pack_sha256':sha(pack_bytes),
         'source_context':context,'fragment_work_ids':{row['id']:row['work_id'] for row in source['fragments']},
         'stages':[{**m,'status':'done','artifact':phase+'/output.json','instruction':phase+'/instruction.txt'} for phase,m in manifests.items()],
         'outputs':{phase:manifests[phase]['output_sha256'] for phase in ['baseline','skilled','reviewed']},
+        'qa_changed_fragment_ids':sorted(id for id in reviewed if reviewed[id]!=draft[id]),
         'reference_translations_supplied':False,'primary_agent_text_edits':False,'best_of_selection':False,
         'poll_methods':['published','baseline','reviewed'],
         'intermediate_condition':'Craft drafts remain in evidence, not as a separate voting card; unchanged QA outputs must not duplicate cards and split votes.',
@@ -74,8 +79,12 @@ def main():
         'common_launch_options':['--ignore-user-config','--ephemeral','--skip-git-repo-check','--sandbox read-only','model_reasoning_effort=medium','project_doc_max_bytes=0','web_search=disabled','shell_tool=false','apps=false','plugins=false','memories=false','hooks=false','multi_agent=false','browser_use=false','computer_use=false','image_generation=false','skill_search=false','skip_host_skill_discovery=true'],
         'isolation':{'new_session_each_phase':True,'inline_inputs':True,'tools_used':0,'host_skills_disabled':True,'memory_disabled':True,'plugins_disabled':True,'network_tools_disabled':True,'baseline_skill_instructions':[]},
         'runtime_notes':['The installed CLI ignored the tools.view_image configuration key; there were no image inputs or image tool calls.','Host skill discovery was disabled using the installed experimental skip_host_skill_discovery feature.','The same model family performed generation, critique, editing and diagnostics. Separate contexts do not establish independent human validation.'],
-        'limits':['Public-domain originals and historical translations may be present in model training. Runtime isolation does not remove that prior knowledge.','Source context is identical across the main conditions; craft and craft+QA intentionally receive additional plan, glossary and pilot calibration.','The reviewed condition is a revision of the craft draft, not an independently sampled translation.','Evaluation results are diagnostic; no candidate was selected, replaced or manually rewritten after evaluation.','Full original stories, complete prompts and raw CLI logs remain outside the public repository. Context URLs/hashes, exact stage instructions and generated artifacts are published.']
+        'limits':['Public originals and published translations may be present in model training. Runtime isolation does not remove that prior knowledge.','Source context is identical across the main conditions; craft and craft+QA intentionally receive additional plan, glossary and pilot calibration.','The reviewed condition is a revision of the craft draft, not an independently sampled translation.','Evaluation results are diagnostic; no candidate was selected, replaced or manually rewritten after evaluation.','Full original stories, complete prompts and raw CLI logs remain outside the public repository. Context URLs/hashes, exact stage instructions and generated artifacts are published.']
     }
+    if args.preparation_note:
+        note=json.loads(args.preparation_note.read_text(encoding='utf8'))
+        assert set(note)=={'reason','discarded_source_pack_sha256','discarded_outputs_sha256'}
+        record['preparation_correction']=note
     (destination/'record.json').write_text(json.dumps(record,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
     print(json.dumps({'phases':len(PHASES),'fragments':len(expected),'destination':str(destination.relative_to(ROOT))}))
 

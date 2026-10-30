@@ -1,5 +1,7 @@
 # Blind voting API
 
+For the expanded classic + contemporary pilot, run `python scripts/build_blind_catalog.py` from the repository root. It rebuilds v6 from the frozen v5 archive and the modern generation evidence. Deploy this exact Worker catalog and verify its new dataset with `/stats` **before** pushing the Pages update. Pages deployment does not deploy the Worker. Existing dataset allowlists must stay available for earlier votes, statistics and deletion.
+
 Deploy the Worker and D1 migration only after populating `catalog.js` with the exact public versioned dataset and candidate-to-method mapping. The empty catalog rejects all datasets. Replace `REPLACE_AT_DEPLOY` with the created D1 database ID and set `VOTE_SALT` as a secret. `ALLOWED_ORIGIN` must exactly match the public site origin. `DEV_ORIGIN` is optional and only accepts an exact localhost or 127.0.0.1 origin. No credentials belong in this repository. Apply `migrations/0001_votes.sql` before serving requests.
 
 Requests with a disallowed Origin are rejected; writes require an allowed Origin, `application/json`, and a body of at most 4096 bytes. GET `/health` returns `{ok:true}`. GET `/stats?dataset=blind-v1` returns `{dataset,totalVotes,participantBrowsers,methods,fragments}`, where `methods` and each `fragments[fragmentId]` have integer `skilled`, `published`, `baseline`, and `reviewed` counts. Unknown or empty datasets return 404.
