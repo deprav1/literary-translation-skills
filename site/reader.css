@@ -51,3 +51,66 @@ summary:focus-visible, select:focus-visible { outline: 3px solid var(--orange); 
 .personal-result{grid-template-columns:repeat(3,minmax(0,1fr))}
 @media(min-width:1150px){.arena .candidate-grid:not(.single-column){grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:600px){.personal-result{grid-template-columns:1fr}}
+
+/* One promise and one primary action; supporting detail opens on request. */
+.header { height: 88px; }
+.hero { min-height: 570px; padding: 52px 0 60px; gap: 52px; }
+.hero h1 { font-size: clamp(52px, 5.2vw, 76px); line-height: 1.06; letter-spacing: -.055em; max-inline-size: 16ch; text-wrap: balance; margin-bottom: 24px; }
+.hero h1 > span { display: block; }
+.hero .eyebrow { margin-bottom: 24px; font-size: 11px; letter-spacing: 1.2px; }
+.hero-description { max-width: 36ch; font-size: 17px; line-height: 1.65; margin-bottom: 28px; text-wrap: pretty; }
+.hero-actions { gap: 24px; }
+.hero .micro-copy { font-size: 13px; margin: 18px 0 14px; }
+.modern-link { display: inline-block; text-align: left; min-height: 44px; font-size: 14px; }
+.hero-art { height: 400px; }
+.hero-art .paper { top: 28px; }
+.hero-art .paper > span { font-size: 22px; letter-spacing: 0; }
+.hero-art .seal { width: 90px; height: 90px; right: 5px; bottom: 0; }
+.hero-art .seal .mask { width: 48px; height: 28px; }
+.footer { border-top: 1px solid var(--line); padding-block: 26px; grid-template-columns: 1fr auto auto; align-items: center; gap: 32px; }
+.footer > div { flex-direction: row; align-items: center; gap: 24px; }
+.footer .text-button, .footer .repo-link { font-size: 12px; min-height: 44px; display: inline-flex; align-items: center; padding-block: 8px; }
+.header .text-button { min-height: 44px; }
+.arena-top .text-button { white-space: nowrap; }
+.arena .round-heading { margin-block: 20px; }
+.arena .round-heading h2 { font-size: clamp(28px, 3.3vw, 42px); max-width: 24ch; }
+.progress-track { margin-bottom: 24px; }
+.arena-hint { font-size: 13px; }
+.sync-status:empty { display: none; }
+.round-footer .round-actions { margin-left: auto; }
+.results { padding-block: 36px; }
+.results > h2 { font-size: clamp(36px, 5vw, 60px); letter-spacing: -.04em; }
+.results .section-description { font-size: 15px; line-height: 1.65; }
+.results-actions { margin-block: 24px 32px; }
+.world-section { margin-block: 30px; padding-top: 28px; }
+.world-heading h3 { font-size: clamp(24px, 3vw, 32px); letter-spacing: -.025em; }
+.stats-filter { margin-block: 20px; }
+.stats-note { font-size: 13px; }
+.archive-section, details.history-section { margin-block: 24px 0; border-top: 1px solid var(--line); padding-top: 4px; }
+.archive-section > summary, details.history-section > summary { cursor: pointer; font-size: 15px; font-weight: 600; min-height: 48px; padding-block: 14px; }
+.archive-section .section-description { margin-top: 10px; }
+.method-list { list-style: none; padding: 0; margin-block: 24px; }
+.method-list li { border-top: 1px solid var(--line); padding-block: 16px; }
+.method-list li p { margin: 6px 0 0; }
+#dialog-content > h2 { font-size: clamp(28px, 4vw, 38px); letter-spacing: -.035em; }
+#dialog-content .danger-button { display: block; margin-top: 24px; }
+@media (max-width: 1100px) {
+  .hero { gap: 24px; }
+  .hero-art { transform: scale(.8); }
+  .hero h1 { font-size: clamp(48px, 5.5vw, 64px); }
+}
+@media (max-width: 800px) {
+  .header { height: 76px; }
+  .hero { grid-template-columns: 1fr; padding: 40px 0; gap: 0; min-height: 0; }
+  .hero h1 { font-size: clamp(44px, 8.4vw, 64px); max-inline-size: 16ch; }
+  .hero .eyebrow { font-size: 10px; letter-spacing: .8px; }
+  .hero-description { font-size: 16px; }
+  .hero-art { display: none; }
+  .hero-actions { flex-direction: row; align-items: center; flex-wrap: wrap; gap: 12px 22px; }
+  .hero .primary-button { padding-inline: 18px; font-size: 13px; min-height: 52px; }
+  .footer { grid-template-columns: 1fr auto; gap: 12px 24px; padding-block: 20px; }
+  .footer > div { grid-column: 1 / -1; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px; }
+  .footer .text-button, .footer .repo-link { font-size: 12px; }
+  .round-footer .round-actions { width: 100%; margin-left: 0; }
+  .results-actions { flex-direction: row; flex-wrap: wrap; align-items: center; gap: 20px; }
+}

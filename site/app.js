@@ -2,12 +2,12 @@ import { METHODS, LEGACY_METHODS, createState, validState, personalCounts, perce
 
 const $ = id => document.getElementById(id);
 const STORAGE = 'blind-translation-v1';
-const LABELS = { skilled: 'AI + craft', published: 'Опубликованный перевод', baseline: 'AI: короткий запрос', reviewed: 'AI + craft + QA' };
+const LABELS = { skilled: 'AI · craft', published: 'Опубликованный перевод', baseline: 'AI · простой запрос', reviewed: 'AI · полный процесс' };
 const REACTIONS = {
-  skilled: ['Твой выбор — перевод с craft.', 'Sol работал с английскими оригиналами, подготовленным брифом, глоссарием и навыком художественного перевода. Опубликованный перевод генератору не передавался.'],
-  published: ['Ты выбрал опубликованный перевод.', 'Никаких медалей за «правильный» выбор. Просто этот голос тебе ближе. Автор перевода и источник — на карточке.'],
-  baseline: ['Твой выбор — короткий запрос.', 'Та же Sol и тот же английский контекст, но короткая просьба перевести и без переводческих skills. Ответ получен в отдельной сессии.'],
-  reviewed: ['Твой выбор — craft и QA.', 'Craft-черновик прошёл отдельную QA-сверку и редакторские решения в новых сессиях той же модели. Человеческой редакторской проверки не было.'],
+  skilled: ['AI · craft', 'Перевод с планом и глоссарием.'],
+  published: ['Опубликованный перевод', 'Переводчик и источник указаны под текстом.'],
+  baseline: ['AI · простой запрос', 'Та же модель и оригинал, без переводческих инструкций.'],
+  reviewed: ['AI · полный процесс', 'План, глоссарий и проверка по оригиналу. Проверка выполнена моделью.'],
 };
 let data, config, state, screen = 'home', memoryOnly = false, eraseBusy = false;
 const LEGACY_STORAGE = 'blind-translation-legacy-participants-v1';
@@ -38,7 +38,7 @@ function readingSettings() {
   $('text-smaller').disabled = reading.size <= 16;
   $('text-larger').disabled = reading.size >= 24;
   $('reading-layout').setAttribute('aria-pressed', String(reading.single));
-  $('reading-layout').textContent = reading.single ? 'Сравнить в две колонки' : 'В одну колонку';
+  $('reading-layout').textContent = 'Одна колонка';
   try { localStorage.setItem('blind-reading-settings', JSON.stringify(reading)); } catch {}
 }
 function goToRound(index) {
@@ -47,7 +47,7 @@ function goToRound(index) {
 }
 function renderRoundList() {
   $('round-list').replaceChildren();
-  $('rounds-summary').textContent = `${answered()} выбрано · ${(state.skipped || []).length} пропущено`;
+  $('rounds-summary').textContent = (state.skipped || []).length ? `${state.skipped.length} пропущено` : '';
   state.order.forEach((id, index) => {
     const status = state.choices[id] ? 'выбран' : (state.skipped || []).includes(id) ? 'пропущен' : 'без выбора';
     const button = el('button', 'round-number', `${index + 1}${state.choices[id] ? ' ✓' : (state.skipped || []).includes(id) ? ' —' : ''}`);
@@ -60,12 +60,11 @@ function show(view, focus = true) {
   screen = view;
   if (view === 'results' && !state.resultsViewedAt) { state.resultsViewedAt = Date.now(); persist(); }
   for (const id of ['home', 'arena', 'results']) $(id).hidden = id !== view;
-  $('ground-rules').hidden = view !== 'home';
   if (view === 'arena') renderRound();
   if (view === 'results') renderResults();
   if (focus) { window.scrollTo({ top: 0, behavior: 'instant' }); $('main').focus({ preventScroll: true }); }
 }
-function updateStart() { $('start-button').textContent = !pendingCount() ? 'Открыть итоги ↗' : answered() || (state.skipped || []).length ? `Продолжить · ${answered()} выбрано ↗` : 'Начать вслепую ↗'; $('start-button').disabled = false; $('home-results-button').disabled = false; }
+function updateStart() { $('start-button').textContent = !pendingCount() ? 'Открыть итоги ↗' : answered() || (state.skipped || []).length ? 'Продолжить сравнение ↗' : 'Начать сравнение ↗'; $('start-button').disabled = false; $('home-results-button').disabled = false; }
 function start() {
   if (!pendingCount()) { show('results'); return; }
   if (state.choices[state.order[state.index]] || (state.skipped || []).includes(state.order[state.index])) state.index = nextUnanswered(state);
@@ -75,14 +74,15 @@ function renderRound() {
   const round = currentRound(); const choice = state.choices[round.id];
   $('progress-text').textContent = `ВЫБРАНО ${answered()} / ${state.order.length}`;
   $('progress-fill').style.width = `${answered() / state.order.length * 100}%`;
-  $('round-label').textContent = `РАУНД ${state.index + 1} / ${state.order.length} · ${choice ? 'МАСКИ СНЯТЫ' : 'АВТОРСТВО СКРЫТО'}`;
-  $('round-title').textContent = choice ? 'Твой выбор — сохранён.' : 'Какой вариант хочется читать?';
+  $('round-label').textContent = `ОТРЫВОК ${state.index + 1} ИЗ ${state.order.length}`;
+  $('round-title').textContent = choice ? 'Твой выбор' : 'Какой перевод тебе ближе?';
   $('round-title').style.whiteSpace = 'pre-line';
   $('round-tag').textContent = round.tag;
   $('source-text').replaceChildren(); literaryText($('source-text'), round.source);
   $('source-credit').textContent = `${round.author} · ${round.title}`;
   $('source-link').href = round.sourceUrl;
-  $('arena-hint').textContent = choice ? 'Сравни впечатление с лейблом. Изменить отправленный выбор нельзя.' : 'Читай в любом порядке. Авторство покажем только после твоего выбора.';
+  $('arena-hint').hidden = !!choice;
+  $('arena-hint').textContent = 'Выбери перевод — покажем авторов.';
   $('candidates').replaceChildren();
   state.candidateOrders[round.id].forEach((id, index) => {
     const candidate = round.candidates.find(c => c.id === id); const selected = choice?.candidateId === id;
@@ -90,14 +90,13 @@ function renderRound() {
     const top = el('div', 'candidate-top'); top.append(el('span', 'candidate-letter', `ВАРИАНТ ${['А', 'Б', 'В', 'Г'][index]}`), el('span', 'candidate-eye')); top.lastChild.setAttribute('aria-hidden', 'true');
     card.append(top, literaryText(el('p', 'candidate-text'), candidate.text));
     if (!choice) {
-      const button = el('button', 'vote-button', 'Беру этот ↗'); button.setAttribute('aria-label', `Выбрать вариант ${['А', 'Б', 'В', 'Г'][index]}`); button.addEventListener('click', () => choose(round.id, id)); card.append(button);
+      const button = el('button', 'vote-button', 'Выбрать ↗'); button.setAttribute('aria-label', `Выбрать вариант ${['А', 'Б', 'В', 'Г'][index]}`); button.addEventListener('click', () => choose(round.id, id)); card.append(button);
     } else {
       const identity = el('details', 'identity');
       identity.append(el('summary', '', `${selected ? '✓ Твой выбор · ' : ''}${LABELS[candidate.method]} · источник`));
-      if (selected) identity.append(el('span', 'choice-badge', '✓ ТВОЙ ВЫБОР'));
-      identity.append(el('strong', '', LABELS[candidate.method]), el('p', '', candidate.credit), el('p', '', candidate.note));
+      identity.append(el('p', '', candidate.credit), el('p', '', candidate.note));
       if (candidate.sourceUrl) identity.append(safeLink('Источник перевода ↗', candidate.sourceUrl));
-      if (candidate.licenseUrl) identity.append(el('p', '', `${round.author} · производные AI-версии отмечены отдельно.`), safeLink(candidate.license, candidate.licenseUrl));
+      if (candidate.licenseUrl) identity.append(safeLink(candidate.license, candidate.licenseUrl));
       card.append(identity);
     }
     $('candidates').append(card);
@@ -111,7 +110,7 @@ function renderRound() {
   $('next-button').hidden = !choice;
   $('next-button').textContent = pendingCount() ? 'Дальше →' : 'К итогам ↗';
   $('skip-button').hidden = !!choice;
-  $('skip-button').textContent = (state.skipped || []).includes(round.id) ? 'Оставить пропущенным →' : 'Пропустить →';
+  $('skip-button').textContent = (state.skipped || []).includes(round.id) ? 'Пропустить снова →' : 'Пропустить →';
   $('previous-button').disabled = state.index === 0;
   renderRoundList(); readingSettings();
   renderSync(); updateStart();
@@ -163,9 +162,9 @@ async function submit(roundId) {
 }
 function renderSync() {
   const choice = state.choices[currentRound().id]; const target = $('sync-status'); target.replaceChildren();
-  if (!choice) { target.textContent = memoryOnly ? 'Хранилище браузера недоступно: прогресс сохранится только до закрытия страницы.' : (state.skipped || []).includes(currentRound().id) ? 'Фрагмент пропущен без голоса. Можно прочитать его и выбрать вариант сейчас.' : 'Можно пропустить фрагмент без голоса. Прогресс сохранится в этом браузере.'; return; }
-  if (choice.status === 'saved') target.textContent = '✓ Голос принят общим счётчиком.';
-  else if (choice.status === 'pending') target.textContent = 'Выбор сохранён здесь. Отправляем в общий счётчик…';
+  if (!choice) { target.textContent = memoryOnly ? 'Прогресс сохранится только до закрытия страницы: хранилище браузера недоступно.' : (state.skipped || []).includes(currentRound().id) ? 'Пропущено без голоса' : ''; return; }
+  if (choice.status === 'saved') target.textContent = '✓ В общем счётчике';
+  else if (choice.status === 'pending') target.textContent = 'Отправляем голос…';
   else {
     target.textContent = choice.error === 'rate_limited' ? 'Выбор сохранён здесь. Сегодня с этой сети слишком много запросов — сервер временно не принял голос.' : 'Выбор сохранён здесь. Общий счётчик пока не подтвердил голос.';
     const retry = el('button', 'inline-button', 'Отправить снова'); retry.addEventListener('click', () => submit(currentRound().id)); target.append(' ', retry);
@@ -184,18 +183,19 @@ function skip() {
 }
 function renderResults() {
   const n = answered(); const counts = personalCounts(state, data); const highest = Math.max(...Object.values(counts));
-  $('results-title').textContent = n ? 'Вот какой\nу тебя вкус.' : 'Итоги\nголосования.';
-  $('results-title').style.whiteSpace = 'pre-line';
-  $('personal-caption').textContent = n ? `Ты выбрал ${n} ${n === 1 ? 'фрагмент' : n < 5 ? 'фрагмента' : 'фрагментов'} из ${state.order.length}. Это профиль твоих предпочтений в этой подборке. Не экзамен. И не диагноз.` : 'Твоих голосов пока нет. Общие итоги — ниже.';
+  $('results-title').textContent = n ? 'Твой выбор' : 'Итоги';
+  $('personal-caption').textContent = n ? `Оценено ${n} из ${state.order.length} отрывков.` : '';
   const saved = Object.values(state.choices).filter(choice => choice.status === 'saved').length;
-  $('personal-caption').textContent += ` Пропущено: ${(state.skipped || []).length}. Сервер подтвердил ${saved} из ${n} голосов.`;
-  const afterResults = Object.values(state.choices).filter(choice => choice.resultsSeenBeforeChoice).length;
-  if (afterResults) $('personal-caption').textContent += ` После просмотра итогов сделано ${afterResults} ${pluralRu(afterResults, 'выбор', 'выбора', 'выборов')}.`;
+  if ((state.skipped || []).length) $('personal-caption').textContent += ` Пропущено: ${state.skipped.length}.`;
+  if (saved < n) $('personal-caption').textContent += ` В общем счётчике: ${saved} из ${n}.`;
+  $('personal-caption').textContent = $('personal-caption').textContent.trim();
+  $('personal-caption').hidden = !n && !(state.skipped || []).length;
   $('personal-result').hidden = !n;
   $('share-button').hidden = !n;
   $('personal-result').replaceChildren();
-  for (const method of METHODS) { const card = el('div', `score-card${counts[method] && counts[method] === highest ? ' leading' : ''}`); card.append(el('span', '', 'ТВОЙ ВЫБОР'), el('strong', '', `${counts[method]} / ${n}`), el('p', '', LABELS[method])); $('personal-result').append(card); }
-  $('continue-button').textContent = !pendingCount() ? (state.skipped || []).length ? 'Вернуться к пропущенным ↗' : 'Перечитать раунды ↗' : 'Продолжить чтение ↗';
+  for (const method of METHODS) { const card = el('div', `score-card${counts[method] && counts[method] === highest ? ' leading' : ''}`); card.append(el('strong', '', `${counts[method]} / ${n}`), el('p', '', LABELS[method])); $('personal-result').append(card); }
+  $('continue-button').textContent = !pendingCount() ? (state.skipped || []).length ? 'К пропущенным ↗' : 'Перечитать ↗' : n || (state.skipped || []).length ? 'Продолжить чтение ↗' : 'Начать сравнение ↗';
+  $('history-section').hidden = !n && !(state.skipped || []).length;
   $('history-list').replaceChildren();
   for (const [index, id] of state.order.entries()) {
     const choice = state.choices[id];
@@ -208,7 +208,6 @@ function renderResults() {
     const row = el('div', 'history-item'); const copy = el('div'); copy.append(el('span', '', `РАУНД ${index + 1} · ${round.author}`), el('b', '', LABELS[candidate.method]), el('span', '', (choice.status === 'saved' ? 'В общем счётчике' : 'Пока только в этом браузере') + (choice.resultsSeenBeforeChoice ? ' · после просмотра итогов' : '')));
     const button = el('button', 'text-button', 'Перечитать ↗'); button.addEventListener('click', () => { state.index = index; persist(); show('arena'); }); row.append(copy, button); $('history-list').append(row);
   }
-  if (!n && !(state.skipped || []).length) $('history-list').append(el('p', 'section-description', 'Пока здесь чистый лист.'));
   renderWorld();
   renderPreviousWorld();
 }
@@ -216,7 +215,6 @@ async function renderWorld() {
   const target = $('world-stats');
   const requestId = ++statsRequest;
   const group = $('stats-group').value;
-  $('stats-context').textContent = 'Классические варианты сохранены из v5; современный рассказ добавлен отдельным новым запуском. Внутри каждого запуска AI-условия получили одинаковый английский контекст. Craft+QA требует больше этапов. Различия между произведениями не измеряют эффект навыков.';
   target.replaceChildren(el('p', 'section-description', 'Считаем голоса…'));
   try {
     const { response, payload } = await api(`/stats?dataset=${encodeURIComponent(data.version)}`);
@@ -232,12 +230,12 @@ async function renderWorld() {
     if (group === 'all') metrics.push([payload.participantBrowsers, pluralRu(payload.participantBrowsers, 'браузер', 'браузера', 'браузеров')]);
     for (const [number, text] of metrics) { const item = el('span'); item.append(el('b', '', String(number)), document.createTextNode(text)); totals.append(item); }
     target.append(totals);
-    if (!total) { target.append(el('p', 'empty-stats', 'В этой подборке пока нет голосов. Можно начать читать или вернуться позже.')); return; }
+    if (!total) { target.append(el('p', 'empty-stats', 'Здесь пока нет голосов.')); return; }
     for (const method of METHODS) {
       const row = el('div', 'stat-row'); const bar = el('div', 'stat-bar'); const fill = el('div'); fill.style.width = `${percentage(counts[method], total)}%`; bar.append(fill);
       row.append(el('span', '', LABELS[method]), bar, el('span', 'stat-percent', `${counts[method]} · ${percentage(counts[method], total)}%`)); row.setAttribute('aria-label', `${LABELS[method]}: ${counts[method]} из ${total} голосов`); target.append(row);
     }
-  } catch { if (requestId === statsRequest) target.replaceChildren(el('p', 'empty-stats', 'Общий счётчик сейчас не отвечает. Твои локальные выборы на месте. Попробуй «Обновить».')); }
+  } catch { if (requestId === statsRequest) target.replaceChildren(el('p', 'empty-stats', 'Не удалось загрузить итоги. Попробуй обновить.')); }
 }
 async function renderPreviousWorld() {
   const target = $('previous-stats');
@@ -251,7 +249,7 @@ async function renderPreviousWorld() {
     ]);
     if (!response.ok || payload.dataset !== data.previousDataset || !Number.isSafeInteger(payload.totalVotes) || !LEGACY_METHODS.every(m => Number.isSafeInteger(payload.methods?.[m]) && payload.methods[m] >= 0) || LEGACY_METHODS.reduce((n,m) => n + payload.methods[m],0) !== payload.totalVotes || !catalogResponse.ok) throw new Error('stats');
     const catalog = await catalogResponse.json();
-    target.replaceChildren(el('p', 'section-description', `Всего голосов: ${payload.totalVotes}. Эти голоса не входят в текущие итоги.`));
+    target.replaceChildren(el('p', 'section-description', `Всего голосов: ${payload.totalVotes}.`));
     for (const method of LEGACY_METHODS) {
       const row = el('div', 'stat-row'); const bar = el('div', 'stat-bar'); const fill = el('div');
       fill.style.width = `${percentage(payload.methods[method], payload.totalVotes)}%`; bar.append(fill);
@@ -273,18 +271,27 @@ async function renderPreviousWorld() {
 }
 function showDialog(kind) {
   const node = $('dialog-content'); node.replaceChildren();
+  const heading = el('h2', '', kind === 'method' ? 'Как сравниваем' : 'Данные и удаление');
+  heading.id = 'dialog-title'; node.append(heading);
   if (kind === 'method') {
-    node.append(el('h2', '', 'Тексты дерутся. Лейблы молчат.'), el('p', '', 'В каждом раунде один оригинал и три русских перевода: опубликованный, короткий AI-запрос и полный craft+QA. Авторы скрыты до выбора. Порядок текстов и карточек перемешан и сохраняется в браузере.'));
-    const eligible = data.rounds.filter(r => r.votingEligible !== false).length;
-    node.append(el('h3', '', 'Что именно сравниваем'), el('p', '', `В базе ${data.rounds.length} фрагментов; ${eligible} доступны для голосования. Одинаковые простой и полный AI-ответы сохранены в протоколе, но исключены из голосования. Подборка до 20 включает современные отрывки и классику. Короткий запрос работает без skills. Craft использует план, глоссарий и калибровку на четырёх сценах. Craft+QA — тот же черновик после отдельной сверки и редактуры. Каждый этап запущен в новой сессии Sol с одинаковыми настройками. Опубликованные переводы и ответы другого условия генераторам не передавались. Классические ответы сохранены из v5; современный рассказ получил собственный полный запуск.`));
-    node.append(el('h3', '', 'Это пилот читательских предпочтений'), el('p', '', 'Эпоха, жанр, узнаваемость, длина и твой вкус влияют на выбор. Один современный рассказ не представляет всю современную литературу. Голоса не доказывают превосходство модели или навыка. Полный цикл требует больше вызовов; в памяти обучения модели могли быть эти произведения. Изоляция запуска не устраняет такое предварительное знание. Атрибуция скрыта в интерфейсе до выбора, но доступна в исходниках.'));
-    node.append(el('h3', '', 'Откуда опубликованные тексты'), el('p', '', 'Классика: По в переводе Бальмонта и Уайльд в переводе Ликиардопуло; общественное достояние в юрисдикциях со сроком «жизнь + 70 лет». Современная проза: «Земля сисадминов» Кори Доктороу (2006), перевод Михаила Карпова; оригинал, опубликованный перевод и производные AI-переводы — CC BY-NC-SA 2.5, только некоммерческое использование с атрибуцией и сохранением лицензии. Цифровые источники открываются после выбора.'));
-    node.append(safeLink('Методика, источники и условия публикации ↗', './CONTENT.md'), el('p', '', 'Цель простая: сначала услышать текст, потом прочитать бейдж. Можно предпочесть любой вариант. Можно вообще не продолжать.'));
+    node.append(el('p', '', 'Выбираешь текст — открываем автора и метод перевода.'));
+    const list = el('ul', 'method-list');
+    for (const [title, description] of [
+      ['Опубликованный перевод', 'Текст с указанным переводчиком и источником.'],
+      ['AI · простой запрос', 'Просьба перевести, без переводческих инструкций.'],
+      ['AI · полный процесс', 'План, глоссарий, пробный перевод и сверка по оригиналу.'],
+    ]) {
+      const item = el('li'); item.append(el('strong', '', title), el('p', '', description)); list.append(item);
+    }
+    node.append(list, el('p', '', 'AI-варианты созданы одной моделью с одинаковым английским контекстом. Опубликованный перевод ей не передавался. Проверка тоже модельная, без человеческой редактуры.'));
+    node.append(el('p', '', 'Это опрос вкуса. Просмотр итогов может повлиять на следующие выборы.'));
+    node.append(safeLink('Полная методика, источники и лицензии ↗', './CONTENT.md'));
   } else {
-    node.append(el('h2', '', 'Про данные. Без тумана.'), el('p', '', 'В браузере остаются случайный идентификатор, порядок вариантов и твои выборы, включая сохранённые выборы предыдущей подборки. Сервер хранит хеш идентификатора, выбранный вариант, версию подборки, случайный ID голоса и время. Имя и почту не спрашиваем. Сырые IP-адреса в нашу базу не записываем.'));
-    node.append(el('p', '', 'Для защиты от частого голосования сервер использует суточный HMAC-хеш IP. Его срок — 48 часов; просроченные записи очищаются при следующем запросе записи. Cloudflare обрабатывает сетевые данные при обслуживании запросов. Общий счётчик показывает только суммы, без списка участников.'));
-    node.append(el('p', '', 'Один браузер — один голос за каждый фрагмент этой версии. Это не защита от человека с несколькими устройствами. Сброс или потеря идентификатора мешает связать прежние голоса с этим браузером и удалить их отсюда.'));
-    const remove = el('button', 'danger-button', eraseBusy ? 'Удаляем…' : 'Удалить мои голоса и локальный прогресс'); remove.disabled = eraseBusy || !data; remove.addEventListener('click', erase); node.append(remove);
+    node.append(el('p', '', 'Браузер сохраняет порядок отрывков, настройки и твои выборы. Сервер хранит голоса и хеш случайного идентификатора. Имя и почта не нужны.'));
+    node.append(el('p', '', 'Для защиты от частых запросов хранится суточный хеш IP со сроком 48 часов. Сырые IP в нашу базу не записываются; сетевые запросы обслуживает Cloudflare.'));
+    node.append(el('p', '', 'Удалить голоса можно, пока в браузере сохранён их идентификатор. Очистка данных браузера может лишить этой возможности.'));
+    node.append(safeLink('Подробно о хранении данных ↗', './CONTENT.md'));
+    const remove = el('button', 'danger-button', eraseBusy ? 'Удаляем…' : 'Удалить мои голоса и прогресс'); remove.disabled = eraseBusy || !data; remove.addEventListener('click', erase); node.append(remove);
   }
   if (!$('info-dialog').open) $('info-dialog').showModal();
 }
@@ -321,8 +328,8 @@ $('continue-button').addEventListener('click', () => {
   const skippedIndex = state.order.findIndex(id => (state.skipped || []).includes(id));
   goToRound(skippedIndex < 0 ? 0 : skippedIndex);
 });
-for (const id of ['method-button', 'footer-method']) $(id).addEventListener('click', () => showDialog('method'));
-for (const id of ['privacy-button', 'footer-privacy']) $(id).addEventListener('click', () => showDialog('privacy'));
+for (const id of ['method-button', 'footer-method', 'stats-method']) $(id).addEventListener('click', () => showDialog('method'));
+for (const id of ['footer-privacy']) $(id).addEventListener('click', () => showDialog('privacy'));
 $('close-dialog').addEventListener('click', () => $('info-dialog').close());
 $('info-dialog').addEventListener('click', e => { if (e.target === $('info-dialog')) { const r = e.target.getBoundingClientRect(); if (e.clientX < r.left || e.clientX > r.right || e.clientY < r.top || e.clientY > r.bottom) e.target.close(); } });
 $('refresh-stats').addEventListener('click', () => { renderWorld(); renderPreviousWorld(); });
@@ -332,7 +339,7 @@ $('modern-button').addEventListener('click', () => {
   const next = indices.find(({round}) => !state.choices[round.id] && !(state.skipped || []).includes(round.id)) || indices[0];
   if (next) goToRound(next.index);
 });
-$('share-button').addEventListener('click', async () => { const c = personalCounts(state, data); const message = `Мой вкус в «Без лица»: опубликованный ${c.published}, AI короткий запрос ${c.baseline}, AI + craft + QA ${c.reviewed}. Выбирай вслепую: ${location.href.split('#')[0]}`; try { await navigator.clipboard.writeText(message); toast('Результат скопирован. Пускай друзья тоже снимут погоны.'); } catch { toast('Буфер обмена недоступен. Ссылку на сайт можно скопировать из адресной строки.'); } });
+$('share-button').addEventListener('click', async () => { const c = personalCounts(state, data); const message = `Мой выбор в «Без лица»: опубликованный перевод — ${c.published}, AI по простому запросу — ${c.baseline}, AI с полным процессом — ${c.reviewed}. Сравнить: ${location.href.split('#')[0]}`; try { await navigator.clipboard.writeText(message); toast('Итог скопирован.'); } catch { toast('Буфер обмена недоступен. Ссылку на сайт можно скопировать из адресной строки.'); } });
 
 async function init() {
   try {
@@ -340,13 +347,15 @@ async function init() {
     [data, config] = await Promise.all(responses.map(r => r.json()));
     if (data.rounds?.length < 30 || data.cohortSize !== 20 || data.rounds.some(r => r.candidates?.length !== METHODS.length)) throw new Error('dataset');
     const eligible = data.rounds.filter(r => r.votingEligible !== false);
-    $('corpus-summary').textContent = `До 20 раундов из ${eligible.length} оценочных фрагментов. Можно пропускать и остановиться в любой момент.`;
-    $('stats-group').replaceChildren(new Option(`Все ${eligible.length} оценочных фрагментов`, 'all'));
+    $('corpus-summary').textContent = `До ${data.cohortSize} отрывков · можно пропускать`;
+    $('stats-group').replaceChildren(new Option(`Все произведения`, 'all'));
     for (const workId of new Set(eligible.map(r => r.workId))) {
       const rows = eligible.filter(r => r.workId === workId);
-      $('stats-group').append(new Option(`${rows[0].title.split(' / ').at(-1)} · ${rows.length}`, workId));
+      $('stats-group').append(new Option(rows[0].title.split(' / ').at(-1), workId));
     }
-    $('modern-button').disabled = !eligible.some(r => r.era === 'contemporary');
+    const contemporaryCount = eligible.filter(r => r.era === 'contemporary').length;
+    $('modern-button').disabled = !contemporaryCount;
+    $('modern-button').textContent = `Современная проза · ${contemporaryCount} ${pluralRu(contemporaryCount, 'отрывок', 'отрывка', 'отрывков')} ↗`;
     try {
       const saved = JSON.parse(localStorage.getItem(STORAGE));
       if (saved?.version && saved.version !== data.version && /^[a-f0-9-]{36}$/i.test(saved.participantId || '')) {
@@ -358,6 +367,6 @@ async function init() {
     } catch { state = createState(data); }
     persist(); updateStart();
     for (const id of Object.keys(state.choices)) if (state.choices[id].status !== 'saved') submit(id);
-  } catch { $('load-error').textContent = 'Не удалось загрузить подборку. Обнови страницу — тексты никуда не убежали.'; $('load-error').hidden = false; $('start-button').textContent = 'Нужна перезагрузка'; }
+  } catch { $('load-error').textContent = 'Не удалось загрузить отрывки. Обнови страницу.'; $('load-error').hidden = false; $('start-button').textContent = 'Нужна перезагрузка'; }
 }
 init();

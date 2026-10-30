@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#ee542e">
-  <meta name="description" content="Три перевода. Никаких имён. Выбери текст, который хочется читать, — и узнай, кому достался твой голос.">
-  <title>Без лица — слепой бой переводов</title>
+  <meta name="description" content="Сравни три перевода одного отрывка. Выбери понравившийся и узнай, кто и как переводил.">
+  <title>Без лица — сравнение переводов</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="reader.css">
@@ -17,65 +17,56 @@
     <header class="header">
       <a class="wordmark" href="#" aria-label="Без лица — на главную">БЕЗ<span class="mask" aria-hidden="true"><i></i><i></i></span>ЛИЦА<span class="wordmark-dot">.</span></a>
       <nav aria-label="Основная навигация">
-        <button class="text-button" id="method-button">Правила игры <span aria-hidden="true">↗</span></button>
-        <a class="repo-link" href="https://github.com/deprav1/literary-translation-skills" target="_blank" rel="noopener noreferrer" aria-label="Исходники на GitHub, новая вкладка">GitHub <span aria-hidden="true">↗</span></a>
+        <button class="text-button" id="method-button">Как это работает <span aria-hidden="true">↗</span></button>
       </nav>
     </header>
     <main id="main" tabindex="-1">
       <section class="hero" id="home" aria-labelledby="hero-title">
         <div class="hero-copy">
-          <p class="eyebrow"><span class="live-dot" aria-hidden="true"></span> СЛЕПОЙ БОЙ ПЕРЕВОДОВ / ВЫПУСК 001</p>
-          <h1 id="hero-title">Хороший текст.<br>А чей —<br><span>потом.</span></h1>
-          <p class="hero-description">Три версии одного фрагмента. Ни имён, ни регалий.<br class="desktop-break"> Выбери ту, которую хочется читать дальше.</p>
+          <p class="eyebrow">СЛЕПОЕ СРАВНЕНИЕ ПЕРЕВОДОВ</p>
+          <h1 id="hero-title">Выбери перевод <span>без подсказок.</span></h1>
+          <p class="hero-description">Три версии одного отрывка. Авторы откроются после выбора.</p>
           <div class="hero-actions">
-            <button class="primary-button" id="start-button" disabled>Загружаем ринг… <span aria-hidden="true">↗</span></button>
+            <button class="primary-button" id="start-button" disabled>Загружаем отрывки… <span aria-hidden="true">↗</span></button>
             <button class="text-button" id="home-results-button" disabled>Показать итоги ↗</button>
-            <span class="micro-copy" id="corpus-summary">До 20 раундов.<br> Можно пропускать и остановиться в любой момент.</span>
           </div>
-          <p class="participation-note"><button class="text-button" id="modern-button" disabled>Новое: современная проза · Кори Доктороу, 2006 ↗</button></p>
-          <p class="participation-note">Выбор сохраняется в этом браузере и отправляется в общий счётчик. <button class="inline-button" id="privacy-button">Что именно мы храним?</button></p>
+          <p class="micro-copy" id="corpus-summary">До 20 отрывков · можно пропускать</p>
+          <button class="text-button modern-link" id="modern-button" disabled>Современная проза ↗</button>
           <p class="load-error" id="load-error" role="alert" hidden></p>
         </div>
         <div class="hero-art" aria-hidden="true">
-          <span class="art-kicker">ПЕРЕВОДЧИКИ<br>ВЫШЛИ ИЗ ЧАТА</span>
-          <div class="paper paper-back"><span>ВЕРСИЯ В</span><b>«…»</b><div class="fake-lines"></div></div>
-          <div class="paper paper-middle"><span>ВЕРСИЯ Б</span><b>«…»</b><div class="fake-lines"></div></div>
-          <div class="paper paper-front"><span>ВЕРСИЯ А</span><b>«…»</b><div class="fake-lines"></div><small>Сначала читай.<br>Потом удивляйся.</small></div>
-          <span class="seal">ВКУС<br>БЕЗ<br>ПОГОН</span>
+          <div class="paper paper-back"><span>В</span><b>«…»</b><div class="fake-lines"></div></div>
+          <div class="paper paper-middle"><span>Б</span><b>«…»</b><div class="fake-lines"></div></div>
+          <div class="paper paper-front"><span>А</span><b>«…»</b><div class="fake-lines"></div></div>
+          <span class="seal"><span class="mask"><i></i><i></i></span></span>
         </div>
       </section>
-      <section class="ground-rules" id="ground-rules" aria-label="Как играть">
-        <div><span class="rule-number">01</span><p><b>Читай без подсказок.</b><br>Варианты перемешаны. Оригинал можно открыть.</p></div>
-        <div><span class="rule-number">02</span><p><b>Судьи тут — твои мурашки.</b><br>Выбирай текст. Не пытайся угадать бренд.</p></div>
-        <div><span class="rule-number">03</span><p><b>Сними маски.</b><br>Узнай авторство и посмотри на выбор остальных.</p></div>
-      </section>
       <section id="arena" class="arena" aria-labelledby="round-title" hidden>
-        <div class="arena-top"><button class="text-button" id="home-button">← На главную</button><span class="mono" id="progress-text"></span><button class="text-button" id="profile-button">Показать итоги <span aria-hidden="true">↗</span></button></div>
+        <div class="arena-top"><button class="text-button" id="home-button">← Главная</button><span class="mono" id="progress-text"></span><button class="text-button" id="profile-button">Итоги <span aria-hidden="true">↗</span></button></div>
         <div class="progress-track" aria-hidden="true"><div id="progress-fill"></div></div>
-        <div class="round-heading"><div><p class="eyebrow" id="round-label"></p><h2 id="round-title">Какой вариант хочется читать?</h2></div><span class="round-stamp" id="round-tag"></span></div>
-        <details class="round-navigation"><summary>Все раунды <span id="rounds-summary"></span></summary><nav id="round-list" aria-label="Выбрать раунд"></nav><p>✓ — выбран · — — пропущен. К пропущенному можно вернуться.</p></details>
+        <div class="round-heading"><div><p class="eyebrow" id="round-label"></p><h2 id="round-title">Какой перевод тебе ближе?</h2></div><span class="round-stamp" id="round-tag"></span></div>
+        <details class="round-navigation"><summary>Все отрывки <span id="rounds-summary"></span></summary><nav id="round-list" aria-label="Выбрать отрывок"></nav><p>✓ — выбран · — — пропущен</p></details>
         <div class="reading-controls" aria-label="Настройки чтения"><div role="group" aria-label="Размер текста"><span>Текст</span><button type="button" id="text-smaller" aria-label="Уменьшить текст">A−</button><output id="text-size" aria-live="polite">18 px</output><button type="button" id="text-larger" aria-label="Увеличить текст">A+</button></div><button type="button" id="reading-layout" aria-pressed="false">В одну колонку</button></div>
         <details class="original"><summary>Английский оригинал <span aria-hidden="true">+</span></summary><div id="source-text" lang="en"></div><p class="source-credit" id="source-credit"></p><a id="source-link" target="_blank" rel="noopener noreferrer">Полный оригинал ↗</a></details>
-        <p class="arena-hint" id="arena-hint">Читай в любом порядке. Авторство покажем только после твоего выбора.</p>
+        <p class="arena-hint" id="arena-hint">Выбери перевод — покажем авторов.</p>
         <div class="candidate-grid" id="candidates"></div>
         <div class="reveal-panel" id="reveal-panel" hidden aria-live="polite"></div>
         <div class="round-footer"><p id="sync-status" class="sync-status" aria-live="polite"></p><div class="round-actions"><button class="text-button" id="previous-button">← Назад</button><button class="text-button" id="skip-button">Пропустить</button><button class="text-button" id="round-results-button">Итоги ↗</button><button class="secondary-button" id="next-button" hidden>Дальше →</button></div></div>
       </section>
       <section id="results" class="results" aria-labelledby="results-title" hidden>
-        <p class="eyebrow">МАСКИ СНЯТЫ. ПРЕДРАССУДКИ — ТОЖЕ?</p>
-        <h2 id="results-title">Вот какой<br>у тебя вкус<span>.</span></h2>
+        <h2 id="results-title">Итоги</h2>
         <p class="section-description" id="personal-caption"></p>
         <div class="personal-result" id="personal-result"></div>
-        <div class="results-actions"><button class="primary-button" id="continue-button">Вернуться на ринг <span aria-hidden="true">↗</span></button><button class="text-button" id="share-button">Скопировать результат ↗</button></div>
-        <section class="world-section" aria-labelledby="world-title"><div class="world-heading"><div><p class="eyebrow">ОБЩИЙ СЧЁТЧИК</p><h3 id="world-title">А у остальных?</h3></div><button class="text-button" id="refresh-stats">Обновить ↻</button></div><label class="stats-filter" for="stats-group">Показать <select id="stats-group"><option value="all">Все фрагменты</option></select></label><p id="stats-context" class="section-description"></p><div id="world-stats" aria-live="polite"></div><p class="stats-note">Это открытый опрос вкуса, а не научный рейтинг. Один браузер может оценить несколько фрагментов. Удаление данных браузера и разные устройства допускают повторное участие. Просмотр итогов до следующих выборов может влиять на них.</p></section>
-        <section class="world-section" aria-labelledby="previous-title"><div class="world-heading"><div><p class="eyebrow">ПРЕДЫДУЩАЯ ПОДБОРКА</p><h3 id="previous-title">Итоги прежнего запуска</h3></div></div><p class="section-description">Классические переводы сохранены; добавлен современный рассказ. Голоса прежней версии показаны отдельно и не входят в новые итоги.</p><div id="previous-stats" aria-live="polite"></div></section>
-        <section class="history-section" aria-labelledby="history-title"><h3 id="history-title">Твои выборы. Без амнезии.</h3><div id="history-list"></div></section>
+        <div class="results-actions"><button class="primary-button" id="continue-button">Продолжить чтение <span aria-hidden="true">↗</span></button><button class="text-button" id="share-button">Поделиться итогом ↗</button></div>
+        <section class="world-section" aria-labelledby="world-title"><div class="world-heading"><h3 id="world-title">Общие результаты</h3><button class="text-button" id="refresh-stats">Обновить ↻</button></div><label class="stats-filter" for="stats-group">Произведение <select id="stats-group"><option value="all">Все произведения</option></select></label><div id="world-stats" aria-live="polite"></div><p class="stats-note">Опрос читательского вкуса, не рейтинг качества. <button class="inline-button" id="stats-method">Как считаем?</button></p></section>
+        <details class="archive-section" id="archive-results"><summary>Предыдущая подборка</summary><p class="section-description">Эти голоса не входят в текущие итоги.</p><div id="previous-stats" aria-live="polite"></div></details>
+        <details class="history-section" id="history-section" hidden><summary>Твои выборы</summary><div id="history-list"></div></details>
       </section>
     </main>
-    <footer class="footer"><a class="footer-brand" href="#">БЕЗ ЛИЦА.</a><p>Маленький эксперимент про большие слова.<br>Опубликованный перевод и два AI-условия. Никакого заранее назначенного победителя.</p><div><button class="text-button" id="footer-method">Методика и источники ↗</button><button class="text-button" id="footer-privacy">Данные и удаление ↗</button></div></footer>
+    <footer class="footer"><a class="footer-brand" href="#">БЕЗ ЛИЦА.</a><a class="repo-link" href="https://github.com/deprav1/literary-translation-skills" target="_blank" rel="noopener noreferrer">GitHub ↗</a><div><button class="text-button" id="footer-method">Источники и методика ↗</button><button class="text-button" id="footer-privacy">Данные и удаление ↗</button></div></footer>
   </div>
   <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
-  <dialog id="info-dialog"><div class="dialog-header"><span class="mono">БЕЗ МАГИИ</span><button class="icon-button" id="close-dialog" aria-label="Закрыть">×</button></div><div id="dialog-content"></div></dialog>
+  <dialog id="info-dialog" aria-labelledby="dialog-title"><div class="dialog-header"><span class="mono">БЕЗ ЛИЦА</span><button class="icon-button" id="close-dialog" aria-label="Закрыть">×</button></div><div id="dialog-content"></div></dialog>
   <noscript><p class="noscript">Для перемешивания вариантов и голосования нужен JavaScript. Код и источники открыты на GitHub.</p></noscript>
 </body>
 </html>
