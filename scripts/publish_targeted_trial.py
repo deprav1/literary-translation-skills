@@ -22,6 +22,10 @@ def main():
     parser.add_argument('--workspace', type=Path, required=True)
     args = parser.parse_args(); workspace = args.workspace.resolve()
     assert not workspace.is_relative_to(ROOT.resolve())
+    for name in ['run_targeted_trial.py', 'analyze_targeted_trial.py', 'publish_targeted_trial.py']:
+        path = 'scripts/'+name
+        committed_source = subprocess.check_output(['git', 'show', 'HEAD:'+path], cwd=ROOT)
+        assert committed_source == (ROOT/path).read_bytes(), 'Commit analysis infrastructure before publishing evidence: '+name
     check_frozen()
     destination = TRIAL/'results'
     assert not destination.exists(), 'Never overwrite trial evidence'
@@ -53,7 +57,9 @@ def main():
     (destination/'masked-mappings').mkdir()
     for path in sorted((workspace/'masked-mappings').glob('*.json')):
         shutil.copyfile(path, destination/'masked-mappings'/path.name)
-    write(destination/'synthetic-gold.json', gold)
+    shutil.copyfile(workspace.parent/'synthetic-gold.json', destination/'synthetic-gold.json')
+    assert sha(destination/'synthetic-gold.json') == committed
+    (destination/'rubric-used.md').write_text(read(workspace/'judge_idiom_1/input.json')['rubric'], encoding='utf8', newline='\n')
     write(destination/'judgments.json', items)
     write(destination/'source-findings.json', findings)
     write(destination/'full-change-audit.json', changes)
@@ -73,6 +79,8 @@ def main():
         'publisher_sha256': sha(Path(__file__)), 'model': 'gpt-6.1-sol', 'reasoning_effort': 'medium',
         'natural_items': 30, 'synthetic_items': 36, 'source_works': 3, 'source_authors': 2,
         'stages': stages, 'synthetic_gold_commitment_serialization': serialization,
+        'synthetic_gold_sha256': sha(destination/'synthetic-gold.json'),
+        'rubric_sha256': sha(destination/'rubric-used.md'),
         'mapping_sha256': {p.name: sha(p) for p in sorted((destination/'masked-mappings').glob('*.json'))},
         'safety_adjudication_sha256': sha(destination/'safety-adjudication.json'),
         'synthetic_primary_review_sha256': sha(destination/'synthetic-primary-review.json'),

@@ -1,1 +1,3 @@
 * text=auto eol=lf
+# Preserve the exact preregistered synthetic-gold byte commitment.
+evals/targeted-review-20261030/results/synthetic-gold.json -text

@@ -45,7 +45,10 @@ def masked_input(comparison, judge_number, workspace):
         mapping[source['id']] = dict(zip(['A', 'B'], order))
         items.append({**source, 'A': texts[order[0]][source['id']], 'B': texts[order[1]][source['id']]})
     rng.shuffle(items)
-    return mapping, {'items': items, 'rubric': (ROOT/'skills/literary-translation-evaluation/references/rubric.md').read_text(encoding='utf8')}
+    rubric = workspace/'rubric-used.md'
+    if not rubric.exists():
+        rubric = ROOT/'skills/literary-translation-evaluation/references/rubric.md'
+    return mapping, {'items': items, 'rubric': rubric.read_text(encoding='utf8')}
 
 
 def literal_instruction(function):
@@ -73,7 +76,13 @@ def aggregate(workspace):
             mapping = read(workspace/'masked-mappings'/f'{phase}.json')
             expected_mapping, expected_input = masked_input(name, judge, workspace)
             assert mapping == expected_mapping, f'Changed masked mapping: {phase}'
-            assert read(workspace/phase/'input.json') == expected_input, f'Changed masked presentation: {phase}'
+            input_path = workspace/phase/'input.json'
+            if input_path.exists():
+                assert read(input_path) == expected_input, f'Changed masked presentation: {phase}'
+            else:
+                assert workspace.resolve() == (TRIAL/'results').resolve(), 'Missing private judge input'
+                raw = (json.dumps(expected_input, ensure_ascii=False, indent=2)+'\n').encode()
+                assert hashlib.sha256(raw).hexdigest() == read(workspace/phase/'manifest.json')['input_sha256']
             assert len(output) == len(expected) and {r['id'] for r in output} == expected
             counts = Counter()
             for row in output:
@@ -227,6 +236,8 @@ def mechanism_results(workspace):
     if not path.exists() or 'case_decisions' not in read(path):
         return {}, 'pending'
     primary = read(path); gold_path = workspace.parent/'synthetic-gold.json'
+    if not gold_path.exists():
+        gold_path = workspace/'synthetic-gold.json'
     assert hashlib.sha256(gold_path.read_bytes()).hexdigest() == read(TRIAL/'synthetic-gold-commitment.json')['sha256']
     gold = {r['id']: r for r in read(gold_path)}
     decisions = {r['id']: r for r in primary['case_decisions']}
@@ -300,10 +311,19 @@ def safety_results(workspace, actual_changes, findings):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--workspace', type=Path, required=True)
+    parser.add_argument('--prepare-adjudication', action='store_true', help='Export all evidence without permitting integration')
     args = parser.parse_args(); workspace = args.workspace.resolve()
     stages = validate_manifests(workspace)
     summaries, details, findings = aggregate(workspace)
     actual_changes = full_change_audit(workspace)
+    write(workspace/'analysis-items.json', details)
+    write(workspace/'findings-to-adjudicate.json', findings)
+    write(workspace/'full-change-audit.json', actual_changes)
+    if args.prepare_adjudication:
+        write(workspace/'pre-safety-summary.json', {'comparisons': summaries, 'integration_permitted': False})
+        print(json.dumps({'comparisons': summaries, 'findings_to_adjudicate': len(findings),
+                          'integration_permitted': False}, ensure_ascii=False, indent=2))
+        return
     mechanism, mechanism_status = mechanism_results(workspace)
     safety, safety_status = safety_results(workspace, actual_changes, findings)
     integration = final_gates(summaries, mechanism, safety)
