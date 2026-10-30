@@ -31,11 +31,15 @@ def validate():
         assert sha((results/stage['phase']/'output.json').read_bytes()) == stage['output_sha256']
     assert len(sessions) == record['model_calls'] <= 36
     if (results/'prose-audit-lineage.json').exists():
+        from budget_audit_format_adapter import decode
         lineage = read(results/'prose-audit-lineage.json')
         assert lineage['raw_output_sha256'] == sha((results/'prose_audit/output.json').read_bytes())
         assert lineage['completion_output_sha256'] == sha((results/'prose_coverage_completion/output.json').read_bytes())
         assert lineage['derived_output_sha256'] == sha((results/'prose-audit-normalized.json').read_bytes())
-        assert read(results/'prose-audit-normalized.json')['pairs'] == read(results/'prose_audit/output.json')['pairs']
+        raw = read(results/'prose_audit/output.json'); supplement = read(results/'prose_coverage_completion/output.json')
+        combined = read(results/'prose-audit-normalized.json')
+        assert combined == {**raw, 'coverage': sorted(set(decode(raw['coverage'])) | set(decode(supplement['coverage']))),
+                            'issues': raw['issues']+supplement['issues'], 'unresolved': raw['unresolved']+supplement['unresolved']}
     # score() emits a working report; execute only in an isolated copy.
     with tempfile.TemporaryDirectory(prefix='budget-replay-') as temporary:
         workspace = Path(temporary)/'results'; shutil.copytree(results, workspace)

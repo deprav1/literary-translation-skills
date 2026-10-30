@@ -84,6 +84,7 @@ def main():
         'runtime_evidence_checked': True, 'private_prompts_or_logs_published': False,
         'coverage_validation_amendment_sha256': sha(coverage_adapter.read_bytes()) if coverage_adapter.exists() else None,
         'prose_coverage_amendment_sha256': sha(prose_adapter.read_bytes()) if prose_adapter.exists() else None,
+        'audit_format_amendment_sha256': sha((BASE/'audit-format-amendment.json').read_bytes()),
         'final_mask_amendment_sha256': sha((BASE/'final-mask-amendment.json').read_bytes()),
         'human_review': False, 'manual_candidate_text_edits': False,
         'economic_estimates': costs}

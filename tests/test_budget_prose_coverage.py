@@ -4,6 +4,7 @@ import unittest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]/'scripts'))
 from budget_prose_coverage_recovery import coverage_ids, validate_transport
+from budget_audit_format_adapter import decode
 
 
 class AuditCoverageRecoveryTests(unittest.TestCase):
@@ -14,6 +15,9 @@ class AuditCoverageRecoveryTests(unittest.TestCase):
     def test_unknown_coverage_text_is_not_guessed(self):
         with self.assertRaises(AssertionError):
             coverage_ids(['all candidates were read'])
+
+    def test_explicit_source_candidate_pair_decodes_without_a_model_retry(self):
+        self.assertEqual(decode(['q1234567890/v11111111111111']), ['v11111111111111'])
 
     def test_emphasis_markers_do_not_create_a_false_quote_error(self):
         items = [{'id': 'q1', 'source': 'A *human* was there.',
