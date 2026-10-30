@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-31",
+  "timing": "After first prose audit completed and failed transport coverage validation; before score/selection/adjudication/routing.",
+  "observed_failure": "269expectedcandidateids; first audit serialized29source-id grouped strings listing260candidateids. All420pairwise decisions present exactly once. Two English quotations omit only source emphasis markers.",
+  "recovery": "Preserve raw output. Parse exact grouped candidateids, complete the9missingcandidateids for one source in one blind call, no new pair votes. Derive a lineage-bound normalized view merging only prose issues/unresolved and complete coverage. Validate quotes after whitespace/emphasis normalization only.",
+  "all_translator_outputs_unchanged": true,
+  "all_original_pairwise_votes_unchanged": true,
+  "no_best_of_sampling": true,
+  "supplementary_call_charged_as_research": true,
+  "adapter_sha256": "7b35567feaa46bd54d18b3b470f34c0f0065c36404c22c758615bcade5d8f28f"
+}
