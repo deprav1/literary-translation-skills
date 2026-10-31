@@ -1,0 +1,9 @@
+{
+  "date": "2026-10-31",
+  "timing": "After first prose output and transport validation failure, before adjudication, scoring or routing.",
+  "observed": "30explicit source-bound claims, each all9candidatesread; source IDs and9counts match every supplied source and all270unique candidates. All420pairwise decisions exist once. Quotes validated unchanged.",
+  "correction": "Expand each exact source-bound quantified claim only to its actual input candidate set, after count equality and unknown/duplicate checks. No missing candidate inference, supplementary model call, preference rewrite or source/candidate text change.",
+  "base_and_repeat_preregistrations_unchanged": true,
+  "first_outputs_preserved": true,
+  "adapter_sha256": "82a1e73f241aebfd85adde3dc81f5b43c89059843b22b41ad0abd73bbbe749f7"
+}
