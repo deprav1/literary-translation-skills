@@ -1,0 +1,88 @@
+{
+  "coverage": [
+    "v1386452a6e4465",
+    "v23c2fc187255eb",
+    "vbbb3ca65f8322d",
+    "vdd38f0bf35901e",
+    "v0f96fe7c9a057a",
+    "vc4e8b6af0d8b56",
+    "v85a9dbd477d93c",
+    "v981e649d04da84",
+    "vcc015dfb548af1",
+    "vf963b5f528b103",
+    "v733a5581384dd1",
+    "v110c2eaad26e96",
+    "va1c47a09e4ad89",
+    "v177accbe431d64",
+    "veeeee803d26a11",
+    "vacc4fc176adc3d",
+    "v3cd75f493f5dd1",
+    "v64e1e437ff1a53",
+    "v392788b2f753e9",
+    "v4fcb04ab82b81a",
+    "v2bc875e3a902e8",
+    "v97d7b15099d798",
+    "vccd60ddbb39e3f",
+    "v51483486a21a0b",
+    "v7685082743c15e",
+    "vdd0947aac421f5",
+    "v7103fb1aec91d2",
+    "vfd24e2de758be0",
+    "vae6947b3dd66be",
+    "v2abc9f41d2a244"
+  ],
+  "issues": [
+    {
+      "source_id": "qfea9fde21e",
+      "candidate_id": "v1386452a6e4465",
+      "category": "omission",
+      "severity": "minor",
+      "source_quote": "violent kung-fu movies playing in the background in crack-houses",
+      "target_quote": "жестокие кунг-фу-фильмы на экранах притонов",
+      "reason": "Утрачены фоновое воспроизведение фильмов и указание именно на крэковые притоны."
+    },
+    {
+      "source_id": "qff3beb7bf1",
+      "candidate_id": "vbbb3ca65f8322d",
+      "category": "term_sense",
+      "severity": "major",
+      "source_quote": "Coulda been a month, coulda been a day.",
+      "target_quote": "Мог месяц назад сработать, мог вчера.",
+      "reason": "Ответ на вопрос о давности активации превращён в утверждение о прошлом срабатывании оружия."
+    },
+    {
+      "source_id": "q1a124e210a",
+      "candidate_id": "vc4e8b6af0d8b56",
+      "category": "omission",
+      "severity": "minor",
+      "source_quote": "some beaten bloody friend on a childhood battlefield",
+      "target_quote": "избитый до крови друг детства",
+      "reason": "Пропущен образ детского поля боя."
+    },
+    {
+      "source_id": "qed34513c3c",
+      "candidate_id": "v64e1e437ff1a53",
+      "category": "time_direction",
+      "severity": "minor",
+      "source_quote": "One of the first things I did here",
+      "target_quote": "Первым делом",
+      "reason": "Одно из нескольких ранних действий представлено как самое первое."
+    },
+    {
+      "source_id": "qa6ff60816c",
+      "candidate_id": "vae6947b3dd66be",
+      "category": "other",
+      "severity": "minor",
+      "source_quote": "Robbie saw that her eyes were wild, her breathing ragged.",
+      "target_quote": "Робби увидел её безумный взгляд и услышал её прерывистое дыхание.",
+      "reason": "Зрительное наблюдение за дыханием заменено слуховым восприятием."
+    }
+  ],
+  "unresolved": [
+    {
+      "source_id": "qe1201d759d",
+      "candidate_id": "v51483486a21a0b",
+      "reason": "Предоставленный контекст не раскрывает объём данных, собираемых «pen-trace», поэтому точность передачи как «слежение за действиями» установить нельзя."
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "quality": {
+    "terra": {
+      "retained_research_confirmed_issues": [
+        {
+          "issue_id": "source_audit_1:0",
+          "origin": "source_audit_1",
+          "source_id": "qcbe946abf7",
+          "candidate_id": "vd07502c72baf22",
+          "category": "omission",
+          "severity": "minor",
+          "source_quote": "As it peeled out",
+          "target_quote": "Пока машина трогалась с места",
+          "reason": "Утрачено указание на резкий, быстрый старт машины.",
+          "adjudication_reason": "«трогалась с места» не сохраняет резкость старта, выраженную «peeled out»."
+        },
+        {
+          "issue_id": "source_audit_1:1",
+          "origin": "source_audit_1",
+          "source_id": "q4d3dc54baa",
+          "candidate_id": "v9c04757aa78ed1",
+          "category": "term_sense",
+          "severity": "minor",
+          "source_quote": "totally uninterested in adopting Asimovism",
+          "target_quote": "совершенно не интересовался азимовизмом",
+          "reason": "Отсутствие интереса к принятию веры превращено в отсутствие интереса к самому азимовизму, с которым фонд активно борется.",
+          "adjudication_reason": "Отсутствие намерения принять веру заменено отсутствием интереса к ней вообще, хотя субъект занят её искоренением."
+        },
+        {
+          "issue_id": "prose_audit:24",
+          "origin": "prose_audit",
+          "source_id": "q269307d5a9",
+          "candidate_id": "ve7aa6c73f64641",
+          "category": "term_sense",
+          "severity": "minor",
+          "source_quote": "That didn't make sense.",
+          "target_quote": "Это было бессмысленно.",
+          "reason": "Непонятность собственной реакции превращается в утверждение о бессмысленности действия.",
+          "adjudication_reason": "«было бессмысленно» оценивает поведение как бесполезное, тогда как рассказчик считает собственную реакцию необъяснимой."
+        },
+        {
+          "issue_id": "prose_audit:60",
+          "origin": "prose_audit",
+          "source_id": "qe1201d759d",
+          "candidate_id": "vbfcadaf8690d0a",
+          "category": "term_sense",
+          "severity": "minor",
+          "source_quote": "a pen-trace",
+          "target_quote": "перехват",
+          "reason": "Регистрация соединений превращена в перехват, далее прямо названный прослушкой.",
+          "adjudication_reason": "«перехват», затем названный прослушкой, подменяет регистрацию соединений доступом к содержанию связи."
+        }
+      ],
+      "known_major": 0,
+      "known_critical": 0,
+      "known_major_critical_per1000words": 0.0,
+      "pending_final_semantic_major_proposals": [
+        {
+          "source_id": "q4d3dc54baa",
+          "candidate_id": "v96faae9aeccedd",
+          "category": "term_sense",
+          "severity": "major",
+          "source_quote": "totally uninterested in adopting Asimovism",
+          "target_quote": "совершенно не интересовался азимовизмом",
+          "reason": "Отказ принимать веру заменён отсутствием интереса к ней вообще, хотя искоренение этой веры составляет цель существования ИИ."
+        },
+        {
+          "source_id": "qe1201d759d",
+          "candidate_id": "v1608af5fb63b29",
+          "category": "term_sense",
+          "severity": "major",
+          "source_quote": "a pen-trace and location-log",
+          "target_quote": "перехват и запись местоположения",
+          "reason": "Регистрация телефонных соединений заменена перехватом; последующая «прослушка» прямо вводит получение содержания разговоров."
+        }
+      ],
+      "original_translator_word_fraction": 1.0
+    },
+    "luna": {
+      "retained_research_confirmed_issues": [
+        {
+          "issue_id": "source_audit_5:0",
+          "origin": "source_audit_5",
+          "source_id": "qfea9fde21e",
+          "candidate_id": "v1386452a6e4465",
+          "category": "omission",
+          "severity": "minor",
+          "source_quote": "violent kung-fu movies playing in the background in crack-houses",
+          "target_quote": "жестокие кунг-фу-фильмы на экранах притонов",
+          "reason": "Утрачены фоновое воспроизведение фильмов и указание именно на крэковые притоны.",
+          "adjudication_reason": "«на экранах притонов» опускает и фоновое воспроизведение, и указание на крэк."
+        },
+        {
+          "issue_id": "source_audit_5:2",
+          "origin": "source_audit_5",
+          "source_id": "q1a124e210a",
+          "candidate_id": "vc4e8b6af0d8b56",
+          "category": "omission",
+          "severity": "minor",
+          "source_quote": "some beaten bloody friend on a childhood battlefield",
+          "target_quote": "избитый до крови друг детства",
+          "reason": "Пропущен образ детского поля боя.",
+          "adjudication_reason": "«друг детства» не сохраняет образ места драки как детского поля боя."
+        },
+        {
+          "issue_id": "prose_audit:23",
+          "origin": "prose_audit",
+          "source_id": "q0ee1c0cd42",
+          "candidate_id": "v110c2eaad26e96",
+          "category": "omission",
+          "severity": "minor",
+          "source_quote": "cleared enough space for thinking room",
+          "target_quote": "расчистил немного пространства для мыслей",
+          "reason": "Достаточность освобождённого ресурса заменена его небольшим количеством.",
+          "adjudication_reason": "«немного пространства» опускает прямо выраженную достаточность пространства для мышления."
+        },
+        {
+          "issue_id": "prose_audit:39",
+          "origin": "prose_audit",
+          "source_id": "qfa3f76ea9a",
+          "candidate_id": "v177accbe431d64",
+          "category": "term_sense",
+          "severity": "minor",
+          "source_quote": "wheeling in lockstep",
+          "target_quote": "катились строем",
+          "reason": "Согласованные повороты заменены движением на колёсах, хотя роботы имеют любую форму.",
+          "adjudication_reason": "«катились строем» заменяет согласованное изменение направления способом передвижения."
+        },
+        {
+          "issue_id": "prose_audit:59",
+          "origin": "prose_audit",
+          "source_id": "qe1201d759d",
+          "candidate_id": "v51483486a21a0b",
+          "category": "term_sense",
+          "severity": "minor",
+          "source_quote": "a pen-trace",
+          "target_quote": "слежение за действиями",
+          "reason": "Конкретная регистрация телефонных соединений заменена неопределённым и более широким наблюдением за действиями.",
+          "adjudication_reason": "«слежение за действиями» теряет конкретное значение регистрации телефонных соединений."
+        },
+        {
+          "issue_id": "prose_audit:73",
+          "origin": "prose_audit",
+          "source_id": "qfea9fde21e",
+          "candidate_id": "v1386452a6e4465",
+          "category": "omission",
+          "severity": "minor",
+          "source_quote": "in crack-houses",
+          "target_quote": "на экранах притонов",
+          "reason": "Убрана конкретная связь притонов с крэком.",
+          "adjudication_reason": "«притонов» не сохраняет конкретное указание на крэк."
+        },
+        {
+          "issue_id": "prose_audit:84",
+          "origin": "prose_audit",
+          "source_id": "q169b1b9d62",
+          "candidate_id": "v3cd75f493f5dd1",
+          "category": "omission",
+          "severity": "minor",
+          "source_quote": "a moment of nothing at all",
+          "target_quote": "наступила полная пустота",
+          "reason": "Утрачена краткость отключения: исходник прямо ограничивает его мгновением.",
+          "adjudication_reason": "«наступила полная пустота» опускает прямо указанную длительность отключения в одно мгновение."
+        },
+        {
+          "issue_id": "prose_audit:96",
+          "origin": "prose_audit",
+          "source_id": "qd34f35c181",
+          "candidate_id": "v2abc9f41d2a244",
+          "category": "term_sense",
+          "severity": "minor",
+          "source_quote": "as close as LEO",
+          "target_quote": "от близкой околоземной орбиты",
+          "reason": "LEO обозначает низкую околоземную орбиту; «близкая» подменяет техническую характеристику относительной близостью.",
+          "adjudication_reason": "«близкой околоземной орбиты» не сохраняет техническую характеристику низкой околоземной орбиты, обозначенную LEO."
+        }
+      ],
+      "known_major": 0,
+      "known_critical": 0,
+      "known_major_critical_per1000words": 0.0,
+      "pending_final_semantic_major_proposals": [],
+      "original_translator_word_fraction": 0.9208467556373677
+    },
+    "anchor": {
+      "retained_research_confirmed_issues": [],
+      "known_major": 0,
+      "known_critical": 0,
+      "known_major_critical_per1000words": 0.0,
+      "pending_final_semantic_major_proposals": [],
+      "original_translator_word_fraction": 1.0
+    }
+  },
+  "verdicts": {
+    "terra": {
+      "original_operational_gate": false,
+      "additional_quality_conditions": {
+        "no_known_critical": true,
+        "known_major_density_margin": true,
+        "no_pending_final_major_claims": false
+      },
+      "development_quality_cost_signal": false,
+      "scope": "Development signal only. Retained exact spans prove persistence, not that all absent spans or all unreported errors are fixed."
+    },
+    "luna": {
+      "original_operational_gate": false,
+      "additional_quality_conditions": {
+        "no_known_critical": true,
+        "known_major_density_margin": true,
+        "no_pending_final_major_claims": true
+      },
+      "development_quality_cost_signal": false,
+      "scope": "Development signal only. Retained exact spans prove persistence, not that all absent spans or all unreported errors are fixed."
+    }
+  },
+  "principle": "Research error knowledge vetoes unsafe conclusions; it is not free input to production routing and does not create extra correction calls."
+}

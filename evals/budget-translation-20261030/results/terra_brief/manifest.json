@@ -1,0 +1,32 @@
+{
+  "phase": "terra_brief",
+  "model": "gpt-6.1-terra",
+  "requested_model": "gpt-6.1-terra",
+  "reasoning_effort": "medium",
+  "session_id_sha256": "5adc40282eac7bf76e76d26991607637b8e45dca3ba8534347938b8ea6dcfff8",
+  "observed_runtime_item_types": [
+    "agent_message",
+    "error"
+  ],
+  "tool_calls": 0,
+  "fresh_session": true,
+  "exit_code": 0,
+  "input_sha256": "4b0b31d456eb5a6dd7c69859042d8b42528cf86d6b4e44d6cd4421789e8edda2",
+  "prompt_sha256": "7e56bd269db25735ee3f1380737f26b0dfa7ddf33261bcd56ae6e6fb0775ff6f",
+  "instruction_sha256": "d63ac8a0deada357b2116ffecdc8f6b4dee488cddcdbdbc59189169248e98b1a",
+  "output_sha256": "92a566bd8aab5fc646aa7183f696b0cbee8c4ec66ac48d08a6c567d98fac685b",
+  "elapsed_seconds": 45.6,
+  "usage": [
+    {
+      "input_tokens": 26714,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 3998,
+      "reasoning_output_tokens": 0
+    }
+  ],
+  "preregistration_sha256": "488ddeaf193d4862f45fc647580c376c97ef6f573f2e548bd115a1b12097187f",
+  "service_tier_attested": false,
+  "actual_billing_known": false,
+  "runtime_error": null
+}

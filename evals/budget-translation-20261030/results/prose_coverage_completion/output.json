@@ -1,0 +1,62 @@
+{
+  "coverage": [
+    "qd34f35c181/v95c2b500ad9546",
+    "qd34f35c181/v35e63fb788195a",
+    "qd34f35c181/v2abc9f41d2a244",
+    "qd34f35c181/v116cb7bbf7d9ee",
+    "qd34f35c181/v5a8622b2025412",
+    "qd34f35c181/v4af1c7b7321875",
+    "qd34f35c181/v3ef44e28e4f0f7",
+    "qd34f35c181/va15b3eaea885f5",
+    "qd34f35c181/ve673b63dfd9d7b"
+  ],
+  "issues": [
+    {
+      "source_id": "qd34f35c181",
+      "candidate_id": "v35e63fb788195a",
+      "category": "grammar",
+      "severity": "major",
+      "source_quote": "you'd want a big mass out at Jupiter where you could run very fast and hot and create policy, and you'd need a local foreman to oversee operations on the ground",
+      "target_quote": "на Юпитере нужен был бы большой узел, где можно работать очень быстро и на пределе мощности, формируя политику, и местный бригадир, чтобы надзирать за работой на поверхности",
+      "reason": "Обстоятельство «на Юпитере» синтаксически распространяется и на узел, и на бригадира. Теряется пространственное противопоставление удалённого центра и местного руководителя наземных работ."
+    },
+    {
+      "source_id": "qd34f35c181",
+      "candidate_id": "v2abc9f41d2a244",
+      "category": "term_sense",
+      "severity": "minor",
+      "source_quote": "as close as LEO",
+      "target_quote": "от близкой околоземной орбиты",
+      "reason": "LEO обозначает низкую околоземную орбиту; «близкая» подменяет техническую характеристику относительной близостью."
+    },
+    {
+      "source_id": "qd34f35c181",
+      "candidate_id": "v3ef44e28e4f0f7",
+      "category": "term_sense",
+      "severity": "minor",
+      "source_quote": "you'd want a big mass out at Jupiter",
+      "target_quote": "основную массу вычислений стоило разместить у Юпитера",
+      "reason": "Физическая масса вычислительного носителя превращается в объём вычислений. Материальный образ оригинала теряется, а сочетание «массу вычислений разместить» звучит натянуто."
+    },
+    {
+      "source_id": "qd34f35c181",
+      "candidate_id": "va15b3eaea885f5",
+      "category": "term_sense",
+      "severity": "minor",
+      "source_quote": "you'd want a big mass out at Jupiter",
+      "target_quote": "основную массу вычислений стоило разместить у Юпитера",
+      "reason": "Физическая масса вычислительного носителя превращается в объём вычислений. Материальный образ оригинала теряется, а сочетание «массу вычислений разместить» звучит натянуто."
+    },
+    {
+      "source_id": "qd34f35c181",
+      "candidate_id": "ve673b63dfd9d7b",
+      "category": "calque_collocation",
+      "severity": "minor",
+      "source_quote": "based on the lightspeed lag",
+      "target_quote": "по задержке скорости света",
+      "reason": "«Задержка скорости света» ошибочно делает задерживаемой величиной саму скорость; в оригинале речь о времени распространения сигнала."
+    }
+  ],
+  "unresolved": [],
+  "pairs": []
+}

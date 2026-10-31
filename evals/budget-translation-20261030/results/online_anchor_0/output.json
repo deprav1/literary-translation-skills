@@ -1,0 +1,55 @@
+{
+  "coverage": [
+    "ve9f3de7005e882",
+    "vbef6678dfd05df",
+    "v3daf2fef5e50c3",
+    "v5648c5fb707bf3",
+    "ve887a24dea549d",
+    "v31ac973de8e1d4",
+    "v98ba264d0d8dc6",
+    "v1f132e7c614f69",
+    "v33ea14f3615586",
+    "vfd3b07e64d9735",
+    "v49b1259fdfb0a0",
+    "v418ef4883b62d7",
+    "v341b1a13ff10f5",
+    "v5d09b11bc3da9c",
+    "vd15b5aaf5d5f27",
+    "vbbce57d66eb960",
+    "vf445246ef1eda0",
+    "vab6c8d05163f49",
+    "vb5eb2536be1e6a",
+    "v2066e86b8a44ad",
+    "v5791704b199234",
+    "v61ee95bf1a296f",
+    "v689d2525eb0828",
+    "v9b961d6025485c",
+    "vffd8518aa25fd9",
+    "va200c740e45ba0",
+    "v94a4361c5960bd",
+    "v2d85d63da1f7de",
+    "ve0a207e5f17580",
+    "v211db2a005624d"
+  ],
+  "issues": [
+    {
+      "source_id": "q52c8bbe1ec",
+      "candidate_id": "vffd8518aa25fd9",
+      "category": "term_sense",
+      "severity": "minor",
+      "source_quote": "six bigger kids",
+      "target_quote": "шестерых ребят постарше",
+      "reason": "Физический размер противников заменён возрастом: оригинал сообщает, что они крупнее, но не обязательно старше."
+    },
+    {
+      "source_id": "q8221a17b47",
+      "candidate_id": "vb5eb2536be1e6a",
+      "category": "negation_modality",
+      "severity": "minor",
+      "source_quote": "Think of all that must have been squeezed out, deformed, reshaped by the time the renovations were through.",
+      "target_quote": "Подумайте, сколько всего к концу этой перестройки пришлось вытеснить, искривить, перекроить.",
+      "reason": "Предположение о том, что, вероятно, произошло при перестройке мозга, передано как необходимость это сделать. Ослаблена предположительность рассуждения рассказчика о собственной изменившейся личности."
+    }
+  ],
+  "unresolved": []
+}

@@ -1,0 +1,156 @@
+{
+  "coverage": [
+    "v6308f937a930f4",
+    "v2e278bee3f25c6",
+    "v95c2b500ad9546",
+    "v7ef03860a9dc3f",
+    "v5736daf7fb602e",
+    "v64050e19abac15",
+    "v216caa65245b2b",
+    "vd7b4b401583bf1",
+    "v506aafe696085d",
+    "vd949347902b02f",
+    "vc65a73e68975f0",
+    "va8d6466f87e1e1",
+    "v17091378890ad8",
+    "vfc6f414ac81bf6",
+    "v6c3ae50a65e990",
+    "vdaea694168a4d2",
+    "v266e5c212d6d6f",
+    "v6037f02485e1ac",
+    "vfb2c70b613d5d9",
+    "v3e4702c5f85ed0",
+    "v6e3923e93b7860",
+    "v76ea5a6f9dfd00",
+    "v893d953e2c9d77",
+    "v8db9187cfc3468",
+    "v7730b91c264509",
+    "va8fecc8963ac4e",
+    "vbe4aab4f32e99f",
+    "vd1ac4b734dbc25",
+    "vb28a41327e8093",
+    "vaa98a16aa7b7ce"
+  ],
+  "issues": [
+    {
+      "source_id": "q8221a17b47",
+      "candidate_id": "v6308f937a930f4",
+      "category": "term_sense",
+      "severity": "minor",
+      "source_quote": "But you could make a case for what he said.",
+      "target_quote": "Но его словам можно было найти объяснение.",
+      "reason": "Возможность обосновать правоту сказанного заменена возможностью объяснить эти слова."
+    },
+    {
+      "source_id": "q52c8bbe1ec",
+      "candidate_id": "vd7b4b401583bf1",
+      "category": "negation_modality",
+      "severity": "minor",
+      "source_quote": "Even if the odds are impossible",
+      "target_quote": "Даже если шансы против тебя",
+      "reason": "Практическая невозможность победы ослаблена до неблагоприятных шансов."
+    },
+    {
+      "source_id": "q52c8bbe1ec",
+      "candidate_id": "vd7b4b401583bf1",
+      "category": "term_sense",
+      "severity": "minor",
+      "source_quote": "six bigger kids",
+      "target_quote": "шестерых ребят постарше",
+      "reason": "Превосходство в размерах заменено старшим возрастом, которого источник не устанавливает."
+    },
+    {
+      "source_id": "qa8a286da66",
+      "candidate_id": "v506aafe696085d",
+      "category": "other",
+      "severity": "minor",
+      "source_quote": "she was half-in, half-out of the water",
+      "target_quote": "она наполовину торчала из воды, наполовину висела над ней",
+      "reason": "Обе половины описаны как находящиеся над водой; в оригинале половина тела остаётся в воде."
+    },
+    {
+      "source_id": "qfea9fde21e",
+      "candidate_id": "va8d6466f87e1e1",
+      "category": "omission",
+      "severity": "minor",
+      "source_quote": "in crack-houses",
+      "target_quote": "в притонах",
+      "reason": "Утрачено указание на наркотический характер притонов."
+    },
+    {
+      "source_id": "qfea9fde21e",
+      "candidate_id": "va8d6466f87e1e1",
+      "category": "omission",
+      "severity": "minor",
+      "source_quote": "arcade games imported from Japan",
+      "target_quote": "японские аркадные игры",
+      "reason": "Японское происхождение сохранено, но факт ввоза игр опущен."
+    },
+    {
+      "source_id": "q1a124e210a",
+      "candidate_id": "vfc6f414ac81bf6",
+      "category": "actor",
+      "severity": "major",
+      "source_quote": "spared me the worse fate befalling Earth",
+      "target_quote": "избавило Землю от куда худшей участи",
+      "reason": "Спасён рассказчик от участи, постигающей Землю; перевод утверждает спасение самой Земли."
+    },
+    {
+      "source_id": "q1a124e210a",
+      "candidate_id": "vfc6f414ac81bf6",
+      "category": "omission",
+      "severity": "minor",
+      "source_quote": "some beaten bloody friend on a childhood battlefield",
+      "target_quote": "избитый до крови друг детства",
+      "reason": "Опущен образ поля детской битвы, связывающий вывод рассказчика со сценой драки."
+    },
+    {
+      "source_id": "qed34513c3c",
+      "candidate_id": "vdaea694168a4d2",
+      "category": "actor",
+      "severity": "minor",
+      "source_quote": "One of the first things I did here was help them debug the uploading process.",
+      "target_quote": "Первым делом я помог им отладить процесс загрузки.",
+      "reason": "По контексту говорит жена Артуро; мужская форма «помог» меняет пол говорящей."
+    },
+    {
+      "source_id": "q0ee1c0cd42",
+      "candidate_id": "vbe4aab4f32e99f",
+      "category": "term_sense",
+      "severity": "major",
+      "source_quote": "He jettisoned as much of his consciousness as he could without major refactoring",
+      "target_quote": "Он выбросил из сознания всё, что мог, не прибегая к масштабной переработке",
+      "reason": "Удаление части самого сознания ради вычислительного пространства заменено удалением содержимого из сознания."
+    },
+    {
+      "source_id": "q81934bc463",
+      "candidate_id": "vd1ac4b734dbc25",
+      "category": "term_sense",
+      "severity": "minor",
+      "source_quote": "this commercial service full of noobs called AOL",
+      "target_quote": "коммерческий сервис для новичков под названием AOL",
+      "reason": "Состав пользователей заменён назначением сервиса для новичков."
+    },
+    {
+      "source_id": "qe8c00254a0",
+      "candidate_id": "vaa98a16aa7b7ce",
+      "category": "addition",
+      "severity": "minor",
+      "source_quote": "Osprey Reef",
+      "target_quote": "Большой Барьерный риф Оспри",
+      "reason": "В название добавлен Большой Барьерный риф, которого в supplied тексте нет."
+    }
+  ],
+  "unresolved": [
+    {
+      "source_id": "q49808d15b8",
+      "candidate_id": "v5736daf7fb602e",
+      "reason": "В «Я перебежала к ним» адресат местоимения не назван: ближайшее упоминание — Социальная гармония, но контекст также вводит евразийскую сторону. Однозначно установить ошибочное направление перехода нельзя."
+    },
+    {
+      "source_id": "qff3beb7bf1",
+      "candidate_id": "v8db9187cfc3468",
+      "reason": "«Activated» в вопросе может обозначать включение или приведение устройства в действие; supplied контекст не устанавливает точную стадию. Поэтому нельзя уверенно признать «сработать» ошибочной заменой постановки на боевой режим."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "coverage": [
+    "v25e79aebe2801c",
+    "v1fe53aebc3bc4a",
+    "vb8ac3fca127c12",
+    "vfaaf1db86d083f",
+    "v22e7da836dbaa7",
+    "vefb012460d4c1c",
+    "v02d5c28f07336a",
+    "v19da315731b36e",
+    "vef38f582f26645",
+    "vf97376fa646b01",
+    "v98b4174ead66d1",
+    "vdc5d62d0420c95",
+    "vce3a1676e43d8d",
+    "v066e68d84c9dfc",
+    "v01fe5d2850b713",
+    "vccb41f2bbf4850",
+    "v6767bf2734bd59",
+    "v4c7567e6be2592",
+    "v8e881c4cc7b2f1",
+    "v3604d6a4270c62",
+    "v536882eb144d8f",
+    "v0b881fc896b391",
+    "v269509ead083ce",
+    "v95afbffd4a1f59",
+    "v1c2d7da92191ae",
+    "ve6ed997323460c",
+    "va916024b87cb89",
+    "v588999c9b572f0",
+    "v00ef82e5ae3829",
+    "vb78fc10562f1a5"
+  ],
+  "issues": [
+    {
+      "source_id": "q269307d5a9",
+      "candidate_id": "v19da315731b36e",
+      "category": "term_sense",
+      "severity": "minor",
+      "source_quote": "even as they incapacitated me",
+      "target_quote": "хотя и лишали меня самого возможности защититься",
+      "reason": "Общая недееспособность во время припадков сужена до неспособности защищаться; исходник описывает более широкую утрату способности действовать."
+    },
+    {
+      "source_id": "qe1201d759d",
+      "candidate_id": "v6767bf2734bd59",
+      "category": "term_sense",
+      "severity": "minor",
+      "source_quote": "a pen-trace and location-log",
+      "target_quote": "перехват и запись местоположения",
+      "reason": "Pen-trace означает регистрацию телефонных соединений. Последующее слово «прослушка» приписывает наблюдению перехват содержания разговоров, которого исходник здесь не устанавливает."
+    },
+    {
+      "source_id": "q8221a17b47",
+      "candidate_id": "v8e881c4cc7b2f1",
+      "category": "negation_modality",
+      "severity": "minor",
+      "source_quote": "But you could make a case for what he said.",
+      "target_quote": "Но в его словах была своя правда.",
+      "reason": "Возможность привести доводы в пользу сказанного превращена в признание его частичной истинности. Это усиливает уверенность рассказчика в рассуждении о собственной личности."
+    }
+  ],
+  "unresolved": []
+}

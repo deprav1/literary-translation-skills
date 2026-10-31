@@ -1,0 +1,32 @@
+{
+  "phase": "luna_guard",
+  "model": "gpt-6-luna",
+  "requested_model": "gpt-6-luna",
+  "reasoning_effort": "medium",
+  "session_id_sha256": "9abcd9b8dc26f1401b93682a525757168296e6fe2b41cea69a01502d420462d8",
+  "observed_runtime_item_types": [
+    "agent_message",
+    "error"
+  ],
+  "tool_calls": 0,
+  "fresh_session": true,
+  "exit_code": 0,
+  "input_sha256": "9343a5482557e51f30f242c3e9fef4e5a98461df6056d97e4801e45589b74241",
+  "prompt_sha256": "df73a37f8959d7a32198be831ed777d29a342e6ebcf1ab300af545649055c42b",
+  "instruction_sha256": "3c6d1f790b9d0345f82865d69d89e3ac73578661d1b8ee91348a8271fc915739",
+  "output_sha256": "efbe07479ef315c518573e15493c05fb1d85d01efa2f4bf832874dedba68e954",
+  "elapsed_seconds": 35.25,
+  "usage": [
+    {
+      "input_tokens": 24173,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 3912,
+      "reasoning_output_tokens": 0
+    }
+  ],
+  "preregistration_sha256": "488ddeaf193d4862f45fc647580c376c97ef6f573f2e548bd115a1b12097187f",
+  "service_tier_attested": false,
+  "actual_billing_known": false,
+  "runtime_error": null
+}

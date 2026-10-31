@@ -143,6 +143,10 @@ CI checks skill metadata, reference links, standalone installation portability, 
 
 Contributions are welcome: concise guidance, small source-based examples, language-pair notes, and improvements to reader validation. Start with [CONTRIBUTING.md](CONTRIBUTING.md). Use synthetic or appropriately licensed excerpts in issues and pull requests.
 
+## Lower-cost translators
+
+A [Terra/Luna development pilot](evals/budget-translation-20261030/RESULTS.md) tests first-pass translation rather than editing a Sol draft. Terra with a compact Sol brief showed a quality signal, but planning was too costly on the measured sample; Luna's tested additions regressed in this run. Full audited routes saved only about 26% (Terra) and 20% (Luna) and missed the quality gate. The evaluation skill now accounts for planning, audits, escalation and known retained errors. Run `python scripts/validate_budget_trial.py` to replay saved metrics. This is model-audited development evidence, not human literary validation.
+
 ## Targeted skill trial
 
 A [preregistered trial](evals/targeted-review-20261030/RESULTS.md) tested three targeted review candidates on 36 mechanism fixtures and 30 new excerpts with equal edit-call budgets and masked model review. None cleared the integration gate; existing skills remain unchanged. Run `python scripts/validate_targeted_trial.py` to replay the saved evidence and gates. This is internal model evidence, not human literary validation.

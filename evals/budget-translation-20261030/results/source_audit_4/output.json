@@ -1,0 +1,79 @@
+{
+  "coverage": [
+    "v61b1ecda84fe76",
+    "v606c64163636fb",
+    "vbae6d63193f4a0",
+    "v36aa481878882a",
+    "v55800ffba0c383",
+    "v50d05883e0c43e",
+    "vba254e989c47e4",
+    "va15b3eaea885f5",
+    "v14f111ad5ab019",
+    "v8233b10e1d8f16",
+    "vdd261e22b3809e",
+    "v955e29fa743147",
+    "v2549ec17af099a",
+    "v90653a30e2cd7f",
+    "va5418dcb95d9de",
+    "v0b71680e09917b",
+    "v2ad49ebd408789",
+    "v879af19b759820",
+    "v73cf376ebffabe",
+    "v65777c22df2a82",
+    "ved3b9814660a6d",
+    "vee1cfe779e83eb",
+    "v957aada61bb7cc",
+    "vc7022d816fe762",
+    "vd44c5074a3e2bb",
+    "v7f6c1b749f5fc6",
+    "v8d320bf1fe9819",
+    "v7ccc4a41dced9b",
+    "v6973181d42482b",
+    "vd7c920357100e9"
+  ],
+  "issues": [
+    {
+      "source_id": "q4d3dc54baa",
+      "candidate_id": "v36aa481878882a",
+      "category": "actor",
+      "severity": "major",
+      "source_quote": "the Asimov estate -- itself an AI",
+      "target_quote": "наследниками Азимова — которые, по иронии, сами были ИИ",
+      "reason": "Единая организация, сама являющаяся ИИ, заменена несколькими наследниками."
+    },
+    {
+      "source_id": "q52c8bbe1ec",
+      "candidate_id": "v90653a30e2cd7f",
+      "category": "term_sense",
+      "severity": "minor",
+      "source_quote": "six bigger kids",
+      "target_quote": "шестерых ребят постарше",
+      "reason": "Физическое превосходство в размерах заменено старшим возрастом, который исходник не устанавливает."
+    },
+    {
+      "source_id": "qed34513c3c",
+      "candidate_id": "vdd261e22b3809e",
+      "category": "other",
+      "severity": "minor",
+      "source_quote": "positronic brain",
+      "target_quote": "позитивронный мозг",
+      "reason": "Опечатка искажает технический термин «позитронный»."
+    },
+    {
+      "source_id": "q28167c0ed9",
+      "candidate_id": "v2549ec17af099a",
+      "category": "other",
+      "severity": "minor",
+      "source_quote": "positronic brain",
+      "target_quote": "позитивронный мозг",
+      "reason": "Опечатка искажает технический термин «позитронный»."
+    }
+  ],
+  "unresolved": [
+    {
+      "source_id": "qa6ff60816c",
+      "candidate_id": "v606c64163636fb",
+      "reason": "«strong brown arms» передано как «крепкими загорелыми руками»; предоставленный контекст не позволяет установить, обозначает ли brown загар или естественный цвет кожи."
+    }
+  ]
+}

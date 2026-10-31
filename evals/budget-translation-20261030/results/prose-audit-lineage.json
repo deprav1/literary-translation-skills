@@ -1,0 +1,20 @@
+{
+  "raw_output_sha256": "23b23f980874911a3270f6095aaa640af885b76c22366d2ad49604c36c7282c5",
+  "completion_output_sha256": "3b0da283b061baa2b87d9245b019ef5fe28e74075995f504e20f15a311c8afb6",
+  "derived_output_sha256": "51ddb45acbc942fc23c9929eb3cb66746ee578efd64ba1e265395f94040f285b",
+  "explicit_initial_candidate_coverage": 260,
+  "required": 269,
+  "supplementary_candidates": [
+    "v116cb7bbf7d9ee",
+    "v2abc9f41d2a244",
+    "v35e63fb788195a",
+    "v3ef44e28e4f0f7",
+    "v4af1c7b7321875",
+    "v5a8622b2025412",
+    "v95c2b500ad9546",
+    "va15b3eaea885f5",
+    "ve673b63dfd9d7b"
+  ],
+  "pairwise_votes_unchanged": true,
+  "normalization": "Decode grouped coverage IDs; validation ignores emphasis markers only. No model text or preference is rewritten."
+}

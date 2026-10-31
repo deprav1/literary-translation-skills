@@ -1,0 +1,100 @@
+{
+  "coverage": [
+    "v225862610389f7",
+    "vd51c3393d69349",
+    "v6bb90f876e808f",
+    "v3f0505480d6cec",
+    "v5db515afd0ef70",
+    "vce5536bab7a012",
+    "va982ae208e35ec",
+    "v0ebca05d1cae6f",
+    "v084cefceb8140f",
+    "v90b162cbc48684",
+    "vee39f1b5990d78",
+    "v1caccb8d893b88",
+    "va4cfdfd05406e0",
+    "v93a47895a25400",
+    "v1cf1b9ccc1837d",
+    "v74c6add2480434",
+    "v2e62e4e1c15329",
+    "v710da02c815af2",
+    "v267821a2844020",
+    "v2408ad8f7d4a89",
+    "vbd512495d6b4f4",
+    "vc33294680dfd34",
+    "vd79d1686c64620",
+    "v691505b200c641",
+    "vca7f1434dcca92",
+    "v781f4886afc22c",
+    "vc89c7657e1942e",
+    "ve2aa5d04148f8a",
+    "v67d407bb4d18e4",
+    "v9146a0e6bde7d6"
+  ],
+  "issues": [
+    {
+      "source_id": "q1a124e210a",
+      "candidate_id": "v3f0505480d6cec",
+      "category": "omission",
+      "severity": "minor",
+      "source_quote": "some beaten bloody friend on a childhood battlefield",
+      "target_quote": "избитый до крови друг детства",
+      "reason": "Опущен образ поля детской битвы: обстоятельство сцены заменено обозначением друга детства."
+    },
+    {
+      "source_id": "qb6f48742c7",
+      "candidate_id": "v084cefceb8140f",
+      "category": "time_direction",
+      "severity": "major",
+      "source_quote": "I kicked one in the head until it stopped moving",
+      "target_quote": "Я пнул одного по голове, пока он не перестал шевелиться",
+      "reason": "В оригинале герой продолжает бить ногой до прекращения движений. Совершенный вид «пнул» обозначает один удар и теряет продолжительность жестокого действия."
+    },
+    {
+      "source_id": "q4d3dc54baa",
+      "candidate_id": "v90b162cbc48684",
+      "category": "actor",
+      "severity": "major",
+      "source_quote": "the Asimov estate -- itself an AI",
+      "target_quote": "наследниками Азимова — самим ИИ",
+      "reason": "Правообладатель наследия Азимова, сам являющийся одним ИИ, превращён в нескольких наследников. Последующие «у них» и «им» закрепляют изменение действующего лица."
+    },
+    {
+      "source_id": "qe1201d759d",
+      "candidate_id": "v2e62e4e1c15329",
+      "category": "term_sense",
+      "severity": "minor",
+      "source_quote": "a pen-trace and location-log",
+      "target_quote": "слежение за действиями и журнал местоположений",
+      "reason": "Pen-trace обозначает отслеживание телефонных соединений; перевод заменяет его неопределённым и более широким наблюдением за действиями."
+    },
+    {
+      "source_id": "q8221a17b47",
+      "candidate_id": "v267821a2844020",
+      "category": "negation_modality",
+      "severity": "minor",
+      "source_quote": "Think of all that must have been squeezed out, deformed, reshaped",
+      "target_quote": "Подумать только, сколько всего пришлось вытеснить, деформировать и перекроить",
+      "reason": "Предположение рассказчика о том, что, должно быть, было утрачено и изменено, передано как установленная необходимость этих изменений."
+    },
+    {
+      "source_id": "qff3beb7bf1",
+      "candidate_id": "vbd512495d6b4f4",
+      "category": "term_sense",
+      "severity": "major",
+      "source_quote": "Coulda been a month, coulda been a day.",
+      "target_quote": "Мог месяц назад сработать, мог вчера.",
+      "reason": "В контексте вопроса об activated речь о времени активации устройства. «Сработать» означает уже состоявшееся действие оружия, хотя далее отдельно обсуждаются условия его срабатывания."
+    },
+    {
+      "source_id": "qfea9fde21e",
+      "candidate_id": "v691505b200c641",
+      "category": "omission",
+      "severity": "minor",
+      "source_quote": "sexually explicit, violent arcade games",
+      "target_quote": "откровенные и жестокие аркадные игры",
+      "reason": "Утрачено прямое указание на сексуальное содержание игр: само по себе «откровенные» его однозначно не передаёт."
+    }
+  ],
+  "unresolved": []
+}

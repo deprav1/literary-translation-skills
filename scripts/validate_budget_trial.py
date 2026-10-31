@@ -10,6 +10,7 @@ from run_budget_trial import BASE, read, sources, sha, check_frozen
 from analyze_budget_trial import score
 from budget_economic_gate import gate
 from translation_economics import manifest_cost, pipeline_cost
+from budget_metric_view import model_metrics
 
 
 def validate():
@@ -19,6 +20,8 @@ def validate():
     check_frozen(); results = BASE/'results'; record = read(results/'record.json')
     assert record['preregistration_sha256'] == sha((BASE/'preregistration.json').read_bytes())
     assert record['routing_amendment_sha256'] == sha((BASE/'routing-amendment.json').read_bytes())
+    for name, digest in record['recovery_and_quality_amendments'].items():
+        assert sha((BASE/name).read_bytes()) == digest, name
     for name, digest in record['files'].items():
         assert sha((results/name).read_bytes()) == digest, name
     sessions = set(); config = read(BASE/'protocol.json')
@@ -80,6 +83,9 @@ def validate():
             route=read(results/('route-'+family+'.json')), anchor_route=read(results/'route-anchor.json'),
             prose_losses=counts[family]['losses'], corpus_items=30)
     assert outcomes == read(results/'economic-gates.json')
+    view = read(BASE/'quality-metrics.json')
+    assert view['parent_scored_sha256'] == sha((results/'scored.json').read_bytes())
+    assert view['models'] == model_metrics(read(results/'scored.json'), read(results/'candidate-mapping.json'))
     return {'model_calls': len(sessions), 'source_words': total_words, 'selected': read(results/'scored.json')['selected'],
             'development_economic_gate': {f: r['development_economic_gate'] for f, r in outcomes.items()},
             'limit': 'Artifact and accounting replay only; requested model identities and model-based quality judgments are not human validation.'}

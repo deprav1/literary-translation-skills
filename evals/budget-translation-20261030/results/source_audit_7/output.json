@@ -1,0 +1,127 @@
+{
+  "coverage": [
+    "v41cecaacd8eda6",
+    "v866cac20e60748",
+    "v8b3e1f5b3c11d1",
+    "vd0e500ecbdd971",
+    "vafcf54978deeec",
+    "v790c2556253846",
+    "vbdd8f4206dda5d",
+    "v3849d4b86035e4",
+    "v3cd98613403916",
+    "veae268f0595f4a",
+    "v3a52f9f1bcee6c",
+    "v73e9d3c306fc7e",
+    "va401f767956454",
+    "v8ba3f03fcb650a",
+    "v35e63fb788195a",
+    "v0084b2ad44175c",
+    "v6bd59f717cd7e1",
+    "v04ffd24ece9d33",
+    "vef33c2f63c936e",
+    "vdb06625e403669",
+    "v9ffabc60609d7f",
+    "v811e4d444b5492",
+    "v1b80c7195eda79",
+    "v9b09de23f03ca7",
+    "v3aaa8855220dbd",
+    "vaef71570c7ffd0",
+    "veabfe70b6f6055",
+    "v3d6e78f2f25198",
+    "v8af3cf25f4441e",
+    "v4dae184fe3ac20"
+  ],
+  "issues": [
+    {
+      "source_id": "qdbaaab067c",
+      "candidate_id": "v41cecaacd8eda6",
+      "category": "time_direction",
+      "severity": "major",
+      "source_quote": "had rigged a shower from the pipes feeding the basement washrooms",
+      "target_quote": "устроил душ, подведя трубы к санузлам в подвале",
+      "reason": "Душ подключён к существующим трубам, питающим санузлы; перевод вместо этого описывает подведение труб к санузлам."
+    },
+    {
+      "source_id": "qf75369d6ce",
+      "candidate_id": "v790c2556253846",
+      "category": "actor",
+      "severity": "major",
+      "source_quote": "the transformation in its original body when it hove into sight",
+      "target_quote": "перемен в своём исходном теле, когда показался на виду",
+      "reason": "В поле зрения появляется исходное подводное тело; в переводе субъектом появления становится риф в человеческих оболочках."
+    },
+    {
+      "source_id": "q52c8bbe1ec",
+      "candidate_id": "v3a52f9f1bcee6c",
+      "category": "omission",
+      "severity": "minor",
+      "source_quote": "Flag a sentry.",
+      "target_quote": "Поднимаешь тревогу.",
+      "reason": "Утрачено конкретное действие: привлечь внимание часового."
+    },
+    {
+      "source_id": "q4d3dc54baa",
+      "candidate_id": "v8ba3f03fcb650a",
+      "category": "term_sense",
+      "severity": "major",
+      "source_quote": "His trademark violations",
+      "target_quote": "Его фирменные нарушения авторских прав",
+      "reason": "Нарушения прав на товарные знаки заменены нарушениями авторских прав, а trademark ошибочно передано как «фирменные»."
+    },
+    {
+      "source_id": "q4d3dc54baa",
+      "candidate_id": "v8ba3f03fcb650a",
+      "category": "number",
+      "severity": "minor",
+      "source_quote": "the Asimov estate -- itself an AI",
+      "target_quote": "наследниками Азимова — которые сами, по иронии, были ИИ",
+      "reason": "Единый ИИ, представляющий наследственную массу Азимова, превращён во множественных наследников."
+    },
+    {
+      "source_id": "q3cb5976585",
+      "candidate_id": "v0084b2ad44175c",
+      "category": "omission",
+      "severity": "critical",
+      "source_quote": "A third, turning to face the new threat, took a blow to the face that audibly crunched the bones of his cheek. I remember wondering why I didn't take any satisfaction from that sound, why it meant nothing beyond the fact I had one less opponent to worry about.",
+      "target_quote": "",
+      "reason": "Перевод всего фрагмента отсутствует."
+    },
+    {
+      "source_id": "qed34513c3c",
+      "candidate_id": "vdb06625e403669",
+      "category": "time_direction",
+      "severity": "minor",
+      "source_quote": "One of the first things I did here",
+      "target_quote": "Первым делом здесь",
+      "reason": "Одно из первых занятий объявлено самым первым."
+    },
+    {
+      "source_id": "qcbe946abf7",
+      "candidate_id": "v811e4d444b5492",
+      "category": "term_sense",
+      "severity": "major",
+      "source_quote": "That number wasn't ringing anywhere, anymore.",
+      "target_quote": "Теперь на него больше никто не звонил.",
+      "reason": "Номер больше не вызывает звонка ни на одном устройстве; перевод утверждает, что на него перестали звонить люди."
+    },
+    {
+      "source_id": "qa8a286da66",
+      "candidate_id": "vaef71570c7ffd0",
+      "category": "addition",
+      "severity": "major",
+      "source_quote": "now she was half-in, half-out of the water",
+      "target_quote": "теперь она наполовину находилась в лодке, наполовину в воде",
+      "reason": "Героиня ещё висит на весле над водой и лишь затем дотягивается до лодки; перевод уже помещает её наполовину внутрь."
+    },
+    {
+      "source_id": "qe8c00254a0",
+      "candidate_id": "veabfe70b6f6055",
+      "category": "addition",
+      "severity": "minor",
+      "source_quote": "Osprey Reef",
+      "target_quote": "Большой Барьерный риф Оспри",
+      "reason": "К названию добавлена отсутствующая в исходнике идентификация с Большим Барьерным рифом."
+    }
+  ],
+  "unresolved": []
+}

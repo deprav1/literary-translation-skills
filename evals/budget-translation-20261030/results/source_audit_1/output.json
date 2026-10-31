@@ -1,0 +1,61 @@
+{
+  "coverage": [
+    "v38bea4ce56f760",
+    "vbfcadaf8690d0a",
+    "v1f08930561e9e2",
+    "vfa5888b04c03fe",
+    "vac7442a3b874fe",
+    "ve94ac0499b15a8",
+    "vd07502c72baf22",
+    "vd11276bf33ce5c",
+    "vc69eec3a92c0b4",
+    "vf1685508fbce18",
+    "v4ee4ecc91fa3eb",
+    "v7e1d650015bcc9",
+    "vfc24e507df0edd",
+    "va0c253d90b1e1e",
+    "v9c04757aa78ed1",
+    "v24d8bef7a2d958",
+    "v3a3bf3b65c9166",
+    "vacf4a9f84d7fab",
+    "v2a1c02e48a60ea",
+    "v4af1c7b7321875",
+    "v1dd01d00462a7e",
+    "vc7843e8fa20116",
+    "v606c9d3dad470d",
+    "vc4bc0551e0e98a",
+    "v3e40f7a527e146",
+    "vb381607f7cce35",
+    "v78700ba039c0d6",
+    "v8ee5d4776a3e51",
+    "v6d823854673b61",
+    "ve7aa6c73f64641"
+  ],
+  "issues": [
+    {
+      "source_id": "qcbe946abf7",
+      "candidate_id": "vd07502c72baf22",
+      "category": "omission",
+      "severity": "minor",
+      "source_quote": "As it peeled out",
+      "target_quote": "Пока машина трогалась с места",
+      "reason": "Утрачено указание на резкий, быстрый старт машины."
+    },
+    {
+      "source_id": "q4d3dc54baa",
+      "candidate_id": "v9c04757aa78ed1",
+      "category": "omission",
+      "severity": "minor",
+      "source_quote": "totally uninterested in adopting Asimovism",
+      "target_quote": "совершенно не интересовался азимовизмом",
+      "reason": "Отсутствие интереса к принятию веры превращено в отсутствие интереса к самому азимовизму, с которым фонд активно борется."
+    }
+  ],
+  "unresolved": [
+    {
+      "source_id": "q8221a17b47",
+      "candidate_id": "ve94ac0499b15a8",
+      "reason": "В «how difficult it was to adjust» субъект адаптации прямо не назван; контекст допускает трудности Хелен с изменившимся ребёнком и трудности самого рассказчика. Поэтому уточнение «ей» нельзя уверенно признать ошибкой."
+    }
+  ]
+}

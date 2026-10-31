@@ -1,0 +1,591 @@
+{
+  "coverage": [
+    "qeb5bfb523b: v00aafc03419144, vee8c2c63209d7c, v4160e4b0ec1200",
+    "qdbaaab067c: v3cbc9deefbfffc, v46a2b6457a1791, v24740282b18213",
+    "q7c3d95f57d: v0ede78b091c2b5, va0fc7227cda14a, vba02cf3710aeb0",
+    "q1a124e210a: v17bbe958881bac, v174daaf172edfe, v89113f2038c9a6",
+    "q3cb5976585: vce693cc34da56e, v9910e35de79e14, v3f8a76c1a4ee85",
+    "qcf950c4864: v1d66fbd4bdfd6b, v0f4c0ff6ff7c33, v0acbada6b3ee20",
+    "q0ee1c0cd42: vd10e59c6e2df81, vf9c28ac5db8bbc, v4f548d92b349db",
+    "q269307d5a9: v7855a38937635e, v2275c97b61dc80, v34c3201c66bbed",
+    "qb6f48742c7: vef5ef2014423b8, v30e434d039198c, v93539f18e6024b",
+    "q4d3dc54baa: v0c404aa11ebacf, v96faae9aeccedd, v48c49994806ac4",
+    "qdf715a19a6: v474eb9ddcf4e6b, v9adf98b761fd02, v7a3273b8552d50",
+    "qfa3f76ea9a: v2f01d1075bb171, v69beb4cca47ee3, vc6d898ed473278",
+    "qdeb6786d21: v1f8c44850c7f1c, v1dea7e62692a88, v80599ad29b4997",
+    "q28167c0ed9: va71bc1cdd9c868, v5d6f29f223bb52, v2e060bf7d94d14",
+    "qf75369d6ce: v92b2e64b9b7cc9, ve06d1ff1580225, vf104a7e52822a7",
+    "qed34513c3c: va9d5e634edde67, vddf5692f412263, vb2046e9264428d",
+    "qe1201d759d: v1608af5fb63b29, v055c83b57b967f, vf4cdd9ce50b286",
+    "qa6ff60816c: vdea7fec1acce12, v36f28106441883, vdf9488509c646b",
+    "q8221a17b47: vd57b0260f41f40, v415fbf7066df08, v45673ea1650324",
+    "qd96c62da74: v415a7ea2af8aaf, v9ec618284b9209, v5a3d790bddd867",
+    "qff3beb7bf1: v6d2d80d6684f09, vb70d6886470664, v256f58d6a433d5",
+    "q49808d15b8: v1959ec60fc4f5a, v2c4ed308383977, v2eae6421c64f54",
+    "qcbe946abf7: vf5ba8262bfef33, vf886a0d7492ff8, vc59b79eb1bec3e",
+    "qfea9fde21e: v34ec725826d8d0, vdc11cbaf6cfe79, v806e1552e1519f",
+    "q52c8bbe1ec: v4082f634b4060e, vdbd1f920b597aa, v37ece2436dc63f",
+    "q81934bc463: v8558cecb9aaa90, v198e8fbc663465, v85ee1b490f2af8",
+    "q169b1b9d62: v4cbc005e7afceb, v95a9850c12266b, v033f5dda4dd48a",
+    "qe8c00254a0: v01066f43a168ab, va53d4a399cc31c, vc892c375358175",
+    "qa8a286da66: vd51ae4e5676164, vf12977d81b8e12, v9815340accdb2f",
+    "qd34f35c181: v876a3a927c0e92, v2401f7cb712e76, v0f65199bba3470"
+  ],
+  "issues": [
+    {
+      "source_id": "qeb5bfb523b",
+      "candidate_id": "vee8c2c63209d7c",
+      "category": "voice_rhythm",
+      "severity": "minor",
+      "source_quote": "a bunch of engineered superboys",
+      "target_quote": "отряд генетически усовершенствованных мальчиков",
+      "reason": "«Отряд» придаёт случайной компании организованный военный характер, а обычное «мальчиков» убирает язвительное обозначение superboys."
+    },
+    {
+      "source_id": "q1a124e210a",
+      "candidate_id": "v89113f2038c9a6",
+      "category": "omission",
+      "severity": "minor",
+      "source_quote": "some beaten bloody friend on a childhood battlefield",
+      "target_quote": "избитый до крови друг детства",
+      "reason": "Убрано поле детского сражения: военная образность заменена обычным обозначением давнего друга."
+    },
+    {
+      "source_id": "q1a124e210a",
+      "candidate_id": "v89113f2038c9a6",
+      "category": "term_sense",
+      "severity": "minor",
+      "source_quote": "convinced me to throw my own point of view away",
+      "target_quote": "заставил меня отбросить собственную точку зрения",
+      "reason": "Убеждение заменено принуждением, меняющим характер влияния друга."
+    },
+    {
+      "source_id": "q3cb5976585",
+      "candidate_id": "v3f8a76c1a4ee85",
+      "category": "grammar",
+      "severity": "minor",
+      "source_quote": "I had one less opponent to worry about",
+      "target_quote": "противником стало меньше",
+      "reason": "Творительный падеж без количественного слова нарушает конструкцию обозначения уменьшившегося числа противников."
+    },
+    {
+      "source_id": "qcf950c4864",
+      "candidate_id": "v0acbada6b3ee20",
+      "category": "calque_collocation",
+      "severity": "minor",
+      "source_quote": "an uncontrolled genotype that left him predisposed to nearsightedness",
+      "target_quote": "некорректированный генотип оставил ему предрасположенность к близорукости",
+      "reason": "«Оставил ему предрасположенность» калькирует left him predisposed: русское управление приписывает генотипу передачу оставленного имущества или свойства."
+    },
+    {
+      "source_id": "q269307d5a9",
+      "candidate_id": "v34c3201c66bbed",
+      "category": "term_sense",
+      "severity": "minor",
+      "source_quote": "That didn't make sense.",
+      "target_quote": "Это было бессмысленно.",
+      "reason": "Непонятность собственной реакции превращена в оценку её бесполезности или отсутствия цели."
+    },
+    {
+      "source_id": "qb6f48742c7",
+      "candidate_id": "vef5ef2014423b8",
+      "category": "voice_rhythm",
+      "severity": "minor",
+      "source_quote": "I kicked one in the head until it stopped moving",
+      "target_quote": "Я пинал одного по голове, пока он не перестал шевелиться",
+      "reason": "Убрано намеренное переключение на обезличивающее it, продолженное словами One thing в следующем абзаце."
+    },
+    {
+      "source_id": "qb6f48742c7",
+      "candidate_id": "v30e434d039198c",
+      "category": "voice_rhythm",
+      "severity": "minor",
+      "source_quote": "I kicked one in the head until it stopped moving",
+      "target_quote": "Я бил одного ногой по голове, пока он не перестал шевелиться",
+      "reason": "Убрано намеренное переключение на обезличивающее it, продолженное словами One thing в следующем абзаце."
+    },
+    {
+      "source_id": "q4d3dc54baa",
+      "candidate_id": "v96faae9aeccedd",
+      "category": "term_sense",
+      "severity": "major",
+      "source_quote": "totally uninterested in adopting Asimovism",
+      "target_quote": "совершенно не интересовался азимовизмом",
+      "reason": "Отказ принимать веру заменён отсутствием интереса к ней вообще, хотя искоренение этой веры составляет цель существования ИИ."
+    },
+    {
+      "source_id": "qdf715a19a6",
+      "candidate_id": "v474eb9ddcf4e6b",
+      "category": "negation_modality",
+      "severity": "minor",
+      "source_quote": "It's like, your mom and dad murdered you—",
+      "target_quote": "Получается, твои мама и папа тебя убили...",
+      "reason": "Неуверенное детское уподобление превращено в логический вывод."
+    },
+    {
+      "source_id": "qdf715a19a6",
+      "candidate_id": "v7a3273b8552d50",
+      "category": "negation_modality",
+      "severity": "minor",
+      "source_quote": "It's like, your mom and dad murdered you—",
+      "target_quote": "Получается, родители тебя убили —",
+      "reason": "Неуверенное детское уподобление превращено в логический вывод; нейтральное «родители» также сглаживает детскую речь."
+    },
+    {
+      "source_id": "qdeb6786d21",
+      "candidate_id": "v1f8c44850c7f1c",
+      "category": "voice_rhythm",
+      "severity": "minor",
+      "source_quote": "This dumbed-down instance of her in a meat-suit",
+      "target_quote": "Эта примитивная копия в мясном теле",
+      "reason": "Исчезает образ тела как надеваемого костюма, существенный для рассуждения о временном воплощении."
+    },
+    {
+      "source_id": "q28167c0ed9",
+      "candidate_id": "v2e060bf7d94d14",
+      "category": "actor",
+      "severity": "minor",
+      "source_quote": "without the three laws' stricture to protect and serve humans",
+      "target_quote": "без ограничений трёх законов, призванных защищать людей и служить им",
+      "reason": "Защищать людей и служить им теперь призваны сами законы, тогда как источник говорит об обязанности машинного разума."
+    },
+    {
+      "source_id": "qf75369d6ce",
+      "candidate_id": "vf104a7e52822a7",
+      "category": "calque_collocation",
+      "severity": "minor",
+      "source_quote": "when it hove into sight",
+      "target_quote": "когда оно показалось на виду",
+      "reason": "«Показалось на виду» смешивает появление в поле зрения с нахождением на виду."
+    },
+    {
+      "source_id": "qed34513c3c",
+      "candidate_id": "va9d5e634edde67",
+      "category": "time_direction",
+      "severity": "minor",
+      "source_quote": "One of the first things I did here",
+      "target_quote": "Первым делом я",
+      "reason": "Одно из первых занятий превращено в однозначно первое."
+    },
+    {
+      "source_id": "qe1201d759d",
+      "candidate_id": "v1608af5fb63b29",
+      "category": "term_sense",
+      "severity": "major",
+      "source_quote": "a pen-trace and location-log",
+      "target_quote": "перехват и запись местоположения",
+      "reason": "Регистрация телефонных соединений заменена перехватом; последующая «прослушка» прямо вводит получение содержания разговоров."
+    },
+    {
+      "source_id": "qe1201d759d",
+      "candidate_id": "vf4cdd9ce50b286",
+      "category": "term_sense",
+      "severity": "minor",
+      "source_quote": "a pen-trace",
+      "target_quote": "слежение за действиями",
+      "reason": "Конкретная регистрация телефонных соединений заменена неопределённым наблюдением за действиями."
+    },
+    {
+      "source_id": "qfea9fde21e",
+      "candidate_id": "v34ec725826d8d0",
+      "category": "calque_collocation",
+      "severity": "minor",
+      "source_quote": "scenes from the home-front",
+      "target_quote": "с домашнего фронта",
+      "reason": "Буквальное «домашний» переносит значение к домашней жизни, тогда как речь о тыле в противопоставлении настоящей войне."
+    },
+    {
+      "source_id": "qfea9fde21e",
+      "candidate_id": "v806e1552e1519f",
+      "category": "omission",
+      "severity": "minor",
+      "source_quote": "violent kung-fu movies playing in the background in crack-houses",
+      "target_quote": "жестокие кунг-фу-фильмы на экранах притонов",
+      "reason": "Убраны наркотическая специфика притонов и фоновый характер показа."
+    },
+    {
+      "source_id": "qfea9fde21e",
+      "candidate_id": "v806e1552e1519f",
+      "category": "omission",
+      "severity": "minor",
+      "source_quote": "sexually explicit, violent arcade games",
+      "target_quote": "откровенные и жестокие аркадные игры",
+      "reason": "Само по себе «откровенные» не передаёт явно названное сексуальное содержание."
+    },
+    {
+      "source_id": "q52c8bbe1ec",
+      "candidate_id": "v4082f634b4060e",
+      "category": "term_sense",
+      "severity": "minor",
+      "source_quote": "six bigger kids",
+      "target_quote": "шестерых ребят постарше",
+      "reason": "Превосходство в размерах заменено старшим возрастом."
+    },
+    {
+      "source_id": "q52c8bbe1ec",
+      "candidate_id": "v37ece2436dc63f",
+      "category": "term_sense",
+      "severity": "minor",
+      "source_quote": "six bigger kids",
+      "target_quote": "шестерых ребят постарше",
+      "reason": "Превосходство в размерах заменено старшим возрастом."
+    },
+    {
+      "source_id": "q81934bc463",
+      "candidate_id": "v85ee1b490f2af8",
+      "category": "calque_collocation",
+      "severity": "minor",
+      "source_quote": "faster than the net could absorb them",
+      "target_quote": "быстрее, чем она успевала их освоить",
+      "reason": "«Освоить пользователей» не передаёт вхождение новичков в существующее сообщество: освоение предполагает овладение объектом."
+    },
+    {
+      "source_id": "q169b1b9d62",
+      "candidate_id": "v95a9850c12266b",
+      "category": "omission",
+      "severity": "minor",
+      "source_quote": "then there was a moment of nothing at all",
+      "target_quote": "а затем наступила полная пустота",
+      "reason": "Исчезает краткость провала сознания, завершающая последовательность ощущений."
+    },
+    {
+      "source_id": "qe8c00254a0",
+      "candidate_id": "va53d4a399cc31c",
+      "category": "calque_collocation",
+      "severity": "minor",
+      "source_quote": "let the current rock him back toward the ship",
+      "target_quote": "позволил течению качать его обратно к кораблю",
+      "reason": "«Качать обратно к кораблю» не выражает поступательного переноса течением и выглядит буквальным соединением разных значений rock и back."
+    },
+    {
+      "source_id": "qa8a286da66",
+      "candidate_id": "v9815340accdb2f",
+      "category": "grammar",
+      "severity": "minor",
+      "source_quote": "There was a live human being on the end of that oar, and she was in trouble",
+      "target_quote": "На конце весла висел живой человек, и она попала в беду",
+      "reason": "Непосредственный переход от грамматически мужского «живой человек» к «она» создаёт несогласованный синтаксический стык."
+    },
+    {
+      "source_id": "qd34f35c181",
+      "candidate_id": "v2401f7cb712e76",
+      "category": "term_sense",
+      "severity": "minor",
+      "source_quote": "based on the lightspeed lag, but it was all over the place",
+      "target_quote": "по задержке распространения света, но источник словно был повсюду",
+      "reason": "Меняется предмет наблюдения: в оригинале скачет задержка сигнала, а не непосредственно обнаруживается повсеместность источника."
+    },
+    {
+      "source_id": "qd34f35c181",
+      "candidate_id": "v2401f7cb712e76",
+      "category": "term_sense",
+      "severity": "minor",
+      "source_quote": "a big mass out at Jupiter",
+      "target_quote": "на Юпитере можно было разместить крупную вычислительную массу",
+      "reason": "Расположение у Юпитера без основания уточнено до размещения на самой планете."
+    }
+  ],
+  "unresolved": [],
+  "pairs": [
+    {
+      "pair_id": "p497548906e0057",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "pfd53e851d959b7",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "pa009ca47f393b3",
+      "choice": "B",
+      "reason": "B сохраняет обязанность машинного разума; A приписывает служение людям самим законам."
+    },
+    {
+      "pair_id": "p94380dca35cb15",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "pb7deecb9fef926",
+      "choice": "B",
+      "reason": "B передаёт home-front без кальки «домашний фронт»."
+    },
+    {
+      "pair_id": "pa84cd84fba4391",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "pc7ea66686fbdb1",
+      "choice": "B",
+      "reason": "B сохраняет неуверенное уподобление вместо вывода «получается»."
+    },
+    {
+      "pair_id": "pcfb824dcbdcf0b",
+      "choice": "B",
+      "reason": "В A нарушена конструкция «противником стало меньше»."
+    },
+    {
+      "pair_id": "pfc9bd2bfbba6ec",
+      "choice": "B",
+      "reason": "B сохраняет изменчивую задержку сигнала и расположение у Юпитера."
+    },
+    {
+      "pair_id": "pb4d6c12cf464e8",
+      "choice": "B",
+      "reason": "В A калькировано управление «генотип оставил ему предрасположенность»."
+    },
+    {
+      "pair_id": "pd71d5bbf07a433",
+      "choice": "B",
+      "reason": "B точно различает регистрацию соединений и прослушивание содержания."
+    },
+    {
+      "pair_id": "p5601841de71e71",
+      "choice": "B",
+      "reason": "B сохраняет наркотическую и сексуальную конкретику перечисления."
+    },
+    {
+      "pair_id": "p0c4f91d2a6d509",
+      "choice": "B",
+      "reason": "В A возникает несогласованный переход «живой человек, и она»."
+    },
+    {
+      "pair_id": "p508163a460e00e",
+      "choice": "B",
+      "reason": "B сохраняет непонятность реакции; A называет её бессмысленной."
+    },
+    {
+      "pair_id": "p9725848dc2f1e8",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "p7eacf591053db8",
+      "choice": "A",
+      "reason": "A сохраняет «одно из первых дел» и жидкостный образ decant."
+    },
+    {
+      "pair_id": "p286492df37efca",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "pac074cd7fd53e5",
+      "choice": "A",
+      "reason": "A передаёт конкретную регистрацию соединений вместо общего слежения за действиями."
+    },
+    {
+      "pair_id": "p3a69cb784ff306",
+      "choice": "B",
+      "reason": "B сохраняет поле детского сражения и убеждение вместо принуждения."
+    },
+    {
+      "pair_id": "p462623bf65231d",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "p5a4cf5026c8431",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "pb514bcd343921e",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "pda222a6b5c6b0e",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "pa576bd956c1022",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "p8fdc53f157efb1",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "pab16d37d171cbe",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "p41244846cd437b",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "pf11a2e4323ec12",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "pbaefc034c9da2f",
+      "choice": "A",
+      "reason": "A сохраняет неуверенное детское сравнение и обращение к маме с папой."
+    },
+    {
+      "pair_id": "pcf52cd89186a01",
+      "choice": "B",
+      "reason": "В A «освоить пользователей» искажает образ включения новичков в сообщество."
+    },
+    {
+      "pair_id": "p012d996c26b148",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "pdd0477a962de26",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "p1555f30d51aef0",
+      "choice": "A",
+      "reason": "A сохраняет краткий миг отсутствия ощущений в финале."
+    },
+    {
+      "pair_id": "p2960480b4811b4",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "pd0b50582d5b1df",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "p7082ae06462e29",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "p372b222c6fca47",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "p01361517fc1775",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "p5a413f3877d844",
+      "choice": "A",
+      "reason": "A сохраняет отказ принять азимовизм; B ошибочно утверждает отсутствие интереса к нему."
+    },
+    {
+      "pair_id": "p520d8f5ff70843",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "padb6e37f3661c5",
+      "choice": "B",
+      "reason": "В A «освоить пользователей» искажает образ включения новичков в сообщество."
+    },
+    {
+      "pair_id": "p7b32529a69d6d2",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "p1730c2f4c1f212",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "pe825fd10e9977d",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "p2d3c524c5c5193",
+      "choice": "B",
+      "reason": "B сохраняет намеренное обезличивание противника через «оно»."
+    },
+    {
+      "pair_id": "p1f1a7116425535",
+      "choice": "A",
+      "reason": "A сохраняет образ временного тела-костюма."
+    },
+    {
+      "pair_id": "pdfbe9d5ae31d52",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "p99fe124a72166e",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "pd6c4d01c542303",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "p41edbb21e8fb97",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "pef3b97f31d828b",
+      "choice": "A",
+      "reason": "A сохраняет намеренное обезличивание противника через «оно»."
+    },
+    {
+      "pair_id": "p666cbba6f54d17",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "p97bfbd190f22ef",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "pffc026fd4c8574",
+      "choice": "B",
+      "reason": "B передаёт перенос течением без сочетания «качать обратно к кораблю»."
+    },
+    {
+      "pair_id": "p0459b95c44b3e5",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "p28e86b447ce753",
+      "choice": "A",
+      "reason": "A сохраняет превосходство противников в размерах вместо добавленного старшинства."
+    },
+    {
+      "pair_id": "p5d9b4bbb173ffb",
+      "choice": "B",
+      "reason": "В A неудачно соединены «показалось» и «на виду»."
+    },
+    {
+      "pair_id": "p82a811d9b7191d",
+      "choice": "A",
+      "reason": "A сохраняет язвительных «супермальчиков», не превращая компанию в отряд."
+    },
+    {
+      "pair_id": "p3c2b1aff0b7649",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "p6a04e7cf4a71af",
+      "choice": "tie",
+      "reason": ""
+    }
+  ]
+}

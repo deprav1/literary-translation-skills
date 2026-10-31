@@ -1,0 +1,115 @@
+{
+  "coverage": [
+    "v9fe44c91ab7af3",
+    "v645029279935b2",
+    "v5f4d296c409f6d",
+    "v0ff41c58f480c8",
+    "v8d32a54867db93",
+    "v96c7fcbf4c326e",
+    "v77f7bb73274455",
+    "v4f0ad18c06896e",
+    "vbe4d6e0b2e2c60",
+    "vbdd4a94dbd843b",
+    "v88ce1c92b947d3",
+    "ve673b63dfd9d7b",
+    "vce2ae275317c2c",
+    "vca2e1238a57086",
+    "v88842a6a939fe1",
+    "ve1308f35297bb4",
+    "v0f56a03407e2a8",
+    "v063d8489e25bcb",
+    "v1c84017a6458ef",
+    "v3096ae07a552d0",
+    "v9595a953c05e60",
+    "v79e9ceed70c422",
+    "ve436ce23e9ecd1",
+    "v285d6048cef1c9",
+    "vbc5ae575f8fd2f",
+    "vc57ff143491816",
+    "v35b7e22acd1837",
+    "v294a9b5e4f3e62",
+    "vbf9f769b03ceda",
+    "vc30b0d69efbe89"
+  ],
+  "issues": [
+    {
+      "source_id": "qd96c62da74",
+      "candidate_id": "v4f0ad18c06896e",
+      "category": "term_sense",
+      "severity": "major",
+      "source_quote": "running crooks to ground",
+      "target_quote": "прижимая преступников к земле",
+      "reason": "The idiom means tracking down and catching criminals, not physically pressing them to the ground."
+    },
+    {
+      "source_id": "q81934bc463",
+      "candidate_id": "vbe4d6e0b2e2c60",
+      "category": "term_sense",
+      "severity": "minor",
+      "source_quote": "this commercial service full of noobs called AOL",
+      "target_quote": "коммерческий сервис для новичков по имени AOL",
+      "reason": "A service populated by novices becomes a service intended for novices."
+    },
+    {
+      "source_id": "qe8c00254a0",
+      "candidate_id": "v88ce1c92b947d3",
+      "category": "addition",
+      "severity": "major",
+      "source_quote": "Osprey Reef",
+      "target_quote": "Большой Барьерный риф Оспри",
+      "reason": "The translation adds an identification with the Great Barrier Reef absent from the supplied text."
+    },
+    {
+      "source_id": "qcbe946abf7",
+      "candidate_id": "vca2e1238a57086",
+      "category": "time_direction",
+      "severity": "major",
+      "source_quote": "That number wasn't ringing anywhere, anymore.",
+      "target_quote": "Теперь этот номер больше никуда не звонил.",
+      "reason": "The disconnected number no longer receives ringing calls; the translation instead describes it making no outgoing calls."
+    },
+    {
+      "source_id": "qff3beb7bf1",
+      "candidate_id": "v9595a953c05e60",
+      "category": "term_sense",
+      "severity": "major",
+      "source_quote": "Coulda been a month, coulda been a day.",
+      "target_quote": "Мог месяц назад сработать, мог вчера.",
+      "reason": "The answer concerns when the device was activated, while the translation says when it triggered."
+    },
+    {
+      "source_id": "q1a124e210a",
+      "candidate_id": "v79e9ceed70c422",
+      "category": "actor",
+      "severity": "major",
+      "source_quote": "spared me the worse fate befalling Earth",
+      "target_quote": "избавило Землю от участи похуже",
+      "reason": "The narrator escapes Earth's fate; the translation makes Earth itself escape that fate."
+    },
+    {
+      "source_id": "q8221a17b47",
+      "candidate_id": "v294a9b5e4f3e62",
+      "category": "term_sense",
+      "severity": "minor",
+      "source_quote": "But you could make a case for what he said.",
+      "target_quote": "Но его слова можно было истолковать и так.",
+      "reason": "The source says his claim can be supported by an argument, not that his words admit another interpretation."
+    },
+    {
+      "source_id": "qf75369d6ce",
+      "candidate_id": "vbf9f769b03ceda",
+      "category": "term_sense",
+      "severity": "major",
+      "source_quote": "the transformation in its original body",
+      "target_quote": "превращения в своё первоначальное тело",
+      "reason": "Changes within the reef's original body become a transformation into that body."
+    }
+  ],
+  "unresolved": [
+    {
+      "source_id": "qe1201d759d",
+      "candidate_id": "v5f4d296c409f6d",
+      "reason": "The supplied passage does not define the capabilities of “pen-trace”; “bugging” does not establish whether audio interception, implied by “прослушку”, is included."
+    }
+  ]
+}

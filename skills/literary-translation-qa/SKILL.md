@@ -14,6 +14,8 @@ For files, extract fresh source/target pairs from the current artifacts and reco
 
 Confirm that each pair covers the same events and start/end boundaries before judging quality. A correctly keyed record can still contain a neighboring paragraph or a truncated translation. Flag a pairing defect separately, repair its provenance, and reassess the corrected pair; never attribute a corpus alignment failure to the translator.
 
+When a batch uses structured IDs, validate allowed IDs, missing entries, conflicting duplicates and language/empty-output failures before accepting it. Model-generated identifiers are data, not a reliable join key until checked. Keep the raw response; do not silently reassign an approximate ID or shift the following passages by position. A missing structured item is an operational coverage failure even when a plausible translation exists under an unknown ID; distinguish it from an established semantic omission.
+
 ## Evaluate in context
 
 Read the whole passage and enough adjacent material to identify agents, speakers, viewpoint, gender, modality, negation, sequence, physical actions, and cultural meaning. Idioms, titles, euphemisms, and spatial terms such as *first floor* require context and locale.
@@ -44,5 +46,7 @@ After applying an accepted change, reread the entire target passage and compare 
 Keep these evidence levels separate: delivered, read, adjudicated, applied, artifact-verified, rendered, reader-tested. A list of reviewed IDs records claimed coverage, not absence of errors or human proofreading. Two models may share a mistaken assumption.
 
 State whether this was self-review, a separate model review, or qualified human review, and whether reference translations or earlier findings were visible. A different prompt or role in the same conversation is not an independent assessment. A verified no-change decision is valid; do not manufacture corrections to demonstrate activity.
+
+Check the review's own coverage and quoted evidence too. If an audit omits items, preserve its first findings and mark the gap; a supplementary review should cover the missing material without replacing earlier preferences. A later clean model report does not erase an earlier supported defect that remains in the actual text. Repeated flags about the same source issue are not independent errors or successful fixes.
 
 Close the requested scope. Do not repeat full reviews without a concrete new risk. State limits without calling the translation flawless. Technical EPUB conformance, browser layout, and real-reader TTS are separate claims. For electronic-book production, use an appropriate tool or installed skill if available; this review skill is independently usable.
