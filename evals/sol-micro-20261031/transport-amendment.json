@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-31",
+  "before_first_successful_output": true,
+  "original_preregistration_sha256": "0db41c7f80f96efeb177402f0e652dfb248abd8aaee35bf819e89ade8588f06e",
+  "adapter_sha256": "4285393fc019595b6b41ee96feee07c8d9d5a811c2e2572208c45180833c4eb7",
+  "notice_sha256": "00d74a928fc36604832b27a173bcec3c20d87d22ae54ae626defa2dfd4b479f1",
+  "failed_phase": "plain",
+  "error_category": "401 authentication on direct API route",
+  "output_present": false,
+  "usage_present": false,
+  "failed_events_sha256": "f3a5546c641dda755766004af04770fbed2f92bdc641f0a243b90e281eb309d5",
+  "maximum_completed_model_phases": 6,
+  "prior_authentication_attempts": 1,
+  "routing": "owner configured local Responses provider",
+  "scientific_method_changed": false
+}
