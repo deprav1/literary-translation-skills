@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-31",
+  "outputs_observed": false,
+  "files": {
+    "scripts/sol_patch_trial.py": "5f65d4daebd5424a719023e8f676e968f8e1262b086ceedde84e6925dc7f7433",
+    "evals/sol-patch-20261031/PLAN.md": "ed72271d43177395263a3e44c3516b35aa7e1da8872107b557e7f8cbbb15e118",
+    "evals/targeted-review-20261030/natural-source.json": "724a7fef029d95d7b53ed2de97833e6e984744e1b91c3d78eb3698e912f2d3aa",
+    "scripts/sol_micro_trial.py": "a18610d699053f4de48375dacd5abee94e8fd6abb94b637bbd0b4df6d802a6bf",
+    "scripts/run_budget_trial.py": "1d9a8ee1b55f21eb0a10e83f73daa10a1dc570b397fab14691f6446dc49e4e35",
+    "scripts/run_fresh_generations.py": "e543e27440f5cb22726542af568e93cd7bd02aaf2d1a6bf262e74fc2afdf6ce8",
+    "evals/sol-micro-20261031/results/plain/output.json": "bddc4b94b6347d8fb786e05db5f49a06df416c85d802d565b5135c9a9ba9618c",
+    "evals/sol-micro-20261031/results/summary.json": "cec6f817b2e144626afa33b17755dab35e4e08e1750313da5992ff38be769b5f"
+  },
+  "shared_prefix_sha256": "153e08c28fd0aa68c7420c311d47e415d5bb2b954d0090abe54268c9d3d9bcf0"
+}
