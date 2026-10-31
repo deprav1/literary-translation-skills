@@ -1,0 +1,9 @@
+{
+  "preregistration_sha256": "5b353c47f29008c38c8ea5767cbe140af24132fd4aaf6053b9a83fe58e2e9181",
+  "files": {
+    "audit/manifest.json": "3f4a64145a6c74f06d480d073f896c8e1259f0e9b79360ea7709325ce66bfd5e",
+    "audit/output.json": "cb8e48ff71774d5994ae88866987460497eaa5544bd9289ef5bb415b7f1e124d",
+    "patched.json": "bb1393df9bbcc49427e9f56aac53df22ef31d910dfd16f5a51da337ab78eca80",
+    "summary.json": "f3a7db01c2cf6044fbc4f51fc0997d075927a5c7ea1f21255a401f0dd30c1a7b"
+  }
+}

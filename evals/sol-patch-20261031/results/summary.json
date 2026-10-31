@@ -1,0 +1,30 @@
+{
+  "source_words": 594,
+  "source_items": 8,
+  "model_calls": 1,
+  "proposed_issues": 0,
+  "changed_ids": [],
+  "decisions": [],
+  "votes": {},
+  "stable_wins": [],
+  "stable_losses": [],
+  "disagreements": [],
+  "new_severe_proposals": [],
+  "exploratory_signal": false,
+  "human_validation": false,
+  "default_changed": false,
+  "economics": {
+    "input_tokens": 4092,
+    "output_tokens": 329,
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "cold_usd_equivalent": 0.011474,
+    "observed_cache_usd_equivalent": 0.011474,
+    "phase_costs": {
+      "audit": 0.011474
+    },
+    "production_increment": 0.011474,
+    "historical_draft_cost": 0.048136,
+    "actual_billing_known": false
+  }
+}

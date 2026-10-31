@@ -1,0 +1,82 @@
+{
+  "phase": "audit",
+  "requested_model": "gpt-6.1-sol",
+  "reported_model": "gpt-6.1-sol",
+  "reasoning_effort": "medium",
+  "fresh_request": true,
+  "tool_calls": 0,
+  "response_id_sha256": "7c26699eac8783e36af7c980d6e84a4e81c5cabb3aadde8e1cc5e192d2d1f551",
+  "status": "completed",
+  "usage": {
+    "attribution": {
+      "items": {
+        "msg_0e7fc1bda352f0b9016ae5cde340bc8191abe35dbd5b4396a6": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 2634,
+              "output_tokens": 0
+            },
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 1356,
+              "output_tokens": 0
+            }
+          ],
+          "input_tokens": 3990,
+          "output_tokens": 0
+        },
+        "msg_0e7fc1bda352f0b9016ae5cdedb3288191b45883f1784e0d96": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 0,
+              "output_tokens": 102
+            }
+          ],
+          "input_tokens": 0,
+          "output_tokens": 102
+        },
+        "rs_0e7fc1bda352f0b9016ae5cded78808191b5286107fa120419": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "input_tokens": 2,
+          "output_tokens": 227
+        }
+      },
+      "request_fields": {
+        "text.format": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "input_tokens": 100,
+          "output_tokens": 0
+        }
+      }
+    },
+    "input_tokens": 4092,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 329,
+    "output_tokens_details": {
+      "reasoning_tokens": 227
+    },
+    "total_tokens": 4421
+  },
+  "seconds": 14.01,
+  "request_sha256": "03f9e5255fcf423c7305c064c2f2aad4083056538575747fdaca8240264fe185",
+  "raw_response_sha256": "b8b9fe2a11240ac40815f2a581c9d08c5a4d234a828d46d8420e2a38772f5e30",
+  "output_sha256": "cb8e48ff71774d5994ae88866987460497eaa5544bd9289ef5bb415b7f1e124d",
+  "preregistration_sha256": "5b353c47f29008c38c8ea5767cbe140af24132fd4aaf6053b9a83fe58e2e9181",
+  "cache_breakpoint_requested": true,
+  "actual_billing_known": false,
+  "backend_model_attested": false
+}
