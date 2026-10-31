@@ -34,6 +34,9 @@ def main():
         assert subprocess.check_output(['git', 'show', 'HEAD:scripts/'+name], cwd=ROOT) == (ROOT/'scripts'/name).read_bytes()
     scored = score(workspace, read(BASE/'protocol.json'))
     assert (workspace/'economic-gates.json').exists() and (workspace/'final-prose-counts.json').exists()
+    from budget_quality_veto import assess
+    assert read(BASE/'quality-veto-amendment.json')['code_sha256'] == sha((ROOT/'scripts/budget_quality_veto.py').read_bytes())
+    assess(workspace)
     config = read(BASE/'protocol.json'); stages = []; sessions = set(); destination.mkdir()
     for folder in sorted(workspace.iterdir()):
         if not folder.is_dir() or not (folder/'attempt.json').exists():
@@ -55,6 +58,7 @@ def main():
     roots = ['brief-used.json', 'candidate-mapping.json', 'pair-mapping.json', 'calibration-mapping.json',
              'issue-proposals.json', 'scored.json', 'route-terra.json', 'route-luna.json', 'route-anchor.json',
              'final-pair-mapping.json', 'final-prose-counts.json', 'economic-gates.json']
+    roots += ['quality-cost-verdict.json']
     if (workspace/'prose-audit-normalized.json').exists():
         roots += ['prose-audit-normalized.json', 'prose-audit-lineage.json']
     for name in roots:
@@ -86,6 +90,8 @@ def main():
         'prose_coverage_amendment_sha256': sha(prose_adapter.read_bytes()) if prose_adapter.exists() else None,
         'audit_format_amendment_sha256': sha((BASE/'audit-format-amendment.json').read_bytes()),
         'final_mask_amendment_sha256': sha((BASE/'final-mask-amendment.json').read_bytes()),
+        'recovery_and_quality_amendments': {p.name: sha(p.read_bytes()) for p in sorted(BASE.glob('*amendment.json'))},
+        'retained_known_error_veto_applied': True,
         'human_review': False, 'manual_candidate_text_edits': False,
         'economic_estimates': costs}
     write(destination/'record.json', record)

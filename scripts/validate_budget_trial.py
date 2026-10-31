@@ -45,6 +45,8 @@ def validate():
         workspace = Path(temporary)/'results'; shutil.copytree(results, workspace)
         expected = score(workspace, config)
         assert expected == read(results/'scored.json')
+        from budget_quality_veto import assess
+        assert assess(workspace) == read(results/'quality-cost-verdict.json')
     original = {r['id']: r for r in sources()}; total_words = sum(len(r['source'].split()) for r in original.values())
     for family in ['terra', 'luna', 'anchor']:
         receipt = read(results/('route-'+family+'.json')); final = receipt['final_items']
