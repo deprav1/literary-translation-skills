@@ -1,0 +1,197 @@
+{
+  "quality": {
+    "terra": {
+      "retained_research_confirmed_issues": [
+        {
+          "issue_id": "source_audit_2:0",
+          "origin": "source_audit_2",
+          "source_id": "qff3beb7bf1",
+          "candidate_id": "v5bd99f56f76b0e",
+          "category": "number",
+          "severity": "minor",
+          "source_quote": "They're pretty much fire-and-forget.",
+          "target_quote": "Они почти все работают по принципу «установил и забыл».",
+          "reason": "The approximation concerns how the devices operate, but «почти все» makes it concern how many devices operate that way.",
+          "adjudication_reason": "Приблизительная характеристика работы устройств превращена в характеристику почти всех устройств."
+        },
+        {
+          "issue_id": "prose_audit:36",
+          "origin": "prose_audit",
+          "source_id": "qdf715a19a6",
+          "candidate_id": "v6892aa3f83e670",
+          "category": "omission",
+          "severity": "minor",
+          "source_quote": "He struggled with the words, with the concept behind them.",
+          "target_quote": "Он с трудом подбирал слова, пытаясь выразить мысль.",
+          "reason": "Потеряно усилие ухватить саму мысль, отличное от подбора слов.",
+          "adjudication_reason": "Перевод передаёт подбор слов, опуская затруднение с самой концепцией."
+        }
+      ],
+      "known_major": 0,
+      "known_critical": 0,
+      "known_major_critical_per1000words": 0.0,
+      "pending_final_semantic_major_proposals": [
+        {
+          "source_id": "qdf715a19a6",
+          "candidate_id": "v474eb9ddcf4e6b",
+          "category": "negation_modality",
+          "severity": "major",
+          "source_quote": "It's like, your mom and dad murdered you",
+          "target_quote": "Получается, твои мама и папа тебя убили",
+          "reason": "Неуверенное уподобление превращено в вывод об убийстве; меняется степень категоричности обвинения."
+        },
+        {
+          "source_id": "qf75369d6ce",
+          "candidate_id": "ve06d1ff1580225",
+          "category": "actor",
+          "severity": "major",
+          "source_quote": "They had done a little dance on Robbie",
+          "target_quote": "Он устроил на Робби небольшую пляску",
+          "reason": "Действие нескольких воплощений рифа сведено к одному; контекст далее прямо называет оболочки Айзека и Джанет."
+        }
+      ],
+      "original_translator_word_fraction": 1.0
+    },
+    "luna": {
+      "retained_research_confirmed_issues": [
+        {
+          "issue_id": "source_audit_5:0",
+          "origin": "source_audit_5",
+          "source_id": "qed34513c3c",
+          "candidate_id": "v64e1e437ff1a53",
+          "category": "speech_form",
+          "severity": "minor",
+          "source_quote": "There are -- there are *lots* of me.",
+          "target_quote": "Меня здесь много.",
+          "reason": "Убраны прерывистый повтор и выделение, передающие волнение при признании.",
+          "adjudication_reason": "Устранены запинка и выделение при первом признании о множественности экземпляров."
+        },
+        {
+          "issue_id": "source_audit_5:1",
+          "origin": "source_audit_5",
+          "source_id": "qed34513c3c",
+          "candidate_id": "v64e1e437ff1a53",
+          "category": "time_direction",
+          "severity": "minor",
+          "source_quote": "One of the first things I did here",
+          "target_quote": "Первым делом",
+          "reason": "Одно из первых занятий превращено в самое первое.",
+          "adjudication_reason": "Одно из ранних действий представлено первоочередным действием."
+        },
+        {
+          "issue_id": "source_audit_5:3",
+          "origin": "source_audit_5",
+          "source_id": "q52c8bbe1ec",
+          "candidate_id": "v392788b2f753e9",
+          "category": "omission",
+          "severity": "minor",
+          "source_quote": "Flag a sentry.",
+          "target_quote": "Поднимаешь тревогу.",
+          "reason": "Утрачено конкретное действие: привлечь внимание часового.",
+          "adjudication_reason": "Общее поднятие тревоги не сохраняет конкретное обращение к часовому."
+        },
+        {
+          "issue_id": "source_audit_5:4",
+          "origin": "source_audit_5",
+          "source_id": "q7c3d95f57d",
+          "candidate_id": "v4fcb04ab82b81a",
+          "category": "speech_form",
+          "severity": "minor",
+          "source_quote": "just, just grew back out of what was left",
+          "target_quote": "просто выросший из того, что осталось",
+          "reason": "Убран запинающийся повтор, передающий затруднение ребёнка при объяснении.",
+          "adjudication_reason": "Убран повтор, которым ребёнок прерывает своё объяснение."
+        },
+        {
+          "issue_id": "prose_audit:4",
+          "origin": "prose_audit",
+          "source_id": "q7c3d95f57d",
+          "candidate_id": "v4fcb04ab82b81a",
+          "category": "speech_form",
+          "severity": "minor",
+          "source_quote": "some whole other kid that just, just grew back out of what was left",
+          "target_quote": "совсем другой ребёнок, просто выросший из того, что осталось",
+          "reason": "Причастный оборот и удаление запинки превращают сбивчивую детскую речь в гладкое письменное изложение.",
+          "adjudication_reason": "Удаление повтора сглаживает конкретную запинку в детской реплике; само причастие отдельной ошибки не доказывает."
+        },
+        {
+          "issue_id": "prose_audit:38",
+          "origin": "prose_audit",
+          "source_id": "qfa3f76ea9a",
+          "candidate_id": "v177accbe431d64",
+          "category": "term_sense",
+          "severity": "minor",
+          "source_quote": "wheeling in lockstep like schools of exotic fish",
+          "target_quote": "катились строем, как стаи невиданных рыб",
+          "reason": "Согласованные повороты подменены качением, необоснованно задающим всем роботам колёсное движение.",
+          "adjudication_reason": "Качение заменяет описанные согласованные повороты и добавляет способ передвижения."
+        }
+      ],
+      "known_major": 0,
+      "known_critical": 0,
+      "known_major_critical_per1000words": 0.0,
+      "pending_final_semantic_major_proposals": [
+        {
+          "source_id": "q169b1b9d62",
+          "candidate_id": "v95a9850c12266b",
+          "category": "time_direction",
+          "severity": "major",
+          "source_quote": "and then there was a moment of nothing at all",
+          "target_quote": "Затем наступила полная пустота.",
+          "reason": "Утрачен краткий промежуток небытия: вместо мгновения возникает неограниченное состояние пустоты."
+        },
+        {
+          "source_id": "qd34f35c181",
+          "candidate_id": "v2401f7cb712e76",
+          "category": "term_sense",
+          "severity": "major",
+          "source_quote": "based on the lightspeed lag, but it was all over the place",
+          "target_quote": "по задержке сигнала определить, где находился его субстрат, но тот был повсюду",
+          "reason": "Разброс задержки сигнала заменён утверждением о повсеместном расположении субстрата; нарушена логика последующего вывода."
+        }
+      ],
+      "original_translator_word_fraction": 0.8113207547169812
+    },
+    "anchor": {
+      "retained_research_confirmed_issues": [],
+      "known_major": 0,
+      "known_critical": 0,
+      "known_major_critical_per1000words": 0.0,
+      "pending_final_semantic_major_proposals": [
+        {
+          "source_id": "qf75369d6ce",
+          "candidate_id": "v92b2e64b9b7cc9",
+          "category": "actor",
+          "severity": "major",
+          "source_quote": "They had done a little dance on Robbie",
+          "target_quote": "он припустился на Робби в пляс",
+          "reason": "Действие нескольких воплощений рифа сведено к одному; контекст далее прямо называет оболочки Айзека и Джанет."
+        }
+      ],
+      "original_translator_word_fraction": 1.0
+    }
+  },
+  "verdicts": {
+    "terra": {
+      "original_operational_gate": false,
+      "additional_quality_conditions": {
+        "no_known_critical": true,
+        "known_major_density_margin": true,
+        "no_pending_final_major_claims": false
+      },
+      "development_quality_cost_signal": false,
+      "scope": "Development signal only. Retained exact spans prove persistence, not that all absent spans or all unreported errors are fixed."
+    },
+    "luna": {
+      "original_operational_gate": false,
+      "additional_quality_conditions": {
+        "no_known_critical": true,
+        "known_major_density_margin": true,
+        "no_pending_final_major_claims": false
+      },
+      "development_quality_cost_signal": false,
+      "scope": "Development signal only. Retained exact spans prove persistence, not that all absent spans or all unreported errors are fixed."
+    }
+  },
+  "principle": "Research error knowledge vetoes unsafe conclusions; it is not free input to production routing and does not create extra correction calls."
+}

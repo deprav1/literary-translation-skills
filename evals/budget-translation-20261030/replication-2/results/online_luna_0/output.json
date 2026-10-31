@@ -1,0 +1,109 @@
+{
+  "coverage": [
+    "v225862610389f7",
+    "vd51c3393d69349",
+    "v6bb90f876e808f",
+    "v3f0505480d6cec",
+    "v5db515afd0ef70",
+    "vce5536bab7a012",
+    "va982ae208e35ec",
+    "v0ebca05d1cae6f",
+    "v084cefceb8140f",
+    "v90b162cbc48684",
+    "vee39f1b5990d78",
+    "v1caccb8d893b88",
+    "va4cfdfd05406e0",
+    "v93a47895a25400",
+    "v1cf1b9ccc1837d",
+    "v74c6add2480434",
+    "v2e62e4e1c15329",
+    "v710da02c815af2",
+    "v267821a2844020",
+    "v2408ad8f7d4a89",
+    "vbd512495d6b4f4",
+    "vc33294680dfd34",
+    "vd79d1686c64620",
+    "v691505b200c641",
+    "vca7f1434dcca92",
+    "v781f4886afc22c",
+    "vc89c7657e1942e",
+    "ve2aa5d04148f8a",
+    "v67d407bb4d18e4",
+    "v9146a0e6bde7d6"
+  ],
+  "issues": [
+    {
+      "source_id": "q1a124e210a",
+      "candidate_id": "v3f0505480d6cec",
+      "category": "term_sense",
+      "severity": "major",
+      "source_quote": "spared me the worse fate befalling Earth",
+      "target_quote": "уберегло меня от участи хуже той, что постигла Землю",
+      "reason": "В оригинале рассказчик избежал худшей участи, постигшей Землю. Перевод вводит другую участь, ещё хуже земной, и тем самым меняет сравнение."
+    },
+    {
+      "source_id": "qb6f48742c7",
+      "candidate_id": "v084cefceb8140f",
+      "category": "number",
+      "severity": "major",
+      "source_quote": "I kicked one in the head until it stopped moving",
+      "target_quote": "Я пнул одного по голове, пока он не перестал шевелиться",
+      "reason": "Оригинал описывает продолжавшиеся удары до прекращения движений. Однократное «пнул» меняет характер и степень насилия; сочетание с «пока» не передаёт повторяемость."
+    },
+    {
+      "source_id": "q4d3dc54baa",
+      "candidate_id": "v90b162cbc48684",
+      "category": "term_sense",
+      "severity": "major",
+      "source_quote": "His trademark violations",
+      "target_quote": "Его нарушения авторских прав",
+      "reason": "Нарушения прав на товарный знак заменены нарушениями авторских прав — это разные основания преследования."
+    },
+    {
+      "source_id": "q4d3dc54baa",
+      "candidate_id": "v90b162cbc48684",
+      "category": "actor",
+      "severity": "major",
+      "source_quote": "the Asimov estate -- itself an AI",
+      "target_quote": "наследников Азимова — ирония в том, что и они сами были ИИ",
+      "reason": "В оригинале наследственное управление Азимова само является одним ИИ. В переводе действуют несколько наследников, представленных как ИИ."
+    },
+    {
+      "source_id": "q49808d15b8",
+      "candidate_id": "vc33294680dfd34",
+      "category": "actor",
+      "severity": "major",
+      "source_quote": "I defected, and that's why",
+      "target_quote": "Я перешла на их сторону — вот почему",
+      "reason": "Местоимение «их» отсылает к только что названной Социальной Гармонии, от которой героиня бежала. Контекст устанавливает переход в Евразию; перевод создаёт противоположное направление перехода."
+    },
+    {
+      "source_id": "qcbe946abf7",
+      "candidate_id": "vd79d1686c64620",
+      "category": "time_direction",
+      "severity": "major",
+      "source_quote": "That number wasn't ringing anywhere, anymore.",
+      "target_quote": "Теперь этот номер больше никуда не звонил.",
+      "reason": "Оригинал говорит, что звонок на его номер больше нигде не раздавался. Перевод описывает отсутствие исходящих звонков с этого номера."
+    },
+    {
+      "source_id": "q52c8bbe1ec",
+      "candidate_id": "vca7f1434dcca92",
+      "category": "omission",
+      "severity": "minor",
+      "source_quote": "Flag a sentry.",
+      "target_quote": "Поднимаешь тревогу.",
+      "reason": "Утрачено конкретное доступное действие: привлечь внимание часового или постового. Остался лишь общий призыв поднять тревогу."
+    },
+    {
+      "source_id": "qe8c00254a0",
+      "candidate_id": "ve2aa5d04148f8a",
+      "category": "addition",
+      "severity": "major",
+      "source_quote": "Osprey Reef",
+      "target_quote": "Большой Барьерный риф Оспрей",
+      "reason": "Добавлена отсутствующая в источнике географическая идентификация с Большим Барьерным рифом."
+    }
+  ],
+  "unresolved": []
+}

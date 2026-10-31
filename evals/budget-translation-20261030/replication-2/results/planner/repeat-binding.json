@@ -1,0 +1,8 @@
+{
+  "repeat": 2,
+  "phase": "planner",
+  "repeat_preregistration_sha256": "758ad13ec15184396b0806478bebc63408768e84e6cee7645a69cdc3ff01a02a",
+  "base_preregistration_sha256": "488ddeaf193d4862f45fc647580c376c97ef6f573f2e548bd115a1b12097187f",
+  "manifest_sha256": "e8d80ce89179f3d9930ecfd049e7bf33f2f54360ab33b995b613568503959b88",
+  "output_sha256": "71794578a41b0a9ae95fb4f880d55404bcfd3b1925c33aed7228b4ab65d7ebec"
+}

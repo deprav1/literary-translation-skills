@@ -1,0 +1,32 @@
+{
+  "phase": "planner",
+  "model": "gpt-6.1-sol",
+  "requested_model": "gpt-6.1-sol",
+  "reasoning_effort": "medium",
+  "session_id_sha256": "2dfd4d3a4b1243271a14aaea870911bc1984789d89797f54b713194a36b37b61",
+  "observed_runtime_item_types": [
+    "agent_message",
+    "error"
+  ],
+  "tool_calls": 0,
+  "fresh_session": true,
+  "exit_code": 0,
+  "input_sha256": "9343a5482557e51f30f242c3e9fef4e5a98461df6056d97e4801e45589b74241",
+  "prompt_sha256": "28565e0442497693dc124ee51b17e484b67447af96e8614e47a3856b1898570b",
+  "instruction_sha256": "7e25bbfdad48d33e04947e7c573cea8dc5d6609ee5b056f571cbd03e4c036bfc",
+  "output_sha256": "71794578a41b0a9ae95fb4f880d55404bcfd3b1925c33aed7228b4ab65d7ebec",
+  "elapsed_seconds": 59.78,
+  "usage": [
+    {
+      "input_tokens": 24892,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 2072,
+      "reasoning_output_tokens": 379
+    }
+  ],
+  "preregistration_sha256": "488ddeaf193d4862f45fc647580c376c97ef6f573f2e548bd115a1b12097187f",
+  "service_tier_attested": false,
+  "actual_billing_known": false,
+  "runtime_error": null
+}

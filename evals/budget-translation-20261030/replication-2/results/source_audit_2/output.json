@@ -1,0 +1,52 @@
+{
+  "coverage": [
+    "v94a6bb5e10730e",
+    "v4c4845113cb4a1",
+    "vbe481de3358e4d",
+    "v1c6dd2c239e033",
+    "vedae285d3f44c6",
+    "v78cc3720671043",
+    "vceeec97abab716",
+    "vb945282c6a0bd1",
+    "v73fa5b8eadcaf4",
+    "v5bd99f56f76b0e",
+    "vaf0941da128040",
+    "v15e17c6477e638",
+    "v6266905526a90c",
+    "v63f080f889dc32",
+    "v3ef44e28e4f0f7",
+    "v2181a3bda8b8d2",
+    "vbe4590b668625d",
+    "v3b32f838060164",
+    "v3fb89f7a5b7243",
+    "v6892aa3f83e670",
+    "v4d7fbe4312f9ac",
+    "v99216886220867",
+    "v0f5ec67210c0db",
+    "v274cb933228660",
+    "vf70028689ba71f",
+    "v420d63361d0a62",
+    "vc1f1ed1dc376a6",
+    "vcb8d55736784d0",
+    "v472190ce3d4ea3",
+    "v13edc6b3570a79"
+  ],
+  "issues": [
+    {
+      "source_id": "qff3beb7bf1",
+      "candidate_id": "v5bd99f56f76b0e",
+      "category": "number",
+      "severity": "minor",
+      "source_quote": "They're pretty much fire-and-forget.",
+      "target_quote": "Они почти все работают по принципу «установил и забыл».",
+      "reason": "The approximation concerns how the devices operate, but «почти все» makes it concern how many devices operate that way."
+    }
+  ],
+  "unresolved": [
+    {
+      "source_id": "qa6ff60816c",
+      "candidate_id": "vc1f1ed1dc376a6",
+      "reason": "«brown arms» becomes «загорелыми руками»; the supplied context does not establish whether the brown skin reflects tanning, so this interpretation cannot be confirmed or rejected."
+    }
+  ]
+}

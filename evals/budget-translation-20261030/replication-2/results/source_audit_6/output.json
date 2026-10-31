@@ -1,0 +1,118 @@
+{
+  "coverage": [
+    "vc57ff143491816",
+    "vce2ae275317c2c",
+    "vbf9f769b03ceda",
+    "ve1308f35297bb4",
+    "v8d32a54867db93",
+    "v3096ae07a552d0",
+    "v9595a953c05e60",
+    "v0ff41c58f480c8",
+    "v9fe44c91ab7af3",
+    "v4f0ad18c06896e",
+    "v5f4d296c409f6d",
+    "vbe4d6e0b2e2c60",
+    "vbdd4a94dbd843b",
+    "vc30b0d69efbe89",
+    "v35b7e22acd1837",
+    "vbc5ae575f8fd2f",
+    "vca2e1238a57086",
+    "v294a9b5e4f3e62",
+    "v285d6048cef1c9",
+    "v96c7fcbf4c326e",
+    "v88ce1c92b947d3",
+    "v79e9ceed70c422",
+    "v645029279935b2",
+    "v77f7bb73274455",
+    "ve673b63dfd9d7b",
+    "v063d8489e25bcb",
+    "v0f56a03407e2a8",
+    "v88842a6a939fe1",
+    "v1c84017a6458ef",
+    "ve436ce23e9ecd1"
+  ],
+  "issues": [
+    {
+      "source_id": "q7c3d95f57d",
+      "candidate_id": "ve1308f35297bb4",
+      "category": "omission",
+      "severity": "minor",
+      "source_quote": "my best and only friend",
+      "target_quote": "мой единственный лучший друг",
+      "reason": "Единственный друг превращается в единственного лучшего друга, что допускает наличие других друзей."
+    },
+    {
+      "source_id": "qb6f48742c7",
+      "candidate_id": "v3096ae07a552d0",
+      "category": "number",
+      "severity": "major",
+      "source_quote": "I kicked one in the head until it stopped moving",
+      "target_quote": "Я пнул одного в голову, пока он не перестал шевелиться",
+      "reason": "Продолжающееся избиение до прекращения движений передано как один пинок."
+    },
+    {
+      "source_id": "qff3beb7bf1",
+      "candidate_id": "v9595a953c05e60",
+      "category": "term_sense",
+      "severity": "major",
+      "source_quote": "Coulda been a month, coulda been a day.",
+      "target_quote": "Мог месяц назад сработать, мог вчера.",
+      "reason": "Ответ касается времени активации устройства; «сработать» переносит в прошлое его поражающее действие."
+    },
+    {
+      "source_id": "qed34513c3c",
+      "candidate_id": "v0ff41c58f480c8",
+      "category": "time_direction",
+      "severity": "minor",
+      "source_quote": "One of the first things I did here",
+      "target_quote": "Первым делом",
+      "reason": "Одно из первых занятий становится однозначно самым первым."
+    },
+    {
+      "source_id": "q52c8bbe1ec",
+      "candidate_id": "v35b7e22acd1837",
+      "category": "term_sense",
+      "severity": "minor",
+      "source_quote": "six bigger kids",
+      "target_quote": "шестерых ребят постарше",
+      "reason": "Физическое превосходство в размерах заменено старшим возрастом."
+    },
+    {
+      "source_id": "qcbe946abf7",
+      "candidate_id": "vca2e1238a57086",
+      "category": "time_direction",
+      "severity": "major",
+      "source_quote": "That number wasn't ringing anywhere, anymore.",
+      "target_quote": "Но этот номер больше никуда не звонил.",
+      "reason": "Недоступность номера для входящих звонков заменена отсутствием исходящих звонков."
+    },
+    {
+      "source_id": "qe8c00254a0",
+      "candidate_id": "v88ce1c92b947d3",
+      "category": "addition",
+      "severity": "major",
+      "source_quote": "Osprey Reef",
+      "target_quote": "Большой Барьерный риф Оспри",
+      "reason": "Добавлено отождествление рифа Оспри с Большим Барьерным рифом, которого в исходнике нет."
+    },
+    {
+      "source_id": "qcf950c4864",
+      "candidate_id": "v1c84017a6458ef",
+      "category": "omission",
+      "severity": "minor",
+      "source_quote": "my best and only friend",
+      "target_quote": "моим единственным лучшим другом",
+      "reason": "Утрачено указание, что других друзей у рассказчика вообще не было."
+    },
+    {
+      "source_id": "q4d3dc54baa",
+      "candidate_id": "ve436ce23e9ecd1",
+      "category": "actor",
+      "severity": "major",
+      "source_quote": "the Asimov estate -- itself an AI",
+      "target_quote": "наследниками Азимова — которые сами, как ни иронично, были ИИ",
+      "reason": "Единый ИИ, представляющий наследственное имущество Азимова, заменён множественными наследниками."
+    }
+  ],
+  "unresolved": []
+}

@@ -1,0 +1,26 @@
+{
+  "vabb9592be54211": {
+    "source_id": "q61a6f313be",
+    "expected_issue": true
+  },
+  "vf78ac3f28194fc": {
+    "source_id": "qb5bac1925f",
+    "expected_issue": true
+  },
+  "v9d70b6e6892755": {
+    "source_id": "qd5c009494a",
+    "expected_issue": true
+  },
+  "vab30983bb1bb3e": {
+    "source_id": "qb93e60b701",
+    "expected_issue": false
+  },
+  "v6a14dda1db7786": {
+    "source_id": "q0ec93842ae",
+    "expected_issue": false
+  },
+  "vf4bc9eb0fc6a2c": {
+    "source_id": "q6860c6dc61",
+    "expected_issue": false
+  }
+}

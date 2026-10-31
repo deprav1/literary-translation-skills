@@ -1,0 +1,9 @@
+{
+  "raw_output_sha256": "2199debd43e06161b76926c093655da60ace5bf60b5dff497ad3764d4f7d4029",
+  "completion_output_sha256": null,
+  "derived_output_sha256": "8849393d7801c9f26e274648f77362ca08b56b93315c40ca9730b6b61f20b0c7",
+  "required": 90,
+  "explicit_initial_candidate_coverage": 90,
+  "supplementary_candidates": [],
+  "pairwise_votes_unchanged": true
+}

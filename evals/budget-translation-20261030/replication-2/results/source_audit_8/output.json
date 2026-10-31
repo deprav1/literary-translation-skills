@@ -1,0 +1,133 @@
+{
+  "coverage": [
+    "v5736daf7fb602e",
+    "v7ef03860a9dc3f",
+    "v216caa65245b2b",
+    "vc65a73e68975f0",
+    "v893d953e2c9d77",
+    "v95c2b500ad9546",
+    "vfc6f414ac81bf6",
+    "v6e3923e93b7860",
+    "vbe4aab4f32e99f",
+    "va8fecc8963ac4e",
+    "vd1ac4b734dbc25",
+    "vdaea694168a4d2",
+    "v7730b91c264509",
+    "v76ea5a6f9dfd00",
+    "v6037f02485e1ac",
+    "vb28a41327e8093",
+    "v6c3ae50a65e990",
+    "v266e5c212d6d6f",
+    "v64050e19abac15",
+    "vd7b4b401583bf1",
+    "v6308f937a930f4",
+    "v506aafe696085d",
+    "v2e278bee3f25c6",
+    "v17091378890ad8",
+    "vfb2c70b613d5d9",
+    "vaa98a16aa7b7ce",
+    "v3e4702c5f85ed0",
+    "vd949347902b02f",
+    "v8db9187cfc3468",
+    "va8d6466f87e1e1"
+  ],
+  "issues": [
+    {
+      "source_id": "qb6f48742c7",
+      "candidate_id": "v7ef03860a9dc3f",
+      "category": "number",
+      "severity": "minor",
+      "source_quote": "I kicked one in the head until it stopped moving",
+      "target_quote": "Я пнул одного в голову, пока он не перестал двигаться",
+      "reason": "Продолжающееся избиение до прекращения движений передано как один удар."
+    },
+    {
+      "source_id": "qdbaaab067c",
+      "candidate_id": "v216caa65245b2b",
+      "category": "omission",
+      "severity": "minor",
+      "source_quote": "the Swedish flat-pack store",
+      "target_quote": "шведского мебельного магазина",
+      "reason": "Опущена характеристика магазина: продажа мебели в разобранном виде."
+    },
+    {
+      "source_id": "q4d3dc54baa",
+      "candidate_id": "va8fecc8963ac4e",
+      "category": "actor",
+      "severity": "major",
+      "source_quote": "the Asimov estate -- itself an AI",
+      "target_quote": "наследников Азимова — тоже, как ни иронично, ИИ",
+      "reason": "Единый ИИ, представляющий наследственное имущество Азимова, заменён несколькими наследниками."
+    },
+    {
+      "source_id": "qed34513c3c",
+      "candidate_id": "vdaea694168a4d2",
+      "category": "speech_form",
+      "severity": "minor",
+      "source_quote": "There are -- there are *lots* of me.",
+      "target_quote": "Меня здесь много.",
+      "reason": "Убраны запинка и выделенное усиление, передающие волнение при признании."
+    },
+    {
+      "source_id": "qed34513c3c",
+      "candidate_id": "vdaea694168a4d2",
+      "category": "time_direction",
+      "severity": "minor",
+      "source_quote": "One of the first things I did here",
+      "target_quote": "Первым делом",
+      "reason": "Одно из первых действий превращено в самое первое."
+    },
+    {
+      "source_id": "qfa3f76ea9a",
+      "candidate_id": "v64050e19abac15",
+      "category": "term_sense",
+      "severity": "minor",
+      "source_quote": "wheeling in lockstep like schools of exotic fish",
+      "target_quote": "двигавшихся колёсами в ногу, словно стаи экзотических рыб",
+      "reason": "Согласованные повороты строя ошибочно превращены в движение на колёсах."
+    },
+    {
+      "source_id": "q52c8bbe1ec",
+      "candidate_id": "vd7b4b401583bf1",
+      "category": "negation_modality",
+      "severity": "minor",
+      "source_quote": "I hadn't seen much of Pag lately.",
+      "target_quote": "Я давно не видел Пэга.",
+      "reason": "Редкие встречи в последнее время заменены длительным отсутствием встреч."
+    },
+    {
+      "source_id": "q8221a17b47",
+      "candidate_id": "v6308f937a930f4",
+      "category": "omission",
+      "severity": "minor",
+      "source_quote": "Think of all the rewiring that one lonely hemisphere must have struggled with as it tried to take up the slack.",
+      "target_quote": "Подумать только, как тяжело, должно быть, приходилось этому одинокому полушарию, пока оно пыталось компенсировать недостающее.",
+      "reason": "Опущена перестройка нервных связей, с которой связаны описанные трудности."
+    },
+    {
+      "source_id": "qe8c00254a0",
+      "candidate_id": "vaa98a16aa7b7ce",
+      "category": "addition",
+      "severity": "minor",
+      "source_quote": "Osprey Reef",
+      "target_quote": "Большой Барьерный риф Оспри",
+      "reason": "Добавлено отсутствующее в исходнике географическое название «Большой Барьерный риф»."
+    },
+    {
+      "source_id": "q28167c0ed9",
+      "candidate_id": "v3e4702c5f85ed0",
+      "category": "term_sense",
+      "severity": "major",
+      "source_quote": "outfitted with a gun instead of a pulse-weapon",
+      "target_quote": "оснастили пулей вместо импульсного оружия",
+      "reason": "Огнестрельное оружие заменено пулей, меняя описанное оснащение машины."
+    }
+  ],
+  "unresolved": [
+    {
+      "source_id": "q49808d15b8",
+      "candidate_id": "v5736daf7fb602e",
+      "reason": "У добавленного «к ним» в «Я перебежала к ним» неясен референт: ближайшее «они» обозначает Социальную гармонию, но контекст бегства указывает на Евразию; однозначно установить направление по переводу нельзя."
+    }
+  ]
+}

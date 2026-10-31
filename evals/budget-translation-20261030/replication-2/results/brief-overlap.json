@@ -1,0 +1,67 @@
+{
+  "run1_brief_sha256": "9639592c920f7183898942008be73eea1ce35ca08789e2dcc578a789f706a9b7",
+  "run2_brief_sha256": "8bb73503bbd138be9bff8a2c7f9b83e37891993fd44ea24d4a1d066e50a062cd",
+  "work_terms": {
+    "blindsight": {
+      "run1_terms": [
+        "bad wiring",
+        "optimized",
+        "radical hemispherectomy",
+        "twencen relics"
+      ],
+      "run2_terms": [
+        "bad wiring",
+        "optimized",
+        "radical hemispherectomy",
+        "synthesis"
+      ],
+      "common": [
+        "bad wiring",
+        "optimized",
+        "radical hemispherectomy"
+      ],
+      "jaccard": 0.6
+    },
+    "robot": {
+      "run1_terms": [
+        "invisible to robots",
+        "non-three-laws positronic brain",
+        "pen-trace",
+        "social harmony"
+      ],
+      "run2_terms": [
+        "fire-and-forget",
+        "non-three-laws positronic brain",
+        "social harmony",
+        "uploading"
+      ],
+      "common": [
+        "non-three-laws positronic brain",
+        "social harmony"
+      ],
+      "jaccard": 0.3333333333333333
+    },
+    "rowboat": {
+      "run1_terms": [
+        "asimovism",
+        "human-shell",
+        "instance",
+        "noosphere"
+      ],
+      "run2_terms": [
+        "asimovism",
+        "human-shell",
+        "instance",
+        "noosphere"
+      ],
+      "common": [
+        "asimovism",
+        "human-shell",
+        "instance",
+        "noosphere"
+      ],
+      "jaccard": 1.0
+    }
+  },
+  "scope": "Post-generation diagnostic only; neither brief selected or fed to the other run."
+}

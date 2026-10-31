@@ -1,0 +1,8 @@
+{
+  "repeat": 2,
+  "phase": "terra_memory",
+  "repeat_preregistration_sha256": "758ad13ec15184396b0806478bebc63408768e84e6cee7645a69cdc3ff01a02a",
+  "base_preregistration_sha256": "488ddeaf193d4862f45fc647580c376c97ef6f573f2e548bd115a1b12097187f",
+  "manifest_sha256": "6a05f0d7991fc61b776f095b6ed1da92cc35cfdce7c83a73857cb52a008921af",
+  "output_sha256": "ba91e981962fdee2ff58a05240e4d1b5624b294fca6a9af742570f343d4fe9b6"
+}

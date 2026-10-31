@@ -1,0 +1,8 @@
+{
+  "repeat": 2,
+  "phase": "final_prose",
+  "repeat_preregistration_sha256": "758ad13ec15184396b0806478bebc63408768e84e6cee7645a69cdc3ff01a02a",
+  "base_preregistration_sha256": "488ddeaf193d4862f45fc647580c376c97ef6f573f2e548bd115a1b12097187f",
+  "manifest_sha256": "b47da31f6a5c6ddffedeb5f824a83383b15770519d867c7a5c76689987c03aee",
+  "output_sha256": "2199debd43e06161b76926c093655da60ace5bf60b5dff497ad3764d4f7d4029"
+}

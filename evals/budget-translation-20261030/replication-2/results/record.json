@@ -1,0 +1,1028 @@
+{
+  "date": "2026-10-31",
+  "replication": 2,
+  "model_calls": 27,
+  "stages": [
+    {
+      "phase": "adjudicate",
+      "model": "gpt-6.1-sol",
+      "requested_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "session_id_sha256": "61a3b81b895b92244af8495faf7724e4ef4cf9c336167d86fa67746d17411539",
+      "observed_runtime_item_types": [
+        "agent_message",
+        "error"
+      ],
+      "tool_calls": 0,
+      "fresh_session": true,
+      "exit_code": 0,
+      "input_sha256": "2d0179c2fdeccbd14eded560f23a53a5fe8f3fa062b3828c6a9a3fe80c8fcac4",
+      "prompt_sha256": "28596679d6dc314368b81ad699ea6ebb4d0bb5d5af24c8a7969a89e1384b59d7",
+      "instruction_sha256": "2225bc551870a1304cf7f04d4f99fb9506eab34b7692b4140d5a19da97351b52",
+      "output_sha256": "210c673547e38addb8c744243e92f833abd319d764450ff33a7960634b8602f9",
+      "elapsed_seconds": 128.18,
+      "usage": [
+        {
+          "input_tokens": 78711,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 6863,
+          "reasoning_output_tokens": 567
+        }
+      ],
+      "preregistration_sha256": "488ddeaf193d4862f45fc647580c376c97ef6f573f2e548bd115a1b12097187f",
+      "service_tier_attested": false,
+      "actual_billing_known": false,
+      "runtime_error": null
+    },
+    {
+      "phase": "correct_luna_1",
+      "model": "gpt-6.1-terra",
+      "requested_model": "gpt-6.1-terra",
+      "reasoning_effort": "medium",
+      "session_id_sha256": "e2f9aee21efdd4a65126d4e078f87e71e6b16eb88cc05ccad694cc64e6ddef78",
+      "observed_runtime_item_types": [
+        "agent_message",
+        "error"
+      ],
+      "tool_calls": 0,
+      "fresh_session": true,
+      "exit_code": 0,
+      "input_sha256": "4fbdb50fe2479651c3b53d180000cf8e4b2c923d17ec584587fe48ac187d5cba",
+      "prompt_sha256": "40d4bd0ed2e8ad6e2c7e01e41b19ae89341be1e481e6dfe92aa5969f1f078bdd",
+      "instruction_sha256": "af17d05cbd2b3830cd4e68f48ff2def013949c3ac96456713f5918d656083b19",
+      "output_sha256": "13964413de589f1f51b83bcea9755adcad39a263dedb53343d1388f522a51abc",
+      "elapsed_seconds": 8.14,
+      "usage": [
+        {
+          "input_tokens": 18719,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 752,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "preregistration_sha256": "488ddeaf193d4862f45fc647580c376c97ef6f573f2e548bd115a1b12097187f",
+      "service_tier_attested": false,
+      "actual_billing_known": false,
+      "runtime_error": null
+    },
+    {
+      "phase": "final_prose",
+      "model": "gpt-6.1-sol",
+      "requested_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "session_id_sha256": "b41067e26ecc6706a317014464c6bb12e40fdf046ae3f0e0e21c1e7dea83ed2f",
+      "observed_runtime_item_types": [
+        "agent_message",
+        "error"
+      ],
+      "tool_calls": 0,
+      "fresh_session": true,
+      "exit_code": 0,
+      "input_sha256": "c1bf0bb5bc1b7d6ebb136cb5bd59f82538135545642403ac4b37025ccd312937",
+      "prompt_sha256": "00f4452a8d06473cabe70f35e4d679ae910e73e1fe854a574732bb67414338f6",
+      "instruction_sha256": "43057cea1aa05817e210549937481239175a6cdc30c940ce7f50733022b70231",
+      "output_sha256": "2199debd43e06161b76926c093655da60ace5bf60b5dff497ad3764d4f7d4029",
+      "elapsed_seconds": 114.34,
+      "usage": [
+        {
+          "input_tokens": 40995,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 8943,
+          "reasoning_output_tokens": 145
+        }
+      ],
+      "preregistration_sha256": "488ddeaf193d4862f45fc647580c376c97ef6f573f2e548bd115a1b12097187f",
+      "service_tier_attested": false,
+      "actual_billing_known": false,
+      "runtime_error": null
+    },
+    {
+      "phase": "luna_brief",
+      "model": "gpt-6-luna",
+      "requested_model": "gpt-6-luna",
+      "reasoning_effort": "medium",
+      "session_id_sha256": "e03d04254c288dbd0ebfcaac37ff5848e7ca17841e9525fdf162c2bb7a6dba40",
+      "observed_runtime_item_types": [
+        "agent_message",
+        "error"
+      ],
+      "tool_calls": 0,
+      "fresh_session": true,
+      "exit_code": 0,
+      "input_sha256": "4d64529033375bcd685b50d20021c8219e038ed67435d3d66e4bac5fe9d125fd",
+      "prompt_sha256": "4e590dae14d6abf2e3cfc3491af88cdd4e598979016ee9ec6ef3b9b60207dcd6",
+      "instruction_sha256": "d63ac8a0deada357b2116ffecdc8f6b4dee488cddcdbdbc59189169248e98b1a",
+      "output_sha256": "ce67301820063008f3edc823ba0f23d3b0eb3783f4fc37c97b5f497bbde7d4c5",
+      "elapsed_seconds": 45.26,
+      "usage": [
+        {
+          "input_tokens": 25793,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 3941,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "preregistration_sha256": "488ddeaf193d4862f45fc647580c376c97ef6f573f2e548bd115a1b12097187f",
+      "service_tier_attested": false,
+      "actual_billing_known": false,
+      "runtime_error": null
+    },
+    {
+      "phase": "luna_guard",
+      "model": "gpt-6-luna",
+      "requested_model": "gpt-6-luna",
+      "reasoning_effort": "medium",
+      "session_id_sha256": "b912079a48c58acee272ec189433c6f1d921f3c8a93faaf33df096a929657561",
+      "observed_runtime_item_types": [
+        "agent_message",
+        "error"
+      ],
+      "tool_calls": 0,
+      "fresh_session": true,
+      "exit_code": 0,
+      "input_sha256": "9343a5482557e51f30f242c3e9fef4e5a98461df6056d97e4801e45589b74241",
+      "prompt_sha256": "df73a37f8959d7a32198be831ed777d29a342e6ebcf1ab300af545649055c42b",
+      "instruction_sha256": "3c6d1f790b9d0345f82865d69d89e3ac73578661d1b8ee91348a8271fc915739",
+      "output_sha256": "003f368210163bf498bbdc813130b126a05ce87693fce14c05e7c783c3412ea4",
+      "elapsed_seconds": 28.56,
+      "usage": [
+        {
+          "input_tokens": 24177,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 3920,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "preregistration_sha256": "488ddeaf193d4862f45fc647580c376c97ef6f573f2e548bd115a1b12097187f",
+      "service_tier_attested": false,
+      "actual_billing_known": false,
+      "runtime_error": null
+    },
+    {
+      "phase": "luna_memory",
+      "model": "gpt-6-luna",
+      "requested_model": "gpt-6-luna",
+      "reasoning_effort": "medium",
+      "session_id_sha256": "def86c1604fea87c10585af02f819828fafefadcd972424fd80a45f005a9f210",
+      "observed_runtime_item_types": [
+        "agent_message",
+        "error"
+      ],
+      "tool_calls": 0,
+      "fresh_session": true,
+      "exit_code": 0,
+      "input_sha256": "33503a5f0bd4a486d658b5fb676356f525fa195297de650b0277c05c744d3f6d",
+      "prompt_sha256": "359702f0bb720a6bf376501c4ff4404d43750a2e5cb4ad2e2f88da44fefc88ef",
+      "instruction_sha256": "980177a1c555cca3c1a177e928331b662419582b47afd7c9b11824ae5adcb83c",
+      "output_sha256": "1bb01e9e8166cd76ce6687eb501036413bc511f5328d6ef4ab2a2f00c5f454df",
+      "elapsed_seconds": 28.59,
+      "usage": [
+        {
+          "input_tokens": 26187,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 3934,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "preregistration_sha256": "488ddeaf193d4862f45fc647580c376c97ef6f573f2e548bd115a1b12097187f",
+      "service_tier_attested": false,
+      "actual_billing_known": false,
+      "runtime_error": null
+    },
+    {
+      "phase": "luna_plain",
+      "model": "gpt-6-luna",
+      "requested_model": "gpt-6-luna",
+      "reasoning_effort": "medium",
+      "session_id_sha256": "083fb875fe8647a186bd7f00ff4c860c2b3f0ee0c7c4c90ddd8e5b504aad2375",
+      "observed_runtime_item_types": [
+        "agent_message",
+        "error"
+      ],
+      "tool_calls": 0,
+      "fresh_session": true,
+      "exit_code": 0,
+      "input_sha256": "9343a5482557e51f30f242c3e9fef4e5a98461df6056d97e4801e45589b74241",
+      "prompt_sha256": "d2b95ba442b68b768200fbff2fbbb9b3343b14240de604c47d8d6a3c199e20f2",
+      "instruction_sha256": "35d6a65d6a0c89711937add46a81c1bb677efffae156dfefae2f1270b4868f8f",
+      "output_sha256": "68d877c9bdea72b99110131dc9ab23799a0b68f0626ac37fcf4b255d9bb89cbd",
+      "elapsed_seconds": 30.14,
+      "usage": [
+        {
+          "input_tokens": 24060,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 3899,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "preregistration_sha256": "488ddeaf193d4862f45fc647580c376c97ef6f573f2e548bd115a1b12097187f",
+      "service_tier_attested": false,
+      "actual_billing_known": false,
+      "runtime_error": null
+    },
+    {
+      "phase": "online_anchor_0",
+      "model": "gpt-6.1-sol",
+      "requested_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "session_id_sha256": "16c3e63d58b21debd8b31097636063f91e1e67078995f91d737af9486bf53fdb",
+      "observed_runtime_item_types": [
+        "agent_message",
+        "error"
+      ],
+      "tool_calls": 0,
+      "fresh_session": true,
+      "exit_code": 0,
+      "input_sha256": "598c3a0ddc4723f85431e0a4653836a38e4e2a2fca8bed75bbda0bb47d27bcc1",
+      "prompt_sha256": "ab3048f79df60560579e48c4cd2576a13caf2b23351e03401b3164316cd781bd",
+      "instruction_sha256": "573f906cd5591b070ee8927849c82a03ef5f52ddcbb7999b31049ce40fa29827",
+      "output_sha256": "80396cfd60404889befac24786be3ca823a125a918f7d9e114020de9ac33fd04",
+      "elapsed_seconds": 40.99,
+      "usage": [
+        {
+          "input_tokens": 29320,
+          "cached_input_tokens": 13440,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1155,
+          "reasoning_output_tokens": 704
+        }
+      ],
+      "preregistration_sha256": "488ddeaf193d4862f45fc647580c376c97ef6f573f2e548bd115a1b12097187f",
+      "service_tier_attested": false,
+      "actual_billing_known": false,
+      "runtime_error": null
+    },
+    {
+      "phase": "online_luna_0",
+      "model": "gpt-6.1-sol",
+      "requested_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "session_id_sha256": "6525bf8f152a522e7c032362d3f4f4de3ada810b5c0c3beed43b9db8ddafb61d",
+      "observed_runtime_item_types": [
+        "agent_message",
+        "error"
+      ],
+      "tool_calls": 0,
+      "fresh_session": true,
+      "exit_code": 0,
+      "input_sha256": "89ff0440e52b78a04d47fa6a34f19e9c0be60a5b1ce6487b326acde390c7687e",
+      "prompt_sha256": "47eb239341f663a05409c17dc2b6540e3dbbf16faaf830a600bb1a908a5ad7dc",
+      "instruction_sha256": "573f906cd5591b070ee8927849c82a03ef5f52ddcbb7999b31049ce40fa29827",
+      "output_sha256": "081146c82834611debe425d6ac64e44f5b7b29c49a4fc5ff5f68003f738e17f4",
+      "elapsed_seconds": 33.37,
+      "usage": [
+        {
+          "input_tokens": 29188,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1797,
+          "reasoning_output_tokens": 449
+        }
+      ],
+      "preregistration_sha256": "488ddeaf193d4862f45fc647580c376c97ef6f573f2e548bd115a1b12097187f",
+      "service_tier_attested": false,
+      "actual_billing_known": false,
+      "runtime_error": null
+    },
+    {
+      "phase": "online_luna_1",
+      "model": "gpt-6.1-sol",
+      "requested_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "session_id_sha256": "d78416fe6cc44a38be3fa4eef03ac3c0c3c23d4d3898f8f33ce65f7daa4c078a",
+      "observed_runtime_item_types": [
+        "agent_message",
+        "error"
+      ],
+      "tool_calls": 0,
+      "fresh_session": true,
+      "exit_code": 0,
+      "input_sha256": "563b85742c18e2895fb7c528dd600f10e699b12f162f25ea5891b51f45bc4e84",
+      "prompt_sha256": "b42ece509d9e8f3f3de59ac37ff7f34ae50d8de6e955f3def6594dec8babb0c3",
+      "instruction_sha256": "573f906cd5591b070ee8927849c82a03ef5f52ddcbb7999b31049ce40fa29827",
+      "output_sha256": "85630d3a906fc343060f259f49f1af1a65c069e47b5510ff3b44effdab547d23",
+      "elapsed_seconds": 11.97,
+      "usage": [
+        {
+          "input_tokens": 18167,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 243,
+          "reasoning_output_tokens": 163
+        }
+      ],
+      "preregistration_sha256": "488ddeaf193d4862f45fc647580c376c97ef6f573f2e548bd115a1b12097187f",
+      "service_tier_attested": false,
+      "actual_billing_known": false,
+      "runtime_error": null
+    },
+    {
+      "phase": "online_terra_0",
+      "model": "gpt-6.1-sol",
+      "requested_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "session_id_sha256": "4c16e7803d7366554c46051ef119d0efff3a316146bb703acc766e925a635822",
+      "observed_runtime_item_types": [
+        "agent_message",
+        "error"
+      ],
+      "tool_calls": 0,
+      "fresh_session": true,
+      "exit_code": 0,
+      "input_sha256": "78d722724fe22c09deedef03e91a01bd83f6ed642f27ecaa433110e98b9e1b3a",
+      "prompt_sha256": "24b3dcef43223951974d9a8930522d2fe7755b05a333aafcfaee8b189b63a10e",
+      "instruction_sha256": "573f906cd5591b070ee8927849c82a03ef5f52ddcbb7999b31049ce40fa29827",
+      "output_sha256": "3a53ff1e372f3113d0e878fff93b7b322f04927908ed8846c45eea00365b7359",
+      "elapsed_seconds": 38.49,
+      "usage": [
+        {
+          "input_tokens": 29284,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 959,
+          "reasoning_output_tokens": 637
+        }
+      ],
+      "preregistration_sha256": "488ddeaf193d4862f45fc647580c376c97ef6f573f2e548bd115a1b12097187f",
+      "service_tier_attested": false,
+      "actual_billing_known": false,
+      "runtime_error": null
+    },
+    {
+      "phase": "planner",
+      "model": "gpt-6.1-sol",
+      "requested_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "session_id_sha256": "2dfd4d3a4b1243271a14aaea870911bc1984789d89797f54b713194a36b37b61",
+      "observed_runtime_item_types": [
+        "agent_message",
+        "error"
+      ],
+      "tool_calls": 0,
+      "fresh_session": true,
+      "exit_code": 0,
+      "input_sha256": "9343a5482557e51f30f242c3e9fef4e5a98461df6056d97e4801e45589b74241",
+      "prompt_sha256": "28565e0442497693dc124ee51b17e484b67447af96e8614e47a3856b1898570b",
+      "instruction_sha256": "7e25bbfdad48d33e04947e7c573cea8dc5d6609ee5b056f571cbd03e4c036bfc",
+      "output_sha256": "71794578a41b0a9ae95fb4f880d55404bcfd3b1925c33aed7228b4ab65d7ebec",
+      "elapsed_seconds": 59.78,
+      "usage": [
+        {
+          "input_tokens": 24892,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2072,
+          "reasoning_output_tokens": 379
+        }
+      ],
+      "preregistration_sha256": "488ddeaf193d4862f45fc647580c376c97ef6f573f2e548bd115a1b12097187f",
+      "service_tier_attested": false,
+      "actual_billing_known": false,
+      "runtime_error": null
+    },
+    {
+      "phase": "prose_audit",
+      "model": "gpt-6.1-sol",
+      "requested_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "session_id_sha256": "33db848b7ea543a9f5ac8dc1ba419e8d81371c611c36a8456e93320dc39b26dd",
+      "observed_runtime_item_types": [
+        "agent_message",
+        "error"
+      ],
+      "tool_calls": 0,
+      "fresh_session": true,
+      "exit_code": 0,
+      "input_sha256": "6e6dba48140c8bc1b9d40fcb43ca88fe90933a515c01fe886cbdced87fb3f3e1",
+      "prompt_sha256": "d253edac4da70fe3e319bf7969a3c059afcfcf51fbc58b42e66ec600721ca1d9",
+      "instruction_sha256": "43057cea1aa05817e210549937481239175a6cdc30c940ce7f50733022b70231",
+      "output_sha256": "320612cda91895bce56e3a18c3f1acf2ec332edd02e29df2942c8d152b1f3493",
+      "elapsed_seconds": 308.26,
+      "usage": [
+        {
+          "input_tokens": 86029,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 24146,
+          "reasoning_output_tokens": 3301
+        }
+      ],
+      "preregistration_sha256": "488ddeaf193d4862f45fc647580c376c97ef6f573f2e548bd115a1b12097187f",
+      "service_tier_attested": false,
+      "actual_billing_known": false,
+      "runtime_error": null
+    },
+    {
+      "phase": "sol_anchor",
+      "model": "gpt-6.1-sol",
+      "requested_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "session_id_sha256": "2a9fc5eb10c6c5b92c6c334e0e15f8ec19e22e72719c9ecc5c00de7f2aef741f",
+      "observed_runtime_item_types": [
+        "agent_message",
+        "error"
+      ],
+      "tool_calls": 0,
+      "fresh_session": true,
+      "exit_code": 0,
+      "input_sha256": "9343a5482557e51f30f242c3e9fef4e5a98461df6056d97e4801e45589b74241",
+      "prompt_sha256": "d2b95ba442b68b768200fbff2fbbb9b3343b14240de604c47d8d6a3c199e20f2",
+      "instruction_sha256": "35d6a65d6a0c89711937add46a81c1bb677efffae156dfefae2f1270b4868f8f",
+      "output_sha256": "9936ab67579ef0679d01dc68367862470f32a5c9b091b78d0fce5053c2ff2655",
+      "elapsed_seconds": 60.45,
+      "usage": [
+        {
+          "input_tokens": 24750,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 4062,
+          "reasoning_output_tokens": 39
+        }
+      ],
+      "preregistration_sha256": "488ddeaf193d4862f45fc647580c376c97ef6f573f2e548bd115a1b12097187f",
+      "service_tier_attested": false,
+      "actual_billing_known": false,
+      "runtime_error": null
+    },
+    {
+      "phase": "source_audit_0",
+      "model": "gpt-6.1-sol",
+      "requested_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "session_id_sha256": "8b3447f9da5812aa858fa7f4e6b44a2f66f796839c6296d90bb5c3fb31729e48",
+      "observed_runtime_item_types": [
+        "agent_message",
+        "error"
+      ],
+      "tool_calls": 0,
+      "fresh_session": true,
+      "exit_code": 0,
+      "input_sha256": "d03addb34ec75837a2f884fae918b4b3a9e706489d88ba12cc8250bc8f36e655",
+      "prompt_sha256": "ec8a2612449352954e721e095cc8200d91965d3e2bca15829f4f1cfbfabc5fe7",
+      "instruction_sha256": "637abc1a711d84b4017730a893e4f6cba938e08bcc78c280a5322d45259ebb1f",
+      "output_sha256": "4331ba1dc8197e724ddffb3154a912110d2ee575f1be51503c88632014aa41a3",
+      "elapsed_seconds": 33.0,
+      "usage": [
+        {
+          "input_tokens": 29657,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1019,
+          "reasoning_output_tokens": 428
+        }
+      ],
+      "preregistration_sha256": "488ddeaf193d4862f45fc647580c376c97ef6f573f2e548bd115a1b12097187f",
+      "service_tier_attested": false,
+      "actual_billing_known": false,
+      "runtime_error": null
+    },
+    {
+      "phase": "source_audit_1",
+      "model": "gpt-6.1-sol",
+      "requested_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "session_id_sha256": "97220e789db4870f12ffbc7795cb8e4230c08c6c0486bd8425e391f65c0ab2e7",
+      "observed_runtime_item_types": [
+        "agent_message",
+        "error"
+      ],
+      "tool_calls": 0,
+      "fresh_session": true,
+      "exit_code": 0,
+      "input_sha256": "185f68c272164cf8844d3e27dc096ab4faa140afffa5aaa8dd15958cca65ac1c",
+      "prompt_sha256": "951c6635d9ef14e7fd32573875c997cfa5ffee03e420cb8dbcc04f44809f889d",
+      "instruction_sha256": "637abc1a711d84b4017730a893e4f6cba938e08bcc78c280a5322d45259ebb1f",
+      "output_sha256": "303e044a10a4caa1db38eee6a6fbc3436cf015d18ad90b20e51c7df45fefd58c",
+      "elapsed_seconds": 77.62,
+      "usage": [
+        {
+          "input_tokens": 29129,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2152,
+          "reasoning_output_tokens": 1742
+        }
+      ],
+      "preregistration_sha256": "488ddeaf193d4862f45fc647580c376c97ef6f573f2e548bd115a1b12097187f",
+      "service_tier_attested": false,
+      "actual_billing_known": false,
+      "runtime_error": null
+    },
+    {
+      "phase": "source_audit_2",
+      "model": "gpt-6.1-sol",
+      "requested_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "session_id_sha256": "c8b0a2bd1648f4e01008aee4c03bd4755ffe1a1c5bb08030c322c15bcd143d10",
+      "observed_runtime_item_types": [
+        "agent_message",
+        "error"
+      ],
+      "tool_calls": 0,
+      "fresh_session": true,
+      "exit_code": 0,
+      "input_sha256": "afcec848253f16ac8a5d695e9e819dee00fbfb5e0892559bc2deec7ec929cda0",
+      "prompt_sha256": "03f49f68beee463864a5ee7b1478d6c081b328ea4d1d6cd5b922f19bbbf6297c",
+      "instruction_sha256": "637abc1a711d84b4017730a893e4f6cba938e08bcc78c280a5322d45259ebb1f",
+      "output_sha256": "68659480a9ab1fe5590c53a3e7387242e7b352d4303efbe0a01167df104bb9be",
+      "elapsed_seconds": 88.57,
+      "usage": [
+        {
+          "input_tokens": 29130,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2656,
+          "reasoning_output_tokens": 2070
+        }
+      ],
+      "preregistration_sha256": "488ddeaf193d4862f45fc647580c376c97ef6f573f2e548bd115a1b12097187f",
+      "service_tier_attested": false,
+      "actual_billing_known": false,
+      "runtime_error": null
+    },
+    {
+      "phase": "source_audit_3",
+      "model": "gpt-6.1-sol",
+      "requested_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "session_id_sha256": "11159b9f982fb40c5365449fb08a73b0daff2ee0c41099d150ba3b4e9dd40e04",
+      "observed_runtime_item_types": [
+        "agent_message",
+        "error"
+      ],
+      "tool_calls": 0,
+      "fresh_session": true,
+      "exit_code": 0,
+      "input_sha256": "a3ee0de8bee5056faf6a78f25197deb13c43d07b1c09d07dbb9b6590f52d4a9a",
+      "prompt_sha256": "c1fc00f27a2a8507f7e90b74516114b8422077c765e2f2b9f5449b89258abb07",
+      "instruction_sha256": "637abc1a711d84b4017730a893e4f6cba938e08bcc78c280a5322d45259ebb1f",
+      "output_sha256": "7759b8c792749891924964c526c4ca22cec523a03e52ee809bd33b40b32cdd31",
+      "elapsed_seconds": 63.29,
+      "usage": [
+        {
+          "input_tokens": 29130,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1768,
+          "reasoning_output_tokens": 985
+        }
+      ],
+      "preregistration_sha256": "488ddeaf193d4862f45fc647580c376c97ef6f573f2e548bd115a1b12097187f",
+      "service_tier_attested": false,
+      "actual_billing_known": false,
+      "runtime_error": null
+    },
+    {
+      "phase": "source_audit_4",
+      "model": "gpt-6.1-sol",
+      "requested_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "session_id_sha256": "6af892addf1a86ee7b7732b86a4099f82adde0c8a8200926951f9719165a1413",
+      "observed_runtime_item_types": [
+        "agent_message",
+        "error"
+      ],
+      "tool_calls": 0,
+      "fresh_session": true,
+      "exit_code": 0,
+      "input_sha256": "b2da71d2532f832dffbce02aad1cd0359a0772d8ba96adc5210e380823caa6ac",
+      "prompt_sha256": "8227f6493585ff63e2ee3eaf336d996124d6b197756208457dee1b709f71b285",
+      "instruction_sha256": "637abc1a711d84b4017730a893e4f6cba938e08bcc78c280a5322d45259ebb1f",
+      "output_sha256": "bebed0cbadf238c7479206520333c9542a29b6a636d7ab5c3894e80bd1b5f9e7",
+      "elapsed_seconds": 56.75,
+      "usage": [
+        {
+          "input_tokens": 29098,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1646,
+          "reasoning_output_tokens": 1034
+        }
+      ],
+      "preregistration_sha256": "488ddeaf193d4862f45fc647580c376c97ef6f573f2e548bd115a1b12097187f",
+      "service_tier_attested": false,
+      "actual_billing_known": false,
+      "runtime_error": null
+    },
+    {
+      "phase": "source_audit_5",
+      "model": "gpt-6.1-sol",
+      "requested_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "session_id_sha256": "7451ca8a1521d0e107e61499b63600da03ebccd7a515097c921a9565372f2bee",
+      "observed_runtime_item_types": [
+        "agent_message",
+        "error"
+      ],
+      "tool_calls": 0,
+      "fresh_session": true,
+      "exit_code": 0,
+      "input_sha256": "48a9760afcc33c280fe7e2ba3588f1ae479885e9bfbd031c453389aa3db30135",
+      "prompt_sha256": "1fac56a95bf20affb5179039d68845ac9f26859c15ee40ff93d0ecd167a01e2b",
+      "instruction_sha256": "637abc1a711d84b4017730a893e4f6cba938e08bcc78c280a5322d45259ebb1f",
+      "output_sha256": "a3283fc8f34ce1910e7a9cbe7723a0724fb1a8a78cc1c863a262503f7d8ef5e2",
+      "elapsed_seconds": 87.54,
+      "usage": [
+        {
+          "input_tokens": 29039,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 3117,
+          "reasoning_output_tokens": 1552
+        }
+      ],
+      "preregistration_sha256": "488ddeaf193d4862f45fc647580c376c97ef6f573f2e548bd115a1b12097187f",
+      "service_tier_attested": false,
+      "actual_billing_known": false,
+      "runtime_error": null
+    },
+    {
+      "phase": "source_audit_6",
+      "model": "gpt-6.1-sol",
+      "requested_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "session_id_sha256": "9e2b097ef24e0391f5207be303355e26602948cae71176547b62e70e96e7852b",
+      "observed_runtime_item_types": [
+        "agent_message",
+        "error"
+      ],
+      "tool_calls": 0,
+      "fresh_session": true,
+      "exit_code": 0,
+      "input_sha256": "9f1395f47e5fa493b1d7cb0a1bd772ab36adc35da7cf35fcdfe7d8b35e0b145d",
+      "prompt_sha256": "76314a7354ccf48e67522d54ab2c9936097fe99f6d47eab4c6730315e8b14d81",
+      "instruction_sha256": "637abc1a711d84b4017730a893e4f6cba938e08bcc78c280a5322d45259ebb1f",
+      "output_sha256": "7beb38472d702a1fc19cb1c8cf649a72aefba0072e9e1f6e76cb38d0b4836dcb",
+      "elapsed_seconds": 70.7,
+      "usage": [
+        {
+          "input_tokens": 29072,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2378,
+          "reasoning_output_tokens": 1034
+        }
+      ],
+      "preregistration_sha256": "488ddeaf193d4862f45fc647580c376c97ef6f573f2e548bd115a1b12097187f",
+      "service_tier_attested": false,
+      "actual_billing_known": false,
+      "runtime_error": null
+    },
+    {
+      "phase": "source_audit_7",
+      "model": "gpt-6.1-sol",
+      "requested_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "session_id_sha256": "83829f4368bcc30055c1ce48bb0701ffc85b258551c141b15b8a4d687a692f7a",
+      "observed_runtime_item_types": [
+        "agent_message",
+        "error"
+      ],
+      "tool_calls": 0,
+      "fresh_session": true,
+      "exit_code": 0,
+      "input_sha256": "bc14d99a73d4ad4278de91bbd4d6f308a3af3b43efdcb6a88c1da1de8c55dd4e",
+      "prompt_sha256": "3b3249436c27999f8e0583a8b849e33a2956c3f723c0b2ea0580a159d126f6cd",
+      "instruction_sha256": "637abc1a711d84b4017730a893e4f6cba938e08bcc78c280a5322d45259ebb1f",
+      "output_sha256": "a83069fe8aab5e4f8399ff27111f12633db380b7b3781dbe0ec6f50dd5e43661",
+      "elapsed_seconds": 49.97,
+      "usage": [
+        {
+          "input_tokens": 29080,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1968,
+          "reasoning_output_tokens": 516
+        }
+      ],
+      "preregistration_sha256": "488ddeaf193d4862f45fc647580c376c97ef6f573f2e548bd115a1b12097187f",
+      "service_tier_attested": false,
+      "actual_billing_known": false,
+      "runtime_error": null
+    },
+    {
+      "phase": "source_audit_8",
+      "model": "gpt-6.1-sol",
+      "requested_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "session_id_sha256": "acba572a9e61e0bfe190ac2173e8dc78cd5b6c0637fd4eca6313e9eb4daee61b",
+      "observed_runtime_item_types": [
+        "agent_message",
+        "error"
+      ],
+      "tool_calls": 0,
+      "fresh_session": true,
+      "exit_code": 0,
+      "input_sha256": "93dfcf9cacafbce1e1a6e25684b47c0a4355d49f7d6425d6a2349cfa0a3278d6",
+      "prompt_sha256": "c311488cb74e40f59521432c0a441564dd5b78d2fdd0c6722f04c3c7012fcc24",
+      "instruction_sha256": "637abc1a711d84b4017730a893e4f6cba938e08bcc78c280a5322d45259ebb1f",
+      "output_sha256": "410275c738f64d4b4984a221f9ed2e6e10f161a5c03e116b107e2bf3544a32a3",
+      "elapsed_seconds": 87.04,
+      "usage": [
+        {
+          "input_tokens": 29082,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 3067,
+          "reasoning_output_tokens": 1480
+        }
+      ],
+      "preregistration_sha256": "488ddeaf193d4862f45fc647580c376c97ef6f573f2e548bd115a1b12097187f",
+      "service_tier_attested": false,
+      "actual_billing_known": false,
+      "runtime_error": null
+    },
+    {
+      "phase": "terra_brief",
+      "model": "gpt-6.1-terra",
+      "requested_model": "gpt-6.1-terra",
+      "reasoning_effort": "medium",
+      "session_id_sha256": "44877b3586721d351aaba9017fe7dbffdd71c88d81ebeed4ebf199a5eaa7766e",
+      "observed_runtime_item_types": [
+        "agent_message",
+        "error"
+      ],
+      "tool_calls": 0,
+      "fresh_session": true,
+      "exit_code": 0,
+      "input_sha256": "4d64529033375bcd685b50d20021c8219e038ed67435d3d66e4bac5fe9d125fd",
+      "prompt_sha256": "4e590dae14d6abf2e3cfc3491af88cdd4e598979016ee9ec6ef3b9b60207dcd6",
+      "instruction_sha256": "d63ac8a0deada357b2116ffecdc8f6b4dee488cddcdbdbc59189169248e98b1a",
+      "output_sha256": "201f61b743f700a36848d56d140d3c95b485916832997241183e747d6874031b",
+      "elapsed_seconds": 47.67,
+      "usage": [
+        {
+          "input_tokens": 26419,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 3986,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "preregistration_sha256": "488ddeaf193d4862f45fc647580c376c97ef6f573f2e548bd115a1b12097187f",
+      "service_tier_attested": false,
+      "actual_billing_known": false,
+      "runtime_error": null
+    },
+    {
+      "phase": "terra_guard",
+      "model": "gpt-6.1-terra",
+      "requested_model": "gpt-6.1-terra",
+      "reasoning_effort": "medium",
+      "session_id_sha256": "41fa065cfe8463732c7a52b1d4112bf6764a598a8f4a9e7d284c9712975fca77",
+      "observed_runtime_item_types": [
+        "agent_message",
+        "error"
+      ],
+      "tool_calls": 0,
+      "fresh_session": true,
+      "exit_code": 0,
+      "input_sha256": "9343a5482557e51f30f242c3e9fef4e5a98461df6056d97e4801e45589b74241",
+      "prompt_sha256": "df73a37f8959d7a32198be831ed777d29a342e6ebcf1ab300af545649055c42b",
+      "instruction_sha256": "3c6d1f790b9d0345f82865d69d89e3ac73578661d1b8ee91348a8271fc915739",
+      "output_sha256": "6ac291f84a1a209cbf58e182a6a736feafdd2fb647b7848d4ed39eb45642d351",
+      "elapsed_seconds": 49.53,
+      "usage": [
+        {
+          "input_tokens": 24803,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 3989,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "preregistration_sha256": "488ddeaf193d4862f45fc647580c376c97ef6f573f2e548bd115a1b12097187f",
+      "service_tier_attested": false,
+      "actual_billing_known": false,
+      "runtime_error": null
+    },
+    {
+      "phase": "terra_memory",
+      "model": "gpt-6.1-terra",
+      "requested_model": "gpt-6.1-terra",
+      "reasoning_effort": "medium",
+      "session_id_sha256": "cf16753289ebb7353211023b7ff08b9ba292fc22e18e67b647761f618e14be2e",
+      "observed_runtime_item_types": [
+        "agent_message",
+        "error"
+      ],
+      "tool_calls": 0,
+      "fresh_session": true,
+      "exit_code": 0,
+      "input_sha256": "33503a5f0bd4a486d658b5fb676356f525fa195297de650b0277c05c744d3f6d",
+      "prompt_sha256": "359702f0bb720a6bf376501c4ff4404d43750a2e5cb4ad2e2f88da44fefc88ef",
+      "instruction_sha256": "980177a1c555cca3c1a177e928331b662419582b47afd7c9b11824ae5adcb83c",
+      "output_sha256": "ba91e981962fdee2ff58a05240e4d1b5624b294fca6a9af742570f343d4fe9b6",
+      "elapsed_seconds": 47.8,
+      "usage": [
+        {
+          "input_tokens": 26813,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 3967,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "preregistration_sha256": "488ddeaf193d4862f45fc647580c376c97ef6f573f2e548bd115a1b12097187f",
+      "service_tier_attested": false,
+      "actual_billing_known": false,
+      "runtime_error": null
+    },
+    {
+      "phase": "terra_plain",
+      "model": "gpt-6.1-terra",
+      "requested_model": "gpt-6.1-terra",
+      "reasoning_effort": "medium",
+      "session_id_sha256": "93fbadace072e60d757907e2194a805f03ddf40281d23a00ef8edb35dce61ea3",
+      "observed_runtime_item_types": [
+        "agent_message",
+        "error"
+      ],
+      "tool_calls": 0,
+      "fresh_session": true,
+      "exit_code": 0,
+      "input_sha256": "9343a5482557e51f30f242c3e9fef4e5a98461df6056d97e4801e45589b74241",
+      "prompt_sha256": "d2b95ba442b68b768200fbff2fbbb9b3343b14240de604c47d8d6a3c199e20f2",
+      "instruction_sha256": "35d6a65d6a0c89711937add46a81c1bb677efffae156dfefae2f1270b4868f8f",
+      "output_sha256": "6df616cd16ef946bb04e8cb26b2863bab1f9ffe69a044c0b3f0f7531fc7fe942",
+      "elapsed_seconds": 47.43,
+      "usage": [
+        {
+          "input_tokens": 24686,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 3980,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "preregistration_sha256": "488ddeaf193d4862f45fc647580c376c97ef6f573f2e548bd115a1b12097187f",
+      "service_tier_attested": false,
+      "actual_billing_known": false,
+      "runtime_error": null
+    }
+  ],
+  "repeat_preregistration_sha256": "758ad13ec15184396b0806478bebc63408768e84e6cee7645a69cdc3ff01a02a",
+  "base_preregistration_sha256": "488ddeaf193d4862f45fc647580c376c97ef6f573f2e548bd115a1b12097187f",
+  "first_record_sha256": "8999fd27d388e343f30ae1a14be6384e8ab19e068ebdc78bbc5ae69e2bf25ce7",
+  "no_session_overlap_with_first": true,
+  "manual_candidate_edits": false,
+  "human_review": false,
+  "best_of_selection": false,
+  "new_source_holdout": false,
+  "source_items": 30,
+  "costs": {
+    "all_calls_cold": 2.1702947,
+    "all_calls_cache_adjusted": 2.1447587,
+    "research_audits_only_cold": 1.533534,
+    "basis": "Fixed30October2026StandardAPIlist-price equivalent, not invoice or subscription charge."
+  },
+  "files": {
+    "adjudicate/instruction.txt": "7dad7f298a89d981d924f24c27724d1f5a564f9cd55786cfab85322172d78427",
+    "adjudicate/manifest.json": "4a0b6678468e8015a94e6ba66b828c7a5d8dffea64de5ed4e62e908f40873b93",
+    "adjudicate/output.json": "210c673547e38addb8c744243e92f833abd319d764450ff33a7960634b8602f9",
+    "adjudicate/repeat-binding.json": "f60d5ec7a0659142f7df29cbda06e67e9c249a76353476b64cf2ecdbba69b954",
+    "brief-overlap.json": "03ab7a4ba764f928edb4e11d6a8770f1cdd15b871d6945194ef2fc96dccd5b5b",
+    "brief-used.json": "8bb73503bbd138be9bff8a2c7f9b83e37891993fd44ea24d4a1d066e50a062cd",
+    "calibration-mapping.json": "1d5bedc3fe0bff52f621d966723926e97b725861b1e68f154585ccb4e95da1fd",
+    "candidate-mapping.json": "29437b6f2558357666b459e0f84d380e04a3e9d5d5b9a1814641d0b070b1d795",
+    "correct_luna_1/instruction.txt": "d9e1f3535a86d422c3fc54f8bc42cb54c96c0aaf230497faa806f9452ba26084",
+    "correct_luna_1/manifest.json": "d676bf27bb3376e8393c3e500a2288e5216c363afde8f65e7b362f182465817c",
+    "correct_luna_1/normalized.json": "f7c9c44fbf739d960fddd3bd4ff0a6029e4999c1e3469a2a81686ebe2436a211",
+    "correct_luna_1/output.json": "13964413de589f1f51b83bcea9755adcad39a263dedb53343d1388f522a51abc",
+    "correct_luna_1/repeat-binding.json": "a3eca32e4a545d40ba111349dbb41285fcd7c4cc4d89a57f486692d1f1471fa7",
+    "economic-gates.json": "fa7234caea13b9a4e758d22c79f5053dcc82422d2831fd69dd84040c17cd39d9",
+    "final-pair-mapping.json": "6540802aaf802f716fb06871f7a56b5b32cf6b17cc47537d8f6e4a8f2c87d475",
+    "final-prose-counts.json": "bdec702db6353e7a8aa98ce950676b7042f6dc2d2f483173d44a41218d9ae3be",
+    "final_prose/instruction.txt": "31cc48254edee45f8c79633b83af6c93ef9c1bec1e0db2ecad1511bf930363e5",
+    "final_prose/manifest.json": "b47da31f6a5c6ddffedeb5f824a83383b15770519d867c7a5c76689987c03aee",
+    "final_prose/output.json": "2199debd43e06161b76926c093655da60ace5bf60b5dff497ad3764d4f7d4029",
+    "final_prose/repeat-binding.json": "01737833893dc415a793c6caf349224b37882a07ea66901408cde743452eca1b",
+    "final_prose-lineage.json": "c461687b09d01305840917f8c5407a66a6088250ce307a4b00623abc8a5716af",
+    "final_prose-normalized.json": "8849393d7801c9f26e274648f77362ca08b56b93315c40ca9730b6b61f20b0c7",
+    "issue-proposals.json": "c4239a653f2359e6e68bb6c1d78fe9a04a5211a2ebd88f002128ccd06cac4dd6",
+    "luna_brief/instruction.txt": "565d647c6e7b0116d4da361785701612c392fbec9a56e07443361a42fec6066e",
+    "luna_brief/manifest.json": "18b812131279480d809704c5184633fec4f3ec74b79aef2b98a7cbeddfc2e29f",
+    "luna_brief/normalized.json": "33c9d085840e6d1cbf6a7d5be576e2336c41e1227657f100af3cbd4d701b4c6c",
+    "luna_brief/output.json": "ce67301820063008f3edc823ba0f23d3b0eb3783f4fc37c97b5f497bbde7d4c5",
+    "luna_brief/repeat-binding.json": "6b34372992e5edfe00e98fd484dd8f914058c09ca05db257d8b8f174342a4ec7",
+    "luna_guard/instruction.txt": "f2a21a7e10093dad312d4cd3dc5d172f39ec7f12f7d0c0ffe711f50ed3113f64",
+    "luna_guard/manifest.json": "ac1c50dc2b5f88ace2fa6c96f848743989ac476ffe36f37714edce802e07d508",
+    "luna_guard/normalized.json": "fbf2443c1105406585f95064fd2183b01f2e3b254519dd219a07ff1d347e7a41",
+    "luna_guard/output.json": "003f368210163bf498bbdc813130b126a05ce87693fce14c05e7c783c3412ea4",
+    "luna_guard/repeat-binding.json": "3c5914cc77c46349d8fb536fffeb4aeb8bad0846616077f4cce8e5ae53e395ab",
+    "luna_memory/instruction.txt": "b32d20080b38f700396bf035b24f6186260e8a606017105aedaf3fb168c08839",
+    "luna_memory/manifest.json": "d6a036ab00925479154aa51da3fa2f439efd957dde908a345fff8f6cd7697f83",
+    "luna_memory/normalized.json": "0d2cc43f6e6af63d1828312ab365960fcf5532c1dc69e1cd082fb4f81e1939cf",
+    "luna_memory/output.json": "1bb01e9e8166cd76ce6687eb501036413bc511f5328d6ef4ab2a2f00c5f454df",
+    "luna_memory/repeat-binding.json": "39dde01d4ab525c6236129ca8689a689d1629b2ec239fcecb8211810b452054c",
+    "luna_plain/instruction.txt": "d9b4e3c21e799cdae10033621d525f6755836e8432656037962af0fe5216e747",
+    "luna_plain/manifest.json": "4835bf519d4fee91890e53f0d7118e7efe1c64ba2616b73c57c3f9240f7a8900",
+    "luna_plain/normalized.json": "89bc917b004e8f9d646170eb4eede02ca4439da8170f8e6d786689d963145eaf",
+    "luna_plain/output.json": "68d877c9bdea72b99110131dc9ab23799a0b68f0626ac37fcf4b255d9bb89cbd",
+    "luna_plain/repeat-binding.json": "d445c89bf2e18c5ee6bde9ea1f0c483c3eac331688bbb79a7adf9688d19a414e",
+    "online_anchor_0/instruction.txt": "48a3d58846f181c837b2441570eb9342163a9fc2354a3adb7b48c31d5cff42bd",
+    "online_anchor_0/manifest.json": "8df26ae75dd95d5b4905f8c6ee7af587fd1ddba8f787fe5c8d84c3db2f7511b2",
+    "online_anchor_0/output.json": "80396cfd60404889befac24786be3ca823a125a918f7d9e114020de9ac33fd04",
+    "online_anchor_0/repeat-binding.json": "8bc6a80e346776dbc541aff4ff5f86fc407bdc7417195af35c9034b0508fc3b4",
+    "online_luna_0/instruction.txt": "48a3d58846f181c837b2441570eb9342163a9fc2354a3adb7b48c31d5cff42bd",
+    "online_luna_0/manifest.json": "c65c9fe5a0d65faf6489df4f4b548edc628483f9b15756656b45b74ef4981e32",
+    "online_luna_0/output.json": "081146c82834611debe425d6ac64e44f5b7b29c49a4fc5ff5f68003f738e17f4",
+    "online_luna_0/repeat-binding.json": "c3219f1aa0c9e44722a2c27091d82ca5a36f504d1a1ce602b61e033a7dd82922",
+    "online_luna_1/instruction.txt": "48a3d58846f181c837b2441570eb9342163a9fc2354a3adb7b48c31d5cff42bd",
+    "online_luna_1/manifest.json": "4ce365eeda72183ce918519a8d34e7e127cfb2fa16c94cda0153eb942db47f60",
+    "online_luna_1/output.json": "85630d3a906fc343060f259f49f1af1a65c069e47b5510ff3b44effdab547d23",
+    "online_luna_1/repeat-binding.json": "3bc2c772e0c4ca19ef62b8740ef75880bc214aae1bfc04f918912983d16babd1",
+    "online_terra_0/instruction.txt": "48a3d58846f181c837b2441570eb9342163a9fc2354a3adb7b48c31d5cff42bd",
+    "online_terra_0/manifest.json": "cbf07e2cc305c56fee4a54f5ad3c6cb2a6c0abeb4a3f828362100a980088e0c9",
+    "online_terra_0/output.json": "3a53ff1e372f3113d0e878fff93b7b322f04927908ed8846c45eea00365b7359",
+    "online_terra_0/repeat-binding.json": "ce9510fc33c1f134f6142d44aa40002984567a055336724777eca9b09304b92c",
+    "pair-mapping.json": "148dda977cbe7ad7d39e6f11a3a3d8a049cb43da6a8562b67faf0ba110c4a2a0",
+    "planner/instruction.txt": "0632039c24a1ce0c8fde390188c7da9759b8877b2b4d2a00adb1284b7180db85",
+    "planner/manifest.json": "e8d80ce89179f3d9930ecfd049e7bf33f2f54360ab33b995b613568503959b88",
+    "planner/output.json": "71794578a41b0a9ae95fb4f880d55404bcfd3b1925c33aed7228b4ab65d7ebec",
+    "planner/repeat-binding.json": "c5b65e4d42dc46da04aeaa733c49be41f7753440e0f2482b8f6a5ba05b0e33ea",
+    "prose_audit/instruction.txt": "31cc48254edee45f8c79633b83af6c93ef9c1bec1e0db2ecad1511bf930363e5",
+    "prose_audit/manifest.json": "9272548ddc3edd11d07fbff618cfb4771be5f002301124febb0ff0e8a9163bb6",
+    "prose_audit/output.json": "320612cda91895bce56e3a18c3f1acf2ec332edd02e29df2942c8d152b1f3493",
+    "prose_audit/repeat-binding.json": "663929b9444fbd9e465def0bc46424194cd77fe1ad4e4bb71fd61053c800099e",
+    "prose_audit-lineage.json": "25eec6edf9cc7476c4f1b295c91b3937659c76cc843e5f0fcf0c196746155a6c",
+    "prose_audit-normalized.json": "0550cf531c5ff7b451d80c0c75437370bff3ae6f626359b4153b0810b4a3f88a",
+    "quality-cost-verdict.json": "40e41f34ba468048dab9ad68a317f6aeb65409e46cef5d9029d3646de269c419",
+    "quality-metrics.json": "5098209fde60067444f3ea08fc49d7ad0859e5f1b5af3be7153a8c6372091340",
+    "research-cost.json": "321488f6f2f1a35a10db1604c01cbce48bb6f4d19d1eba2e9f073f46d4b0b342",
+    "route-anchor.json": "cceab898b32dde1a58a6af8751f3bcdb210f6ad1b7bf50fc05c3a934985d2cae",
+    "route-luna.json": "208ba1595c56fdfa133091d89c04b8d3de54b48c07473da89c77a4d6159a72e7",
+    "route-terra.json": "e1a66e81e0ca12c4dde8e0be8bb41109ed82df55289680a2e51b977aaea106ef",
+    "scored.json": "2b7847bed4482a196c8885798338c73855ab37952aecb87959d0949b7c205f63",
+    "sol_anchor/instruction.txt": "d9b4e3c21e799cdae10033621d525f6755836e8432656037962af0fe5216e747",
+    "sol_anchor/manifest.json": "42dd0c3d313caf3198c72431688779c148c7fc7b069939abdadbf115df755845",
+    "sol_anchor/normalized.json": "1bc8dc531ce2f73b7172caf9d20ca92f24047892e4754f06e7b60c66e37c4e85",
+    "sol_anchor/output.json": "9936ab67579ef0679d01dc68367862470f32a5c9b091b78d0fce5053c2ff2655",
+    "sol_anchor/repeat-binding.json": "abb6a2fdd68a249f94bb1bd400005bb6abd204a65eaf14ccf6addce36599776e",
+    "source_audit_0/instruction.txt": "df181fad2ab5b4f5b1e47aa44f5d0a5987fc7f29c637b1969f9ca351a535555f",
+    "source_audit_0/manifest.json": "65d982d898b58b7d7057d6bb5e3197b174a917b6d461d2a09a0b573a4ca12496",
+    "source_audit_0/output.json": "4331ba1dc8197e724ddffb3154a912110d2ee575f1be51503c88632014aa41a3",
+    "source_audit_0/repeat-binding.json": "45e99a9e87db7a9d1bbcaa0e34177ffc0da838293a54b84ce5a31eaa9d753875",
+    "source_audit_1/instruction.txt": "df181fad2ab5b4f5b1e47aa44f5d0a5987fc7f29c637b1969f9ca351a535555f",
+    "source_audit_1/manifest.json": "67b5058876d3a637c372c8dc54ed4a858d5630f4491da484dd0b6e0987101263",
+    "source_audit_1/output.json": "303e044a10a4caa1db38eee6a6fbc3436cf015d18ad90b20e51c7df45fefd58c",
+    "source_audit_1/repeat-binding.json": "032d314fcb36bc6908cb4c98b3984641202a6c49b1088c4258e54bc57abf1744",
+    "source_audit_2/instruction.txt": "df181fad2ab5b4f5b1e47aa44f5d0a5987fc7f29c637b1969f9ca351a535555f",
+    "source_audit_2/manifest.json": "b5fa4e8eee006a0e154353f4d0f12219f155cccb30558df7b8fa605ed16ad5c8",
+    "source_audit_2/output.json": "68659480a9ab1fe5590c53a3e7387242e7b352d4303efbe0a01167df104bb9be",
+    "source_audit_2/repeat-binding.json": "ee7bc0850f00af5e9052a35cd52a5b4ef702da46ba6e8edb1ed8ad0108a4a0b2",
+    "source_audit_3/instruction.txt": "df181fad2ab5b4f5b1e47aa44f5d0a5987fc7f29c637b1969f9ca351a535555f",
+    "source_audit_3/manifest.json": "1e8d91e13a44390b22fce77e9cf20f1aab7ea3c434960f6214029ccc68c184f8",
+    "source_audit_3/output.json": "7759b8c792749891924964c526c4ca22cec523a03e52ee809bd33b40b32cdd31",
+    "source_audit_3/repeat-binding.json": "d952b11de8a8020230d6d4dd2148e5564a13ea4acdb9f13a7c1466a26705826c",
+    "source_audit_4/instruction.txt": "df181fad2ab5b4f5b1e47aa44f5d0a5987fc7f29c637b1969f9ca351a535555f",
+    "source_audit_4/manifest.json": "b7ed59fcf07fa764babba73024d31c5ca53123db1daf09200d10041bbad87514",
+    "source_audit_4/output.json": "bebed0cbadf238c7479206520333c9542a29b6a636d7ab5c3894e80bd1b5f9e7",
+    "source_audit_4/repeat-binding.json": "c1e3a7187ffcd9517ed7c897b0fa326ac9f4261c083a0e758ef7e32246c39745",
+    "source_audit_5/instruction.txt": "df181fad2ab5b4f5b1e47aa44f5d0a5987fc7f29c637b1969f9ca351a535555f",
+    "source_audit_5/manifest.json": "7c7f79735f03ddc83c41c0b90ea488a6617297e63ad5908dd4671ca5935ea07e",
+    "source_audit_5/output.json": "a3283fc8f34ce1910e7a9cbe7723a0724fb1a8a78cc1c863a262503f7d8ef5e2",
+    "source_audit_5/repeat-binding.json": "d26020ee718225e54d7c1e10a0e1fd32a37922c3fc5faa570fa8abb3f1b8c092",
+    "source_audit_6/instruction.txt": "df181fad2ab5b4f5b1e47aa44f5d0a5987fc7f29c637b1969f9ca351a535555f",
+    "source_audit_6/manifest.json": "e5e3fde37e0c22e2b872f8cf6a4205cc44d80e0acc9a7bdf4194711392527fae",
+    "source_audit_6/output.json": "7beb38472d702a1fc19cb1c8cf649a72aefba0072e9e1f6e76cb38d0b4836dcb",
+    "source_audit_6/repeat-binding.json": "619260ca92dd3bb4f2231112108a4499c22c29d39b50304665f72d07f4f8a8e7",
+    "source_audit_7/instruction.txt": "df181fad2ab5b4f5b1e47aa44f5d0a5987fc7f29c637b1969f9ca351a535555f",
+    "source_audit_7/manifest.json": "053bf88c88e0d77241eecc428c366cd65aea026e24085aa036a9ad379da3d555",
+    "source_audit_7/output.json": "a83069fe8aab5e4f8399ff27111f12633db380b7b3781dbe0ec6f50dd5e43661",
+    "source_audit_7/repeat-binding.json": "b05db23b5e0f9d29adba56d1b0eb88a917bea2d24f41d42d4f3f33ffa9dffe9c",
+    "source_audit_8/instruction.txt": "df181fad2ab5b4f5b1e47aa44f5d0a5987fc7f29c637b1969f9ca351a535555f",
+    "source_audit_8/manifest.json": "59c9d3ebeaae6cfebfb7767b72b446cc8125046e1b303513180718f114b03cd6",
+    "source_audit_8/output.json": "410275c738f64d4b4984a221f9ed2e6e10f161a5c03e116b107e2bf3544a32a3",
+    "source_audit_8/repeat-binding.json": "27f98b45ef9dcf5fd7cb620b027a1b2a6b7344911abbd520f3d30721450915c5",
+    "stability.json": "ca1042b5a36e30ed183a3cf6565ad3b8f5fb84cbdd546b85179e07c3eb11d327",
+    "terra_brief/instruction.txt": "565d647c6e7b0116d4da361785701612c392fbec9a56e07443361a42fec6066e",
+    "terra_brief/manifest.json": "7d8a0b88304df3a8067e55fb6c886a0a671da8488f5b54878b3d4e56e7e8e02b",
+    "terra_brief/normalized.json": "0a659629a08598a7f3682801ecf74eeda71609c6d318e4fddff756ecb2f6a73f",
+    "terra_brief/output.json": "201f61b743f700a36848d56d140d3c95b485916832997241183e747d6874031b",
+    "terra_brief/repeat-binding.json": "1d1b7092c75b33a7c5f233254457a099afcb96c9c262b8d2965fce97511d740e",
+    "terra_guard/instruction.txt": "f2a21a7e10093dad312d4cd3dc5d172f39ec7f12f7d0c0ffe711f50ed3113f64",
+    "terra_guard/manifest.json": "a0eafd652caeca5dbe18f07e4c9aa73630899da31b3b4283ca4ee7eb309b3ed1",
+    "terra_guard/normalized.json": "39f466b1df7895d661b83bc66cce1b41e639ee64e280953035ce024efbe0c76f",
+    "terra_guard/output.json": "6ac291f84a1a209cbf58e182a6a736feafdd2fb647b7848d4ed39eb45642d351",
+    "terra_guard/repeat-binding.json": "c2cf946999f2040c85b3207854ca81afdfb0e54d46d63a9a146c2ef1cce22e34",
+    "terra_memory/instruction.txt": "b32d20080b38f700396bf035b24f6186260e8a606017105aedaf3fb168c08839",
+    "terra_memory/manifest.json": "6a05f0d7991fc61b776f095b6ed1da92cc35cfdce7c83a73857cb52a008921af",
+    "terra_memory/normalized.json": "4282bf078e6287eda8fafd0b94b3b6b2675e5789eb3b30024809fc0227335338",
+    "terra_memory/output.json": "ba91e981962fdee2ff58a05240e4d1b5624b294fca6a9af742570f343d4fe9b6",
+    "terra_memory/repeat-binding.json": "aa4c0dc5e3d64452fc8007c616d5ea3d00ab703229ed848f2d5a1d025220b7bf",
+    "terra_plain/instruction.txt": "d9b4e3c21e799cdae10033621d525f6755836e8432656037962af0fe5216e747",
+    "terra_plain/manifest.json": "38ed87a0f9ae721d13ae4046af2ef8b1bdbce10b33cdde0f3cc540ce26d94706",
+    "terra_plain/normalized.json": "2f2433f711937c62eb1a25f29408e4155b38e9a38c7c39b663922b8bf828f36a",
+    "terra_plain/output.json": "6df616cd16ef946bb04e8cb26b2863bab1f9ffe69a044c0b3f0f7531fc7fe942",
+    "terra_plain/repeat-binding.json": "4a0110ffc59702d745b1a73d383e81869b354b345518c4576aeb976cda80b567"
+  },
+  "scope": "Two stochastic realizations on the same development items; not efficacy proof or approval for defaults."
+}

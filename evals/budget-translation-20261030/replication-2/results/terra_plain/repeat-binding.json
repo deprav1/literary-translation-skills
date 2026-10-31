@@ -1,0 +1,8 @@
+{
+  "repeat": 2,
+  "phase": "terra_plain",
+  "repeat_preregistration_sha256": "758ad13ec15184396b0806478bebc63408768e84e6cee7645a69cdc3ff01a02a",
+  "base_preregistration_sha256": "488ddeaf193d4862f45fc647580c376c97ef6f573f2e548bd115a1b12097187f",
+  "manifest_sha256": "38ed87a0f9ae721d13ae4046af2ef8b1bdbce10b33cdde0f3cc540ce26d94706",
+  "output_sha256": "6df616cd16ef946bb04e8cb26b2863bab1f9ffe69a044c0b3f0f7531fc7fe942"
+}

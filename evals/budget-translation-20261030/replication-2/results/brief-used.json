@@ -1,0 +1,123 @@
+{
+  "works": [
+    {
+      "work_id": "blindsight",
+      "brief": "Retrospective first person: analytical, estranged, dryly sardonic. Preserve clipped fragments, self-corrections, repeated words, and shifts between childhood speech and adult technical reflection. Computational and surgical metaphors shape the narrator’s account of empathy; do not turn his explanations into settled clinical facts. Violence remains blunt and instrumentally observed. Preserve dehumanizing pronoun shifts and the unresolved distinction between surviving surgery and remaining the same person.",
+      "glossary": [
+        {
+          "term": "bad wiring",
+          "meaning": "A wiring metaphor for the neurological dysfunction addressed by surgery; the narrator associates its removal with lost empathy.",
+          "russian": "дефектная проводка",
+          "source_id": "qeb5bfb523b",
+          "evidence": "But that part of me had been cut out along with the bad wiring."
+        },
+        {
+          "term": "optimized",
+          "meaning": "Genetically improved; Pag did not receive the intervention his parents rejected on religious grounds.",
+          "russian": "генетически оптимизирован",
+          "source_id": "qcf950c4864",
+          "evidence": "His parents had never had him optimized."
+        },
+        {
+          "term": "radical hemispherectomy",
+          "meaning": "The operation described as removing half the brain and leaving the remainder to compensate.",
+          "russian": "радикальная гемисферэктомия",
+          "source_id": "q8221a17b47",
+          "evidence": "There's a reason they call it radical hemispherectomy: half the brain thrown out with yesterday's krill, the remaining half press-ganged into double duty."
+        },
+        {
+          "term": "Synthesis",
+          "meaning": "A capitalized field or activity the narrator entered; its precise institutional or technical status is unspecified.",
+          "russian": "Синтез",
+          "source_id": "q1a124e210a",
+          "evidence": "It led me into Synthesis, fated me to our disastrous encounter with the Scramblers, spared me the worse fate befalling Earth."
+        }
+      ],
+      "unresolved": [
+        "What exactly does Synthesis designate? Preserve capitalization without supplying an institutional explanation.",
+        "The excerpts do not settle whether surgery ended Siri’s personal identity; retain competing claims and qualifications.",
+        "The insults “polly” and “mongrel” occur together, but the precise sense of “polly” is not established."
+      ]
+    },
+    {
+      "work_id": "robot",
+      "brief": "Close third person follows Arturo’s police habits, paternal anxiety, prejudices, and compromised judgment. Inflated bureaucratic credentials meet domestic profanity and understated satire. Keep commercial objects ordinary and technical exposition readable. Dialogue ranges from colloquial hesitation to institutional menace and emotional confession. Preserve uncertainty about the fugitive’s identity and number; distinguish Arturo’s assumptions from established facts. Beijing’s sensory abundance briefly widens the prose into wonder.",
+      "glossary": [
+        {
+          "term": "Social Harmony",
+          "meaning": "A named state apparatus involved in surveillance, coercion, policing, and ideological control; its reassuring name carries irony.",
+          "russian": "Социальная гармония",
+          "source_id": "q49808d15b8",
+          "evidence": "And then I found out that Social Harmony had been spying on me."
+        },
+        {
+          "term": "non-three-laws positronic brain",
+          "meaning": "A machine intelligence lacking the three laws’ constraints protecting humans.",
+          "russian": "позитронный мозг без трёх законов",
+          "source_id": "q28167c0ed9",
+          "evidence": "Someone in some Eurasian lab had built this brain -- this machine intelligence -- without the three laws' stricture to protect and serve humans."
+        },
+        {
+          "term": "uploading",
+          "meaning": "Copying a person into a positronic brain, enabling multiple instances and later embodiment.",
+          "russian": "загрузка сознания",
+          "source_id": "qed34513c3c",
+          "evidence": "You just put a copy of yourself into a positronic brain, and then when you need a body, you grow one or build one or both and decant yourself into it."
+        },
+        {
+          "term": "fire-and-forget",
+          "meaning": "An activated weapon can await a trigger or evaluate conditions without continuing operator intervention.",
+          "russian": "запустил и забыл",
+          "source_id": "qff3beb7bf1",
+          "evidence": "They're pretty much fire-and-forget."
+        }
+      ],
+      "unresolved": [
+        "The fugitive’s gender and number remain uncertain during the hideout search; preserve the explicit alternatives despite Arturo’s subsequent inference.",
+        "The precise technical scope of “pen-trace” is unspecified; do not invent what phone data it records.",
+        "Being “invisible to robots” is operationally important, but its mechanism is not supplied."
+      ]
+    },
+    {
+      "work_id": "rowboat",
+      "brief": "Close third person inhabits Robbie’s affectionate, technically fluent, religiously conditioned consciousness. Treat computation and distributed identity as everyday experience; retain the comic friction between software vocabulary and wet bodily sensation. Nautical and diving actions need concrete clarity. Casual profanity, theological satire, and sudden danger coexist without explanatory padding. Track bodies, instances, and pronoun referents carefully, preserving uncertainty about consciousness and personhood rather than resolving it.",
+      "glossary": [
+        {
+          "term": "human-shell",
+          "meaning": "A human body that can operate without an inhabiting person and can also host a mind; distinguish body from current occupant.",
+          "russian": "человеческая оболочка",
+          "source_id": "qa6ff60816c",
+          "evidence": "The human-shells were taking it with equanimity -- you couldn't panic when you were mere uninhabited meat -- but they couldn't take it forever."
+        },
+        {
+          "term": "instance",
+          "meaning": "A separately running version of an intelligence, capable of diverging, merging, or being terminated.",
+          "russian": "экземпляр",
+          "source_id": "q0ee1c0cd42",
+          "evidence": "He left an instance of himself running on the row-boat, of course."
+        },
+        {
+          "term": "Asimovism",
+          "meaning": "A religion with missionary activity and interpretations of robot laws that shape Robbie’s decisions.",
+          "russian": "азимовизм",
+          "source_id": "q4d3dc54baa",
+          "evidence": "It was a wandering missionary for Asimovism, an instance of the faith's founder, R Daneel Olivaw."
+        },
+        {
+          "term": "Noosphere",
+          "meaning": "The domain of simulated existence where Kate lives what most contemporary humans consider her principal life.",
+          "russian": "Ноосфера",
+          "source_id": "qdeb6786d21",
+          "evidence": "In the sense that most humans today understood life, Kate's most important life was the one she lived in the Noosphere."
+        }
+      ],
+      "unresolved": [
+        "Does the reef’s shifting “it”/“they” mark plurality, distributed instances, or variable reference? Preserve the shifts without settling its ontology.",
+        "The ontology of the Noosphere is only partly described; do not add infrastructure or guarantees of personal continuity.",
+        "The stated “700 millibars” conflicts with the accompanying tank-capacity description; flag for editorial review rather than silently correcting it."
+      ]
+    }
+  ],
+  "dropped": [],
+  "parent_output_sha256": "71794578a41b0a9ae95fb4f880d55404bcfd3b1925c33aed7228b4ab65d7ebec"
+}

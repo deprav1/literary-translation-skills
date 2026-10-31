@@ -1,0 +1,32 @@
+{
+  "terra": {
+    "development_economic_gate": false,
+    "conditions": {
+      "calibrated": true,
+      "no_unresolved_production_flags": true,
+      "major_density_margin": true,
+      "prose_loss_bound": false,
+      "cold_cost_saving": true,
+      "positive_denominator": true
+    },
+    "cold_saving_fraction": 0.2957020772253758,
+    "prose_losses": 10,
+    "corpus_items": 30,
+    "claim": "Observed model-audited development pipeline only; no automatic deployment or human certification."
+  },
+  "luna": {
+    "development_economic_gate": false,
+    "conditions": {
+      "calibrated": true,
+      "no_unresolved_production_flags": true,
+      "major_density_margin": true,
+      "prose_loss_bound": false,
+      "cold_cost_saving": false,
+      "positive_denominator": true
+    },
+    "cold_saving_fraction": 0.11456241032998582,
+    "prose_losses": 14,
+    "corpus_items": 30,
+    "claim": "Observed model-audited development pipeline only; no automatic deployment or human certification."
+  }
+}

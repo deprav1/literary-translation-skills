@@ -1,0 +1,127 @@
+{
+  "coverage": [
+    "v3849d4b86035e4",
+    "v9ffabc60609d7f",
+    "vd0e500ecbdd971",
+    "vdb06625e403669",
+    "v4dae184fe3ac20",
+    "v35e63fb788195a",
+    "v8ba3f03fcb650a",
+    "v04ffd24ece9d33",
+    "vef33c2f63c936e",
+    "vafcf54978deeec",
+    "v6bd59f717cd7e1",
+    "vaef71570c7ffd0",
+    "v790c2556253846",
+    "veabfe70b6f6055",
+    "v0084b2ad44175c",
+    "v8b3e1f5b3c11d1",
+    "v41cecaacd8eda6",
+    "v811e4d444b5492",
+    "v866cac20e60748",
+    "v3cd98613403916",
+    "v9b09de23f03ca7",
+    "veae268f0595f4a",
+    "v3aaa8855220dbd",
+    "v3d6e78f2f25198",
+    "v8af3cf25f4441e",
+    "v3a52f9f1bcee6c",
+    "v1b80c7195eda79",
+    "vbdd8f4206dda5d",
+    "v73e9d3c306fc7e",
+    "va401f767956454"
+  ],
+  "issues": [
+    {
+      "source_id": "qb6f48742c7",
+      "candidate_id": "vd0e500ecbdd971",
+      "category": "number",
+      "severity": "minor",
+      "source_quote": "I kicked one in the head until it stopped moving",
+      "target_quote": "Я пнул одного в голову, пока он не перестал двигаться",
+      "reason": "Однократное «пнул» теряет продолжение ударов до прекращения движения."
+    },
+    {
+      "source_id": "q4d3dc54baa",
+      "candidate_id": "v8ba3f03fcb650a",
+      "category": "actor",
+      "severity": "major",
+      "source_quote": "the Asimov estate -- itself an AI",
+      "target_quote": "наследниками Азимова — которые сами были ИИ",
+      "reason": "Единый ИИ, представляющий наследственное имущество и права Азимова, заменён несколькими наследниками."
+    },
+    {
+      "source_id": "qd96c62da74",
+      "candidate_id": "v04ffd24ece9d33",
+      "category": "number",
+      "severity": "major",
+      "source_quote": "He'd been decorated on three separate occasions by his commander and by the Regional Manager for Social Harmony",
+      "target_quote": "Командир и региональный управляющий Социальной гармонии награждали его отдельно по три раза",
+      "reason": "Три случая награждения превращены в три награждения от каждого, то есть шесть."
+    },
+    {
+      "source_id": "qff3beb7bf1",
+      "candidate_id": "vef33c2f63c936e",
+      "category": "term_sense",
+      "severity": "major",
+      "source_quote": "Coulda been a month, coulda been a day.",
+      "target_quote": "Мог месяц назад сработать, мог вчера.",
+      "reason": "Ответ о времени активации устройства превращён в утверждение о времени его срабатывания."
+    },
+    {
+      "source_id": "qfea9fde21e",
+      "candidate_id": "vafcf54978deeec",
+      "category": "omission",
+      "severity": "minor",
+      "source_quote": "in crack-houses",
+      "target_quote": "на экранах притонов",
+      "reason": "Утрачено указание на притоны, где употребляют крэк."
+    },
+    {
+      "source_id": "q169b1b9d62",
+      "candidate_id": "v6bd59f717cd7e1",
+      "category": "term_sense",
+      "severity": "major",
+      "source_quote": "then there was a moment of nothing at all",
+      "target_quote": "а затем всё на мгновение замерло",
+      "reason": "Полное отсутствие переживания заменено ощущением остановившегося происходящего."
+    },
+    {
+      "source_id": "qe8c00254a0",
+      "candidate_id": "veabfe70b6f6055",
+      "category": "addition",
+      "severity": "major",
+      "source_quote": "Osprey Reef",
+      "target_quote": "Большой Барьерный риф Оспрей",
+      "reason": "Добавлена отсутствующая в исходнике географическая идентификация с Большим Барьерным рифом."
+    },
+    {
+      "source_id": "qe1201d759d",
+      "candidate_id": "v8b3e1f5b3c11d1",
+      "category": "term_sense",
+      "severity": "major",
+      "source_quote": "a pen-trace",
+      "target_quote": "отслеживание вводимых данных",
+      "reason": "Регистрация телефонных соединений заменена отслеживанием вводимых данных."
+    },
+    {
+      "source_id": "qdbaaab067c",
+      "candidate_id": "v41cecaacd8eda6",
+      "category": "negation_modality",
+      "severity": "major",
+      "source_quote": "less risky",
+      "target_quote": "так рискованнее",
+      "reason": "Оценка риска покупки обращена в противоположную."
+    },
+    {
+      "source_id": "q1a124e210a",
+      "candidate_id": "v866cac20e60748",
+      "category": "other",
+      "severity": "major",
+      "source_quote": "spared me the worse fate befalling Earth",
+      "target_quote": "уберегло меня от участи ещё хуже той, что постигла Землю",
+      "reason": "В оригинале худшая участь постигает Землю; перевод вводит другую участь, ещё хуже земной."
+    }
+  ],
+  "unresolved": []
+}

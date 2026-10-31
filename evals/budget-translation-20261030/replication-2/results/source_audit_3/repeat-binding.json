@@ -1,0 +1,8 @@
+{
+  "repeat": 2,
+  "phase": "source_audit_3",
+  "repeat_preregistration_sha256": "758ad13ec15184396b0806478bebc63408768e84e6cee7645a69cdc3ff01a02a",
+  "base_preregistration_sha256": "488ddeaf193d4862f45fc647580c376c97ef6f573f2e548bd115a1b12097187f",
+  "manifest_sha256": "1e8d91e13a44390b22fce77e9cf20f1aab7ea3c434960f6214029ccc68c184f8",
+  "output_sha256": "7759b8c792749891924964c526c4ca22cec523a03e52ee809bd33b40b32cdd31"
+}

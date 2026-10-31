@@ -1,0 +1,8 @@
+{
+  "repeat": 2,
+  "verified_model_calls": 27,
+  "no_run1_session_reuse": true,
+  "all_phase_models_bindings_and_runtime_checked": true,
+  "verifier_sha256": "8c451ff430e720f19f8497efcce74250c4654623598ea33975ec56ace6901abb",
+  "coverage_amendment_sha256": "1943bc29097ffa8df1c1bfa5cbccd2ee270bc6352ced42980184df8480ac5138"
+}

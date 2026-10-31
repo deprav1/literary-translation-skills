@@ -1,0 +1,8 @@
+{
+  "repeat": 2,
+  "phase": "terra_guard",
+  "repeat_preregistration_sha256": "758ad13ec15184396b0806478bebc63408768e84e6cee7645a69cdc3ff01a02a",
+  "base_preregistration_sha256": "488ddeaf193d4862f45fc647580c376c97ef6f573f2e548bd115a1b12097187f",
+  "manifest_sha256": "a0eafd652caeca5dbe18f07e4c9aa73630899da31b3b4283ca4ee7eb309b3ed1",
+  "output_sha256": "6ac291f84a1a209cbf58e182a6a736feafdd2fb647b7848d4ed39eb45642d351"
+}

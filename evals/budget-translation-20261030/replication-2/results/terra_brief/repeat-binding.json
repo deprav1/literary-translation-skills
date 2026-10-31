@@ -1,0 +1,8 @@
+{
+  "repeat": 2,
+  "phase": "terra_brief",
+  "repeat_preregistration_sha256": "758ad13ec15184396b0806478bebc63408768e84e6cee7645a69cdc3ff01a02a",
+  "base_preregistration_sha256": "488ddeaf193d4862f45fc647580c376c97ef6f573f2e548bd115a1b12097187f",
+  "manifest_sha256": "7d8a0b88304df3a8067e55fb6c886a0a671da8488f5b54878b3d4e56e7e8e02b",
+  "output_sha256": "201f61b743f700a36848d56d140d3c95b485916832997241183e747d6874031b"
+}

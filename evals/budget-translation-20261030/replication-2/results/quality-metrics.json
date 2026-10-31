@@ -1,0 +1,86 @@
+{
+  "parent_scored_sha256": "2b7847bed4482a196c8885798338c73855ab37952aecb87959d0949b7c205f63",
+  "models": {
+    "sol_anchor": {
+      "minor_fidelity_issues": 0,
+      "major_fidelity_issues": 0,
+      "critical_affected_items": [],
+      "operational_failed_items": [],
+      "russian_issues": 0,
+      "unresolved": 0,
+      "coverage_pass": true
+    },
+    "terra_plain": {
+      "minor_fidelity_issues": 3,
+      "major_fidelity_issues": 0,
+      "critical_affected_items": [],
+      "operational_failed_items": [],
+      "russian_issues": 3,
+      "unresolved": 0,
+      "coverage_pass": true
+    },
+    "terra_guard": {
+      "minor_fidelity_issues": 2,
+      "major_fidelity_issues": 0,
+      "critical_affected_items": [],
+      "operational_failed_items": [],
+      "russian_issues": 1,
+      "unresolved": 0,
+      "coverage_pass": true
+    },
+    "terra_brief": {
+      "minor_fidelity_issues": 2,
+      "major_fidelity_issues": 1,
+      "critical_affected_items": [],
+      "operational_failed_items": [],
+      "russian_issues": 0,
+      "unresolved": 0,
+      "coverage_pass": true
+    },
+    "terra_memory": {
+      "minor_fidelity_issues": 2,
+      "major_fidelity_issues": 1,
+      "critical_affected_items": [],
+      "operational_failed_items": [],
+      "russian_issues": 2,
+      "unresolved": 1,
+      "coverage_pass": true
+    },
+    "luna_plain": {
+      "minor_fidelity_issues": 7,
+      "major_fidelity_issues": 7,
+      "critical_affected_items": [],
+      "operational_failed_items": [],
+      "russian_issues": 1,
+      "unresolved": 1,
+      "coverage_pass": true
+    },
+    "luna_guard": {
+      "minor_fidelity_issues": 8,
+      "major_fidelity_issues": 5,
+      "critical_affected_items": [],
+      "operational_failed_items": [],
+      "russian_issues": 1,
+      "unresolved": 0,
+      "coverage_pass": true
+    },
+    "luna_brief": {
+      "minor_fidelity_issues": 3,
+      "major_fidelity_issues": 11,
+      "critical_affected_items": [],
+      "operational_failed_items": [],
+      "russian_issues": 2,
+      "unresolved": 0,
+      "coverage_pass": true
+    },
+    "luna_memory": {
+      "minor_fidelity_issues": 9,
+      "major_fidelity_issues": 4,
+      "critical_affected_items": [],
+      "operational_failed_items": [],
+      "russian_issues": 4,
+      "unresolved": 1,
+      "coverage_pass": true
+    }
+  }
+}

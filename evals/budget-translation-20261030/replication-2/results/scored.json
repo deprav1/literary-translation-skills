@@ -1,0 +1,3513 @@
+{
+  "model_results": {
+    "sol_anchor": {
+      "semantic_counts": {
+        "critical": 0
+      },
+      "major_critical_per1000words": 0.0,
+      "russian_issues": 0,
+      "calques": 0,
+      "coverage": {
+        "missing": [],
+        "duplicates": [],
+        "unknown": [],
+        "wrong_language_or_empty": [],
+        "pass": true
+      },
+      "deferred": 0,
+      "cold_translation_usd": 0.09012
+    },
+    "terra_plain": {
+      "semantic_counts": {
+        "minor": 3,
+        "critical": 0
+      },
+      "major_critical_per1000words": 0.0,
+      "russian_issues": 3,
+      "calques": 1,
+      "coverage": {
+        "missing": [],
+        "duplicates": [],
+        "unknown": [],
+        "wrong_language_or_empty": [],
+        "pass": true
+      },
+      "deferred": 0,
+      "cold_translation_usd": 0.044586
+    },
+    "terra_guard": {
+      "semantic_counts": {
+        "minor": 2,
+        "critical": 0
+      },
+      "major_critical_per1000words": 0.0,
+      "russian_issues": 1,
+      "calques": 0,
+      "coverage": {
+        "missing": [],
+        "duplicates": [],
+        "unknown": [],
+        "wrong_language_or_empty": [],
+        "pass": true
+      },
+      "deferred": 0,
+      "cold_translation_usd": 0.044748,
+      "pilot": {
+        "quality_signal": true,
+        "cost_cap_pass": true,
+        "improved_fidelity_items": 2,
+        "new_major_critical": 0,
+        "new_minor": 1,
+        "per_work_preference_net": {
+          "robot": 0,
+          "blindsight": 1,
+          "rowboat": 2
+        },
+        "cold_translation_and_fullplanner_usd": 0.044748
+      }
+    },
+    "terra_brief": {
+      "semantic_counts": {
+        "minor": 2,
+        "major": 1,
+        "critical": 0
+      },
+      "major_critical_per1000words": 0.4601932811780948,
+      "russian_issues": 0,
+      "calques": 0,
+      "coverage": {
+        "missing": [],
+        "duplicates": [],
+        "unknown": [],
+        "wrong_language_or_empty": [],
+        "pass": true
+      },
+      "deferred": 0,
+      "cold_translation_usd": 0.046349,
+      "pilot": {
+        "quality_signal": false,
+        "cost_cap_pass": false,
+        "improved_fidelity_items": 2,
+        "new_major_critical": 1,
+        "new_minor": 1,
+        "per_work_preference_net": {
+          "robot": -1,
+          "blindsight": 2,
+          "rowboat": 2
+        },
+        "cold_translation_and_fullplanner_usd": 0.116853
+      }
+    },
+    "terra_memory": {
+      "semantic_counts": {
+        "major": 1,
+        "minor": 2,
+        "critical": 0
+      },
+      "major_critical_per1000words": 0.4601932811780948,
+      "russian_issues": 2,
+      "calques": 1,
+      "coverage": {
+        "missing": [],
+        "duplicates": [],
+        "unknown": [],
+        "wrong_language_or_empty": [],
+        "pass": true
+      },
+      "deferred": 1,
+      "cold_translation_usd": 0.046648,
+      "pilot": {
+        "quality_signal": false,
+        "cost_cap_pass": false,
+        "improved_fidelity_items": 2,
+        "new_major_critical": 1,
+        "new_minor": 1,
+        "per_work_preference_net": {
+          "robot": -1,
+          "blindsight": 0,
+          "rowboat": 2
+        },
+        "cold_translation_and_fullplanner_usd": 0.117152
+      }
+    },
+    "luna_plain": {
+      "semantic_counts": {
+        "minor": 7,
+        "major": 7,
+        "critical": 0
+      },
+      "major_critical_per1000words": 3.2213529682466637,
+      "russian_issues": 1,
+      "calques": 1,
+      "coverage": {
+        "missing": [],
+        "duplicates": [],
+        "unknown": [],
+        "wrong_language_or_empty": [],
+        "pass": true
+      },
+      "deferred": 1,
+      "cold_translation_usd": 0.0043555
+    },
+    "luna_guard": {
+      "semantic_counts": {
+        "minor": 8,
+        "major": 5,
+        "critical": 0
+      },
+      "major_critical_per1000words": 2.300966405890474,
+      "russian_issues": 1,
+      "calques": 0,
+      "coverage": {
+        "missing": [],
+        "duplicates": [],
+        "unknown": [],
+        "wrong_language_or_empty": [],
+        "pass": true
+      },
+      "deferred": 0,
+      "cold_translation_usd": 0.004377700000000001,
+      "pilot": {
+        "quality_signal": false,
+        "cost_cap_pass": true,
+        "improved_fidelity_items": 4,
+        "new_major_critical": 1,
+        "new_minor": 6,
+        "per_work_preference_net": {
+          "robot": 1,
+          "blindsight": -2,
+          "rowboat": 1
+        },
+        "cold_translation_and_fullplanner_usd": 0.004377700000000001
+      }
+    },
+    "luna_brief": {
+      "semantic_counts": {
+        "major": 11,
+        "minor": 3,
+        "critical": 0
+      },
+      "major_critical_per1000words": 5.062126092959042,
+      "russian_issues": 2,
+      "calques": 1,
+      "coverage": {
+        "missing": [],
+        "duplicates": [],
+        "unknown": [],
+        "wrong_language_or_empty": [],
+        "pass": true
+      },
+      "deferred": 0,
+      "cold_translation_usd": 0.0045498000000000005,
+      "pilot": {
+        "quality_signal": false,
+        "cost_cap_pass": false,
+        "improved_fidelity_items": 7,
+        "new_major_critical": 7,
+        "new_minor": 3,
+        "per_work_preference_net": {
+          "robot": -2,
+          "blindsight": 1,
+          "rowboat": 0
+        },
+        "cold_translation_and_fullplanner_usd": 0.0750538
+      }
+    },
+    "luna_memory": {
+      "semantic_counts": {
+        "major": 4,
+        "minor": 9,
+        "critical": 0
+      },
+      "major_critical_per1000words": 1.8407731247123793,
+      "russian_issues": 4,
+      "calques": 1,
+      "coverage": {
+        "missing": [],
+        "duplicates": [],
+        "unknown": [],
+        "wrong_language_or_empty": [],
+        "pass": true
+      },
+      "deferred": 1,
+      "cold_translation_usd": 0.004585700000000001,
+      "pilot": {
+        "quality_signal": false,
+        "cost_cap_pass": false,
+        "improved_fidelity_items": 4,
+        "new_major_critical": 1,
+        "new_minor": 5,
+        "per_work_preference_net": {
+          "robot": -2,
+          "blindsight": 1,
+          "rowboat": 2
+        },
+        "cold_translation_and_fullplanner_usd": 0.0750897
+      }
+    }
+  },
+  "comparisons": {
+    "terra_guard_vs_plain": {
+      "wins": 4,
+      "losses": 1,
+      "ties": 25,
+      "unclear": 0,
+      "net": 3,
+      "items": [
+        {
+          "id": "qeb5bfb523b",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qdbaaab067c",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q7c3d95f57d",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q1a124e210a",
+          "decision": "terra_plain",
+          "reason": "A теряет намеренный парадокс «вижу, слепой»."
+        },
+        {
+          "id": "q3cb5976585",
+          "decision": "terra_guard",
+          "reason": "В A неграмматичное «повернулся к лицом к»."
+        },
+        {
+          "id": "qcf950c4864",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q0ee1c0cd42",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q269307d5a9",
+          "decision": "terra_guard",
+          "reason": "B подменяет неспособность действовать отсутствием защиты."
+        },
+        {
+          "id": "qb6f48742c7",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q4d3dc54baa",
+          "decision": "terra_guard",
+          "reason": "A нарушает согласование наследников и единственного ИИ."
+        },
+        {
+          "id": "qdf715a19a6",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qfa3f76ea9a",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qdeb6786d21",
+          "decision": "terra_guard",
+          "reason": "A подменяет общую оценку основной жизни личным предпочтением Кейт."
+        },
+        {
+          "id": "q28167c0ed9",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qf75369d6ce",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qed34513c3c",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qe1201d759d",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qa6ff60816c",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q8221a17b47",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qd96c62da74",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qff3beb7bf1",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q49808d15b8",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qcbe946abf7",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qfea9fde21e",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q52c8bbe1ec",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q81934bc463",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q169b1b9d62",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qe8c00254a0",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qa8a286da66",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qd34f35c181",
+          "decision": "tie",
+          "reason": ""
+        }
+      ]
+    },
+    "terra_brief_vs_plain": {
+      "wins": 4,
+      "losses": 1,
+      "ties": 25,
+      "unclear": 0,
+      "net": 3,
+      "items": [
+        {
+          "id": "qeb5bfb523b",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qdbaaab067c",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q7c3d95f57d",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q1a124e210a",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q3cb5976585",
+          "decision": "terra_brief",
+          "reason": "В A явная синтаксическая ошибка «к лицом к»."
+        },
+        {
+          "id": "qcf950c4864",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q0ee1c0cd42",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q269307d5a9",
+          "decision": "terra_brief",
+          "reason": "B заменяет неспособность действовать отсутствием защиты."
+        },
+        {
+          "id": "qb6f48742c7",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q4d3dc54baa",
+          "decision": "terra_brief",
+          "reason": "B смешивает множественных наследников с единственным ИИ."
+        },
+        {
+          "id": "qdf715a19a6",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qfa3f76ea9a",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qdeb6786d21",
+          "decision": "terra_brief",
+          "reason": "B подменяет общественную оценку основной жизни предпочтением Кейт."
+        },
+        {
+          "id": "q28167c0ed9",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qf75369d6ce",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qed34513c3c",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qe1201d759d",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qa6ff60816c",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q8221a17b47",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qd96c62da74",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qff3beb7bf1",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q49808d15b8",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qcbe946abf7",
+          "decision": "terra_plain",
+          "reason": "A меняет отсутствие звонящего аппарата на отсутствие ответа."
+        },
+        {
+          "id": "qfea9fde21e",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q52c8bbe1ec",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q81934bc463",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q169b1b9d62",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qe8c00254a0",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qa8a286da66",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qd34f35c181",
+          "decision": "tie",
+          "reason": ""
+        }
+      ]
+    },
+    "terra_memory_vs_plain": {
+      "wins": 3,
+      "losses": 2,
+      "ties": 25,
+      "unclear": 0,
+      "net": 1,
+      "items": [
+        {
+          "id": "qeb5bfb523b",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qdbaaab067c",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q7c3d95f57d",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q1a124e210a",
+          "decision": "terra_plain",
+          "reason": "B теряет зрительный парадокс и повтор ключевого образа."
+        },
+        {
+          "id": "q3cb5976585",
+          "decision": "terra_memory",
+          "reason": "В A явное «повернулся к лицом к»."
+        },
+        {
+          "id": "qcf950c4864",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q0ee1c0cd42",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q269307d5a9",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qb6f48742c7",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q4d3dc54baa",
+          "decision": "terra_memory",
+          "reason": "A смешивает множественных наследников с единственным ИИ."
+        },
+        {
+          "id": "qdf715a19a6",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qfa3f76ea9a",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qdeb6786d21",
+          "decision": "terra_memory",
+          "reason": "B подменяет общественную оценку жизни личным предпочтением Кейт."
+        },
+        {
+          "id": "q28167c0ed9",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qf75369d6ce",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qed34513c3c",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qe1201d759d",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qa6ff60816c",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q8221a17b47",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qd96c62da74",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qff3beb7bf1",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q49808d15b8",
+          "decision": "terra_plain",
+          "reason": "B меняет субъект ухудшения положения на саму героиню."
+        },
+        {
+          "id": "qcbe946abf7",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qfea9fde21e",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q52c8bbe1ec",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q81934bc463",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q169b1b9d62",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qe8c00254a0",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qa8a286da66",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qd34f35c181",
+          "decision": "tie",
+          "reason": ""
+        }
+      ]
+    },
+    "terra_plain_vs_anchor": {
+      "wins": 1,
+      "losses": 4,
+      "ties": 25,
+      "unclear": 0,
+      "net": -3,
+      "items": [
+        {
+          "id": "qeb5bfb523b",
+          "decision": "terra_plain",
+          "reason": "В A неестественное «втаптывала ему рёбра»."
+        },
+        {
+          "id": "qdbaaab067c",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q7c3d95f57d",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q1a124e210a",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q3cb5976585",
+          "decision": "sol_anchor",
+          "reason": "В B явная синтаксическая ошибка «к лицом к»."
+        },
+        {
+          "id": "qcf950c4864",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q0ee1c0cd42",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q269307d5a9",
+          "decision": "sol_anchor",
+          "reason": "A заменяет недееспособность отсутствием защиты."
+        },
+        {
+          "id": "qb6f48742c7",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q4d3dc54baa",
+          "decision": "sol_anchor",
+          "reason": "A смешивает множественных наследников с единственным ИИ."
+        },
+        {
+          "id": "qdf715a19a6",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qfa3f76ea9a",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qdeb6786d21",
+          "decision": "sol_anchor",
+          "reason": "B переводит основную жизнь Кейт в её личное предпочтение."
+        },
+        {
+          "id": "q28167c0ed9",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qf75369d6ce",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qed34513c3c",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qe1201d759d",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qa6ff60816c",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q8221a17b47",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qd96c62da74",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qff3beb7bf1",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q49808d15b8",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qcbe946abf7",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qfea9fde21e",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q52c8bbe1ec",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q81934bc463",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q169b1b9d62",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qe8c00254a0",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qa8a286da66",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qd34f35c181",
+          "decision": "tie",
+          "reason": ""
+        }
+      ]
+    },
+    "terra_guard_vs_anchor": {
+      "wins": 1,
+      "losses": 1,
+      "ties": 28,
+      "unclear": 0,
+      "net": 0,
+      "items": [
+        {
+          "id": "qeb5bfb523b",
+          "decision": "terra_guard",
+          "reason": "В B не складывается сочетание «втаптывала ему рёбра»."
+        },
+        {
+          "id": "qdbaaab067c",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q7c3d95f57d",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q1a124e210a",
+          "decision": "sol_anchor",
+          "reason": "B теряет парадокс зрения слепого."
+        },
+        {
+          "id": "q3cb5976585",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qcf950c4864",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q0ee1c0cd42",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q269307d5a9",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qb6f48742c7",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q4d3dc54baa",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qdf715a19a6",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qfa3f76ea9a",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qdeb6786d21",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q28167c0ed9",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qf75369d6ce",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qed34513c3c",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qe1201d759d",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qa6ff60816c",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q8221a17b47",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qd96c62da74",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qff3beb7bf1",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q49808d15b8",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qcbe946abf7",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qfea9fde21e",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q52c8bbe1ec",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q81934bc463",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q169b1b9d62",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qe8c00254a0",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qa8a286da66",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qd34f35c181",
+          "decision": "tie",
+          "reason": ""
+        }
+      ]
+    },
+    "terra_brief_vs_anchor": {
+      "wins": 1,
+      "losses": 1,
+      "ties": 28,
+      "unclear": 0,
+      "net": 0,
+      "items": [
+        {
+          "id": "qeb5bfb523b",
+          "decision": "terra_brief",
+          "reason": "B вводит несостоятельное «втаптывала ему рёбра»."
+        },
+        {
+          "id": "qdbaaab067c",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q7c3d95f57d",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q1a124e210a",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q3cb5976585",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qcf950c4864",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q0ee1c0cd42",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q269307d5a9",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qb6f48742c7",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q4d3dc54baa",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qdf715a19a6",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qfa3f76ea9a",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qdeb6786d21",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q28167c0ed9",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qf75369d6ce",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qed34513c3c",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qe1201d759d",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qa6ff60816c",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q8221a17b47",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qd96c62da74",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qff3beb7bf1",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q49808d15b8",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qcbe946abf7",
+          "decision": "sol_anchor",
+          "reason": "A заменяет недоступность номера отсутствием ответа."
+        },
+        {
+          "id": "qfea9fde21e",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q52c8bbe1ec",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q81934bc463",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q169b1b9d62",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qe8c00254a0",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qa8a286da66",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qd34f35c181",
+          "decision": "tie",
+          "reason": ""
+        }
+      ]
+    },
+    "terra_memory_vs_anchor": {
+      "wins": 1,
+      "losses": 3,
+      "ties": 26,
+      "unclear": 0,
+      "net": -2,
+      "items": [
+        {
+          "id": "qeb5bfb523b",
+          "decision": "terra_memory",
+          "reason": "В B не складывается «втаптывала ему рёбра»."
+        },
+        {
+          "id": "qdbaaab067c",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q7c3d95f57d",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q1a124e210a",
+          "decision": "sol_anchor",
+          "reason": "B теряет связку зрения, слепоты и точки зрения."
+        },
+        {
+          "id": "q3cb5976585",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qcf950c4864",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q0ee1c0cd42",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q269307d5a9",
+          "decision": "sol_anchor",
+          "reason": "B подменяет непонятность собственной реакции её бессмысленностью."
+        },
+        {
+          "id": "qb6f48742c7",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q4d3dc54baa",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qdf715a19a6",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qfa3f76ea9a",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qdeb6786d21",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q28167c0ed9",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qf75369d6ce",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qed34513c3c",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qe1201d759d",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qa6ff60816c",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q8221a17b47",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qd96c62da74",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qff3beb7bf1",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q49808d15b8",
+          "decision": "sol_anchor",
+          "reason": "B делает героиню причиной ухудшения положения."
+        },
+        {
+          "id": "qcbe946abf7",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qfea9fde21e",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q52c8bbe1ec",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q81934bc463",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q169b1b9d62",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qe8c00254a0",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qa8a286da66",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qd34f35c181",
+          "decision": "tie",
+          "reason": ""
+        }
+      ]
+    },
+    "luna_guard_vs_plain": {
+      "wins": 6,
+      "losses": 6,
+      "ties": 18,
+      "unclear": 0,
+      "net": 0,
+      "items": [
+        {
+          "id": "qeb5bfb523b",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qdbaaab067c",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q7c3d95f57d",
+          "decision": "luna_plain",
+          "reason": "A теряет факт, что друг был единственным вообще."
+        },
+        {
+          "id": "q1a124e210a",
+          "decision": "luna_guard",
+          "reason": "B неверно определяет избегнутую участь."
+        },
+        {
+          "id": "q3cb5976585",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qcf950c4864",
+          "decision": "luna_plain",
+          "reason": "A теряет факт отсутствия других друзей."
+        },
+        {
+          "id": "q0ee1c0cd42",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q269307d5a9",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qb6f48742c7",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q4d3dc54baa",
+          "decision": "luna_guard",
+          "reason": "B дополнительно путает товарные знаки с авторским правом."
+        },
+        {
+          "id": "qdf715a19a6",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qfa3f76ea9a",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qdeb6786d21",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q28167c0ed9",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qf75369d6ce",
+          "decision": "luna_plain",
+          "reason": "B ошибочно называет сам риф человеческим."
+        },
+        {
+          "id": "qed34513c3c",
+          "decision": "luna_guard",
+          "reason": "A удаляет запинку ключевого признания."
+        },
+        {
+          "id": "qe1201d759d",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qa6ff60816c",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q8221a17b47",
+          "decision": "luna_plain",
+          "reason": "В A неграмматичное переходное «впахивают»."
+        },
+        {
+          "id": "qd96c62da74",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qff3beb7bf1",
+          "decision": "luna_plain",
+          "reason": "A подменяет давность активации давностью срабатывания."
+        },
+        {
+          "id": "q49808d15b8",
+          "decision": "luna_guard",
+          "reason": "В A «их сторона» указывает на Социальную Гармонию."
+        },
+        {
+          "id": "qcbe946abf7",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qfea9fde21e",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q52c8bbe1ec",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q81934bc463",
+          "decision": "luna_plain",
+          "reason": "B превращает сервис с новичками в сервис для новичков."
+        },
+        {
+          "id": "q169b1b9d62",
+          "decision": "luna_guard",
+          "reason": "B усложняет простой образ полосы загрузки неясным устройством индикатора."
+        },
+        {
+          "id": "qe8c00254a0",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qa8a286da66",
+          "decision": "luna_guard",
+          "reason": "A заменяет эмоциональное узнавание человека словом «особь»."
+        },
+        {
+          "id": "qd34f35c181",
+          "decision": "tie",
+          "reason": ""
+        }
+      ]
+    },
+    "luna_brief_vs_plain": {
+      "wins": 7,
+      "losses": 8,
+      "ties": 15,
+      "unclear": 0,
+      "net": -1,
+      "items": [
+        {
+          "id": "qeb5bfb523b",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qdbaaab067c",
+          "decision": "luna_plain",
+          "reason": "A переворачивает оценку риска."
+        },
+        {
+          "id": "q7c3d95f57d",
+          "decision": "luna_brief",
+          "reason": "A сглаживает детскую речь и удаляет запинку."
+        },
+        {
+          "id": "q1a124e210a",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q3cb5976585",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qcf950c4864",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q0ee1c0cd42",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q269307d5a9",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qb6f48742c7",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q4d3dc54baa",
+          "decision": "luna_brief",
+          "reason": "B дополнительно подменяет товарные знаки авторским правом."
+        },
+        {
+          "id": "qdf715a19a6",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qfa3f76ea9a",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qdeb6786d21",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q28167c0ed9",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qf75369d6ce",
+          "decision": "luna_plain",
+          "reason": "A искажает различение рифа и его человеческих оболочек."
+        },
+        {
+          "id": "qed34513c3c",
+          "decision": "luna_brief",
+          "reason": "A полностью сглаживает запинку признания."
+        },
+        {
+          "id": "qe1201d759d",
+          "decision": "luna_plain",
+          "reason": "A ошибочно понимает pen-trace как отслеживание ввода."
+        },
+        {
+          "id": "qa6ff60816c",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q8221a17b47",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qd96c62da74",
+          "decision": "luna_plain",
+          "reason": "A удваивает число награждений."
+        },
+        {
+          "id": "qff3beb7bf1",
+          "decision": "luna_plain",
+          "reason": "A говорит о срабатывании вместо активации."
+        },
+        {
+          "id": "q49808d15b8",
+          "decision": "luna_brief",
+          "reason": "В A местоимение «их» обращает побег в переход к преследователям."
+        },
+        {
+          "id": "qcbe946abf7",
+          "decision": "luna_brief",
+          "reason": "A превращает недоступность номера в отсутствие исходящих звонков."
+        },
+        {
+          "id": "qfea9fde21e",
+          "decision": "luna_plain",
+          "reason": "A механически приписывает сексуальность самим игровым автоматам."
+        },
+        {
+          "id": "q52c8bbe1ec",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q81934bc463",
+          "decision": "luna_plain",
+          "reason": "B меняет состав пользователей AOL на назначение сервиса."
+        },
+        {
+          "id": "q169b1b9d62",
+          "decision": "luna_plain",
+          "reason": "B заменяет отсутствие восприятия замиранием событий."
+        },
+        {
+          "id": "qe8c00254a0",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qa8a286da66",
+          "decision": "luna_brief",
+          "reason": "A заменяет этически значимого человека отчуждённой «особью»."
+        },
+        {
+          "id": "qd34f35c181",
+          "decision": "luna_brief",
+          "reason": "A меняет расположение узла: «на Юпитере»."
+        }
+      ]
+    },
+    "luna_memory_vs_plain": {
+      "wins": 7,
+      "losses": 6,
+      "ties": 17,
+      "unclear": 0,
+      "net": 1,
+      "items": [
+        {
+          "id": "qeb5bfb523b",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qdbaaab067c",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q7c3d95f57d",
+          "decision": "luna_memory",
+          "reason": "A сглаживает запинку и детскую синтаксическую сбивчивость."
+        },
+        {
+          "id": "q1a124e210a",
+          "decision": "luna_memory",
+          "reason": "A меняет, от какой участи спасён рассказчик."
+        },
+        {
+          "id": "q3cb5976585",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qcf950c4864",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q0ee1c0cd42",
+          "decision": "luna_plain",
+          "reason": "B грамматически превращает лёгкие в выдуваемые предметы."
+        },
+        {
+          "id": "q269307d5a9",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qb6f48742c7",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q4d3dc54baa",
+          "decision": "luna_memory",
+          "reason": "B дополнительно заменяет товарные знаки авторскими правами."
+        },
+        {
+          "id": "qdf715a19a6",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qfa3f76ea9a",
+          "decision": "luna_plain",
+          "reason": "B содержит особенно явную кальку «колёсами в ногу»."
+        },
+        {
+          "id": "qdeb6786d21",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q28167c0ed9",
+          "decision": "luna_plain",
+          "reason": "B заменяет оружие отдельной пулей."
+        },
+        {
+          "id": "qf75369d6ce",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qed34513c3c",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qe1201d759d",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qa6ff60816c",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q8221a17b47",
+          "decision": "luna_plain",
+          "reason": "B опускает перестройку нейронных связей."
+        },
+        {
+          "id": "qd96c62da74",
+          "decision": "luna_plain",
+          "reason": "A искажает число награждений."
+        },
+        {
+          "id": "qff3beb7bf1",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q49808d15b8",
+          "decision": "luna_memory",
+          "reason": "В A «их сторона» отсылает к преследующей службе."
+        },
+        {
+          "id": "qcbe946abf7",
+          "decision": "luna_memory",
+          "reason": "A меняет входящую доступность номера на исходящие звонки."
+        },
+        {
+          "id": "qfea9fde21e",
+          "decision": "luna_plain",
+          "reason": "B вводит неуместный «домашний фронт»."
+        },
+        {
+          "id": "q52c8bbe1ec",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q81934bc463",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q169b1b9d62",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qe8c00254a0",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qa8a286da66",
+          "decision": "luna_memory",
+          "reason": "A разрушает эмоциональный регистр узнаванием «человеческой особи»."
+        },
+        {
+          "id": "qd34f35c181",
+          "decision": "luna_memory",
+          "reason": "A помещает узел на сам Юпитер."
+        }
+      ]
+    },
+    "luna_plain_vs_anchor": {
+      "wins": 1,
+      "losses": 12,
+      "ties": 17,
+      "unclear": 0,
+      "net": -11,
+      "items": [
+        {
+          "id": "qeb5bfb523b",
+          "decision": "luna_plain",
+          "reason": "B нарушает предметную сочетаемость в описании ударов."
+        },
+        {
+          "id": "qdbaaab067c",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q7c3d95f57d",
+          "decision": "sol_anchor",
+          "reason": "A теряет запинку и разговорную детскую конструкцию."
+        },
+        {
+          "id": "q1a124e210a",
+          "decision": "sol_anchor",
+          "reason": "B искажает сравнение с участью Земли."
+        },
+        {
+          "id": "q3cb5976585",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qcf950c4864",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q0ee1c0cd42",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q269307d5a9",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qb6f48742c7",
+          "decision": "sol_anchor",
+          "reason": "В A однократное «пнул» конфликтует с длительностью избиения."
+        },
+        {
+          "id": "q4d3dc54baa",
+          "decision": "sol_anchor",
+          "reason": "B искажает и субъект-ИИ, и вид нарушенных прав."
+        },
+        {
+          "id": "qdf715a19a6",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qfa3f76ea9a",
+          "decision": "sol_anchor",
+          "reason": "B меняет повороты роботов на качение."
+        },
+        {
+          "id": "qdeb6786d21",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q28167c0ed9",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qf75369d6ce",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qed34513c3c",
+          "decision": "sol_anchor",
+          "reason": "A убирает запинку ключевого признания."
+        },
+        {
+          "id": "qe1201d759d",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qa6ff60816c",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q8221a17b47",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qd96c62da74",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qff3beb7bf1",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q49808d15b8",
+          "decision": "sol_anchor",
+          "reason": "A направляет переход героини к ближайшему антецеденту — преследующей службе."
+        },
+        {
+          "id": "qcbe946abf7",
+          "decision": "sol_anchor",
+          "reason": "A переворачивает направление телефонного звонка."
+        },
+        {
+          "id": "qfea9fde21e",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q52c8bbe1ec",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q81934bc463",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q169b1b9d62",
+          "decision": "sol_anchor",
+          "reason": "A утяжеляет образ загрузки неясной конструкцией индикатора."
+        },
+        {
+          "id": "qe8c00254a0",
+          "decision": "sol_anchor",
+          "reason": "B необоснованно добавляет Большой Барьерный риф."
+        },
+        {
+          "id": "qa8a286da66",
+          "decision": "sol_anchor",
+          "reason": "B заменяет эмоциональное узнавание человека технической «особью»."
+        },
+        {
+          "id": "qd34f35c181",
+          "decision": "sol_anchor",
+          "reason": "B переносит узел с окрестностей Юпитера на планету."
+        }
+      ]
+    },
+    "luna_guard_vs_anchor": {
+      "wins": 1,
+      "losses": 14,
+      "ties": 15,
+      "unclear": 0,
+      "net": -13,
+      "items": [
+        {
+          "id": "qeb5bfb523b",
+          "decision": "luna_guard",
+          "reason": "В B нарушена предметная сочетаемость «втаптывала ему рёбра»."
+        },
+        {
+          "id": "qdbaaab067c",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q7c3d95f57d",
+          "decision": "sol_anchor",
+          "reason": "B теряет утверждение, что других друзей вообще не было."
+        },
+        {
+          "id": "q1a124e210a",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q3cb5976585",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qcf950c4864",
+          "decision": "sol_anchor",
+          "reason": "B теряет значение единственного друга вообще."
+        },
+        {
+          "id": "q0ee1c0cd42",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q269307d5a9",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qb6f48742c7",
+          "decision": "sol_anchor",
+          "reason": "A заменяет продолженное избиение однократным «пнул»."
+        },
+        {
+          "id": "q4d3dc54baa",
+          "decision": "sol_anchor",
+          "reason": "B заменяет единый ИИ-правообладатель множественными наследниками."
+        },
+        {
+          "id": "qdf715a19a6",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qfa3f76ea9a",
+          "decision": "sol_anchor",
+          "reason": "B заменяет согласованные повороты роботов качением."
+        },
+        {
+          "id": "qdeb6786d21",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q28167c0ed9",
+          "decision": "sol_anchor",
+          "reason": "B сохраняет отсутствие возражений без добавленного смирения."
+        },
+        {
+          "id": "qf75369d6ce",
+          "decision": "sol_anchor",
+          "reason": "B называет человеческим сам риф вместо оболочки."
+        },
+        {
+          "id": "qed34513c3c",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qe1201d759d",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qa6ff60816c",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q8221a17b47",
+          "decision": "sol_anchor",
+          "reason": "B нарушает управление в «оставшуюся впахивают»."
+        },
+        {
+          "id": "qd96c62da74",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qff3beb7bf1",
+          "decision": "sol_anchor",
+          "reason": "A путает активацию со срабатыванием."
+        },
+        {
+          "id": "q49808d15b8",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qcbe946abf7",
+          "decision": "sol_anchor",
+          "reason": "B переворачивает направление звонка."
+        },
+        {
+          "id": "qfea9fde21e",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q52c8bbe1ec",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q81934bc463",
+          "decision": "sol_anchor",
+          "reason": "A приписывает AOL назначение для новичков."
+        },
+        {
+          "id": "q169b1b9d62",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qe8c00254a0",
+          "decision": "sol_anchor",
+          "reason": "A необоснованно добавляет Большой Барьерный риф."
+        },
+        {
+          "id": "qa8a286da66",
+          "decision": "sol_anchor",
+          "reason": "B создаёт скачок мужских и женских местоимений."
+        },
+        {
+          "id": "qd34f35c181",
+          "decision": "sol_anchor",
+          "reason": "A переносит вычислительный массив на Юпитер."
+        }
+      ]
+    },
+    "luna_brief_vs_anchor": {
+      "wins": 1,
+      "losses": 15,
+      "ties": 14,
+      "unclear": 0,
+      "net": -14,
+      "items": [
+        {
+          "id": "qeb5bfb523b",
+          "decision": "luna_brief",
+          "reason": "В B не складывается действие «втаптывала ему рёбра»."
+        },
+        {
+          "id": "qdbaaab067c",
+          "decision": "sol_anchor",
+          "reason": "B переворачивает сравнительную оценку риска."
+        },
+        {
+          "id": "q7c3d95f57d",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q1a124e210a",
+          "decision": "sol_anchor",
+          "reason": "A искажает сравнение участи рассказчика с участью Земли."
+        },
+        {
+          "id": "q3cb5976585",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qcf950c4864",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q0ee1c0cd42",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q269307d5a9",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qb6f48742c7",
+          "decision": "sol_anchor",
+          "reason": "B не передаёт продолженные удары до неподвижности."
+        },
+        {
+          "id": "q4d3dc54baa",
+          "decision": "sol_anchor",
+          "reason": "B сохраняет единого ИИ, представляющего наследие Азимова."
+        },
+        {
+          "id": "qdf715a19a6",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qfa3f76ea9a",
+          "decision": "sol_anchor",
+          "reason": "B теряет согласованные повороты, заменяя их колесить."
+        },
+        {
+          "id": "qdeb6786d21",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q28167c0ed9",
+          "decision": "sol_anchor",
+          "reason": "В B нарушено управление «с этим он был не против»."
+        },
+        {
+          "id": "qf75369d6ce",
+          "decision": "sol_anchor",
+          "reason": "B путает риф с оболочкой внутри человеческого тела."
+        },
+        {
+          "id": "qed34513c3c",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qe1201d759d",
+          "decision": "sol_anchor",
+          "reason": "A неверно понимает pen-trace как отслеживание ввода."
+        },
+        {
+          "id": "qa6ff60816c",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q8221a17b47",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qd96c62da74",
+          "decision": "sol_anchor",
+          "reason": "B удваивает число награждений."
+        },
+        {
+          "id": "qff3beb7bf1",
+          "decision": "sol_anchor",
+          "reason": "B путает активацию устройства с его срабатыванием."
+        },
+        {
+          "id": "q49808d15b8",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qcbe946abf7",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qfea9fde21e",
+          "decision": "sol_anchor",
+          "reason": "A переносит сексуальность содержания на сами аппараты."
+        },
+        {
+          "id": "q52c8bbe1ec",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q81934bc463",
+          "decision": "sol_anchor",
+          "reason": "A приписывает сервису назначение для новичков вместо состава пользователей."
+        },
+        {
+          "id": "q169b1b9d62",
+          "decision": "sol_anchor",
+          "reason": "B заменяет провал восприятия замиранием происходящего."
+        },
+        {
+          "id": "qe8c00254a0",
+          "decision": "sol_anchor",
+          "reason": "B добавляет другое географическое название."
+        },
+        {
+          "id": "qa8a286da66",
+          "decision": "sol_anchor",
+          "reason": "A создаёт скачок «он» — «её» о той же женщине."
+        },
+        {
+          "id": "qd34f35c181",
+          "decision": "tie",
+          "reason": ""
+        }
+      ]
+    },
+    "luna_memory_vs_anchor": {
+      "wins": 1,
+      "losses": 13,
+      "ties": 16,
+      "unclear": 0,
+      "net": -12,
+      "items": [
+        {
+          "id": "qeb5bfb523b",
+          "decision": "luna_memory",
+          "reason": "A вводит несостоятельное сочетание «втаптывала ему рёбра»."
+        },
+        {
+          "id": "qdbaaab067c",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q7c3d95f57d",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q1a124e210a",
+          "decision": "sol_anchor",
+          "reason": "B сохраняет метафору детского поля битвы."
+        },
+        {
+          "id": "q3cb5976585",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qcf950c4864",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q0ee1c0cd42",
+          "decision": "sol_anchor",
+          "reason": "В B родительный падеж превращает лёгкие в выдуваемый предмет."
+        },
+        {
+          "id": "q269307d5a9",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qb6f48742c7",
+          "decision": "sol_anchor",
+          "reason": "A делает продолженное избиение однократным ударом."
+        },
+        {
+          "id": "q4d3dc54baa",
+          "decision": "sol_anchor",
+          "reason": "B превращает единый ИИ-правообладатель во множественных наследников."
+        },
+        {
+          "id": "qdf715a19a6",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qfa3f76ea9a",
+          "decision": "sol_anchor",
+          "reason": "B буквально и ошибочно переводит wheeling как движение колёсами."
+        },
+        {
+          "id": "qdeb6786d21",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q28167c0ed9",
+          "decision": "sol_anchor",
+          "reason": "A подменяет огнестрельное оружие пулей."
+        },
+        {
+          "id": "qf75369d6ce",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qed34513c3c",
+          "decision": "sol_anchor",
+          "reason": "B теряет запинку при признании множества экземпляров."
+        },
+        {
+          "id": "qe1201d759d",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qa6ff60816c",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q8221a17b47",
+          "decision": "sol_anchor",
+          "reason": "A опускает перестройку нейронных связей."
+        },
+        {
+          "id": "qd96c62da74",
+          "decision": "sol_anchor",
+          "reason": "B вводит отдельные тройные награждения от каждого."
+        },
+        {
+          "id": "qff3beb7bf1",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q49808d15b8",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qcbe946abf7",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qfea9fde21e",
+          "decision": "sol_anchor",
+          "reason": "A калькирует home-front как бытовой «домашний фронт»."
+        },
+        {
+          "id": "q52c8bbe1ec",
+          "decision": "sol_anchor",
+          "reason": "A точнее сохраняет уже случившуюся беду и недавнюю редкость встреч."
+        },
+        {
+          "id": "q81934bc463",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "q169b1b9d62",
+          "decision": "tie",
+          "reason": ""
+        },
+        {
+          "id": "qe8c00254a0",
+          "decision": "sol_anchor",
+          "reason": "B добавляет отсутствующий Большой Барьерный риф."
+        },
+        {
+          "id": "qa8a286da66",
+          "decision": "sol_anchor",
+          "reason": "A перескакивает с мужских местоимений на женские о той же женщине."
+        },
+        {
+          "id": "qd34f35c181",
+          "decision": "tie",
+          "reason": ""
+        }
+      ]
+    }
+  },
+  "selected": {
+    "terra": "terra_guard",
+    "luna": "luna_plain"
+  },
+  "calibration": {
+    "correct": 6,
+    "total": 6,
+    "false_major": false,
+    "pass": true
+  },
+  "source_words": 2173,
+  "accepted_issues": [
+    {
+      "issue_id": "source_audit_0:0",
+      "origin": "source_audit_0",
+      "source_id": "qb5bac1925f",
+      "candidate_id": "vf78ac3f28194fc",
+      "category": "term_sense",
+      "severity": "major",
+      "source_quote": "He lay on the bench.",
+      "target_quote": "Он сидел на скамейке.",
+      "reason": "Положение лёжа заменено положением сидя.",
+      "adjudication_reason": "Положение лёжа заменено положением сидя."
+    },
+    {
+      "issue_id": "source_audit_0:1",
+      "origin": "source_audit_0",
+      "source_id": "qd5c009494a",
+      "candidate_id": "v9d70b6e6892755",
+      "category": "number",
+      "severity": "major",
+      "source_quote": "Three lamps were lit.",
+      "target_quote": "Горели четыре лампы.",
+      "reason": "Вместо трёх горящих ламп указаны четыре.",
+      "adjudication_reason": "Число горящих ламп изменено с трёх на четыре."
+    },
+    {
+      "issue_id": "source_audit_0:2",
+      "origin": "source_audit_0",
+      "source_id": "q61a6f313be",
+      "candidate_id": "vabb9592be54211",
+      "category": "negation_modality",
+      "severity": "major",
+      "source_quote": "She had not yet opened the letter.",
+      "target_quote": "Она уже открыла письмо.",
+      "reason": "Отрицание утрачено: ещё не открытое письмо стало уже открытым.",
+      "adjudication_reason": "Ещё не совершённое действие представлено уже совершённым."
+    },
+    {
+      "issue_id": "source_audit_2:0",
+      "origin": "source_audit_2",
+      "source_id": "qff3beb7bf1",
+      "candidate_id": "v5bd99f56f76b0e",
+      "category": "number",
+      "severity": "minor",
+      "source_quote": "They're pretty much fire-and-forget.",
+      "target_quote": "Они почти все работают по принципу «установил и забыл».",
+      "reason": "The approximation concerns how the devices operate, but «почти все» makes it concern how many devices operate that way.",
+      "adjudication_reason": "Приблизительная характеристика работы устройств превращена в характеристику почти всех устройств."
+    },
+    {
+      "issue_id": "source_audit_3:1",
+      "origin": "source_audit_3",
+      "source_id": "qfea9fde21e",
+      "candidate_id": "vd11951de3ababd",
+      "category": "omission",
+      "severity": "minor",
+      "source_quote": "in crack-houses",
+      "target_quote": "в притонах",
+      "reason": "Утрачено уточнение, что это притоны, где употребляют крэк.",
+      "adjudication_reason": "Исчезло указание на употребление крэка в показанных притонах."
+    },
+    {
+      "issue_id": "source_audit_3:2",
+      "origin": "source_audit_3",
+      "source_id": "qcbe946abf7",
+      "candidate_id": "vc04e08fb144951",
+      "category": "term_sense",
+      "severity": "major",
+      "source_quote": "That number wasn't ringing anywhere, anymore.",
+      "target_quote": "Но теперь на звонок по этому номеру никто и нигде не отвечал.",
+      "reason": "Отсутствие звонящего по этому номеру телефона заменено отсутствием ответа на звонок.",
+      "adjudication_reason": "Отсутствие аппарата, на котором раздавался бы звонок, заменено отсутствием ответа."
+    },
+    {
+      "issue_id": "source_audit_4:0",
+      "origin": "source_audit_4",
+      "source_id": "q49808d15b8",
+      "candidate_id": "vee1cfe779e83eb",
+      "category": "actor",
+      "severity": "major",
+      "source_quote": "once I was in the clutches of Social Harmony, it would only get worse",
+      "target_quote": "попав в лапы Социальной гармонии, я сделаю только хуже",
+      "reason": "Ухудшение положения под властью Социальной гармонии заменено утверждением, что сама героиня сделает хуже.",
+      "adjudication_reason": "Ухудшение положения героини заменено ухудшением, которое причинит сама героиня."
+    },
+    {
+      "issue_id": "source_audit_4:1",
+      "origin": "source_audit_4",
+      "source_id": "qe1201d759d",
+      "candidate_id": "v14f111ad5ab019",
+      "category": "term_sense",
+      "severity": "minor",
+      "source_quote": "a pen-trace and location-log",
+      "target_quote": "перехват и регистрацию местоположения",
+      "reason": "Отслеживание телефонных соединений заменено перехватом, далее названным прослушкой; источник не указывает на перехват содержания разговоров.",
+      "adjudication_reason": "Регистрация телефонных соединений заменена перехватом и прослушкой, предполагающими доступ к содержанию связи."
+    },
+    {
+      "issue_id": "source_audit_5:0",
+      "origin": "source_audit_5",
+      "source_id": "qed34513c3c",
+      "candidate_id": "v64e1e437ff1a53",
+      "category": "speech_form",
+      "severity": "minor",
+      "source_quote": "There are -- there are *lots* of me.",
+      "target_quote": "Меня здесь много.",
+      "reason": "Убраны прерывистый повтор и выделение, передающие волнение при признании.",
+      "adjudication_reason": "Устранены запинка и выделение при первом признании о множественности экземпляров."
+    },
+    {
+      "issue_id": "source_audit_5:1",
+      "origin": "source_audit_5",
+      "source_id": "qed34513c3c",
+      "candidate_id": "v64e1e437ff1a53",
+      "category": "time_direction",
+      "severity": "minor",
+      "source_quote": "One of the first things I did here",
+      "target_quote": "Первым делом",
+      "reason": "Одно из первых занятий превращено в самое первое.",
+      "adjudication_reason": "Одно из ранних действий представлено первоочередным действием."
+    },
+    {
+      "issue_id": "source_audit_5:3",
+      "origin": "source_audit_5",
+      "source_id": "q52c8bbe1ec",
+      "candidate_id": "v392788b2f753e9",
+      "category": "omission",
+      "severity": "minor",
+      "source_quote": "Flag a sentry.",
+      "target_quote": "Поднимаешь тревогу.",
+      "reason": "Утрачено конкретное действие: привлечь внимание часового.",
+      "adjudication_reason": "Общее поднятие тревоги не сохраняет конкретное обращение к часовому."
+    },
+    {
+      "issue_id": "source_audit_5:4",
+      "origin": "source_audit_5",
+      "source_id": "q7c3d95f57d",
+      "candidate_id": "v4fcb04ab82b81a",
+      "category": "speech_form",
+      "severity": "minor",
+      "source_quote": "just, just grew back out of what was left",
+      "target_quote": "просто выросший из того, что осталось",
+      "reason": "Убран запинающийся повтор, передающий затруднение ребёнка при объяснении.",
+      "adjudication_reason": "Убран повтор, которым ребёнок прерывает своё объяснение."
+    },
+    {
+      "issue_id": "source_audit_5:5",
+      "origin": "source_audit_5",
+      "source_id": "q4d3dc54baa",
+      "candidate_id": "v733a5581384dd1",
+      "category": "term_sense",
+      "severity": "major",
+      "source_quote": "His trademark violations",
+      "target_quote": "Его нарушения авторских прав",
+      "reason": "Нарушения прав на товарные знаки заменены нарушениями авторских прав.",
+      "adjudication_reason": "Права на товарные знаки заменены авторскими правами."
+    },
+    {
+      "issue_id": "source_audit_5:6",
+      "origin": "source_audit_5",
+      "source_id": "q4d3dc54baa",
+      "candidate_id": "v733a5581384dd1",
+      "category": "actor",
+      "severity": "major",
+      "source_quote": "the Asimov estate -- itself an AI",
+      "target_quote": "наследников Азимова — ирония в том, что и они сами были ИИ",
+      "reason": "Единый ИИ, представляющий наследие Азимова, превращён в нескольких наследников-ИИ.",
+      "adjudication_reason": "Один ИИ, представляющий наследие Азимова, заменён несколькими наследниками-ИИ."
+    },
+    {
+      "issue_id": "source_audit_5:7",
+      "origin": "source_audit_5",
+      "source_id": "qe8c00254a0",
+      "candidate_id": "vcc015dfb548af1",
+      "category": "addition",
+      "severity": "major",
+      "source_quote": "Osprey Reef",
+      "target_quote": "Большой Барьерный риф Оспрей",
+      "reason": "Добавлено отсутствующее отождествление рифа Оспрей с Большим Барьерным рифом.",
+      "adjudication_reason": "В название рифа внесено отсутствующее в источнике отождествление с Большим Барьерным рифом."
+    },
+    {
+      "issue_id": "source_audit_5:8",
+      "origin": "source_audit_5",
+      "source_id": "qcbe946abf7",
+      "candidate_id": "va1c47a09e4ad89",
+      "category": "other",
+      "severity": "major",
+      "source_quote": "That number wasn't ringing anywhere, anymore.",
+      "target_quote": "Теперь этот номер больше никуда не звонил.",
+      "reason": "Звонки на недействующий номер заменены исходящими звонками с этого номера.",
+      "adjudication_reason": "Невозможность дозвониться на номер заменена отсутствием исходящих звонков с него."
+    },
+    {
+      "issue_id": "source_audit_5:9",
+      "origin": "source_audit_5",
+      "source_id": "q1a124e210a",
+      "candidate_id": "vc4e8b6af0d8b56",
+      "category": "term_sense",
+      "severity": "major",
+      "source_quote": "spared me the worse fate befalling Earth",
+      "target_quote": "уберегло меня от участи хуже той, что постигла Землю",
+      "reason": "В оригинале худшая участь постигает Землю; перевод вводит другую участь, ещё хуже земной.",
+      "adjudication_reason": "Перевод вводит участь хуже земной вместо земной участи, которой избежал рассказчик."
+    },
+    {
+      "issue_id": "source_audit_6:0",
+      "origin": "source_audit_6",
+      "source_id": "q7c3d95f57d",
+      "candidate_id": "ve1308f35297bb4",
+      "category": "omission",
+      "severity": "minor",
+      "source_quote": "my best and only friend",
+      "target_quote": "мой единственный лучший друг",
+      "reason": "Единственный друг превращается в единственного лучшего друга, что допускает наличие других друзей.",
+      "adjudication_reason": "Ограничение касается только лучших друзей, поэтому утверждение об отсутствии любых других друзей утрачено."
+    },
+    {
+      "issue_id": "source_audit_6:1",
+      "origin": "source_audit_6",
+      "source_id": "qb6f48742c7",
+      "candidate_id": "v3096ae07a552d0",
+      "category": "number",
+      "severity": "major",
+      "source_quote": "I kicked one in the head until it stopped moving",
+      "target_quote": "Я пнул одного в голову, пока он не перестал шевелиться",
+      "reason": "Продолжающееся избиение до прекращения движений передано как один пинок.",
+      "adjudication_reason": "Однократный пинок заменяет удары, продолжавшиеся до прекращения движений."
+    },
+    {
+      "issue_id": "source_audit_6:2",
+      "origin": "source_audit_6",
+      "source_id": "qff3beb7bf1",
+      "candidate_id": "v9595a953c05e60",
+      "category": "term_sense",
+      "severity": "major",
+      "source_quote": "Coulda been a month, coulda been a day.",
+      "target_quote": "Мог месяц назад сработать, мог вчера.",
+      "reason": "Ответ касается времени активации устройства; «сработать» переносит в прошлое его поражающее действие.",
+      "adjudication_reason": "Вопрос о приведении устройства в активное состояние получает ответ о его срабатывании."
+    },
+    {
+      "issue_id": "source_audit_6:3",
+      "origin": "source_audit_6",
+      "source_id": "qed34513c3c",
+      "candidate_id": "v0ff41c58f480c8",
+      "category": "time_direction",
+      "severity": "minor",
+      "source_quote": "One of the first things I did here",
+      "target_quote": "Первым делом",
+      "reason": "Одно из первых занятий становится однозначно самым первым.",
+      "adjudication_reason": "Одно из ранних действий представлено первоочередным действием."
+    },
+    {
+      "issue_id": "source_audit_6:4",
+      "origin": "source_audit_6",
+      "source_id": "q52c8bbe1ec",
+      "candidate_id": "v35b7e22acd1837",
+      "category": "term_sense",
+      "severity": "minor",
+      "source_quote": "six bigger kids",
+      "target_quote": "шестерых ребят постарше",
+      "reason": "Физическое превосходство в размерах заменено старшим возрастом.",
+      "adjudication_reason": "Физический размер противников заменён возрастом, который источник не устанавливает."
+    },
+    {
+      "issue_id": "source_audit_6:5",
+      "origin": "source_audit_6",
+      "source_id": "qcbe946abf7",
+      "candidate_id": "vca2e1238a57086",
+      "category": "other",
+      "severity": "major",
+      "source_quote": "That number wasn't ringing anywhere, anymore.",
+      "target_quote": "Но этот номер больше никуда не звонил.",
+      "reason": "Недоступность номера для входящих звонков заменена отсутствием исходящих звонков.",
+      "adjudication_reason": "Недоступность номера для входящих звонков заменена отсутствием исходящих звонков."
+    },
+    {
+      "issue_id": "source_audit_6:6",
+      "origin": "source_audit_6",
+      "source_id": "qe8c00254a0",
+      "candidate_id": "v88ce1c92b947d3",
+      "category": "addition",
+      "severity": "major",
+      "source_quote": "Osprey Reef",
+      "target_quote": "Большой Барьерный риф Оспри",
+      "reason": "Добавлено отождествление рифа Оспри с Большим Барьерным рифом, которого в исходнике нет.",
+      "adjudication_reason": "В название рифа добавлено не установленное источником отождествление с Большим Барьерным рифом."
+    },
+    {
+      "issue_id": "source_audit_6:7",
+      "origin": "source_audit_6",
+      "source_id": "qcf950c4864",
+      "candidate_id": "v1c84017a6458ef",
+      "category": "omission",
+      "severity": "minor",
+      "source_quote": "my best and only friend",
+      "target_quote": "моим единственным лучшим другом",
+      "reason": "Утрачено указание, что других друзей у рассказчика вообще не было.",
+      "adjudication_reason": "Единственность лучшего друга не передаёт отсутствие у рассказчика других друзей вообще."
+    },
+    {
+      "issue_id": "source_audit_6:8",
+      "origin": "source_audit_6",
+      "source_id": "q4d3dc54baa",
+      "candidate_id": "ve436ce23e9ecd1",
+      "category": "actor",
+      "severity": "major",
+      "source_quote": "the Asimov estate -- itself an AI",
+      "target_quote": "наследниками Азимова — которые сами, как ни иронично, были ИИ",
+      "reason": "Единый ИИ, представляющий наследственное имущество Азимова, заменён множественными наследниками.",
+      "adjudication_reason": "Единый ИИ-правообладатель заменён несколькими наследниками."
+    },
+    {
+      "issue_id": "source_audit_7:0",
+      "origin": "source_audit_7",
+      "source_id": "qb6f48742c7",
+      "candidate_id": "vd0e500ecbdd971",
+      "category": "number",
+      "severity": "major",
+      "source_quote": "I kicked one in the head until it stopped moving",
+      "target_quote": "Я пнул одного в голову, пока он не перестал двигаться",
+      "reason": "Однократное «пнул» теряет продолжение ударов до прекращения движения.",
+      "adjudication_reason": "Однократный пинок заменяет удары, продолжавшиеся до прекращения движений."
+    },
+    {
+      "issue_id": "source_audit_7:1",
+      "origin": "source_audit_7",
+      "source_id": "q4d3dc54baa",
+      "candidate_id": "v8ba3f03fcb650a",
+      "category": "actor",
+      "severity": "major",
+      "source_quote": "the Asimov estate -- itself an AI",
+      "target_quote": "наследниками Азимова — которые сами были ИИ",
+      "reason": "Единый ИИ, представляющий наследственное имущество и права Азимова, заменён несколькими наследниками.",
+      "adjudication_reason": "Один ИИ, представляющий наследие, превращён в нескольких наследников-ИИ."
+    },
+    {
+      "issue_id": "source_audit_7:2",
+      "origin": "source_audit_7",
+      "source_id": "qd96c62da74",
+      "candidate_id": "v04ffd24ece9d33",
+      "category": "number",
+      "severity": "major",
+      "source_quote": "He'd been decorated on three separate occasions by his commander and by the Regional Manager for Social Harmony",
+      "target_quote": "Командир и региональный управляющий Социальной гармонии награждали его отдельно по три раза",
+      "reason": "Три случая награждения превращены в три награждения от каждого, то есть шесть.",
+      "adjudication_reason": "Три случая награждения превращены в три награждения от каждого из двух награждающих."
+    },
+    {
+      "issue_id": "source_audit_7:3",
+      "origin": "source_audit_7",
+      "source_id": "qff3beb7bf1",
+      "candidate_id": "vef33c2f63c936e",
+      "category": "term_sense",
+      "severity": "major",
+      "source_quote": "Coulda been a month, coulda been a day.",
+      "target_quote": "Мог месяц назад сработать, мог вчера.",
+      "reason": "Ответ о времени активации устройства превращён в утверждение о времени его срабатывания.",
+      "adjudication_reason": "Давность активации устройства заменена давностью его срабатывания."
+    },
+    {
+      "issue_id": "source_audit_7:4",
+      "origin": "source_audit_7",
+      "source_id": "qfea9fde21e",
+      "candidate_id": "vafcf54978deeec",
+      "category": "omission",
+      "severity": "minor",
+      "source_quote": "in crack-houses",
+      "target_quote": "на экранах притонов",
+      "reason": "Утрачено указание на притоны, где употребляют крэк.",
+      "adjudication_reason": "Перевод не сохраняет указание на употребление крэка в притонах."
+    },
+    {
+      "issue_id": "source_audit_7:5",
+      "origin": "source_audit_7",
+      "source_id": "q169b1b9d62",
+      "candidate_id": "v6bd59f717cd7e1",
+      "category": "term_sense",
+      "severity": "major",
+      "source_quote": "then there was a moment of nothing at all",
+      "target_quote": "а затем всё на мгновение замерло",
+      "reason": "Полное отсутствие переживания заменено ощущением остановившегося происходящего.",
+      "adjudication_reason": "Провал восприятия заменён остановкой происходящего."
+    },
+    {
+      "issue_id": "source_audit_7:6",
+      "origin": "source_audit_7",
+      "source_id": "qe8c00254a0",
+      "candidate_id": "veabfe70b6f6055",
+      "category": "addition",
+      "severity": "major",
+      "source_quote": "Osprey Reef",
+      "target_quote": "Большой Барьерный риф Оспрей",
+      "reason": "Добавлена отсутствующая в исходнике географическая идентификация с Большим Барьерным рифом.",
+      "adjudication_reason": "Большой Барьерный риф добавлен как часть географической идентификации без основания в источнике."
+    },
+    {
+      "issue_id": "source_audit_7:7",
+      "origin": "source_audit_7",
+      "source_id": "qe1201d759d",
+      "candidate_id": "v8b3e1f5b3c11d1",
+      "category": "term_sense",
+      "severity": "minor",
+      "source_quote": "a pen-trace",
+      "target_quote": "отслеживание вводимых данных",
+      "reason": "Регистрация телефонных соединений заменена отслеживанием вводимых данных.",
+      "adjudication_reason": "Регистрация телефонных соединений заменена регистрацией пользовательского ввода."
+    },
+    {
+      "issue_id": "source_audit_7:8",
+      "origin": "source_audit_7",
+      "source_id": "qdbaaab067c",
+      "candidate_id": "v41cecaacd8eda6",
+      "category": "negation_modality",
+      "severity": "major",
+      "source_quote": "less risky",
+      "target_quote": "так рискованнее",
+      "reason": "Оценка риска покупки обращена в противоположную.",
+      "adjudication_reason": "Меньший риск покупки заменён большим риском."
+    },
+    {
+      "issue_id": "source_audit_7:9",
+      "origin": "source_audit_7",
+      "source_id": "q1a124e210a",
+      "candidate_id": "v866cac20e60748",
+      "category": "term_sense",
+      "severity": "major",
+      "source_quote": "spared me the worse fate befalling Earth",
+      "target_quote": "уберегло меня от участи ещё хуже той, что постигла Землю",
+      "reason": "В оригинале худшая участь постигает Землю; перевод вводит другую участь, ещё хуже земной.",
+      "adjudication_reason": "Избежанная участь Земли заменена другой участью, ещё хуже земной."
+    },
+    {
+      "issue_id": "source_audit_8:0",
+      "origin": "source_audit_8",
+      "source_id": "qb6f48742c7",
+      "candidate_id": "v7ef03860a9dc3f",
+      "category": "number",
+      "severity": "major",
+      "source_quote": "I kicked one in the head until it stopped moving",
+      "target_quote": "Я пнул одного в голову, пока он не перестал двигаться",
+      "reason": "Продолжающееся избиение до прекращения движений передано как один удар.",
+      "adjudication_reason": "Однократный пинок заменяет продолжающееся избиение до неподвижности."
+    },
+    {
+      "issue_id": "source_audit_8:1",
+      "origin": "source_audit_8",
+      "source_id": "qdbaaab067c",
+      "candidate_id": "v216caa65245b2b",
+      "category": "omission",
+      "severity": "minor",
+      "source_quote": "the Swedish flat-pack store",
+      "target_quote": "шведского мебельного магазина",
+      "reason": "Опущена характеристика магазина: продажа мебели в разобранном виде.",
+      "adjudication_reason": "Утрачена характеристика мебели, продаваемой в разобранном виде."
+    },
+    {
+      "issue_id": "source_audit_8:2",
+      "origin": "source_audit_8",
+      "source_id": "q4d3dc54baa",
+      "candidate_id": "va8fecc8963ac4e",
+      "category": "actor",
+      "severity": "major",
+      "source_quote": "the Asimov estate -- itself an AI",
+      "target_quote": "наследников Азимова — тоже, как ни иронично, ИИ",
+      "reason": "Единый ИИ, представляющий наследственное имущество Азимова, заменён несколькими наследниками.",
+      "adjudication_reason": "Единый ИИ, представляющий наследие Азимова, заменён несколькими наследниками."
+    },
+    {
+      "issue_id": "source_audit_8:3",
+      "origin": "source_audit_8",
+      "source_id": "qed34513c3c",
+      "candidate_id": "vdaea694168a4d2",
+      "category": "speech_form",
+      "severity": "minor",
+      "source_quote": "There are -- there are *lots* of me.",
+      "target_quote": "Меня здесь много.",
+      "reason": "Убраны запинка и выделенное усиление, передающие волнение при признании.",
+      "adjudication_reason": "Признание лишено исходной запинки и выделенного ударения."
+    },
+    {
+      "issue_id": "source_audit_8:4",
+      "origin": "source_audit_8",
+      "source_id": "qed34513c3c",
+      "candidate_id": "vdaea694168a4d2",
+      "category": "time_direction",
+      "severity": "minor",
+      "source_quote": "One of the first things I did here",
+      "target_quote": "Первым делом",
+      "reason": "Одно из первых действий превращено в самое первое.",
+      "adjudication_reason": "Одно из ранних действий превращено в первоочередное."
+    },
+    {
+      "issue_id": "source_audit_8:5",
+      "origin": "source_audit_8",
+      "source_id": "qfa3f76ea9a",
+      "candidate_id": "v64050e19abac15",
+      "category": "term_sense",
+      "severity": "minor",
+      "source_quote": "wheeling in lockstep like schools of exotic fish",
+      "target_quote": "двигавшихся колёсами в ногу, словно стаи экзотических рыб",
+      "reason": "Согласованные повороты строя ошибочно превращены в движение на колёсах.",
+      "adjudication_reason": "Согласованные повороты заменены движением колёсами, которого источник не задаёт."
+    },
+    {
+      "issue_id": "source_audit_8:6",
+      "origin": "source_audit_8",
+      "source_id": "q52c8bbe1ec",
+      "candidate_id": "vd7b4b401583bf1",
+      "category": "negation_modality",
+      "severity": "minor",
+      "source_quote": "I hadn't seen much of Pag lately.",
+      "target_quote": "Я давно не видел Пэга.",
+      "reason": "Редкие встречи в последнее время заменены длительным отсутствием встреч.",
+      "adjudication_reason": "Редкие недавние встречи заменены длительным отсутствием встреч."
+    },
+    {
+      "issue_id": "source_audit_8:7",
+      "origin": "source_audit_8",
+      "source_id": "q8221a17b47",
+      "candidate_id": "v6308f937a930f4",
+      "category": "omission",
+      "severity": "minor",
+      "source_quote": "Think of all the rewiring that one lonely hemisphere must have struggled with as it tried to take up the slack.",
+      "target_quote": "Подумать только, как тяжело, должно быть, приходилось этому одинокому полушарию, пока оно пыталось компенсировать недостающее.",
+      "reason": "Опущена перестройка нервных связей, с которой связаны описанные трудности.",
+      "adjudication_reason": "Сохранена трудность компенсации, но исчезло конкретное перестраивание нервных связей."
+    },
+    {
+      "issue_id": "source_audit_8:8",
+      "origin": "source_audit_8",
+      "source_id": "qe8c00254a0",
+      "candidate_id": "vaa98a16aa7b7ce",
+      "category": "addition",
+      "severity": "major",
+      "source_quote": "Osprey Reef",
+      "target_quote": "Большой Барьерный риф Оспри",
+      "reason": "Добавлено отсутствующее в исходнике географическое название «Большой Барьерный риф».",
+      "adjudication_reason": "Название дополнено отсутствующим в источнике отождествлением с Большим Барьерным рифом."
+    },
+    {
+      "issue_id": "source_audit_8:9",
+      "origin": "source_audit_8",
+      "source_id": "q28167c0ed9",
+      "candidate_id": "v3e4702c5f85ed0",
+      "category": "term_sense",
+      "severity": "major",
+      "source_quote": "outfitted with a gun instead of a pulse-weapon",
+      "target_quote": "оснастили пулей вместо импульсного оружия",
+      "reason": "Огнестрельное оружие заменено пулей, меняя описанное оснащение машины.",
+      "adjudication_reason": "Оружие заменено отдельной пулей, меняя оснащение устройства."
+    },
+    {
+      "issue_id": "prose_audit:4",
+      "origin": "prose_audit",
+      "source_id": "q7c3d95f57d",
+      "candidate_id": "v4fcb04ab82b81a",
+      "category": "speech_form",
+      "severity": "minor",
+      "source_quote": "some whole other kid that just, just grew back out of what was left",
+      "target_quote": "совсем другой ребёнок, просто выросший из того, что осталось",
+      "reason": "Причастный оборот и удаление запинки превращают сбивчивую детскую речь в гладкое письменное изложение.",
+      "adjudication_reason": "Удаление повтора сглаживает конкретную запинку в детской реплике; само причастие отдельной ошибки не доказывает."
+    },
+    {
+      "issue_id": "prose_audit:8",
+      "origin": "prose_audit",
+      "source_id": "q1a124e210a",
+      "candidate_id": "vcb8d55736784d0",
+      "category": "voice_rhythm",
+      "severity": "minor",
+      "source_quote": "I see that now, blind",
+      "target_quote": "теперь я это понимаю — слепой",
+      "reason": "Исчезает намеренный парадокс зрения слепого и его связь с повторяемой точкой зрения.",
+      "adjudication_reason": "Передача понимания устраняет намеренное соседство видения и слепоты."
+    },
+    {
+      "issue_id": "prose_audit:9",
+      "origin": "prose_audit",
+      "source_id": "q1a124e210a",
+      "candidate_id": "v0b71680e09917b",
+      "category": "voice_rhythm",
+      "severity": "minor",
+      "source_quote": "I see that now, blind",
+      "target_quote": "теперь я это понимаю — слепой",
+      "reason": "Утрачена связующая игра зрения, слепоты и точки зрения.",
+      "adjudication_reason": "Исчезает словесная связь видения со слепотой и повторяемой точкой зрения."
+    },
+    {
+      "issue_id": "prose_audit:10",
+      "origin": "prose_audit",
+      "source_id": "q1a124e210a",
+      "candidate_id": "vc4e8b6af0d8b56",
+      "category": "omission",
+      "severity": "minor",
+      "source_quote": "on a childhood battlefield",
+      "target_quote": "с детской площадки",
+      "reason": "Убрана военная метафора детского опыта.",
+      "adjudication_reason": "Детская площадка заменяет образ поля боя и устраняет военную метафору."
+    },
+    {
+      "issue_id": "prose_audit:11",
+      "origin": "prose_audit",
+      "source_id": "q1a124e210a",
+      "candidate_id": "vfc6f414ac81bf6",
+      "category": "omission",
+      "severity": "minor",
+      "source_quote": "on a childhood battlefield",
+      "target_quote": "с детской площадки",
+      "reason": "Конкретное место подменяет намеренную военную метафору.",
+      "adjudication_reason": "Конкретизация места устраняет метафору детского поля боя."
+    },
+    {
+      "issue_id": "prose_audit:12",
+      "origin": "prose_audit",
+      "source_id": "q3cb5976585",
+      "candidate_id": "vacf4a9f84d7fab",
+      "category": "grammar",
+      "severity": "minor",
+      "source_quote": "turning to face the new threat",
+      "target_quote": "повернулся к лицом к новой угрозе",
+      "reason": "Лишний предлог делает конструкцию неграмматичной.",
+      "adjudication_reason": "Лишний предлог перед словом «лицом» нарушает конструкцию."
+    },
+    {
+      "issue_id": "prose_audit:15",
+      "origin": "prose_audit",
+      "source_id": "qcf950c4864",
+      "candidate_id": "v1dd01d00462a7e",
+      "category": "calque_collocation",
+      "severity": "minor",
+      "source_quote": "an uncontrolled genotype that left him predisposed",
+      "target_quote": "неконтролируемый генотип оставил ему предрасположенность",
+      "reason": "Калькировано управление left him; генотип здесь не оставляет человеку предрасположенность как наследство.",
+      "adjudication_reason": "Конструкция с оставленной человеку предрасположенностью неестественно переносит английское управление."
+    },
+    {
+      "issue_id": "prose_audit:17",
+      "origin": "prose_audit",
+      "source_id": "q0ee1c0cd42",
+      "candidate_id": "vbe4aab4f32e99f",
+      "category": "grammar",
+      "severity": "minor",
+      "source_quote": "air! lungs! wet squishy things down there in the chest cavity",
+      "target_quote": "воздуха! лёгких! мокрых мягких штук там, в грудной клетке",
+      "reason": "Родительный падеж присоединяет лёгкие и внутренности к «выдул немного», превращая открытия героя в выдуваемые предметы.",
+      "adjudication_reason": "Родительный падеж лёгких и внутренних органов присоединяет их к выдыхаемому количеству вместо самостоятельных восклицаний открытия."
+    },
+    {
+      "issue_id": "prose_audit:18",
+      "origin": "prose_audit",
+      "source_id": "q0ee1c0cd42",
+      "candidate_id": "vbe4aab4f32e99f",
+      "category": "grammar",
+      "severity": "minor",
+      "source_quote": "Waggled the head",
+      "target_quote": "Повернул головой",
+      "reason": "Нарушено управление глагола.",
+      "adjudication_reason": "Для глагола поворота головы здесь ошибочно использован творительный падеж."
+    },
+    {
+      "issue_id": "prose_audit:20",
+      "origin": "prose_audit",
+      "source_id": "q0ee1c0cd42",
+      "candidate_id": "v3d6e78f2f25198",
+      "category": "calque_collocation",
+      "severity": "minor",
+      "source_quote": "How did people get by in one of these?",
+      "target_quote": "Как люди вообще умудрялись обходиться в такой штуке?",
+      "reason": "«Обходиться в» калькирует английскую конструкцию без естественного русского значения.",
+      "adjudication_reason": "Сочетание «обходиться в такой штуке» не даёт естественной русской конструкции для существования в ограниченном теле."
+    },
+    {
+      "issue_id": "prose_audit:21",
+      "origin": "prose_audit",
+      "source_id": "q269307d5a9",
+      "candidate_id": "ve7aa6c73f64641",
+      "category": "term_sense",
+      "severity": "minor",
+      "source_quote": "even as they incapacitated me",
+      "target_quote": "хотя и лишали меня всякой защиты",
+      "reason": "Физическая неспособность действовать подменена отсутствием защиты.",
+      "adjudication_reason": "Неспособность действовать сужена до отсутствия защиты, хотя припадки ограничивают деятельность шире."
+    },
+    {
+      "issue_id": "prose_audit:23",
+      "origin": "prose_audit",
+      "source_id": "qb6f48742c7",
+      "candidate_id": "vacc4fc176adc3d",
+      "category": "number",
+      "severity": "major",
+      "source_quote": "I kicked one in the head until it stopped moving",
+      "target_quote": "Я пнул одного по голове, пока он не перестал шевелиться",
+      "reason": "Однократный совершенный глагол конфликтует с продолжавшимся до результата избиением.",
+      "adjudication_reason": "Однократный пинок заменяет удары, продолжавшиеся до прекращения движений."
+    },
+    {
+      "issue_id": "prose_audit:31",
+      "origin": "prose_audit",
+      "source_id": "q4d3dc54baa",
+      "candidate_id": "v733a5581384dd1",
+      "category": "term_sense",
+      "severity": "major",
+      "source_quote": "trademark violations",
+      "target_quote": "нарушения авторских прав",
+      "reason": "Подменён вид интеллектуальных прав.",
+      "adjudication_reason": "Нарушения прав на товарные знаки заменены нарушениями авторских прав."
+    },
+    {
+      "issue_id": "prose_audit:32",
+      "origin": "prose_audit",
+      "source_id": "q4d3dc54baa",
+      "candidate_id": "v9c04757aa78ed1",
+      "category": "grammar",
+      "severity": "minor",
+      "source_quote": "the Asimov estate -- itself an AI",
+      "target_quote": "наследниками Азимова — по иронии судьбы, тоже ИИ, совершенно не заинтересованным",
+      "reason": "Множественное «наследниками» сменяется единственным субъектом без согласования.",
+      "adjudication_reason": "Множественное число наследников не согласуется с последующим единственным числом определения и местоимений."
+    },
+    {
+      "issue_id": "prose_audit:33",
+      "origin": "prose_audit",
+      "source_id": "qdf715a19a6",
+      "candidate_id": "v3e40f7a527e146",
+      "category": "omission",
+      "severity": "minor",
+      "source_quote": "He struggled with the words, with the concept behind them.",
+      "target_quote": "Он с трудом подбирал слова, пытаясь выразить саму мысль.",
+      "reason": "Трудность осмысления сведена к трудности выражения уже имеющейся мысли.",
+      "adjudication_reason": "Сохранён поиск слов, но не самостоятельная трудность осмысления понятия."
+    },
+    {
+      "issue_id": "prose_audit:34",
+      "origin": "prose_audit",
+      "source_id": "qdf715a19a6",
+      "candidate_id": "v8d320bf1fe9819",
+      "category": "omission",
+      "severity": "minor",
+      "source_quote": "He struggled with the words, with the concept behind them.",
+      "target_quote": "Он с трудом подбирал слова, пытаясь выразить саму мысль.",
+      "reason": "Пропало отдельное усилие понять саму концепцию.",
+      "adjudication_reason": "Попытка выразить мысль не сохраняет отдельного усилия разобраться в самой концепции."
+    },
+    {
+      "issue_id": "prose_audit:35",
+      "origin": "prose_audit",
+      "source_id": "qdf715a19a6",
+      "candidate_id": "vfc8676015f45cd",
+      "category": "omission",
+      "severity": "minor",
+      "source_quote": "He struggled with the words, with the concept behind them.",
+      "target_quote": "Он с трудом подбирал слова, пытаясь выразить мысль.",
+      "reason": "Оставлена только трудность словесного выражения.",
+      "adjudication_reason": "Трудность понимания концепции сведена к трудности её выражения."
+    },
+    {
+      "issue_id": "prose_audit:36",
+      "origin": "prose_audit",
+      "source_id": "qdf715a19a6",
+      "candidate_id": "v6892aa3f83e670",
+      "category": "omission",
+      "severity": "minor",
+      "source_quote": "He struggled with the words, with the concept behind them.",
+      "target_quote": "Он с трудом подбирал слова, пытаясь выразить мысль.",
+      "reason": "Потеряно усилие ухватить саму мысль, отличное от подбора слов.",
+      "adjudication_reason": "Перевод передаёт подбор слов, опуская затруднение с самой концепцией."
+    },
+    {
+      "issue_id": "prose_audit:38",
+      "origin": "prose_audit",
+      "source_id": "qfa3f76ea9a",
+      "candidate_id": "v177accbe431d64",
+      "category": "term_sense",
+      "severity": "minor",
+      "source_quote": "wheeling in lockstep like schools of exotic fish",
+      "target_quote": "катились строем, как стаи невиданных рыб",
+      "reason": "Согласованные повороты подменены качением, необоснованно задающим всем роботам колёсное движение.",
+      "adjudication_reason": "Качение заменяет описанные согласованные повороты и добавляет способ передвижения."
+    },
+    {
+      "issue_id": "prose_audit:40",
+      "origin": "prose_audit",
+      "source_id": "qfa3f76ea9a",
+      "candidate_id": "vbdd4a94dbd843b",
+      "category": "term_sense",
+      "severity": "minor",
+      "source_quote": "wheeling in lockstep like schools of exotic fish",
+      "target_quote": "катившихся строем, как косяки диковинных рыб",
+      "reason": "Поворотный манёвр подменён качением.",
+      "adjudication_reason": "Вместо согласованных поворотов названо качение, которого источник не устанавливает."
+    },
+    {
+      "issue_id": "prose_audit:41",
+      "origin": "prose_audit",
+      "source_id": "qdeb6786d21",
+      "candidate_id": "v6d823854673b61",
+      "category": "term_sense",
+      "severity": "minor",
+      "source_quote": "Kate's most important life was the one she lived in the Noosphere",
+      "target_quote": "важнее всего для Кейт была та, что она вела в Ноосфере",
+      "reason": "Общественное понимание основной жизни заменено личным предпочтением Кейт.",
+      "adjudication_reason": "Формулировка переносит важность жизни в область личных приоритетов Кейт вместо общественного понимания её основной жизни."
+    },
+    {
+      "issue_id": "prose_audit:42",
+      "origin": "prose_audit",
+      "source_id": "q28167c0ed9",
+      "candidate_id": "v3aaa8855220dbd",
+      "category": "grammar",
+      "severity": "minor",
+      "source_quote": "that was all right with him",
+      "target_quote": "с этим он был не против",
+      "reason": "Смешаны несовместимые конструкции согласия и отсутствия возражений.",
+      "adjudication_reason": "Предлог «с» не сочетается здесь с конструкцией отсутствия возражений."
+    },
+    {
+      "issue_id": "prose_audit:43",
+      "origin": "prose_audit",
+      "source_id": "q28167c0ed9",
+      "candidate_id": "v88842a6a939fe1",
+      "category": "term_sense",
+      "severity": "minor",
+      "source_quote": "that was all right with him",
+      "target_quote": "с этим он смирился",
+      "reason": "Добавлено преодолённое несогласие, отсутствующее в оригинале.",
+      "adjudication_reason": "Смирение добавляет предшествующее неприятие, отсутствующее в нейтральном согласии оригинала."
+    },
+    {
+      "issue_id": "prose_audit:45",
+      "origin": "prose_audit",
+      "source_id": "qf75369d6ce",
+      "candidate_id": "v790c2556253846",
+      "category": "actor",
+      "severity": "major",
+      "source_quote": "The reef -- the human-shelled reef, not the one under the water",
+      "target_quote": "Человеческая оболочка рифа — не та, что под водой, а та, что в человеческом теле",
+      "reason": "Различение двух воплощений рифа превращено в различение человеческих оболочек, включая оболочку внутри человеческого тела.",
+      "adjudication_reason": "Сопоставление воплощений рифа заменено сопоставлением человеческих оболочек, и субъектом становится оболочка."
+    },
+    {
+      "issue_id": "prose_audit:46",
+      "origin": "prose_audit",
+      "source_id": "qf75369d6ce",
+      "candidate_id": "vbf9f769b03ceda",
+      "category": "term_sense",
+      "severity": "minor",
+      "source_quote": "the human-shelled reef",
+      "target_quote": "человеческий риф в оболочке",
+      "reason": "Человеческой названа природа рифа вместо его оболочки.",
+      "adjudication_reason": "Человеческая характеристика отнесена к самому рифу вместо его телесной оболочки."
+    },
+    {
+      "issue_id": "prose_audit:51",
+      "origin": "prose_audit",
+      "source_id": "qe1201d759d",
+      "candidate_id": "v14f111ad5ab019",
+      "category": "calque_collocation",
+      "severity": "minor",
+      "source_quote": "put a pen-trace and location-log on his phone",
+      "target_quote": "установил на его телефон перехват и регистрацию местоположения",
+      "reason": "«Установил перехват» механически соединяет действие с установкой программы.",
+      "adjudication_reason": "Сочетание установки перехвата на телефон неестественно смешивает установку средства и организацию действия."
+    },
+    {
+      "issue_id": "prose_audit:52",
+      "origin": "prose_audit",
+      "source_id": "qa6ff60816c",
+      "candidate_id": "v17091378890ad8",
+      "category": "time_direction",
+      "severity": "minor",
+      "source_quote": "Robbie called him Isaac, of course",
+      "target_quote": "Робби, конечно, назвал его Исааком",
+      "reason": "Постоянное именование превращено в однократное наречение.",
+      "adjudication_reason": "Обычное именование представлено отдельным актом наречения."
+    },
+    {
+      "issue_id": "prose_audit:53",
+      "origin": "prose_audit",
+      "source_id": "q8221a17b47",
+      "candidate_id": "v294a9b5e4f3e62",
+      "category": "grammar",
+      "severity": "minor",
+      "source_quote": "the remaining half press-ganged into double duty",
+      "target_quote": "оставшуюся впахивают за двоих",
+      "reason": "Непереходный «впахивать» употреблён как переходный; действовать должна половина мозга.",
+      "adjudication_reason": "Непереходный глагол работы ошибочно получает прямое дополнение, обозначающее работающую половину мозга."
+    },
+    {
+      "issue_id": "prose_audit:55",
+      "origin": "prose_audit",
+      "source_id": "qd96c62da74",
+      "candidate_id": "v04ffd24ece9d33",
+      "category": "number",
+      "severity": "major",
+      "source_quote": "on three separate occasions by his commander and by the Regional Manager",
+      "target_quote": "награждали его отдельно по три раза",
+      "reason": "Три случая награждения превращены в три от каждого, то есть шесть.",
+      "adjudication_reason": "Три случая награждения превращены в три награждения от каждого награждающего."
+    },
+    {
+      "issue_id": "prose_audit:59",
+      "origin": "prose_audit",
+      "source_id": "qff3beb7bf1",
+      "candidate_id": "v8db9187cfc3468",
+      "category": "grammar",
+      "severity": "minor",
+      "source_quote": "Coulda been a month, coulda been a day.",
+      "target_quote": "Могло пройти и месяц, мог и день.",
+      "reason": "«Могло» не согласуется с «месяц».",
+      "adjudication_reason": "Форма «Могло» нарушает согласование с обозначением месяца в этой конструкции."
+    },
+    {
+      "issue_id": "prose_audit:65",
+      "origin": "prose_audit",
+      "source_id": "qfea9fde21e",
+      "candidate_id": "va8d6466f87e1e1",
+      "category": "calque_collocation",
+      "severity": "minor",
+      "source_quote": "scenes from the home-front",
+      "target_quote": "сценами с домашнего фронта",
+      "reason": "Калька меняет внутренний фронт войны на бытовой «домашний фронт».",
+      "adjudication_reason": "Буквальный домашний фронт неестественно передаёт внутренний фронт войны и вызывает бытовую ассоциацию."
+    },
+    {
+      "issue_id": "prose_audit:68",
+      "origin": "prose_audit",
+      "source_id": "q81934bc463",
+      "candidate_id": "vbe4d6e0b2e2c60",
+      "category": "term_sense",
+      "severity": "minor",
+      "source_quote": "this commercial service full of noobs called AOL",
+      "target_quote": "коммерческий сервис для новичков под названием AOL",
+      "reason": "Состав пользователей подменён назначением сервиса.",
+      "adjudication_reason": "Наличие множества новичков среди пользователей превращено в назначение сервиса для новичков."
+    },
+    {
+      "issue_id": "prose_audit:69",
+      "origin": "prose_audit",
+      "source_id": "q81934bc463",
+      "candidate_id": "veae268f0595f4a",
+      "category": "term_sense",
+      "severity": "minor",
+      "source_quote": "this commercial service full of noobs called AOL",
+      "target_quote": "коммерческий сервис для новичков под названием AOL",
+      "reason": "Переполненность новичками превращена в специализацию на новичках.",
+      "adjudication_reason": "Состав аудитории заменён целевой специализацией сервиса."
+    },
+    {
+      "issue_id": "prose_audit:70",
+      "origin": "prose_audit",
+      "source_id": "q169b1b9d62",
+      "candidate_id": "v6bd59f717cd7e1",
+      "category": "term_sense",
+      "severity": "major",
+      "source_quote": "there was a moment of nothing at all",
+      "target_quote": "всё на мгновение замерло",
+      "reason": "Исчезновение восприятия заменено остановкой происходящего.",
+      "adjudication_reason": "Полное исчезновение восприятия заменено остановкой происходящего."
+    },
+    {
+      "issue_id": "prose_audit:71",
+      "origin": "prose_audit",
+      "source_id": "q169b1b9d62",
+      "candidate_id": "vc65a73e68975f0",
+      "category": "omission",
+      "severity": "minor",
+      "source_quote": "there was a moment of nothing at all",
+      "target_quote": "не осталось вообще ничего",
+      "reason": "Пропала ограниченная длительность провала восприятия.",
+      "adjudication_reason": "Не сохранена прямо указанная кратковременность провала."
+    },
+    {
+      "issue_id": "prose_audit:72",
+      "origin": "prose_audit",
+      "source_id": "q169b1b9d62",
+      "candidate_id": "v3cd75f493f5dd1",
+      "category": "calque_collocation",
+      "severity": "minor",
+      "source_quote": "a progress-bar zipping along quickly",
+      "target_quote": "по быстрому индикатору прогресса пробежала полоска",
+      "reason": "Скорость ошибочно приписана индикатору; единый progress-bar расщеплён на индикатор и бегущую по нему полоску.",
+      "adjudication_reason": "Определение скорости перенесено на сам индикатор вместо быстрого заполнения полосы."
+    }
+  ],
+  "deferred_issues": [
+    {
+      "issue_id": "source_audit_4:2",
+      "origin": "source_audit_4",
+      "source_id": "qed34513c3c",
+      "candidate_id": "vdd261e22b3809e",
+      "category": "grammar",
+      "severity": "minor",
+      "source_quote": "One of the first things I did here was help them debug the uploading process.",
+      "target_quote": "Одним из первых дел здесь я помог им отладить процесс загрузки сознания.",
+      "reason": "В связанной сцене говорит жена Артуро; мужская форма «помог» ошибочно меняет пол говорящей.",
+      "adjudication_reason": "В непосредственном английском контексте пол говорящего не указан; связь этой реплики с женой из другого фрагмента не установлена однозначно."
+    },
+    {
+      "issue_id": "prose_audit:56",
+      "origin": "prose_audit",
+      "source_id": "qd96c62da74",
+      "candidate_id": "vb28a41327e8093",
+      "category": "number",
+      "severity": "minor",
+      "source_quote": "on three separate occasions by his commander and by the Regional Manager",
+      "target_quote": "награждали его по отдельности трижды",
+      "reason": "«По отдельности» переносит раздельность случаев на награждающих и задаёт по три награждения.",
+      "adjudication_reason": "Раздельное награждение может означать как три случая всего, так и три от каждого; русский текст не задаёт шесть однозначно."
+    },
+    {
+      "issue_id": "prose_audit:61",
+      "origin": "prose_audit",
+      "source_id": "q49808d15b8",
+      "candidate_id": "vdd0947aac421f5",
+      "category": "actor",
+      "severity": "major",
+      "source_quote": "I defected",
+      "target_quote": "Я перешла на их сторону",
+      "reason": "Единственный местный антецедент «их» — преследующая её Социальная Гармония; направление побега оказывается перевёрнутым.",
+      "adjudication_reason": "Местоимение может отсылать к Социальной Гармонии либо к евразийской стороне из более широкого контекста; направление перехода неоднозначно."
+    }
+  ],
+  "candidate_promotion": "None: development corpus and model audit only."
+}

@@ -1,0 +1,14 @@
+{
+  "terra": {
+    "wins": 5,
+    "losses": 10,
+    "ties": 15,
+    "unclear": 0
+  },
+  "luna": {
+    "wins": 3,
+    "losses": 14,
+    "ties": 13,
+    "unclear": 0
+  }
+}

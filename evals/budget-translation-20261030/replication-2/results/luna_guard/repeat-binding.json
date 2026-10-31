@@ -1,0 +1,8 @@
+{
+  "repeat": 2,
+  "phase": "luna_guard",
+  "repeat_preregistration_sha256": "758ad13ec15184396b0806478bebc63408768e84e6cee7645a69cdc3ff01a02a",
+  "base_preregistration_sha256": "488ddeaf193d4862f45fc647580c376c97ef6f573f2e548bd115a1b12097187f",
+  "manifest_sha256": "ac1c50dc2b5f88ace2fa6c96f848743989ac476ffe36f37714edce802e07d508",
+  "output_sha256": "003f368210163bf498bbdc813130b126a05ce87693fce14c05e7c783c3412ea4"
+}

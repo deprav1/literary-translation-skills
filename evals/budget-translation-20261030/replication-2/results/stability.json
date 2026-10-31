@@ -1,0 +1,357 @@
+{
+  "comparisons": {
+    "terra_guard_vs_plain": {
+      "run1": {
+        "wins": 3,
+        "losses": 3,
+        "ties": 24,
+        "unclear": 0,
+        "net": 0
+      },
+      "run2": {
+        "wins": 4,
+        "losses": 1,
+        "ties": 25,
+        "unclear": 0,
+        "net": 3
+      },
+      "direction_same": false
+    },
+    "terra_brief_vs_plain": {
+      "run1": {
+        "wins": 6,
+        "losses": 3,
+        "ties": 21,
+        "unclear": 0,
+        "net": 3
+      },
+      "run2": {
+        "wins": 4,
+        "losses": 1,
+        "ties": 25,
+        "unclear": 0,
+        "net": 3
+      },
+      "direction_same": true
+    },
+    "terra_memory_vs_plain": {
+      "run1": {
+        "wins": 3,
+        "losses": 4,
+        "ties": 23,
+        "unclear": 0,
+        "net": -1
+      },
+      "run2": {
+        "wins": 3,
+        "losses": 2,
+        "ties": 25,
+        "unclear": 0,
+        "net": 1
+      },
+      "direction_same": false
+    },
+    "terra_plain_vs_anchor": {
+      "run1": {
+        "wins": 1,
+        "losses": 6,
+        "ties": 23,
+        "unclear": 0,
+        "net": -5
+      },
+      "run2": {
+        "wins": 1,
+        "losses": 4,
+        "ties": 25,
+        "unclear": 0,
+        "net": -3
+      },
+      "direction_same": true
+    },
+    "terra_guard_vs_anchor": {
+      "run1": {
+        "wins": 1,
+        "losses": 6,
+        "ties": 23,
+        "unclear": 0,
+        "net": -5
+      },
+      "run2": {
+        "wins": 1,
+        "losses": 1,
+        "ties": 28,
+        "unclear": 0,
+        "net": 0
+      },
+      "direction_same": false
+    },
+    "terra_brief_vs_anchor": {
+      "run1": {
+        "wins": 0,
+        "losses": 2,
+        "ties": 28,
+        "unclear": 0,
+        "net": -2
+      },
+      "run2": {
+        "wins": 1,
+        "losses": 1,
+        "ties": 28,
+        "unclear": 0,
+        "net": 0
+      },
+      "direction_same": false
+    },
+    "terra_memory_vs_anchor": {
+      "run1": {
+        "wins": 1,
+        "losses": 8,
+        "ties": 21,
+        "unclear": 0,
+        "net": -7
+      },
+      "run2": {
+        "wins": 1,
+        "losses": 3,
+        "ties": 26,
+        "unclear": 0,
+        "net": -2
+      },
+      "direction_same": true
+    },
+    "luna_guard_vs_plain": {
+      "run1": {
+        "wins": 4,
+        "losses": 12,
+        "ties": 14,
+        "unclear": 0,
+        "net": -8
+      },
+      "run2": {
+        "wins": 6,
+        "losses": 6,
+        "ties": 18,
+        "unclear": 0,
+        "net": 0
+      },
+      "direction_same": false
+    },
+    "luna_brief_vs_plain": {
+      "run1": {
+        "wins": 5,
+        "losses": 10,
+        "ties": 15,
+        "unclear": 0,
+        "net": -5
+      },
+      "run2": {
+        "wins": 7,
+        "losses": 8,
+        "ties": 15,
+        "unclear": 0,
+        "net": -1
+      },
+      "direction_same": true
+    },
+    "luna_memory_vs_plain": {
+      "run1": {
+        "wins": 4,
+        "losses": 9,
+        "ties": 17,
+        "unclear": 0,
+        "net": -5
+      },
+      "run2": {
+        "wins": 7,
+        "losses": 6,
+        "ties": 17,
+        "unclear": 0,
+        "net": 1
+      },
+      "direction_same": false
+    },
+    "luna_plain_vs_anchor": {
+      "run1": {
+        "wins": 0,
+        "losses": 12,
+        "ties": 18,
+        "unclear": 0,
+        "net": -12
+      },
+      "run2": {
+        "wins": 1,
+        "losses": 12,
+        "ties": 17,
+        "unclear": 0,
+        "net": -11
+      },
+      "direction_same": true
+    },
+    "luna_guard_vs_anchor": {
+      "run1": {
+        "wins": 0,
+        "losses": 18,
+        "ties": 12,
+        "unclear": 0,
+        "net": -18
+      },
+      "run2": {
+        "wins": 1,
+        "losses": 14,
+        "ties": 15,
+        "unclear": 0,
+        "net": -13
+      },
+      "direction_same": true
+    },
+    "luna_brief_vs_anchor": {
+      "run1": {
+        "wins": 0,
+        "losses": 14,
+        "ties": 16,
+        "unclear": 0,
+        "net": -14
+      },
+      "run2": {
+        "wins": 1,
+        "losses": 15,
+        "ties": 14,
+        "unclear": 0,
+        "net": -14
+      },
+      "direction_same": true
+    },
+    "luna_memory_vs_anchor": {
+      "run1": {
+        "wins": 1,
+        "losses": 15,
+        "ties": 14,
+        "unclear": 0,
+        "net": -14
+      },
+      "run2": {
+        "wins": 1,
+        "losses": 13,
+        "ties": 16,
+        "unclear": 0,
+        "net": -12
+      },
+      "direction_same": true
+    }
+  },
+  "pipelines": {
+    "terra": {
+      "run1_selected": "terra_plain",
+      "run2_selected": "terra_guard",
+      "run1_cold": {
+        "usd_equivalent": 0.12129799999999999,
+        "usd_per_1000_requested_words": 0.05582052462034054,
+        "usd_per_1000_model_accepted_words": 0.05582052462034054,
+        "planner": 0,
+        "translator": 0.044732,
+        "audits": 0.076566,
+        "escalations": 0,
+        "accepted_words": 2173,
+        "requested_words": 2173
+      },
+      "run2_cold": {
+        "usd_equivalent": 0.112906,
+        "usd_per_1000_requested_words": 0.05195858260469397,
+        "usd_per_1000_model_accepted_words": 0.05195858260469397,
+        "planner": 0,
+        "translator": 0.044748,
+        "audits": 0.068158,
+        "escalations": 0,
+        "accepted_words": 2173,
+        "requested_words": 2173
+      },
+      "run1_prose": {
+        "wins": 1,
+        "losses": 8,
+        "ties": 21,
+        "unclear": 0
+      },
+      "run2_prose": {
+        "wins": 5,
+        "losses": 10,
+        "ties": 15,
+        "unclear": 0
+      },
+      "run1_escalated_items": 0,
+      "run2_escalated_items": 0
+    },
+    "luna": {
+      "run1_selected": "luna_plain",
+      "run2_selected": "luna_plain",
+      "run1_cold": {
+        "usd_equivalent": 0.1313916,
+        "usd_per_1000_requested_words": 0.06046553152323977,
+        "usd_per_1000_model_accepted_words": 0.06046553152323977,
+        "planner": 0,
+        "translator": 0.0043216,
+        "audits": 0.108878,
+        "escalations": 0.018192,
+        "accepted_words": 2173,
+        "requested_words": 2173
+      },
+      "run2_cold": {
+        "usd_equivalent": 0.14194449999999997,
+        "usd_per_1000_requested_words": 0.06532190520018406,
+        "usd_per_1000_model_accepted_words": 0.06532190520018406,
+        "planner": 0,
+        "translator": 0.0043555,
+        "audits": 0.11510999999999999,
+        "escalations": 0.022479,
+        "accepted_words": 2173,
+        "requested_words": 2173
+      },
+      "run1_prose": {
+        "wins": 2,
+        "losses": 14,
+        "ties": 14,
+        "unclear": 0
+      },
+      "run2_prose": {
+        "wins": 3,
+        "losses": 14,
+        "ties": 13,
+        "unclear": 0
+      },
+      "run1_escalated_items": 3,
+      "run2_escalated_items": 6
+    },
+    "anchor": {
+      "run1_selected": "sol_anchor",
+      "run2_selected": "sol_anchor",
+      "run1_cold": {
+        "usd_equivalent": 0.163964,
+        "usd_per_1000_requested_words": 0.07545513115508513,
+        "usd_per_1000_model_accepted_words": 0.07545513115508513,
+        "planner": 0,
+        "translator": 0.091392,
+        "audits": 0.072572,
+        "escalations": 0,
+        "accepted_words": 2173,
+        "requested_words": 2173
+      },
+      "run2_cold": {
+        "usd_equivalent": 0.16031,
+        "usd_per_1000_requested_words": 0.07377358490566038,
+        "usd_per_1000_model_accepted_words": 0.07377358490566038,
+        "planner": 0,
+        "translator": 0.09012,
+        "audits": 0.07019,
+        "escalations": 0,
+        "accepted_words": 2173,
+        "requested_words": 2173
+      },
+      "run1_prose": null,
+      "run2_prose": null,
+      "run1_escalated_items": 0,
+      "run2_escalated_items": 0
+    }
+  },
+  "independent_source_items": 30,
+  "realizations": 2,
+  "rule": "No best-of selection or pooling as60independent sources; model judges only, not confirmation."
+}

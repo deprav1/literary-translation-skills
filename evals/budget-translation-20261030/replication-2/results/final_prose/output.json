@@ -1,0 +1,753 @@
+{
+  "coverage": [
+    "qeb5bfb523b: v4160e4b0ec1200, vee8c2c63209d7c, v00aafc03419144",
+    "qdbaaab067c: v3cbc9deefbfffc, v46a2b6457a1791, v24740282b18213",
+    "q7c3d95f57d: v0ede78b091c2b5, vba02cf3710aeb0, va0fc7227cda14a",
+    "q1a124e210a: v89113f2038c9a6, v17bbe958881bac, v174daaf172edfe",
+    "q3cb5976585: vce693cc34da56e, v9910e35de79e14, v3f8a76c1a4ee85",
+    "qcf950c4864: v0f4c0ff6ff7c33, v0acbada6b3ee20, v1d66fbd4bdfd6b",
+    "q0ee1c0cd42: vd10e59c6e2df81, vf9c28ac5db8bbc, v4f548d92b349db",
+    "q269307d5a9: v7855a38937635e, v2275c97b61dc80, v34c3201c66bbed",
+    "qb6f48742c7: v93539f18e6024b, vef5ef2014423b8, v30e434d039198c",
+    "q4d3dc54baa: v48c49994806ac4, v0c404aa11ebacf, v96faae9aeccedd",
+    "qdf715a19a6: v9adf98b761fd02, v474eb9ddcf4e6b, v7a3273b8552d50",
+    "qfa3f76ea9a: vc6d898ed473278, v69beb4cca47ee3, v2f01d1075bb171",
+    "qdeb6786d21: v80599ad29b4997, v1f8c44850c7f1c, v1dea7e62692a88",
+    "q28167c0ed9: v2e060bf7d94d14, va71bc1cdd9c868, v5d6f29f223bb52",
+    "qf75369d6ce: v92b2e64b9b7cc9, ve06d1ff1580225, vf104a7e52822a7",
+    "qed34513c3c: vb2046e9264428d, vddf5692f412263, va9d5e634edde67",
+    "qe1201d759d: vf4cdd9ce50b286, v1608af5fb63b29, v055c83b57b967f",
+    "qa6ff60816c: v36f28106441883, vdf9488509c646b, vdea7fec1acce12",
+    "q8221a17b47: v45673ea1650324, vd57b0260f41f40, v415fbf7066df08",
+    "qd96c62da74: v415a7ea2af8aaf, v9ec618284b9209, v5a3d790bddd867",
+    "qff3beb7bf1: v6d2d80d6684f09, vb70d6886470664, v256f58d6a433d5",
+    "q49808d15b8: v2c4ed308383977, v1959ec60fc4f5a, v2eae6421c64f54",
+    "qcbe946abf7: vc59b79eb1bec3e, vf5ba8262bfef33, vf886a0d7492ff8",
+    "qfea9fde21e: v34ec725826d8d0, vdc11cbaf6cfe79, v806e1552e1519f",
+    "q52c8bbe1ec: v4082f634b4060e, vdbd1f920b597aa, v37ece2436dc63f",
+    "q81934bc463: v198e8fbc663465, v85ee1b490f2af8, v8558cecb9aaa90",
+    "q169b1b9d62: v95a9850c12266b, v4cbc005e7afceb, v033f5dda4dd48a",
+    "qe8c00254a0: vc892c375358175, v01066f43a168ab, va53d4a399cc31c",
+    "qa8a286da66: vf12977d81b8e12, vd51ae4e5676164, v9815340accdb2f",
+    "qd34f35c181: v0f65199bba3470, v876a3a927c0e92, v2401f7cb712e76"
+  ],
+  "issues": [
+    {
+      "source_id": "qeb5bfb523b",
+      "candidate_id": "v4160e4b0ec1200",
+      "category": "calque_collocation",
+      "severity": "minor",
+      "source_quote": "kicked in his ribs",
+      "target_quote": "втаптывала ему рёбра",
+      "reason": "«Втаптывать» предполагает поверхность или среду, куда что-либо вдавливают; здесь сочетание с рёбрами затрудняет понимание удара."
+    },
+    {
+      "source_id": "qeb5bfb523b",
+      "candidate_id": "vee8c2c63209d7c",
+      "category": "term_sense",
+      "severity": "minor",
+      "source_quote": "Pack animals",
+      "target_quote": "Стадные животные",
+      "reason": "Стая заменена стадом, хотя далее в той же фразе говорится «в своей стае»."
+    },
+    {
+      "source_id": "qdbaaab067c",
+      "candidate_id": "v24740282b18213",
+      "category": "negation_modality",
+      "severity": "minor",
+      "source_quote": "probably bought it",
+      "target_quote": "наверняка её купил",
+      "reason": "Вероятностное предположение становится уверенностью."
+    },
+    {
+      "source_id": "q7c3d95f57d",
+      "candidate_id": "vba02cf3710aeb0",
+      "category": "voice_rhythm",
+      "severity": "minor",
+      "source_quote": "some whole other kid that just, just grew back out of what was left",
+      "target_quote": "совсем другой ребёнок, просто выросший из того, что осталось",
+      "reason": "Причастный оборот и устранение запинки «just, just» сглаживают сбивчивую детскую речь."
+    },
+    {
+      "source_id": "q1a124e210a",
+      "candidate_id": "v89113f2038c9a6",
+      "category": "voice_rhythm",
+      "severity": "minor",
+      "source_quote": "I see it for the first time",
+      "target_quote": "Я понял это впервые",
+      "reason": "Исчезает повтор «вижу» в непосредственном соседстве со слепотой рассказчика."
+    },
+    {
+      "source_id": "q1a124e210a",
+      "candidate_id": "v174daaf172edfe",
+      "category": "voice_rhythm",
+      "severity": "minor",
+      "source_quote": "I see that now, blind",
+      "target_quote": "теперь я это понимаю — слепой",
+      "reason": "Замена зрения пониманием снимает намеренный парадокс и повтор «I see»."
+    },
+    {
+      "source_id": "q1a124e210a",
+      "candidate_id": "v174daaf172edfe",
+      "category": "term_sense",
+      "severity": "minor",
+      "source_quote": "a coffin falling past the edge of the solar system",
+      "target_quote": "гробу, который летит за пределы Солнечной системы",
+      "reason": "Утрачено падение — конкретная характеристика движения и образа гроба."
+    },
+    {
+      "source_id": "qcf950c4864",
+      "candidate_id": "v0f4c0ff6ff7c33",
+      "category": "grammar",
+      "severity": "minor",
+      "source_quote": "We were fellow outcasts",
+      "target_quote": "Мы были такими же изгоями",
+      "reason": "«Такими же» вводит сравнение без названного объекта; исходник говорит об общей участи двоих."
+    },
+    {
+      "source_id": "qcf950c4864",
+      "candidate_id": "v0f4c0ff6ff7c33",
+      "category": "term_sense",
+      "severity": "minor",
+      "source_quote": "a susceptibility to narcotics",
+      "target_quote": "наркотической зависимости",
+      "reason": "Восприимчивость к наркотикам сужена до зависимости."
+    },
+    {
+      "source_id": "qcf950c4864",
+      "candidate_id": "v0acbada6b3ee20",
+      "category": "term_sense",
+      "severity": "minor",
+      "source_quote": "a susceptibility to narcotics",
+      "target_quote": "наркотической зависимости",
+      "reason": "Восприимчивость к наркотикам сужена до зависимости."
+    },
+    {
+      "source_id": "qcf950c4864",
+      "candidate_id": "v1d66fbd4bdfd6b",
+      "category": "term_sense",
+      "severity": "minor",
+      "source_quote": "a susceptibility to narcotics",
+      "target_quote": "наркотической зависимости",
+      "reason": "Восприимчивость к наркотикам сужена до зависимости."
+    },
+    {
+      "source_id": "q0ee1c0cd42",
+      "candidate_id": "vd10e59c6e2df81",
+      "category": "term_sense",
+      "severity": "minor",
+      "source_quote": "without major refactoring",
+      "target_quote": "не прибегая к серьёзной переработке",
+      "reason": "Общее слово стирает программный термин, существенный для самовосприятия машинного рассказчика."
+    },
+    {
+      "source_id": "q0ee1c0cd42",
+      "candidate_id": "vf9c28ac5db8bbc",
+      "category": "term_sense",
+      "severity": "minor",
+      "source_quote": "without major refactoring",
+      "target_quote": "без серьёзной переработки",
+      "reason": "Общее слово стирает программный термин, существенный для самовосприятия машинного рассказчика."
+    },
+    {
+      "source_id": "q4d3dc54baa",
+      "candidate_id": "v48c49994806ac4",
+      "category": "term_sense",
+      "severity": "minor",
+      "source_quote": "totally uninterested in adopting Asimovism",
+      "target_quote": "совершенно не интересовалось азимовизмом",
+      "reason": "Отсутствие желания принять веру превращено в отсутствие интереса к ней, хотя организация целенаправленно её искореняет."
+    },
+    {
+      "source_id": "qdf715a19a6",
+      "candidate_id": "v474eb9ddcf4e6b",
+      "category": "negation_modality",
+      "severity": "major",
+      "source_quote": "It's like, your mom and dad murdered you",
+      "target_quote": "Получается, твои мама и папа тебя убили",
+      "reason": "Неуверенное уподобление превращено в вывод об убийстве; меняется степень категоричности обвинения."
+    },
+    {
+      "source_id": "qfa3f76ea9a",
+      "candidate_id": "v69beb4cca47ee3",
+      "category": "calque_collocation",
+      "severity": "minor",
+      "source_quote": "twisted and bent and jigged and jagged",
+      "target_quote": "закручивались, изгибались, взламывались зигзагами",
+      "reason": "«Взламывались зигзагами» не передаёт читаемого движения или формы башен; необычность оригинала не объясняет значение «взламывать»."
+    },
+    {
+      "source_id": "qfa3f76ea9a",
+      "candidate_id": "v2f01d1075bb171",
+      "category": "term_sense",
+      "severity": "minor",
+      "source_quote": "It was tall.",
+      "target_quote": "Она была огромной.",
+      "reason": "Высота заменена общим размером, ослабляя связь с отдельным «Вертикальной» и башнями."
+    },
+    {
+      "source_id": "qdeb6786d21",
+      "candidate_id": "v1f8c44850c7f1c",
+      "category": "voice_rhythm",
+      "severity": "minor",
+      "source_quote": "in a meat-suit",
+      "target_quote": "в мясном теле",
+      "reason": "Исчезает образ надеваемого костюма, поддерживающий сравнение временного воплощения с отпускной стрижкой."
+    },
+    {
+      "source_id": "q28167c0ed9",
+      "candidate_id": "v5d6f29f223bb52",
+      "category": "grammar",
+      "severity": "minor",
+      "source_quote": "If it had been outfitted with a gun instead of a pulse-weapon, it could have shot him.",
+      "target_quote": "Оснасти его не импульсным оружием, а обычным огнестрельным, и оно могло бы застрелить Артуро.",
+      "reason": "При одном подразумеваемом объекте местоимение без опоры меняет род с «его» на «оно»; названная машина женского рода, мозг и интеллект — мужского."
+    },
+    {
+      "source_id": "qf75369d6ce",
+      "candidate_id": "v92b2e64b9b7cc9",
+      "category": "actor",
+      "severity": "major",
+      "source_quote": "They had done a little dance on Robbie",
+      "target_quote": "он припустился на Робби в пляс",
+      "reason": "Действие нескольких воплощений рифа сведено к одному; контекст далее прямо называет оболочки Айзека и Джанет."
+    },
+    {
+      "source_id": "qf75369d6ce",
+      "candidate_id": "ve06d1ff1580225",
+      "category": "actor",
+      "severity": "major",
+      "source_quote": "They had done a little dance on Robbie",
+      "target_quote": "Он устроил на Робби небольшую пляску",
+      "reason": "Действие нескольких воплощений рифа сведено к одному; контекст далее прямо называет оболочки Айзека и Джанет."
+    },
+    {
+      "source_id": "qf75369d6ce",
+      "candidate_id": "vf104a7e52822a7",
+      "category": "actor",
+      "severity": "minor",
+      "source_quote": "had dragged them to their seat",
+      "target_quote": "отвела их на свои места",
+      "reason": "«Свои» грамматически относит места к Кейт, тогда как исходник относит сиденье к тем, кого она оттащила."
+    },
+    {
+      "source_id": "qed34513c3c",
+      "candidate_id": "vddf5692f412263",
+      "category": "grammar",
+      "severity": "minor",
+      "source_quote": "One of the first things I did here was help them",
+      "target_quote": "Одним из первых дел здесь я помогла им",
+      "reason": "Творительный «одним из первых дел» не получает синтаксической опоры в конструкции «я помогла»."
+    },
+    {
+      "source_id": "qed34513c3c",
+      "candidate_id": "va9d5e634edde67",
+      "category": "voice_rhythm",
+      "severity": "minor",
+      "source_quote": "There are -- there are *lots* of me.",
+      "target_quote": "Меня здесь много.",
+      "reason": "Убраны запинка и усиление, передающие напряжение необычного признания."
+    },
+    {
+      "source_id": "qed34513c3c",
+      "candidate_id": "va9d5e634edde67",
+      "category": "term_sense",
+      "severity": "minor",
+      "source_quote": "One of the first things I did here",
+      "target_quote": "Первым делом",
+      "reason": "Одно из первых действий превращено в первое."
+    },
+    {
+      "source_id": "qe1201d759d",
+      "candidate_id": "vf4cdd9ce50b286",
+      "category": "omission",
+      "severity": "minor",
+      "source_quote": "a pen-trace and location-log",
+      "target_quote": "программу слежения и журнал местоположений",
+      "reason": "Не передана отдельная функция pen-trace — регистрация телефонных соединений."
+    },
+    {
+      "source_id": "qe1201d759d",
+      "candidate_id": "v1608af5fb63b29",
+      "category": "term_sense",
+      "severity": "minor",
+      "source_quote": "a pen-trace",
+      "target_quote": "отслеживание контактов",
+      "reason": "Телефонные соединения заменены неоднозначными «контактами», которые могут означать адресную книгу или круг общения."
+    },
+    {
+      "source_id": "qa6ff60816c",
+      "candidate_id": "vdf9488509c646b",
+      "category": "addition",
+      "severity": "minor",
+      "source_quote": "his strong brown arms",
+      "target_quote": "своими сильными загорелыми руками",
+      "reason": "Brown описывает цвет кожи, не устанавливая, что он вызван загаром."
+    },
+    {
+      "source_id": "q8221a17b47",
+      "candidate_id": "v45673ea1650324",
+      "category": "negation_modality",
+      "severity": "minor",
+      "source_quote": "all that must have been squeezed out, deformed, reshaped",
+      "target_quote": "сколько всего было вытеснено, деформировано, перекроено",
+      "reason": "Предположение о неизбежных последствиях подано как установленный факт."
+    },
+    {
+      "source_id": "q8221a17b47",
+      "candidate_id": "v415fbf7066df08",
+      "category": "negation_modality",
+      "severity": "minor",
+      "source_quote": "all that must have been squeezed out, deformed, reshaped",
+      "target_quote": "сколько всего к концу этой перестройки оказалось вытеснено, исковеркано, перекроено",
+      "reason": "Предположение о последствиях заменено утверждением о том, что действительно оказалось изменено."
+    },
+    {
+      "source_id": "q8221a17b47",
+      "candidate_id": "vd57b0260f41f40",
+      "category": "calque_collocation",
+      "severity": "minor",
+      "source_quote": "all that must have been squeezed out",
+      "target_quote": "сколько всего должно было выдавиться",
+      "reason": "Возвратное «выдавиться» делает вытесняемое содержимое самостоятельным действующим началом и затрудняет образ внешнего давления."
+    },
+    {
+      "source_id": "qd96c62da74",
+      "candidate_id": "v9ec618284b9209",
+      "category": "omission",
+      "severity": "minor",
+      "source_quote": "an unbeatable combination of instinct and unstinting devotion to duty",
+      "target_quote": "безошибочному чутью и беззаветной преданности долгу",
+      "reason": "Исчезает непобедимое сочетание двух качеств; безошибочность приписывается одному чутью."
+    },
+    {
+      "source_id": "qd96c62da74",
+      "candidate_id": "v9ec618284b9209",
+      "category": "calque_collocation",
+      "severity": "minor",
+      "source_quote": "a small shrine dedicated to his press clippings and commendations",
+      "target_quote": "в честь его газетных вырезок и благодарностей небольшой домашний алтарь",
+      "reason": "«В честь вырезок» неудачно превращает материалы домашнего культа сына в самостоятельных адресатов чествования."
+    },
+    {
+      "source_id": "q49808d15b8",
+      "candidate_id": "v2eae6421c64f54",
+      "category": "term_sense",
+      "severity": "minor",
+      "source_quote": "they'd hurt you",
+      "target_quote": "они станут мучить вас",
+      "reason": "Общая угроза причинить вред усилена до мучений."
+    },
+    {
+      "source_id": "qcbe946abf7",
+      "candidate_id": "vf5ba8262bfef33",
+      "category": "calque_collocation",
+      "severity": "minor",
+      "source_quote": "That number wasn't ringing anywhere, anymore.",
+      "target_quote": "Этот номер уже нигде не звонил.",
+      "reason": "Английская метонимия перенесена так, что номер сам совершает звонки; исходник говорит об отсутствии аппарата, который зазвонит при вызове."
+    },
+    {
+      "source_id": "qfea9fde21e",
+      "candidate_id": "vdc11cbaf6cfe79",
+      "category": "calque_collocation",
+      "severity": "minor",
+      "source_quote": "scenes from the home-front",
+      "target_quote": "сценами с внутреннего фронта",
+      "reason": "«Внутренний фронт» калькирует home-front и размывает конкретное значение тыла."
+    },
+    {
+      "source_id": "q52c8bbe1ec",
+      "candidate_id": "vdbd1f920b597aa",
+      "category": "negation_modality",
+      "severity": "minor",
+      "source_quote": "I was pretty sure he'd been avoiding me.",
+      "target_quote": "Мне казалось, он меня избегает.",
+      "reason": "Довольно высокая уверенность ослаблена до впечатления."
+    },
+    {
+      "source_id": "q52c8bbe1ec",
+      "candidate_id": "vdbd1f920b597aa",
+      "category": "omission",
+      "severity": "minor",
+      "source_quote": "Flag a sentry.",
+      "target_quote": "Поднимаешь тревогу.",
+      "reason": "Устранён конкретный адресат сигнала — дежурный или часовой."
+    },
+    {
+      "source_id": "q81934bc463",
+      "candidate_id": "v198e8fbc663465",
+      "category": "calque_collocation",
+      "severity": "minor",
+      "source_quote": "faster than the net could absorb them",
+      "target_quote": "быстрее, чем Сеть успевала их освоить",
+      "reason": "«Освоить пользователей» плохо передаёт включение новичков в сетевое сообщество и освоение ими его норм."
+    },
+    {
+      "source_id": "q169b1b9d62",
+      "candidate_id": "v95a9850c12266b",
+      "category": "time_direction",
+      "severity": "major",
+      "source_quote": "and then there was a moment of nothing at all",
+      "target_quote": "Затем наступила полная пустота.",
+      "reason": "Утрачен краткий промежуток небытия: вместо мгновения возникает неограниченное состояние пустоты."
+    },
+    {
+      "source_id": "q169b1b9d62",
+      "candidate_id": "v95a9850c12266b",
+      "category": "calque_collocation",
+      "severity": "minor",
+      "source_quote": "a sense of a progress-bar zipping along quickly",
+      "target_quote": "как по быстрому индикатору прогресса пробежала полоска",
+      "reason": "Скорость ошибочно приписана индикатору как предмету, а полоса отделена от самого индикатора."
+    },
+    {
+      "source_id": "qa8a286da66",
+      "candidate_id": "vf12977d81b8e12",
+      "category": "voice_rhythm",
+      "severity": "minor",
+      "source_quote": "a live *human being*",
+      "target_quote": "живая *человеческая особь*",
+      "reason": "«Особь» вводит таксономическую отстранённость там, где оригинал повторно подчёркивает осознание живого человека."
+    },
+    {
+      "source_id": "qa8a286da66",
+      "candidate_id": "vd51ae4e5676164",
+      "category": "speech_form",
+      "severity": "minor",
+      "source_quote": "it was a *human.*",
+      "target_quote": "это был человек.",
+      "reason": "Устранено графическое выделение ключевого распознавания; повторное выделение human being также не передано."
+    },
+    {
+      "source_id": "qd34f35c181",
+      "candidate_id": "v2401f7cb712e76",
+      "category": "term_sense",
+      "severity": "major",
+      "source_quote": "based on the lightspeed lag, but it was all over the place",
+      "target_quote": "по задержке сигнала определить, где находился его субстрат, но тот был повсюду",
+      "reason": "Разброс задержки сигнала заменён утверждением о повсеместном расположении субстрата; нарушена логика последующего вывода."
+    },
+    {
+      "source_id": "qd34f35c181",
+      "candidate_id": "v2401f7cb712e76",
+      "category": "term_sense",
+      "severity": "minor",
+      "source_quote": "out at Jupiter",
+      "target_quote": "на Юпитере",
+      "reason": "Расположение у Юпитера превращено в расположение на планете."
+    },
+    {
+      "source_id": "qd34f35c181",
+      "candidate_id": "v876a3a927c0e92",
+      "category": "term_sense",
+      "severity": "minor",
+      "source_quote": "a local foreman",
+      "target_quote": "надсмотрщик",
+      "reason": "Руководитель местных работ получает отсутствующую в оригинале карательную окраску."
+    }
+  ],
+  "unresolved": [],
+  "pairs": [
+    {
+      "pair_id": "pcf52cd89186a01",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "pb4d6c12cf464e8",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "p5d9b4bbb173ffb",
+      "choice": "A",
+      "reason": "Сохраняет несколько воплощений рифа, подтверждённых последующим контекстом."
+    },
+    {
+      "pair_id": "p2d3c524c5c5193",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "p41244846cd437b",
+      "choice": "A",
+      "reason": "Точнее передаёт отсутствие звонящего аппарата; «номер нигде не звонил» калькирует английскую конструкцию."
+    },
+    {
+      "pair_id": "pa576bd956c1022",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "pda222a6b5c6b0e",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "p9725848dc2f1e8",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "p2960480b4811b4",
+      "choice": "B",
+      "reason": "Избегает кальки «номер нигде не звонил»."
+    },
+    {
+      "pair_id": "p508163a460e00e",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "pfd53e851d959b7",
+      "choice": "B",
+      "reason": "Сохраняет программный термин «рефакторинг» и машинную перспективу."
+    },
+    {
+      "pair_id": "p372b222c6fca47",
+      "choice": "B",
+      "reason": "Не усиливает общую угрозу причинить вред до мучений."
+    },
+    {
+      "pair_id": "p01361517fc1775",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "p3a69cb784ff306",
+      "choice": "A",
+      "reason": "Сохраняет повтор «вижу» и парадокс слепого рассказчика."
+    },
+    {
+      "pair_id": "pe825fd10e9977d",
+      "choice": "A",
+      "reason": "Нет синтаксического сбоя «одним из первых дел здесь я помогла»."
+    },
+    {
+      "pair_id": "pd71d5bbf07a433",
+      "choice": "B",
+      "reason": "Точнее называет регистрацию телефонных соединений."
+    },
+    {
+      "pair_id": "p012d996c26b148",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "pa009ca47f393b3",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "pac074cd7fd53e5",
+      "choice": "B",
+      "reason": "Сохраняет обе отдельные функции наблюдения, включая регистрацию соединений."
+    },
+    {
+      "pair_id": "p520d8f5ff70843",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "p1f1a7116425535",
+      "choice": "B",
+      "reason": "Сохраняет образ мясного костюма как временного воплощения."
+    },
+    {
+      "pair_id": "p3c2b1aff0b7649",
+      "choice": "A",
+      "reason": "Сохраняет запинку и сбивчивый детский синтаксис."
+    },
+    {
+      "pair_id": "p462623bf65231d",
+      "choice": "B",
+      "reason": "Точно различает интерес к вероучению и желание принять его."
+    },
+    {
+      "pair_id": "p666cbba6f54d17",
+      "choice": "A",
+      "reason": "Сохраняет непобедимое сочетание качеств и естественнее описывает домашний алтарь."
+    },
+    {
+      "pair_id": "pcfb824dcbdcf0b",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "p7082ae06462e29",
+      "choice": "A",
+      "reason": "Избегает несогласованного перехода от «его» к «оно»."
+    },
+    {
+      "pair_id": "p8fdc53f157efb1",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "p0459b95c44b3e5",
+      "choice": "A",
+      "reason": "Нет сравнения без опоры «такими же изгоями»."
+    },
+    {
+      "pair_id": "pfc9bd2bfbba6ec",
+      "choice": "A",
+      "reason": "Сохраняет меняющуюся задержку сигнала как основание вывода о распределённых экземплярах."
+    },
+    {
+      "pair_id": "pb514bcd343921e",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "p41edbb21e8fb97",
+      "choice": "A",
+      "reason": "Сохраняет высоту как исходную характеристику и яснее передаёт изломы башен."
+    },
+    {
+      "pair_id": "pd6c4d01c542303",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "pd0b50582d5b1df",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "pab16d37d171cbe",
+      "choice": "A",
+      "reason": "Сохраняет парадокс «вижу — ослепший» и образ падающего гроба."
+    },
+    {
+      "pair_id": "p28e86b447ce753",
+      "choice": "A",
+      "reason": "Сохраняет уверенность рассказчика и конкретный сигнал дежурному."
+    },
+    {
+      "pair_id": "pdfbe9d5ae31d52",
+      "choice": "B",
+      "reason": "Сохраняет программный термин «рефакторинг»."
+    },
+    {
+      "pair_id": "padb6e37f3661c5",
+      "choice": "A",
+      "reason": "«Переварить» яснее передаёт включение массы новичков в сообщество, чем «освоить их»."
+    },
+    {
+      "pair_id": "pc7ea66686fbdb1",
+      "choice": "A",
+      "reason": "Сохраняет неуверенное «как будто» вместо категорического вывода «получается»."
+    },
+    {
+      "pair_id": "p5601841de71e71",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "p7eacf591053db8",
+      "choice": "B",
+      "reason": "Сохраняет запинку, усиление и значение «одно из первых дел»."
+    },
+    {
+      "pair_id": "p82a811d9b7191d",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "pdd0477a962de26",
+      "choice": "B",
+      "reason": "Не усиливает hurt до мучений."
+    },
+    {
+      "pair_id": "p497548906e0057",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "p6a04e7cf4a71af",
+      "choice": "B",
+      "reason": "«Прораб» точнее передаёт foreman без карательной окраски."
+    },
+    {
+      "pair_id": "p0c4f91d2a6d509",
+      "choice": "B",
+      "reason": "Сохраняет графические акценты при распознавании человека."
+    },
+    {
+      "pair_id": "p286492df37efca",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "p5a4cf5026c8431",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "pb7deecb9fef926",
+      "choice": "B",
+      "reason": "«Тыл» точнее и естественнее кальки «внутренний фронт»."
+    },
+    {
+      "pair_id": "pf11a2e4323ec12",
+      "choice": "A",
+      "reason": "Не добавляет отсутствующее указание на загар."
+    },
+    {
+      "pair_id": "p1555f30d51aef0",
+      "choice": "B",
+      "reason": "Сохраняет краткость момента небытия и ясный образ полосы загрузки."
+    },
+    {
+      "pair_id": "p99fe124a72166e",
+      "choice": "B",
+      "reason": "Избегает неясного сочетания «взламывались зигзагами»."
+    },
+    {
+      "pair_id": "p94380dca35cb15",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "pef3b97f31d828b",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "p1730c2f4c1f212",
+      "choice": "A",
+      "reason": "Избегает неясного сочетания «втаптывала ему рёбра»."
+    },
+    {
+      "pair_id": "pffc026fd4c8574",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "p5a413f3877d844",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "p97bfbd190f22ef",
+      "choice": "A",
+      "reason": "Сохраняет вероятность покупки вместо уверенного «наверняка»."
+    },
+    {
+      "pair_id": "pbaefc034c9da2f",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "p7b32529a69d6d2",
+      "choice": "tie",
+      "reason": ""
+    },
+    {
+      "pair_id": "pa84cd84fba4391",
+      "choice": "tie",
+      "reason": ""
+    }
+  ]
+}

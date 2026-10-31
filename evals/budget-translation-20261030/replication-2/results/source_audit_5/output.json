@@ -1,0 +1,133 @@
+{
+  "coverage": [
+    "v3cd75f493f5dd1",
+    "vdd38f0bf35901e",
+    "v64e1e437ff1a53",
+    "v2abc9f41d2a244",
+    "v392788b2f753e9",
+    "v23c2fc187255eb",
+    "vdd0947aac421f5",
+    "vacc4fc176adc3d",
+    "v1386452a6e4465",
+    "vae6947b3dd66be",
+    "v4fcb04ab82b81a",
+    "v733a5581384dd1",
+    "v97d7b15099d798",
+    "v51483486a21a0b",
+    "vcc015dfb548af1",
+    "vfd24e2de758be0",
+    "v0f96fe7c9a057a",
+    "vbbb3ca65f8322d",
+    "v177accbe431d64",
+    "v110c2eaad26e96",
+    "v981e649d04da84",
+    "vf963b5f528b103",
+    "veeeee803d26a11",
+    "v7103fb1aec91d2",
+    "va1c47a09e4ad89",
+    "v7685082743c15e",
+    "vccd60ddbb39e3f",
+    "v85a9dbd477d93c",
+    "vc4e8b6af0d8b56",
+    "v2bc875e3a902e8"
+  ],
+  "issues": [
+    {
+      "source_id": "qed34513c3c",
+      "candidate_id": "v64e1e437ff1a53",
+      "category": "speech_form",
+      "severity": "minor",
+      "source_quote": "There are -- there are *lots* of me.",
+      "target_quote": "Меня здесь много.",
+      "reason": "Убраны прерывистый повтор и выделение, передающие волнение при признании."
+    },
+    {
+      "source_id": "qed34513c3c",
+      "candidate_id": "v64e1e437ff1a53",
+      "category": "time_direction",
+      "severity": "minor",
+      "source_quote": "One of the first things I did here",
+      "target_quote": "Первым делом",
+      "reason": "Одно из первых занятий превращено в самое первое."
+    },
+    {
+      "source_id": "qd34f35c181",
+      "candidate_id": "v2abc9f41d2a244",
+      "category": "term_sense",
+      "severity": "minor",
+      "source_quote": "based on the lightspeed lag, but it was all over the place",
+      "target_quote": "по задержке сигнала определить, где находился его субстрат, но тот был повсюду",
+      "reason": "Разброс задержки сигнала заменён утверждением о повсеместном нахождении субстрата."
+    },
+    {
+      "source_id": "q52c8bbe1ec",
+      "candidate_id": "v392788b2f753e9",
+      "category": "omission",
+      "severity": "minor",
+      "source_quote": "Flag a sentry.",
+      "target_quote": "Поднимаешь тревогу.",
+      "reason": "Утрачено конкретное действие: привлечь внимание часового."
+    },
+    {
+      "source_id": "q7c3d95f57d",
+      "candidate_id": "v4fcb04ab82b81a",
+      "category": "speech_form",
+      "severity": "minor",
+      "source_quote": "just, just grew back out of what was left",
+      "target_quote": "просто выросший из того, что осталось",
+      "reason": "Убран запинающийся повтор, передающий затруднение ребёнка при объяснении."
+    },
+    {
+      "source_id": "q4d3dc54baa",
+      "candidate_id": "v733a5581384dd1",
+      "category": "term_sense",
+      "severity": "major",
+      "source_quote": "His trademark violations",
+      "target_quote": "Его нарушения авторских прав",
+      "reason": "Нарушения прав на товарные знаки заменены нарушениями авторских прав."
+    },
+    {
+      "source_id": "q4d3dc54baa",
+      "candidate_id": "v733a5581384dd1",
+      "category": "actor",
+      "severity": "major",
+      "source_quote": "the Asimov estate -- itself an AI",
+      "target_quote": "наследников Азимова — ирония в том, что и они сами были ИИ",
+      "reason": "Единый ИИ, представляющий наследие Азимова, превращён в нескольких наследников-ИИ."
+    },
+    {
+      "source_id": "qe8c00254a0",
+      "candidate_id": "vcc015dfb548af1",
+      "category": "addition",
+      "severity": "major",
+      "source_quote": "Osprey Reef",
+      "target_quote": "Большой Барьерный риф Оспрей",
+      "reason": "Добавлено отсутствующее отождествление рифа Оспрей с Большим Барьерным рифом."
+    },
+    {
+      "source_id": "qcbe946abf7",
+      "candidate_id": "va1c47a09e4ad89",
+      "category": "time_direction",
+      "severity": "major",
+      "source_quote": "That number wasn't ringing anywhere, anymore.",
+      "target_quote": "Теперь этот номер больше никуда не звонил.",
+      "reason": "Звонки на недействующий номер заменены исходящими звонками с этого номера."
+    },
+    {
+      "source_id": "q1a124e210a",
+      "candidate_id": "vc4e8b6af0d8b56",
+      "category": "other",
+      "severity": "major",
+      "source_quote": "spared me the worse fate befalling Earth",
+      "target_quote": "уберегло меня от участи хуже той, что постигла Землю",
+      "reason": "В оригинале худшая участь постигает Землю; перевод вводит другую участь, ещё хуже земной."
+    }
+  ],
+  "unresolved": [
+    {
+      "source_id": "q49808d15b8",
+      "candidate_id": "vdd0947aac421f5",
+      "reason": "В «Я перешла на их сторону» неясен референт «их»: ближайшее упоминание — Социальная Гармония, но контекст также называет Евразию, куда героиня действительно перешла. Однозначно установить смену стороны по этой формулировке нельзя."
+    }
+  ]
+}

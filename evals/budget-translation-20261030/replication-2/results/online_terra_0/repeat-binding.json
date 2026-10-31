@@ -1,0 +1,8 @@
+{
+  "repeat": 2,
+  "phase": "online_terra_0",
+  "repeat_preregistration_sha256": "758ad13ec15184396b0806478bebc63408768e84e6cee7645a69cdc3ff01a02a",
+  "base_preregistration_sha256": "488ddeaf193d4862f45fc647580c376c97ef6f573f2e548bd115a1b12097187f",
+  "manifest_sha256": "cbf07e2cc305c56fee4a54f5ad3c6cb2a6c0abeb4a3f828362100a980088e0c9",
+  "output_sha256": "3a53ff1e372f3113d0e878fff93b7b322f04927908ed8846c45eea00365b7359"
+}

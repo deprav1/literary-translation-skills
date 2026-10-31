@@ -1,0 +1,8 @@
+{
+  "repeat": 2,
+  "phase": "sol_anchor",
+  "repeat_preregistration_sha256": "758ad13ec15184396b0806478bebc63408768e84e6cee7645a69cdc3ff01a02a",
+  "base_preregistration_sha256": "488ddeaf193d4862f45fc647580c376c97ef6f573f2e548bd115a1b12097187f",
+  "manifest_sha256": "42dd0c3d313caf3198c72431688779c148c7fc7b069939abdadbf115df755845",
+  "output_sha256": "9936ab67579ef0679d01dc68367862470f32a5c9b091b78d0fce5053c2ff2655"
+}
