@@ -33,6 +33,8 @@ def expected_phases(root, config):
 
 def private_verify(workspace):
     repeat.check_repeat(); config = repeat.RAW_READ(BASE/'protocol.json')
+    for name, digest in repeat.RAW_READ(BASE/'results/record.json')['files'].items():
+        assert sha((BASE/'results'/name).read_bytes()) == digest, 'First realization changed: '+name
     with repeat.RepeatRuntime(workspace):
         core.verify(workspace)
         expected = expected_phases(workspace, config)
@@ -59,6 +61,8 @@ def published_verify():
     repeat.check_repeat(); root = repeat.REPEAT/'results'; record = repeat.RAW_READ(root/'record.json')
     assert record['repeat_preregistration_sha256'] == sha((repeat.REPEAT/'preregistration.json').read_bytes())
     assert record['first_record_sha256'] == sha((BASE/'results/record.json').read_bytes())
+    for name, digest in repeat.RAW_READ(BASE/'results/record.json')['files'].items():
+        assert sha((BASE/'results'/name).read_bytes()) == digest, 'First realization changed: '+name
     for name, digest in record['files'].items():
         assert sha((root/name).read_bytes()) == digest, name
     config = repeat.RAW_READ(BASE/'protocol.json'); expected = expected_phases(root, config)
