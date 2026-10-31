@@ -32,6 +32,9 @@ def expected_phases(root, config):
 
 
 def private_verify(workspace):
+    if (repeat.REPEAT/'coverage-amendment.json').exists():
+        from repeat_budget_coverage_adapter import activate
+        activate()
     repeat.check_repeat(); config = repeat.RAW_READ(BASE/'protocol.json')
     for name, digest in repeat.RAW_READ(BASE/'results/record.json')['files'].items():
         assert sha((BASE/'results'/name).read_bytes()) == digest, 'First realization changed: '+name
@@ -58,6 +61,9 @@ def private_verify(workspace):
 
 
 def published_verify():
+    if (repeat.REPEAT/'coverage-amendment.json').exists():
+        from repeat_budget_coverage_adapter import activate
+        activate()
     repeat.check_repeat(); root = repeat.REPEAT/'results'; record = repeat.RAW_READ(root/'record.json')
     assert record['repeat_preregistration_sha256'] == sha((repeat.REPEAT/'preregistration.json').read_bytes())
     assert record['first_record_sha256'] == sha((BASE/'results/record.json').read_bytes())
