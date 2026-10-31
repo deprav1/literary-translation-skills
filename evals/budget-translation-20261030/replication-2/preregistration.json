@@ -1,0 +1,96 @@
+{
+  "date": "2026-10-31",
+  "repeat": 2,
+  "outputs_observed": false,
+  "plan_sha256": "771d8b9ec445b71906224669c8f89277bad5b496512615670a8a107d1b62fe12",
+  "base_preregistration_sha256": "488ddeaf193d4862f45fc647580c376c97ef6f573f2e548bd115a1b12097187f",
+  "first_run_record_sha256": "8999fd27d388e343f30ae1a14be6384e8ab19e068ebdc78bbc5ae69e2bf25ce7",
+  "code_sha256": {
+    "scripts/run_budget_trial.py": "1d9a8ee1b55f21eb0a10e83f73daa10a1dc570b397fab14691f6446dc49e4e35",
+    "scripts/analyze_budget_trial.py": "30ec6cad592fb17f2b695460d4f7d785b7171db04896525084bf4ba184f70867",
+    "scripts/verify_budget_trial.py": "a140dbb450567b7637549e40e5bb51e630cadaf00e22874a6ce43aed1888b8ca",
+    "scripts/translation_economics.py": "5ea92e38a0936e993e5a0604bc56bd810188ab772dea0780dd7a9fb97a21e46b",
+    "scripts/route_budget_trial.py": "bedfe891c6530f57228bc2ca9691bb9d47ec6f3e1ef0d4fff89e61af1d94cb83",
+    "scripts/final_budget_blind_audit.py": "5ed23cf964eea624ece3fbe557c176a725b48f91cceea4531d113237f3ae7433",
+    "scripts/budget_coverage_adapter.py": "206f197a03f74f05c6392a7517b46a621aa9fcdd37b3d6a251df9251cfc32127",
+    "scripts/budget_prose_coverage_recovery.py": "7b35567feaa46bd54d18b3b470f34c0f0065c36404c22c758615bcade5d8f28f",
+    "scripts/budget_audit_format_adapter.py": "a374e40ba9a063d46733471467e79e64f89526518477d0b0b71c15587c576c3f",
+    "scripts/budget_economic_gate.py": "8faa0317352def5f2f71d0eb008f5e3601af84717da77b2c939463e62ffb5738",
+    "scripts/budget_quality_veto.py": "e0b58710d28735c44de38555cf9f68493a3268fa87b79922dd8f2865d50e036e",
+    "scripts/repeat_budget_trial.py": "d56e18d5662caeebe4ac2810cc95fe57d09f54592ff26ee53f4db069a218f5c4",
+    "scripts/publish_budget_repeat.py": "d550c1e238ed093587a75252bac506f7ce0b658a0bff3f93e27b2f44fb721b6c"
+  },
+  "amendment_sha256": {
+    "audit-format-amendment.json": "a0da3f730815ec6ba07b867e4ec3f35d67bd516ba9b31086d54d346d477bea31",
+    "coverage-validation-amendment.json": "3d929d68e568c38667f01330e9286b63759cf96bd24ea40f55ab67978d40852d",
+    "final-mask-amendment.json": "da3fa3e65699d1c22b1541436f33bdb9badf2e6e1b91f637dca12610ec568979",
+    "prose-coverage-amendment.json": "3491998cacb4c671ae93b2a0a4d28c5581c344e1dd55da3c50e4486e86c68344",
+    "quality-veto-amendment.json": "7e49c4909b7222d6f57b75657050376ee6c582737a35831478e2fd2d37975531",
+    "routing-amendment.json": "27f6f9770d18b363030612306fa35380376d6e33615e8da26c2512d06263873f",
+    "routing-receipt-amendment.json": "2cac2695a310ed97a717ef5f8857047f479be367bed3e184c8ee61ea13683d49"
+  },
+  "models": {
+    "terra": "gpt-6.1-terra",
+    "luna": "gpt-6-luna",
+    "planner": "gpt-6.1-sol",
+    "anchor": "gpt-6.1-sol",
+    "auditor": "gpt-6.1-sol"
+  },
+  "reasoning_effort": "medium",
+  "source_sha256": "724a7fef029d95d7b53ed2de97833e6e984744e1b91c3d78eb3698e912f2d3aa",
+  "seeds": [
+    {
+      "base": "budget-translation-20261030-candidates",
+      "repeat": "replication2-candidates-20261031"
+    },
+    {
+      "base": 20261031,
+      "repeat": "replication2-prose-20261031"
+    },
+    {
+      "base": 20261032,
+      "repeat": "replication2-final-20261031"
+    },
+    {
+      "base": "source-order-0",
+      "repeat": "replication2-source-order-0"
+    },
+    {
+      "base": "source-order-1",
+      "repeat": "replication2-source-order-1"
+    },
+    {
+      "base": "source-order-2",
+      "repeat": "replication2-source-order-2"
+    },
+    {
+      "base": "source-order-3",
+      "repeat": "replication2-source-order-3"
+    },
+    {
+      "base": "source-order-4",
+      "repeat": "replication2-source-order-4"
+    },
+    {
+      "base": "source-order-5",
+      "repeat": "replication2-source-order-5"
+    },
+    {
+      "base": "source-order-6",
+      "repeat": "replication2-source-order-6"
+    },
+    {
+      "base": "source-order-7",
+      "repeat": "replication2-source-order-7"
+    },
+    {
+      "base": "source-order-8",
+      "repeat": "replication2-source-order-8"
+    }
+  ],
+  "max_calls": 36,
+  "prices": "Fixed30October quote for comparison, not a fresh invoice.",
+  "reuse_first_run_inputs": "English source/context and frozen instructions/examples only; never Russian outputs or findings.",
+  "same_source_not_new_holdout": true,
+  "automatic_deployment": false
+}
