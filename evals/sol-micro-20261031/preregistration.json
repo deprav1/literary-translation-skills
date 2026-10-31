@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-31",
+  "outputs_observed": false,
+  "source_sha256": "724a7fef029d95d7b53ed2de97833e6e984744e1b91c3d78eb3698e912f2d3aa",
+  "source_ids": [
+    "qeb5bfb523b",
+    "qdf715a19a6",
+    "qff3beb7bf1",
+    "qfea9fde21e",
+    "qfa3f76ea9a",
+    "q4d3dc54baa",
+    "qa8a286da66",
+    "qd34f35c181"
+  ],
+  "plan_sha256": "f39bbb13ce42e6870c5450ae40f9aca9d9ee92e870e94e6c0229884efc094a35",
+  "runner_sha256": "a18610d699053f4de48375dacd5abee94e8fd6abb94b637bbd0b4df6d802a6bf",
+  "shared_prefix_sha256": "b6b594ee8ad9304703799e6b49bf3d215f9e25f7eb408d5b6f7ce88cf5b9e6df",
+  "model": "gpt-6.1-sol",
+  "max_calls": 6,
+  "max_input_tokens": 200000,
+  "max_output_tokens": 12000,
+  "usd_stop_limit": 0.6,
+  "next_call_reserve": 0.14,
+  "helper_hashes": {
+    "run_budget_trial.py": "1d9a8ee1b55f21eb0a10e83f73daa10a1dc570b397fab14691f6446dc49e4e35",
+    "run_fresh_generations.py": "e543e27440f5cb22726542af568e93cd7bd02aaf2d1a6bf262e74fc2afdf6ce8"
+  }
+}
