@@ -14,6 +14,8 @@ Record the source edition, source and target languages, genre, audience, candida
 
 For lower-cost model substitution, use [quality and cost evaluation](references/quality-cost.md). Measure gains on the actual lower-cost translator and charge planning, operational audits and escalation; marginal improvements to an already strong draft answer a different question.
 
+Distinguish finding errors from correcting supplied errors. A successful edit with known quotations establishes conditional editing ability; evaluate fresh error discovery separately. Charge reused feedback honestly, disclose its previous exposure, and preserve an empty fresh audit alongside a later guided result.
+
 For a pilot or benchmark, read [comparison design](references/comparison-design.md) before generating candidates. Verify source/historical-translation boundaries, isolate generator contexts, and record reference exposure. Keep unblinded or differently generated groups visible in results instead of attributing their pooled votes to the skill.
 
 ## Apply gates before soft scores

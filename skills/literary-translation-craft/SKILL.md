@@ -10,9 +10,7 @@ license: MIT
 
 Identify the actual source, language pair, genre, audience, and requested result. Two paragraphs need a close reading, not a full-book pipeline. File provenance and hashes matter for editions; they are unnecessary for a short passage supplied directly in chat. Do not claim comparison with an original language when only an intermediary translation is available.
 
-For a long work, prepare a short [brief](references/brief.md): narrator and focalization, sentence rhythm, character voices, registers, forms of address, recurring imagery, names, titles, and deliberate repetition. A book profile is a revisable editorial choice, not proof of the author's intention or a mandatory convention for other books.
-
-For a book, use the [long-work plan](references/long-work.md): prepare an evidence-linked passport and glossary, try representative scenes, route passages by difficulty, and review both against the source and as connected target-language prose. The original remains the authority; a passport or glossary is a revisable editorial aid. Keep the work proportionate to the requested scope.
+For a book, use the [long-work plan](references/long-work.md) and a short, source-linked [brief](references/brief.md): voices, focalization, rhythm, registers, names and meaningful repetition. Pilot representative scenes, then review against the source and as connected prose. A passport or glossary is a revisable editorial aid; the original remains the authority. Supply relevant decisions for the current scene rather than repeating every reference or example.
 
 ## Translate the scene
 
@@ -20,7 +18,7 @@ Work with connected passages and enough surrounding context. Preserve meaning, a
 
 Keep voices distinct. A hesitant speaker should not become an eloquent explainer; administrative language should not become casual narration. Establish whether fragmentation, uncertainty, and repetition are intentional before smoothing them away.
 
-For a difficult passage, use a short reflection loop: (1) inspect the connected scene and relevant decisions, (2) draft the translation, (3) make a source-and-target critique that lists evidence rather than rewriting (self-review must be labelled as such), and (4) apply justified changes and reread the complete passage. A critic's confidence is not approval. An excerpt does not require a book passport or a separate review log.
+For a difficult passage, inspect the connected scene and relevant decisions, then draft. A critique identifies a source quote, the current target span and a specific defect; it does not silently rewrite the text. Adjudicate the finding, change only what is justified, and reread the complete passage. Label self-review. Keep sound wording; an extra generic checklist or another full generation is not evidence of improvement. A short excerpt needs no separate review log.
 
 Preserve meaningful ambiguity where the target language permits it naturally. Resolve accidental ambiguity through context. If target-language grammar forces a choice of gender, number, or evidential stance, choose the best-supported reading and record significant uncertainty. Do not invent certainty to make a sentence easier.
 
@@ -33,6 +31,8 @@ For poetry and drama, choose explicit priorities: sense, image, sound, meter, rh
 Read once against the source for fidelity and once as target-language prose for rhythm, syntax, collocation, and voice. A beautiful sentence may still be wrong; a literal sentence may still distort the source.
 
 Separate a demonstrated error, an uncertain reading, a valid alternative, and a stylistic preference. “I like this wording more” is not proof that the current wording fails. Any proposed change must explain its effect in the scene.
+
+For correction of a supported local error, request a replacement for the affected span and retain the rest of the draft. Widen the revision only when grammar or the demonstrated literary problem requires it. Skip an extra editor call when there is no actionable finding; keep unresolved readings open and retain earlier supported findings until actually resolved. Stylistic rewriting explicitly requested by the user remains a separate task.
 
 When a format uses protected inline tokens, retain their spelling and order. This is a transport constraint, not a universal ban on literary restructuring: an intentional change to paragraphs or emphasis needs an explicit correspondence map before changing the working representation. Never insert editorial process notes into the fiction.
 

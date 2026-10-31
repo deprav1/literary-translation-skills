@@ -33,6 +33,14 @@ Record:
 
 If a plain route also needs auditing or correction, charge those steps consistently. Preserve missing or unresolved units in the requested denominator and exclude them from accepted words. A cheap draft requiring frequent strong-model rescue may be more expensive overall.
 
+## Spend context and calls deliberately
+
+Reuse validated drafts and findings for resumption or a declared post-editing test. Bind them to their source/draft, decision and instruction versions; invalidate affected units when those inputs change. This does not replace fresh generations or fresh auditors when the experiment requires them. Historical feedback has a cost and exposure history even when no new call is made.
+
+For an accepted local correction, return a short replacement and assemble it against the checked draft; do not pay to regenerate unrelated paragraphs. Skip an editor call with no actionable findings, retaining unresolved issues. Measure error discovery and guided correction separately; one cannot stand in for the other.
+
+For providers with prompt caching, keep useful stable context in a separate prefix block and place the provider's supported cache boundary there when needed. An identical beginning inside a changing message may not be reused. Verify current API semantics; do not add padding or extra warm-up generations merely to obtain a hit. Charge ordinary input, cached reads and cache writes once, at their actual lifetimes. Report observed usage, including zero hits, instead of treating a requested cache flag as realized savings. Keep provider/harness overhead in cost comparisons when execution routes differ.
+
 ## Decide within the evidence
 
 Define practical quality/cost targets before results. A development signal permits another experiment or an explicitly optional experimental profile, not a claim of proven general literary quality. Confirm with fresh works, repeated generation where relevant, uncertainty estimates appropriate to clustered excerpts, and qualified bilingual review of hard/disputed cases. Do not alter thresholds or select successful passages after seeing outcomes. An inconclusive result is not proof of equivalence; an unsafe or uneconomic route should remain unpromoted.

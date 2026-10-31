@@ -10,7 +10,7 @@ For a book, use a versioned translation brief and a manageable chapter map. Reco
 
 Before scaling a long project, translate representative scenes that expose different voices and formal challenges. Read them both against the source and as target-language writing. Adjust the plan where needed; do not scale an obviously calqued approach merely because its JSON is valid.
 
-When more than one model is available and authorized, assign planning, difficult passages, and adjudication to a capable coordinator/editor. A less costly model may draft passages only after a representative sample shows acceptable performance. Route wordplay, verse, plot-critical ambiguity, or inadequate drafts to a more capable translator/editor when available. Record actual model roles and do not claim a model or independent reviewer that was not used. If only one model is available, label self-review and report unresolved difficulties.
+When more than one model is available and authorized, assign planning, difficult passages, and adjudication to a capable coordinator/editor. A less costly model may draft passages only after a representative sample shows acceptable performance and full route cost, including planning, audit and corrections, remains worthwhile. Route wordplay, verse, plot-critical ambiguity, or inadequate drafts to a more capable translator/editor when available. Record actual model roles and do not claim a model or independent reviewer that was not used. If only one model is available, label self-review and report unresolved difficulties.
 
 Record decisions about names, titles, terms by sense, forms of address, recurring formulas, and poetry. A project glossary is revisable. It must not turn a provisional choice into a claim of unique correctness.
 
@@ -45,6 +45,8 @@ Use `accept`, `edit`, `reject`, or `defer`:
 
 Record the complete source context and complete before/after target block. Exclude quotation marks that only format a suggestion in a report. A skipped patch remains unresolved until explicitly handled.
 
+For a local defect, give the editor the exact source quote, a unique current target span and its reason. Apply only an adjudicated replacement, leaving unrelated text intact. The QA skill includes an optional [standalone patch helper](../skills/literary-translation-qa/scripts/apply_review_patch.py) and [file format](../skills/literary-translation-qa/references/local-repair.md). It rejects stale inputs, ambiguous or overlapping edits and broken declared token sequences; it does not establish literary correctness. No actionable findings means no extra editor call, while earlier supported and deferred issues remain tracked.
+
 After applying a change, reread the actual result for new errors in grammar, attribution, punctuation, referents, and inline markup.
 
 Recheck substantive edits against the source. Assemble the actual accepted passages in reading order, then read across boundaries and inspect book-level continuity of voices, relationships, names, address, and recurring images. When a glossary decision changes, find and inspect occurrences of that meaning; retranslate only passages whose accepted text needs it.
@@ -78,3 +80,5 @@ Check reading order, navigation, all internal targets, notes, media, metadata, a
 | Reader tested | Named app, settings and observed behavior | Universal reader compatibility |
 
 Finish when the requested scope is closed. Further full passes need a concrete purpose. Report unresolved substantive issues and genuine limitations without presenting technical success as artistic perfection.
+
+See [test findings and adopted changes](TEST_FINDINGS.md) for what the project's experiments do and do not support.

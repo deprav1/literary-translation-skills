@@ -35,7 +35,9 @@ For a book, review continuity of names, inflection, forms of address, work title
 
 A reviewer creates candidates. An editor then records `accept`, `edit`, `reject`, or `defer` with a reason specific to that passage. A significant deferred issue remains open. Copying the same “confirmed after review” sentence into every record is not evidence of individual judgment.
 
-Before applying a correction, retain source context, the complete target block before and after, its address, and the expected input-artifact hash when working on an edition. Quotation marks used to present a suggestion in a report do not automatically belong in narration. Matching a substring, category, or token sequence proves applicability, not correctness.
+For a local correction, retain the exact source quote, a unique current target anchor, replacement and decision reason. Ask for that replacement rather than a fresh version of every paragraph. Keep unaffected wording literally unchanged. Skip the editor when no actionable findings remain; a clean report does not resolve earlier supported findings or deferred readings.
+
+For file batches, use [local repair](references/local-repair.md) and the optional standalone [patch helper](scripts/apply_review_patch.py): it checks the input hash, anchors, overlapping edits and declared protected tokens before producing a separate artifact. Keep source context and complete before/after blocks. Widen the anchor when needed for a grammatical correction; structural or voice revisions may require a larger explicitly reviewed passage. Quotation marks formatting a suggestion do not automatically belong in narration. Applicability checks do not establish correctness.
 
 Use the [decision template](references/review-decision.json) for a substantial project. A short excerpt can use the same distinctions in prose; a JSON log is not mandatory for a chat answer.
 
