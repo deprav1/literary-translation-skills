@@ -1,0 +1,13 @@
+{
+  "preregistration_sha256": "f281899e7f98d000cbc612c82fca914d8fe2fb61932e2555297feb66ebd177a8",
+  "files": {
+    "judge1/manifest.json": "7b4d84146c18393f073847d837bd958583cf26972151c4b1d22e131609134071",
+    "judge1/output.json": "43b98d5fe332b7b275ad78f1aef90b7cd964dff1ab216008aab64a6a388f4bcd",
+    "judge2/manifest.json": "3a1197c5fa8ca5139d98356ce0cbebb42362bf9c7174d06208aad91f967ce1ed",
+    "judge2/output.json": "08f892d81ebdfc769387938657ac492d63265e7c099c745050c359a1668664cc",
+    "patch/manifest.json": "9d9eb73ad5a3c29ad0802600974abc86d71300540cf0559e5338ff43c7a09fd9",
+    "patch/output.json": "5be5d85124fab64d7fdf7756f594c71711d2f6448d8e2bbbb65937feb9242acf",
+    "patched.json": "ccce29019a7fa376f53da6023bb47681c2c901c1917b4d219dc427a0e626edfd",
+    "summary.json": "63a5b81ab6fa0fb2cfe4953d842de08c89194b0572f283bc95b69b09e3f96bde"
+  }
+}

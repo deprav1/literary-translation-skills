@@ -1,0 +1,85 @@
+{
+  "scope": "conditional editing with known diagnostic hints",
+  "source_items": 8,
+  "source_words": 594,
+  "guided_model_calls": 3,
+  "combined_new_model_calls": 4,
+  "cached_findings": [
+    {
+      "finding_id": "f1",
+      "reason": "Не передано, что рёбра вколачивали именно ударами ног: способ избиения стал неопределённым.",
+      "severity": "minor",
+      "source_id": "qeb5bfb523b",
+      "source_quote": "kicked in his ribs",
+      "target_quote": "вколачивала ему рёбра внутрь"
+    },
+    {
+      "finding_id": "f2",
+      "reason": "«Основную» добавляет распределение мощностей: оригинал говорит о большой вычислительной массе у Юпитера, без утверждения, что там находится большая часть.",
+      "severity": "minor",
+      "source_id": "qd34f35c181",
+      "source_quote": "a big mass out at Jupiter",
+      "target_quote": "основную массу вычислительных мощностей"
+    }
+  ],
+  "decisions": [
+    {
+      "decision": "accept",
+      "finding_id": "f1",
+      "reason": "В оригинале прямо указаны удары ногами; перевод опускает эту конкретную деталь избиения.",
+      "replacement": "ударами ног вколачивала ему рёбра внутрь"
+    },
+    {
+      "decision": "accept",
+      "finding_id": "f2",
+      "reason": "«Основную» обозначает преобладающую долю мощностей, тогда как оригинал указывает лишь на их большой объём у Юпитера.",
+      "replacement": "большую массу вычислительных мощностей"
+    }
+  ],
+  "changed_ids": [
+    "qeb5bfb523b",
+    "qd34f35c181"
+  ],
+  "votes": {
+    "judge1": {
+      "wins": 2,
+      "losses": 0,
+      "ties": 6,
+      "unclear": 0,
+      "net": 2
+    },
+    "judge2": {
+      "wins": 2,
+      "losses": 0,
+      "ties": 6,
+      "unclear": 0,
+      "net": 2
+    }
+  },
+  "stable_wins": [
+    "qeb5bfb523b",
+    "qd34f35c181"
+  ],
+  "stable_losses": [],
+  "disagreements": [],
+  "new_severe_proposals": [],
+  "exploratory_signal": true,
+  "human_validation": false,
+  "default_changed": false,
+  "economics": {
+    "combined_input_tokens": 19357,
+    "combined_output_tokens": 1838,
+    "combined_cold_usd_equivalent": 0.057094,
+    "combined_observed_cache_usd_equivalent": 0.057094,
+    "guided_phase_costs": {
+      "judge1": 0.017738,
+      "judge2": 0.018198,
+      "patch": 0.009684
+    },
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "historical_draft_cost": 0.048136,
+    "historical_comparative_feedback_cost": 0.154534,
+    "actual_billing_known": false
+  }
+}

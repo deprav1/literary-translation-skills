@@ -1,0 +1,13 @@
+{
+  "model_calls": 4,
+  "distinct_response_id_hashes": true,
+  "all_private_requests_responses_usage_checked": true,
+  "no_history_or_tools_requested": true,
+  "explicit_cache_breakpoint_and_30m_ttl_requested": true,
+  "same_english_prefix_in_all_requests": true,
+  "cached_findings_only_in_guided_editor": true,
+  "no_editor_findings_in_judge_inputs": true,
+  "raw_cli_logs_published": false,
+  "backend_model_attested": false,
+  "human_validation": false
+}
