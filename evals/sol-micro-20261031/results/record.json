@@ -1,0 +1,20 @@
+{
+  "preregistration_sha256": "0db41c7f80f96efeb177402f0e652dfb248abd8aaee35bf819e89ade8588f06e",
+  "files": {
+    "edit/manifest.json": "37784b28255876ca8a0187110572c1b837639eb70ef6c48b6d4b480c09ced767",
+    "edit/output.json": "f6f43fd50fcb55b54d4766133c2ea26626e775811ffab06678064b58ef191c19",
+    "judge1/manifest.json": "39ec2bf393b34a44bb731bf1fff7a7cd1d00708f28b873d69f789b566e448823",
+    "judge1/output.json": "e6da1858e0347b337866f860e44a2addcf3e6803a16eb57e109b705e3cd1b81e",
+    "judge1-mapping.json": "3a4919d3a18c94ddba249680b13b603b9260a5b54f7e8d9b463be7cfb3c6eafe",
+    "judge2/manifest.json": "eac371b0609af43659b8f2b65a95ed63c5fd474db1ba361ddb39eb97e97ab91d",
+    "judge2/output.json": "6533dfa9061d31759dda51d929b0434d5d2d60886c65aa631b8ca99879d3d824",
+    "judge2-mapping.json": "caa86080c8ee10a19ff9a11ddcfd55b2915caa3e31760eb9907dc11130f4eb51",
+    "meaning/manifest.json": "ab09a9f52c06ba1a704b8026153a55bb1794ae80ad4f5d20f783fe893346f2c1",
+    "meaning/output.json": "e9e96a50416bde53c8da35a095f26a59ffad365582205ebf1ba2a4d314e6bcb1",
+    "plain/manifest.json": "214a4180408dc473386ad88613875f43dcd4910c4ac4df34dbf3ce580175b2e4",
+    "plain/output.json": "bddc4b94b6347d8fb786e05db5f49a06df416c85d802d565b5135c9a9ba9618c",
+    "summary.json": "cec6f817b2e144626afa33b17755dab35e4e08e1750313da5992ff38be769b5f",
+    "voice/manifest.json": "b19408933f9c484ea513f8bbecaa99d179ee301f6caaae65289e951d4999a55a",
+    "voice/output.json": "d17a90071f3c88b4e7a1b5ea713dddb926abf6d5d79f80daa69a30a0c7e635a1"
+  }
+}

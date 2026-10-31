@@ -149,6 +149,8 @@ A [Terra/Luna development pilot](evals/budget-translation-20261030/RESULTS.md) t
 
 A [second realization in fresh sessions](evals/budget-translation-20261030/replication-2/RESULTS.md) retains both runs side by side; it repeats the same 30 development sources with new audit ordering, without best-of selection or new default profiles.
 
+A [small Sol screening](evals/sol-micro-20261031/RESULTS.md) tests meaning checks, voice checks and conservative editing on eight excerpts. None passes the declared signal rule; editing yields one stable local improvement. Six completed calls cost $0.3551 in API equivalents; reported cache hits are zero.
+
 ## Targeted skill trial
 
 A [preregistered trial](evals/targeted-review-20261030/RESULTS.md) tested three targeted review candidates on 36 mechanism fixtures and 30 new excerpts with equal edit-call budgets and masked model review. None cleared the integration gate; existing skills remain unchanged. Run `python scripts/validate_targeted_trial.py` to replay the saved evidence and gates. This is internal model evidence, not human literary validation.

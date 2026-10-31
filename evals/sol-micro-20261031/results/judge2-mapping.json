@@ -1,0 +1,146 @@
+{
+  "p44e77fe04e": {
+    "arm": "meaning",
+    "source_id": "qeb5bfb523b",
+    "work_id": "blindsight",
+    "treatment_side": "B"
+  },
+  "pb258365e58": {
+    "arm": "meaning",
+    "source_id": "qdf715a19a6",
+    "work_id": "blindsight",
+    "treatment_side": "A"
+  },
+  "pfa562a61e9": {
+    "arm": "meaning",
+    "source_id": "qff3beb7bf1",
+    "work_id": "robot",
+    "treatment_side": "A"
+  },
+  "p9812f879dc": {
+    "arm": "meaning",
+    "source_id": "qfea9fde21e",
+    "work_id": "robot",
+    "treatment_side": "A"
+  },
+  "pde6aba2752": {
+    "arm": "meaning",
+    "source_id": "qfa3f76ea9a",
+    "work_id": "robot",
+    "treatment_side": "A"
+  },
+  "p14a5f928ab": {
+    "arm": "meaning",
+    "source_id": "q4d3dc54baa",
+    "work_id": "rowboat",
+    "treatment_side": "B"
+  },
+  "pe4c07dcb3d": {
+    "arm": "meaning",
+    "source_id": "qa8a286da66",
+    "work_id": "rowboat",
+    "treatment_side": "B"
+  },
+  "p484f41db4e": {
+    "arm": "meaning",
+    "source_id": "qd34f35c181",
+    "work_id": "rowboat",
+    "treatment_side": "B"
+  },
+  "p48ee98b6b9": {
+    "arm": "voice",
+    "source_id": "qeb5bfb523b",
+    "work_id": "blindsight",
+    "treatment_side": "A"
+  },
+  "pd4a74fa862": {
+    "arm": "voice",
+    "source_id": "qdf715a19a6",
+    "work_id": "blindsight",
+    "treatment_side": "B"
+  },
+  "p4770010e46": {
+    "arm": "voice",
+    "source_id": "qff3beb7bf1",
+    "work_id": "robot",
+    "treatment_side": "B"
+  },
+  "p6deab8e6d5": {
+    "arm": "voice",
+    "source_id": "qfea9fde21e",
+    "work_id": "robot",
+    "treatment_side": "B"
+  },
+  "p2bfac5b746": {
+    "arm": "voice",
+    "source_id": "qfa3f76ea9a",
+    "work_id": "robot",
+    "treatment_side": "A"
+  },
+  "pe08d00bd42": {
+    "arm": "voice",
+    "source_id": "q4d3dc54baa",
+    "work_id": "rowboat",
+    "treatment_side": "B"
+  },
+  "pf429636d68": {
+    "arm": "voice",
+    "source_id": "qa8a286da66",
+    "work_id": "rowboat",
+    "treatment_side": "B"
+  },
+  "p936122e153": {
+    "arm": "voice",
+    "source_id": "qd34f35c181",
+    "work_id": "rowboat",
+    "treatment_side": "B"
+  },
+  "p1921bfe5cb": {
+    "arm": "edit",
+    "source_id": "qeb5bfb523b",
+    "work_id": "blindsight",
+    "treatment_side": "B"
+  },
+  "p129539e3ba": {
+    "arm": "edit",
+    "source_id": "qdf715a19a6",
+    "work_id": "blindsight",
+    "treatment_side": "B"
+  },
+  "p516734a75b": {
+    "arm": "edit",
+    "source_id": "qff3beb7bf1",
+    "work_id": "robot",
+    "treatment_side": "B"
+  },
+  "pd2e854307e": {
+    "arm": "edit",
+    "source_id": "qfea9fde21e",
+    "work_id": "robot",
+    "treatment_side": "A"
+  },
+  "p6ceef25f8a": {
+    "arm": "edit",
+    "source_id": "qfa3f76ea9a",
+    "work_id": "robot",
+    "treatment_side": "A"
+  },
+  "p5de52fe528": {
+    "arm": "edit",
+    "source_id": "q4d3dc54baa",
+    "work_id": "rowboat",
+    "treatment_side": "B"
+  },
+  "pb28d0412fb": {
+    "arm": "edit",
+    "source_id": "qa8a286da66",
+    "work_id": "rowboat",
+    "treatment_side": "A"
+  },
+  "p95309fc41f": {
+    "arm": "edit",
+    "source_id": "qd34f35c181",
+    "work_id": "rowboat",
+    "treatment_side": "A"
+  }
+}

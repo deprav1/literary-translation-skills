@@ -8,6 +8,12 @@ import sol_micro_trial as trial
 
 
 class SmallSolTrialTests(unittest.TestCase):
+    def test_saved_trial_replays_without_new_model_calls(self):
+        if not (trial.BASE/'results/record.json').exists():
+            self.skipTest('Trial not completed yet')
+        with patch.object(trial, 'call', side_effect=AssertionError('No model calls during replay')):
+            trial.verify()
+
     def test_cache_writes_replace_input_charge(self):
         usage = {'input_tokens': 2000, 'cached_input_tokens': 1000,
                  'cache_write_input_tokens': 500, 'output_tokens': 100}

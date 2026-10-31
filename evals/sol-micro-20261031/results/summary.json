@@ -1,0 +1,136 @@
+{
+  "model": "gpt-6.1-sol",
+  "items": 8,
+  "source_words": 594,
+  "results": {
+    "meaning": {
+      "preferences": {
+        "judge1": {
+          "wins": 3,
+          "losses": 3,
+          "ties": 2,
+          "unclear": 0,
+          "net": 0
+        },
+        "judge2": {
+          "wins": 5,
+          "losses": 1,
+          "ties": 2,
+          "unclear": 0,
+          "net": 4
+        }
+      },
+      "stable_wins": [
+        "qff3beb7bf1",
+        "qfea9fde21e"
+      ],
+      "stable_losses": [
+        "qa8a286da66"
+      ],
+      "disagreements": [
+        "qeb5bfb523b",
+        "qdf715a19a6",
+        "qfa3f76ea9a",
+        "q4d3dc54baa",
+        "qd34f35c181"
+      ],
+      "proposed_new_severe": [],
+      "exploratory_signal": false
+    },
+    "voice": {
+      "preferences": {
+        "judge1": {
+          "wins": 2,
+          "losses": 2,
+          "ties": 4,
+          "unclear": 0,
+          "net": 0
+        },
+        "judge2": {
+          "wins": 6,
+          "losses": 1,
+          "ties": 1,
+          "unclear": 0,
+          "net": 5
+        }
+      },
+      "stable_wins": [
+        "qdf715a19a6",
+        "qff3beb7bf1"
+      ],
+      "stable_losses": [
+        "q4d3dc54baa"
+      ],
+      "disagreements": [
+        "qeb5bfb523b",
+        "qfea9fde21e",
+        "qfa3f76ea9a",
+        "qa8a286da66",
+        "qd34f35c181"
+      ],
+      "proposed_new_severe": [
+        {
+          "judge": "judge2",
+          "candidate_id": "c021",
+          "reason": "Условная угроза превращена в описание повторявшихся событий: фонд узнавал, и требование приходило. Оригинал не утверждает, что такие случаи происходили.",
+          "severity": "major",
+          "source_id": "q4d3dc54baa",
+          "source_quote": "If the estate found out that you were hosting an Olivaw instance, you'd be served with a takedown in an instant.",
+          "target_quote": "Если фонд узнавал, что вы разместили у себя экземпляр Оливо, требование удалить его приходило мгновенно."
+        }
+      ],
+      "exploratory_signal": false
+    },
+    "edit": {
+      "preferences": {
+        "judge1": {
+          "wins": 1,
+          "losses": 0,
+          "ties": 7,
+          "unclear": 0,
+          "net": 1
+        },
+        "judge2": {
+          "wins": 1,
+          "losses": 0,
+          "ties": 7,
+          "unclear": 0,
+          "net": 1
+        }
+      },
+      "stable_wins": [
+        "qeb5bfb523b"
+      ],
+      "stable_losses": [],
+      "disagreements": [],
+      "proposed_new_severe": [],
+      "exploratory_signal": false
+    }
+  },
+  "economics": {
+    "input_tokens": 123375,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 10835,
+    "cold_usd_equivalent": 0.35509999999999997,
+    "observed_cache_usd_equivalent": 0.35509999999999997,
+    "cache_write_ttl_attested": false,
+    "actual_billing_known": false,
+    "phases": {
+      "edit": 0.053158,
+      "judge1": 0.076706,
+      "judge2": 0.077828,
+      "meaning": 0.048838,
+      "plain": 0.048136,
+      "voice": 0.050434
+    },
+    "workflow_costs": {
+      "plain": 0.048136,
+      "meaning": 0.048838,
+      "voice": 0.050434,
+      "edit": 0.101294
+    }
+  },
+  "human_validation": false,
+  "default_changed": false
+}

@@ -1,0 +1,12 @@
+{
+  "completed_model_phases": 6,
+  "private_runtime_events_checked": true,
+  "exact_prompts_schemas_outputs_checked": true,
+  "common_prefix_only_english": true,
+  "first_passes_have_no_other_russian_output": true,
+  "editor_receives_only_plain_draft": true,
+  "fresh_session_hashes_unique": true,
+  "transport_adapter_sha256": "4285393fc019595b6b41ee96feee07c8d9d5a811c2e2572208c45180833c4eb7",
+  "failed_direct_attempt_disclosed": true,
+  "human_validation": false
+}
